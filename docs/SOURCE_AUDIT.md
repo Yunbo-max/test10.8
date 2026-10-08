@@ -97,3 +97,11 @@ This audit does not have the normalized raw-capture/index/expansion evidence nee
 Continue joint primary-paper, implementation, and native-evaluator inquiry to determine a residual acquisition/retention or interference problem under matched total resources. Extend the current closest-work set before constructing the initial mathematical candidate pool.
 
 Published phenomena are evidence to investigate; they have not been personally reproduced. Natural Gate 0, the frozen Parent Problem, collision/IPCG decisions, candidate verification and ranking, G01 complete design, Local acceptance, and confirmation remain open.
+
+## Direction-selection follow-up: 2026-10-08
+
+The owner selected new-domain acquisition with retention of capabilities lacking dedicated training exposure. SoFT's Section 4.2/Table 1 maps reasoning OOD benchmarks to its trained capability domains. Cross-benchmark generalization and omission of an entire capability family require distinct operational definitions; this observation is not a novelty verdict.
+
+A newly inspected primary comparator is [SFT Doesn't Always Hurt General Capabilities: Revisiting Domain-Specific Fine-Tuning in LLMs, ICLR 2026](https://proceedings.iclr.cc/paper_files/paper/2026/file/4e447acb68f57e29234bc0eb19896f11-Paper-Conference.pdf). Read scope: abstract, introduction, related work and parts of Section 3's setup. It directly studies data-oblivious adaptation, reports the importance of smaller learning rates, and proposes TALR. The complete method/proofs, author implementation and native evaluation pipeline remain unread or unqualified. Thus no-old-data adaptation is an existing setting, and small-learning-rate SFT is a necessary simple comparator.
+
+No new experiment, candidate implementation, mathematical pool or scientific qualification was produced by this discussion. The selected question and pending access constraint are retained in [RESEARCH_DIRECTION.zh-CN.md](RESEARCH_DIRECTION.zh-CN.md).

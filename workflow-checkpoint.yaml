@@ -18,7 +18,7 @@
     "role_source": "Current Research Autopilot Web/Local contract and current Work context",
     "web_github_delivery_branch": "main",
     "delivery_target_policy_ref": "docs/RESEARCH_INTAKE.md",
-    "delivery_parent_commit": "bf79bbeefdc5687ae7975c8f50b3079cfa651335",
+    "delivery_parent_commit": "bac1c54d7c4d509c8d150a78a27770dd25ca7b0b",
     "delivered_commit_ref": null,
     "main_readback_ref": null,
     "controller_host_ref": "Current ChatGPT Work session; queryable thread ID not exposed",
@@ -28,7 +28,7 @@
     "local_remote_path_map_ref": null,
     "remote_driver_locator": null,
     "remote_record_transfer_refs": [],
-    "work_phase": "research_direction_discussion",
+    "work_phase": "selected_acquisition_retention_problem",
     "web_background_preferred": true,
     "web_background_policy": "work_cloud_for_web_production",
     "web_background_task_key": "Yunbo-max/test10.8 / initial exploration",
@@ -61,7 +61,8 @@
       "README.md",
       "docs/RESEARCH_INTAKE.md",
       "docs/RESEARCH_START.zh-CN.md",
-      "docs/SOURCE_AUDIT.md"
+      "docs/SOURCE_AUDIT.md",
+      "docs/RESEARCH_DIRECTION.zh-CN.md"
     ],
     "local_acceptance_pending": [
       "Host inventory and environment",
@@ -70,13 +71,13 @@
     ],
     "project_id": "Yunbo-max/test10.8",
     "route_id": null,
-    "observed_at": "2026-10-08T16:30:45.945Z",
+    "observed_at": "2026-10-08T16:39:49.423Z",
     "canonical_ledger_ref": null,
-    "current_goal_ref": "docs/RESEARCH_INTAKE.md",
-    "user_message_effect": "Owner asked whether idea-to-code was complete and requested discussion first, 2026-10-08T17:27:19+01:00. Initial audit is complete only within its documented scope; no method is selected or implemented.",
+    "current_goal_ref": "docs/RESEARCH_DIRECTION.zh-CN.md",
+    "user_message_effect": "Owner explicitly selected new-domain learning with preservation of capabilities without training exposure, 2026-10-08T17:32:41+01:00. Old-data access has not yet been specified.",
     "policy_change": null,
     "current_node": null,
-    "requested_action": "Discuss the consequential multi-dataset SFT research question before settling candidates and implementation",
+    "requested_action": "Discuss and qualify the selected acquisition-retention problem before deriving methods",
     "required_deliverables": [
       "Sourced intake",
       "Joined source review",
@@ -85,27 +86,29 @@
     "produced_deliverable_refs": [
       "docs/RESEARCH_INTAKE.md",
       "docs/RESEARCH_START.zh-CN.md",
-      "docs/SOURCE_AUDIT.md"
+      "docs/SOURCE_AUDIT.md",
+      "docs/RESEARCH_DIRECTION.zh-CN.md"
     ],
     "remaining_coverage": [
-      "Closest-work full texts",
-      "Remaining author implementation files",
-      "Native data/scorer coverage",
-      "Natural residual phenomenon and formal problem"
+      "Data-oblivious adaptation closest-work full texts and implementations",
+      "Native new-domain and retained-capability task/scorer contracts",
+      "Natural residual failure and success cases after strong/simple comparators",
+      "Old-data access and minimum useful success criterion"
     ],
     "candidate_id": null,
-    "earliest_unclosed_prerequisite": "Qualify the residual scientific problem and closest-work/evaluation evidence before candidate investment",
+    "earliest_unclosed_prerequisite": "Specify the training information available and qualify an important residual acquisition-retention problem before candidate investment",
     "prerequisite_evidence_refs": [
       "docs/SOURCE_AUDIT.md"
     ],
     "boundary_check_ref": null,
     "readiness": "pending",
     "missing_requirements": [
+      "Owner choice on old-domain data access",
       "Minimum useful empirical success criterion",
       "Full applicable closest-work and native evaluation reads",
       "Confirmed host profile and calibrated cost"
     ],
-    "next_legal_action": "Discuss data-mixture, cross-dataset update interference and capability-retention research priorities with the owner; retain existing resource/delivery choices and extend evidence for the chosen question before candidate derivation.",
+    "next_legal_action": "Discuss whether the main setting excludes old-domain training/replay; continue read-only TALR/SoFT and native benchmark qualification without treating the access proposal as approved.",
     "execution_harness_plan_ref": null,
     "remaining_budget_ref": "docs/RESEARCH_INTAKE.md",
     "continuation_refs": []

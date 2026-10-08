@@ -7,6 +7,8 @@ Recorded: 2026-10-08T15:51:42.145Z. User timezone: Europe/London (2026-10-08 fol
 | Project | Multi-dataset LLM SFT | Inferred label for the owner's stated research goal |
 | Scientific purpose | Frontier research on LLM SFT, emphasizing multiple datasets | User-stated, 2026-10-08 |
 | Scope | Mixed training and evaluation across public datasets | User-selected intake answer, 2026-10-08 |
+| Selected research direction | New-domain acquisition while retaining capabilities without dedicated training exposure | User-selected, 2026-10-08T17:32:41+01:00 |
+| Old-data access | Unresolved; proposed main setting excludes old-task training/replay | Assistant proposal, not a confirmed owner constraint; see RESEARCH_DIRECTION.zh-CN.md |
 | Minimum useful success | A justified residual problem, discriminating hypotheses, and an executable research design | Provisional suggestion; not an agreed empirical success threshold |
 | GitHub delivery | Yunbo-max/test10.8, main | User-selected repository; main follows the standing Web delivery policy |
 | Repository visibility | Public | Observed GitHub repository metadata; unchanged |
