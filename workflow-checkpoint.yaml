@@ -27,8 +27,8 @@
     "web_github_delivery_branch": "main",
     "delivery_target_policy_ref": "docs/RESEARCH_INTAKE.md",
     "delivery_parent_commit": "963f07b4df62416840fe186d9109feb2d9b41aec",
-    "delivered_commit_ref": null,
-    "main_readback_ref": null,
+    "delivered_commit_ref": "85b85f3b215c9a4a89bef66cfca072b12ee95d8b",
+    "main_readback_ref": "85b85f3b215c9a4a89bef66cfca072b12ee95d8b",
     "controller_host_ref": "Current ChatGPT Work session; queryable thread ID not exposed",
     "execution_host_ref": null,
     "execution_transport": null,
@@ -63,7 +63,7 @@
       "docs/TWO_ROUTE_SOURCE_CODE_AUDIT.md"
     ],
     "durable_progress_index_ref": "README.md",
-    "last_verified_milestone_ref": "docs/UNLEARNING_CONNECTION.zh-CN.md",
+    "last_verified_milestone_ref": "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
     "nominal_soft_report_seconds": 28800,
     "local_cycle_max_elapsed_seconds": 86400,
     "time_policy_source": "Owner selected 24-hour maximum Local cycle with approximately 8-hour reports on 2026-10-08",
@@ -214,6 +214,40 @@
         "originality_status": "not_adjudicated"
       }
     ],
-    "delivery_verification_state": "Pending CAS publication and exact main/file readback in this session"
+    "delivery_verification_state": "Artifact commit published with CAS and all five changed files read back exactly; this checkpoint receipt is a subsequent metadata-only commit.",
+    "last_verified_milestone_commit": "85b85f3b215c9a4a89bef66cfca072b12ee95d8b",
+    "delivery_receipt": {
+      "artifact_commit": "85b85f3b215c9a4a89bef66cfca072b12ee95d8b",
+      "observed_main_at_verification": "85b85f3b215c9a4a89bef66cfca072b12ee95d8b",
+      "verified_at": "2026-10-08T20:37:19.847Z",
+      "exact_content_readback": [
+        {
+          "path": "README.md",
+          "blob_sha": "01b8a4eca7c54a9d7c9c58bc07698f146ea3f8e0",
+          "exact_match": true
+        },
+        {
+          "path": "docs/SOURCE_AUDIT.md",
+          "blob_sha": "cb8cde48b9e23ba11f107f6585186f66a9da6e4f",
+          "exact_match": true
+        },
+        {
+          "path": "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+          "blob_sha": "cae4e669b903c1a26dddb463763521734d9d4c4b",
+          "exact_match": true
+        },
+        {
+          "path": "docs/TWO_ROUTE_SOURCE_CODE_AUDIT.md",
+          "blob_sha": "18b3b4f9f76fad1ef9ebc7eaabf025ee061f3e1b",
+          "exact_match": true
+        },
+        {
+          "path": "workflow-checkpoint.yaml",
+          "blob_sha": "db023a29cffcd5d032ff9cf570c0273b28f71a74",
+          "exact_match": true
+        }
+      ],
+      "scientific_execution": false
+    }
   }
 }
