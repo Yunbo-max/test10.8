@@ -264,13 +264,28 @@
         "I20",
         "I21"
       ],
-      "discussion_selection_status": "provisional_not_novelty_adjudication",
+      "discussion_selection_status": "independent_conceptual_priority_not_novelty_admission",
       "artifact_ref": "docs/ideas/batch-001/index.zh-CN.md",
       "final_semantic_rereview": "pending",
       "novelty_saturation": "pending",
       "scientific_execution": "not_run",
       "new_method_approved": false,
-      "background_execution": "unavailable_not_started"
+      "background_execution": "unavailable_not_started",
+      "independent_discussion_order": [
+        "I01",
+        "I04",
+        "I21",
+        "I16",
+        "I14",
+        "I13",
+        "I20",
+        "I19",
+        "I05"
+      ],
+      "independent_discussion_count": 9,
+      "artifact_commit": "fa1992578050a2679273b2e10dbc3d0d29d85c12",
+      "artifact_readback_exact_files": 11,
+      "priority_review_sha256": "881fe043fc0a1e63a034b2c9b038d5fd733645ac55af545eb46381bc693d255a"
     }
   }
 }

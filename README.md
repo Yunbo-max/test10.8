@@ -36,3 +36,8 @@ Eight directly relevant works are indexed with actual read scope. Five author al
 The repository contains research notes and a checkpoint. The conditional derivations are conceptual analyses, not an empirically qualified new method pool or an originality verdict. No training, inference, scientific tests, numerical checks, or evaluations have been executed for this project. Published results belong to their original authors.
 
 The next step is to establish a consequential residual problem against strong and simple methods, qualify native data/scoring and training-information access, and calibrate single-card costs. Only then should the project invest in empirical method candidates and complete mathematical review/ranking before new-method implementation. Full comparisons may span multiple Local cycles; a reporting interval does not make a partial comparison complete.
+
+
+## 首轮数学 idea（2026-10-08）
+
+[21张推导卡与10个讨论问题](docs/ideas/batch-001/index.zh-CN.md)，[独立讨论优先级](docs/ideas/batch-001/priority-review.md)。独立审查保留9个问题与其余基线/分支；未批准原创性，未实现或训练新方法。
