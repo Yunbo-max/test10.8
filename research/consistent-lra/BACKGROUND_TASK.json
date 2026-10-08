@@ -10,10 +10,10 @@
   "current_Work_identity_source": "developer-provided Work Mode context",
   "actual_service_receipt_observed": true,
   "initial_prompt_readback_matched": true,
-  "enabled_at_latest_observation": false,
+  "enabled_at_latest_observation": true,
   "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/London:20261009T014745\nRRULE:FREQ=HOURLY;COUNT=8\nEND:VEVENT",
   "default_timezone": "Europe/London",
-  "last_observed_updated_at": "2026-10-08T23:49:23.506197+00:00",
+  "last_observed_updated_at": "2026-10-08T23:51:09.375565+00:00",
   "first_scheduled_run_local": "2026-10-09T01:47:45+01:00",
   "wall_window_anchor_utc": "2026-10-08T23:47:45+00:00",
   "wall_window_deadline_utc": "2026-10-09T07:47:45+00:00",
@@ -48,8 +48,6 @@
   "scientific_results_verified": 0,
   "initial_immediate_run_request": "not_yet_requested_at_this_checkpoint",
   "pending_before_dispatch": [
-    "publish_and_read_back_final_control_files",
-    "enable_same_task_and_read_back",
     "request_immediate_run_once"
   ],
   "authority": {
@@ -59,5 +57,7 @@
     "gpu": false,
     "paid_model_API_or_cloud": false
   },
-  "note": "Configuration/receipts establish scheduling only. Observe actual runs/processes separately; monotonic future counters and reservations must be derived from retained actual evidence."
+  "note": "Configuration/receipts establish scheduling only. Observe actual runs/processes separately; monotonic future counters and reservations must be derived from retained actual evidence.",
+  "activation_configuration_readback_matched": true,
+  "control_commit_verified": "b995a9e188e805245cb82d0b3d41cfb2af18c10f"
 }
