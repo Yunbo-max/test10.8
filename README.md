@@ -14,6 +14,7 @@ Researching continual LLM updates on text and supervision arriving over time, wi
 
 ## Read first
 
+- [Unlearning, SFT, retention and recovery: connected-work review (中文)](docs/UNLEARNING_CONNECTION.zh-CN.md)
 - [Direction and first mathematical inquiry records (中文)](docs/DIRECTION_AND_MATH_START.zh-CN.md)
 - [Uploaded paper review: Finetuning with Sampling and implications (中文)](docs/SAMPLING_SFT_REVIEW.zh-CN.md)
 - [Latest clarification: temporal text, forgetting, and research directions (中文)](docs/STREAMING_RESEARCH.zh-CN.md)

@@ -23,7 +23,7 @@
     "role_source": "Current Research Autopilot Web/Local contract and current Work context",
     "web_github_delivery_branch": "main",
     "delivery_target_policy_ref": "docs/RESEARCH_INTAKE.md",
-    "delivery_parent_commit": "d620d00e2eff831e96a1c265fd89f448e61edd9d",
+    "delivery_parent_commit": "12ae4b09c03e9a85b75d12e48493d2444d5ac662",
     "delivered_commit_ref": null,
     "main_readback_ref": null,
     "controller_host_ref": "Current ChatGPT Work session; queryable thread ID not exposed",
@@ -58,7 +58,7 @@
       "docs/DIRECTION_AND_MATH_START.zh-CN.md"
     ],
     "durable_progress_index_ref": "README.md",
-    "last_verified_milestone_ref": "docs/DIRECTION_AND_MATH_START.zh-CN.md",
+    "last_verified_milestone_ref": "docs/UNLEARNING_CONNECTION.zh-CN.md",
     "nominal_soft_report_seconds": 28800,
     "local_cycle_max_elapsed_seconds": 86400,
     "time_policy_source": "Owner selected 24-hour maximum Local cycle with approximately 8-hour reports on 2026-10-08",
@@ -72,7 +72,8 @@
       "docs/RESEARCH_DIRECTION.zh-CN.md",
       "docs/STREAMING_RESEARCH.zh-CN.md",
       "docs/SAMPLING_SFT_REVIEW.zh-CN.md",
-      "docs/DIRECTION_AND_MATH_START.zh-CN.md"
+      "docs/DIRECTION_AND_MATH_START.zh-CN.md",
+      "docs/UNLEARNING_CONNECTION.zh-CN.md"
     ],
     "local_acceptance_pending": [
       "Host inventory and environment",
@@ -81,13 +82,13 @@
     ],
     "project_id": "Yunbo-max/test10.8",
     "route_id": null,
-    "observed_at": "2026-10-08T19:33:11.297Z",
+    "observed_at": "2026-10-08T19:55:05.093Z",
     "canonical_ledger_ref": null,
     "current_goal_ref": "docs/DIRECTION_AND_MATH_START.zh-CN.md",
-    "user_message_effect": "Owner requested concrete examples, an interesting defined direction, and the start of idea generation. This authorizes conceptual direction setting and mathematical inquiry. Selective updating and capability retention during continual multi-source SFT is the chosen working focus; no empirical method batch or new implementation is qualified.",
+    "user_message_effect": "Owner requested considering LLM unlearning fine-tuning/SFT as connected work. This expands source and collision review while retaining the selected continual multi-source SFT, temporal updating and capability-retention goal.",
     "policy_change": null,
     "current_node": null,
-    "requested_action": "Give examples, define the working direction, and begin actual mathematical idea exploration",
+    "requested_action": "Review the relationship to LLM unlearning fine-tuning, preserve temporal-history distinctions, and join primary sources with actual loss code and native evaluation scope",
     "required_deliverables": [
       "Concrete examples and direction brief",
       "Conditional mathematical inquiry records with source collisions, assumptions, predictions and falsifiers",
@@ -100,7 +101,8 @@
       "docs/RESEARCH_DIRECTION.zh-CN.md",
       "docs/STREAMING_RESEARCH.zh-CN.md",
       "docs/SAMPLING_SFT_REVIEW.zh-CN.md",
-      "docs/DIRECTION_AND_MATH_START.zh-CN.md"
+      "docs/DIRECTION_AND_MATH_START.zh-CN.md",
+      "docs/UNLEARNING_CONNECTION.zh-CN.md"
     ],
     "remaining_coverage": [
       "Strong/simple comparator residual failures under chronological updates and valid historical retention",
@@ -109,7 +111,8 @@
       "Prior incremental-data availability, replay access and minimum useful success criterion",
       "Host capacity, measured throughput and cumulative budget",
       "Projection-sampling default greedy likelihood rule versus ideal MH, native data/scorer qualification, external DFT/verl revision and single-2080-Ti feasibility",
-      "Full iSDFT, temporal-editing implementation and native data/scorer qualification; iSDFT fixed-anchor proposal is existing work"
+      "Full iSDFT, temporal-editing implementation and native data/scorer qualification; iSDFT fixed-anchor proposal is existing work",
+      "Qualify unlearning comparator objectives, FIT and recovery code/native protocols; distinguish temporal update from entity deletion and acknowledge existing unrelated-data relearning tests"
     ],
     "candidate_id": null,
     "earliest_unclosed_prerequisite": "Qualify a consequential residual problem and available training information before empirical candidate investment; read-only conceptual mathematics may continue",
@@ -117,7 +120,8 @@
       "docs/SOURCE_AUDIT.md",
       "docs/STREAMING_RESEARCH.zh-CN.md",
       "docs/SAMPLING_SFT_REVIEW.zh-CN.md",
-      "docs/DIRECTION_AND_MATH_START.zh-CN.md"
+      "docs/DIRECTION_AND_MATH_START.zh-CN.md",
+      "docs/UNLEARNING_CONNECTION.zh-CN.md"
     ],
     "boundary_check_ref": null,
     "readiness": "pending",
@@ -128,7 +132,7 @@
       "Confirmed host profile and calibrated cost",
       "Sound mathematical candidate pool and complete review/ranking before new method implementation"
     ],
-    "next_legal_action": "Continue conceptual mathematical inquiry and primary-source reading around protection selectivity, coverage and novel-information preservation; qualify the residual problem, replay access, native evaluation and host costs before recommending empirical method investment. Then complete the justified pool, review and ranking before method code.",
+    "next_legal_action": "Continue primary-source and conceptual mathematical inquiry for selective temporal updating and protection coverage, including unlearning/retain and recovery comparators. Qualify residual importance, data/replay access, complete native scoring and 2080-Ti costs before empirical method investment; complete justified candidate review/ranking before new-method code.",
     "execution_harness_plan_ref": null,
     "remaining_budget_ref": "docs/RESEARCH_INTAKE.md",
     "continuation_refs": [
@@ -136,7 +140,8 @@
       "docs/RESEARCH_DIRECTION.zh-CN.md",
       "docs/SOURCE_AUDIT.md",
       "docs/SAMPLING_SFT_REVIEW.zh-CN.md",
-      "docs/DIRECTION_AND_MATH_START.zh-CN.md"
+      "docs/DIRECTION_AND_MATH_START.zh-CN.md",
+      "docs/UNLEARNING_CONNECTION.zh-CN.md"
     ]
   }
 }
