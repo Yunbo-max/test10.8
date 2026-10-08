@@ -1,0 +1,48 @@
+# Planning checkpoint; not a launch receipt, registered task state or scientific approval.
+project: consistent-lra-cpu
+round: bootstrap-20261009
+goal: seek independently verified improvements to consistent low-rank approximation
+role: work_supervisor_with_explicit_gpt_cpu_execution_scope
+source_route: existing_published_method_audit_then_qualified_discovery
+repo: Yunbo-max/test10.8
+branch: consistent-lra-rsi
+project_path: research/consistent-lra
+destination_basis: conservative_default_after_optional_questions_returned_no_answers
+hugging_face: unresolved_no_uploads
+skill_repo: Yunbo-max/Research_Autopilot
+skill_branch: autonomous-rsi
+skill_commit: 1de12dfed5b84957b29ac5b3a2f04904bf3742bc
+author_repo: samsonzhou/consistent-LRA
+author_commit: d607c4f6467216c470d1e3b93989d44d5fcdec97
+resource_observation_utc: '2026-10-08T23:40:11Z'
+cpu_quota_cores: 8
+memory_limit_bytes: 8589934592
+gpu_allowed: false
+paid_api_or_cloud_allowed: false
+requested_wall_window_seconds: 28800
+budget_clock_anchor: pending_actual_background_receipt
+background_task: pending_actual_creation_and_readback
+current_step: '2: source/native-protocol investigation and baseline repair admission'
+completed:
+  - actual_rsi_branch_and_author_source_pinning
+  - read_only_cpu_memory_and_dependency_inventory
+  - independent_source_audit_of_four_author_scripts
+  - independent_work_host_capability_audit
+pending:
+  - complete_primary_paper_baseline_and_native_data_protocol_join
+  - baseline_evaluator_repair_contract_and_native_qualification
+  - parent_gate0_ipcg_and_current_collision_audit
+  - approximately_20_consequential_math_cards_and_independent_review
+  - whole_pool_ranking_and_qualified_selection
+  - candidate_implementation_and_full_G01_design
+  - finite_native_cpu_execution_and_E04
+  - fresh_confirmation_and_claim_eligible_writing
+scientific_experiments_started: 0
+scientific_results_verified: 0
+eligible_new_papers: 0
+negative_or_invalid_history: BASELINE_AUDIT.md
+next_action: restore pinned applicable modules and complete native protocol/evaluator admission
+notes:
+  - source review is not scientific replication
+  - schedule is not uninterrupted CPU execution
+  - do not change main or the unrelated continual_learning_project
