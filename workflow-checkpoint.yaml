@@ -18,7 +18,7 @@
     "role_source": "Current Research Autopilot Web/Local contract and current Work context",
     "web_github_delivery_branch": "main",
     "delivery_target_policy_ref": "docs/RESEARCH_INTAKE.md",
-    "delivery_parent_commit": "bac1c54d7c4d509c8d150a78a27770dd25ca7b0b",
+    "delivery_parent_commit": "0a787a73293c9470b52db932891f9bee4c531a57",
     "delivered_commit_ref": null,
     "main_readback_ref": null,
     "controller_host_ref": "Current ChatGPT Work session; queryable thread ID not exposed",
@@ -28,7 +28,7 @@
     "local_remote_path_map_ref": null,
     "remote_driver_locator": null,
     "remote_record_transfer_refs": [],
-    "work_phase": "selected_acquisition_retention_problem",
+    "work_phase": "temporal_text_update_discussion",
     "web_background_preferred": true,
     "web_background_policy": "work_cloud_for_web_production",
     "web_background_task_key": "Yunbo-max/test10.8 / initial exploration",
@@ -48,10 +48,11 @@
     "web_background_host_override_ref": null,
     "web_completion_criteria_refs": [
       "docs/RESEARCH_START.zh-CN.md",
-      "docs/SOURCE_AUDIT.md"
+      "docs/SOURCE_AUDIT.md",
+      "docs/STREAMING_RESEARCH.zh-CN.md"
     ],
     "durable_progress_index_ref": "README.md",
-    "last_verified_milestone_ref": "docs/SOURCE_AUDIT.md",
+    "last_verified_milestone_ref": "docs/STREAMING_RESEARCH.zh-CN.md",
     "nominal_soft_report_seconds": 28800,
     "local_cycle_max_elapsed_seconds": 86400,
     "time_policy_source": "Owner selected 24-hour maximum Local cycle with approximately 8-hour reports on 2026-10-08",
@@ -62,7 +63,8 @@
       "docs/RESEARCH_INTAKE.md",
       "docs/RESEARCH_START.zh-CN.md",
       "docs/SOURCE_AUDIT.md",
-      "docs/RESEARCH_DIRECTION.zh-CN.md"
+      "docs/RESEARCH_DIRECTION.zh-CN.md",
+      "docs/STREAMING_RESEARCH.zh-CN.md"
     ],
     "local_acceptance_pending": [
       "Host inventory and environment",
@@ -71,13 +73,13 @@
     ],
     "project_id": "Yunbo-max/test10.8",
     "route_id": null,
-    "observed_at": "2026-10-08T16:39:49.423Z",
+    "observed_at": "2026-10-08T17:43:03.804Z",
     "canonical_ledger_ref": null,
-    "current_goal_ref": "docs/RESEARCH_DIRECTION.zh-CN.md",
-    "user_message_effect": "Owner explicitly selected new-domain learning with preservation of capabilities without training exposure, 2026-10-08T17:32:41+01:00. Old-data access has not yet been specified.",
+    "current_goal_ref": "docs/STREAMING_RESEARCH.zh-CN.md",
+    "user_message_effect": "Owner clarified that new data arrives over time and explicitly selected chronological text, not numeric time series. Continual SFT and temporal-text CPT are in scope. No exclusion of prior incremental replay was confirmed.",
     "policy_change": null,
     "current_node": null,
-    "requested_action": "Discuss and qualify the selected acquisition-retention problem before deriving methods",
+    "requested_action": "Discuss forgetting under arriving text and compare research directions before choosing or coding methods",
     "required_deliverables": [
       "Sourced intake",
       "Joined source review",
@@ -87,30 +89,38 @@
       "docs/RESEARCH_INTAKE.md",
       "docs/RESEARCH_START.zh-CN.md",
       "docs/SOURCE_AUDIT.md",
-      "docs/RESEARCH_DIRECTION.zh-CN.md"
+      "docs/RESEARCH_DIRECTION.zh-CN.md",
+      "docs/STREAMING_RESEARCH.zh-CN.md"
     ],
     "remaining_coverage": [
-      "Data-oblivious adaptation closest-work full texts and implementations",
-      "Native new-domain and retained-capability task/scorer contracts",
-      "Natural residual failure and success cases after strong/simple comparators",
-      "Old-data access and minimum useful success criterion"
+      "Strong/simple comparator residual failures under chronological updates and valid historical retention",
+      "Complete closest-work implementation reads for SDFT, temporal CPT, CKL and applicable replay/gradient methods",
+      "Immutable native data revisions and complete new-knowledge, historical-knowledge and general-capability scorer contracts",
+      "Prior incremental-data availability, replay access and minimum useful success criterion",
+      "Host capacity, measured throughput and cumulative budget"
     ],
     "candidate_id": null,
-    "earliest_unclosed_prerequisite": "Specify the training information available and qualify an important residual acquisition-retention problem before candidate investment",
+    "earliest_unclosed_prerequisite": "Qualify a consequential residual problem and available training information for time-arriving text before candidate investment",
     "prerequisite_evidence_refs": [
-      "docs/SOURCE_AUDIT.md"
+      "docs/SOURCE_AUDIT.md",
+      "docs/STREAMING_RESEARCH.zh-CN.md"
     ],
     "boundary_check_ref": null,
     "readiness": "pending",
     "missing_requirements": [
-      "Owner choice on old-domain data access",
-      "Minimum useful empirical success criterion",
-      "Full applicable closest-work and native evaluation reads",
-      "Confirmed host profile and calibrated cost"
+      "Chosen formal residual problem and minimum useful success criterion",
+      "Original-corpus versus incremental-history data access and replay policy",
+      "Full applicable closest-work and native evaluation qualification",
+      "Confirmed host profile and calibrated cost",
+      "Sound mathematical candidate pool and complete review/ranking before new method implementation"
     ],
-    "next_legal_action": "Discuss whether the main setting excludes old-domain training/replay; continue read-only TALR/SoFT and native benchmark qualification without treating the access proposal as approved.",
+    "next_legal_action": "Continue discussion and read-only residual-problem qualification for temporal selective retention and natural reappearance. Reuse pinned reads; keep no-replay access, method choice, and scientific execution pending.",
     "execution_harness_plan_ref": null,
     "remaining_budget_ref": "docs/RESEARCH_INTAKE.md",
-    "continuation_refs": []
+    "continuation_refs": [
+      "docs/STREAMING_RESEARCH.zh-CN.md",
+      "docs/RESEARCH_DIRECTION.zh-CN.md",
+      "docs/SOURCE_AUDIT.md"
+    ]
   }
 }

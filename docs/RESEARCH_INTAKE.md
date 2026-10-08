@@ -4,11 +4,11 @@ Recorded: 2026-10-08T15:51:42.145Z. User timezone: Europe/London (2026-10-08 fol
 
 | Field | Value | Status and source |
 | --- | --- | --- |
-| Project | Multi-dataset LLM SFT | Inferred label for the owner's stated research goal |
-| Scientific purpose | Frontier research on LLM SFT, emphasizing multiple datasets | User-stated, 2026-10-08 |
-| Scope | Mixed training and evaluation across public datasets | User-selected intake answer, 2026-10-08 |
+| Project | Continual LLM updates on chronological text and supervision | Label updated after the owner's temporal-text clarification, 2026-10-08 |
+| Scientific purpose | Frontier research on continual acquisition and retention through SFT and time-incremental CPT | User clarified that new data arrives over time, 2026-10-08 |
+| Scope | Time-ordered text updates, with multiple training sources and cross-dataset evaluation | Earlier multi-dataset scope retained; owner explicitly selected time-arriving text, 2026-10-08 |
 | Selected research direction | New-domain acquisition while retaining capabilities without dedicated training exposure | User-selected, 2026-10-08T17:32:41+01:00 |
-| Old-data access | Unresolved; proposed main setting excludes old-task training/replay | Assistant proposal, not a confirmed owner constraint; see RESEARCH_DIRECTION.zh-CN.md |
+| Old-data access | Unresolved; no replay exclusion confirmed | Distinguish unavailable original pretraining corpus from potentially available earlier incremental data; see STREAMING_RESEARCH.zh-CN.md |
 | Minimum useful success | A justified residual problem, discriminating hypotheses, and an executable research design | Provisional suggestion; not an agreed empirical success threshold |
 | GitHub delivery | Yunbo-max/test10.8, main | User-selected repository; main follows the standing Web delivery policy |
 | Repository visibility | Public | Observed GitHub repository metadata; unchanged |
@@ -23,7 +23,7 @@ Recorded: 2026-10-08T15:51:42.145Z. User timezone: Europe/London (2026-10-08 fol
 | Runtime preference | Native Conda, no containers | Current Research Autopilot operating contract |
 | Research entry | Early exploration (I) | Owner supplied a topic and an empty output repository, without a project method or results |
 | Operating role | Web supervisor; Local scientific execution | Current Research Autopilot Web/Local contract and current Work context |
-| Current output | Initial joined paper/code/evaluator audit and checkpoint | Requested research startup scope |
+| Current output | Scoped source audit, temporal-text direction discussion, and continuation checkpoint | Research navigation; no qualified new method or scientific execution |
 
 ## Current scientific boundaries
 
