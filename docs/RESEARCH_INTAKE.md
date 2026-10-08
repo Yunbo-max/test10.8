@@ -1,6 +1,6 @@
 # Sourced project intake
 
-Recorded: 2026-10-08T15:51:42.145Z. User timezone: Etc/UTC (current host context).
+Recorded: 2026-10-08T15:51:42.145Z. User timezone: Europe/London (2026-10-08 follow-up context). Execution environment timezone: Etc/UTC.
 
 | Field | Value | Status and source |
 | --- | --- | --- |
