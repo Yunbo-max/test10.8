@@ -59,5 +59,8 @@
   },
   "note": "Configuration/receipts establish scheduling only. Observe actual runs/processes separately; monotonic future counters and reservations must be derived from retained actual evidence.",
   "activation_configuration_readback_matched": true,
-  "control_commit_verified": "b995a9e188e805245cb82d0b3d41cfb2af18c10f"
+  "control_commit_verified": "b995a9e188e805245cb82d0b3d41cfb2af18c10f",
+  "immediate_dispatch_owner": "bootstrap_writer_only",
+  "worker_may_self_trigger_or_create_duplicate": false,
+  "bootstrap_observations_are_historical_not_worker_launch_instructions": true
 }

@@ -13,3 +13,5 @@
 【公平结果与自动第7步】native 核心 loss=||A(I-P)||_F^2，recourse=sum||P_t-P_prev||_F^2，共同 rank convention；初始化/近零OPT显式处理，同样输入/预算评测 freshSVD、正确 Algorithm4、合格FD、固定/周期等强简单对照。分别计 update/scoring/pipeline time。开发调参两边有限公平、完全保留；confirmation 另行 prospective freeze，不把看过的开发数据当新确认。每 coherent batch 做 E04 数学/语义/评分/分母/参数敏感性/公平baseline 和当前 evidence review，独立核验真实命令、receipts、输出hash、实际成本后给 verdict。保留坏结果、不完整、failed/invalid/confound 及所有累计消耗。机器第7步按 pinned autonomous-rsi 证据返回1/2/3/4/5/6/eligible-writing；缺科学前提、能力、访问或预算只 block 实际后代，不凭 success flag 越过。子代理独立审查须实际 task assignment/所检固定版本，不能自签 pass。
 
 【交付与终点】在每次结束前提交可核实阅读、数学、代码/完整设计、真实 raw per-prefix metrics/logs 和 compact checkpoint，并读回。结果型 paper 仅支持当前、独立核验的 claims；目标是多个不同贡献的 paper candidate，不能把 epsilon/seed variants 拆成论文，不能承诺打败 baseline。若证据不足保存有用数学、实现、完整实验设计和待验收项，不造论文分数。按小时一次简报：当前step、新文件/commit/真实运行证据、剩余预算、blockers、下一动作。无新证据如实说。完成、不可恢复外部阻塞且独立工作耗尽，或8h截止时汇总真实完成项/负结果/剩余项并停用同一 automation。不要把有限目标扩成长期 monitor。
+
+【唤醒与控制权】当前 invocation 已经是该任务的实际续做，worker 不得从自身调用 run_now 或创建/复制 automation。首轮立即请求仅由 bootstrap writer 发送一次。BACKGROUND_TASK.json 的初始 immediate 请求字段是保留的历史观察，不是要求 worker 再次触发的待办。按实际服务状态和现有任务 identity 接续；本任务完成/阻塞/截止时只停用自身。
