@@ -14,6 +14,7 @@ Researching continual LLM updates on text and supervision arriving over time, wi
 
 ## Read first
 
+- [Direction and first mathematical inquiry records (中文)](docs/DIRECTION_AND_MATH_START.zh-CN.md)
 - [Uploaded paper review: Finetuning with Sampling and implications (中文)](docs/SAMPLING_SFT_REVIEW.zh-CN.md)
 - [Latest clarification: temporal text, forgetting, and research directions (中文)](docs/STREAMING_RESEARCH.zh-CN.md)
 - [Selected acquisition–retention direction (中文)](docs/RESEARCH_DIRECTION.zh-CN.md)
@@ -25,8 +26,8 @@ Researching continual LLM updates on text and supervision arriving over time, wi
 
 ## Current status
 
-The startup source audit, owner-selected acquisition–retention goal, and chronological-text clarification are documented. The latest note joins scoped reads of recent papers, pinned author code, and native KairosQA loading/scoring contracts. Actual source coverage and open obligations are listed in the audit. The repository contains research notes and a checkpoint. Candidate derivations, originality adjudication, method selection, implementation, the complete evaluation design, and Local acceptance remain pending.
+The startup source audit, owner-selected acquisition–retention goal, and chronological-text clarification are documented. The latest note joins scoped reads of recent papers, pinned author code, and native KairosQA loading/scoring contracts. Actual source coverage and open obligations are listed in the audit. The repository contains research notes and a checkpoint. Three conditional mathematical inquiry records now examine obsolete-output protection, protection coverage, and information loss before SFT. These are conceptual analyses, not qualified empirical method candidates. Originality adjudication, method selection, implementation, the complete evaluation design, and Local acceptance remain pending.
 
 No training, inference, scientific tests, or evaluations have been executed for this project. Published results in the review belong to their original authors.
 
-The next step is to establish the residual failure and formal research question against the inspected comparators, extend closest-work coverage, and derive/review the candidate pool before selecting methods for implementation. Full comparisons may span multiple Local cycles; a reporting interval does not make a partial comparison complete.
+The selected discussion focus is selective updating and capability retention during repeated multi-source SFT on time-arriving text. The next step is to establish the consequential residual problem against strong/simple comparators, qualify native data and scoring, extend closest-work coverage, and derive/review the method candidate pool before implementation. Full comparisons may span multiple Local cycles; a reporting interval does not make a partial comparison complete.
