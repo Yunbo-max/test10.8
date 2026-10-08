@@ -1,0 +1,113 @@
+{
+  "workflow_checkpoint": {
+    "policy_version": "1.4.0",
+    "policy_source": "Current installed Research Autopilot workflow-harness and owner-selected intake",
+    "skill_source_revision": null,
+    "loaded_module_refs": [
+      "skill://flora-skills/root/.codex/skills/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62/SKILL.md",
+      "references/workflow-harness.md",
+      "references/initial-intake.md",
+      "references/literature-evidence.md",
+      "references/idea-generation.md",
+      "references/math-analysis.md",
+      "references/repository-round-trips.md",
+      "references/web-background-work.md",
+      "references/artifact-contracts.md"
+    ],
+    "execution_role": "web_supervisor",
+    "role_source": "Current Research Autopilot Web/Local contract and current Work context",
+    "web_github_delivery_branch": "main",
+    "delivery_target_policy_ref": "docs/RESEARCH_INTAKE.md",
+    "delivery_parent_commit": "b8f54218117fc7f8377ce8099ddbd89900c4bacc",
+    "delivered_commit_ref": null,
+    "main_readback_ref": null,
+    "controller_host_ref": "Current ChatGPT Work session; queryable thread ID not exposed",
+    "execution_host_ref": null,
+    "execution_transport": null,
+    "ssh_target_ref": null,
+    "local_remote_path_map_ref": null,
+    "remote_driver_locator": null,
+    "remote_record_transfer_refs": [],
+    "work_phase": "initial_source_audit",
+    "web_background_preferred": true,
+    "web_background_policy": "work_cloud_for_web_production",
+    "web_background_task_key": "Yunbo-max/test10.8 / initial exploration",
+    "web_background_mode": "Work Mode in current session",
+    "web_background_mode_evidence_ref": "Host-supplied Codex Work Mode context",
+    "web_background_backend_ref": null,
+    "web_background_trigger_ref": null,
+    "web_background_host": "Current ChatGPT Work session",
+    "web_background_capability_ref": null,
+    "web_background_task_locator": null,
+    "web_background_observed_state": "Separate durable background-goal state not exposed",
+    "web_background_observed_at": "2026-10-08T15:54:44.619Z",
+    "web_background_enabled": null,
+    "web_background_schedule_ref": null,
+    "web_background_report_seconds": 3600,
+    "web_background_foreground_override_ref": null,
+    "web_background_host_override_ref": null,
+    "web_completion_criteria_refs": [
+      "docs/RESEARCH_START.zh-CN.md",
+      "docs/SOURCE_AUDIT.md"
+    ],
+    "durable_progress_index_ref": "README.md",
+    "last_verified_milestone_ref": "docs/SOURCE_AUDIT.md",
+    "nominal_soft_report_seconds": 28800,
+    "local_cycle_max_elapsed_seconds": 86400,
+    "time_policy_source": "Owner selected 24-hour maximum Local cycle with approximately 8-hour reports on 2026-10-08",
+    "actual_remaining_execution_bounds_ref": "docs/RESEARCH_INTAKE.md",
+    "outer_native_attempt_timeout_review_ref": null,
+    "generated_artifact_refs": [
+      "README.md",
+      "docs/RESEARCH_INTAKE.md",
+      "docs/RESEARCH_START.zh-CN.md",
+      "docs/SOURCE_AUDIT.md"
+    ],
+    "local_acceptance_pending": [
+      "Host inventory and environment",
+      "Native data/model/scorer qualification",
+      "Complete approved evaluation and resource design"
+    ],
+    "project_id": "Yunbo-max/test10.8",
+    "route_id": null,
+    "observed_at": "2026-10-08T15:54:44.619Z",
+    "canonical_ledger_ref": null,
+    "current_goal_ref": "docs/RESEARCH_INTAKE.md",
+    "user_message_effect": "Initialize frontier multi-dataset SFT exploration; confirm scope, HF non-use and single-GPU cycle bound",
+    "policy_change": null,
+    "current_node": null,
+    "requested_action": "Frontier research inquiry on multi-dataset LLM SFT",
+    "required_deliverables": [
+      "Sourced intake",
+      "Joined source review",
+      "Honest continuation checkpoint"
+    ],
+    "produced_deliverable_refs": [
+      "docs/RESEARCH_INTAKE.md",
+      "docs/RESEARCH_START.zh-CN.md",
+      "docs/SOURCE_AUDIT.md"
+    ],
+    "remaining_coverage": [
+      "Closest-work full texts",
+      "Remaining author implementation files",
+      "Native data/scorer coverage",
+      "Natural residual phenomenon and formal problem"
+    ],
+    "candidate_id": null,
+    "earliest_unclosed_prerequisite": "Qualify the residual scientific problem and closest-work/evaluation evidence before candidate investment",
+    "prerequisite_evidence_refs": [
+      "docs/SOURCE_AUDIT.md"
+    ],
+    "boundary_check_ref": null,
+    "readiness": "pending",
+    "missing_requirements": [
+      "Minimum useful empirical success criterion",
+      "Full applicable closest-work and native evaluation reads",
+      "Confirmed host profile and calibrated cost"
+    ],
+    "next_legal_action": "Extend source/benchmark inquiry and formalize the important residual problem, then derive and review candidates under the current skill",
+    "execution_harness_plan_ref": null,
+    "remaining_budget_ref": "docs/RESEARCH_INTAKE.md",
+    "continuation_refs": []
+  }
+}
