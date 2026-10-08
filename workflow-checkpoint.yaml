@@ -36,7 +36,7 @@
     "local_remote_path_map_ref": null,
     "remote_driver_locator": null,
     "remote_record_transfer_refs": [],
-    "work_phase": "two_route_conditional_mathematical_analysis",
+    "work_phase": "mathematical_idea_batch_001_discussion",
     "web_background_preferred": true,
     "web_background_policy": "work_cloud_for_web_production",
     "web_background_task_key": "Yunbo-max/test10.8 / initial exploration",
@@ -248,6 +248,29 @@
         }
       ],
       "scientific_execution": false
+    },
+    "mathematical_idea_batch_001": {
+      "initial_cards": 20,
+      "corrected_cards": 21,
+      "discussion_questions": [
+        "I01",
+        "I04",
+        "I05",
+        "I09",
+        "I13",
+        "I14",
+        "I16",
+        "I19",
+        "I20",
+        "I21"
+      ],
+      "discussion_selection_status": "provisional_not_novelty_adjudication",
+      "artifact_ref": "docs/ideas/batch-001/index.zh-CN.md",
+      "final_semantic_rereview": "pending",
+      "novelty_saturation": "pending",
+      "scientific_execution": "not_run",
+      "new_method_approved": false,
+      "background_execution": "unavailable_not_started"
     }
   }
 }
