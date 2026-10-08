@@ -14,6 +14,7 @@ Researching continual LLM updates on text and supervision arriving over time, wi
 
 ## Read first
 
+- [Uploaded paper review: Finetuning with Sampling and implications (中文)](docs/SAMPLING_SFT_REVIEW.zh-CN.md)
 - [Latest clarification: temporal text, forgetting, and research directions (中文)](docs/STREAMING_RESEARCH.zh-CN.md)
 - [Selected acquisition–retention direction (中文)](docs/RESEARCH_DIRECTION.zh-CN.md)
 

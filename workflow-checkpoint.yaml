@@ -18,7 +18,7 @@
     "role_source": "Current Research Autopilot Web/Local contract and current Work context",
     "web_github_delivery_branch": "main",
     "delivery_target_policy_ref": "docs/RESEARCH_INTAKE.md",
-    "delivery_parent_commit": "0a787a73293c9470b52db932891f9bee4c531a57",
+    "delivery_parent_commit": "0a2f8c5261c2917dfa48969e066b9561dc74faa7",
     "delivered_commit_ref": null,
     "main_readback_ref": null,
     "controller_host_ref": "Current ChatGPT Work session; queryable thread ID not exposed",
@@ -52,7 +52,7 @@
       "docs/STREAMING_RESEARCH.zh-CN.md"
     ],
     "durable_progress_index_ref": "README.md",
-    "last_verified_milestone_ref": "docs/STREAMING_RESEARCH.zh-CN.md",
+    "last_verified_milestone_ref": "docs/SAMPLING_SFT_REVIEW.zh-CN.md",
     "nominal_soft_report_seconds": 28800,
     "local_cycle_max_elapsed_seconds": 86400,
     "time_policy_source": "Owner selected 24-hour maximum Local cycle with approximately 8-hour reports on 2026-10-08",
@@ -64,7 +64,8 @@
       "docs/RESEARCH_START.zh-CN.md",
       "docs/SOURCE_AUDIT.md",
       "docs/RESEARCH_DIRECTION.zh-CN.md",
-      "docs/STREAMING_RESEARCH.zh-CN.md"
+      "docs/STREAMING_RESEARCH.zh-CN.md",
+      "docs/SAMPLING_SFT_REVIEW.zh-CN.md"
     ],
     "local_acceptance_pending": [
       "Host inventory and environment",
@@ -73,13 +74,13 @@
     ],
     "project_id": "Yunbo-max/test10.8",
     "route_id": null,
-    "observed_at": "2026-10-08T17:43:03.804Z",
+    "observed_at": "2026-10-08T19:14:12.294Z",
     "canonical_ledger_ref": null,
     "current_goal_ref": "docs/STREAMING_RESEARCH.zh-CN.md",
-    "user_message_effect": "Owner clarified that new data arrives over time and explicitly selected chronological text, not numeric time series. Continual SFT and temporal-text CPT are in scope. No exclusion of prior incremental replay was confirmed.",
+    "user_message_effect": "Owner supplied arXiv:2610.02140v1 and asked whether it helps. This is source feedback within the existing chronological-text acquisition–retention discussion, not a selected new method or a launch request.",
     "policy_change": null,
     "current_node": null,
-    "requested_action": "Discuss forgetting under arriving text and compare research directions before choosing or coding methods",
+    "requested_action": "Assess the uploaded sampling-before-SFT paper against the existing continual-update goal",
     "required_deliverables": [
       "Sourced intake",
       "Joined source review",
@@ -90,20 +91,23 @@
       "docs/RESEARCH_START.zh-CN.md",
       "docs/SOURCE_AUDIT.md",
       "docs/RESEARCH_DIRECTION.zh-CN.md",
-      "docs/STREAMING_RESEARCH.zh-CN.md"
+      "docs/STREAMING_RESEARCH.zh-CN.md",
+      "docs/SAMPLING_SFT_REVIEW.zh-CN.md"
     ],
     "remaining_coverage": [
       "Strong/simple comparator residual failures under chronological updates and valid historical retention",
       "Complete closest-work implementation reads for SDFT, temporal CPT, CKL and applicable replay/gradient methods",
       "Immutable native data revisions and complete new-knowledge, historical-knowledge and general-capability scorer contracts",
       "Prior incremental-data availability, replay access and minimum useful success criterion",
-      "Host capacity, measured throughput and cumulative budget"
+      "Host capacity, measured throughput and cumulative budget",
+      "Projection-sampling default greedy likelihood rule versus ideal MH, native data/scorer qualification, external DFT/verl revision and single-2080-Ti feasibility"
     ],
     "candidate_id": null,
     "earliest_unclosed_prerequisite": "Qualify a consequential residual problem and available training information for time-arriving text before candidate investment",
     "prerequisite_evidence_refs": [
       "docs/SOURCE_AUDIT.md",
-      "docs/STREAMING_RESEARCH.zh-CN.md"
+      "docs/STREAMING_RESEARCH.zh-CN.md",
+      "docs/SAMPLING_SFT_REVIEW.zh-CN.md"
     ],
     "boundary_check_ref": null,
     "readiness": "pending",
@@ -114,13 +118,14 @@
       "Confirmed host profile and calibrated cost",
       "Sound mathematical candidate pool and complete review/ranking before new method implementation"
     ],
-    "next_legal_action": "Continue discussion and read-only residual-problem qualification for temporal selective retention and natural reappearance. Reuse pinned reads; keep no-replay access, method choice, and scientific execution pending.",
+    "next_legal_action": "Use Sampling SFT as a priority comparator lead; continue discussion and residual-problem qualification for repeated updates, preservation of novel time-valid facts, and reference drift. Complete missing native reads and access/budget constraints before method discovery or implementation.",
     "execution_harness_plan_ref": null,
     "remaining_budget_ref": "docs/RESEARCH_INTAKE.md",
     "continuation_refs": [
       "docs/STREAMING_RESEARCH.zh-CN.md",
       "docs/RESEARCH_DIRECTION.zh-CN.md",
-      "docs/SOURCE_AUDIT.md"
+      "docs/SOURCE_AUDIT.md",
+      "docs/SAMPLING_SFT_REVIEW.zh-CN.md"
     ]
   }
 }
