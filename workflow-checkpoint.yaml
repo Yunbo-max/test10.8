@@ -17,13 +17,16 @@
       "references/math-operation-graph.md",
       "references/math-derivation-paths.md",
       "references/contribution-value-gates.md",
-      "references/collision-audit.md"
+      "references/collision-audit.md",
+      "references/math-handoff.md",
+      "references/canonical-literature.md",
+      "references/math-analysis-moves.md"
     ],
     "execution_role": "web_supervisor",
     "role_source": "Current Research Autopilot Web/Local contract and current Work context",
     "web_github_delivery_branch": "main",
     "delivery_target_policy_ref": "docs/RESEARCH_INTAKE.md",
-    "delivery_parent_commit": "12ae4b09c03e9a85b75d12e48493d2444d5ac662",
+    "delivery_parent_commit": "963f07b4df62416840fe186d9109feb2d9b41aec",
     "delivered_commit_ref": null,
     "main_readback_ref": null,
     "controller_host_ref": "Current ChatGPT Work session; queryable thread ID not exposed",
@@ -33,7 +36,7 @@
     "local_remote_path_map_ref": null,
     "remote_driver_locator": null,
     "remote_record_transfer_refs": [],
-    "work_phase": "selected_temporal_update_question_and_mathematical_inquiry",
+    "work_phase": "two_route_conditional_mathematical_analysis",
     "web_background_preferred": true,
     "web_background_policy": "work_cloud_for_web_production",
     "web_background_task_key": "Yunbo-max/test10.8 / initial exploration",
@@ -55,7 +58,9 @@
       "docs/RESEARCH_START.zh-CN.md",
       "docs/SOURCE_AUDIT.md",
       "docs/STREAMING_RESEARCH.zh-CN.md",
-      "docs/DIRECTION_AND_MATH_START.zh-CN.md"
+      "docs/DIRECTION_AND_MATH_START.zh-CN.md",
+      "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+      "docs/TWO_ROUTE_SOURCE_CODE_AUDIT.md"
     ],
     "durable_progress_index_ref": "README.md",
     "last_verified_milestone_ref": "docs/UNLEARNING_CONNECTION.zh-CN.md",
@@ -73,7 +78,9 @@
       "docs/STREAMING_RESEARCH.zh-CN.md",
       "docs/SAMPLING_SFT_REVIEW.zh-CN.md",
       "docs/DIRECTION_AND_MATH_START.zh-CN.md",
-      "docs/UNLEARNING_CONNECTION.zh-CN.md"
+      "docs/UNLEARNING_CONNECTION.zh-CN.md",
+      "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+      "docs/TWO_ROUTE_SOURCE_CODE_AUDIT.md"
     ],
     "local_acceptance_pending": [
       "Host inventory and environment",
@@ -82,17 +89,18 @@
     ],
     "project_id": "Yunbo-max/test10.8",
     "route_id": null,
-    "observed_at": "2026-10-08T19:55:05.093Z",
+    "observed_at": "2026-10-08T20:36:18.019Z",
     "canonical_ledger_ref": null,
-    "current_goal_ref": "docs/DIRECTION_AND_MATH_START.zh-CN.md",
-    "user_message_effect": "Owner requested considering LLM unlearning fine-tuning/SFT as connected work. This expands source and collision review while retaining the selected continual multi-source SFT, temporal updating and capability-retention goal.",
+    "current_goal_ref": "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+    "user_message_effect": "Owner agreed to protection-coverage and selective-temporal-preservation analysis routes, and requested separate leading-paper, public-code and mathematical analysis before method implementation.",
     "policy_change": null,
     "current_node": null,
-    "requested_action": "Review the relationship to LLM unlearning fine-tuning, preserve temporal-history distinctions, and join primary sources with actual loss code and native evaluation scope",
+    "requested_action": "Complete conditional mathematical inquiry and immutable source/code audit for both accepted analytical routes",
     "required_deliverables": [
-      "Concrete examples and direction brief",
-      "Conditional mathematical inquiry records with source collisions, assumptions, predictions and falsifiers",
-      "Honest continuation checkpoint"
+      "Route-specific primary-paper and actual source-code audit with immutable revisions and honest read scope",
+      "Consequential conditional mathematical derivations with assumptions, predictions, falsifiers and prior-art distinctions",
+      "Native-data/scorer, information-access and single-card resource obligations",
+      "Verified GitHub delivery and truthful continuation state"
     ],
     "produced_deliverable_refs": [
       "docs/RESEARCH_INTAKE.md",
@@ -102,37 +110,41 @@
       "docs/STREAMING_RESEARCH.zh-CN.md",
       "docs/SAMPLING_SFT_REVIEW.zh-CN.md",
       "docs/DIRECTION_AND_MATH_START.zh-CN.md",
-      "docs/UNLEARNING_CONNECTION.zh-CN.md"
+      "docs/UNLEARNING_CONNECTION.zh-CN.md",
+      "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+      "docs/TWO_ROUTE_SOURCE_CODE_AUDIT.md"
     ],
     "remaining_coverage": [
-      "Strong/simple comparator residual failures under chronological updates and valid historical retention",
-      "Complete closest-work implementation reads for SDFT, temporal CPT, CKL and applicable replay/gradient methods",
-      "Immutable native data revisions and complete new-knowledge, historical-knowledge and general-capability scorer contracts",
-      "Prior incremental-data availability, replay access and minimum useful success criterion",
-      "Host capacity, measured throughput and cumulative budget",
-      "Projection-sampling default greedy likelihood rule versus ideal MH, native data/scorer qualification, external DFT/verl revision and single-2080-Ti feasibility",
-      "Full iSDFT, temporal-editing implementation and native data/scorer qualification; iSDFT fixed-anchor proposal is existing work",
-      "Qualify unlearning comparator objectives, FIT and recovery code/native protocols; distinguish temporal update from entity deletion and acknowledge existing unrelated-data relearning tests"
+      "Consequential residual failures of strong/simple comparators at comparable acquisition under chronological updates",
+      "Available original/incremental-history/replay/calibration information and minimum useful success criterion",
+      "Exact OSFT paper-to-code revision and adaptive-rank path; complete applicable runner and evaluator reads",
+      "Immutable native training/evaluation data and complete new-domain, current-fact, historical-fact and general-capability scorers",
+      "Author METO/SPIKE implementation releases not located; third-party TALR equivalence and complete native protocols unqualified",
+      "Full closest-work coverage including SoFT, Null-Basis LoRA, temporal CPT, Kairos and applicable unlearning/recovery work",
+      "Host inventory, dtype support, measured peak VRAM/throughput and cumulative budget",
+      "Scientifically distinct justified method constructions, complete mathematical review and ranking before new-method code"
     ],
     "candidate_id": null,
-    "earliest_unclosed_prerequisite": "Qualify a consequential residual problem and available training information before empirical candidate investment; read-only conceptual mathematics may continue",
+    "earliest_unclosed_prerequisite": "Qualify consequential residual importance and available training information before empirical method investment; the first read-only conditional mathematics pass is complete",
     "prerequisite_evidence_refs": [
       "docs/SOURCE_AUDIT.md",
       "docs/STREAMING_RESEARCH.zh-CN.md",
       "docs/SAMPLING_SFT_REVIEW.zh-CN.md",
       "docs/DIRECTION_AND_MATH_START.zh-CN.md",
-      "docs/UNLEARNING_CONNECTION.zh-CN.md"
+      "docs/UNLEARNING_CONNECTION.zh-CN.md",
+      "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+      "docs/TWO_ROUTE_SOURCE_CODE_AUDIT.md"
     ],
     "boundary_check_ref": null,
     "readiness": "pending",
     "missing_requirements": [
-      "Empirically qualified residual problem and minimum useful success criterion; conceptual direction is now explicit",
-      "Original-corpus versus incremental-history data access and replay policy",
-      "Full applicable closest-work and native evaluation qualification",
-      "Confirmed host profile and calibrated cost",
-      "Sound mathematical candidate pool and complete review/ranking before new method implementation"
+      "Empirically qualified residual problem and useful success criterion",
+      "Original-corpus versus incremental-history/replay/calibration access policy",
+      "Complete applicable closest-work, source-release and native evaluation qualification",
+      "Confirmed single-2080-Ti profile and calibrated cost",
+      "Reviewed/ranked mathematically justified candidate pool before new-method implementation"
     ],
-    "next_legal_action": "Continue primary-source and conceptual mathematical inquiry for selective temporal updating and protection coverage, including unlearning/retain and recovery comparators. Qualify residual importance, data/replay access, complete native scoring and 2080-Ti costs before empirical method investment; complete justified candidate review/ranking before new-method code.",
+    "next_legal_action": "Use the six conditional derivations to qualify residual significance, information access, native scoring and single-card costs against strong/simple comparators. Continue conceptual mathematics as needed; do not equate these inquiry records with a qualified method pool or execute scientific project code on Web.",
     "execution_harness_plan_ref": null,
     "remaining_budget_ref": "docs/RESEARCH_INTAKE.md",
     "continuation_refs": [
@@ -141,7 +153,67 @@
       "docs/SOURCE_AUDIT.md",
       "docs/SAMPLING_SFT_REVIEW.zh-CN.md",
       "docs/DIRECTION_AND_MATH_START.zh-CN.md",
-      "docs/UNLEARNING_CONNECTION.zh-CN.md"
-    ]
+      "docs/UNLEARNING_CONNECTION.zh-CN.md",
+      "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+      "docs/TWO_ROUTE_SOURCE_CODE_AUDIT.md"
+    ],
+    "source_code_index_ref": "docs/TWO_ROUTE_SOURCE_CODE_AUDIT.md",
+    "accepted_research_routes": [
+      {
+        "id": "protection_coverage",
+        "setting": "Chronological multi-source SFT; retain valid old capabilities absent from current training",
+        "status": "owner_agreed_conceptual_route"
+      },
+      {
+        "id": "selective_temporal_preservation",
+        "setting": "Update obsolete current answers while retaining correct history, stable knowledge and general capabilities",
+        "status": "owner_agreed_conceptual_route"
+      }
+    ],
+    "mathematical_inquiry_records": [
+      {
+        "id": "MC-A1",
+        "artifact_ref": "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+        "status": "conditional_analytical_derivation_completed",
+        "empirical_status": "not_run",
+        "originality_status": "not_adjudicated"
+      },
+      {
+        "id": "MC-A2",
+        "artifact_ref": "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+        "status": "conditional_analytical_derivation_completed",
+        "empirical_status": "not_run",
+        "originality_status": "not_adjudicated"
+      },
+      {
+        "id": "MC-A3",
+        "artifact_ref": "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+        "status": "conditional_analytical_derivation_completed",
+        "empirical_status": "not_run",
+        "originality_status": "not_adjudicated"
+      },
+      {
+        "id": "MC-A4",
+        "artifact_ref": "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+        "status": "conditional_analytical_derivation_completed",
+        "empirical_status": "not_run",
+        "originality_status": "not_adjudicated"
+      },
+      {
+        "id": "MC-B1",
+        "artifact_ref": "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+        "status": "conditional_analytical_derivation_completed",
+        "empirical_status": "not_run",
+        "originality_status": "not_adjudicated"
+      },
+      {
+        "id": "MC-B2",
+        "artifact_ref": "docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md",
+        "status": "conditional_analytical_derivation_completed",
+        "empirical_status": "not_run",
+        "originality_status": "not_adjudicated"
+      }
+    ],
+    "delivery_verification_state": "Pending CAS publication and exact main/file readback in this session"
   }
 }

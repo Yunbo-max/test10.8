@@ -105,3 +105,11 @@ The owner selected new-domain acquisition with retention of capabilities lacking
 A newly inspected primary comparator is [SFT Doesn't Always Hurt General Capabilities: Revisiting Domain-Specific Fine-Tuning in LLMs, ICLR 2026](https://proceedings.iclr.cc/paper_files/paper/2026/file/4e447acb68f57e29234bc0eb19896f11-Paper-Conference.pdf). Read scope: abstract, introduction, related work and parts of Section 3's setup. It directly studies data-oblivious adaptation, reports the importance of smaller learning rates, and proposes TALR. The complete method/proofs, author implementation and native evaluation pipeline remain unread or unqualified. Thus no-old-data adaptation is an existing setting, and small-learning-rate SFT is a necessary simple comparator.
 
 No new experiment, candidate implementation, mathematical pool or scientific qualification was produced by this discussion. The selected question and pending access constraint are retained in [RESEARCH_DIRECTION.zh-CN.md](RESEARCH_DIRECTION.zh-CN.md).
+
+## 2026-10-08: two-route mathematical and implementation follow-up
+
+The owner has agreed to separately analyze protection coverage for untrained old capabilities and selective updating of temporal knowledge. The [new source/code audit](TWO_ROUTE_SOURCE_CODE_AUDIT.md) records eight primary works, immutable source revisions and actual read depth. The [mathematical note](TWO_ROUTE_MATH_ANALYSIS.zh-CN.md) provides six conditional inquiry records with consequential derivations, assumptions, predictions and falsifiers.
+
+Earlier statements that a method or code segment was unread describe the initial scoped audit. The follow-up now closes selected SDFT/iSDFT loss paths, OSFT factor projection and optimizer binding, AlphaEdit editing and CounterFact loader/scorer functions, DiSC's objectives/real split-level loop, and TALR's paper algorithm. Full applicable execution/evaluation qualification remains pending. In particular, the inspected author AToKe and MTKE releases contain datasets without METO/SPIKE algorithm implementations; DiSC's TALR baseline is third-party code.
+
+No project training, inference, numerical checks or scientific evaluations have been executed. These conditional analyses do not establish a new method, an empirically qualified gap, or an originality verdict.

@@ -4,7 +4,7 @@ Researching continual LLM updates on text and supervision arriving over time, wi
 
 ## Project brief
 
-- Goal: absorb arriving knowledge and skills while preserving still-valid knowledge, historical answers, and existing capabilities. The owner clarified on 2026-10-08 that temporal data means text arriving over time. Continual SFT and time-incremental continued pretraining are the routes under discussion; a new method has not been selected.
+- Goal: absorb arriving knowledge and skills while preserving still-valid knowledge, historical answers, and existing capabilities. The owner clarified on 2026-10-08 that temporal data means text arriving over time. The owner has agreed to two analytical routes: protection coverage for untrained capabilities and selective preservation during temporal knowledge updates. Continual SFT is the main setting; time-incremental document adaptation supplies related comparators. A new method has not been selected.
 - Scope: chronological updates across text/ supervision sources, retaining the multi-dataset training and evaluation context. Access to prior incremental data and replay remains unresolved.
 - Hardware: **one** RTX 2080 Ti, 22 GB VRAM; host inventory and throughput have not yet been measured.
 - Local execution: at most **24 elapsed hours per approved cycle**, with progress reports approximately every 8 hours.
@@ -14,6 +14,8 @@ Researching continual LLM updates on text and supervision arriving over time, wi
 
 ## Read first
 
+- [Two-route mathematical analysis: six conditional inquiry records (中文)](docs/TWO_ROUTE_MATH_ANALYSIS.zh-CN.md)
+- [Two-route primary papers and pinned source-code audit (中文)](docs/TWO_ROUTE_SOURCE_CODE_AUDIT.md)
 - [Unlearning, SFT, retention and recovery: connected-work review (中文)](docs/UNLEARNING_CONNECTION.zh-CN.md)
 - [Direction and first mathematical inquiry records (中文)](docs/DIRECTION_AND_MATH_START.zh-CN.md)
 - [Uploaded paper review: Finetuning with Sampling and implications (中文)](docs/SAMPLING_SFT_REVIEW.zh-CN.md)
@@ -27,8 +29,10 @@ Researching continual LLM updates on text and supervision arriving over time, wi
 
 ## Current status
 
-The startup source audit, owner-selected acquisition–retention goal, and chronological-text clarification are documented. The latest note joins scoped reads of recent papers, pinned author code, and native KairosQA loading/scoring contracts. Actual source coverage and open obligations are listed in the audit. The repository contains research notes and a checkpoint. Three conditional mathematical inquiry records now examine obsolete-output protection, protection coverage, and information loss before SFT. These are conceptual analyses, not qualified empirical method candidates. Originality adjudication, method selection, implementation, the complete evaluation design, and Local acceptance remain pending.
+The owner has agreed to analyze protection coverage and selective temporal preservation before developing new methods. The first mathematical pass now contains six conditional inquiry records: distribution/Fisher coverage, distillation targets and anchor boundaries, OSFT's actual projection geometry, TALR's update rule, temporal conditioning versus shared-parameter interference, and AlphaEdit's approximate-null-space editing feasibility.
 
-No training, inference, scientific tests, or evaluations have been executed for this project. Published results in the review belong to their original authors.
+Eight directly relevant works are indexed with actual read scope. Five author algorithm repositories are pinned; the DiSC repository also provides a third-party TALR baseline. The inspected AToKe and MTKE author releases contain datasets, without the corresponding METO/SPIKE algorithm implementations. Paper versions, current code, and incomplete native data/scorer contracts are distinguished.
 
-The selected discussion focus is selective updating and capability retention during repeated multi-source SFT on time-arriving text. The next step is to establish the consequential residual problem against strong/simple comparators, qualify native data and scoring, extend closest-work coverage, and derive/review the method candidate pool before implementation. Full comparisons may span multiple Local cycles; a reporting interval does not make a partial comparison complete.
+The repository contains research notes and a checkpoint. The conditional derivations are conceptual analyses, not an empirically qualified new method pool or an originality verdict. No training, inference, scientific tests, numerical checks, or evaluations have been executed for this project. Published results belong to their original authors.
+
+The next step is to establish a consequential residual problem against strong and simple methods, qualify native data/scoring and training-information access, and calibrate single-card costs. Only then should the project invest in empirical method candidates and complete mathematical review/ranking before new-method implementation. Full comparisons may span multiple Local cycles; a reporting interval does not make a partial comparison complete.
