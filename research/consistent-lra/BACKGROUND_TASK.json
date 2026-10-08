@@ -1,0 +1,63 @@
+{
+  "project": "consistent-lra-cpu",
+  "repository": "Yunbo-max/test10.8",
+  "branch": "consistent-lra-rsi",
+  "project_path": "research/consistent-lra",
+  "task_id": "6ac82bb085c081919fa92002384b073b",
+  "conversation_id": "6ac827e6-de58-83eb-9487-8a2ab69c90e5",
+  "title": "CPU 低秩近似 RSI 研究",
+  "execution_mechanism": "finite_hourly_continuation_created_from_current_Work_chat",
+  "current_Work_identity_source": "developer-provided Work Mode context",
+  "actual_service_receipt_observed": true,
+  "initial_prompt_readback_matched": true,
+  "enabled_at_latest_observation": false,
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/London:20261009T014745\nRRULE:FREQ=HOURLY;COUNT=8\nEND:VEVENT",
+  "default_timezone": "Europe/London",
+  "last_observed_updated_at": "2026-10-08T23:49:23.506197+00:00",
+  "first_scheduled_run_local": "2026-10-09T01:47:45+01:00",
+  "wall_window_anchor_utc": "2026-10-08T23:47:45+00:00",
+  "wall_window_deadline_utc": "2026-10-09T07:47:45+00:00",
+  "wall_window_deadline_local": "2026-10-09T08:47:45+01:00",
+  "wall_window_anchor_basis": "actual_host_clock_before_single_task_creation",
+  "max_wall_window_seconds": 28800,
+  "max_scheduled_occurrences": 8,
+  "max_immediate_run_requests": 1,
+  "limits": {
+    "controller_rounds": 12,
+    "registered_tasks": 256,
+    "executable_attempts": 128,
+    "discovery_rounds": 3,
+    "verified_failures_per_direction": 3,
+    "repairs_per_identical_failure": 2
+  },
+  "initial_scientific_usage": {
+    "registered_tasks": 0,
+    "executable_attempts": 0,
+    "controller_rounds": 0,
+    "reserved_cpu_seconds": 0,
+    "observed_scientific_cpu_seconds": 0
+  },
+  "initial_inspection_commit": "638a494274c600c97b905078f21ee1c8c629b5cd",
+  "independent_source_reviews": [
+    "/root/baseline_audit",
+    "/root/execution_capability"
+  ],
+  "installed_repository_RSI_controller_verified": false,
+  "continuous_CPU_survival_verified": false,
+  "scientific_experiments_observed_started": 0,
+  "scientific_results_verified": 0,
+  "initial_immediate_run_request": "not_yet_requested_at_this_checkpoint",
+  "pending_before_dispatch": [
+    "publish_and_read_back_final_control_files",
+    "enable_same_task_and_read_back",
+    "request_immediate_run_once"
+  ],
+  "authority": {
+    "cpu_host_choice": "你可以用你gpt的cpu",
+    "cpu_quota_cores_observed": 8,
+    "memory_cap_bytes_observed": 8589934592,
+    "gpu": false,
+    "paid_model_API_or_cloud": false
+  },
+  "note": "Configuration/receipts establish scheduling only. Observe actual runs/processes separately; monotonic future counters and reservations must be derived from retained actual evidence."
+}

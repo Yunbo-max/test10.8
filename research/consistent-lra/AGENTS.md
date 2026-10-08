@@ -1,6 +1,6 @@
 # Instructions for this CPU research project
 
-Read README.md, GOAL.md, SOURCES.md, BASELINE_AUDIT.md, EXECUTION_SCOPE.md and workflow-checkpoint.yaml before continuing.
+Resolve the branch head once and pin that immutable commit. Read README.md, GOAL.md, SOURCES.md, BASELINE_AUDIT.md, EXECUTION_SCOPE.md, workflow-checkpoint.yaml and all source/evidence files from that same commit before continuing. Record and verify restored identities; do not silently mix changing branch snapshots.
 
 Use the owner-selected autonomous-rsi source at Research_Autopilot commit 1de12dfed5b84957b29ac5b3a2f04904bf3742bc. Read its SKILL.md and the applicable reference modules at that revision; do not mix a different installed export with this source silently.
 

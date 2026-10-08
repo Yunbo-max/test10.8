@@ -45,7 +45,7 @@ The native core objects are $L_t(P)=\|A_{1:t}(I-P)\|_F^2$ and $R=\sum_{t=2}^n\|P
 
 ## Budget, recovery and completion
 
-Use at most one scientific CPU experiment process at a time until actual resource calibration qualifies more. Cap total numerical threads at the observed quota and leave runtime memory headroom. Freeze actual per-run timeout/RSS and repair bounds before dispatch. Maximum three discovery rounds and two qualified repairs of the same failure within the original wall-clock window; preserve all consumed time and history.
+Use at most one scientific CPU experiment process at a time until actual resource calibration qualifies more. Cap total numerical threads at the observed quota and leave runtime memory headroom. Freeze actual per-run timeout/RSS and repair bounds before dispatch. Maximum 12 controller rounds across all Step-7 routes, 256 registered tasks, 128 executable attempts, three discovery rounds, three verified failures per scientific direction and two qualified repairs of the same failure within the original wall-clock window. Persist and restore monotonic admitted-task/attempt/round/repair/failure counters, actual usage and unresolved reservations; scheduler ticks are not scientific task completions. Preserve all consumed time and history.
 
 At each milestone save an exact source/evidence artifact and a compact checkpoint. The same actual scheduler task is resumed; do not create a new goal after a failed idea. Reconcile live ownership before another writer or process. Future schedules are hourly, finite and may be delayed by the platform.
 
