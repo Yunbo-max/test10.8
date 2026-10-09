@@ -640,6 +640,64 @@
         "opt_source": "qualified_gram",
         "loss_source": "qualified_gram"
       }
+    },
+    {
+      "id": "zero-energy-initial",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x0.0p+0",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x0.0p+0",
+        "gram_loss": "0x0.0p+0",
+        "direct_loss": "0x0.0p+0",
+        "t": 1,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x0.0p+0",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x0.0p+0",
+        "increment": "0x0.0p+0",
+        "ratio": null,
+        "excess": "0x0.0p+0",
+        "energy_normalized_excess": null,
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "zero-energy-later",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x0.0p+0",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x0.0p+0",
+        "gram_loss": "0x0.0p+0",
+        "direct_loss": "0x0.0p+0",
+        "t": 5000,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x0.0p+0",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x0.0p+0",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": null,
+        "excess": "0x0.0p+0",
+        "energy_normalized_excess": null,
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
     }
   ],
   "reject_cases": [
@@ -813,13 +871,91 @@
       "expected_error": "unexpected_fields"
     }
   ],
-  "accumulator_case_ids": [
-    "energy-below-one",
-    "zero-energy",
-    "energy-above-one",
-    "direct-opt-tau-below",
-    "direct-opt-tau-equal",
-    "direct-opt-tau-above",
-    "gram-opt-band-below"
-  ]
+  "accumulator_cohorts": [
+    {
+      "id": "mixed",
+      "case_ids": [
+        "energy-below-one",
+        "zero-energy",
+        "energy-above-one",
+        "direct-opt-tau-below",
+        "direct-opt-tau-equal",
+        "direct-opt-tau-above",
+        "direct-loss-tau-above"
+      ]
+    },
+    {
+      "id": "allundefined",
+      "case_ids": [
+        "zero-energy",
+        "zero-energy-initial",
+        "zero-energy-later"
+      ]
+    }
+  ],
+  "accumulator_other_field_literals": {
+    "cumulative_recourse": [
+      "0x1.1000000000000p+4",
+      "0x1.0800000000000p+5",
+      "0x1.8800000000000p+5",
+      "0x1.0400000000000p+6",
+      "0x1.4400000000000p+6",
+      "0x1.8400000000000p+6",
+      "0x1.c400000000000p+6"
+    ],
+    "steady_recourse": [
+      "0x1.2000000000000p+4",
+      "0x1.1000000000000p+5",
+      "0x1.9000000000000p+5",
+      "0x1.0800000000000p+6",
+      "0x1.4800000000000p+6",
+      "0x1.8800000000000p+6",
+      "0x1.c800000000000p+6"
+    ],
+    "orthogonality_error": [
+      "0x1.3000000000000p+4",
+      "0x1.1800000000000p+5",
+      "0x1.9800000000000p+5",
+      "0x1.0c00000000000p+6",
+      "0x1.4c00000000000p+6",
+      "0x1.8c00000000000p+6",
+      "0x1.cc00000000000p+6"
+    ],
+    "update_seconds": [
+      "0x1.4000000000000p+4",
+      "0x1.2000000000000p+5",
+      "0x1.a000000000000p+5",
+      "0x1.1000000000000p+6",
+      "0x1.5000000000000p+6",
+      "0x1.9000000000000p+6",
+      "0x1.d000000000000p+6"
+    ],
+    "scoring_seconds": [
+      "0x1.5000000000000p+4",
+      "0x1.2800000000000p+5",
+      "0x1.a800000000000p+5",
+      "0x1.1400000000000p+6",
+      "0x1.5400000000000p+6",
+      "0x1.9400000000000p+6",
+      "0x1.d400000000000p+6"
+    ],
+    "shared_reference_seconds": [
+      "0x1.6000000000000p+4",
+      "0x1.3000000000000p+5",
+      "0x1.b000000000000p+5",
+      "0x1.1800000000000p+6",
+      "0x1.5800000000000p+6",
+      "0x1.9800000000000p+6",
+      "0x1.d800000000000p+6"
+    ],
+    "shared_energy_maintenance_seconds": [
+      "0x1.7000000000000p+4",
+      "0x1.3800000000000p+5",
+      "0x1.b800000000000p+5",
+      "0x1.1c00000000000p+6",
+      "0x1.5c00000000000p+6",
+      "0x1.9c00000000000p+6",
+      "0x1.dc00000000000p+6"
+    ]
+  }
 }
