@@ -1,0 +1,21 @@
+# Independent integer witness design review — assignment130
+
+Reviewer /root/window02_consecutive_condition_review ACCEPT sourcegenerationonly.
+Immutable6f05dbd2890de391f48f83d439009cbfa2d5b4ea connector+Gitexactreads.
+Design497b7edd245ae7fe802ca4d7aa92a73c33cd98ced0bc2bf7761ce28f52d2e41f;
+v7draftd0f56dbf1ec12c302ad2b42e8ae608a06c9c6c2da63b50da2ee11f6ec8fede79;
+v7reviewbc239b1819de5657b481bd776a17bc949b4fdf305e9f69d742b92bf23fd9d003;
+v5/v6acceptedparents, realtargetreviewe59796a0d207b56c8749c99044205b9743088eb85e2cf677ffa4ffc4d5d4dce0.
+Signedproducts/positiveFraction/a/S agreev7;isqrt halfuptie inclusive lower/strict
+uppercorrect;ascendingLambda puts-a first;2kdiag+2kh sparseintegers sufficient.
+Entry<=257k16^k, bits<=4k+(k-1).bit_length()+9,259atk61. Allhpositive sound:
+positivecoordinate residueprefactor3a_i/4, smaller-scalegeometriclowerbound
+like negatives, largerscalefactors>1; cannotroundtozero atS.
+Existing independentlyacceptedlemmaaudit sourcegenerationdoesnotneednew20pool;
+no discovery/native/novelty/paperpass. Exactwitness certifiesconstruction/rounding/
+inventory/size only; doesnotmeasureR/eigenvalues/blockcondition. Analyticv7basis
+separatefromrealparentcertificate.
+OneCPU256MiBunenforced/60inner90outer/oneattempt0retryproposalfinite;actualsource
+cost/window/ownership recheckneeded. Require independentsource+plan beforelaunch
+andoutputproducts/rounding/size/hash/receiptafter. Retainpartials/failures/costs.
+No generatorrun/sourceedit/publication or blockingdesigncorrection.

@@ -624,8 +624,8 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:10:08.981870+00:00",
-  "observed_process_cpu_seconds": 291.91159508199996,
+  "observed_at": "2026-10-09T12:13:54.811868+00:00",
+  "observed_process_cpu_seconds": 292.775693082,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
   "pending_asset_review": null,
@@ -730,9 +730,17 @@
       "started_at": "2026-10-09T11:05:52.519004Z",
       "waited_git_child_cpu_seconds": 0.263756,
       "wall_seconds": 13.167230952
+    },
+    {
+      "assignment": "window02-nearzero-isolated-scalar-evidence-independent-review",
+      "additional_cpu_lower_bound_seconds": 0.864098,
+      "scope": "independent recordedscalar recomputation; no sourceimport/qualifierrerun",
+      "charged_to_observed_cpu_total": true,
+      "increments_original_executable_attempt": false,
+      "scientific_experiment": false
     }
   ],
-  "registered_task_assignments": 130,
+  "registered_task_assignments": 132,
   "remaining_wall_seconds_at_observation": 18801.791587,
   "reservation": {
     "actual_max_rss_kib": 99788,
@@ -1014,7 +1022,9 @@
     "window02-nearzero-isolated-scalar-execution",
     "window02-nearzero-isolated-scalar-evidence-independent-review",
     "window02-integer-witness-design-generation",
-    "window02-integer-witness-design-independent-review"
+    "window02-integer-witness-design-independent-review",
+    "window02-integer-witness-source-generation",
+    "window02-integer-witness-source-independent-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1142,7 +1152,7 @@
     "task": "isolated-scalar-contract-02",
     "wall_seconds_upper_bound": 90,
     "attempts_charged": 1,
-    "execution_status": "completed_engineering_only_pending_independent_evidence_review",
+    "execution_status": "accepted_finite_scalar_software_only",
     "prelaunch_observation": {
       "observed_at": "2026-10-09T12:06:45.133511+00:00",
       "cpu_max": "800000 100000",
@@ -1291,13 +1301,24 @@
     "verdict": "accepted_one_isolated_software_attempt",
     "record": "NEARZERO_SCALAR_PLAN_REVIEW_WINDOW02.md"
   },
-  "pending_window02_scalar_evidence_review": {
+  "pending_window02_scalar_evidence_review": null,
+  "pending_window02_integer_witness_design_review": null,
+  "completed_window02_scalar_evidence_review": {
     "assignment_number": 128,
     "reviewer": "/root/window02_stagea_source_review",
-    "status": "await_actual_execution"
+    "commit": "ba35efc546455968927e2b69de2609fbcfbcfe86",
+    "verdict": "accepted_finite_scalar_software_contract_only",
+    "record": "NEARZERO_SCALAR_EVIDENCE_REVIEW_WINDOW02.md"
   },
-  "pending_window02_integer_witness_design_review": {
+  "completed_window02_integer_witness_design_review": {
     "assignment_number": 130,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "commit": "6f05dbd2890de391f48f83d439009cbfa2d5b4ea",
+    "verdict": "accepted_existing_v7_witness_source_generation_only",
+    "record": "INTEGER_WITNESS_DESIGN_REVIEW_WINDOW02.md"
+  },
+  "pending_window02_integer_witness_source_review": {
+    "assignment_number": 132,
     "reviewer": "/root/window02_consecutive_condition_review",
     "execution_admitted": false
   }
