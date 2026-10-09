@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T04:06:02+00:00",
+  "observed_at": "2026-10-09T04:07:17+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 36,
-  "executable_attempts_dispatched": 8,
+  "executable_attempts_dispatched": 9,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 2.079693,
+  "observed_process_cpu_seconds": 2.084459,
   "reservation": {
     "task": "source-integrity-01",
     "purpose": "mechanical_preparation_only",
@@ -109,7 +109,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 13302,
+  "remaining_wall_seconds_at_observation": 13227,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -268,15 +268,24 @@
     "ram_mib_reserved_not_enforced": 256,
     "wall_seconds_upper_bound": 30,
     "attempts_reserved": 1,
-    "attempts_completed": 0,
+    "attempts_completed": 1,
     "retries": 0,
-    "released": false,
+    "released": true,
+    "release_basis": "terminal completed harness and guarded attempt; no surviving descendant",
     "native_plan_digest": "76902a7380dc9226f322fc0657477dc3606ef7b593c945c0892d6945274fe52d",
     "harness_plan_digest": "97897df281b1ad2904f60db7ac863cab8f1ec07e11904b7a27e3bfd94f212d22",
     "plan_review": "accepted",
     "plan_review_commit": "a1d78b55391bf444da5a7a9ca37647fb061a20c6",
     "scientific_experiment": false,
-    "performance_claim_eligible": false
+    "performance_claim_eligible": false,
+    "actual_metric_wall_seconds": 0.005442766996566206,
+    "actual_process_cpu_seconds": 0.004765999999999937,
+    "actual_guarded_attempt_wall_seconds": 1.102667963001295,
+    "actual_harness_wall_seconds": 2.0093266440017032,
+    "actual_max_rss_kib": 115540,
+    "receipt_sha256": "25f6392ee869e6dca80218b332d461313648c6c86000b50216022f579d0cce96",
+    "output_sha256": "28193d937bd6468c4aa952c948f39c78577d3e8380f9037a314c0db4b5b90665",
+    "independent_evidence_review": "pending"
   },
   "unadmitted_development_smoke_history": [
     {
@@ -294,7 +303,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T04:06:02+00:00",
+    "observed_at": "2026-10-09T04:07:17+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
@@ -306,6 +315,7 @@
     "rice_alg4_cost_calibration_launched": true,
     "rice_alg4_cost_calibration_completed": true,
     "author_fd_semantic_oracle_plan_reviewed": true,
-    "author_fd_semantic_oracle_launched": false
+    "author_fd_semantic_oracle_launched": true,
+    "author_fd_semantic_oracle_completed": true
   }
 }
