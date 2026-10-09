@@ -1,0 +1,42 @@
+{
+  "schema_id": "harness-plan",
+  "schema_version": "1.0.0",
+  "batch_id": "author-fd-semantic-mechanical-01",
+  "tasks": [
+    {
+      "task_id": "author-fd-semantic-oracles-01",
+      "idea_id": "existing-author-fd-diagnostic-source-semantic-oracles",
+      "priority": 1,
+      "depends_on": [],
+      "plan_ref": {
+        "path": "plans/native-author-fd-semantic-oracles.json",
+        "sha256": "53e7cba2ef4d5c5d7490d7bab49f888390e86c5120853d6dd4d979a599fc09cd"
+      },
+      "resources": {
+        "cpu_cores": 1,
+        "ram_mib": 256,
+        "gpu_count": 0,
+        "gpu_peak_mib": null,
+        "allow_gpu_share": false,
+        "memory_profile_ref": null,
+        "exclusive_keys": ["author-fd-semantic-oracles"]
+      }
+    }
+  ],
+  "limits": {
+    "cpu_cores": 1,
+    "ram_mib": 256,
+    "max_parallel_tasks": 1,
+    "max_gpu_task_seconds": 0,
+    "total_wall_seconds": 45,
+    "window_seconds": 30
+  },
+  "pool_dir": "/workspace/scratch/bb9f262965cf/dddd-work/research/consistent-lra/runs/pool",
+  "output_root": "runs/harness",
+  "gpus": {
+    "uuids": [],
+    "safety_margin_mib": 256,
+    "max_tasks_per_gpu": 1
+  },
+  "plan_digest": "97897df281b1ad2904f60db7ac863cab8f1ec07e11904b7a27e3bfd94f212d22"
+}
