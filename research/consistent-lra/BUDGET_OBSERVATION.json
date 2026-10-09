@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T05:11:36+00:00",
+  "observed_at": "2026-10-09T05:17:02+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 46,
+  "registered_task_assignments": 47,
   "executable_attempts_dispatched": 11,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -46,7 +46,7 @@
       "failure": "native_official_scorer_interface_absent",
       "category": "capability_source_admission_gap",
       "scientific_refutation": false,
-      "repair_count": 1
+      "repair_count": 0
     },
     {
       "failure": "landmark_blob_exceeds_MCP_response_8388608_bytes",
@@ -64,7 +64,7 @@
       "failure": "lowdim_matrix_output_mutation_after_terminal_receipt",
       "category": "evidence_integrity",
       "scientific_refutation": false,
-      "repair_count": 0
+      "repair_count": 1
     }
   ],
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
@@ -115,7 +115,8 @@
     "lowdim-baseline-matrix-repair-source-review",
     "lowdim-baseline-matrix-repair-source-correction-rereview",
     "lowdim-baseline-matrix-repair-plan-review",
-    "lowdim-baseline-matrix-repair-evidence-review"
+    "lowdim-baseline-matrix-repair-evidence-review",
+    "lowdim-baseline-matrix-repair-evidence-correction-rereview"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -126,7 +127,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 9369,
+  "remaining_wall_seconds_at_observation": 9042,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -231,6 +232,12 @@
       "initial_verdict": "needs_correction",
       "repair_count": 1,
       "rereview_verdict": "accepted"
+    },
+    {
+      "review": "lowdim-baseline-matrix-repair-evidence-review",
+      "initial_verdict": "needs_correction_ledger_only",
+      "repair_count": 1,
+      "rereview_verdict": "pending"
     }
   ],
   "pending_evaluator_semantic_oracle_evidence_review": null,
@@ -377,7 +384,8 @@
     "attempt_sha256": "004f348deb153681ce34430ce7fd34ff59e6ca95ea424c4e446ffda1b9a54218",
     "raw_member_mismatches": 4,
     "manifest_published": false,
-    "independent_evidence_review": "pending"
+    "independent_evidence_review": "needs_correction_ledger_only",
+    "independent_evidence_rereview": "pending"
   },
   "unadmitted_development_smoke_history": [
     {
