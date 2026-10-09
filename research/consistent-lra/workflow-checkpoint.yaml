@@ -82,7 +82,7 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 52
+actual_registered_task_assignments: 53
 actual_executable_attempts: 12
 actual_preparation_attempts: 12
 actual_scientific_attempts: 0
