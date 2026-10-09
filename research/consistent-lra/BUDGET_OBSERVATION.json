@@ -624,8 +624,8 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:06:45.133586+00:00",
-  "observed_process_cpu_seconds": 290.816014082,
+  "observed_at": "2026-10-09T12:07:44.107560+00:00",
+  "observed_process_cpu_seconds": 291.91159508199996,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
   "pending_asset_review": null,
@@ -1135,19 +1135,25 @@
     "harness_plan_digest": "0b75fc662c4f12c7eb8eebd9a88508a33107a96d013a7eda8bb6f0aefdf03aab",
     "native_plan_digest": "5ba7572928d27f107e594272644d64ab24f58901bcebf3daf78046ebb100585c",
     "ram_mib_reserved_not_enforced": 256,
-    "released": false,
+    "released": true,
     "scope": "isolated_scalar_software_only_no_matrix_scoring",
     "task": "isolated-scalar-contract-02",
     "wall_seconds_upper_bound": 90,
     "attempts_charged": 1,
-    "execution_status": "reserved_prelaunch_no_process_yet",
+    "execution_status": "completed_engineering_only_pending_independent_evidence_review",
     "prelaunch_observation": {
       "observed_at": "2026-10-09T12:06:45.133511+00:00",
       "cpu_max": "800000 100000",
       "memory_max_bytes": 8589934592,
       "active_matching_processes": [],
       "process_inventory_method": "proc exactargvbasename; ps unavailable"
-    }
+    },
+    "attempt_id": "isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f",
+    "attempts_completed": 1,
+    "release_basis": "terminal completed nestedreceipt and twoallfour postexit hashreadbacks",
+    "waited_process_tree_cpu_seconds": 1.0955809999999997,
+    "actual_harness_wall_seconds": 1.1550496319978265,
+    "maximum_child_rss_kib": 37044
   },
   "window02_stage_b_source_corrections": [
     {

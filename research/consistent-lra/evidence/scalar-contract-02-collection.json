@@ -1,0 +1,192 @@
+{
+  "format": "scalar-contract-postexit-collection-v1",
+  "attempt_id": "isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f",
+  "status": "completed",
+  "rows": 501,
+  "output_readback_boundaries": [
+    [
+      {
+        "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/workspace/evidence/scalar-contract-02/scalar-contract-records.jsonl",
+        "sha256": "7fe34a70e7a7a2a338173db484c316fb123d9f02890a741c05ac126df5e80403",
+        "bytes": 697028
+      },
+      {
+        "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/workspace/evidence/scalar-contract-02/scalar-contract-diagnostics.jsonl",
+        "sha256": "63900cfab3832f0ba98174ad8d18dc2865d4b4c4fefdea5060b02aeeb8853ccf",
+        "bytes": 870462
+      },
+      {
+        "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/workspace/evidence/scalar-contract-02/scalar-contract-summary.json",
+        "sha256": "60742910748a503eebd4dda2ceab76ed684a364a86ce76a74cbd47f02c273e6a",
+        "bytes": 17090
+      },
+      {
+        "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/workspace/evidence/scalar-contract-02/scalar-contract-manifest.json",
+        "sha256": "e5953fe3e59e746f0d1471b9cff663db5f2198f9837f4f28c6ed05d30b411764",
+        "bytes": 863
+      }
+    ],
+    [
+      {
+        "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/workspace/evidence/scalar-contract-02/scalar-contract-records.jsonl",
+        "sha256": "7fe34a70e7a7a2a338173db484c316fb123d9f02890a741c05ac126df5e80403",
+        "bytes": 697028
+      },
+      {
+        "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/workspace/evidence/scalar-contract-02/scalar-contract-diagnostics.jsonl",
+        "sha256": "63900cfab3832f0ba98174ad8d18dc2865d4b4c4fefdea5060b02aeeb8853ccf",
+        "bytes": 870462
+      },
+      {
+        "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/workspace/evidence/scalar-contract-02/scalar-contract-summary.json",
+        "sha256": "60742910748a503eebd4dda2ceab76ed684a364a86ce76a74cbd47f02c273e6a",
+        "bytes": 17090
+      },
+      {
+        "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/workspace/evidence/scalar-contract-02/scalar-contract-manifest.json",
+        "sha256": "e5953fe3e59e746f0d1471b9cff663db5f2198f9837f4f28c6ed05d30b411764",
+        "bytes": 863
+      }
+    ]
+  ],
+  "launcher_usage": {
+    "command": [
+      "python3",
+      "vendor/rsi/scripts/run_harness.py",
+      "plans/harness-scalar-contract-02.json",
+      "--root",
+      "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+      "--execute",
+      "--approved-plan-digest",
+      "0b75fc662c4f12c7eb8eebd9a88508a33107a96d013a7eda8bb6f0aefdf03aab"
+    ],
+    "cwd": "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+    "started_at": "2026-10-09T12:06:49.574015+00:00",
+    "completed_at": "2026-10-09T12:06:50.729067+00:00",
+    "exit_code": 0,
+    "wall_seconds": 1.1550496319978265,
+    "waited_process_tree_cpu_seconds": 1.0955809999999997,
+    "maximum_child_rss_kib": 37044,
+    "cpu_semantics": "RUSAGE_CHILDREN delta for waited harness and reaped descendants; failed/unreaped processes could undercount",
+    "scientific_gate_advanced": false
+  },
+  "files": [
+    {
+      "path": "runs/attempts/isolated-scalar-contract-02/plan.json",
+      "bytes": 14638,
+      "sha256": "bb25e8be0fbd778bae5fe4fc9117ce2b9fc17e3fe6548cdeafd062e637ab03bf"
+    },
+    {
+      "path": "runs/attempts/isolated-scalar-contract-02/receipt.json",
+      "bytes": 17065,
+      "sha256": "5c5ad298429aac0d4d9873757cec26e4c19bf4ea0c98c2c59e255fcbb4292ee4"
+    },
+    {
+      "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/stdout.log",
+      "bytes": 600,
+      "sha256": "25a7bd0c8c0753708c7c7d79a9b2edd7228bcde7d4af8b4c09ddb606ef09d392"
+    },
+    {
+      "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/attempt.json",
+      "bytes": 16181,
+      "sha256": "f3d4eaab287976421cef1bace070471d1f62de5c5ed859345c2117afd1402466"
+    },
+    {
+      "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/process-guard.json",
+      "bytes": 1413,
+      "sha256": "fc2ede4459a37f37e5d1cdff5ce5f5f3c2ee4b4ab4acde2fde95d5935773c73b"
+    },
+    {
+      "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/workspace/evidence/scalar-contract-02/scalar-contract-records.jsonl",
+      "bytes": 697028,
+      "sha256": "7fe34a70e7a7a2a338173db484c316fb123d9f02890a741c05ac126df5e80403"
+    },
+    {
+      "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/workspace/evidence/scalar-contract-02/scalar-contract-diagnostics.jsonl",
+      "bytes": 870462,
+      "sha256": "63900cfab3832f0ba98174ad8d18dc2865d4b4c4fefdea5060b02aeeb8853ccf"
+    },
+    {
+      "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/workspace/evidence/scalar-contract-02/scalar-contract-summary.json",
+      "bytes": 17090,
+      "sha256": "60742910748a503eebd4dda2ceab76ed684a364a86ce76a74cbd47f02c273e6a"
+    },
+    {
+      "path": "runs/attempts/isolated-scalar-contract-02/isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f/workspace/evidence/scalar-contract-02/scalar-contract-manifest.json",
+      "bytes": 863,
+      "sha256": "e5953fe3e59e746f0d1471b9cff663db5f2198f9837f4f28c6ed05d30b411764"
+    },
+    {
+      "path": "runs/harness/isolated-scalar-contract-batch-02/plan.json",
+      "bytes": 906,
+      "sha256": "285c1e06080c9a3cd8eda1467b91bae16e9857ef5a179453a9b3ce31d6e5e5f1"
+    },
+    {
+      "path": "runs/harness/isolated-scalar-contract-batch-02/report.json",
+      "bytes": 2876,
+      "sha256": "8053e09b4b92e4473b84d05709e75185e78374e61ee176df55b58562cac808db"
+    },
+    {
+      "path": "runs/harness/isolated-scalar-contract-batch-02/state.json",
+      "bytes": 2489,
+      "sha256": "af8714269c8c505a727db3db930ef66235ecf6ff83a127a4c8dc9730d249a7d1"
+    },
+    {
+      "path": "runs/harness/isolated-scalar-contract-batch-02/events.jsonl",
+      "bytes": 509,
+      "sha256": "c74761af042ad5a55c79afcd5307980dabff76194a8f1833a7fe6c01b07d0829"
+    },
+    {
+      "path": "runs/harness/isolated-scalar-contract-batch-02/tasks/isolated-scalar-contract-02/execution-context.json",
+      "bytes": 604,
+      "sha256": "627fbcbc445051d084683b1b67fb3c8cf02b69307aeda5a192398aa557c930db"
+    },
+    {
+      "path": "runs/harness/isolated-scalar-contract-batch-02/tasks/isolated-scalar-contract-02/result.json",
+      "bytes": 1575,
+      "sha256": "1a72ecbb1622c88c89b3671fa42cd07b4cfdf2ff04b8c5098e5c07f7f2ad7e84"
+    },
+    {
+      "path": "runs/harness/isolated-scalar-contract-batch-02/tasks/isolated-scalar-contract-02/worker.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/harness/isolated-scalar-contract-batch-02/tasks/isolated-scalar-contract-02/worker.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/harness/isolated-scalar-contract-batch-02/tasks/isolated-scalar-contract-02/task.json",
+      "bytes": 440,
+      "sha256": "7e3ee3a3bbb4a2d79edb90794ea489a128c84996b74cccc548498f149d76ee89"
+    },
+    {
+      "path": "runs/harness/isolated-scalar-contract-batch-02/tasks/isolated-scalar-contract-02/process.json",
+      "bytes": 88,
+      "sha256": "6c8c599b61ab9af32dd685d9407c5d38bd7e576b2b4cecc89e9e6dc37680a04c"
+    },
+    {
+      "path": "evidence/dispatch/scalar-contract-02.json",
+      "bytes": 833,
+      "sha256": "8e63d5d2a502fed5226fc7e956f1547e5c28a81a9fb5e75a5c4399a520218cc1"
+    },
+    {
+      "path": "evidence/dispatch/scalar-contract-02.stdout.log",
+      "bytes": 2876,
+      "sha256": "8053e09b4b92e4473b84d05709e75185e78374e61ee176df55b58562cac808db"
+    },
+    {
+      "path": "evidence/dispatch/scalar-contract-02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scientific_gate_advanced": false,
+  "independent_review_pending": true
+}
