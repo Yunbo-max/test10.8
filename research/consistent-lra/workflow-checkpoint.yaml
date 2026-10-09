@@ -36,7 +36,7 @@ budget_clock_anchor: '2026-10-09T09:15:43Z'
 wall_deadline_utc: '2026-10-09T17:15:43Z'
 background_task_id: 6ac82bb085c081919fa92002384b073b
 background_conversation_id: 6ac827e6-de58-83eb-9487-8a2ab69c90e5
-background_observed_state: restart_prompt_saved_same_task_paused_pending_activation
+background_observed_state: same_task_enabled_prompt_schedule_exact_readback_immediate_pending_bootstrap
 background_control_record: BACKGROUND_TASK.json
 current_step: '2: primary-literature equivalence and remaining native admission gaps after independent formal audits'
 completed:
