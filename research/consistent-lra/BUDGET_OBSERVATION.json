@@ -5,10 +5,10 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T09:51:50.843204+00:00",
+  "observed_at": "2026-10-09T09:55:43.565447+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 81,
-  "executable_attempts_dispatched": 15,
+  "registered_task_assignments": 83,
+  "executable_attempts_dispatched": 16,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
@@ -150,7 +150,9 @@
     "window02-rankone-finite-bound-primary-source-investigation",
     "window02-landmark-stage-a-full-plan-generation",
     "window02-landmark-stage-a-full-plan-review",
-    "window02-landmark-stage-a-full-execution"
+    "window02-landmark-stage-a-full-execution",
+    "window02-geometric-formal-card-integration",
+    "window02-geometric-formal-independent-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -818,18 +820,29 @@
     "ram_mib_reserved_not_enforced": 1024,
     "wall_seconds_upper_bound": 660,
     "attempts_reserved": 1,
-    "attempts_launched": 0,
+    "attempts_launched": 1,
     "released": false,
     "execution_admitted": true,
     "native_plan_digest": "40d656d29755bef4a68b1edcc010ed584989d78d59f79f270e31bc027f7cb8db",
     "harness_plan_digest": "769704bce8bf79c70708c517771d3dbc0c0a439034654dab3084a46b21daca4d",
     "scope": "35_selected_native_identity_oracles_and_5000_update_costs_only_no_performance_matrix",
-    "execution_started": false,
-    "plan_review": "LANDMARK_STAGE_A_FULL_PLAN_REVIEW.md"
+    "execution_started": true,
+    "plan_review": "LANDMARK_STAGE_A_FULL_PLAN_REVIEW.md",
+    "execution_status": "running_through_reviewed_harness"
   },
   "completed_window02_full_plan_review": {
     "assignment": "window02-landmark-stage-a-full-plan-review",
     "commit": "a506c3d717e94a382026f73dee8500375ac773a5",
     "verdict": "accepted_one_native_identity_cost_attempt"
+  },
+  "completed_window02_rankone_source_investigation": {
+    "assignment": "window02-rankone-finite-bound-primary-source-investigation",
+    "restored_source_commit": "feba4921a767e0e4163a4aec1bcb8bed335e445b",
+    "status": "primary_reading_and_full_finite_construction_delivered_pending_independent_review"
+  },
+  "pending_window02_geometric_review": {
+    "assignment": "window02-geometric-formal-independent-review",
+    "artifact": "FORMAL_AUDIT_v5_GEOMETRIC_DRAFT.md",
+    "sha256": "de008df475aba17eb4557fdeb5e7ed57d7843f79dd107ecbed686e40ef717ef5"
   }
 }
