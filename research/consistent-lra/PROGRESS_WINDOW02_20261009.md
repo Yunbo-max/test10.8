@@ -1,11 +1,24 @@
-# CPU research progress — 2026-10-09T11:19:51.366269+00:00
+# CPU research progress — 2026-10-09T12:12:06.239346+00:00
 
-Current step2: authentic native scientific evaluator capability/source gap remains. Within the same bounded authorized project, independently accepted new work includes complete finite Landmark Stage-A v2 raw455oracles/65000timings, constructive integer v7 math with R_Z>2k/15-.01 andall-consecutivecondition<4/259bits atk61, and real-parent k61 exact Fraction certificate with completeindependentarithmeticreadback. Originaltargetwall32.111197714/CPU31.346881/RSS28812KiB; separateverificationCPU13.176209082charged. Complete corrected Stage-B13arm5000prefix scorer source accepted afterpreservedrejection/onecorrection, generated_unexecuted.
+Current step2 native evaluator/source authority gap; independent child work advances
+without scientific gate. Isolated scalar source/plan accepted after recorded
+retention/coverage/lineage correction. Single actual attempt
+isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f completed
+12:06:49.574015–12:06:50.729067Z;501allpass unique rows, fouroutputs, two
+postexit hashes and25exactGitcommitfile readbacks atba35efc546455968927e2b69de2609fbcfbcfe86.
+Wall1.155049632 CPU1.095581 RSS37044KiB; full logs/receipts/diagnostic retained,
+independent128evidence review pending. No matrices recomputed/fullStageB executed.
 
-Counts2controllerrounds113assignments20originalexecutabledispatchattempts0discovery0scientificexperiments0eligiblepapers. CPUlowerbound290.816014082seconds, all executionreservationsreleased; modelreasoning/toolsnotfullymetered and scheduleisnotcontinuousCPU. Remainingcurrentwallbudget21352seconds until17:15:43Z;stopnewwork17:10:43Z. No main/Delta/sharedskill changes, no paidservices/GPU/newdependencies.
+Counts2controllerrounds130assignments21originalattempts0discovery0scientific0papers.
+CPUlowerbound291.911595082s, no unreleasedexecutionreservations. Remaining wall
+18217s until17:15:43Z;stopnewwork17:10:43Z. No continuousCPU claim.
 
-No comparativewinner/paperclaim. Parent/Gate0/IPCG/fullnativebaseline residuals, approx20cardpool/wholepoolranking,G01/nativeE04/prospectiveconfirmation remainactualdependencies. Knownrankone/Cauchymechanism notnovel; v7targetapplicationpriority unresolved, approximate-existence theorem not refuted.
+Primaryaudit114: known2005finite rankone/Cauchy/secular formulas found; conjunction
+priority inconclusive. Accepted v7 math and realk61certificate keptdistinct.
+New integerwitness design130review pending at6f05dbd2890de391f48f83d439009cbfa2d5b4ea,
+exact construction/bits only; no source/execution/scienceclaim yet.
 
-New source/evidence identities: Stage-A evidencebc80f1be00f772a8c462f807444cdd4e2b67de35; v7draft3f8aa6e48335052f93b75e55a4ce3a41311481ca SHA d0f56dbf1ec12c302ad2b42e8ae608a06c9c6c2da63b50da2ee11f6ec8fede79; realtargetevidenceea547dd4c732a01b06969b045866eb03bd906271 JSONL3155810bytesSHA06543277737b9b1777c1d7db585610d95273ebe07ca8cba0c5eca4a2d18ddd07; correctedStageBsource9154c3d171d2579f7feef40318ea8b111994beb8 SHA12fa733061a4ec93983cafeb0fbed7af31b19f85c0d1ab875be8de3803457f5e. Later integrationcommit containsactualindependentreviewrecords andupdated controls, exactreadbackrequired.
-
-Next: targetedprimarypriority/downstreamaudit andsource-firstfinite nearzero derived-metricengineeringqualificationdesign, preservingactualnative-scientificblockeddescendants. Neverrerunacceptedwork orbootstrapimmediaterequest; restoresamegoal/livehead/samebackendidentity, no secondwriter.
+Next: close actualscalar evidence review; accepted integer design can proceed
+to complete source/independentsource/plan/finite execution/evidence. Scientific
+Parent/Gate0/IPCG/fullnativebaselines/G01/20cards/allpoolranking/freshconfirmation
+remain actualpending dependencies. No comparative winner or eligible manuscript.
