@@ -12,6 +12,40 @@ No scientific gate, resource limit or deadline is waived.
 See [migration provenance](MAIN_DELIVERY_AUTHORIZATION_20261009.md).
 
 
+## Latest main snapshot — 2026-10-09T12:33:36Z
+
+Main includes all legacy project evidence through 10f4ce45df5e9ddd9b918c81291204ea5337e928,
+plus the two independent main reviews and the accepted analytic clarification.
+The current counts are 146 unique assignments, 22 executable attempts,
+2 controller rounds, CPU lower bound293.196099082s;
+0 discovery rounds, 0 admitted scientific experiments, 0 eligible papers.
+The integer construction completed256entries/ranks1,2,61, max258bits at61,
+CPU0.420406s/wall1.084132s/RSS30948KiB; independent raw-evidence review is pending.
+Its outputs construct integers; they do not compute recourse or block condition.
+
+[Independent analytic clarification](EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md)
+accepts the [source-bound derivation](EXACT_APPROXIMATE_SEPARATION_MAIN_DRAFT.md):
+on the accepted rank61 final append, retaining the old exact projector incurs
+zero change and less than1% relative excess loss, despite exact optimizers'
+recourse>8. Final update only; no full-stream approximate guarantee or novelty.
+
+[Scorer admission audit](SCORER_ADMISSION_MAIN_AUDIT.md) specifies the genuine
+native reference/contract/live-replay gap. StageB remains unexecuted, source-only.
+[Writer reconciliation](MAIN_WRITER_RECONCILIATION_20261009.md) retains the actual
+legacy attempt without another launch. The already-active legacy worker still
+published after migration; this invocation could not hot-steer it. On next
+resume, pin live main and legacy heads, import only any new legacy project blobs,
+union unique task names and monotonic usage, preserve main authorization and
+other paths. Never rerun the integer witness or its accepted prior preparations.
+The legacy INTEGER_PROJECTOR_CERTIFICATE_DESIGN_WINDOW02.md is a pending exact
+formal certificate design, not an admitted workload. Follow its real review
+and existing owner/receipt identity before dispatch. Deadline17:15:43Z,
+stop opening new work17:10:43Z unchanged; no task launch/retrigger or budget reset.
+
+Historical observations below remain source snapshots; this paragraph and the
+latest BUDGET_OBSERVATION/control fields describe current state.
+
+
 **2026-10-09 restart:** the owner reopened this project using Research Autopilot Auto
 0.2.0-autonomous.2. The new window ends at **18:15:43 Europe/London today**.
 See [restart authorization and exact pending work](RESTART_AUTHORIZATION_20261009.md). Prior results and

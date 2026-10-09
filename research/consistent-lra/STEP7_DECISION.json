@@ -1,6 +1,6 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T12:22:59.462457+00:00",
+  "observed_at": "2026-10-09T12:33:36Z",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
   "decision": 2,
@@ -115,8 +115,10 @@
     "real_parent_k61_exact_arithmetic": "One actual finite target61 command and complete independent decoded-Fraction arithmetic review accepted; all122residues122roots61crossings, bound122/15>8; not fullR/blocksingulars/integerv7validation/nativequalification",
     "constructive_integer_bit_bound": "v7 analytic integerization independentlyaccepted: R_Z>2k/15-.01,consecutive/crossblockkappa<4,entrybits<=4k+ceillog2k+9 (259at61); exponentialmagnitudes,primarypriorityunresolved,nomethod/paperpass",
     "StageB_source": "complete13arm5000prefix source/design accepted afterone recorded correction; trueenergyexcess/roles/16metricendpointmeanmedianmax/28filepacket implemented;unexecuted,noadmission",
-    "scalar_source_plan": "source124 and plan126 independentlyaccepted; actual501rows completed pendingevidence128",
-    "integer_primary_priority": "targeted16query primaryaudit114 finds2005finite Cauchy/secular machinery; applicationpriority inconclusive/no originalitypass"
+    "scalar_source_plan": "accepted501 finite scalar software records only; no native science",
+    "integer_primary_priority": "targeted16query primaryaudit114 finds2005finite Cauchy/secular machinery; applicationpriority inconclusive/no originalitypass",
+    "integer_source": "accepted corrected constructor; actual22nd attempt completed3records256integerentries258maxbits at61; no numeric recourse",
+    "exact_approximate_separation": "independent reviewer accepts real8/(15k-4) and integer514/(960k-257) excess-ratio bounds on final append; k61<1.01 while exact optimizer recourse>8"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
@@ -130,17 +132,18 @@
   "gate_advanced": false,
   "eligible_new_papers": 0,
   "continued_independent_work": [
-    "independent review of actual isolated scalar software501 records; no native-sciencepass",
-    "exact integer witness design/source qualification child of accepted v7; pendingdesignreview"
+    "reconcile legacy integer witness independent evidence/priority/certificate records into main without repeat launch",
+    "complete exact integer projector certificate design review with existing owner before any bounded dispatch",
+    "join loss-dependent approximate theorem/source arguments to the accepted final-update separation; no exact-motion lower-bound overclaim"
   ],
-  "reason_not_terminal": "Finite independent originality/proofscope and software qualification work remains before harddeadline; no duplicate goal, no scientific gate shortcut",
+  "reason_not_terminal": "active legacy work and independent formal certificate/priority/source obligations remain within existing finite deadline; no new goal",
   "next_restore": "pin live main; use legacy b625289 only for immutable provenance; preserve all budgets and outstanding unlaunched integer reservation",
   "note": "In-place worker evidence mapping to pinned RSI return-to-source route; no fabricated controller, official scorer, Gate A pass or paper result.",
   "prior_decision": 2,
   "previous_observation_preserved": "prior Step7 JSON version remains immutable in parent commits including9f65c9aed3d6952e08d7dae6020eb70eb5698db4",
   "historical_runtime_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "active_window_id": "cpu-window-02-20261009",
-  "evidence_commit": "ba35efc546455968927e2b69de2609fbcfbcfe86",
+  "evidence_commit": "a990a23fb2336c9684b1b86f616d44a64dcaf296",
   "window02_current_evidence": [
     {
       "artifact": "FORMAL_AUDIT_v5_REVIEW.md",
@@ -207,5 +210,14 @@
     "Stage_B_source_design": "closed_source_design_only"
   },
   "delivery_branch": "main",
-  "delivery_authorization_record": "MAIN_DELIVERY_AUTHORIZATION_20261009.md"
+  "delivery_authorization_record": "MAIN_DELIVERY_AUTHORIZATION_20261009.md",
+  "current_budget": {
+    "assignments": 146,
+    "attempts": 22,
+    "controller_rounds": 2,
+    "discovery_rounds": 0,
+    "scientific_experiments": 0,
+    "papers": 0,
+    "observed_CPU_lower_bound": 293.196099082
+  }
 }
