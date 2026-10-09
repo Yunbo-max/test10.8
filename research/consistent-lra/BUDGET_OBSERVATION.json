@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T00:27:53.386040+00:00",
+  "observed_at": "2026-10-09T00:31:20.996033+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 10,
   "executable_attempts_dispatched": 1,
@@ -40,7 +40,7 @@
     }
   ],
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
-  "independent_work": "existing-paper formal counterexample, independent symbolic reviews, collision and downstream proof audit",
+  "independent_work": "primary-source collision and sampling qualification after accepted finite and dynamic formal counterexamples",
   "task_assignments": [
     "source_join_review",
     "harness_staging_review",
@@ -58,7 +58,8 @@
     "path": "runs/attempts/source-integrity-01/receipt.json",
     "sha256": "abe68964844ec38e356b6c1573f615ea6319756185361d4a0eedf49dbbb0d378"
   },
-  "remaining_wall_seconds_at_observation": 26391.61396,
+  "remaining_wall_seconds_at_observation": 26184.003967,
   "verified_scientific_failures_by_direction": {},
-  "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run."
+  "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run.",
+  "formal_review_assignments_completed": true
 }

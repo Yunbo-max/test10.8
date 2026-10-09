@@ -1,0 +1,117 @@
+{
+  "format": "consistent-lra-evidence-index-v1",
+  "observed_at": "2026-10-09T00:32:34.072654+00:00",
+  "source_pins": {
+    "RSI": "Yunbo-max/Research_Autopilot@1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
+    "author": "samsonzhou/consistent-LRA@d607c4f6467216c470d1e3b93989d44d5fcdec97"
+  },
+  "immutable_destination_milestones": {
+    "initial_restoration": "276377b9bce7c4d3c6fc2ed4c685d34444731574",
+    "repair_contract_design_source_join": "29b6f8e4c2f2dca1ed40c48b77739710cd1e148a",
+    "code_and_pinned_runner_source": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
+    "prelaunch_plan_and_reservation": "73246d5058e40660bab4c74170c436ae20418243",
+    "raw_preparation_math_reviews_and_62_file_readback": "38b8f456ab60d318e15567f725dbe5db31fe3890",
+    "dynamic_extension_preassignment": "ec82f7d34916be295111e922f75068d56b1cad25",
+    "condition_supplement_preassignment": "ea8abd51aeaca59e433b00922ac871d3b4035fc8"
+  },
+  "artifacts": [
+    {
+      "path": "FORMAL_AUDIT_v1.md",
+      "sha256": "1a67b0c0a17e56f35bdf73217741cd89fc8f1c39e5d8917549885723cb452c31"
+    },
+    {
+      "path": "FORMAL_AUDIT_v2.md",
+      "sha256": "0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477"
+    },
+    {
+      "path": "FORMAL_AUDIT_v2_REVIEW.md",
+      "sha256": "3c40d0973e6fb2bf36e0d50ee6455214c260c9bfb38e7c78aa23364ef407e69c"
+    },
+    {
+      "path": "FORMAL_AUDIT_v3_EXTENSION.md",
+      "sha256": "440edfddc4b9d51a218ea878de78acd1b89b7648bdabdf222c493b3b31331c3c"
+    },
+    {
+      "path": "CONDITION_SCOPE_SUPPLEMENT_DRAFT.md",
+      "sha256": "a283038010597ae8c23846839bbb1202794f67f92c1c35557fcc3fa33cf3546d"
+    },
+    {
+      "path": "FORMAL_EXTENSION_REVIEWS.md",
+      "sha256": "f75014010bc313fb228c67be843745a3348159605e9a55a13860bae29edfaaac"
+    },
+    {
+      "path": "baseline_qualify.py",
+      "sha256": "d5566e2177064d0ddd9f940323ca7d10dfb0d9fef14d93f8ba6d16bde54dd934"
+    },
+    {
+      "path": "native_baselines.py",
+      "sha256": "4d005ff930d4b577569d09cd99f20bb2fc48ad04ba2ac7dfd5351827f278b382"
+    },
+    {
+      "path": "BASELINE_DRAFT_REVIEW.md",
+      "sha256": "88cd24ab5bf1eec2b11165aeb2cc9f34aea33d843ce0553b91c1f1c9b3baef7f"
+    },
+    {
+      "path": "NATIVE_PROTOCOL_DRAFT.md",
+      "sha256": "546d52f622fa7c95dd605a1924a382eba3b6257ec1fd5882e16b1a6f237b94a1"
+    },
+    {
+      "path": "PREPARATION_REVIEW_20261009.md",
+      "sha256": "c55e9eff2bb1bdb2d52004357b7461ba78001625eccade6e057f334f5b453007"
+    },
+    {
+      "path": "evidence/source-integrity-01.json",
+      "sha256": "b5d87432c73b0500cd0e0909aed9e6b50be130c57d39ffd7e6cf1ae9d9bbf0b9"
+    },
+    {
+      "path": "runs/attempts/source-integrity-01/receipt.json",
+      "sha256": "abe68964844ec38e356b6c1573f615ea6319756185361d4a0eedf49dbbb0d378"
+    },
+    {
+      "path": "vendor/rsi/SOURCE_MANIFEST.json",
+      "sha256": "48e1887477d5992fd9adc38a5ed2e5defb729438fcdba160f69c04334b2d2db8"
+    },
+    {
+      "path": "vendor/rsi/SCORER_BLOCKER.md",
+      "sha256": "61a32753f02a26d3e523768ea2b6f300094f0347be55e71ce38b7c4145efb395"
+    },
+    {
+      "path": "RESTORE_BINDINGS.json",
+      "sha256": "e44771fbc5d90add5828d20be8fa8b9d4aeba5197a5030087b5058013af3a1ea"
+    },
+    {
+      "path": "evidence/readback-38b8f456.json",
+      "sha256": "b5dc7bef71bcce39beb3e254c9899c3dc29232c4853aca2627886a760d21b5a8"
+    }
+  ],
+  "actual_usage": {
+    "scientific_numerical_attempts": 0,
+    "executable_preparation_attempts": 1,
+    "registered_assignments": 10,
+    "process_cpu_seconds": 0.190072,
+    "peak_RSS_KiB": 99788,
+    "unreleased_reservations": []
+  },
+  "goal_completion": {
+    "new_method_pool_admitted": false,
+    "independently_verified_empirical_improvements": 0,
+    "eligible_new_papers": 0,
+    "formal_correction_leads": 1,
+    "multiple_paper_goal_complete": false
+  },
+  "window_anchor_utc": "2026-10-08T23:47:45Z",
+  "deadline_utc": "2026-10-09T07:47:45Z",
+  "next_step": 2,
+  "remaining_tasks": [
+    "precise primary mathematical collision audit and citation expansion",
+    "qualified sampling-source assumptions",
+    "authentic runnable official native scorer interface",
+    "Landmark native asset/license",
+    "qualified native references/baselines",
+    "Parent/Gate0/IPCG and complete G01",
+    "approximately20 substantive independently reviewed method cards and whole-pool ranking",
+    "admitted numerical experiments/scientific E04",
+    "prospective confirmation and supported writing"
+  ],
+  "note": "Commit-pinned bytes plus exact readbacks establish saved artifacts; no uninterrupted8hourCPU occupancy or installed canonical RSI controller is asserted."
+}

@@ -1,10 +1,10 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T00:20:33.782905+00:00",
+  "observed_at": "2026-10-09T00:31:20.996033+00:00",
   "rsi_source_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "canonical_controller_run": false,
-  "decision": 3,
-  "action": "revisit existing-paper mathematical premise and downstream proof; audit novelty before claiming a correction paper",
+  "decision": 2,
+  "action": "reread actual primary collision/sampling source and remaining native scorer/data join after scoped mathematics closes",
   "basis": [
     {
       "path": "FORMAL_AUDIT_v2.md",
@@ -16,6 +16,18 @@
         "/root/baseline_audit",
         "/root/execution_capability"
       ]
+    },
+    {
+      "path": "FORMAL_AUDIT_v3_EXTENSION.md",
+      "sha256": "440edfddc4b9d51a218ea878de78acd1b89b7648bdabdf222c493b3b31331c3c"
+    },
+    {
+      "path": "CONDITION_SCOPE_SUPPLEMENT_DRAFT.md",
+      "sha256": "a283038010597ae8c23846839bbb1202794f67f92c1c35557fcc3fa33cf3546d"
+    },
+    {
+      "path": "FORMAL_EXTENSION_REVIEWS.md",
+      "independent_reviewer": "/root/execution_capability"
     }
   ],
   "blocked_descendants": {
@@ -29,11 +41,12 @@
   "gate_advanced": false,
   "eligible_new_papers": 0,
   "continued_independent_work": [
-    "precise target theorem dependencies",
-    "rank-one spectral prior-art equivalence/citation expansion",
-    "possible repaired mathematical statement"
+    "functional prior-art equivalence and citation expansion",
+    "qualified PCP/sampling assumptions",
+    "remaining authentic native scorer and asset access"
   ],
   "reason_not_terminal": "finite productive mathematical/source tasks remain; deadline unchanged",
   "next_restore": "resolve immutable branch head and retained real bytes; never rerun completed preparation or bootstrap immediate request",
-  "note": "This is the in-place worker mapping its actual evidence to the pinned RSI return-to-math route, not a fabricated ACP/SQLite controller receipt or gate verdict."
+  "note": "In-place worker evidence mapping to the pinned RSI return-to-source route. Canonical controller not initialized; no fabricated ACP/SQLite/controller/gate receipt.",
+  "prior_decision": 3
 }

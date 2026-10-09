@@ -50,3 +50,5 @@ Relevant target proofs read: main Algorithm4 argument, Appendix E.1/E.2 and empi
 Canonical FD source read: edoliberty/frequent-directions@691df9edb2ffbc2fdddc2cec3b703a3f1e438d4d, frequentDirections.py blob4bb3500cbea9c81c21cbeea5cd5db60ac4006d3d. Buffer/shrink/get behavior differs from the author variant and has not been parity-qualified.
 
 New primary mathematical source locators, actual reading scopes and unresolved equivalence/novelty questions are in NOVELTY_PRELIMINARY_20261009.md. No source full-text hash is asserted where only web full-text retrieval was available. Repeated target proof in Accelerating Scientific Research with Gemini was read at Theorem7.33 only.
+
+Later formal dependency work is retained in FORMAL_AUDIT_v3_EXTENSION.md, CONDITION_SCOPE_SUPPLEMENT_DRAFT.md and FORMAL_EXTENSION_REVIEWS.md. The specific rank-uniform exact-optimal dynamic Theorem2.2 is contradicted; approximate insertion-only Theorem1.2 is not thereby refuted, although its displayed lemma-dependent proof needs repair. Algorithm4's energy argument is separate. Additional primary-source locators, access caveats and search observations are in LITERATURE_READ_20261009_2.md.
