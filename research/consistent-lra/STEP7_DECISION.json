@@ -1,137 +1,14 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T13:11:36.517314+00:00",
+  "observed_at": "2026-10-09T13:36:16.567279+00:00",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
-  "decision": 2,
-  "action": "return2for original scientific native authority and unresolved conjunction priority; independently route3 for existing-paper HEAVY energy/reweighting premise math audit; no new method/source execution now",
+  "decision": 3,
+  "action": "independent mathematical verification of consequential HEAVY rank-family card before any source/executable design",
   "basis": [
-    {
-      "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
-      "sha256": "004f6ddd287cb45d9eab149fa85ba1f1e45dca15c0905ec2409a96fc1e6f99a5",
-      "verdict": "accepted_after_recorded_needs_correction"
-    },
-    {
-      "path": "LANDMARK_INTEGRITY_EXECUTION_20261009.md",
-      "sha256": "bec72037c615dee114f772415fafe92d4adde5d1ceffba5b601a0b0732cae6e2",
-      "independent_evidence_verdict": "accepted_mechanical_only"
-    },
-    {
-      "path": "AUTHOR_ARCHIVE_SCORER_AUDIT_20261009.md",
-      "sha256": "6ed1195adbdae5a7df7ea77888ad3f23a25406140945703cbcd4b4777c4ab599",
-      "verdict": "accepted_no_hidden_official_scorer"
-    },
-    {
-      "path": "RICE_SKIN_IDENTITY_PLAN_REVIEW.md",
-      "sha256": "247282b69654856aca7683c9f7cf4d674f3428a5d513fee1ec169cd8bc7618c6",
-      "verdict": "accepted_engineering_plan_only"
-    },
-    {
-      "path": "RICE_SKIN_IDENTITY_EXECUTION_20261009.md",
-      "sha256": "af6e9aaf3327ad080e96247db737ccb771be1deca8b10ad66b7a45fbda93b28c",
-      "independent_evidence_verdict": "accepted_selected_prefix_identities_only"
-    },
-    {
-      "path": "FORMAL_AUDIT_v4_REVIEW.md",
-      "independent_reviewer": "/root/integer_density_review",
-      "verdict": "accepted_after_recorded_needs_correction"
-    },
-    {
-      "path": "SAMPLING_SOURCE_QUALIFICATION_REVIEW.md",
-      "independent_reviewer": "/root/sampling_source_review",
-      "verdict": "accepted_after_recorded_needs_correction"
-    },
-    {
-      "path": "LITERATURE_EQUIVALENCE_20261009_3.md",
-      "collision": "known_mechanism_and_growth_prior_art; exact_target_application_inconclusive"
-    },
-    {
-      "path": "RANDOM_FAMILY_IDENTITY_REVIEW.md",
-      "sha256": "94c9c757ce4ef4547376c2ab546bf1869350cd5d53ba43b978dcd106b3f9fee2",
-      "verdict": "accepted_after_recorded_needs_correction"
-    },
-    {
-      "path": "EVALUATOR_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
-      "sha256": "7fc5e1f622cef4f21b1f6a589f87611d035f19e2cb2263d125597266fb2d5e81",
-      "verdict": "accepted_software_semantics_after_recorded_ledger_correction"
-    },
-    {
-      "path": "FD_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
-      "sha256": "c3aba01cda774f7cba77669783647eada8cee9680397ecbc2c5f83a6db2b03b5",
-      "verdict": "accepted_fd_source_semantics_after_dependency_and_time_ledger_corrections"
-    },
-    {
-      "path": "RICE_ALG4_CALIBRATION_EVIDENCE_REVIEW.md",
-      "sha256": "5184b12a37e99c93997460304dad87b5b1d3c2c7e25af7ef92afffb300eb4d5c",
-      "verdict": "accepted_engineering_cost_and_all_prefix_coverage_only"
-    },
-    {
-      "path": "AUTHOR_FD_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
-      "sha256": "5611dbee2372bf9598a8f3c9e43a5001b699e1ac44cd302a6e5b288b72e6ca5e",
-      "verdict": "accepted_after_recorded_data_revision_label_correction"
-    },
-    {
-      "path": "LOWDIM_BASELINE_MATRIX_FINAL_REPAIR_EVIDENCE_REVIEW.md",
-      "reviewed_commit": "f7225f3ef51115a620e4c1e0ec89141be1e27d21",
-      "reviewed_record_sha256": "2e2953d01712bda110e05625f8c89f6282563f5805def5faf384a2ea41a10010",
-      "verdict": "accepted_developmental_baseline_evidence"
-    },
-    {
-      "path": "RANDOM_BASELINE_MATRIX_EVIDENCE_REVIEW.md",
-      "reviewed_commit": "99de82eefb87be6f7e9da66f6b924fb35b801349",
-      "reviewed_tree": "1699dcadf286c7b39051b3ab037be8b10dac0db0",
-      "archive_blob": "8f0595f7fa9a85b0eb6fb7616d404bfb1409fe6d",
-      "archive_sha256": "af9b40bfb131570d1d5868006d0f4193550ba087f6679bb250a65554bab1bb8e",
-      "verdict": "accepted_developmental_prospective_family_evidence"
-    },
-    {
-      "path": "NATIVE_PROTOCOL_DRAFT.md",
-      "sha256": "dc19834b84e118c5a80ba0cd2f89ee2eb28526a595621cf6d0b920959265631d",
-      "review": "NATIVE_PROTOCOL_v2_REVIEW.md",
-      "review_sha256": "64cb7d38d45370be31bd7ab1c883515f297baea15dd6afef677947e9c05f88c7",
-      "verdict": "accepted_documentation_design_only_after_recorded_correction"
-    },
-    {
-      "path": "LANDMARK_REFERENCE_CALIBRATION_EVIDENCE_REVIEW.md",
-      "sha256": "6c0fdde0ec58c0932ecf8f9cfae468311035ad443a4fba99bc50ee9f9ce508c7",
-      "reviewed_commit": "d29281f1ec6f757455c03d95b2aaf645397b53a6",
-      "verdict": "accepted_engineering_exact_reference_cost_and_numerical_agreement_only"
-    },
-    {
-      "path": "NEARZERO_SCALAR_EVIDENCE_REVIEW_WINDOW02.md",
-      "sha256": "24d925c2c1ffa23a47bd8b78bc1cbfc13748371fb921bc354c4dd16aab0ee4c6",
-      "scope": "only explicit independently reviewed property; not native scientific or paper admission"
-    },
-    {
-      "path": "INTEGER_WITNESS_EVIDENCE_REVIEW_WINDOW02.md",
-      "sha256": "f7ae275d01ebaa9f4aa536de8e4dbe370e3d318a428e9c44f70d191b7ad6ceab",
-      "scope": "only explicit independently reviewed property; not native scientific or paper admission"
-    },
-    {
-      "path": "INTEGER_CORRECTION_INDEPENDENT_COLLISION_REVIEW_WINDOW02.md",
-      "sha256": "eefb3614c7505cd294f224888714db1b8492aea6c86d506e8af3f91e66b55fb8",
-      "scope": "only explicit independently reviewed property; not native scientific or paper admission"
-    },
-    {
-      "path": "INTEGER_PROJECTOR_CERTIFICATE_DESIGN_REVIEW_WINDOW02.md",
-      "sha256": "5faa7f8837d38a8d8dcbc89fb80bb4e296366a4d8102f53638788f3fcc0e57d4",
-      "scope": "only explicit independently reviewed property; not native scientific or paper admission"
-    },
-    {
-      "path": "INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md",
-      "sha256": "174982aa76cce1770707908010eb159c5acf4f2d63d9a1ea8dae4505045598ce",
-      "scope": "explicit reviewed existing-paper mathematical property only"
-    },
-    {
-      "path": "APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md",
-      "sha256": "96f0c4e357737ac2a4ce9b637b3c3a6f2f08bb718705b545d31e2e4623d8c605",
-      "scope": "explicit reviewed existing-paper mathematical property only"
-    },
-    {
-      "path": "INTEGER_COUNTEREXAMPLE_CERTIFICATE_WINDOW02.md",
-      "sha256": "a02e39bd3e5158990ca8fd25ae2de6b675f968f397260d21bca7bf65174c2fba",
-      "scope": "explicit reviewed existing-paper mathematical property only"
-    }
+    "Actual163 independently accepted finiteF1 numericalcounterexample at frozen6c002452afccd7deeb6e0c0993a384ce559046b6 withsmall-epsilon/asymptoticlimits",
+    "Actual161 findsclassicalbackwardcollision1997/fullconjunctionpriorityinconclusive",
+    "Actual165 reviewing separatelyfrozen small-epsilonrankfamily atc3b221820ce96f93e1cdecd47a3158f1b0ab8f50; do notpromotedraft"
   ],
   "closed_or_narrowed": {
     "Landmark_asset": "exact bytes/license/full mechanical counts independently accepted",
@@ -178,7 +55,7 @@
   ],
   "reason_not_terminal": "Finite independent originality/proofscope and software qualification work remains before harddeadline; no duplicate goal, no scientific gate shortcut",
   "next_restore": "resolve immutable branch head and retained bytes; never rerun accepted Landmark/Rice/Skin/oracle preparation or bootstrap immediate request",
-  "note": "In-place worker evidence mapping to pinned RSI return-to-source route; no fabricated controller, official scorer, Gate A pass or paper result.",
+  "note": "Planninghandoffonly; no canonicalSQLitecontroller/freshstatisticalconfirmation/scientificadmission; same12round256task128attempt3discovery limits",
   "prior_decision": 2,
   "previous_observation_preserved": "prior Step7 JSON version remains immutable in parent commits including9f65c9aed3d6952e08d7dae6020eb70eb5698db4",
   "historical_runtime_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
@@ -242,24 +119,29 @@
     }
   ],
   "independent_routes": {
-    "output_mitigation": 6,
-    "formal_priority": 2,
-    "new_method_discovery": "blocked_parent_native_baseline_and_gate0_ipcg",
-    "exact_formal_certificate": "closed_finite_k61_only",
-    "explicit_integer_bit_bound": "closed_analytic_proof_only",
-    "Stage_B_source_design": "closed_source_design_only"
+    "route3": "HEAVYfamilyindependentreview",
+    "route2": "jointpriorityandproofsourcepremises",
+    "native_descendants": "blocked"
   },
-  "latest_budget_record": "BUDGET_OBSERVATION.json",
+  "latest_budget_record": {
+    "registered_task_assignments": 165,
+    "original_executable_attempts": 24,
+    "controller_rounds": 2,
+    "discovery_rounds": 0,
+    "admitted_scientific_experiments": 0,
+    "eligible_papers": 0,
+    "observed_CPU_lower_bound": 318.944499767,
+    "remaining_wall_seconds": 13166.432721
+  },
   "next_bounded_independent_work": {
-    "source_priority": "target conjunction and bounded backward citation analysis; no absence-of-search pass",
-    "mathematics": "freeze F.1 quantitative energy/reweighting premise card, independent review before code",
-    "scientific_execution": "blocked authentic faithful native evaluator live capability; fullcomparisons/newmethods pending",
-    "writing": "research evidence note only; eligiblepapers0"
+    "math": "Collectactual165independentreview,retaincorrections/limits",
+    "source": "prioritygapandreweightedintegerpremise remainindependentfutureactions",
+    "native": "blockedtrustedliveofficialreference/parity; StageB neverexecuted"
   },
   "delivery_branch": "main",
   "source_main_commit": "176064b931140da791f58137ee68a37068566f6b",
   "source_legacy_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
   "reconciliation_record": "MAIN_FINAL_PACKET_RECONCILIATION_20261009.md",
-  "registered_task_assignments": 160,
+  "registered_task_assignments": 165,
   "exact_approximate_final_append_only_review": "EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md"
 }

@@ -13,6 +13,12 @@ See [migration provenance](MAIN_DELIVERY_AUTHORIZATION_20261009.md).
 
 
 
+## Current consequential audit — 2026-10-09T13:36:16.567279+00:00
+
+Latest ledger165 unique assignments /24 original executable attempts /2 recorded controller rounds /CPU lower bound318.944499767s. Discovery/native-scientific/paper counts remain0. Independent [finite HEAVY review163](HEAVY_BRANCH_INTEGER_COUNTEREXAMPLE_REVIEW.md) accepts the35rowinteger,R6>sqrt16=4 example underpersistent Algorithm2 semantics; epsilon0.3 doesnotaddressTheorem1.3proofepsilon<.01 or excludeconstantfactorrepair. The [separate small-epsilon rankfamily](HEAVY_BRANCH_INTEGER_RANK_FAMILY_DRAFT.md) atc3b221820ce96f93e1cdecd47a3158f1b0ab8f50 is pendingactual165independentreview, noasymptoticpassyet. [Priority review161](INTEGER_JOINT_PRIORITY_REVIEW_MAIN.md) adds1997mechanismcollision andkeepsjointpriorityinconclusive. Machineplanningroute3,notacanonicalcontrollerexecution. No new numeric job/attempt since theaccepted exact integer61root run.
+
+Remaining3.657hours of samewindow atthisobservation,includingatleast5minutescloseout. Active mathematical review is recorded; futureworkerreconcileitsactualcompletionbeforeduplicating.
+
 ## Reconciled current state — 2026-10-09T13:19:29.618214+00:00
 
 Main and legacy heads were pinned at `176064b931140da791f58137ee68a37068566f6b` and `7286e6d5b301f01ebda45d6fa1387afd9d383906`. Both source snapshots and control hashes are retained in `evidence/recovery/20261009-main-legacy-reconciliation/`. All new legacy source, raw receipts and reviews are imported without changing their history; all main-only artifacts are preserved. Future delivery and recovery use **main**, only `research/consistent-lra/`. The old branch is read-only.
