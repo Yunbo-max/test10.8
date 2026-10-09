@@ -1,0 +1,3 @@
+# Independent rank-family review assignment165
+
+Root-only writer. Review the exact HEAVY_BRANCH_INTEGER_RANK_FAMILY_DRAFT.md at the supplied immutable maincommit. Independently verify primary Algorithm2/F.1/epsilon choice, resetsequenceceil behavior, reachability, HEAVY/epoch/counters, delta inequalities, firsttrigger and unique squared-Frobenius projector movement. Frozen falsifier is the draft last paragraph. No scripts/codeimports/numericaljobs/newdelegation/publication/edits. <=15min same finite window ending17:15:43Z. Return full markdown with source hashes, verified symbolic steps, exact scopes, ACCEPT/NEEDS_CORRECTION/REJECT. Prior163 does not supply this family acceptance.
