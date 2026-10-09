@@ -80,7 +80,7 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 27
+actual_registered_task_assignments: 28
 actual_executable_attempts: 6
 actual_preparation_attempts: 6
 actual_scientific_attempts: 0
@@ -142,4 +142,5 @@ evaluator_semantic_oracle_evidence_initial_review: needs_correction_ledger_preda
 evaluator_semantic_oracle_evidence_rereview: accepted
 fd_semantic_candidate_commit: 0d729ae4d8cf6e5cc0b527bbb9f4c62c4429862e
 fd_semantic_plan_review: needs_correction_dependency_provenance
+fd_semantic_plan_rereview: pending
 fd_semantic_unadmitted_smoke: charged_attempt_invalid_as_evidence

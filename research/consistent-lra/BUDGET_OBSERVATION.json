@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T02:56:59+00:00",
+  "observed_at": "2026-10-09T03:05:46+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 27,
+  "registered_task_assignments": 28,
   "executable_attempts_dispatched": 6,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -89,7 +89,8 @@
     "random-family-identity-rereview",
     "evaluator-semantic-oracle-evidence-review",
     "evaluator-semantic-oracle-evidence-rereview",
-    "fd-semantic-oracle-plan-review"
+    "fd-semantic-oracle-plan-review",
+    "fd-semantic-oracle-plan-rereview"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -185,6 +186,7 @@
   "completed_evaluator_semantic_oracle_evidence_review": "accepted_after_recorded_ledger_needs_correction",
   "pending_fd_semantic_oracle_plan_review": null,
   "completed_fd_semantic_oracle_plan_review": "needs_correction_dependency_provenance",
+  "pending_fd_semantic_oracle_plan_rereview": "fd-semantic-oracle-plan-rereview",
   "unadmitted_development_smoke_history": [
     {
       "direction": "fd_source_semantic_oracles",

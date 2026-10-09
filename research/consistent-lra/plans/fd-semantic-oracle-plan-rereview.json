@@ -1,0 +1,26 @@
+{
+  "format": "scoped-independent-correction-rereview-assignment-v1",
+  "task_id": "fd-semantic-oracle-plan-rereview",
+  "registered_order": 28,
+  "initial_assignment_commit": "c85d44d4ef2598f318a061b840ba211b1255df4b",
+  "initial_verdict": "needs_correction",
+  "corrected_source_candidate": "c052843d6f9d4389659e71c1a17bcf5f722c048f",
+  "corrected_plan_candidate": "f2932a7df6c47bb626cf6cc54cddcc6099d4f63c",
+  "required_corrections": [
+    "record sklearn version loaded through baseline_qualify",
+    "record baseline_qualify.py runtime source hash",
+    "document full installed stack and admission-reservation boundary",
+    "regenerate all affected hashes and both plan digests"
+  ],
+  "review_paths": [
+    "research/consistent-lra/fd_semantic_oracles.py",
+    "research/consistent-lra/FD_SEMANTIC_QUALIFICATION_20261009.md",
+    "research/consistent-lra/FD_SEMANTIC_ORACLE_PLAN_REVIEW.md",
+    "research/consistent-lra/plans/native-fd-semantic-oracles.json",
+    "research/consistent-lra/plans/harness-fd-semantic-oracles.json",
+    "research/consistent-lra/BUDGET_OBSERVATION.json"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "budget_effect": {"registered_task_assignments": 1, "executable_attempts": 0, "scientific_experiments": 0}
+}
