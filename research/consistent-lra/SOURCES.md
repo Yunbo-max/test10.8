@@ -18,7 +18,7 @@ This records actual source reading and source identities, not reproduced experim
 | consistent-lra-skin.py | 9581652064a08f5b282cee83286ec7c72ac0fdad | Full source read by parent and independent audit worker |
 | Rice_Cammeo_Osmancik.arff | 745655b79f4ca46a3a65a0a8653bd792fa6f7c31 | Actual bytes/hash/source-order inspected; numerical qualification pending |
 | Skin_NonSkin.txt | fc58dda2eaf5b1f0d2d8c7924a298cd7d14ba17d | Actual bytes/hash/source-order inspected; numerical qualification pending |
-| landmark.mtx | 4c63060bbefcb38e0c705cea1f883d2fb7121f2c | Directory identity observed; data bytes/access qualification pending |
+| landmark.mtx | 4c63060bbefcb38e0c705cea1f883d2fb7121f2c | Exact root bytes acquired; ZIP copy byte-identical; independent correction rereview and mechanical integrity run pending |
 | consistent-lra-random.py | cfe96c16b699a96720e41cc36ab36a25a45b4627 | Full source read; unseeded integer generator, unscaled |
 | consistent-lra-random-fast.py | 4edc0664ac183391af3a761e429c67947a61cc1e | Full source read; different 3000x100/k20 family |
 
@@ -39,7 +39,7 @@ Current Work identity is supplied by the host context. Real automation identity,
 
 ## Outstanding reading and qualification
 
-Rice/Skin native byte identity, source order, labels and UCI metadata/license have now been inspected. Generator/preprocessing code and relevant proof sections are recorded in SOURCE_JOIN_20261009.md. Remaining: Landmark acquisition/license, original random draw and normalization provenance, authentic native scorer reconciliation, qualified strong/simple baselines, completed collision audit, independent new-method pool review/ranking, full G01, numerical costs/results, scientific E04 and fresh confirmation.
+Rice/Skin native byte identity, source order, labels and UCI metadata/license have now been inspected. Generator/preprocessing code and relevant proof sections are recorded in SOURCE_JOIN_20261009.md. Landmark exact bytes, duplicate archive identity, official metadata and CC-BY-4.0 obligations are recorded in LANDMARK_SOURCE_ACQUISITION_20261009.md; correction rereview and a bounded mechanical integrity run remain pending. Remaining: original random draw and normalization provenance, authentic native scorer reconciliation, qualified strong/simple baselines, completed collision audit, independent new-method pool review/ranking, full G01, numerical costs/results, scientific E04 and fresh confirmation.
 
 ## 2026-10-09 retained evidence and primary-source additions
 

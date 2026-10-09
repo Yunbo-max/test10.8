@@ -1,0 +1,28 @@
+{
+  "format": "scoped-independent-source-correction-rereview-assignment-v1",
+  "task_id": "landmark-source-qualification-correction-rereview",
+  "registered_order": 16,
+  "initial_candidate_commit": "22d6ae44b52489e643495d2b02b550032777b1d5",
+  "initial_assignment_commit": "8bb842c7f92fd7ae92fe06d753186a5246beee32",
+  "initial_verdict": "needs_correction",
+  "corrected_candidate_commit": null,
+  "candidate_paths": [
+    "research/consistent-lra/LANDMARK_SOURCE_ACQUISITION_20261009.md",
+    "research/consistent-lra/inspect_landmark_source.py",
+    "research/consistent-lra/LANDMARK_SOURCE_QUALIFICATION_REVIEW.md"
+  ],
+  "review_questions": [
+    "Is the corrected 34,964,305-byte identity exact and is the root/archive equality supported?",
+    "Does the corrected prefix wording match the frozen author script rather than attribute a separate prefix dataset to SuiteSparse?",
+    "Does the inspector enforce the byte count as well as both hashes and remain strictly mechanical?",
+    "Is the prior needs-correction verdict preserved without being converted into an acceptance?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "native_scoring": false,
+  "budget_effect": {
+    "registered_task_assignments": 1,
+    "executable_attempts": 0,
+    "scientific_experiments": 0
+  }
+}

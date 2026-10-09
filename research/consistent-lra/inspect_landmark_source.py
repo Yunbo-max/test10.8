@@ -10,6 +10,7 @@ from pathlib import Path
 
 
 EXPECTED = {
+    "bytes": 34964305,
     "git_blob": "4c63060bbefcb38e0c705cea1f883d2fb7121f2c",
     "sha256": "29fb87018e59049a52314c847c5ac2a4eaa3b875f7cd8467621fe074fbbc298b",
     "rows": 71952,
@@ -44,6 +45,8 @@ def main():
     start = time.perf_counter()
     source = Path(args.landmark)
     byte_count, git_blob, sha256 = stream_hashes(source)
+    if byte_count != EXPECTED["bytes"]:
+        raise ValueError("Landmark source byte count differs from the frozen author blob")
     if git_blob != EXPECTED["git_blob"] or sha256 != EXPECTED["sha256"]:
         raise ValueError("Landmark source identity differs from the frozen author blob")
 
@@ -139,7 +142,7 @@ def main():
             "coordinate_order_is_column_then_row": coordinate_order_is_column_then_row,
             "adjacent_duplicate_coordinates": adjacent_duplicate_coordinates,
         },
-        "published_prefix": {
+        "author_script_selected_prefix": {
             "rows": 5000,
             "columns": dimensions[1],
             "pattern_entries": first5000_entries,
@@ -149,7 +152,7 @@ def main():
             "nonempty_columns": len(first5000_columns),
             "minimum_pattern_entries_per_row": min(first5000_row_counts),
             "maximum_pattern_entries_per_row": max(first5000_row_counts),
-            "source_order": "first 5000 released rows without reordering or value modification",
+            "source_order": "first 5000 author-script-selected rows without reordering or value modification",
         },
         "official_metadata_counts_match": True,
         "numerical_qualification": False,

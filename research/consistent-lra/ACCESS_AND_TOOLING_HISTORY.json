@@ -14,8 +14,10 @@
       "size_bytes": 34964305,
       "event": "fetch_blob rejected because response body exceeds 8388608 bytes",
       "scientific_attempt": false,
-      "resolved": false,
-      "raw_matrix_not_present": true
+      "resolved": true,
+      "raw_matrix_not_present_in_destination_git": true,
+      "resolution": "read-only partial Git checkout of the frozen author commit; exact root blob and ZIP-embedded copy matched byte-for-byte",
+      "sha256": "29fb87018e59049a52314c847c5ac2a4eaa3b875f7cd8467621fe074fbbc298b"
     },
     {
       "asset": "consistent-lra-random.py and consistent-lra-random-fast.py",

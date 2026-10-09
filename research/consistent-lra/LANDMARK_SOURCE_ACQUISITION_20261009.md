@@ -10,7 +10,7 @@ baseline result.
 - Commit: `d607c4f6467216c470d1e3b93989d44d5fcdec97`
 - Path: `landmark.mtx`
 - Git blob: `4c63060bbefcb38e0c705cea1f883d2fb7121f2c`
-- Observed byte size: 35,342,655 bytes
+- Exact byte size: 34,964,305 bytes
 - SHA256:
   `29fb87018e59049a52314c847c5ac2a4eaa3b875f7cd8467621fe074fbbc298b`
 
@@ -23,8 +23,12 @@ git -C author-consistent-LRA checkout d607c4f6467216c470d1e3b93989d44d5fcdec97 -
 ```
 
 The checkout's Git blob exactly equals the identity already recorded in
-`SOURCES.md`.  The 34 MiB matrix is not duplicated into the destination branch;
-future work can reproduce the exact checkout and verify both hashes.
+`SOURCES.md`.  The same pinned commit also contains `consistent-lra.zip`; its
+embedded `landmark.mtx` is byte-for-byte identical (`cmp` exit 0), with the
+same Git blob, SHA256, byte count and 1,151,246 text lines.  Thus the apparent
+root/archive ambiguity was only a mistaken local size observation, not a
+second data version.  The 34 MiB matrix is not duplicated into the destination
+branch; future work can reproduce the exact checkout and verify both hashes.
 
 ## Embedded and official metadata
 
@@ -36,9 +40,12 @@ The official SuiteSparse page reports the same shape, 1,146,848 numeric
 nonzeros, 4,384 explicit zeros, structural rank 2,673 and numerical rank 2,671.
 The Collection's license page states that the matrices are CC-BY 4.0 and asks
 users to retain matrix metadata, cite the Collection, and disclose
-modifications.  This project will keep the values and row order unchanged; a
-first-5,000-row evaluation must be described as the published prefix rather
-than redistributed as an unlabelled replacement matrix.
+modifications.  This project will keep the values and row order unchanged; the
+author script fixes `n = 5000` and then selects `dataset = all_data[:n]` in
+`consistent-lra-landmark.py` at the frozen author commit.  Consequently, any
+such evaluation must be described as the **author-script-selected first-5,000-
+row prefix**, not as a separately published SuiteSparse matrix and not as an
+unlabelled replacement matrix.
 
 Official source pages inspected 2026-10-09:
 
