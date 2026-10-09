@@ -1,0 +1,25 @@
+{
+  "format": "scoped-independent-formal-review-assignment-v1",
+  "task_id": "integer-density-extension-independent-review",
+  "registered_order": 11,
+  "candidate_path": "research/consistent-lra/FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md",
+  "candidate_commit": "TO_BE_BOUND_TO_PREASSIGNMENT_COMMIT",
+  "base_artifact": {
+    "path": "research/consistent-lra/FORMAL_AUDIT_v2.md",
+    "sha256": "0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477"
+  },
+  "review_questions": [
+    "Does positive cutoff gap make both top-k projectors jointly continuous in the stated matrix and appended-row variables?",
+    "Does strict F>8 plus rational density yield a rational pair preserving uniqueness and the inequality?",
+    "Does common-denominator scaling produce a legal integer row-arrival pair with identical projectors?",
+    "Which dynamic and conditioning implications follow, and which claims about entry magnitude or Theorem 1.3 do not?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "native_scoring": false,
+  "budget_effect": {
+    "registered_task_assignments": 1,
+    "executable_attempts": 0,
+    "scientific_experiments": 0
+  }
+}
