@@ -1,0 +1,11 @@
+# Independent exact-certificate calibration evidence
+
+Assignment106 window02-exact-geometric-calibration-evidence-review, reviewer /root/window02_consecutive_condition_review. Fixed57af231039fd676b98dd1142f89fdc1d690c79f6 recovered by git fetch/git show: all23 files104711bytes, all19 unique declared refs match (summary output relative to attempt workspace). No certificate source import/rerun/new launch/publication. Verdict ACCEPT ranks1,2,8 finite exact-calibration evidence only.
+
+Accepted source cb16d104... and native/outer hashes/digests unchanged. Attemptformal-geometric-cost-a1-6febbe83118347dd8b92cfaf31f48560, retry0, completed exit0, exactargv1 2 8, fiveenv1, CPU-only/emptyCUDA; state/report/receipt/guard/taskresult agree. Worker143780 andguard143782 absent. Eventlog informational launcher_pid6 differs; use actual matching process/context/guard identities for ownership. JSONL22977B SHA f62ffd77c3442977be113b1592e32e6905eb107ef5c188577f998b91c6f76348; summary1340B SHA87f8b5586ec3eccd0189e4532ecb94c33c0ee554634bb128610268ab4e18d1d0. Both postexit checks match; closely spaced repetitions are not future immutability proof.
+
+Reviewer independently decoded all three Fraction records and checked exact spectral inventories, residue products/positivity, secular roots, product derivatives/normalization, every matched crossing>1/15, sum lower bound, trace and v6 scalar premises. Full recourse/blocksingular values uncomputed; native/novelty false. Stdout exactly3rank completions/matching summaryhash; stderr empty.
+
+Wholecaller wall1.073607068s, waitedharness/descendantCPU.207520s, maxchildRSS16384KiB. ScriptCPU.005059273/wall.005061385, rank8CPU.003550209; scripttimers excludeimports/finalsummarypublication, wholecaller figures govern charge, maxchildRSS not summed concurrentmemory. Ledger106assignments19attempts246.292924CPUlowerbound0science; onecompletedlaunchreservationreleased, oldfailuresretained.
+
+May prepare fresh independently reviewed target61 plan, suggested300inner/360outerseconds1CPU512MiBreserved not OSenforced, oneattempt0retry. This is boundedallocation, not runtime/memory guarantee fromrank8. No targetlaunch/generalproof/native/novelty/paperadmission here.

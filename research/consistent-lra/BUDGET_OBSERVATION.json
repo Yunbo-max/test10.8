@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T10:55:58.076318+00:00",
+  "observed_at": "2026-10-09T10:58:11.239579+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 106,
+  "registered_task_assignments": 108,
   "executable_attempts_dispatched": 19,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -186,7 +186,9 @@
     "window02-geometric-explicit-integer-bit-bound-derivation",
     "window02-geometric-explicit-integer-bit-bound-independent-review",
     "window02-exact-geometric-calibration-execution",
-    "window02-exact-geometric-calibration-evidence-review"
+    "window02-exact-geometric-calibration-evidence-review",
+    "window02-exact-geometric-target61-plan-generation",
+    "window02-exact-geometric-target61-plan-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -1029,7 +1031,7 @@
     "harness_plan_digest": "efaf6cc61a8bcfd37a89ba8b5bdaf0169362aa1118718a1cc1f299975ef93aad",
     "plan_review": "FORMAL_CERTIFICATE_CALIBRATION_PLAN_REVIEW_WINDOW02.md",
     "attempts_charged": 1,
-    "execution_status": "completed_pending_independent_evidence_review",
+    "execution_status": "accepted_ranks1_2_8_finite_arithmetic_and_cost_only",
     "prelaunch_observation": {
       "observed_at": "2026-10-09T10:52:31.598733+00:00",
       "cpu_max": "800000 100000",
@@ -1055,10 +1057,7 @@
     "verdict": "accepted_one_calibration_ranks1_2_8_only",
     "record": "FORMAL_CERTIFICATE_CALIBRATION_PLAN_REVIEW_WINDOW02.md"
   },
-  "pending_window02_exact_certificate_calibration_evidence_review": {
-    "assignment": "window02-exact-geometric-calibration-evidence-review",
-    "status": "actualcompleted_two_outputs_waiting_fixed_commit_review"
-  },
+  "pending_window02_exact_certificate_calibration_evidence_review": null,
   "completed_window02_explicit_integer_derivation": {
     "assignment": "window02-geometric-explicit-integer-bit-bound-derivation",
     "author": "/root/window02_geometric_formal_review",
@@ -1066,5 +1065,28 @@
     "draft_sha256": "d0f56dbf1ec12c302ad2b42e8ae608a06c9c6c2da63b50da2ee11f6ec8fede79",
     "status": "author_derivation_delivered_pending_independent_review",
     "scientific_gate_advanced": false
+  },
+  "completed_window02_exact_certificate_calibration_evidence_review": {
+    "assignment": "window02-exact-geometric-calibration-evidence-review",
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "commit": "57af231039fd676b98dd1142f89fdc1d690c79f6",
+    "verdict": "accepted_ranks1_2_8_finite_arithmetic_and_cost_only",
+    "record": "FORMAL_CERTIFICATE_CALIBRATION_EVIDENCE_REVIEW_WINDOW02.md"
+  },
+  "pending_window02_exact_certificate_target_plan_review": {
+    "assignment": "window02-exact-geometric-target61-plan-review"
+  },
+  "window02_formal_certificate_target_reservation": {
+    "task": "formal-geometric-target61-02",
+    "purpose": "finite_exact_real_parent_arithmetic_audit_only_not_integer_v7_proof_or_native_benchmark",
+    "cpu_cores": 1,
+    "ram_mib_reserved_not_enforced": 512,
+    "wall_seconds_upper_bound": 360,
+    "attempts_reserved": 1,
+    "attempts_launched": 0,
+    "released": false,
+    "execution_admitted": false,
+    "native_plan_digest": "e1bb32d285072d95b723bb6aa0f019586b7c2294ed84b0f558980923b792707d",
+    "harness_plan_digest": "34deb544034d52ad591e6f1be2de2e7fe2e8e915be085fc7abe5cd6a36f362f9"
   }
 }
