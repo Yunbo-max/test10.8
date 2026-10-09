@@ -87,7 +87,7 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 70
+actual_registered_task_assignments: 73
 actual_executable_attempts: 14
 actual_preparation_attempts: 14
 actual_scientific_attempts: 0
@@ -373,3 +373,8 @@ prior_window_closeout: RUN_CLOSEOUT_20261009.md
 restart_is_new_scientific_iteration: false
 new_scientific_attempts_this_restart: 0
 restart_next_action: qualify_Landmark_Stage_A_and_bound_all_arm_cost_before_Stage_B
+
+window02_round_observation: 2
+window02_stage_a_source: landmark_stage_a.py
+window02_stage_a_source_status: generated_unexecuted_pending_independent_review
+window02_scorer_scope_review: WINDOW02_SCORER_SCOPE_REVIEW.md

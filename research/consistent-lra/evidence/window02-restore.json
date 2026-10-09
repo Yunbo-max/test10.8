@@ -1,0 +1,59 @@
+{
+  "source_commit": "5441d7d517bb3f82f517dfd2c8334ccf6e018df2",
+  "fetched_from_GitHub": true,
+  "control_refs": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "43a8e318acb19023d358f2de82eb1da3735baf22b2e18a876b9015dcfa9eaca2"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5842cb8bf153299f70f6c25e62ea6618bf84542a0ca9388899a39e02bc154700"
+    },
+    {
+      "path": "GOAL.md",
+      "sha256": "4bd240cc4777ae298eda7b3d0e14c24658b0c30fead41de78de26f0feccef094"
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "0cef959a209ad03840f6e9b3637e4adf9acea259db59f0789ab6706307c8b6cd"
+    },
+    {
+      "path": "BASELINE_AUDIT.md",
+      "sha256": "7de6b86ce2a840317b0b51eb36ca3249c7b289feedc7fef5847fde791226ab98"
+    },
+    {
+      "path": "EXECUTION_SCOPE.md",
+      "sha256": "d307d8dfaf7205de01f3f3a60eaf7a5118afb04468584e52dc486eda0cad637e"
+    },
+    {
+      "path": "BACKGROUND_TASK.json",
+      "sha256": "3990ddaba01a9dbfa833b6d2bd8d914f93d1e26f2067e73a35d4e365c3fcc1ca"
+    },
+    {
+      "path": "RESTART_AUTHORIZATION_20261009.md",
+      "sha256": "3f394b1c3ca11b80d54a98b9ddabf5a67b77f210861151f2850b4a2995532c71"
+    },
+    {
+      "path": "LANDMARK_BASELINE_MATRIX_DESIGN_CANDIDATE.md",
+      "sha256": "c6b5d2525a87d278f3ad90b2b69045478e4690c66c10459ab16ea574bee11083"
+    },
+    {
+      "path": "LANDMARK_BASELINE_MATRIX_DESIGN_REVIEW.md",
+      "sha256": "42160d6f420599cd5f7d0c07e9b1f10409fc60c979184ce0a12c314b6ae31fb5"
+    },
+    {
+      "path": "LANDMARK_REFERENCE_CALIBRATION_EVIDENCE_REVIEW.md",
+      "sha256": "6c0fdde0ec58c0932ecf8f9cfae468311035ad443a4fba99bc50ee9f9ce508c7"
+    }
+  ],
+  "native_source": {
+    "repo": "samsonzhou/consistent-LRA",
+    "commit": "d607c4f6467216c470d1e3b93989d44d5fcdec97",
+    "reacquired_via": "git fetch immutable commit then git show landmark.mtx",
+    "sha256": "29fb87018e59049a52314c847c5ac2a4eaa3b875f7cd8467621fe074fbbc298b",
+    "bytes": 34964305
+  },
+  "workflow_plugin": "plugins_6ac8ad1eb9648191a0b6c1941de5d6b2@0.2.0-autonomous.2",
+  "runtime_source": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc"
+}

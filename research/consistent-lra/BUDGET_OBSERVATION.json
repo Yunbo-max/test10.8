@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T09:16:50Z",
-  "controller_rounds": 1,
-  "registered_task_assignments": 70,
+  "observed_at": "2026-10-09T09:29:02.719209+00:00",
+  "controller_rounds": 2,
+  "registered_task_assignments": 73,
   "executable_attempts_dispatched": 14,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -139,7 +139,10 @@
     "landmark-baseline-matrix-design-correction-rereview",
     "landmark-baseline-matrix-design-final-rereview",
     "bounded-window-closeout-consistency-review",
-    "cpu-window-02-explicit-restart-bootstrap"
+    "cpu-window-02-explicit-restart-bootstrap",
+    "window02-scorer-scope-independent-review",
+    "window02-landmark-stage-a-source-generation",
+    "window02-landmark-stage-a-source-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -150,7 +153,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 28733,
+  "remaining_wall_seconds_at_observation": 28000.280791,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -756,5 +759,13 @@
     "memory_max_bytes": 8589934592,
     "no_scientific_process_observed": true,
     "inventory_is_not_reservation": true
+  },
+  "current_round": "window02-native-landmark-qualification",
+  "completed_window02_scorer_scope_review": "accepted_source_scope_diagnosis_no_scientific_gate",
+  "pending_window02_source_review": {
+    "assignment": "window02-landmark-stage-a-source-review",
+    "source": "landmark_stage_a.py",
+    "sha256": "d8ea3977059594604b69cfe96bfbb781a7e2b7a362589569a7340c283b19294e",
+    "status": "pending_actual_independent_assignment"
   }
 }
