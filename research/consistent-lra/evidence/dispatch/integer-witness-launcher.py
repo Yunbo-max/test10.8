@@ -1,6 +1,6 @@
 import datetime, json, resource, subprocess, time
 from pathlib import Path
-command = ["python3", "vendor/rsi/scripts/run_harness.py", "plans/harness-integer-witness-02.json", "--root", str(Path.cwd()), "--execute", "--approved-plan-digest", "dfe021e08f7687965dfbe6b419266ca04fc1ce0c5d76c8cc957eb5406ee0d095"]
+command = ["python3", "vendor/rsi/scripts/run_harness.py", "plans/harness-integer-witness-02.json", "--root", str(Path.cwd()), "--execute", "--approved-plan-digest", "aca5500a34085d81ccecddea8c740e8a982be3c429681bc401197af06a8baf97"]
 prefix = Path("evidence/dispatch/integer-witness-02")
 started_at = datetime.datetime.now(datetime.timezone.utc).isoformat()
 start = time.monotonic()

@@ -244,6 +244,14 @@
     "reviewer": "/root/window02_consecutive_condition_review",
     "verdict": "accepted_existing_v7_witness_source_generation_only"
   },
+  "completed_window02_integer_witness_source_review": {
+    "assignment_number": 136,
+    "commit": "b62528927acd3a8771fb5269fc1fc945b717eed1",
+    "record": "INTEGER_WITNESS_SOURCE_REVIEW_WINDOW02.md",
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "source_sha256": "1e77d985b4b2d1f4ed294dcea7afdce9b2c3c4fae31f81fbea548c6e268e8b8e",
+    "verdict": "accepted_corrected_source_only"
+  },
   "completed_window02_mitigation_source_review": {
     "assignment": "window02-landmark-stage-a-output-mitigation-source-correction-review",
     "commit": "703fea4d28993233fdf38e1a5b8696c2dc551f1d",
@@ -654,7 +662,7 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:18:20.259593+00:00",
+  "observed_at": "2026-10-09T12:20:49.892712+00:00",
   "observed_process_cpu_seconds": 292.775693082,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -690,11 +698,7 @@
     "execution_admitted": false,
     "reviewer": "/root/window02_consecutive_condition_review"
   },
-  "pending_window02_integer_witness_source_review": {
-    "assignment_number": 136,
-    "reviewer": "/root/window02_consecutive_condition_review",
-    "execution_admitted": false
-  },
+  "pending_window02_integer_witness_source_review": null,
   "pending_window02_mitigation_source_review": null,
   "pending_window02_nearzero_design": null,
   "pending_window02_nearzero_source": null,
@@ -1145,20 +1149,38 @@
     "waited_process_tree_cpu_seconds": 31.346880999999996,
     "wall_seconds_upper_bound": 360
   },
+  "window02_integer_witness_plan_history": [
+    {
+      "commit": "d1415ea514c3f1e884628c28604b9a323faac8be",
+      "harness_digest": "dfe021e08f7687965dfbe6b419266ca04fc1ce0c5d76c8cc957eb5406ee0d095",
+      "native_digest": "a0d30b85f2168c7dc4bb91a2b7c8ddcc48b9b358980d524d3b382a8feabb93d1",
+      "status": "unexecuted draft invalidated by source rejection; originalimmutable retained"
+    }
+  ],
   "window02_integer_witness_reservation": {
     "attempts_launched": 0,
     "attempts_reserved": 1,
     "cpu_cores": 1,
     "execution_admitted": false,
-    "harness_plan_digest": "dfe021e08f7687965dfbe6b419266ca04fc1ce0c5d76c8cc957eb5406ee0d095",
-    "native_plan_digest": "a0d30b85f2168c7dc4bb91a2b7c8ddcc48b9b358980d524d3b382a8feabb93d1",
+    "execution_status": "unlaunched correctedsource accepted pendingactual134planreview",
+    "harness_plan_digest": "aca5500a34085d81ccecddea8c740e8a982be3c429681bc401197af06a8baf97",
+    "native_plan_digest": "3db894cffd06776ec58513867dc17559c6d9cf53be4b3d35df62f8feb0382905",
     "ram_mib_reserved_not_enforced": 256,
     "released": false,
     "scope": "existing_lemma_exact_integer_construction_no_matrix_evaluation",
     "task": "exact-integer-witness-02",
-    "wall_seconds_upper_bound": 90,
-    "execution_status": "unlaunched source132rejection; futureplanrebind required"
+    "wall_seconds_upper_bound": 90
   },
+  "window02_integer_witness_source_corrections": [
+    {
+      "assignment_number": 132,
+      "commit": "e090716f8febd36360821100d39330b9ab02f45f",
+      "failure_signature": "missing intended output identity and no-success-summary failure isolation",
+      "qualification_executed": false,
+      "scientific_failure": false,
+      "source_repair_count": 1
+    }
+  ],
   "window02_mitigation_source_corrections": [
     {
       "commit": "d38f1946e594bd7549064f00d118bb93d160e76c",
@@ -1344,15 +1366,5 @@
     "package": "c23/research-autopilot",
     "source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
     "version": "0.2.0-autonomous.2"
-  },
-  "window02_integer_witness_source_corrections": [
-    {
-      "assignment_number": 132,
-      "commit": "e090716f8febd36360821100d39330b9ab02f45f",
-      "failure_signature": "missing intended output identity and no-success-summary failure isolation",
-      "source_repair_count": 1,
-      "qualification_executed": false,
-      "scientific_failure": false
-    }
-  ]
+  }
 }

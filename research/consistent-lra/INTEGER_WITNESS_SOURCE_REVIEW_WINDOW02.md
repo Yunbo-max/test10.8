@@ -15,3 +15,17 @@ ascendingorder/ranks1,2,61/3records256integers/positivity/entrybits/hexintermedi
 sparsereconstruction/non-scientificflags. Cost unmeasured; script scope excludes
 imports/finalpublicationchecks, eventualwholeharness costs govern charging.
 Corrected source invalidates draftedoldplan codehash; independently replanreview.
+
+
+## Actual136 correction review — ACCEPT sourceonly
+
+Independent /root/window02_consecutive_condition_review restored immutable
+b62528927acd3a8771fb5269fc1fc945b717eed1 connector+completedGitfetch/show.
+Source10913B SHA1e77d985b4b2d1f4ed294dcea7afdce9b2c3c4fae31f81fbea548c6e268e8b8e.
+Intended encodedrows contributehash/lengthbeforewriting; partial/final mustmatch;
+decodedrecords equalconstructedrows,ranks1,2,61/3records/256entries checked
+before summary. Caughtlatefailure preserves successsummary viafailedhardlink,
+readback/removesuccessname/dirsync/contextnonzero;filesystemfailureisfailure.
+Arithmetic/rounding/rankinventory/inputpins/claimflags unchanged,stdlibonly.
+No import/run/edit/publication. Original132reject preserved. Futureplan mustbind
+correctedhash; independentplan/evidence stillrequired,no scientificpass.
