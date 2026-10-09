@@ -3,7 +3,7 @@
   "task_id": "integer-density-extension-correction-re-review",
   "registered_order": 13,
   "candidate_path": "research/consistent-lra/FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md",
-  "candidate_commit": null,
+  "candidate_commit": "e6ca030dae13084a116659a78d8f1e680e862b95",
   "prior_candidate_commit": "8f35727ad9e096e58936d30437285d01321793ee",
   "prior_verdict": "needs_correction",
   "review_questions": [
