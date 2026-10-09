@@ -1,0 +1,27 @@
+{
+  "format": "scoped-independent-correction-rereview-assignment-v1",
+  "task_id": "evaluator-semantic-oracle-evidence-rereview",
+  "registered_order": 26,
+  "corrected_candidate_commit": "a63878b314df9113bc2c60a2dcd8656cf7207e3c",
+  "initial_evidence_candidate_commit": "31970ea931048e833ef883c273f223da25660fe7",
+  "initial_review_binding": "aab8a9f997422ac5f2cd8b8c6b67543f65740a9f",
+  "initial_review": "research/consistent-lra/EVALUATOR_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
+  "correction_scope": [
+    "monotonically update registered assignments from 20 to 25 before this rereview assignment",
+    "monotonically update executable preparation attempts from 4 to 5",
+    "add exact in-process CPU, wall, guarded attempt, harness and RSS usage",
+    "record released reservation with completed-harness-plus-ledger basis and no separate release receipt",
+    "preserve all raw execution bytes and initial needs_correction history"
+  ],
+  "review_paths": [
+    "research/consistent-lra/BUDGET_OBSERVATION.json",
+    "research/consistent-lra/workflow-checkpoint.yaml",
+    "research/consistent-lra/EVALUATOR_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
+    "research/consistent-lra/EVALUATOR_SEMANTIC_ORACLE_EXECUTION_20261009.md",
+    "research/consistent-lra/runs/attempts/evaluator-semantic-oracles-01/receipt.json",
+    "research/consistent-lra/runs/harness/evaluator-semantic-mechanical-01/report.json"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "budget_effect": {"registered_task_assignments": 1, "executable_attempts": 0, "scientific_experiments": 0}
+}
