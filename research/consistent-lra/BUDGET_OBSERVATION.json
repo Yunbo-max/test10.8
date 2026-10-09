@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T09:45:59.758198+00:00",
+  "observed_at": "2026-10-09T09:48:50.165926+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 78,
+  "registered_task_assignments": 80,
   "executable_attempts_dispatched": 15,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -147,7 +147,9 @@
     "window02-landmark-stage-a-calibration-plan-review",
     "window02-landmark-stage-a-calibration-execution",
     "window02-landmark-stage-a-calibration-evidence-review",
-    "window02-rankone-finite-bound-primary-source-investigation"
+    "window02-rankone-finite-bound-primary-source-investigation",
+    "window02-landmark-stage-a-full-plan-generation",
+    "window02-landmark-stage-a-full-plan-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -158,7 +160,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 27300.967752,
+  "remaining_wall_seconds_at_observation": 26812.834074,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -800,7 +802,26 @@
     "commit": "4052a9686c7910366611d0b889626e98c51ea2ae",
     "verdict": "accepted_one_calibration_only"
   },
-  "pending_window02_calibration_evidence_review": "window02-landmark-stage-a-calibration-evidence-review",
+  "pending_window02_calibration_evidence_review": null,
   "stage_b_execution_admitted": false,
-  "stage_b_blocker": "scientific_native_protocol_official_scorer_live_capability_missing; cannot dispatch as engineering"
+  "stage_b_blocker": "scientific_native_protocol_official_scorer_live_capability_missing; cannot dispatch as engineering",
+  "completed_window02_calibration_evidence_review": {
+    "assignment": "window02-landmark-stage-a-calibration-evidence-review",
+    "evidence_commit": "88df0eef2a37251fc4847642d9d4a6759a421f3a",
+    "verdict": "accepted_native_identity_and_cost_only"
+  },
+  "pending_window02_full_plan_review": "window02-landmark-stage-a-full-plan-review",
+  "window02_stagea_full_reservation": {
+    "task": "landmark-stage-a-qualification-02",
+    "cpu_cores": 1,
+    "ram_mib_reserved_not_enforced": 1024,
+    "wall_seconds_upper_bound": 660,
+    "attempts_reserved": 1,
+    "attempts_launched": 0,
+    "released": false,
+    "execution_admitted": false,
+    "native_plan_digest": "40d656d29755bef4a68b1edcc010ed584989d78d59f79f270e31bc027f7cb8db",
+    "harness_plan_digest": "769704bce8bf79c70708c517771d3dbc0c0a439034654dab3084a46b21daca4d",
+    "scope": "35_selected_native_identity_oracles_and_5000_update_costs_only_no_performance_matrix"
+  }
 }

@@ -1,0 +1,18 @@
+# Independent calibration evidence acceptance
+Assignment:window02-landmark-stage-a-calibration-evidence-review
+Reviewer:/root/window02_stagea_source_review
+Fixed reviewed commit:88df0eef2a37251fc4847642d9d4a6759a421f3a.
+Verdict:ACCEPT actual bounded native numerical identities and cost only.
+
+Exact gitshow read all26publishedinventoryfiles,includingbinarygzip,and verifiedactualremoteSHA256/lengths. No numericalworkload rerun. Plans digests/actualargv/guardargv match approvedscope;oneattempt,retry0,exit0,completedguard/harness/receipt. Envthreads1,CUDAempty,recordedworkerPIDabsent;reservationrelease accepted. Gzipcompressed/plainhashes,lengths/rowcounts consistent,exact28x13oracles/150x13timings. Bases259columns,min(25,t)rank,previousrank/prefixcorrect;prevbasesat2..25 equalprecedingcurrentbases. Recordedscalaridentitydifferences,clipping/init/tolerances and perarm aggregates agree.
+
+Receipt SHA2562fda337ff5c43ac24ecc0a17569f17955f546bbbb30e0c20f47ddfcfb9c9b7d4.
+Summary SHA2568dc333232ddf5ece324f622c0af55d62efd6a10843c40d29fa0881f7bbfa3b6c.
+Oracle gzipdd826c3a06f82424fceb76623b353ab840d98a8593e744699dcc4a6988d86fd5.
+Timing gzipe4831c96fbdcc9f3b7751247ab5df47dc76668c8d13681aea94aa88cbeb42ed2.
+Guardb7ec50d43091ede6d50e3e3a00d94919ea4fe6a9f7420f3dfa28cf7e2743ec8e.
+
+Maxima:OPT5.329070518200751e-15,loss3.243932900076629e-14,recourse4.1435604947182014e-14,orthogonality1.7648683511401987e-14.
+Callerwall8.170636s,waitedprocessCPU7.740773s,RSS168348KiB. ScriptnarrowCPU5.476436s,pipelinepresummary5.607433s,RSS148032KiB. Neither costscope claims uninterruptedCPUresidence.
+
+Recommended independentfullplan envelope:600sinner/660souter,onecore/thread,1024MiBreserved notenforced. Sumobservedperarmmaxupdate0.063374055s times5000=316.87s planningcomponent;~283s remaininginnerbudgetfordirectoracles/serialization/overhead. This is a timeout allocation,notprovenruntimeupperbound. Fullinputwasloaded;largerdirectoracletemporariesremainfutureaccounting. FullStageA,StageB,nearzero ratios,official/nativeevaluatorqualification,scientificgate/effectiveness remainpending.
