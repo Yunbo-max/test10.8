@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T03:18:40+00:00",
+  "observed_at": "2026-10-09T03:30:09+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 30,
+  "registered_task_assignments": 32,
   "executable_attempts_dispatched": 7,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -92,7 +92,9 @@
     "fd-semantic-oracle-plan-review",
     "fd-semantic-oracle-plan-rereview",
     "fd-semantic-oracle-evidence-review",
-    "fd-semantic-oracle-evidence-rereview"
+    "fd-semantic-oracle-evidence-rereview",
+    "rice-alg4-cost-calibration-plan-review",
+    "rice-alg4-cost-calibration-plan-rereview"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -103,7 +105,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 16145,
+  "remaining_wall_seconds_at_observation": 15455,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -224,6 +226,22 @@
     "receipt_sha256": "02676afa9a50320d5756e18ddf3cc0e7708f9949499ff9149059aea9b20175ea",
     "output_sha256": "8dc34bdced536cadbef966182f759e941e3725f8f400c9d09f780d82a1ee507b"
   },
+  "rice_alg4_cost_calibration_reservation": {
+    "task": "native-rice-alg4-c2p5-calibration-01",
+    "purpose": "engineering_native_cost_and_prefix_coverage_only",
+    "cpu_cores_reserved": 1,
+    "ram_mib_reserved_not_enforced": 512,
+    "wall_seconds_upper_bound": 120,
+    "cpu_seconds_upper_bound": 90,
+    "attempts_reserved": 1,
+    "retries": 0,
+    "released": false,
+    "native_plan_digest": "3478d69f2387ed65c06e382859fb579d65891822cada6cfd6b281b435b9a461c",
+    "harness_plan_digest": "3d501cb5b10c3a1e40e377737bc37eef00eda2e56326b3e6a55e73cd931b8d5b",
+    "plan_review": "accepted_after_recorded_thread_binding_correction",
+    "scientific_experiment": false,
+    "performance_claim_eligible": false
+  },
   "pending_fd_semantic_oracle_evidence_review": null,
   "completed_fd_semantic_oracle_evidence_review": "accepted_after_recorded_time_ledger_correction",
   "pending_fd_semantic_oracle_evidence_rereview": null,
@@ -244,7 +262,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T03:08:34+00:00",
+    "observed_at": "2026-10-09T03:29:30+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
@@ -252,6 +270,7 @@
     "scientific_job_launched": false,
     "mechanical_preparation_job_completed": true,
     "evaluator_semantic_oracle_job_completed": true,
-    "fd_semantic_oracle_job_completed": true
+    "fd_semantic_oracle_job_completed": true,
+    "rice_alg4_cost_calibration_launched": false
   }
 }
