@@ -1,0 +1,2101 @@
+{
+  "format": "consistent-lra-lowdim-existing-baseline-matrix-v3",
+  "scope": "developmental project-repair baseline qualification only",
+  "cohorts": [
+    {
+      "name": "rice-k1",
+      "dataset": "rice",
+      "k": 1,
+      "dimension": 7,
+      "native_identity": {
+        "dataset": "rice",
+        "source_blob": "745655b79f4ca46a3a65a0a8653bd792fa6f7c31",
+        "source_sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+        "source_bytes": 427635,
+        "released_shape": [
+          3810,
+          7
+        ],
+        "denominator": 3000,
+        "preprocessing": "full_released_data_sklearn_scale_ddof0_before_prefix",
+        "transformed_sha256": "d8a555f93e53cf5de0c2472a31f2524e29aec7a2004c912faa0d260edc8f14ba",
+        "labels_sha256": "42295ec70ce6af6482a58724ae251d034ecadf3937849b665b6cef090aa0ae59",
+        "first3000_label_counts": {
+          "Cammeo": 1630,
+          "Osmancik": 1370
+        },
+        "mean": [
+          12667.727559055118,
+          454.2391801488681,
+          188.77622197669322,
+          86.31375037165765,
+          0.886870506742182,
+          12952.496850393702,
+          0.6619340379094202
+        ],
+        "scale": [
+          1732.1403463112435,
+          35.59240960316455,
+          17.44638849865257,
+          5.729065339765102,
+          0.020814901948211825,
+          1776.738828349092,
+          0.07722863630037263
+        ]
+      },
+      "arm_count": 13,
+      "archive": "lowdim-rice-k1.tar.gz",
+      "archive_sha256": "e959e370355baf4d2a173c84f34a4596843696c90b8ed5a7bc4d50dd6a848197",
+      "records": [
+        {
+          "name": "algorithm4-c1p1",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "algorithm4",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0001204558845016,
+          "ratio_median": 1.00002640053217,
+          "ratio_max": 1.011361015496988,
+          "final_recourse": 0.20083260729789965,
+          "final_steady_recourse": 0.20083260729789965,
+          "usage": {
+            "pipeline_seconds": 0.5107608219987014,
+            "update_seconds": 0.011632266934611835,
+            "reference_seconds": 0.2408141550331493,
+            "scoring_seconds": 0.14011118196503958,
+            "max_rss_kib": 120424,
+            "energy_maintenance_seconds": 0.004352115065557882,
+            "cpu_seconds": 0.50704
+          },
+          "raw_member": "rice-k1__algorithm4-c1p1.jsonl",
+          "raw_sha256": "f3daeca7521ec69059cfe760c1d710f3cefdc9e04e612312385998c4d8211a62",
+          "summary_member": "rice-k1__algorithm4-c1p1.summary.json",
+          "summary_sha256": "dcc128c2e02ca73c94c13bf2a6b8c7195755ccfc4c54036ec1a6b7de885e3417"
+        },
+        {
+          "name": "algorithm4-c2p0",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "algorithm4",
+            "c": 2.0,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.001416131443702,
+          "ratio_median": 1.0004235466699904,
+          "ratio_max": 1.3623114005216228,
+          "final_recourse": 0.27238113431514144,
+          "final_steady_recourse": 0.27238113431514144,
+          "usage": {
+            "pipeline_seconds": 0.4590807880013017,
+            "update_seconds": 0.008080996354692616,
+            "reference_seconds": 0.23841167178034084,
+            "scoring_seconds": 0.13648795086919563,
+            "max_rss_kib": 122600,
+            "energy_maintenance_seconds": 0.0038365000946214423,
+            "cpu_seconds": 0.45591899999999985
+          },
+          "raw_member": "rice-k1__algorithm4-c2p0.jsonl",
+          "raw_sha256": "aea8a6a19a4f8f35b30813ef0cf4f12f0b0532e1358737156b26ab01042c2c47",
+          "summary_member": "rice-k1__algorithm4-c2p0.summary.json",
+          "summary_sha256": "aabde80534b815d2f001645099b18a9e16d4b1b5b0b4fdb5ee88505634240cc8"
+        },
+        {
+          "name": "algorithm4-c2p5",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "algorithm4",
+            "c": 2.5,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0026425608221872,
+          "ratio_median": 1.0012348854395576,
+          "ratio_max": 1.582172827835428,
+          "final_recourse": 0.29032979968004047,
+          "final_steady_recourse": 0.29032979968004047,
+          "usage": {
+            "pipeline_seconds": 0.46679088700329885,
+            "update_seconds": 0.0077281920675886795,
+            "reference_seconds": 0.240544444299303,
+            "scoring_seconds": 0.1394660537916934,
+            "max_rss_kib": 123036,
+            "energy_maintenance_seconds": 0.0038317809303407557,
+            "cpu_seconds": 0.4635490000000001
+          },
+          "raw_member": "rice-k1__algorithm4-c2p5.jsonl",
+          "raw_sha256": "8850f1d1334b16b20178994740f3d185f0445955d7ed974ac1d3370087584cf0",
+          "summary_member": "rice-k1__algorithm4-c2p5.summary.json",
+          "summary_sha256": "1732688224583430f1b899584acf12805413e0ae113cd066a63d31f3ae5dfc27"
+        },
+        {
+          "name": "algorithm4-c5p0",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "algorithm4",
+            "c": 5.0,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0051680349239311,
+          "ratio_median": 1.0006022382073627,
+          "ratio_max": 2.1602120330363386,
+          "final_recourse": 0.431944169081796,
+          "final_steady_recourse": 0.431944169081796,
+          "usage": {
+            "pipeline_seconds": 0.46093836500222096,
+            "update_seconds": 0.007766061920847278,
+            "reference_seconds": 0.23943441297888057,
+            "scoring_seconds": 0.13742965504934546,
+            "max_rss_kib": 123036,
+            "energy_maintenance_seconds": 0.00371272700431291,
+            "cpu_seconds": 0.45781399999999983
+          },
+          "raw_member": "rice-k1__algorithm4-c5p0.jsonl",
+          "raw_sha256": "2bb2b0629ea143e98c068f16e33524bdaec6c2c34314b3f3bfec06ea45ce59e1",
+          "summary_member": "rice-k1__algorithm4-c5p0.summary.json",
+          "summary_sha256": "e78efd92bab2c33e5af714e2c1a9b767fb51eb7beac1b2be658bb5a89329fe00"
+        },
+        {
+          "name": "algorithm4-c10p0",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "algorithm4",
+            "c": 10.0,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0114910901796346,
+          "ratio_median": 1.0049087485719888,
+          "ratio_max": 2.1649461059833635,
+          "final_recourse": 0.4082786678619783,
+          "final_steady_recourse": 0.4082786678619783,
+          "usage": {
+            "pipeline_seconds": 0.45936978299869224,
+            "update_seconds": 0.007611862172780093,
+            "reference_seconds": 0.23840702787128976,
+            "scoring_seconds": 0.13663515025837114,
+            "max_rss_kib": 123044,
+            "energy_maintenance_seconds": 0.003711964011017699,
+            "cpu_seconds": 0.45628800000000025
+          },
+          "raw_member": "rice-k1__algorithm4-c10p0.jsonl",
+          "raw_sha256": "7536e08acac0365dfaf9426ba76d0da5c9122d6da11b083991b2506746d0c9fe",
+          "summary_member": "rice-k1__algorithm4-c10p0.summary.json",
+          "summary_sha256": "6520cdefcde1820de7c5bb417782f6090085d61b18258f41ea3b0c21b5fd2e46"
+        },
+        {
+          "name": "algorithm4-c100p0",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "algorithm4",
+            "c": 100.0,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0456183478585854,
+          "ratio_median": 1.0034903552840724,
+          "ratio_max": 2.1649461059833635,
+          "final_recourse": 0.44498300862723594,
+          "final_steady_recourse": 0.44498300862723594,
+          "usage": {
+            "pipeline_seconds": 0.43954520700208377,
+            "update_seconds": 0.00694906928401906,
+            "reference_seconds": 0.22917056698497618,
+            "scoring_seconds": 0.130520062870346,
+            "max_rss_kib": 123056,
+            "energy_maintenance_seconds": 0.003539881858159788,
+            "cpu_seconds": 0.4359609999999997
+          },
+          "raw_member": "rice-k1__algorithm4-c100p0.jsonl",
+          "raw_sha256": "341b73ce985643062c8d7a9a454c6d7635e01def8239967fb0a39562efdf6b46",
+          "summary_member": "rice-k1__algorithm4-c100p0.summary.json",
+          "summary_sha256": "f9b1fe17efe5e8c8d12f7c1dc6128e1f27d6d600e5af17392d9cab92d1288a45"
+        },
+        {
+          "name": "fresh-default",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "fresh",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0,
+          "ratio_median": 1.0,
+          "ratio_max": 1.0000000000000013,
+          "final_recourse": 0.20762109675388274,
+          "final_steady_recourse": 0.20762109675388274,
+          "usage": {
+            "pipeline_seconds": 0.7649198329963838,
+            "update_seconds": 0.3086363598704338,
+            "reference_seconds": 0.22986004024278373,
+            "scoring_seconds": 0.13829251800780185,
+            "max_rss_kib": 123068,
+            "energy_maintenance_seconds": 0.0041370531398570165,
+            "cpu_seconds": 0.7615210000000001
+          },
+          "raw_member": "rice-k1__fresh-default.jsonl",
+          "raw_sha256": "ad8545f4cf257297fb37206f2a145a1b4ea61ea197289056ffda6c5510255ec6",
+          "summary_member": "rice-k1__fresh-default.summary.json",
+          "summary_sha256": "2959830549624dd641f908624ef899636753414e7cb0b698c4dc9b6fa8cbb8b9"
+        },
+        {
+          "name": "fixed-default",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "fixed",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.4961289045164685,
+          "ratio_median": 1.4784495074631465,
+          "ratio_max": 2.1649461059833635,
+          "final_recourse": 5.327294161361351e-12,
+          "final_steady_recourse": 5.327294161361351e-12,
+          "usage": {
+            "pipeline_seconds": 0.44614174500020454,
+            "update_seconds": 0.003371328901266679,
+            "reference_seconds": 0.23015713095082901,
+            "scoring_seconds": 0.13249829097185284,
+            "max_rss_kib": 123076,
+            "energy_maintenance_seconds": 0.0036840516622760333,
+            "cpu_seconds": 0.44277599999999984
+          },
+          "raw_member": "rice-k1__fixed-default.jsonl",
+          "raw_sha256": "b6e30a0bf2c87d0331aa3e78e2a85783fe6f8bef85ee3dd8edef95c7eb78c9d0",
+          "summary_member": "rice-k1__fixed-default.summary.json",
+          "summary_sha256": "5940c5eb75ae901d234c733fa4cfc17ebbdb89b66714e0df5d2adef84d9ae3bd"
+        },
+        {
+          "name": "periodic-interval10",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "periodic",
+            "c": 1.1,
+            "interval": 10,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0021954479025046,
+          "ratio_median": 1.0000009197219937,
+          "ratio_max": 2.1602120330363386,
+          "final_recourse": 0.4266963043195766,
+          "final_steady_recourse": 0.4266963043195766,
+          "usage": {
+            "pipeline_seconds": 0.4785048839985393,
+            "update_seconds": 0.035304113080201205,
+            "reference_seconds": 0.22980481093691196,
+            "scoring_seconds": 0.13368500614888035,
+            "max_rss_kib": 123096,
+            "energy_maintenance_seconds": 0.0037487890367629007,
+            "cpu_seconds": 0.47532699999999967
+          },
+          "raw_member": "rice-k1__periodic-interval10.jsonl",
+          "raw_sha256": "1f93f40f73f5f5e921ebea71ff5fc5b0222e78019e908423d9dfb6b50c1bad85",
+          "summary_member": "rice-k1__periodic-interval10.summary.json",
+          "summary_sha256": "37a28f88b58a7c2eb0635dca672c08aa6fac6750cc21f4c9dcdd5d3b8bea6833"
+        },
+        {
+          "name": "periodic-interval100",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "periodic",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.02169233029052,
+          "ratio_median": 1.0000144323486104,
+          "ratio_max": 2.1649461059833635,
+          "final_recourse": 0.4641775122289884,
+          "final_steady_recourse": 0.4641775122289884,
+          "usage": {
+            "pipeline_seconds": 0.4490668850048678,
+            "update_seconds": 0.007325149199459702,
+            "reference_seconds": 0.2312611206289148,
+            "scoring_seconds": 0.13201094694522908,
+            "max_rss_kib": 123100,
+            "energy_maintenance_seconds": 0.0035990311589557678,
+            "cpu_seconds": 0.44584399999999974
+          },
+          "raw_member": "rice-k1__periodic-interval100.jsonl",
+          "raw_sha256": "19859587d3b74754c828215e29927e2484a07acbb4682fbf55b508c382800023",
+          "summary_member": "rice-k1__periodic-interval100.summary.json",
+          "summary_sha256": "89f0e04f9e433cb8c5e32439ec761c2a677133c16c5aa1d727d0e58c032aeb90"
+        },
+        {
+          "name": "fd-ell2",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "fd",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0000605571938754,
+          "ratio_median": 1.0000441515206833,
+          "ratio_max": 1.00114560647069,
+          "final_recourse": 0.24512461275430075,
+          "final_steady_recourse": 0.24512461275430075,
+          "usage": {
+            "pipeline_seconds": 0.5241688280002563,
+            "update_seconds": 0.07645187193702441,
+            "reference_seconds": 0.226691472940729,
+            "scoring_seconds": 0.13619287106848788,
+            "max_rss_kib": 123104,
+            "energy_maintenance_seconds": 0.003975314109993633,
+            "cpu_seconds": 0.5210460000000001
+          },
+          "raw_member": "rice-k1__fd-ell2.jsonl",
+          "raw_sha256": "556ad8850a56ed420150e78c3975201337b4188b56677dc2030627caeed8d1d2",
+          "summary_member": "rice-k1__fd-ell2.summary.json",
+          "summary_sha256": "2887a5fd5dce3f52953f832fb9640a3c8623bf7b935ba60eb2742f0683b76e0f"
+        },
+        {
+          "name": "fd-ell4",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "fd",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 4
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.00000000013721,
+          "ratio_median": 1.0000000000303628,
+          "ratio_max": 1.0000000019743682,
+          "final_recourse": 0.20762454390576446,
+          "final_steady_recourse": 0.20762454390576446,
+          "usage": {
+            "pipeline_seconds": 0.5489900160027901,
+            "update_seconds": 0.09491031902143732,
+            "reference_seconds": 0.2288734171379474,
+            "scoring_seconds": 0.13752811615995597,
+            "max_rss_kib": 123108,
+            "energy_maintenance_seconds": 0.00415284820337547,
+            "cpu_seconds": 0.5457169999999998
+          },
+          "raw_member": "rice-k1__fd-ell4.jsonl",
+          "raw_sha256": "e0c5292c3c3489202d43aa1460f47117d63f383b97ae7505a2268984ad3955d9",
+          "summary_member": "rice-k1__fd-ell4.summary.json",
+          "summary_sha256": "853f936b43706ab3796f2a45947411854054d71a7e84a3a8b67f18bbec06f2f8"
+        },
+        {
+          "name": "author_fd-ell2",
+          "configuration": {
+            "cohort": "rice-k1",
+            "dataset": "rice",
+            "source": "originals/Rice_Cammeo_Osmancik.arff",
+            "k": 1,
+            "arm": "author_fd",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0000009146917885,
+          "ratio_median": 1.000000427119173,
+          "ratio_max": 1.0000069080038576,
+          "final_recourse": 0.20800547863611274,
+          "final_steady_recourse": 0.20800547863611274,
+          "usage": {
+            "pipeline_seconds": 0.5752883289969759,
+            "update_seconds": 0.11146618797647534,
+            "reference_seconds": 0.23212792285630712,
+            "scoring_seconds": 0.1410982981833513,
+            "max_rss_kib": 123108,
+            "energy_maintenance_seconds": 0.004488437938562129,
+            "cpu_seconds": 0.5720569999999996
+          },
+          "raw_member": "rice-k1__author_fd-ell2.jsonl",
+          "raw_sha256": "4b4b4d22f1f279866a2596d64e0e7498599ac3781a73ac75b93a5bbddb1a371e",
+          "summary_member": "rice-k1__author_fd-ell2.summary.json",
+          "summary_sha256": "508dc5be1099f4c97a6ca76c69ed964716329af2939ac3a917e390e8a6a2bede"
+        }
+      ]
+    },
+    {
+      "name": "skin-k1",
+      "dataset": "skin",
+      "k": 1,
+      "dimension": 3,
+      "native_identity": {
+        "dataset": "skin",
+        "source_blob": "fc58dda2eaf5b1f0d2d8c7924a298cd7d14ba17d",
+        "source_sha256": "008f1fb6a169498dec54fb5951be6478e5465942cc4f6df3b5dabbe484c9a98f",
+        "source_bytes": 3155761,
+        "released_shape": [
+          245057,
+          3
+        ],
+        "denominator": 3000,
+        "preprocessing": "full_released_data_sklearn_scale_ddof0_before_prefix",
+        "transformed_sha256": "59cfc4598c3f49abacaeb951c72db2a41053b7c27dba5e7c7fcf77d03b88050f",
+        "labels_sha256": "530930597d0518e05902fc09f71ede26d2c01a418e8e04c07acf04a9b1a85a4c",
+        "first3000_label_counts": {
+          "1": 3000,
+          "2": 0
+        },
+        "mean": [
+          125.06544599827795,
+          132.5073268668106,
+          123.17715062210017
+        ],
+        "scale": [
+          62.25552573128101,
+          59.94107487288345,
+          72.56201683904995
+        ]
+      },
+      "arm_count": 13,
+      "archive": "lowdim-skin-k1.tar.gz",
+      "archive_sha256": "6f7985f7ae1f4f87844585d857986e1119413673d61343dffbe266fe364e1cea",
+      "records": [
+        {
+          "name": "algorithm4-c1p1",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "algorithm4",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0006047591347464,
+          "ratio_median": 1.0000775042439662,
+          "ratio_max": 1.0383178182225696,
+          "final_recourse": 0.11017803874911958,
+          "final_steady_recourse": 0.11017803874911958,
+          "usage": {
+            "pipeline_seconds": 0.4984572089961148,
+            "update_seconds": 0.01090323319658637,
+            "reference_seconds": 0.12336049919395009,
+            "scoring_seconds": 0.10628802221617661,
+            "max_rss_kib": 155028,
+            "energy_maintenance_seconds": 0.004072600087965839,
+            "cpu_seconds": 0.4954420000000007
+          },
+          "raw_member": "skin-k1__algorithm4-c1p1.jsonl",
+          "raw_sha256": "6b04928167ad1cea6a9b141e926969efa99130b974d7ef9fdd708e56673f1cd0",
+          "summary_member": "skin-k1__algorithm4-c1p1.summary.json",
+          "summary_sha256": "8dc4e131f3fc02b6eb5fa1ae33f101937c9c6fa02457cd99a0151becebde4603"
+        },
+        {
+          "name": "algorithm4-c2p0",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "algorithm4",
+            "c": 2.0,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0087809851515601,
+          "ratio_median": 1.0006407840813534,
+          "ratio_max": 1.7870182463346262,
+          "final_recourse": 0.4288501516855776,
+          "final_steady_recourse": 0.4288501516855776,
+          "usage": {
+            "pipeline_seconds": 0.3968983750019106,
+            "update_seconds": 0.008474647169350646,
+            "reference_seconds": 0.11385832420637598,
+            "scoring_seconds": 0.10149438888038276,
+            "max_rss_kib": 158236,
+            "energy_maintenance_seconds": 0.0041486910049570724,
+            "cpu_seconds": 0.39425399999999894
+          },
+          "raw_member": "skin-k1__algorithm4-c2p0.jsonl",
+          "raw_sha256": "0af4451040dad69710bc45f14cbac7ef98df272385b9a316eab22e81a894c458",
+          "summary_member": "skin-k1__algorithm4-c2p0.summary.json",
+          "summary_sha256": "241122c77aea03dbeac74121f47e1f8c39fd8949cead656c6b2c3f1f0495e5be"
+        },
+        {
+          "name": "algorithm4-c2p5",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "algorithm4",
+            "c": 2.5,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0132441783334458,
+          "ratio_median": 1.0010474144297485,
+          "ratio_max": 2.0411202593411173,
+          "final_recourse": 0.5400476575746194,
+          "final_steady_recourse": 0.5400476575746194,
+          "usage": {
+            "pipeline_seconds": 0.4440707459943951,
+            "update_seconds": 0.00876229906862136,
+            "reference_seconds": 0.11610117804957554,
+            "scoring_seconds": 0.10092688027361874,
+            "max_rss_kib": 158240,
+            "energy_maintenance_seconds": 0.004462615070224274,
+            "cpu_seconds": 0.44187599999999855
+          },
+          "raw_member": "skin-k1__algorithm4-c2p5.jsonl",
+          "raw_sha256": "f109cb508411efb2fc766c6994a074f2a742e34e87ec31ac7858a25981453941",
+          "summary_member": "skin-k1__algorithm4-c2p5.summary.json",
+          "summary_sha256": "b69606228dc85a9604b8afcc9b74be22396182a71fcf14b7e541994f21d88bc1"
+        },
+        {
+          "name": "algorithm4-c5p0",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "algorithm4",
+            "c": 5.0,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.037385240062087,
+          "ratio_median": 1.0009689185724004,
+          "ratio_max": 2.6036764251259172,
+          "final_recourse": 0.5438729711351873,
+          "final_steady_recourse": 0.5438729711351873,
+          "usage": {
+            "pipeline_seconds": 0.4210216700012097,
+            "update_seconds": 0.008466970917652361,
+            "reference_seconds": 0.12208249197283294,
+            "scoring_seconds": 0.09757795009500114,
+            "max_rss_kib": 158240,
+            "energy_maintenance_seconds": 0.004150173932430334,
+            "cpu_seconds": 0.4176180000000001
+          },
+          "raw_member": "skin-k1__algorithm4-c5p0.jsonl",
+          "raw_sha256": "f204f88779bc555bb7c7dc723a7569b8e5d568dc2ab7d33ddff45a0f77ec276f",
+          "summary_member": "skin-k1__algorithm4-c5p0.summary.json",
+          "summary_sha256": "3209e1720df26eb95d697ee9dfb0cd4b5bfa8e0877cfb789aa1141a26a67d5f1"
+        },
+        {
+          "name": "algorithm4-c10p0",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "algorithm4",
+            "c": 10.0,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.1324806874419813,
+          "ratio_median": 1.0009099677749653,
+          "ratio_max": 4.820083152776555,
+          "final_recourse": 0.4511558534542446,
+          "final_steady_recourse": 0.4511558534542446,
+          "usage": {
+            "pipeline_seconds": 0.41861001700453926,
+            "update_seconds": 0.008445101062534377,
+            "reference_seconds": 0.11299422495358158,
+            "scoring_seconds": 0.10236134714068612,
+            "max_rss_kib": 158244,
+            "energy_maintenance_seconds": 0.004410062174429186,
+            "cpu_seconds": 0.41593699999999956
+          },
+          "raw_member": "skin-k1__algorithm4-c10p0.jsonl",
+          "raw_sha256": "7078abcf08cb2a61c2f1007f0befdb838ad7fbb844d75e7379955fc09d4b62bd",
+          "summary_member": "skin-k1__algorithm4-c10p0.summary.json",
+          "summary_sha256": "cac5f7c97f082937fb8b48fd3f62dabb4869e88047b581f8ed3fdb08f7f64c00"
+        },
+        {
+          "name": "algorithm4-c100p0",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "algorithm4",
+            "c": 100.0,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 3.2986484682791084,
+          "ratio_median": 3.406977228081339,
+          "ratio_max": 4.820083152776555,
+          "final_recourse": 0.15360773594235866,
+          "final_steady_recourse": 0.15360773594235866,
+          "usage": {
+            "pipeline_seconds": 0.3884708719997434,
+            "update_seconds": 0.007723735456238501,
+            "reference_seconds": 0.10864310066972394,
+            "scoring_seconds": 0.09391167442663573,
+            "max_rss_kib": 158244,
+            "energy_maintenance_seconds": 0.004087685781996697,
+            "cpu_seconds": 0.38609699999999897
+          },
+          "raw_member": "skin-k1__algorithm4-c100p0.jsonl",
+          "raw_sha256": "e4ea3e5314ef079992a9eebd88b2ae28bbba72aaad7ec8239fdc13cdaa603319",
+          "summary_member": "skin-k1__algorithm4-c100p0.summary.json",
+          "summary_sha256": "a894a66299d45efa901a22d41d2013601b2dd21a55baf1d6f07e8fa9554cda05"
+        },
+        {
+          "name": "fresh-default",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "fresh",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0000000000000002,
+          "ratio_median": 1.0,
+          "ratio_max": 1.0000000000000067,
+          "final_recourse": 0.033708113782761284,
+          "final_steady_recourse": 0.033708113782761284,
+          "usage": {
+            "pipeline_seconds": 0.5655842470005155,
+            "update_seconds": 0.14717492186900927,
+            "reference_seconds": 0.11552400322398171,
+            "scoring_seconds": 0.10896700111334212,
+            "max_rss_kib": 158248,
+            "energy_maintenance_seconds": 0.0051467036828398705,
+            "cpu_seconds": 0.5631989999999983
+          },
+          "raw_member": "skin-k1__fresh-default.jsonl",
+          "raw_sha256": "1e3e03f60e49b82d58ce6cb61ae04d708d6ba8953cc099070da952d1be8a467c",
+          "summary_member": "skin-k1__fresh-default.summary.json",
+          "summary_sha256": "33663eecb132517be17c1817b0d4e9ccc7ec8a868f19ac4f7516284d0b0173f2"
+        },
+        {
+          "name": "fixed-default",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "fixed",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 6.562830021675988,
+          "ratio_median": 6.815717146586473,
+          "ratio_max": 7.713725083631118,
+          "final_recourse": 0.0,
+          "final_steady_recourse": 0.0,
+          "usage": {
+            "pipeline_seconds": 0.4030183689974365,
+            "update_seconds": 0.0037193511307123117,
+            "reference_seconds": 0.11511300876009045,
+            "scoring_seconds": 0.09997871911764378,
+            "max_rss_kib": 158248,
+            "energy_maintenance_seconds": 0.0044363691049511544,
+            "cpu_seconds": 0.4009150000000003
+          },
+          "raw_member": "skin-k1__fixed-default.jsonl",
+          "raw_sha256": "44d1e0c0782564b19b0d0bd3cbb06634d25e01f417b30959dbf2cae5b75a490d",
+          "summary_member": "skin-k1__fixed-default.summary.json",
+          "summary_sha256": "9cacdf02ff984eb7754f0d43003a671a632f02f34288e8d1651722078074db54"
+        },
+        {
+          "name": "periodic-interval10",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "periodic",
+            "c": 1.1,
+            "interval": 10,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0075570560535645,
+          "ratio_median": 1.0000022746468729,
+          "ratio_max": 4.820083152776555,
+          "final_recourse": 0.3018226244000095,
+          "final_steady_recourse": 0.3018226244000095,
+          "usage": {
+            "pipeline_seconds": 0.43930673700378975,
+            "update_seconds": 0.019085080501099583,
+            "reference_seconds": 0.11487678777484689,
+            "scoring_seconds": 0.10185891405853909,
+            "max_rss_kib": 158248,
+            "energy_maintenance_seconds": 0.004936975026794244,
+            "cpu_seconds": 0.4369470000000004
+          },
+          "raw_member": "skin-k1__periodic-interval10.jsonl",
+          "raw_sha256": "0c117ee415039c81482149ad7aba7217b59b15edcb2c56d40154908a10f62d90",
+          "summary_member": "skin-k1__periodic-interval10.summary.json",
+          "summary_sha256": "92cc92c5dee7a2f8b5a59187f4b57aafe4e292d4ea51881d003c463e49c634c7"
+        },
+        {
+          "name": "periodic-interval100",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "periodic",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.027982356799836,
+          "ratio_median": 1.0001175615711926,
+          "ratio_max": 4.820083152776555,
+          "final_recourse": 0.6027674041227178,
+          "final_steady_recourse": 0.6027674041227178,
+          "usage": {
+            "pipeline_seconds": 0.40813070900185267,
+            "update_seconds": 0.005846287065651268,
+            "reference_seconds": 0.11020321706746472,
+            "scoring_seconds": 0.09410799981560558,
+            "max_rss_kib": 158248,
+            "energy_maintenance_seconds": 0.004324663837905973,
+            "cpu_seconds": 0.4057680000000003
+          },
+          "raw_member": "skin-k1__periodic-interval100.jsonl",
+          "raw_sha256": "588cd74151d9971f724e3f7de590d2d68eeebbff71037d5f07e244f928b60f47",
+          "summary_member": "skin-k1__periodic-interval100.summary.json",
+          "summary_sha256": "f36c064ab6c89c0859b3a53eac9af8a8c30892027dbf83cb652fe7bf2a6da434"
+        },
+        {
+          "name": "fd-ell2",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "fd",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.000010879633675,
+          "ratio_median": 1.000000861294396,
+          "ratio_max": 1.0003223875273375,
+          "final_recourse": 0.033835075298426665,
+          "final_steady_recourse": 0.033835075298426665,
+          "usage": {
+            "pipeline_seconds": 0.48691325999971014,
+            "update_seconds": 0.08164281201607082,
+            "reference_seconds": 0.10522155767830554,
+            "scoring_seconds": 0.10038042386440793,
+            "max_rss_kib": 158248,
+            "energy_maintenance_seconds": 0.004975260671926662,
+            "cpu_seconds": 0.48451100000000114
+          },
+          "raw_member": "skin-k1__fd-ell2.jsonl",
+          "raw_sha256": "5263ac62c1f2ddf2c9bb309fd8f5cc3633dd21253c08d5802c63a6b7b7662b05",
+          "summary_member": "skin-k1__fd-ell2.summary.json",
+          "summary_sha256": "93ccd7617436271190c3758738f72ba1fdd98c8045a9718f18f93fb7234c0acd"
+        },
+        {
+          "name": "fd-ell3",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "fd",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 3
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0,
+          "ratio_median": 1.0,
+          "ratio_max": 1.0000000000000067,
+          "final_recourse": 0.033708113782472626,
+          "final_steady_recourse": 0.033708113782472626,
+          "usage": {
+            "pipeline_seconds": 0.46567339000466745,
+            "update_seconds": 0.07900827605772065,
+            "reference_seconds": 0.10265628981869668,
+            "scoring_seconds": 0.09609417212050175,
+            "max_rss_kib": 158248,
+            "energy_maintenance_seconds": 0.004315808917453978,
+            "cpu_seconds": 0.4634720000000011
+          },
+          "raw_member": "skin-k1__fd-ell3.jsonl",
+          "raw_sha256": "e4ab64f203777d06df37c0a2894bd7df451e0619109d3738bd4d4db0da5619bb",
+          "summary_member": "skin-k1__fd-ell3.summary.json",
+          "summary_sha256": "f89188ab4d2f517439697c3eb055c6c51fd15476aa8a374579fc6062e362462e"
+        },
+        {
+          "name": "author_fd-ell2",
+          "configuration": {
+            "cohort": "skin-k1",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 1,
+            "arm": "author_fd",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2999,
+          "near_zero_opt_exclusions": 1,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0,
+          "ratio_median": 1.0,
+          "ratio_max": 1.0000000000000067,
+          "final_recourse": 0.03370811378267646,
+          "final_steady_recourse": 0.03370811378267646,
+          "usage": {
+            "pipeline_seconds": 0.5256432559981477,
+            "update_seconds": 0.11139006844314281,
+            "reference_seconds": 0.10549735509994207,
+            "scoring_seconds": 0.10013693415385205,
+            "max_rss_kib": 158248,
+            "energy_maintenance_seconds": 0.0050974554469576105,
+            "cpu_seconds": 0.5234810000000005
+          },
+          "raw_member": "skin-k1__author_fd-ell2.jsonl",
+          "raw_sha256": "2c12ede46bbaf13b5e32892d90f507afe93787f418f745707fabac7239d3e195",
+          "summary_member": "skin-k1__author_fd-ell2.summary.json",
+          "summary_sha256": "a264e78db1e3b2ee2dc7d4e1dcd8fd5fbf6ae83cfe9d06e3a5c947d677912855"
+        }
+      ]
+    },
+    {
+      "name": "skin-k2",
+      "dataset": "skin",
+      "k": 2,
+      "dimension": 3,
+      "native_identity": {
+        "dataset": "skin",
+        "source_blob": "fc58dda2eaf5b1f0d2d8c7924a298cd7d14ba17d",
+        "source_sha256": "008f1fb6a169498dec54fb5951be6478e5465942cc4f6df3b5dabbe484c9a98f",
+        "source_bytes": 3155761,
+        "released_shape": [
+          245057,
+          3
+        ],
+        "denominator": 3000,
+        "preprocessing": "full_released_data_sklearn_scale_ddof0_before_prefix",
+        "transformed_sha256": "59cfc4598c3f49abacaeb951c72db2a41053b7c27dba5e7c7fcf77d03b88050f",
+        "labels_sha256": "530930597d0518e05902fc09f71ede26d2c01a418e8e04c07acf04a9b1a85a4c",
+        "first3000_label_counts": {
+          "1": 3000,
+          "2": 0
+        },
+        "mean": [
+          125.06544599827795,
+          132.5073268668106,
+          123.17715062210017
+        ],
+        "scale": [
+          62.25552573128101,
+          59.94107487288345,
+          72.56201683904995
+        ]
+      },
+      "arm_count": 13,
+      "archive": "lowdim-skin-k2.tar.gz",
+      "archive_sha256": "95a9e652597ccb85d0842eb24ec3ff31551069d7e42cd6f3013fcb1c5538816a",
+      "records": [
+        {
+          "name": "algorithm4-c1p1",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "algorithm4",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0015878767254522,
+          "ratio_median": 1.0003379469511835,
+          "ratio_max": 1.1521245062255412,
+          "final_recourse": 1.108411047690169,
+          "final_steady_recourse": 0.10841104769017118,
+          "usage": {
+            "pipeline_seconds": 0.41954757899657125,
+            "update_seconds": 0.010085361209348775,
+            "reference_seconds": 0.10849337913532509,
+            "scoring_seconds": 0.09049680398311466,
+            "max_rss_kib": 158248,
+            "energy_maintenance_seconds": 0.004211804196529556,
+            "cpu_seconds": 0.4171090000000012
+          },
+          "raw_member": "skin-k2__algorithm4-c1p1.jsonl",
+          "raw_sha256": "4ef4bbe3d27cc6f7b225659136bccea585f65584346b852c9c0dede24abbda3d",
+          "summary_member": "skin-k2__algorithm4-c1p1.summary.json",
+          "summary_sha256": "e39b568d1744f1d65432a8d57c81d6d5d7f374533d8bd49784199aa42802b0eb"
+        },
+        {
+          "name": "algorithm4-c1p5",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "algorithm4",
+            "c": 1.5,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0148328709109935,
+          "ratio_median": 1.004128123057709,
+          "ratio_max": 5.1532697113898935,
+          "final_recourse": 1.247459971767603,
+          "final_steady_recourse": 0.24745997176760515,
+          "usage": {
+            "pipeline_seconds": 0.39738890499575064,
+            "update_seconds": 0.008381181862205267,
+            "reference_seconds": 0.10879499125439906,
+            "scoring_seconds": 0.09152364279725589,
+            "max_rss_kib": 158252,
+            "energy_maintenance_seconds": 0.004076773882843554,
+            "cpu_seconds": 0.39495599999999953
+          },
+          "raw_member": "skin-k2__algorithm4-c1p5.jsonl",
+          "raw_sha256": "0bef87b0ec3cc9ed747e0853a56746c990170da4177857d04f4e65ddcc74b46b",
+          "summary_member": "skin-k2__algorithm4-c1p5.summary.json",
+          "summary_sha256": "78eb6755de3d5ace4ecd7d493eca2e2428d44daaea03031f0a0c53aeb33b2b9a"
+        },
+        {
+          "name": "algorithm4-c2p0",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "algorithm4",
+            "c": 2.0,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.050634626558343,
+          "ratio_median": 1.0095116464763936,
+          "ratio_max": 23.296469755041812,
+          "final_recourse": 1.3301119405213337,
+          "final_steady_recourse": 0.33011194052133597,
+          "usage": {
+            "pipeline_seconds": 0.4024493699980667,
+            "update_seconds": 0.008812597683572676,
+            "reference_seconds": 0.11042069803806953,
+            "scoring_seconds": 0.09279430800961563,
+            "max_rss_kib": 158252,
+            "energy_maintenance_seconds": 0.004752577660838142,
+            "cpu_seconds": 0.40010799999999935
+          },
+          "raw_member": "skin-k2__algorithm4-c2p0.jsonl",
+          "raw_sha256": "e8e72ebff61ecad1679ce836eab9d1e46e741c3b7a8b9e44266d065cfff06489",
+          "summary_member": "skin-k2__algorithm4-c2p0.summary.json",
+          "summary_sha256": "de7ce429b0553e6f1ba3e0b4e5b0be2be8bde799bd0e17c2d74c18c5b013f4f0"
+        },
+        {
+          "name": "algorithm4-c2p5",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "algorithm4",
+            "c": 2.5,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.1024438447247418,
+          "ratio_median": 1.0085100112826018,
+          "ratio_max": 25.07511001219779,
+          "final_recourse": 1.3371272907888803,
+          "final_steady_recourse": 0.3371272907888825,
+          "usage": {
+            "pipeline_seconds": 0.4437706659955438,
+            "update_seconds": 0.009120602160692215,
+            "reference_seconds": 0.12660987285198644,
+            "scoring_seconds": 0.10471213488199282,
+            "max_rss_kib": 158252,
+            "energy_maintenance_seconds": 0.004790369137481321,
+            "cpu_seconds": 0.44103800000000326
+          },
+          "raw_member": "skin-k2__algorithm4-c2p5.jsonl",
+          "raw_sha256": "d13f4d71e99f2eb05715139580284cbcdf3178c92d117654d64484ae91c6bb1f",
+          "summary_member": "skin-k2__algorithm4-c2p5.summary.json",
+          "summary_sha256": "7f730b74bbedadb7d6f802fdaf137d7d9a5d5a97d9c85cbbf5709165a7738b82"
+        },
+        {
+          "name": "algorithm4-c5p0",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "algorithm4",
+            "c": 5.0,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0828203878697864,
+          "ratio_median": 1.02399995603473,
+          "ratio_max": 6.860160266466184,
+          "final_recourse": 1.0046255697579998,
+          "final_steady_recourse": 0.0046255697580019906,
+          "usage": {
+            "pipeline_seconds": 0.44526590000168653,
+            "update_seconds": 0.00957233173539862,
+            "reference_seconds": 0.12436263290874194,
+            "scoring_seconds": 0.09971161778958049,
+            "max_rss_kib": 158252,
+            "energy_maintenance_seconds": 0.005160847773368005,
+            "cpu_seconds": 0.44289700000000076
+          },
+          "raw_member": "skin-k2__algorithm4-c5p0.jsonl",
+          "raw_sha256": "e10f324d5b64b1c87173012bb2698c7f31acd36a9564769a652eb8d46be0e60c",
+          "summary_member": "skin-k2__algorithm4-c5p0.summary.json",
+          "summary_sha256": "1fc07dd4c75009ae8d5aa63adbd9eba9d148172d01411f80addfab6b486b46cf"
+        },
+        {
+          "name": "algorithm4-c10p0",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "algorithm4",
+            "c": 10.0,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.2017837571495638,
+          "ratio_median": 1.0250376034152673,
+          "ratio_max": 22.63674148253132,
+          "final_recourse": 1.202803362149694,
+          "final_steady_recourse": 0.2028033621496963,
+          "usage": {
+            "pipeline_seconds": 0.4391346069969586,
+            "update_seconds": 0.010143227365915664,
+            "reference_seconds": 0.12151377235568361,
+            "scoring_seconds": 0.10924964214063948,
+            "max_rss_kib": 158252,
+            "energy_maintenance_seconds": 0.005558450357057154,
+            "cpu_seconds": 0.43668400000000096
+          },
+          "raw_member": "skin-k2__algorithm4-c10p0.jsonl",
+          "raw_sha256": "9051d081b6148b779b7fd0cda70b440aa0d087c4749d23c1e8dc30914499adb6",
+          "summary_member": "skin-k2__algorithm4-c10p0.summary.json",
+          "summary_sha256": "be97adb73190f765502d4f429a5fcb27b9fab88958d115883329fbd64f132ad8"
+        },
+        {
+          "name": "algorithm4-c100p0",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "algorithm4",
+            "c": 100.0,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.243532913074218,
+          "ratio_median": 1.1995930012307747,
+          "ratio_max": 6.860160266465917,
+          "final_recourse": 1.0003747188548502,
+          "final_steady_recourse": 0.0003747188548524072,
+          "usage": {
+            "pipeline_seconds": 0.42068296400248073,
+            "update_seconds": 0.008726463187485933,
+            "reference_seconds": 0.11793574679177254,
+            "scoring_seconds": 0.09802798798773438,
+            "max_rss_kib": 158252,
+            "energy_maintenance_seconds": 0.004754527035402134,
+            "cpu_seconds": 0.41838799999999887
+          },
+          "raw_member": "skin-k2__algorithm4-c100p0.jsonl",
+          "raw_sha256": "6c7725051bcb2dc23d6d406a059222127e07241bb2a56a542c53ef6e58afb7af",
+          "summary_member": "skin-k2__algorithm4-c100p0.summary.json",
+          "summary_sha256": "63c454072c6ae5d779eb5c29c3b6186955fd6047df355f88acc8dcac8eb3f9fd"
+        },
+        {
+          "name": "fresh-default",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "fresh",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 0.9999999999999999,
+          "ratio_median": 0.9999999999999999,
+          "ratio_max": 1.0000000000000127,
+          "final_recourse": 1.0700666250150164,
+          "final_steady_recourse": 0.07006662501501859,
+          "usage": {
+            "pipeline_seconds": 0.5840167830028804,
+            "update_seconds": 0.14539721907203784,
+            "reference_seconds": 0.11462206300348043,
+            "scoring_seconds": 0.1073006319347769,
+            "max_rss_kib": 158252,
+            "energy_maintenance_seconds": 0.005789946626464371,
+            "cpu_seconds": 0.5811140000000019
+          },
+          "raw_member": "skin-k2__fresh-default.jsonl",
+          "raw_sha256": "e2ef05bc6c5ba77ee83403a2e4aa2e51d76e2555d08906234d671ed8ea1d7f04",
+          "summary_member": "skin-k2__fresh-default.summary.json",
+          "summary_sha256": "d040cf3ee93b934bc974d09ada181e78313b68e0437365e1f3a26d822ee45ab4"
+        },
+        {
+          "name": "fixed-default",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "fixed",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0736247169372104,
+          "ratio_median": 1.0183119178879312,
+          "ratio_max": 6.860160266465917,
+          "final_recourse": 0.9999999999999978,
+          "final_steady_recourse": 0.0,
+          "usage": {
+            "pipeline_seconds": 0.5084240610012785,
+            "update_seconds": 0.0043961252449662425,
+            "reference_seconds": 0.1253935517524951,
+            "scoring_seconds": 0.10894626781373518,
+            "max_rss_kib": 158252,
+            "energy_maintenance_seconds": 0.0066244887639186345,
+            "cpu_seconds": 0.5060490000000002
+          },
+          "raw_member": "skin-k2__fixed-default.jsonl",
+          "raw_sha256": "aa070ce56929c738710e38284da93820e0054e2e9fba9c9d9d280b324fbcf5d2",
+          "summary_member": "skin-k2__fixed-default.summary.json",
+          "summary_sha256": "913922092c6c63f96d225511aca5945d747bcb72ff262125f9ffa4ba01b686a4"
+        },
+        {
+          "name": "periodic-interval10",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "periodic",
+            "c": 1.1,
+            "interval": 10,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0029218622406098,
+          "ratio_median": 1.0000023549938013,
+          "ratio_max": 1.9860332747664602,
+          "final_recourse": 1.1913259980641535,
+          "final_steady_recourse": 0.19132599806415573,
+          "usage": {
+            "pipeline_seconds": 0.4633309790006024,
+            "update_seconds": 0.020564667029248085,
+            "reference_seconds": 0.11749886006873567,
+            "scoring_seconds": 0.09957384796143742,
+            "max_rss_kib": 158252,
+            "energy_maintenance_seconds": 0.005071231775218621,
+            "cpu_seconds": 0.460581000000001
+          },
+          "raw_member": "skin-k2__periodic-interval10.jsonl",
+          "raw_sha256": "b0c16d488a8137cbdfc29a383518a42346e21e04d963b677b70816beb9ae133d",
+          "summary_member": "skin-k2__periodic-interval10.summary.json",
+          "summary_sha256": "6c6d1f437dea8df13338a2be479d2ff8000df3e7bda2c9162d4570700b6dac68"
+        },
+        {
+          "name": "periodic-interval100",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "periodic",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 1.0586090217546267,
+          "ratio_median": 1.0005766289643208,
+          "ratio_max": 6.860160266465917,
+          "final_recourse": 1.0017098212259024,
+          "final_steady_recourse": 0.001709821225904573,
+          "usage": {
+            "pipeline_seconds": 0.4381242069939617,
+            "update_seconds": 0.0065494489535922185,
+            "reference_seconds": 0.11853011575294659,
+            "scoring_seconds": 0.0971947097859811,
+            "max_rss_kib": 158252,
+            "energy_maintenance_seconds": 0.004905665060505271,
+            "cpu_seconds": 0.4357859999999978
+          },
+          "raw_member": "skin-k2__periodic-interval100.jsonl",
+          "raw_sha256": "da36e56256af3fde4f0592c109297d01bfb880074a25f6557234f6e8e93ac673",
+          "summary_member": "skin-k2__periodic-interval100.summary.json",
+          "summary_sha256": "f560ad49d8a55a2e1207bcca0c264e544eab719dde36f9b8f73b46d01415caf6"
+        },
+        {
+          "name": "fd-ell3",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "fd",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 3
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 0.9999999999999999,
+          "ratio_median": 0.9999999999999999,
+          "ratio_max": 1.0000000000000104,
+          "final_recourse": 1.070066625014488,
+          "final_steady_recourse": 0.07006662501449012,
+          "usage": {
+            "pipeline_seconds": 0.5433988590011722,
+            "update_seconds": 0.08853500083932886,
+            "reference_seconds": 0.10981752102816245,
+            "scoring_seconds": 0.10461913491599262,
+            "max_rss_kib": 158252,
+            "energy_maintenance_seconds": 0.005017297211452387,
+            "cpu_seconds": 0.5403759999999975
+          },
+          "raw_member": "skin-k2__fd-ell3.jsonl",
+          "raw_sha256": "1fe3af944ada09406534afa5ab340983d531c3136fd13eaa119dc9caa0deaae3",
+          "summary_member": "skin-k2__fd-ell3.summary.json",
+          "summary_sha256": "ed20a5f427f96101e41eeccd5d844552ca19625c4351032957d85dabb6a47d30"
+        },
+        {
+          "name": "author_fd-ell2",
+          "configuration": {
+            "cohort": "skin-k2",
+            "dataset": "skin",
+            "source": "originals/Skin_NonSkin.txt",
+            "k": 2,
+            "arm": "author_fd",
+            "c": 1.1,
+            "interval": 100,
+            "ell": 2
+          },
+          "prefix_denominator": 3000,
+          "defined_ratio_denominator": 2986,
+          "near_zero_opt_exclusions": 14,
+          "positive_loss_near_zero_opt_count": 0,
+          "ratio_mean": 0.9999999999999999,
+          "ratio_median": 0.9999999999999999,
+          "ratio_max": 1.000000000000011,
+          "final_recourse": 1.0700666250149347,
+          "final_steady_recourse": 0.07006662501493688,
+          "usage": {
+            "pipeline_seconds": 0.5575785969995195,
+            "update_seconds": 0.11780419091519434,
+            "reference_seconds": 0.10656134793680394,
+            "scoring_seconds": 0.10593874076585053,
+            "max_rss_kib": 158252,
+            "energy_maintenance_seconds": 0.005417034801212139,
+            "cpu_seconds": 0.5552399999999997
+          },
+          "raw_member": "skin-k2__author_fd-ell2.jsonl",
+          "raw_sha256": "e033ea8946f80b2b31b9f22a79853accd4a7ee4c4f0a28b79e39e7c86710f5e4",
+          "summary_member": "skin-k2__author_fd-ell2.summary.json",
+          "summary_sha256": "19466e5070266c0cc3bc1b011c6012d7c0dd91645273ead64b301808bed09e37"
+        }
+      ]
+    }
+  ],
+  "scientific_gate_advanced": false,
+  "performance_claim_eligible": false,
+  "confirmation": false,
+  "rss_semantics": "per-arm ru_maxrss is cumulative process high-water mark, not an independent arm peak",
+  "argv": [
+    "run_lowdim_baseline_matrix.py",
+    "--rice-source",
+    "originals/Rice_Cammeo_Osmancik.arff",
+    "--skin-source",
+    "originals/Skin_NonSkin.txt",
+    "--output",
+    "evidence/baselines/lowdim-matrix-manifest-v3.json"
+  ],
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "usage": {
+    "wall_seconds": 22.415467460996297,
+    "cpu_seconds": 22.408896,
+    "max_rss_kib": 158252
+  },
+  "source_hashes": {
+    "runner": "4934100cd9e7b4d91aee361d1c8e09b7f3fb790e06784c137df7a3a012bfab20",
+    "native_baselines.py": "81c3309e659d1d9fdb69040b9becc6009bbe29b84a36aae8bac89ea6737e2c7c",
+    "baseline_qualify.py": "d5566e2177064d0ddd9f940323ca7d10dfb0d9fef14d93f8ba6d16bde54dd934"
+  },
+  "publication_observations": {
+    "lowdim-rice-k1.tar.gz": {
+      "sha256": "e959e370355baf4d2a173c84f34a4596843696c90b8ed5a7bc4d50dd6a848197",
+      "bytes": 5785060,
+      "inode": 920393,
+      "mtime_ns": 1791523755578790747,
+      "ctime_ns": 1791523755794787808
+    },
+    "lowdim-skin-k1.tar.gz": {
+      "sha256": "6f7985f7ae1f4f87844585d857986e1119413673d61343dffbe266fe364e1cea",
+      "bytes": 5212345,
+      "inode": 920474,
+      "mtime_ns": 1791523762730693040,
+      "ctime_ns": 1791523762906690634
+    },
+    "lowdim-skin-k2.tar.gz": {
+      "sha256": "95a9e652597ccb85d0842eb24ec3ff31551069d7e42cd6f3013fcb1c5538816a",
+      "bytes": 5436766,
+      "inode": 920512,
+      "mtime_ns": 1791523770114589474,
+      "ctime_ns": 1791523770298586947
+    },
+    "lowdim-matrix-raw-v3/rice-k1__algorithm4-c1p1.jsonl": {
+      "sha256": "f3daeca7521ec69059cfe760c1d710f3cefdc9e04e612312385998c4d8211a62",
+      "bytes": 2584370,
+      "inode": 920338,
+      "mtime_ns": 1791523748394888473,
+      "ctime_ns": 1791523748403715861
+    },
+    "lowdim-matrix-raw-v3/rice-k1__algorithm4-c1p1.summary.json": {
+      "sha256": "dcc128c2e02ca73c94c13bf2a6b8c7195755ccfc4c54036ec1a6b7de885e3417",
+      "bytes": 70810,
+      "inode": 920340,
+      "mtime_ns": 1791523748403715861,
+      "ctime_ns": 1791523748406350993
+    },
+    "lowdim-matrix-raw-v3/rice-k1__algorithm4-c2p0.jsonl": {
+      "sha256": "aea8a6a19a4f8f35b30813ef0cf4f12f0b0532e1358737156b26ab01042c2c47",
+      "bytes": 2583818,
+      "inode": 920341,
+      "mtime_ns": 1791523748858882161,
+      "ctime_ns": 1791523748868592618
+    },
+    "lowdim-matrix-raw-v3/rice-k1__algorithm4-c2p0.summary.json": {
+      "sha256": "aabde80534b815d2f001645099b18a9e16d4b1b5b0b4fdb5ee88505634240cc8",
+      "bytes": 70826,
+      "inode": 920342,
+      "mtime_ns": 1791523748868592618,
+      "ctime_ns": 1791523748871246467
+    },
+    "lowdim-matrix-raw-v3/rice-k1__algorithm4-c2p5.jsonl": {
+      "sha256": "8850f1d1334b16b20178994740f3d185f0445955d7ed974ac1d3370087584cf0",
+      "bytes": 2572693,
+      "inode": 920343,
+      "mtime_ns": 1791523749330875741,
+      "ctime_ns": 1791523749341160145
+    },
+    "lowdim-matrix-raw-v3/rice-k1__algorithm4-c2p5.summary.json": {
+      "sha256": "1732688224583430f1b899584acf12805413e0ae113cd066a63d31f3ae5dfc27",
+      "bytes": 70824,
+      "inode": 920345,
+      "mtime_ns": 1791523749341160145,
+      "ctime_ns": 1791523749344081829
+    },
+    "lowdim-matrix-raw-v3/rice-k1__algorithm4-c5p0.jsonl": {
+      "sha256": "2bb2b0629ea143e98c068f16e33524bdaec6c2c34314b3f3bfec06ea45ce59e1",
+      "bytes": 2562127,
+      "inode": 920346,
+      "mtime_ns": 1791523749798869375,
+      "ctime_ns": 1791523749808006614
+    },
+    "lowdim-matrix-raw-v3/rice-k1__algorithm4-c5p0.summary.json": {
+      "sha256": "e78efd92bab2c33e5af714e2c1a9b767fb51eb7beac1b2be658bb5a89329fe00",
+      "bytes": 70822,
+      "inode": 920347,
+      "mtime_ns": 1791523749808006614,
+      "ctime_ns": 1791523749811043278
+    },
+    "lowdim-matrix-raw-v3/rice-k1__algorithm4-c10p0.jsonl": {
+      "sha256": "7536e08acac0365dfaf9426ba76d0da5c9122d6da11b083991b2506746d0c9fe",
+      "bytes": 2577783,
+      "inode": 920348,
+      "mtime_ns": 1791523750266863008,
+      "ctime_ns": 1791523750273613066
+    },
+    "lowdim-matrix-raw-v3/rice-k1__algorithm4-c10p0.summary.json": {
+      "sha256": "6520cdefcde1820de7c5bb417782f6090085d61b18258f41ea3b0c21b5fd2e46",
+      "bytes": 70827,
+      "inode": 920350,
+      "mtime_ns": 1791523750273613066,
+      "ctime_ns": 1791523750276618844
+    },
+    "lowdim-matrix-raw-v3/rice-k1__algorithm4-c100p0.jsonl": {
+      "sha256": "341b73ce985643062c8d7a9a454c6d7635e01def8239967fb0a39562efdf6b46",
+      "bytes": 2580021,
+      "inode": 920351,
+      "mtime_ns": 1791523750710856968,
+      "ctime_ns": 1791523750718981422
+    },
+    "lowdim-matrix-raw-v3/rice-k1__algorithm4-c100p0.summary.json": {
+      "sha256": "f9b1fe17efe5e8c8d12f7c1dc6128e1f27d6d600e5af17392d9cab92d1288a45",
+      "bytes": 70827,
+      "inode": 920352,
+      "mtime_ns": 1791523750718981422,
+      "ctime_ns": 1791523750721587662
+    },
+    "lowdim-matrix-raw-v3/rice-k1__fresh-default.jsonl": {
+      "sha256": "ad8545f4cf257297fb37206f2a145a1b4ea61ea197289056ffda6c5510255ec6",
+      "bytes": 2607164,
+      "inode": 920353,
+      "mtime_ns": 1791523751478846521,
+      "ctime_ns": 1791523751489502948
+    },
+    "lowdim-matrix-raw-v3/rice-k1__fresh-default.summary.json": {
+      "sha256": "2959830549624dd641f908624ef899636753414e7cb0b698c4dc9b6fa8cbb8b9",
+      "bytes": 70787,
+      "inode": 920356,
+      "mtime_ns": 1791523751489502948,
+      "ctime_ns": 1791523751492301140
+    },
+    "lowdim-matrix-raw-v3/rice-k1__fixed-default.jsonl": {
+      "sha256": "b6e30a0bf2c87d0331aa3e78e2a85783fe6f8bef85ee3dd8edef95c7eb78c9d0",
+      "bytes": 2626045,
+      "inode": 920357,
+      "mtime_ns": 1791523751930840372,
+      "ctime_ns": 1791523751941574249
+    },
+    "lowdim-matrix-raw-v3/rice-k1__fixed-default.summary.json": {
+      "sha256": "5940c5eb75ae901d234c733fa4cfc17ebbdb89b66714e0df5d2adef84d9ae3bd",
+      "bytes": 70825,
+      "inode": 920358,
+      "mtime_ns": 1791523751941574249,
+      "ctime_ns": 1791523751944262820
+    },
+    "lowdim-matrix-raw-v3/rice-k1__periodic-interval10.jsonl": {
+      "sha256": "1f93f40f73f5f5e921ebea71ff5fc5b0222e78019e908423d9dfb6b50c1bad85",
+      "bytes": 2589912,
+      "inode": 920359,
+      "mtime_ns": 1791523752418833735,
+      "ctime_ns": 1791523752422833679
+    },
+    "lowdim-matrix-raw-v3/rice-k1__periodic-interval10.summary.json": {
+      "sha256": "37a28f88b58a7c2eb0635dca672c08aa6fac6750cc21f4c9dcdd5d3b8bea6833",
+      "bytes": 70826,
+      "inode": 920361,
+      "mtime_ns": 1791523752422833679,
+      "ctime_ns": 1791523752428521781
+    },
+    "lowdim-matrix-raw-v3/rice-k1__periodic-interval100.jsonl": {
+      "sha256": "19859587d3b74754c828215e29927e2484a07acbb4682fbf55b508c382800023",
+      "bytes": 2582944,
+      "inode": 920362,
+      "mtime_ns": 1791523752870827586,
+      "ctime_ns": 1791523752880389173
+    },
+    "lowdim-matrix-raw-v3/rice-k1__periodic-interval100.summary.json": {
+      "sha256": "89f0e04f9e433cb8c5e32439ec761c2a677133c16c5aa1d727d0e58c032aeb90",
+      "bytes": 70825,
+      "inode": 920363,
+      "mtime_ns": 1791523752880389173,
+      "ctime_ns": 1791523752883106516
+    },
+    "lowdim-matrix-raw-v3/rice-k1__fd-ell2.jsonl": {
+      "sha256": "556ad8850a56ed420150e78c3975201337b4188b56677dc2030627caeed8d1d2",
+      "bytes": 2606177,
+      "inode": 920364,
+      "mtime_ns": 1791523753402820348,
+      "ctime_ns": 1791523753410161125
+    },
+    "lowdim-matrix-raw-v3/rice-k1__fd-ell2.summary.json": {
+      "sha256": "2887a5fd5dce3f52953f832fb9640a3c8623bf7b935ba60eb2742f0683b76e0f",
+      "bytes": 70838,
+      "inode": 920366,
+      "mtime_ns": 1791523753410161125,
+      "ctime_ns": 1791523753412789568
+    },
+    "lowdim-matrix-raw-v3/rice-k1__fd-ell4.jsonl": {
+      "sha256": "e0c5292c3c3489202d43aa1460f47117d63f383b97ae7505a2268984ad3955d9",
+      "bytes": 2615899,
+      "inode": 920367,
+      "mtime_ns": 1791523753954812839,
+      "ctime_ns": 1791523753964735178
+    },
+    "lowdim-matrix-raw-v3/rice-k1__fd-ell4.summary.json": {
+      "sha256": "853f936b43706ab3796f2a45947411854054d71a7e84a3a8b67f18bbec06f2f8",
+      "bytes": 70838,
+      "inode": 920369,
+      "mtime_ns": 1791523753964735178,
+      "ctime_ns": 1791523753967416468
+    },
+    "lowdim-matrix-raw-v3/rice-k1__author_fd-ell2.jsonl": {
+      "sha256": "4b4b4d22f1f279866a2596d64e0e7498599ac3781a73ac75b93a5bbddb1a371e",
+      "bytes": 2607114,
+      "inode": 920365,
+      "mtime_ns": 1791523754538804894,
+      "ctime_ns": 1791523754545659831
+    },
+    "lowdim-matrix-raw-v3/rice-k1__author_fd-ell2.summary.json": {
+      "sha256": "508dc5be1099f4c97a6ca76c69ed964716329af2939ac3a917e390e8a6a2bede",
+      "bytes": 70873,
+      "inode": 920392,
+      "mtime_ns": 1791523754545659831,
+      "ctime_ns": 1791523754548343044
+    },
+    "lowdim-matrix-raw-v3/skin-k1__algorithm4-c1p1.jsonl": {
+      "sha256": "6b04928167ad1cea6a9b141e926969efa99130b974d7ef9fdd708e56673f1cd0",
+      "bytes": 2339872,
+      "inode": 920397,
+      "mtime_ns": 1791523756294781007,
+      "ctime_ns": 1791523756302760258
+    },
+    "lowdim-matrix-raw-v3/skin-k1__algorithm4-c1p1.summary.json": {
+      "sha256": "8dc4e131f3fc02b6eb5fa1ae33f101937c9c6fa02457cd99a0151becebde4603",
+      "bytes": 70595,
+      "inode": 920401,
+      "mtime_ns": 1791523756302760258,
+      "ctime_ns": 1791523756305024674
+    },
+    "lowdim-matrix-raw-v3/skin-k1__algorithm4-c2p0.jsonl": {
+      "sha256": "0af4451040dad69710bc45f14cbac7ef98df272385b9a316eab22e81a894c458",
+      "bytes": 2287479,
+      "inode": 920402,
+      "mtime_ns": 1791523756694775544,
+      "ctime_ns": 1791523756704471614
+    },
+    "lowdim-matrix-raw-v3/skin-k1__algorithm4-c2p0.summary.json": {
+      "sha256": "241122c77aea03dbeac74121f47e1f8c39fd8949cead656c6b2c3f1f0495e5be",
+      "bytes": 70596,
+      "inode": 920403,
+      "mtime_ns": 1791523756704471614,
+      "ctime_ns": 1791523756708019310
+    },
+    "lowdim-matrix-raw-v3/skin-k1__algorithm4-c2p5.jsonl": {
+      "sha256": "f109cb508411efb2fc766c6994a074f2a742e34e87ec31ac7858a25981453941",
+      "bytes": 2320953,
+      "inode": 920445,
+      "mtime_ns": 1791523757146769365,
+      "ctime_ns": 1791523757154769255
+    },
+    "lowdim-matrix-raw-v3/skin-k1__algorithm4-c2p5.summary.json": {
+      "sha256": "b69606228dc85a9604b8afcc9b74be22396182a71fcf14b7e541994f21d88bc1",
+      "bytes": 70594,
+      "inode": 920447,
+      "mtime_ns": 1791523757154426768,
+      "ctime_ns": 1791523757154769255
+    },
+    "lowdim-matrix-raw-v3/skin-k1__algorithm4-c5p0.jsonl": {
+      "sha256": "f204f88779bc555bb7c7dc723a7569b8e5d568dc2ab7d33ddff45a0f77ec276f",
+      "bytes": 2349205,
+      "inode": 920448,
+      "mtime_ns": 1791523757570763570,
+      "ctime_ns": 1791523757581290555
+    },
+    "lowdim-matrix-raw-v3/skin-k1__algorithm4-c5p0.summary.json": {
+      "sha256": "3209e1720df26eb95d697ee9dfb0cd4b5bfa8e0877cfb789aa1141a26a67d5f1",
+      "bytes": 70593,
+      "inode": 920449,
+      "mtime_ns": 1791523757581290555,
+      "ctime_ns": 1791523757584910037
+    },
+    "lowdim-matrix-raw-v3/skin-k1__algorithm4-c10p0.jsonl": {
+      "sha256": "7078abcf08cb2a61c2f1007f0befdb838ad7fbb844d75e7379955fc09d4b62bd",
+      "bytes": 2370883,
+      "inode": 920450,
+      "mtime_ns": 1791523757998757720,
+      "ctime_ns": 1791523758005886391
+    },
+    "lowdim-matrix-raw-v3/skin-k1__algorithm4-c10p0.summary.json": {
+      "sha256": "cac5f7c97f082937fb8b48fd3f62dabb4869e88047b581f8ed3fdb08f7f64c00",
+      "bytes": 70597,
+      "inode": 920452,
+      "mtime_ns": 1791523758005886391,
+      "ctime_ns": 1791523758009671406
+    },
+    "lowdim-matrix-raw-v3/skin-k1__algorithm4-c100p0.jsonl": {
+      "sha256": "e4ea3e5314ef079992a9eebd88b2ae28bbba72aaad7ec8239fdc13cdaa603319",
+      "bytes": 2305837,
+      "inode": 920453,
+      "mtime_ns": 1791523758390752361,
+      "ctime_ns": 1791523758400528954
+    },
+    "lowdim-matrix-raw-v3/skin-k1__algorithm4-c100p0.summary.json": {
+      "sha256": "a894a66299d45efa901a22d41d2013601b2dd21a55baf1d6f07e8fa9554cda05",
+      "bytes": 70599,
+      "inode": 920455,
+      "mtime_ns": 1791523758400528954,
+      "ctime_ns": 1791523758404070672
+    },
+    "lowdim-matrix-raw-v3/skin-k1__fresh-default.jsonl": {
+      "sha256": "1e3e03f60e49b82d58ce6cb61ae04d708d6ba8953cc099070da952d1be8a467c",
+      "bytes": 2361305,
+      "inode": 920456,
+      "mtime_ns": 1791523758962744544,
+      "ctime_ns": 1791523758972361210
+    },
+    "lowdim-matrix-raw-v3/skin-k1__fresh-default.summary.json": {
+      "sha256": "33663eecb132517be17c1817b0d4e9ccc7ec8a868f19ac4f7516284d0b0173f2",
+      "bytes": 70576,
+      "inode": 920457,
+      "mtime_ns": 1791523758972277832,
+      "ctime_ns": 1791523758972361210
+    },
+    "lowdim-matrix-raw-v3/skin-k1__fixed-default.jsonl": {
+      "sha256": "44d1e0c0782564b19b0d0bd3cbb06634d25e01f417b30959dbf2cae5b75a490d",
+      "bytes": 2220928,
+      "inode": 920459,
+      "mtime_ns": 1791523759374738912,
+      "ctime_ns": 1791523759381734896
+    },
+    "lowdim-matrix-raw-v3/skin-k1__fixed-default.summary.json": {
+      "sha256": "9cacdf02ff984eb7754f0d43003a671a632f02f34288e8d1651722078074db54",
+      "bytes": 70556,
+      "inode": 920460,
+      "mtime_ns": 1791523759381734896,
+      "ctime_ns": 1791523759385178829
+    },
+    "lowdim-matrix-raw-v3/skin-k1__periodic-interval10.jsonl": {
+      "sha256": "0c117ee415039c81482149ad7aba7217b59b15edcb2c56d40154908a10f62d90",
+      "bytes": 2330155,
+      "inode": 920461,
+      "mtime_ns": 1791523759818732844,
+      "ctime_ns": 1791523759826798384
+    },
+    "lowdim-matrix-raw-v3/skin-k1__periodic-interval10.summary.json": {
+      "sha256": "92cc92c5dee7a2f8b5a59187f4b57aafe4e292d4ea51881d003c463e49c634c7",
+      "bytes": 70595,
+      "inode": 920462,
+      "mtime_ns": 1791523759826798384,
+      "ctime_ns": 1791523759830467419
+    },
+    "lowdim-matrix-raw-v3/skin-k1__periodic-interval100.jsonl": {
+      "sha256": "588cd74151d9971f724e3f7de590d2d68eeebbff71037d5f07e244f928b60f47",
+      "bytes": 2307022,
+      "inode": 920463,
+      "mtime_ns": 1791523760234727157,
+      "ctime_ns": 1791523760241004784
+    },
+    "lowdim-matrix-raw-v3/skin-k1__periodic-interval100.summary.json": {
+      "sha256": "f36c064ab6c89c0859b3a53eac9af8a8c30892027dbf83cb652fe7bf2a6da434",
+      "bytes": 70596,
+      "inode": 920465,
+      "mtime_ns": 1791523760241004784,
+      "ctime_ns": 1791523760245074369
+    },
+    "lowdim-matrix-raw-v3/skin-k1__fd-ell2.jsonl": {
+      "sha256": "5263ac62c1f2ddf2c9bb309fd8f5cc3633dd21253c08d5802c63a6b7b7662b05",
+      "bytes": 2368127,
+      "inode": 920466,
+      "mtime_ns": 1791523760726720432,
+      "ctime_ns": 1791523760734720323
+    },
+    "lowdim-matrix-raw-v3/skin-k1__fd-ell2.summary.json": {
+      "sha256": "93ccd7617436271190c3758738f72ba1fdd98c8045a9718f18f93fb7234c0acd",
+      "bytes": 70615,
+      "inode": 920468,
+      "mtime_ns": 1791523760734379362,
+      "ctime_ns": 1791523760734720323
+    },
+    "lowdim-matrix-raw-v3/skin-k1__fd-ell3.jsonl": {
+      "sha256": "e4ab64f203777d06df37c0a2894bd7df451e0619109d3738bd4d4db0da5619bb",
+      "bytes": 2366731,
+      "inode": 920469,
+      "mtime_ns": 1791523761198713981,
+      "ctime_ns": 1791523761206713872
+    },
+    "lowdim-matrix-raw-v3/skin-k1__fd-ell3.summary.json": {
+      "sha256": "f89188ab4d2f517439697c3eb055c6c51fd15476aa8a374579fc6062e362462e",
+      "bytes": 70586,
+      "inode": 920471,
+      "mtime_ns": 1791523761206492159,
+      "ctime_ns": 1791523761206713872
+    },
+    "lowdim-matrix-raw-v3/skin-k1__author_fd-ell2.jsonl": {
+      "sha256": "2c12ede46bbaf13b5e32892d90f507afe93787f418f745707fabac7239d3e195",
+      "bytes": 2360697,
+      "inode": 920472,
+      "mtime_ns": 1791523761730706709,
+      "ctime_ns": 1791523761738706599
+    },
+    "lowdim-matrix-raw-v3/skin-k1__author_fd-ell2.summary.json": {
+      "sha256": "a264e78db1e3b2ee2dc7d4e1dcd8fd5fbf6ae83cfe9d06e3a5c947d677912855",
+      "bytes": 70617,
+      "inode": 920473,
+      "mtime_ns": 1791523761738178378,
+      "ctime_ns": 1791523761738706599
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c1p1.jsonl": {
+      "sha256": "4ef4bbe3d27cc6f7b225659136bccea585f65584346b852c9c0dede24abbda3d",
+      "bytes": 2518179,
+      "inode": 920478,
+      "mtime_ns": 1791523763326684893,
+      "ctime_ns": 1791523763334684784
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c1p1.summary.json": {
+      "sha256": "e39b568d1744f1d65432a8d57c81d6d5d7f374533d8bd49784199aa42802b0eb",
+      "bytes": 70596,
+      "inode": 920479,
+      "mtime_ns": 1791523763334246641,
+      "ctime_ns": 1791523763334684784
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c1p5.jsonl": {
+      "sha256": "0bef87b0ec3cc9ed747e0853a56746c990170da4177857d04f4e65ddcc74b46b",
+      "bytes": 2520578,
+      "inode": 920480,
+      "mtime_ns": 1791523763730679372,
+      "ctime_ns": 1791523763738679263
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c1p5.summary.json": {
+      "sha256": "78eb6755de3d5ace4ecd7d493eca2e2428d44daaea03031f0a0c53aeb33b2b9a",
+      "bytes": 70596,
+      "inode": 920481,
+      "mtime_ns": 1791523763738482342,
+      "ctime_ns": 1791523763738679263
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c2p0.jsonl": {
+      "sha256": "e8e72ebff61ecad1679ce836eab9d1e46e741c3b7a8b9e44266d065cfff06489",
+      "bytes": 2501868,
+      "inode": 920482,
+      "mtime_ns": 1791523764138673795,
+      "ctime_ns": 1791523764147203291
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c2p0.summary.json": {
+      "sha256": "de7ce429b0553e6f1ba3e0b4e5b0be2be8bde799bd0e17c2d74c18c5b013f4f0",
+      "bytes": 70596,
+      "inode": 920484,
+      "mtime_ns": 1791523764147203291,
+      "ctime_ns": 1791523764151761136
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c2p5.jsonl": {
+      "sha256": "d13f4d71e99f2eb05715139580284cbcdf3178c92d117654d64484ae91c6bb1f",
+      "bytes": 2547502,
+      "inode": 920485,
+      "mtime_ns": 1791523764590667065,
+      "ctime_ns": 1791523764598666937
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c2p5.summary.json": {
+      "sha256": "7f730b74bbedadb7d6f802fdaf137d7d9a5d5a97d9c85cbbf5709165a7738b82",
+      "bytes": 70595,
+      "inode": 920486,
+      "mtime_ns": 1791523764597897305,
+      "ctime_ns": 1791523764598666937
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c5p0.jsonl": {
+      "sha256": "e10f324d5b64b1c87173012bb2698c7f31acd36a9564769a652eb8d46be0e60c",
+      "bytes": 2525743,
+      "inode": 920487,
+      "mtime_ns": 1791523765042659832,
+      "ctime_ns": 1791523765050659704
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c5p0.summary.json": {
+      "sha256": "1fc07dd4c75009ae8d5aa63adbd9eba9d148172d01411f80addfab6b486b46cf",
+      "bytes": 70596,
+      "inode": 920490,
+      "mtime_ns": 1791523765050415843,
+      "ctime_ns": 1791523765050659704
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c10p0.jsonl": {
+      "sha256": "9051d081b6148b779b7fd0cda70b440aa0d087c4749d23c1e8dc30914499adb6",
+      "bytes": 2500624,
+      "inode": 920491,
+      "mtime_ns": 1791523765486653031,
+      "ctime_ns": 1791523765496050994
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c10p0.summary.json": {
+      "sha256": "be97adb73190f765502d4f429a5fcb27b9fab88958d115883329fbd64f132ad8",
+      "bytes": 70596,
+      "inode": 920492,
+      "mtime_ns": 1791523765496050994,
+      "ctime_ns": 1791523765500152606
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c100p0.jsonl": {
+      "sha256": "6c7725051bcb2dc23d6d406a059222127e07241bb2a56a542c53ef6e58afb7af",
+      "bytes": 2506933,
+      "inode": 920493,
+      "mtime_ns": 1791523765914647152,
+      "ctime_ns": 1791523765923518802
+    },
+    "lowdim-matrix-raw-v3/skin-k2__algorithm4-c100p0.summary.json": {
+      "sha256": "63c454072c6ae5d779eb5c29c3b6186955fd6047df355f88acc8dcac8eb3f9fd",
+      "bytes": 70602,
+      "inode": 920494,
+      "mtime_ns": 1791523765923518802,
+      "ctime_ns": 1791523765927372910
+    },
+    "lowdim-matrix-raw-v3/skin-k2__fresh-default.jsonl": {
+      "sha256": "e2ef05bc6c5ba77ee83403a2e4aa2e51d76e2555d08906234d671ed8ea1d7f04",
+      "bytes": 2555474,
+      "inode": 920496,
+      "mtime_ns": 1791523766506639023,
+      "ctime_ns": 1791523766514773208
+    },
+    "lowdim-matrix-raw-v3/skin-k2__fresh-default.summary.json": {
+      "sha256": "d040cf3ee93b934bc974d09ada181e78313b68e0437365e1f3a26d822ee45ab4",
+      "bytes": 70587,
+      "inode": 920497,
+      "mtime_ns": 1791523766514773208,
+      "ctime_ns": 1791523766518350117
+    },
+    "lowdim-matrix-raw-v3/skin-k2__fixed-default.jsonl": {
+      "sha256": "aa070ce56929c738710e38284da93820e0054e2e9fba9c9d9d280b324fbcf5d2",
+      "bytes": 2464588,
+      "inode": 920498,
+      "mtime_ns": 1791523767022631935,
+      "ctime_ns": 1791523767030869100
+    },
+    "lowdim-matrix-raw-v3/skin-k2__fixed-default.summary.json": {
+      "sha256": "913922092c6c63f96d225511aca5945d747bcb72ff262125f9ffa4ba01b686a4",
+      "bytes": 70573,
+      "inode": 920500,
+      "mtime_ns": 1791523767030869100,
+      "ctime_ns": 1791523767035360046
+    },
+    "lowdim-matrix-raw-v3/skin-k2__periodic-interval10.jsonl": {
+      "sha256": "b0c16d488a8137cbdfc29a383518a42346e21e04d963b677b70816beb9ae133d",
+      "bytes": 2530185,
+      "inode": 920502,
+      "mtime_ns": 1791523767490625509,
+      "ctime_ns": 1791523767501269323
+    },
+    "lowdim-matrix-raw-v3/skin-k2__periodic-interval10.summary.json": {
+      "sha256": "6c6d1f437dea8df13338a2be479d2ff8000df3e7bda2c9162d4570700b6dac68",
+      "bytes": 70596,
+      "inode": 920503,
+      "mtime_ns": 1791523767501269323,
+      "ctime_ns": 1791523767505081328
+    },
+    "lowdim-matrix-raw-v3/skin-k2__periodic-interval100.jsonl": {
+      "sha256": "da36e56256af3fde4f0592c109297d01bfb880074a25f6557234f6e8e93ac673",
+      "bytes": 2532949,
+      "inode": 920504,
+      "mtime_ns": 1791523767938619357,
+      "ctime_ns": 1791523767945774180
+    },
+    "lowdim-matrix-raw-v3/skin-k2__periodic-interval100.summary.json": {
+      "sha256": "f560ad49d8a55a2e1207bcca0c264e544eab719dde36f9b8f73b46d01415caf6",
+      "bytes": 70599,
+      "inode": 920505,
+      "mtime_ns": 1791523767945774180,
+      "ctime_ns": 1791523767949625373
+    },
+    "lowdim-matrix-raw-v3/skin-k2__fd-ell3.jsonl": {
+      "sha256": "1fe3af944ada09406534afa5ab340983d531c3136fd13eaa119dc9caa0deaae3",
+      "bytes": 2557495,
+      "inode": 920507,
+      "mtime_ns": 1791523768486611831,
+      "ctime_ns": 1791523768495443635
+    },
+    "lowdim-matrix-raw-v3/skin-k2__fd-ell3.summary.json": {
+      "sha256": "ed20a5f427f96101e41eeccd5d844552ca19625c4351032957d85dabb6a47d30",
+      "bytes": 70612,
+      "inode": 920508,
+      "mtime_ns": 1791523768495443635,
+      "ctime_ns": 1791523768499466091
+    },
+    "lowdim-matrix-raw-v3/skin-k2__author_fd-ell2.jsonl": {
+      "sha256": "e033ea8946f80b2b31b9f22a79853accd4a7ee4c4f0a28b79e39e7c86710f5e4",
+      "bytes": 2558924,
+      "inode": 920509,
+      "mtime_ns": 1791523769050604086,
+      "ctime_ns": 1791523769059689394
+    },
+    "lowdim-matrix-raw-v3/skin-k2__author_fd-ell2.summary.json": {
+      "sha256": "19466e5070266c0cc3bc1b011c6012d7c0dd91645273ead64b301808bed09e37",
+      "bytes": 70645,
+      "inode": 920511,
+      "mtime_ns": 1791523769059689394,
+      "ctime_ns": 1791523769063583150
+    }
+  }
+}
