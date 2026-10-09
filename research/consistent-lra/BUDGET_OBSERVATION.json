@@ -662,7 +662,7 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:42:03.867439+00:00",
+  "observed_at": "2026-10-09T12:44:54.419472+00:00",
   "observed_process_cpu_seconds": 293.52897959,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -794,7 +794,7 @@
       "scientific_experiment": false
     }
   ],
-  "registered_task_assignments": 143,
+  "registered_task_assignments": 145,
   "remaining_wall_seconds_at_observation": 16419.132561,
   "reservation": {
     "actual_max_rss_kib": 99788,
@@ -1089,7 +1089,9 @@
     "window02-integer-projector-certificate-math-design",
     "window02-integer-projector-certificate-independent-math-design-review",
     "window02-integer-projector-representative-cost-addendum",
-    "window02-integer-projector-cost-addendum-independent-review"
+    "window02-integer-projector-cost-addendum-independent-review",
+    "window02-integer-projector-complete-source-generation",
+    "window02-integer-projector-independent-source-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1428,10 +1430,17 @@
     "record": "INTEGER_PROJECTOR_CERTIFICATE_DESIGN_REVIEW_WINDOW02.md",
     "verdict": "accepted_source_generation_only_cost_gate_pending"
   },
-  "pending_window02_integer_projector_cost_review": {
+  "pending_window02_integer_projector_cost_review": null,
+  "completed_window02_integer_projector_cost_review": {
     "assignment_number": 143,
     "reviewer": "/root/window02_scorer_scope_review",
-    "record": "INTEGER_PROJECTOR_COST_ADDENDUM_WINDOW02.md",
+    "reviewed_commit": "7a3104c5e1f2ef126dff110508e81cc9fb213902",
+    "record": "INTEGER_PROJECTOR_COST_REVIEW_WINDOW02.md",
+    "verdict": "accepted_source_generation_only"
+  },
+  "pending_window02_integer_projector_source_review": {
+    "assignment_number": 145,
+    "reviewer": "/root/window02_consecutive_condition_review",
     "execution_admitted": false
   }
 }
