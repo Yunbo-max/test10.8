@@ -1,0 +1,23 @@
+{
+  "format": "scoped-independent-correction-rereview-assignment-v1",
+  "task_id": "evaluator-semantic-oracle-plan-rereview",
+  "registered_order": 23,
+  "corrected_candidate_commit": "6f104ad753ffe0fc441265405072b39bc4fe5590",
+  "initial_candidate_commit": "19a46f250bc196c3892e1a01edb6c8a5d7b7440d",
+  "initial_review": "research/consistent-lra/EVALUATOR_SEMANTIC_ORACLE_PLAN_REVIEW.md",
+  "correction_scope": [
+    "record SciPy and scikit-learn versions loaded through baseline_qualify",
+    "correct documentation dependency inventory and reservation boundary",
+    "regenerate code hash, native plan digest/ref and harness plan digest/ref"
+  ],
+  "review_paths": [
+    "research/consistent-lra/evaluator_semantic_oracles.py",
+    "research/consistent-lra/EVALUATOR_SEMANTIC_ORACLES_20261009.md",
+    "research/consistent-lra/plans/native-evaluator-semantic-oracles.json",
+    "research/consistent-lra/plans/harness-evaluator-semantic-oracles.json",
+    "research/consistent-lra/EVALUATOR_SEMANTIC_ORACLE_PLAN_REVIEW.md"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "budget_effect": {"registered_task_assignments": 1, "executable_attempts_if_accepted": 1, "scientific_experiments": 0}
+}
