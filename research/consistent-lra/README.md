@@ -5,16 +5,23 @@
 See [restart authorization and exact pending work](RESTART_AUTHORIZATION_20261009.md). Prior results and
 negative history are retained; background activation is recorded separately.
 
+**当前证据（2026-10-09）：** Landmark Stage A v2 已独立接受 35 个前缀、13 个对照的 455 条评分恒等式记录，以及全部 5,000 次更新的 65,000 条计时记录；38 个输出完整。实际整次 wall 79.251553 秒、CPU 78.791094 秒、RSS 190,604 KiB。[独立验收](LANDMARK_STAGE_A_v2_FULL_EVIDENCE_REVIEW.md)只接受这些有限恒等式、输出完整性和成本，不是全前缀性能胜负。原 v1 gzip 失败保留，根因未证明。
+
+实数父构造的秩 61 精确有理数记录也已实际执行并完整独立复核：122 项 residue、122 项 secular/导数/归一化、61 项交叉权重，严格下界 `122/15>8`。原执行 wall 32.111198 秒、CPU 31.346881 秒；另外独立只读算术验收消耗 CPU 13.176209 秒，单独累计。[代码](formal_geometric_certificate.py)、[完整验收](FORMAL_CERTIFICATE_TARGET61_EVIDENCE_REVIEW_WINDOW02.md)。它验证实数父卡的有限恒等式，不生成或验证 v7 整数输入，也不计算完整 recourse。
+
+完整 13 对照、5,000 前缀的 [Stage B 代码草案](run_landmark_stage_b.py)已生成，近零直接 SVD/残差回退、分母、初始与稳态 recourse、原始输出和归档均有实现；当前正在独立源码审查，未导入/未执行。正式数值比较仍缺原生 evaluator 资格，不因代码或 Stage A 接受而绕过。累计 2 轮控制迭代、112 个登记任务、20 次执行尝试、至少 290.816014 秒实测 CPU；正式科学实验、新候选发现轮和合格论文均为 0。新颖性/优先权仍未结案。
+
+
 本项目使用 `Research_Autopilot/autonomous-rsi` 的机器审查流程，研究流式低秩近似的重构质量、子空间稳定性和计算成本。用户授权使用当前 ChatGPT Work 的 CPU，并要求一个 8 小时研究窗口。资源实测为 8 核 CPU 配额、8 GiB 内存上限；无需 GPU 或额外模型 API。
 
 **当前已保存一个经两名独立审查者核验的正式反例：原论文“追加一行后的最优投影 recourse 至多为 8”引理，在其写明的实矩阵条件下不成立，即使最优投影唯一。进一步的独立审查确认：插入/删除序列也否定了无秩依赖的“精确最优动态维护总 recourse 为 O(n)”结论。近似算法的存在定理、原创性与可发表性仍需分别审查。**
 
-新的修正审查进一步确认：该动态反例可逐秩整数化，仍排除秩/维无关常数，但没有给出整数幅值或位长的多项式界，因此不触及带 `M` 参数的近似定理。在线 PCP 主来源和一个保守的二次秩依赖回退也已核验；该回退只在同时满足所有前缀 PCP 与样本数界的高概率事件上成立，并不是新算法。
+最新独立审查给出了构造性的整数反例：秩 61、维度 122 时，追加一行使精确最优投影 recourse 大于 8；全部非空连续行块的非零奇异值条件数小于 4，每个整数元素最多 259 位。一般秩满足 recourse 大于 `2k/15−1/100`，整数位长为 `O(k+log k)`，幅值仍随秩指数增长。这加强了同一引理审计，不是新的近似算法，也没有推翻带 `M` 参数的近似存在定理。详见 [v7 推导](FORMAL_AUDIT_v7_EXPLICIT_INTEGER_BIT_BOUND_DRAFT.md)及[独立审查](FORMAL_AUDIT_v7_REVIEW.md)。历史 v4 密度证明及其首次更正永久保留。
 
 已完成并独立核验 Landmark 全文件机械完整性，以及 Rice/Skin 真实数据上
 8 个预声明 prefix 的评分恒等式检查、修复评分器的 25 项解析/代数
 semantic oracle、强 FD 基线的 45 项来源/语义 oracle，以及作者 `ell+1`
-FD 诊断的 58 项来源/语义 oracle。累计可归因进程 CPU 为 2.084459 秒，
+FD 诊断的 58 项来源/语义 oracle。这部分早期工程检查可归因进程 CPU 为 2.084459 秒，
 准备作业峰值 RSS 148,112 KiB；所有输入、日志、receipts 和原始 JSON 已保存。
 这些是来源/工程资格，不是数值基线胜负、已验证新算法或论文分数。另有一次
 经独立审查接受的 Rice Algorithm 4 全 3,000-prefix 成本/覆盖校准：pipeline

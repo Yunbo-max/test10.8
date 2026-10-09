@@ -54,3 +54,14 @@ plugin c23/research-autopilot and same-package modules; historical vendor/rsi
 at 1de12dfed5b84957b29ac5b3a2f04904bf3742bc remains pinned for prior receipts
 and unchanged runtime/checker execution. No shared skill or runtime upgrade
 is authorized. Reuse background task 6ac82bb085c081919fa92002384b073b and branch scope; no second writer.
+
+
+## Window02 current continuation, 2026-10-09
+
+Current 2 controller rounds /112 registered assignments /20 original executable attempts /0 discovery /0 admitted scientific experiments /0 papers. CPU lower bound290.816014082s includes separately recorded13.176209082s independent k61 Fraction evidence analysis; do not rerun accepted target or reset counts. No currently unreleased execution reservation. Active window09:15:43Z–17:15:43Z; stop opening new work17:10:43Z. Same writer/branch/automation, historical bootstrap immediate request is never a worker task.
+
+Restore live immutable head and all controls/evidence at that SHA. Accepted finite full Stage-A v2 evidence is atbc80f1be00f772a8c462f807444cdd4e2b67de35, real-parent k61 exact evidence atea547dd4c732a01b06969b045866eb03bd906271; later root commits hold independent reviews. v7 explicit integer bit-bound proof is accepted at3f8aa6e48335052f93b75e55a4ce3a41311481ca via FORMAL_AUDIT_v7_REVIEW.md, same correction lineage, not newpaper/algorithm. Integer magnitudes exponential, bits polynomial; v7 is analytic and not produced by the real-parent certificate.
+
+Earliest admitted next engineering action: complete actual assignment110 independent source/semantic review of generated run_landmark_stage_b.py at eb3f7dcfd4657264ced79feec69d9949a643b7f6 SHA97bd59897fe98abac6204976cd03e7c19029e3cd6c817ae96bd4c1444b2f8f8f. Source ACCEPT can qualify a source draft only. No Stage-B plan/score/full-performance command is admitted until authentic native-scientific evaluator authority and full protocol/near-zero qualification are genuinely satisfied. No debug/calibration/controls loophole. Complete source/design may remain pending; do not pretend an all-prefix comparison is complete or replace missing nativedata with exact-math constructions.
+
+Independent useful work: targeted primary priority/downstream audit of constructive polynomial-bit integer correction; accepted mechanism is prior art, no absence-of-search novelty pass. Gate0/IPCG/full baseline/residual failures remain prerequisites for discovery; pool0, no forged verify_methods batch or metadata authorization. Keep generated source and real mathematical/provenance artifacts even if paper eligibility remains0.

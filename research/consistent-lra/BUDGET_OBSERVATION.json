@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T11:08:23.454329+00:00",
+  "observed_at": "2026-10-09T11:10:55.075412+00:00",
   "controller_rounds": 2,
   "registered_task_assignments": 112,
   "executable_attempts_dispatched": 20,
@@ -79,7 +79,7 @@
     }
   ],
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
-  "independent_work": "Stage-A finite identity/cost accepted; exact rational certificate source pending; Stage-B implementation draft may continue; scientific native evaluator authority and priority remain pending",
+  "independent_work": "accepted constructive polynomial-bit integer lemma counterexample and complete real-parent k61 exact arithmetic corroboration; complete StageB scoring source generated pending independentreview; novelty/nativeauthority remain unresolved",
   "task_assignments": [
     "source_join_review",
     "harness_staging_review",
@@ -203,7 +203,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 23262.554075,
+  "remaining_wall_seconds_at_observation": 21887.924588,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
