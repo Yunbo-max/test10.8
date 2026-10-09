@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T00:58:36+00:00",
+  "observed_at": "2026-10-09T01:05:00+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 14,
   "executable_attempts_dispatched": 1,
@@ -62,11 +62,20 @@
     "path": "runs/attempts/source-integrity-01/receipt.json",
     "sha256": "abe68964844ec38e356b6c1573f615ea6319756185361d4a0eedf49dbbb0d378"
   },
-  "remaining_wall_seconds_at_observation": 26184.003967,
+  "remaining_wall_seconds_at_observation": 24165,
   "verified_scientific_failures_by_direction": {},
   "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run.",
-  "formal_review_assignments_completed": false,
+  "formal_review_assignments_completed": true,
   "pending_formal_review": null,
   "completed_formal_review": "integer-density-extension-correction-re-review:accepted",
-  "pending_source_review": "sampling-source-qualification-correction-re-review"
+  "pending_source_review": null,
+  "completed_source_review": "sampling-source-qualification-correction-re-review:accepted",
+  "latest_resource_observation": {
+    "observed_at": "2026-10-09T01:02:08+00:00",
+    "cpu_max": "800000 100000",
+    "cpu_quota_cores": 8,
+    "nproc_visible": 9,
+    "memory_max_bytes": 8589934592,
+    "scientific_job_launched": false
+  }
 }

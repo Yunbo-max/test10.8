@@ -4,10 +4,15 @@
 
 **当前已保存一个经两名独立审查者核验的正式反例：原论文“追加一行后的最优投影 recourse 至多为 8”引理，在其写明的实矩阵条件下不成立，即使最优投影唯一。进一步的独立审查确认：插入/删除序列也否定了无秩依赖的“精确最优动态维护总 recourse 为 O(n)”结论。近似算法的存在定理、原创性与可发表性仍需分别审查。**
 
+新的修正审查进一步确认：该动态反例可逐秩整数化，仍排除秩/维无关常数，但没有给出整数幅值或位长的多项式界，因此不触及带 `M` 参数的近似定理。在线 PCP 主来源和一个保守的二次秩依赖回退也已核验；该回退只在同时满足所有前缀 PCP 与样本数界的高概率事件上成立，并不是新算法。
+
 已完成一次真实 CPU 数据完整性准备作业（0.190072 秒 CPU，峰值 RSS 99,788 KiB），并保存输入、日志和 receipts。尚无数值基线比较、已验证新算法或合格新论文；准备作业不是科学实验分数。
 
 - [固定版本反例](FORMAL_AUDIT_v2.md)与[两份独立审查及精确阈值说明](FORMAL_AUDIT_v2_REVIEW.md)
 - [动态更新扩展](FORMAL_AUDIT_v3_EXTENSION.md)、[条件数补充](CONDITION_SCOPE_SUPPLEMENT_DRAFT.md)与[独立审查](FORMAL_EXTENSION_REVIEWS.md)
+- [整数输入扩展](FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md)与[保留首次失败的独立复审记录](FORMAL_AUDIT_v4_REVIEW.md)
+- [在线 PCP 来源和保守回退](SAMPLING_SOURCE_QUALIFICATION_20261009.md)与[独立复审记录](SAMPLING_SOURCE_QUALIFICATION_REVIEW.md)
+- [谱投影函数的主文献等价性核查](LITERATURE_EQUIVALENCE_20261009_3.md)
 - [真实 CPU 准备证据](PREPARATION_REVIEW_20261009.md)
 - [基线修复源码审查](BASELINE_DRAFT_REVIEW.md)
 - [四类原生实验设计草案](NATIVE_PROTOCOL_DRAFT.md)

@@ -1,10 +1,10 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T00:31:20.996033+00:00",
+  "observed_at": "2026-10-09T01:05:00+00:00",
   "rsi_source_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "canonical_controller_run": false,
   "decision": 2,
-  "action": "reread actual primary collision/sampling source and remaining native scorer/data join after scoped mathematics closes",
+  "action": "reread and qualify remaining native scorer/benchmark code and Landmark source after scoped mathematics and PCP source qualification",
   "basis": [
     {
       "path": "FORMAL_AUDIT_v2.md",
@@ -28,6 +28,20 @@
     {
       "path": "FORMAL_EXTENSION_REVIEWS.md",
       "independent_reviewer": "/root/execution_capability"
+    },
+    {
+      "path": "FORMAL_AUDIT_v4_REVIEW.md",
+      "independent_reviewer": "/root/integer_density_review",
+      "verdict": "accepted_after_recorded_needs_correction"
+    },
+    {
+      "path": "SAMPLING_SOURCE_QUALIFICATION_REVIEW.md",
+      "independent_reviewer": "/root/sampling_source_review",
+      "verdict": "accepted_after_recorded_needs_correction"
+    },
+    {
+      "path": "LITERATURE_EQUIVALENCE_20261009_3.md",
+      "collision": "known_mechanism_and_growth_prior_art; exact_target_application_inconclusive"
     }
   ],
   "blocked_descendants": {
@@ -41,8 +55,7 @@
   "gate_advanced": false,
   "eligible_new_papers": 0,
   "continued_independent_work": [
-    "functional prior-art equivalence and citation expansion",
-    "qualified PCP/sampling assumptions",
+    "exact-target correction priority and remaining citation expansion",
     "remaining authentic native scorer and asset access"
   ],
   "reason_not_terminal": "finite productive mathematical/source tasks remain; deadline unchanged",

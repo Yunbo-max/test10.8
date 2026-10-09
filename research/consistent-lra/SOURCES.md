@@ -52,3 +52,20 @@ Canonical FD source read: edoliberty/frequent-directions@691df9edb2ffbc2fdddc2ce
 New primary mathematical source locators, actual reading scopes and unresolved equivalence/novelty questions are in NOVELTY_PRELIMINARY_20261009.md. No source full-text hash is asserted where only web full-text retrieval was available. Repeated target proof in Accelerating Scientific Research with Gemini was read at Theorem7.33 only.
 
 Later formal dependency work is retained in FORMAL_AUDIT_v3_EXTENSION.md, CONDITION_SCOPE_SUPPLEMENT_DRAFT.md and FORMAL_EXTENSION_REVIEWS.md. The specific rank-uniform exact-optimal dynamic Theorem2.2 is contradicted; approximate insertion-only Theorem1.2 is not thereby refuted, although its displayed lemma-dependent proof needs repair. Algorithm4's energy argument is separate. Additional primary-source locators, access caveats and search observations are in LITERATURE_READ_20261009_2.md.
+
+The integer-density continuation and both independent verdicts are retained in
+FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md and FORMAL_AUDIT_v4_REVIEW.md.  It
+establishes a separately integerized arbitrary-rank family, with no polynomial
+integer-magnitude or bit-length claim and no implication for Theorem1.3.
+
+The exact identity with the Anderson integral and the bounded primary-source
+collision search are in LITERATURE_EQUIVALENCE_20261009_3.md.  The underlying
+rank-one/Cauchy/projector mechanism and logarithmic-growth phenomenon are prior
+art; exact priority for the application to the 2026 paper remains inconclusive.
+
+Braverman et al., arXiv:1805.03765v6 (11 April 2023), and the target official
+PDF were jointly checked for the online PCP dependency.  The corrected record
+and independent review are in SAMPLING_SOURCE_QUALIFICATION_20261009.md and
+SAMPLING_SOURCE_QUALIFICATION_REVIEW.md.  The quadratic-in-rank fallback is
+conditional on a joint high-probability event for the theoretical append-only
+sampler; executable parity and native scoring remain pending.

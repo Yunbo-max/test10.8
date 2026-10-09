@@ -39,5 +39,20 @@ an executable implementation still requires separate parity qualification.
 
 ## Correction re-review status
 
-Pending at a new immutable candidate.  No source reading, algebra or first
-verdict is overwritten, and the reviewer performed no numerical experiment.
+`accepted`.
+
+- Corrected candidate commit:
+  `b8651edf183ff8103aa97823c044d79a9b9cef99`
+- Candidate Git blob: `1c0a3763b667f6bd9f11f08c088a822c0d1079e9`
+- Candidate SHA256:
+  `c54da47a0a3e7aad71a6851225f73e9f8ff95dd0305b305d4ad823408f5a82c9`
+- Assignment commit: `5a11100ecf1eadb60485096f7972515f7e1bd6c8`
+- Assignment Git blob: `2492f003941fcb49f948053f9ba71e40f384c9cf`
+- Assignment SHA256:
+  `e1154fbabed4e24695330b0f9c831e2a7f5323a512b45cd82f1c7a38b7912854`
+
+The reviewer accepted the corrected 11 April 2023 version date, the explicit
+joint high-probability event and the theoretical Algorithm 5 append-only event
+accounting.  Executable sampler parity remains pending.  No source reading,
+algebra or first verdict is overwritten, and the reviewer performed no
+numerical experiment.

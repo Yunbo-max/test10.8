@@ -1,6 +1,6 @@
 {
   "format": "consistent-lra-evidence-index-v1",
-  "observed_at": "2026-10-09T00:32:34.072654+00:00",
+  "observed_at": "2026-10-09T01:06:27+00:00",
   "source_pins": {
     "RSI": "Yunbo-max/Research_Autopilot@1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
     "author": "samsonzhou/consistent-LRA@d607c4f6467216c470d1e3b93989d44d5fcdec97"
@@ -12,7 +12,13 @@
     "prelaunch_plan_and_reservation": "73246d5058e40660bab4c74170c436ae20418243",
     "raw_preparation_math_reviews_and_62_file_readback": "38b8f456ab60d318e15567f725dbe5db31fe3890",
     "dynamic_extension_preassignment": "ec82f7d34916be295111e922f75068d56b1cad25",
-    "condition_supplement_preassignment": "ea8abd51aeaca59e433b00922ac871d3b4035fc8"
+    "condition_supplement_preassignment": "ea8abd51aeaca59e433b00922ac871d3b4035fc8",
+    "integer_density_and_collision_preassignment": "8f35727ad9e096e58936d30437285d01321793ee",
+    "sampling_source_preassignment": "77429350ae1513ae0f6825b7d07c4b0825288b43",
+    "integer_density_corrected_candidate": "e6ca030dae13084a116659a78d8f1e680e862b95",
+    "integer_density_accepted_record": "9b294f09a87d7984e55159f9b548db57a1c2dde7",
+    "sampling_source_corrected_candidate": "b8651edf183ff8103aa97823c044d79a9b9cef99",
+    "sampling_source_correction_assignment": "5a11100ecf1eadb60485096f7972515f7e1bd6c8"
   },
   "artifacts": [
     {
@@ -82,12 +88,32 @@
     {
       "path": "evidence/readback-38b8f456.json",
       "sha256": "b5dc7bef71bcce39beb3e254c9899c3dc29232c4853aca2627886a760d21b5a8"
+    },
+    {
+      "path": "LITERATURE_EQUIVALENCE_20261009_3.md",
+      "sha256": "a4f5e45296d15d21edfb5e74bb0d3fd72135329a7b7915e5d825a846dd1f7be2"
+    },
+    {
+      "path": "FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md",
+      "sha256": "9bd273081ee32ec9dbfb0372b1443420265a8be8f483b350c7ca68ea20b1890e"
+    },
+    {
+      "path": "FORMAL_AUDIT_v4_REVIEW.md",
+      "sha256": "5d7722060ab8dcba0d75404cf841fc277c00f6bbd383550881203afb9ce48036"
+    },
+    {
+      "path": "SAMPLING_SOURCE_QUALIFICATION_20261009.md",
+      "sha256": "29d0e25334ff84cf242cc508480203bfe21b35c758e08b84812ab7105936a022"
+    },
+    {
+      "path": "SAMPLING_SOURCE_QUALIFICATION_REVIEW.md",
+      "sha256": "d6cca0dcc4fe9831d1a2e7c2de79487377a412aec35b12dce4c5171cfc33168f"
     }
   ],
   "actual_usage": {
     "scientific_numerical_attempts": 0,
     "executable_preparation_attempts": 1,
-    "registered_assignments": 10,
+    "registered_assignments": 14,
     "process_cpu_seconds": 0.190072,
     "peak_RSS_KiB": 99788,
     "unreleased_reservations": []
@@ -103,8 +129,7 @@
   "deadline_utc": "2026-10-09T07:47:45Z",
   "next_step": 2,
   "remaining_tasks": [
-    "precise primary mathematical collision audit and citation expansion",
-    "qualified sampling-source assumptions",
+    "exact-target correction priority and remaining citation expansion",
     "authentic runnable official native scorer interface",
     "Landmark native asset/license",
     "qualified native references/baselines",

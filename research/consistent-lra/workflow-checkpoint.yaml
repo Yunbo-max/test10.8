@@ -46,13 +46,14 @@ completed:
   - rank_uniform_exact_optimal_dynamic_O_n_counterexample_independently_reviewed
   - stronger_consecutive_row_polynomial_condition_bound_independently_reviewed
   - integer_input_arbitrary_rank_dynamic_extension_accepted_after_correction_review
+  - primary_spectral_projection_functional_collision_audit
+  - online_pcp_source_and_quadratic_recourse_fallback_accepted_after_correction_review
   - preliminary_primary_literature_collision_reading_not_novelty_gate
   - actual_rsi_branch_and_author_source_pinning
   - read_only_cpu_memory_and_dependency_inventory
   - independent_source_audit_of_four_author_scripts
   - independent_work_host_capability_audit
 pending:
-  - independent_re_review_of_corrected_sampling_source_qualification_and_fallback
   - complete_Landmark_asset_and_random_normalization_identity_join
   - authentic_upstream_runnable_scorer_interface_and_parity_admission
   - existing_paper_lemma_downstream_implications_and_complete_collision_audit
@@ -67,7 +68,7 @@ scientific_experiments_started: 0
 scientific_results_verified: 0
 eligible_new_papers: 0
 negative_or_invalid_history: BASELINE_AUDIT.md
-next_action: complete precise primary-literature collision and sampling-source qualification; numeric descendants remain blocked by authentic scorer capability
+next_action: continue step2 on authentic native scorer/benchmark and Landmark source admission; numeric descendants remain blocked
 notes:
   - source review is not scientific replication
   - schedule is not uninterrupted CPU execution
@@ -99,3 +100,7 @@ integer_density_extension_draft: FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md
 integer_density_initial_review_record: FORMAL_AUDIT_v4_REVIEW.md
 sampling_source_qualification_draft: SAMPLING_SOURCE_QUALIFICATION_20261009.md
 sampling_source_initial_review_record: SAMPLING_SOURCE_QUALIFICATION_REVIEW.md
+latest_resource_observation_utc: '2026-10-09T01:02:08+00:00'
+latest_cpu_max: '800000 100000'
+latest_visible_processors: 9
+latest_memory_max_bytes: 8589934592

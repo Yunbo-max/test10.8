@@ -1,7 +1,8 @@
 # Sampling-source qualification and conservative recourse fallback
 
-Status: source/algebra draft for independent review; **not** an implementation,
-native run, theorem repair certificate, or paper claim.
+Status: accepted after correction re-review at immutable candidate commit
+`b8651edf183ff8103aa97823c044d79a9b9cef99`; **not** an implementation,
+native run, complete theorem repair certificate, or paper claim.
 
 ## Frozen primary sources
 
