@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T00:20:33.782905+00:00",
+  "observed_at": "2026-10-09T00:25:24.502075+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 8,
+  "registered_task_assignments": 9,
   "executable_attempts_dispatched": 1,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -49,14 +49,15 @@
     "source-integrity-01",
     "unique-spectrum-counterexample-review",
     "second-unique-spectrum-counterexample-review",
-    "corrected-baseline-draft-source-review"
+    "corrected-baseline-draft-source-review",
+    "dynamic-recourse-extension-independent-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
     "path": "runs/attempts/source-integrity-01/receipt.json",
     "sha256": "abe68964844ec38e356b6c1573f615ea6319756185361d4a0eedf49dbbb0d378"
   },
-  "remaining_wall_seconds_at_observation": 26831.217095,
+  "remaining_wall_seconds_at_observation": 26540.497925,
   "verified_scientific_failures_by_direction": {},
   "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run."
 }

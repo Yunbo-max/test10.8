@@ -1,0 +1,270 @@
+{
+  "format": "exact-commit-readback-v1",
+  "commit": "38b8f456ab60d318e15567f725dbe5db31fe3890",
+  "observed_at": "2026-10-09T00:25:24.778Z",
+  "text_files": [
+    {
+      "path": "research/consistent-lra/ACCESS_AND_TOOLING_HISTORY.json",
+      "sha": "47ba386c2b16d724c47193e712120c82c99e650f"
+    },
+    {
+      "path": "research/consistent-lra/AGENTS.md",
+      "sha": "0f5e3b46dc8e7691f7ce9ed920c37c8d1ecfbf32"
+    },
+    {
+      "path": "research/consistent-lra/AUTOMATION_PROMPT.zh-CN.md",
+      "sha": "d4bb31a453b4a754ba1cc94cb7ed6f421b2945dc"
+    },
+    {
+      "path": "research/consistent-lra/BACKGROUND_TASK.json",
+      "sha": "0aaa404738d4a0558e2aaa324468054de2e412f6"
+    },
+    {
+      "path": "research/consistent-lra/BASELINE_AUDIT.md",
+      "sha": "d25701358dda2aa337a0ae188c38a061649873d4"
+    },
+    {
+      "path": "research/consistent-lra/BASELINE_DRAFT_REVIEW.md",
+      "sha": "b1b0cb49317bdad0c2e4894f0f05377010cbeda3"
+    },
+    {
+      "path": "research/consistent-lra/BUDGET_OBSERVATION.json",
+      "sha": "f19cdb6002a3a9a68620dd34bbcf80b028d72521"
+    },
+    {
+      "path": "research/consistent-lra/EXECUTION_SCOPE.md",
+      "sha": "01528c6f621130f726d9c18f31d61ce3607d537e"
+    },
+    {
+      "path": "research/consistent-lra/FORMAL_AUDIT_v1.md",
+      "sha": "0e1d30b0037c13ed6bd1c3a414c74cf6d6058fee"
+    },
+    {
+      "path": "research/consistent-lra/FORMAL_AUDIT_v2.md",
+      "sha": "d80cc0d9fe0996ad74ec2daa12d6484b7a5f02ad"
+    },
+    {
+      "path": "research/consistent-lra/FORMAL_AUDIT_v2_REVIEW.md",
+      "sha": "81c41e64582ee773445c17b8b432d56e3cb5fbfb"
+    },
+    {
+      "path": "research/consistent-lra/GOAL.md",
+      "sha": "9626f1b2fe397ac27e86445e4f8f68c3ab5ab231"
+    },
+    {
+      "path": "research/consistent-lra/NATIVE_PROTOCOL_DRAFT.md",
+      "sha": "7c1db96848d0de7c505c5a755087f6df9de008ad"
+    },
+    {
+      "path": "research/consistent-lra/NOVELTY_PRELIMINARY_20261009.md",
+      "sha": "1bb64a74c266d5c337a8b537f8f75867cc541bab"
+    },
+    {
+      "path": "research/consistent-lra/ORIGINALS_ATTRIBUTION.md",
+      "sha": "b5e2fe7d33f12d21e63412f4a4d414bb1482333e"
+    },
+    {
+      "path": "research/consistent-lra/PREPARATION_REVIEW_20261009.md",
+      "sha": "8aa20aa084c5fb0f9577205544f48990a8ade870"
+    },
+    {
+      "path": "research/consistent-lra/README.md",
+      "sha": "80f8a4b1e1b8c87b144aa814fc365f75c0807fe0"
+    },
+    {
+      "path": "research/consistent-lra/REPAIR_CONTRACT_v1.md",
+      "sha": "7a63091f695c8d40ef0afae1572d5b56f4f8bb0a"
+    },
+    {
+      "path": "research/consistent-lra/RESTORE_BINDINGS.json",
+      "sha": "629397cf960db792e349c908a43e8fdc9462ab63"
+    },
+    {
+      "path": "research/consistent-lra/RESUME.md",
+      "sha": "c0b29e164e30164b64852e951cabc2f4a2d34ced"
+    },
+    {
+      "path": "research/consistent-lra/SOURCES.md",
+      "sha": "e8bd682e2a045afe1ccc5dd1b791638f5d80f1ea"
+    },
+    {
+      "path": "research/consistent-lra/SOURCE_JOIN_20261009.md",
+      "sha": "155aa9d9d9c5d90c8b86a51ec5c60c5a14beedf2"
+    },
+    {
+      "path": "research/consistent-lra/STEP7_DECISION.json",
+      "sha": "9ed201e2add2d16ce9385eef63794d9a5d580b5e"
+    },
+    {
+      "path": "research/consistent-lra/baseline_qualify.py",
+      "sha": "07e4f261f3da028f54a2876e4ac5a360cce8720c"
+    },
+    {
+      "path": "research/consistent-lra/evidence/environment-preparation.json",
+      "sha": "0d45cd1dee4088cc83547ee26fd7eff0fea45960"
+    },
+    {
+      "path": "research/consistent-lra/evidence/source-integrity-01.json",
+      "sha": "5b62cf5e3b0d141386dcde75e337c7de54033336"
+    },
+    {
+      "path": "research/consistent-lra/inspect_sources.py",
+      "sha": "bbc2529b7d1b67f6c896d7b0965420d23aa1d849"
+    },
+    {
+      "path": "research/consistent-lra/native_baselines.py",
+      "sha": "914137de8d63f15fe4594e7f50f992227760746a"
+    },
+    {
+      "path": "research/consistent-lra/originals/consistent-fd.py",
+      "sha": "294438ac128556f01a2c3d920bdb4f1225dd819f"
+    },
+    {
+      "path": "research/consistent-lra/originals/consistent-lra-landmark.py",
+      "sha": "6da3eec62de50b5b37c36b26ae725549e354a738"
+    },
+    {
+      "path": "research/consistent-lra/originals/consistent-lra-random-fast.py",
+      "sha": "4edc0664ac183391af3a761e429c67947a61cc1e"
+    },
+    {
+      "path": "research/consistent-lra/originals/consistent-lra-random.py",
+      "sha": "cfe96c16b699a96720e41cc36ab36a25a45b4627"
+    },
+    {
+      "path": "research/consistent-lra/originals/consistent-lra-rice.py",
+      "sha": "eb8e4e97a9538a14dd6b72d5e271b36c96c05e7c"
+    },
+    {
+      "path": "research/consistent-lra/originals/consistent-lra-skin.py",
+      "sha": "9581652064a08f5b282cee83286ec7c72ac0fdad"
+    },
+    {
+      "path": "research/consistent-lra/plans/harness-source-integrity.json",
+      "sha": "e0cdf65baaca04e71ff35a3e64ad9b72d1d50ec2"
+    },
+    {
+      "path": "research/consistent-lra/plans/native-source-integrity.json",
+      "sha": "f269b6bd4398c30d8358df8df4cc308ec52e29e8"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/source-integrity-01/plan.json",
+      "sha": "5d9d2ba0bcae9115d4940954cee4084d87921d9a"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/source-integrity-01/receipt.json",
+      "sha": "3d6183c68487ef500a57ae5cc84aaef3a1bca340"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/attempt.json",
+      "sha": "47069041932854b8eeede4fc9de38978886548ca"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/process-guard.json",
+      "sha": "acd2f7dc8d500fec5d109623068801d4554c2c7c"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/stderr.log",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/stdout.log",
+      "sha": "3a9cdc1fb6f3f6c24c8443dad3944e4b0006b9c5"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/workspace/baseline_qualify.py",
+      "sha": "07e4f261f3da028f54a2876e4ac5a360cce8720c"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/workspace/evidence/source-integrity.json",
+      "sha": "5b62cf5e3b0d141386dcde75e337c7de54033336"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/workspace/inspect_sources.py",
+      "sha": "bbc2529b7d1b67f6c896d7b0965420d23aa1d849"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/workspace/native_baselines.py",
+      "sha": "760d223daaae75eef3a488899733555f36511aab"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/mechanical-source-01/events.jsonl",
+      "sha": "416bcf5edc5065c90d877c367794870c3d5ab919"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/mechanical-source-01/plan.json",
+      "sha": "53099b7d75b4d8f5d34526947acefae7662cc5fe"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/mechanical-source-01/report.json",
+      "sha": "9969230766aaf1bf1dfbe7850ce49d3fadcae0c1"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/mechanical-source-01/state.json",
+      "sha": "791a2aa9ae99e88eb40d06a62a1859df7284e90d"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/mechanical-source-01/tasks/source-integrity-01/execution-context.json",
+      "sha": "0c1204c070013a3283d9cbc6c53d406a129caa1c"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/mechanical-source-01/tasks/source-integrity-01/process.json",
+      "sha": "1fa30c90a44b4f7da3d3c421f9fddeb39a89884c"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/mechanical-source-01/tasks/source-integrity-01/result.json",
+      "sha": "bf0e3abc306d77663ef22f8e6c69ed0d2b6913d3"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/mechanical-source-01/tasks/source-integrity-01/task.json",
+      "sha": "4f3305f7e87b611ab57ee4aad6404d9f4819b5eb"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/mechanical-source-01/tasks/source-integrity-01/worker.stderr.log",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/mechanical-source-01/tasks/source-integrity-01/worker.stdout.log",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/consistent-lra/workflow-checkpoint.yaml",
+      "sha": "96dc76b7ac0e1bd12b30162cf70833a7674af779"
+    },
+    {
+      "path": "research/consistent-lra/INTEGRATION_MANIFEST.json",
+      "sha": "8fbfbf8a234728fca8bcac0948111c5a95c6860f"
+    }
+  ],
+  "native_data_bindings": [
+    {
+      "path": "research/consistent-lra/originals/Rice_Cammeo_Osmancik.arff",
+      "sha": "745655b79f4ca46a3a65a0a8653bd792fa6f7c31",
+      "content_chars": 427635
+    },
+    {
+      "path": "research/consistent-lra/originals/Skin_NonSkin.txt",
+      "sha": "fc58dda2eaf5b1f0d2d8c7924a298cd7d14ba17d",
+      "content_chars": 0
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/workspace/originals/Rice_Cammeo_Osmancik.arff",
+      "sha": "745655b79f4ca46a3a65a0a8653bd792fa6f7c31",
+      "content_chars": 427635
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/workspace/originals/Skin_NonSkin.txt",
+      "sha": "fc58dda2eaf5b1f0d2d8c7924a298cd7d14ba17d",
+      "content_chars": 0
+    }
+  ],
+  "skin_content_readback": {
+    "commit": "38b8f456ab60d318e15567f725dbe5db31fe3890",
+    "sha": "fc58dda2eaf5b1f0d2d8c7924a298cd7d14ba17d",
+    "bytes": 3155761,
+    "equals_original_author_bytes": true
+  },
+  "original_skin_readback_comparison": "Exact UTF8 comparison against fixed upstream author blob content; initial wrapper-level comparison was corrected before success.",
+  "scope": "research/consistent-lra only",
+  "scientific_gate_pass": false
+}

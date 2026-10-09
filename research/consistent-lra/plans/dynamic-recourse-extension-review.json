@@ -1,0 +1,28 @@
+{
+  "format": "scoped-mathematical-review-assignment-v1",
+  "task_id": "dynamic-recourse-extension-independent-review",
+  "reviewer": "/root/execution_capability",
+  "integration_writer": "/root",
+  "artifact": {
+    "path": "FORMAL_AUDIT_v3_EXTENSION.md",
+    "sha256": "440edfddc4b9d51a218ea878de78acd1b89b7648bdabdf222c493b3b31331c3c"
+  },
+  "prerequisite": {
+    "path": "FORMAL_AUDIT_v2.md",
+    "sha256": "0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477"
+  },
+  "source": "official ICLR2026 proceedings PDF, Lemma2.1/Theorem2.2/Theorem1.2 and AppendixE",
+  "scope": [
+    "legal insertion/deletion stream and forced unique optimizers",
+    "update denominator and rank-uniform asymptotic counterexample",
+    "trace/entry/condition bounds and condition-definition caveat",
+    "known 2k recourse fallback and PCP tolerance calibration",
+    "no implication from lemma to additive Algorithm4 failure"
+  ],
+  "scientific_executable_attempts": 0,
+  "numerical_execution_allowed": false,
+  "writes_or_publication_allowed": false,
+  "status": "registered_before_assignment; review_pending",
+  "time_limit_seconds": 300,
+  "deadline_utc": "2026-10-09T07:47:45Z"
+}
