@@ -624,7 +624,7 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:07:44.107560+00:00",
+  "observed_at": "2026-10-09T12:10:08.981870+00:00",
   "observed_process_cpu_seconds": 291.91159508199996,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -732,7 +732,7 @@
       "wall_seconds": 13.167230952
     }
   ],
-  "registered_task_assignments": 128,
+  "registered_task_assignments": 130,
   "remaining_wall_seconds_at_observation": 18801.791587,
   "reservation": {
     "actual_max_rss_kib": 99788,
@@ -1012,7 +1012,9 @@
     "window02-nearzero-isolated-scalar-plan-generation",
     "window02-nearzero-isolated-scalar-plan-independent-review",
     "window02-nearzero-isolated-scalar-execution",
-    "window02-nearzero-isolated-scalar-evidence-independent-review"
+    "window02-nearzero-isolated-scalar-evidence-independent-review",
+    "window02-integer-witness-design-generation",
+    "window02-integer-witness-design-independent-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1293,5 +1295,10 @@
     "assignment_number": 128,
     "reviewer": "/root/window02_stagea_source_review",
     "status": "await_actual_execution"
+  },
+  "pending_window02_integer_witness_design_review": {
+    "assignment_number": 130,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "execution_admitted": false
   }
 }
