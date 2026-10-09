@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T11:35:56.745441+00:00",
+  "observed_at": "2026-10-09T11:38:33.888429+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 116,
+  "registered_task_assignments": 118,
   "executable_attempts_dispatched": 20,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -196,7 +196,9 @@
     "window02-landmark-stage-b-source-correction-review",
     "window02-integer-constructive-priority-targeted-primary-audit",
     "window02-nearzero-derived-metric-engineering-design-generation",
-    "window02-nearzero-derived-metric-engineering-scope-design-review"
+    "window02-nearzero-derived-metric-engineering-scope-design-review",
+    "window02-nearzero-derived-metric-design-correction-generation",
+    "window02-nearzero-derived-metric-design-correction-rereview"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -207,7 +209,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 20386.254559,
+  "remaining_wall_seconds_at_observation": 20229.111571,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -1183,7 +1185,21 @@
     "reviewer": "/root/window02_stagea_source_review",
     "scope": "pure-derived scalar classification/denominator design; no matrix/scorer/benchmark execution",
     "inputs_commit": "7d75f63e21cec0a6e29fddd76121f2518246e732",
-    "status": "author_design_generated_unexecuted_pending_independent_review",
-    "design_sha256": "ab66c24f56025c46c4294da18b594144fa7a9a53adad1b6965c2831f5555b734"
-  }
+    "status": "corrected_design_generated_unexecuted_pending_rereview",
+    "design_sha256": "ab66c24f56025c46c4294da18b594144fa7a9a53adad1b6965c2831f5555b734",
+    "correction_author_assignment": 117,
+    "rereview_assignment": 118,
+    "corrected_design_sha256": "a44a8775a915c9d8ab06a61c2e4888c81af1c18aa2bf50fd134316cf1b7f4928"
+  },
+  "window02_nearzero_design_corrections": [
+    {
+      "review_assignment": 116,
+      "commit": "236674928aa94d21d482d06833964180fa0f1b20",
+      "design_sha256": "ab66c24f56025c46c4294da18b594144fa7a9a53adad1b6965c2831f5555b734",
+      "verdict": "needs_correction_threshold_rounding_freeglobals_and_native_mapping",
+      "source_repair_count": 1,
+      "scientific_failure": false,
+      "execution_started": false
+    }
+  ]
 }

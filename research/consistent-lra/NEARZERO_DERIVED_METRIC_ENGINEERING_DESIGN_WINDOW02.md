@@ -3,7 +3,11 @@
 Author assignment 115, root single integration writer; independent scope/design
 review assignment 116. Parent snapshot fa18157ed860dd351f705b31cd80d934785c63c0;
 unchanged scientific input snapshot 7d75f63e21cec0a6e29fddd76121f2518246e732.
-Status: complete proposed software-contract design, generated_unexecuted. No
+Status: corrected proposed software-contract design, generated_unexecuted. Initial
+independent review of commit236674928aa94d21d482d06833964180fa0f1b20
+required binary64 threshold-operation boundaries, explicit authenticated N/global
+bindings and native scalar field mapping. Preserve that source and verdict.
+Correction author assignment117; independent rereview assignment118. No
 software source, executable plan, reservation or execution is admitted here.
 
 ## Consequential question and boundary
@@ -53,7 +57,10 @@ bc80f1be00f772a8c462f807444cdd4e2b67de35:
 Each of the 455 records already contains energy, raw/clipped Gram OPT and loss,
 direct SVD OPT, direct loss, overlap recourse, original prefix/rank/arm and
 initialization increment. Decode these scalars only; do not interpret or evaluate
-stored bases. Retain original record identity and byte lineage. Do not modify or
+stored bases. Map direct_svd_opt to the isolated input direct_opt, direct_loss
+to direct_loss, overlap_recourse to rec, prefix to t; energy, gram_opt and
+gram_loss retain their names. Do not use raw negative diagnostics as clipped
+inputs. Retain original record identity and byte lineage. Do not modify or
 renormalize native rows. Existing first energies include 0.2500000372529044,
 0.4939165277733947, 0.7276478959937926 and 0.957810360844844. This is the actual
 reason energy<1 behavior matters, not a conjectured scientific failure.
@@ -89,8 +96,17 @@ Separately, AST-extract literal DESCRIPTIVE_FIELDS and the pure functions
 new_slice/add_slice. Their allowed operations must be exhaustively checked:
 local/dictionary/list arithmetic, append, declared field iteration and int;
 no file access, numerical library, arbitrary attribute/call or project import.
-Source qualification must define the exact node/call whitelist before compiling
-these functions. Retain the original source segments. Do not execute the
+The only free bindings are DESCRIPTIVE_FIELDS, N and int. Authenticate N=5000
+by selecting the unique literal assignment in unchanged landmark_stage_a_v2.py,
+SHA256 aba46507a5b60f4b39d237418b79566ed9b8dd6aee9d65586e8ac7d3031bd16a,
+without importing it; also authenticate Stage B's original N import binding.
+DESCRIPTIVE_FIELDS is the unique literal tuple from the pinned Stage-B source.
+Use an explicit namespace with __builtins__={} and int only as the named
+capability; no automatic Python builtins. Attribute calls are allowed only for
+append on stat["_metric_values"][field] in the authenticated original function.
+Reject every other free name/attribute/call. Source qualification must define the
+exact node/call whitelist before compiling these functions. Retain the original
+source segments and authenticated literal dependency hashes. Do not execute the
 whole-source aggregation/publication loop: the final summary reducer can be
 checked statically here, while a future source-bound extraction requires its own
 review. This initial design qualifies accumulation and eligibility denominators,
@@ -101,10 +117,18 @@ not final emitted summaries or the 28-output publication path.
 The independent oracle uses supplied scalar inputs and the published project
 contract, not the extracted expressions. It computes expected classification
 and derived values with exact Fraction representations of float inputs wherever
-an arithmetic reference is needed. Nullness, source labels, booleans and counts
-must agree exactly. Finite arithmetic values must match correctly rounded
+an arithmetic reference is needed. Freeze IEEE754 binary64 operation boundaries:
+first correctly round 1e-10*max(1.0,E) into tau, then correctly round 10*tau
+into band, exactly as the pinned source; compare supplied binary64 inputs
+against these rounded thresholds. An unrounded rational threshold is not the
+boolean oracle. Expected excess first rounds loss-OPT; normalized excess then
+rounds that excess/E. Ratio rounds loss/OPT. Independently obtain those rounded
+values using Fraction from the exact supplied float ratios and conversion back
+to float; freeze fixture input/output hex representations before launch.
+Nullness, source labels, booleans and counts must agree exactly. Finite arithmetic values must match correctly rounded
 float references within at most four ulps of the reference (absolute subnormal
-spacing where relevant); no tolerance based on max(1,energy) is permitted for
+spacing where relevant); four-ulp allowances never apply to branch decisions,
+nullness, labels, integer counts or eligibility. No tolerance based on max(1,energy) is permitted for
 normalized excess. For direct native scalar routing, retain all supplied direct
 values and never recompute them.
 
