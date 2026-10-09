@@ -1,0 +1,42 @@
+{
+  "schema_id": "harness-plan",
+  "schema_version": "1.0.0",
+  "batch_id": "native-rice-cost-calibration-01",
+  "tasks": [
+    {
+      "task_id": "native-rice-alg4-c2p5-calibration-01",
+      "idea_id": "existing-native-rice-algorithm4-cost-calibration",
+      "priority": 1,
+      "depends_on": [],
+      "plan_ref": {
+        "path": "plans/native-rice-alg4-c2p5-calibration.json",
+        "sha256": "6f624e1c9af2269e386ea1e9cce4cfc4144dc7a5b02e6f256174c27056aebb6c"
+      },
+      "resources": {
+        "cpu_cores": 1,
+        "ram_mib": 512,
+        "gpu_count": 0,
+        "gpu_peak_mib": null,
+        "allow_gpu_share": false,
+        "memory_profile_ref": null,
+        "exclusive_keys": ["consistent-lra-native-baseline-calibration"]
+      }
+    }
+  ],
+  "limits": {
+    "cpu_cores": 1,
+    "ram_mib": 512,
+    "max_parallel_tasks": 1,
+    "max_gpu_task_seconds": 0,
+    "total_wall_seconds": 120,
+    "window_seconds": 120
+  },
+  "pool_dir": "/workspace/scratch/bb9f262965cf/dddd-work/research/consistent-lra/runs/pool",
+  "output_root": "runs/harness",
+  "gpus": {
+    "uuids": [],
+    "safety_margin_mib": 256,
+    "max_tasks_per_gpu": 1
+  },
+  "plan_digest": "659f236d2a595398b37efab8911e2256b76726af05e70a237da5ef121c4a4bca"
+}
