@@ -19,3 +19,20 @@ fsynced, no-replace, rehashed publication of exactly 26 members plus archive and
 manifest (28 successful files), excluding partials.
 
 The review is design-only and grants no runner, plan or execution admission.
+
+## First correction rereview
+
+Reviewed immutable commit: `b1a4f3a65352c170232e0cbaf23338b5bfe6c4f4`;
+tree: `5ae0448f4659ff44c3f0c1d6052f81dd61e9e983`;
+corrected design SHA256:
+`f66e56e580b1771bcd9afd22c20ca7629ee477cbc8496904f264cf7c0442c3ec`.
+Verdict: **NEEDS_CORRECTION**. No code was generated or executed.
+
+The rereviewer accepted versioning, two-stage admission, separate oracle
+tolerances, independent arm state/timing, active mapping, rank/tie policy and
+paired recourse snapshots. Two ambiguities remained: direct fallback needed to
+replace every reported/derived OPT and loss metric while retaining Gram
+diagnostics, including direct loss for every arm when direct OPT is near zero;
+and raw/summary finals needed the same hard-link no-replace, partial-unlink,
+immediate-final-rehash and directory-fsync contract as archive/manifest. Only
+unpublished working/partial files may be excluded from the 28-file inventory.

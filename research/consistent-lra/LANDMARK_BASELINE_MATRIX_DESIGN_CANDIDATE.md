@@ -60,10 +60,15 @@ permits a Stage-B full matrix plan.
 
 During Stage B, any prefix with Gram OPT at or below
 `10 * 1e-10 * max(1,E_t)` is uncertain and must run direct SVD before ratio
-classification. Any arm loss within the same uncertainty band must run direct
-residual scoring. If the direct OPT remains at or below its boundary, the ratio
-is null; positive direct loss beyond tolerance is a violation. A missing or
-failed fallback invalidates the run, never approximately classifies the prefix.
+classification. When triggered, direct OPT replaces reported OPT in the ratio,
+additive/normalized excess, near-zero and violation calculations; raw and
+clipped Gram OPT remain separate diagnostics. If direct OPT is near zero, every
+arm is scored by direct residual, regardless of its Gram-loss magnitude, and
+that direct loss determines the positive-loss violation. Otherwise, any arm
+whose Gram loss lies within the uncertainty band runs direct residual scoring;
+direct loss then replaces reported loss and all its derived metrics while Gram
+loss remains diagnostic. Missing or failed fallback invalidates the run and
+never approximately classifies the prefix.
 
 ## Shared exact evaluator and independent arm work
 
@@ -135,16 +140,19 @@ warmup/update flags, energy, raw/reported OPT and loss, ratio/missingness,
 excesses, raw/reported recourse, cumulative/steady recourse, orthogonality,
 update/reference/scoring/energy times and selected-prefix oracle fields. Retain
 13 summaries, an exact manifest and a deterministic tar.gz archive. Each raw and
-summary is produced under a partial-only name, closed, file-fsynced and hashed;
-the staging directory is directory-fsynced. The archive is produced as a partial,
+summary is produced under a partial-only name, closed, file-fsynced and hashed,
+then hard-linked no-replace to its final name; the partial is unlinked, the final
+is immediately rehashed, and its directory is fsynced. The archive is produced as a partial,
 closed/fsynced, member-hash verified, atomically no-replace published and
 directory-fsynced. The manifest is last: partial-only, closed/fsynced, hashed,
 no-replace published and directory-fsynced. Final raw/summary/archive/manifest
 files are rehashed before process exit and again during post-exit collection.
 
-The successful inventory is exactly 26 complete archive members (13 raw JSONL
-plus 13 summaries), one archive and one manifest: 28 files. Staging files,
-partials and recreated diagnostic partials stay outside the successful inventory.
+The successful inventory is exactly 26 published final members (13 raw JSONL
+plus 13 summaries), one archive and one manifest: 28 files. Unpublished working
+files, partials and recreated diagnostic partials stay outside the successful
+inventory; published final members count even when their directory is named as
+staging.
 
 Report two descriptive slices without changing stored rows:
 
