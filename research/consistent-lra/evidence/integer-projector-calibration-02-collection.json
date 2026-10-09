@@ -1,0 +1,256 @@
+{
+  "format": "exact-integer-projector-collection-v1",
+  "attempt_id": "exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef",
+  "status": "completed",
+  "attempt_exit_code": 0,
+  "launcher_usage": {
+    "command": [
+      "python3",
+      "vendor/rsi/scripts/run_harness.py",
+      "plans/harness-integer-projector-calibration-02.json",
+      "--root",
+      "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+      "--execute",
+      "--approved-plan-digest",
+      "6c865767df21755e10f2a8e1f6ac245631c2b2398f8b29cdd63db7a4ceffcfe1"
+    ],
+    "cwd": "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+    "started_at": "2026-10-09T12:52:50.366034+00:00",
+    "completed_at": "2026-10-09T12:52:51.450314+00:00",
+    "exit_code": 0,
+    "wall_seconds": 1.0842821660044137,
+    "waited_process_tree_cpu_seconds": 0.676085,
+    "maximum_child_rss_kib": 24832,
+    "cpu_semantics": "RUSAGE_CHILDREN delta for waited harness and reaped descendants; failed/unreaped processes could undercount",
+    "scientific_gate_advanced": false
+  },
+  "output_readback_boundaries": [
+    [
+      {
+        "path": "runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/workspace/evidence/integer-projector-calibration-02/projector-certificate.jsonl",
+        "bytes": 49116,
+        "sha256": "a06c641104450f1a4185ee45ea8572e8db0f21a6a33befb1cca3eb26cb8e9323"
+      },
+      {
+        "path": "runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/workspace/evidence/integer-projector-calibration-02/projector-summary.json",
+        "bytes": 2305,
+        "sha256": "8d0a566024bd2fb71a32c147f727df2f58b01917bbe15dc9b04707a851e741c5"
+      }
+    ],
+    [
+      {
+        "path": "runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/workspace/evidence/integer-projector-calibration-02/projector-certificate.jsonl",
+        "bytes": 49116,
+        "sha256": "a06c641104450f1a4185ee45ea8572e8db0f21a6a33befb1cca3eb26cb8e9323"
+      },
+      {
+        "path": "runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/workspace/evidence/integer-projector-calibration-02/projector-summary.json",
+        "bytes": 2305,
+        "sha256": "8d0a566024bd2fb71a32c147f727df2f58b01917bbe15dc9b04707a851e741c5"
+      }
+    ]
+  ],
+  "summary": {
+    "approximate_existence_refuted": false,
+    "arithmetic_completed": true,
+    "block_condition_computed": false,
+    "confirmation": false,
+    "cost_envelope_is_planning_heuristic_not_worstcase_proof": true,
+    "format": "exact-integer-projector-certificate-v1",
+    "maximum_self_rss_kib": 24832,
+    "mode": "calibration",
+    "native_evaluator_qualified": false,
+    "novelty_qualified": false,
+    "performance_claim_eligible": false,
+    "prospective_full_cost_envelope_seconds": 93.975417497335,
+    "ranks": [
+      {
+        "approximate_existence_refuted": false,
+        "block_condition_computed": false,
+        "complete_topk_inventory": true,
+        "completed_roots": 1,
+        "confirmation": false,
+        "k": 1,
+        "native_evaluator_qualified": false,
+        "novelty_qualified": false,
+        "performance_claim_eligible": false,
+        "recourse_lower_bound": {
+          "denominator_hex": "0x10000000",
+          "numerator_hex": "0x333f1b9"
+        },
+        "root_indices": [
+          1
+        ],
+        "scientific_gate_advanced": false,
+        "target_applicable": false,
+        "target_strictly_greater_than_8": null,
+        "target_verdict": "not_applicable"
+      },
+      {
+        "approximate_existence_refuted": false,
+        "block_condition_computed": false,
+        "complete_topk_inventory": true,
+        "completed_roots": 2,
+        "confirmation": false,
+        "k": 2,
+        "native_evaluator_qualified": false,
+        "novelty_qualified": false,
+        "performance_claim_eligible": false,
+        "recourse_lower_bound": {
+          "denominator_hex": "0x80000000",
+          "numerator_hex": "0x3e8aa4b3"
+        },
+        "root_indices": [
+          2,
+          3
+        ],
+        "scientific_gate_advanced": false,
+        "target_applicable": false,
+        "target_strictly_greater_than_8": null,
+        "target_verdict": "not_applicable"
+      },
+      {
+        "approximate_existence_refuted": false,
+        "block_condition_computed": false,
+        "complete_topk_inventory": false,
+        "completed_roots": 2,
+        "confirmation": false,
+        "k": 61,
+        "native_evaluator_qualified": false,
+        "novelty_qualified": false,
+        "performance_claim_eligible": false,
+        "recourse_lower_bound": null,
+        "root_indices": [
+          61,
+          121
+        ],
+        "scientific_gate_advanced": false,
+        "target_applicable": false,
+        "target_strictly_greater_than_8": null,
+        "target_verdict": "not_applicable"
+      }
+    ],
+    "raw": {
+      "bytes": 49116,
+      "path": "projector-certificate.jsonl",
+      "sha256": "a06c641104450f1a4185ee45ea8572e8db0f21a6a33befb1cca3eb26cb8e9323"
+    },
+    "raw_records": 9,
+    "scientific_gate_advanced": false,
+    "script_cpu_before_summary_seconds": 0.44868583100000003,
+    "script_wall_before_summary_seconds": 0.44870798800548073,
+    "source_sha256": "e59cf9f03c40007271c14ca98ecd940f59bfa33cbd5a860218310556be67a22d",
+    "timestamps": {
+      "completed_before_summary_at": "2026-10-09T12:52:50.998029+00:00"
+    }
+  },
+  "files": [
+    {
+      "path": "evidence/dispatch/integer-projector-calibration-02.json",
+      "bytes": 837,
+      "sha256": "377c5ad9707d205e15b2b66ae0f7393e59d3728f41a9a17ba4514bbe9a9d8377"
+    },
+    {
+      "path": "evidence/dispatch/integer-projector-calibration-02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/dispatch/integer-projector-calibration-02.stdout.log",
+      "bytes": 2474,
+      "sha256": "4b9dd3c61f24652e42e1a19dbb3191da16cf71e55b8bb4000bb02218573631c1"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/attempt.json",
+      "bytes": 5037,
+      "sha256": "45664ac39412dd2f969d9842dd24aa1f9d5c43cda76ce7b11143c7f68fbc20cf"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/process-guard.json",
+      "bytes": 1260,
+      "sha256": "cc26957d78c791c5686df6faadafc9b77ae69b2d4469ca658bd30b4225eecab4"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/stdout.log",
+      "bytes": 559,
+      "sha256": "56931a9d628229d396b747d191857ee1276fa00c118b982c3e83a3e971408487"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/workspace/evidence/integer-projector-calibration-02/projector-certificate.jsonl",
+      "bytes": 49116,
+      "sha256": "a06c641104450f1a4185ee45ea8572e8db0f21a6a33befb1cca3eb26cb8e9323"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/workspace/evidence/integer-projector-calibration-02/projector-summary.json",
+      "bytes": 2305,
+      "sha256": "8d0a566024bd2fb71a32c147f727df2f58b01917bbe15dc9b04707a851e741c5"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-calibration-02/plan.json",
+      "bytes": 3759,
+      "sha256": "8c565c00909b3d7e38ed3ce4885ec3e9128ad890242ae840b3aa6d405f0a7e3a"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-calibration-02/receipt.json",
+      "bytes": 5941,
+      "sha256": "ce62b3f1c569de02fbbd4b91ab1b047bb3ac5b5c5749a4b829765cc64723a594"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-calibration-batch-02/events.jsonl",
+      "bytes": 531,
+      "sha256": "2a96a442f00ade7287da19473528a534b2084cdabdeedfde1be0fa29e9a82d2b"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-calibration-batch-02/plan.json",
+      "bytes": 942,
+      "sha256": "69388c81be12ba8b414e910f91b22758c1d6e799d33ab29ff6dfaf6fadc217ac"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-calibration-batch-02/report.json",
+      "bytes": 2474,
+      "sha256": "4b9dd3c61f24652e42e1a19dbb3191da16cf71e55b8bb4000bb02218573631c1"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-calibration-batch-02/state.json",
+      "bytes": 2085,
+      "sha256": "ae915e9a10b2ad42094e886f04eed3b2e453988e1e4f78ef01bdbaa999387804"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-calibration-batch-02/tasks/exact-integer-projector-calibration-02/execution-context.json",
+      "bytes": 615,
+      "sha256": "a69bb95b64499dc42311189996d92820d8d4314525885192180d7eafa95317c5"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-calibration-batch-02/tasks/exact-integer-projector-calibration-02/process.json",
+      "bytes": 88,
+      "sha256": "f9207607a0b03a512dd236da7c359eaf8c66c7f4bcd5366869b2d4f6727d41bb"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-calibration-batch-02/tasks/exact-integer-projector-calibration-02/result.json",
+      "bytes": 1147,
+      "sha256": "32cab18e5aa0bf01692dcb56f03f087dec4f7a1ac082da325c82e71201add90d"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-calibration-batch-02/tasks/exact-integer-projector-calibration-02/task.json",
+      "bytes": 463,
+      "sha256": "caeffae7f8a5b1ac2524285b696e785e9934da0b79f8276f98162bf547df6e8f"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-calibration-batch-02/tasks/exact-integer-projector-calibration-02/worker.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-calibration-batch-02/tasks/exact-integer-projector-calibration-02/worker.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scientific_gate_advanced": false,
+  "native_evaluator_qualified": false
+}

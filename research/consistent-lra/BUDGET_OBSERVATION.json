@@ -704,8 +704,8 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:52:45.837032+00:00",
-  "observed_process_cpu_seconds": 293.52897959,
+  "observed_at": "2026-10-09T12:53:27.399068+00:00",
+  "observed_process_cpu_seconds": 294.20506459,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
   "pending_asset_review": null,
@@ -843,7 +843,7 @@
     }
   ],
   "registered_task_assignments": 149,
-  "remaining_wall_seconds_at_observation": 15777.162968,
+  "remaining_wall_seconds_at_observation": 15735.600932,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
@@ -1226,12 +1226,12 @@
     "harness_plan_digest": "6c865767df21755e10f2a8e1f6ac245631c2b2398f8b29cdd63db7a4ceffcfe1",
     "native_plan_digest": "c45b24bc770b9de7ecfe0ae99306a6e11e45228e6a2ea22832e949c5b75c1165",
     "ram_mib_reserved_not_enforced": 256,
-    "released": false,
+    "released": true,
     "scope": "existing_lemma_exact_rational_projector_certificate_cost_only",
     "task": "exact-integer-projector-calibration-02",
     "wall_seconds_upper_bound": 120,
     "attempts_charged": 1,
-    "execution_status": "admitted_precharged_not_yet_started",
+    "execution_status": "completed_pending_independent_evidence_review",
     "prelaunch_observation": {
       "observed_at": "2026-10-09T12:52:45.837032+00:00",
       "cpu_max": "800000 100000",
@@ -1239,7 +1239,13 @@
       "active_matching_processes": [],
       "remaining_wall_seconds": 15777.162968,
       "process_inventory_method": "proc exactargvbasename"
-    }
+    },
+    "attempt_id": "exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef",
+    "attempts_completed": 1,
+    "release_basis": "terminalnestedreceipt and postexit outputreadbacks; independent process reconciliation pending",
+    "waited_process_tree_cpu_seconds": 0.676085,
+    "actual_harness_wall_seconds": 1.0842821660044137,
+    "maximum_child_rss_kib": 24832
   },
   "window02_integer_witness_plan_history": [
     {

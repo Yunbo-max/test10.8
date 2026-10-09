@@ -1,0 +1,3 @@
+{"event":"batch_started","observed_at":"2026-10-09T12:52:50.423458Z","plan_digest":"6c865767df21755e10f2a8e1f6ac245631c2b2398f8b29cdd63db7a4ceffcfe1"}
+{"devices":[],"event":"task_started","launcher_pid":6,"native_plan_digest":"c45b24bc770b9de7ecfe0ae99306a6e11e45228e6a2ea22832e949c5b75c1165","observed_at":"2026-10-09T12:52:50.430759Z","task_id":"exact-integer-projector-calibration-02"}
+{"event":"task_finished","observed_at":"2026-10-09T12:52:51.435640Z","status":"completed","task_id":"exact-integer-projector-calibration-02"}

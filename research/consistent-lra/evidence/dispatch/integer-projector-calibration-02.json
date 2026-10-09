@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "vendor/rsi/scripts/run_harness.py",
+    "plans/harness-integer-projector-calibration-02.json",
+    "--root",
+    "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+    "--execute",
+    "--approved-plan-digest",
+    "6c865767df21755e10f2a8e1f6ac245631c2b2398f8b29cdd63db7a4ceffcfe1"
+  ],
+  "cwd": "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+  "started_at": "2026-10-09T12:52:50.366034+00:00",
+  "completed_at": "2026-10-09T12:52:51.450314+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.0842821660044137,
+  "waited_process_tree_cpu_seconds": 0.676085,
+  "maximum_child_rss_kib": 24832,
+  "cpu_semantics": "RUSAGE_CHILDREN delta for waited harness and reaped descendants; failed/unreaped processes could undercount",
+  "scientific_gate_advanced": false
+}
