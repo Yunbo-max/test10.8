@@ -1,6 +1,8 @@
 # Landmark developmental baseline-matrix implementation design
 
-Status: complete design candidate, no runner generated and no execution admitted.
+Status: corrected complete design candidate, no runner generated and no execution
+admitted. The initial independent verdict was `NEEDS_CORRECTION`; its history is
+preserved in `LANDMARK_BASELINE_MATRIX_DESIGN_REVIEW.md`.
 
 ## Fixed object and scope
 
@@ -10,9 +12,12 @@ Input is the exact author `landmark.mtx` at commit
 `29fb87018e59049a52314c847c5ac2a4eaa3b875f7cd8467621fe074fbbc298b`.
 Retain rows 1--5,000 in released order, no scaling, `k=25`. Drop only columns
 identically zero on this prefix, leaving the accepted 259 represented columns.
-All algorithm projectors are embedded back into the 2,704-dimensional ambient
-space only conceptually; residual loss and pairwise projector recourse are
-isometrically unchanged by the zero-column restriction.
+Freeze the active map as the sorted one-based 259-column list retained by
+`landmark-reference-calibration-v1`. All chosen supported algorithm projectors
+are embedded into the 2,704-dimensional ambient space by zero padding on the
+complement. Residual loss and pairwise projector recourse are isometrically
+unchanged for those embeddings. This is not equality with arbitrary ambient
+nullspace completions.
 
 This is developmental qualification of existing baselines under the repaired
 local scorer. It is not official scorer parity, paper reproduction,
@@ -33,7 +38,34 @@ The inventory matches the accepted G01 family design and low-dimensional matrix:
 There are no tuned parameters, seeds or replacements. All arms receive identical
 rows and use rank `min(25,t)` during warmup and rank 25 thereafter.
 
-## Shared exact reference and independent arm work
+## Versioned scorer extension and two-stage admission
+
+`REPAIR_CONTRACT_v1.md` remains canonical: primary loss is direct residual and
+primary OPT is direct fresh SVD. This design proposes, but does not yet qualify,
+`LANDMARK_REPAIR_EXTENSION_v1`: an incremental-Gram acceleration that must pass
+its own bounded native qualification before the 13-arm matrix plan can exist.
+The accepted 11-prefix cost calibration is dependency evidence, not that pass.
+
+Stage A is a separate engineering scorer-qualification task. On prefixes
+`1..25` plus `{50,100,150,250,500,1000,2000,3000,4000,5000}`, it compares Gram
+OPT versus direct SVD-tail OPT, Gram loss versus direct residual loss for every
+arm, and overlap versus direct Frobenius projector recourse for every arm. It
+retains both `Q_t` and `Q_(t-1)` at every selected oracle transition.
+
+Loss and OPT agreement use `1e-10 * max(1,E_t)` separately. Recourse agreement
+uses dimensionless `1e-10 * max(1,rank_t+rank_(t-1))`. Stage A fails on any
+identity mismatch; it cannot adopt the earlier looser `1e-9` calibration
+tolerance. Only independent acceptance of Stage A qualifies the extension and
+permits a Stage-B full matrix plan.
+
+During Stage B, any prefix with Gram OPT at or below
+`10 * 1e-10 * max(1,E_t)` is uncertain and must run direct SVD before ratio
+classification. Any arm loss within the same uncertainty band must run direct
+residual scoring. If the direct OPT remains at or below its boundary, the ratio
+is null; positive direct loss beyond tolerance is a violation. A missing or
+failed fallback invalidates the run, never approximately classifies the prefix.
+
+## Shared exact evaluator and independent arm work
 
 Maintain `G_t = sum_{i<=t} a_i^T a_i` and energy `E_t = trace(G_t)` in float64.
 At every prefix compute the top `min(25,t)` eigenvalues of symmetric `G_t` with
@@ -43,15 +75,32 @@ the reviewed SciPy `eigh` subset convention. Record
 
 With frozen tolerance `tau_t = 1e-10 * max(1,E_t)`, fail if
 `raw_opt_t < -tau_t`; otherwise report `opt_t=max(0,raw_opt_t)`. Retain raw
-value, top-eigenvalue sum and tolerance. This shared reference is scoring work,
-not an arm update. Fresh and every refresh arm must separately compute its own
-eigenvectors so their update times are not hidden by reference reuse.
+value, top-eigenvalue sum and tolerance. This shared Gram, energy and reference
+are evaluator work, not arm state or an arm update. The evaluator charges its
+row outer product, energy update, Gram copy and eigensolver to shared-reference
+time.
+
+Fresh, fixed, periodic and each Algorithm-4 arm independently maintain their own
+Gram and energy from released rows. Each charges its own outer product, energy
+update and Gram copy on every prefix, plus its own eigensolver whenever it
+refreshes. No arm consumes evaluator Gram, eigenvalues or eigenvectors. FD and
+author-FD own and charge only their sketch update/SVD state; they receive no
+evaluator Gram state. Serialization is a separate pipeline component.
 
 Algorithm 4 refreshes through warmup and when
 `E_t >= c * E_last_refresh`. Fixed refreshes through warmup only. Periodic arms
 refresh through warmup and thereafter when `(t-k) mod interval = 0`. FD arms use
 the already reviewed `native_baselines.py` update semantics on the restricted
 stream; all emitted bases are copied and row-orthonormal.
+
+For zero-energy prefixes, refresh arms use the first `min(25,t)` canonical active
+coordinate directions. For nonzero rank-deficient prefixes, request exactly
+`min(25,t)` vectors from pinned SciPy `eigh(driver="evr")`, order by descending
+eigenvalue, and canonicalize each sign by making its largest-magnitude coordinate
+positive (lowest index breaks equal magnitudes). A cutoff tie or nullspace
+completion follows this pinned library/environment policy and is labelled as
+having no low-recourse theorem guarantee. Warmup rank `min(25,t)` is the existing
+repaired-project extension, not source parity.
 
 ## Repaired scorer
 
@@ -73,23 +122,29 @@ has zero transition increment in the primary total; report initialization from
 the zero projector separately as rank 1. Primary steady recourse excludes all
 warmup transitions through prefix 25.
 
-At prefixes `{25,150,1000,5000}`, recompute every arm's loss by direct
-`||A_t(I-P_t)||_F^2` and recourse by direct Frobenius projector difference.
-At `{150,1000,5000}`, independently compare exact OPT with direct SVD tail
-energy. Require the accepted `1e-9 * max(1,E_t)` engineering agreement bound,
-but never use it to qualify a near-zero ratio denominator. Record selected
-projectors for these oracle prefixes only; do not emit a 25x259 basis on every
-row.
+Stage-A oracle prefixes and tolerances are fixed above. Retain both current and
+previous bases plus direct and overlap recourse at every selected transition.
+Stage B retains direct fallback inputs and outputs for every uncertain prefix.
+Do not emit a 25x259 basis on every ordinary row.
 
 ## Raw outputs and denominators
 
-Retain one raw JSONL member per arm with all 5,000 prefixes: sample ID, rank,
+After Stage A is independently accepted, retain one Stage-B raw JSONL member per
+arm with all 5,000 prefixes: sample ID, rank,
 warmup/update flags, energy, raw/reported OPT and loss, ratio/missingness,
 excesses, raw/reported recourse, cumulative/steady recourse, orthogonality,
 update/reference/scoring/energy times and selected-prefix oracle fields. Retain
-13 summaries, an exact manifest and a deterministic tar.gz archive. The manifest
-must verify member hashes before atomic no-replace publication; staging remains
-retained until evidence collection is complete.
+13 summaries, an exact manifest and a deterministic tar.gz archive. Each raw and
+summary is produced under a partial-only name, closed, file-fsynced and hashed;
+the staging directory is directory-fsynced. The archive is produced as a partial,
+closed/fsynced, member-hash verified, atomically no-replace published and
+directory-fsynced. The manifest is last: partial-only, closed/fsynced, hashed,
+no-replace published and directory-fsynced. Final raw/summary/archive/manifest
+files are rehashed before process exit and again during post-exit collection.
+
+The successful inventory is exactly 26 complete archive members (13 raw JSONL
+plus 13 summaries), one archive and one manifest: 28 files. Staging files,
+partials and recreated diagnostic partials stay outside the successful inventory.
 
 Report two descriptive slices without changing stored rows:
 
@@ -109,7 +164,8 @@ reference, each arm update, scoring, energy maintenance, serialization and
 pipeline time. `ru_maxrss` is process high-water RSS, not per-arm incremental
 memory.
 
-The accepted 11-prefix calibration observed median copy-plus-eigensolver times
+The accepted 11-prefix calibration observed median evaluator
+copy-plus-eigensolver times
 of 0.001568--0.004070 seconds and a 1.422-second total calibration workload.
 This does not qualify the full matrix cost, especially FD updates, serialization
 or 5,000 references. A later plan must first perform a bounded all-arm timing
