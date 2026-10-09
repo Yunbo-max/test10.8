@@ -21,7 +21,25 @@ not assert a permissive software license.
 ## Arms, parameters and metrics
 Primary source repair arms: exact Algorithm4; fresh prefix SVD; sourced FD with ell=min(d,2k) and ell=min(d,4k), both clipped to d and require ell>k; fixed warmup subspace; periodic refresh intervals10,100. Author FD is a source diagnostic, not the qualified strong FD comparator. All arms use the same stream, rank convention and float64; tuning is absent for qualification.
 Paper/source c disagreement: main figures 2.5 versus code/table2. Record both as distinct predeclared values c={1.1,2,2.5,5,10,100}; Skin k2 separately includes1.5. They are sensitivity settings of the same method, never independent papers.
-Metrics per prefix: rawloss, OPT, energy, additive excess, normalized excess=(loss-OPT)/energy when positiveenergy, ratio only for OPT>tol, projector increment, cumulativeR fromt2, steadyR fromafterwarmup, refreshcount, numerical/tie diagnostics and timings. Ratios cannot replace the additive guarantee. Aggregation: final endpoints plus mean/median/max over ALL declared eligibleprefixes, denominator and zero-OPT exclusion count; separate source-reported Landmark150..5000 summary. Prefixes are dependent, not independent replications.
+Metrics per prefix: raw loss, OPT, energy, additive excess, normalized excess
+`(loss-OPT)/energy` when energy is positive, ratio only when
+`OPT > 1e-10 * max(1, energy)`, projector increment, cumulative recourse from
+prefix 2, steady recourse excluding initialization, refresh count,
+numerical/tie diagnostics and separated update/scoring/pipeline timings. Ratios
+cannot replace the additive guarantee. Aggregation reports final endpoints plus
+mean/median/max over all declared eligible prefixes, the exact denominator and
+near-zero-OPT exclusion count. Prefixes are dependent, not replications.
+
+Accepted developmental denominators are frozen as follows: Rice k1 is 2999
+defined / 1 excluded; Skin k1 is 2999 / 1; Skin k2 is 2986 / 14; and the
+prospective random k1 instance is 2999 / 1. Every cohort has zero positive-loss
+case with near-zero OPT. Landmark has no accepted denominator. The paper
+caption's “between 150 and 5000 updates” does not join reproducibly to the
+frozen source: author code processes prefixes 1..4999 and contains no Table-1
+aggregation. A repaired future runner must retain prefixes 1..5000 and may
+separately report the labelled project slice 150..5000 inclusive (4851
+prefixes); neither is called the source Table-1 denominator until parity is
+demonstrated.
 
 ## Controls and planned complete comparisons
 The fixed/periodic controls separate stability achieved by staleness from accuracy; freshSVD measures exact reconstruction/recourse ceiling; FD measures sketch approximation and its output recourse; exact versus randomized reclustering is a separate repair/accuracy confound requiring qualified approximate reference if used. Fair matched tuning is developmental and limited; no test-selected c or interval.
@@ -45,10 +63,47 @@ not predict Landmark: its active first-5000 prefix still has 259 represented
 columns and k=25, so exact all-prefix reference calibration must precede any
 queue; no fit claim is made.
 
+The accepted Rice/Skin execution is bound to
+`plans/native-lowdim-baseline-matrix-final-repair.json` (SHA-256
+`f8fc3ced...`, digest `d30ea825...`) and
+`plans/harness-lowdim-baseline-matrix-final-repair.json` (SHA-256
+`09fbf88d...`, digest `280abf63...`): one CPU, 512 MiB, one attempt, zero
+retries, native 180-second timeout and harness 210-second total / 180-second
+window. Its exact dispatch was:
+
+```text
+PYTHONPATH=vendor/rsi/scripts python vendor/rsi/scripts/run_harness.py --root . --execute --approved-plan-digest 280abf635dfb5662bce6a15ffb63977c72d72a320f44ef22f1554d9ec5b9e6cf plans/harness-lowdim-baseline-matrix-final-repair.json
+```
+
+The execution record is `LOWDIM_BASELINE_MATRIX_FINAL_REPAIR_EXECUTION_20261009.md`
+(SHA-256 `3c108756...`). The accepted prospective-random execution is bound
+to `plans/native-prospective-random-baseline-matrix.json` (SHA-256
+`42a7cea3...`, digest `280027a1...`) and
+`plans/harness-prospective-random-baseline-matrix.json` (SHA-256
+`47cdbf44...`, digest `95657d85...`): one CPU, 512 MiB, one attempt, zero
+retries, native 120-second timeout and harness 150-second total / 120-second
+window. Its exact dispatch was:
+
+```text
+PYTHONPATH=vendor/rsi/scripts python vendor/rsi/scripts/run_harness.py --root . --execute --approved-plan-digest 95657d85b176afddc3bb682c8fc6b246cac8ba26e2f8db9de40f899be86d6292 plans/harness-prospective-random-baseline-matrix.json
+```
+
+Its record is `RANDOM_BASELINE_MATRIX_EXECUTION_20261009.md` (SHA-256
+`1d8908f5...`).
+
 The Landmark source can be restored by the already reviewed partial Git
 checkout and must reverify blob `4c63060b...`, SHA-256 `29fb8701...`, and
 34,964,305 bytes.  Restoration is data acquisition, not an executable numerical
-queue.  No automatic package install is allowed.
+queue. The reviewed acquisition command is:
+
+```text
+git clone --no-checkout --filter=blob:none https://github.com/samsonzhou/consistent-LRA.git author-consistent-LRA
+git -C author-consistent-LRA checkout d607c4f6467216c470d1e3b93989d44d5fcdec97 -- landmark.mtx
+```
+
+There is no admitted Landmark numerical command, native plan or queue. Those
+remain blocked until exact-reference cost calibration, source/semantic review
+and independent plan review. No automatic package install is allowed.
 
 G01 status: complete family-level design and explicit gaps, with accepted
 developmental matrices for Rice, Skin and one prospective random seed.  It is
