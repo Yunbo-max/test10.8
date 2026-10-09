@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T11:41:48.283422+00:00",
+  "observed_at": "2026-10-09T11:43:15.597591+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 120,
+  "registered_task_assignments": 122,
   "executable_attempts_dispatched": 20,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -200,7 +200,9 @@
     "window02-nearzero-derived-metric-design-correction-generation",
     "window02-nearzero-derived-metric-design-correction-rereview",
     "window02-nearzero-design-final-namespace-correction-generation",
-    "window02-nearzero-design-final-namespace-correction-review"
+    "window02-nearzero-design-final-namespace-correction-review",
+    "window02-nearzero-source-and-frozen-fixture-generation",
+    "window02-nearzero-extractor-source-fixture-independent-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -211,7 +213,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 20034.716578,
+  "remaining_wall_seconds_at_observation": 19947.402409,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -1174,21 +1176,7 @@
     "record": "LANDMARK_STAGE_B_SOURCE_REVIEW.md"
   },
   "pending_window02_integer_priority_audit": null,
-  "pending_window02_nearzero_design": {
-    "author_assignment": 115,
-    "review_assignment": 116,
-    "author": "/root",
-    "reviewer": "/root/window02_stagea_source_review",
-    "scope": "pure-derived scalar classification/denominator design; no matrix/scorer/benchmark execution",
-    "inputs_commit": "7d75f63e21cec0a6e29fddd76121f2518246e732",
-    "status": "second_final_design_correction_pending_independent_review",
-    "design_sha256": "ab66c24f56025c46c4294da18b594144fa7a9a53adad1b6965c2831f5555b734",
-    "correction_author_assignment": 117,
-    "rereview_assignment": 118,
-    "corrected_design_sha256": "a44a8775a915c9d8ab06a61c2e4888c81af1c18aa2bf50fd134316cf1b7f4928",
-    "final_review_assignment": 120,
-    "final_design_sha256": "3b11cb902ec9c73c86b500488c56f77aacabdf24416ae2488e037d18dcd36ea7"
-  },
+  "pending_window02_nearzero_design": null,
   "window02_nearzero_design_corrections": [
     {
       "review_assignment": 116,
@@ -1219,5 +1207,31 @@
     "record": "INTEGER_PRIORITY_TARGETED_AUDIT_WINDOW02.md",
     "raw_capture_durable": false,
     "queries_used": 16
+  },
+  "completed_window02_nearzero_design": {
+    "author_assignment": 115,
+    "review_assignment": 116,
+    "author": "/root",
+    "reviewer": "/root/window02_stagea_source_review",
+    "scope": "pure-derived scalar classification/denominator design; no matrix/scorer/benchmark execution",
+    "inputs_commit": "7d75f63e21cec0a6e29fddd76121f2518246e732",
+    "status": "accepted_narrow_engineering_design_only",
+    "design_sha256": "ab66c24f56025c46c4294da18b594144fa7a9a53adad1b6965c2831f5555b734",
+    "correction_author_assignment": 117,
+    "rereview_assignment": 118,
+    "corrected_design_sha256": "a44a8775a915c9d8ab06a61c2e4888c81af1c18aa2bf50fd134316cf1b7f4928",
+    "final_review_assignment": 120,
+    "final_design_sha256": "3b11cb902ec9c73c86b500488c56f77aacabdf24416ae2488e037d18dcd36ea7",
+    "final_commit": "941cf147c727966208f17f2fd51e17321edfd81f",
+    "review_record": "NEARZERO_DERIVED_METRIC_DESIGN_REVIEW_WINDOW02.md"
+  },
+  "pending_window02_nearzero_source": {
+    "author_assignment": 121,
+    "review_assignment": 122,
+    "author": "/root",
+    "reviewer": "/root/window02_stagea_source_review",
+    "accepted_design_commit": "941cf147c727966208f17f2fd51e17321edfd81f",
+    "status": "registered_source_generation_unexecuted",
+    "execution_admitted": false
   }
 }

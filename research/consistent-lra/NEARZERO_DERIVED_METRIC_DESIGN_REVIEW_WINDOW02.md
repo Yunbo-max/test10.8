@@ -54,3 +54,18 @@ would reject unchanged source or fail at the second defined ratio. Bind explicit
 max for that authenticated call, keep empty default builtins and reject others.
 Root retains second source-contract correction; final actual reviewer120 pending.
 No source imports/execution/plan admission; scientific blocks unchanged.
+
+## Actual final review120 — ACCEPT design only
+
+Immutable941cf147c727966208f17f2fd51e17321edfd81f, design SHA256
+3b11cb902ec9c73c86b500488c56f77aacabdf24416ae2488e037d18dcd36ea7,
+14342bytes, Gitblob5144fe11c6a850c1317ae498a302f31182e3ebea; local matches.
+Explicit exact max call closes remaining namespace gap. Binary64 operation
+sequence/exact branches/counts/native mapping retained. Source generation plus
+independent source/fixture review may proceed; exhaustive actual AST whitelist,
+closed namespace, fixture expectations and positive-integer validation still
+need source review. Separate accepted executable plan required. No imports,
+tests/workloads/mutation/publication by reviewer. Acceptance closes only isolated
+scalar routing/missingness/normalization and accumulator engineering design;
+native matrix fallback, final summary/pipeline, authority, StageB and scientific
+gates remain unqualified. Both earlier rejections/corrections remain intact.
