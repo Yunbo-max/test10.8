@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T10:48:00.445910+00:00",
+  "observed_at": "2026-10-09T10:49:28.301105+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 102,
+  "registered_task_assignments": 104,
   "executable_attempts_dispatched": 18,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -182,7 +182,9 @@
     "window02-exact-geometric-certificate-source-generation",
     "window02-exact-geometric-certificate-source-review",
     "window02-exact-geometric-calibration-plan-generation",
-    "window02-exact-geometric-calibration-plan-review"
+    "window02-exact-geometric-calibration-plan-review",
+    "window02-geometric-explicit-integer-bit-bound-derivation",
+    "window02-geometric-explicit-integer-bit-bound-independent-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -1025,5 +1027,13 @@
     "execution_admitted": false,
     "native_plan_digest": "9ca9deecb9809a8109a6918a5f789d8cbc5795574372c34f969eba445c97d7d7",
     "harness_plan_digest": "efaf6cc61a8bcfd37a89ba8b5bdaf0169362aa1118718a1cc1f299975ef93aad"
+  },
+  "pending_window02_explicit_integer_derivation": {
+    "assignment": "window02-geometric-explicit-integer-bit-bound-derivation",
+    "scope": "existing published lemma formal correction lineage; explicit rounding/spectral-gap proof before any computational validation;notdiscovery/newmethod"
+  },
+  "pending_window02_explicit_integer_review": {
+    "assignment": "window02-geometric-explicit-integer-bit-bound-independent-review",
+    "status": "waiting_author_derivation_not_dispatched"
   }
 }
