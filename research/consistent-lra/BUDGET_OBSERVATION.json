@@ -704,7 +704,7 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:53:27.399068+00:00",
+  "observed_at": "2026-10-09T12:54:57.503561+00:00",
   "observed_process_cpu_seconds": 294.20506459,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -842,7 +842,7 @@
       "wall_seconds": 0.326309899
     }
   ],
-  "registered_task_assignments": 149,
+  "registered_task_assignments": 150,
   "remaining_wall_seconds_at_observation": 15735.600932,
   "reservation": {
     "actual_max_rss_kib": 99788,
@@ -1143,7 +1143,8 @@
     "window02-integer-projector-calibration-plan-generation",
     "window02-integer-projector-calibration-plan-independent-review",
     "window02-integer-projector-representative-calibration-execution",
-    "window02-integer-projector-calibration-evidence-independent-review"
+    "window02-integer-projector-calibration-evidence-independent-review",
+    "window02-approximate-proof-dependency-independent-source-math-audit"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1491,5 +1492,10 @@
     "assignment_number": 149,
     "reviewer": "/root/window02_consecutive_condition_review",
     "scope": "all5root arithmetic receipts costs only no full61 or scientific claim"
+  },
+  "pending_window02_approximate_dependency_review": {
+    "assignment_number": 150,
+    "reviewer": "/root/window02_geometric_formal_review",
+    "scope": "existing target paper proof dependency only no code/experiments or discovery"
   }
 }
