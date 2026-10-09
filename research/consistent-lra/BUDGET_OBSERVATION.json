@@ -1438,12 +1438,12 @@
     "record": "INTEGER_PROJECTOR_COST_REVIEW_WINDOW02.md",
     "verdict": "accepted_source_generation_only"
   },
-  "pending_window02_integer_projector_source_review": {
+  "pending_window02_integer_projector_source_review": null,
+  "completed_window02_integer_projector_source_review": {
     "assignment_number": 145,
     "reviewer": "/root/window02_consecutive_condition_review",
-    "execution_admitted": false,
-    "source": "integer_projector_certificate_window02.py",
-    "source_sha256": "e59cf9f03c40007271c14ca98ecd940f59bfa33cbd5a860218310556be67a22d",
-    "scope": "exact rational existing integer lemma certificate only no native experiments"
+    "reviewed_commit": "e7e7add6d1e907c6c207d7b753238d35852edb44",
+    "record": "INTEGER_PROJECTOR_SOURCE_REVIEW_WINDOW02.md",
+    "verdict": "accepted_source_semantics_only"
   }
 }
