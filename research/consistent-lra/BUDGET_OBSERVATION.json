@@ -1,5 +1,15 @@
 {
   "active_window_id": "cpu-window-02-20261009",
+  "main_heavy_single_arrival_aggregate_audit": {
+    "artifact": "HEAVY_SINGLE_ARRIVAL_AGGREGATE_AUDIT_MAIN_DRAFT.md",
+    "artifact_sha256": "92ec4600c73754815a5b652f37c9871da3602e3481c605faf17db25d24d14ac5",
+    "canonical_assignments": [175, 176],
+    "review_task": "HEAVY_SINGLE_ARRIVAL_AGGREGATE_REVIEW_TASK_MAIN.md",
+    "status": "candidate_frozen_review_pending",
+    "executable_attempts_added": 0,
+    "scientific_experiments_added": 0,
+    "cpu_seconds_added": 0
+  },
   "main_f1_math_lineage": {
     "artifact": "F1_HEAVY_COUNTEREXAMPLE_MAIN_DRAFT.md",
     "artifact_sha256": "2d6a1fbc256d5fe943eadd93c4266f0c113d3f1e90894ef1729e44997266e056",
@@ -830,7 +840,7 @@
   "main_only_tasks_no_measured_CPU": "Eight main-only assignments consume same wall budget; no numeric job was launched there and no attributable CPU measurement was supplied; lower bound is not a full compute total.",
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T14:01:57.005019+00:00",
+  "observed_at": "2026-10-09T14:58:00+00:00",
   "observed_process_cpu_seconds": 318.944499767,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -994,7 +1004,7 @@
       "wall_seconds": 11.894702007
     }
   ],
-  "registered_task_assignments": 174,
+  "registered_task_assignments": 176,
   "remaining_wall_seconds_at_observation": 11626,
   "reservation": {
     "actual_max_rss_kib": 99788,
@@ -1312,7 +1322,9 @@
     "main-heavy-branch-integer-counterexample-independent-math-review",
     "main-heavy-branch-small-epsilon-rank-family-consequential-derivation",
     "main-heavy-branch-small-epsilon-rank-family-independent-review",
-    "main-heavy-branch-rank-family-strict-trigger-clarification-independent-rereview"
+    "main-heavy-branch-rank-family-strict-trigger-clarification-independent-rereview",
+    "main-heavy-single-arrival-aggregate-consequential-derivation",
+    "main-heavy-single-arrival-aggregate-independent-math-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
