@@ -1,0 +1,234 @@
+{
+  "format": "consistent-lra-evaluator-semantic-oracles-v1",
+  "scope": "software metric semantics only; no native benchmark or performance claim",
+  "official_scorer": false,
+  "scientific_gate_advanced": false,
+  "performance_claim_eligible": false,
+  "command": [
+    "evaluator_semantic_oracles.py",
+    "--output",
+    "evidence/qualification/evaluator-semantic-oracles.json"
+  ],
+  "fixed_seed_for_software_oracle_only": 20261009,
+  "source_hashes": {
+    "evaluator_semantic_oracles.py": "9570b55d398a072cef4f5078dacbd8a5732ce6953b4df21fdce3f70c69a2494e",
+    "baseline_qualify.py": "d5566e2177064d0ddd9f940323ca7d10dfb0d9fef14d93f8ba6d16bde54dd934",
+    "REPAIR_CONTRACT_v1.md": "d00db725241d68629785bfa7ae39bfd90fb32c899c6956047912b4431a540e1e"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "checks": [
+    {
+      "name": "analytic_direct_loss",
+      "actual": 5.0,
+      "expected": 5.0,
+      "absolute_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "analytic_trace_loss",
+      "actual": 5.0,
+      "expected": 5.0,
+      "absolute_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "independent_direct_loss",
+      "actual": 5.0,
+      "expected": 5.0,
+      "absolute_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "fresh_svd_tail",
+      "actual": 5.0,
+      "expected": 5.0,
+      "absolute_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "fresh_svd_projector_loss",
+      "actual": 5.0,
+      "expected": 5.0,
+      "absolute_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "fresh_svd_projector_identity",
+      "actual": 0.0,
+      "expected": 0.0,
+      "absolute_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "orthogonal_overlap_recourse",
+      "actual": 2.0,
+      "expected": 2.0,
+      "absolute_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "orthogonal_direct_recourse",
+      "actual": 2.0,
+      "expected": 2.0,
+      "absolute_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "rank_change_overlap_recourse",
+      "actual": 1.0,
+      "expected": 1.0,
+      "absolute_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "rank_change_direct_recourse",
+      "actual": 1.0,
+      "expected": 1.0,
+      "absolute_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "rotated_overlap_recourse",
+      "actual": 0.9999999999999998,
+      "expected": 1.0,
+      "absolute_error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "rotated_direct_recourse",
+      "actual": 1.0000000000000002,
+      "expected": 1.0,
+      "absolute_error": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "initialization_from_zero_separate",
+      "actual": 1.0,
+      "expected": 1.0,
+      "absolute_error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "case_0_loss_direct_vs_explicit",
+      "actual": 7.816396904463135,
+      "expected": 7.816396904463135,
+      "absolute_error": 0.0,
+      "tolerance": 8.58844838751277e-12,
+      "passed": true
+    },
+    {
+      "name": "case_0_loss_trace_vs_explicit",
+      "actual": 7.816396904463135,
+      "expected": 7.816396904463135,
+      "absolute_error": 0.0,
+      "tolerance": 8.58844838751277e-12,
+      "passed": true
+    },
+    {
+      "name": "case_0_recourse_overlap_vs_explicit",
+      "actual": 1.0,
+      "expected": 1.0000000000000009,
+      "absolute_error": 8.881784197001252e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "case_1_loss_direct_vs_explicit",
+      "actual": 2.97242849175183,
+      "expected": 2.97242849175183,
+      "absolute_error": 0.0,
+      "tolerance": 1.2596576290752308e-11,
+      "passed": true
+    },
+    {
+      "name": "case_1_loss_trace_vs_explicit",
+      "actual": 2.972428491751831,
+      "expected": 2.97242849175183,
+      "absolute_error": 8.881784197001252e-16,
+      "tolerance": 1.2596576290752308e-11,
+      "passed": true
+    },
+    {
+      "name": "case_1_recourse_overlap_vs_explicit",
+      "actual": 1.732054817009153,
+      "expected": 1.7320548170091539,
+      "absolute_error": 8.881784197001252e-16,
+      "tolerance": 3e-12,
+      "passed": true
+    },
+    {
+      "name": "case_2_loss_direct_vs_explicit",
+      "actual": 33.528246931061524,
+      "expected": 33.528246931061524,
+      "absolute_error": 0.0,
+      "tolerance": 6.222174568757384e-11,
+      "passed": true
+    },
+    {
+      "name": "case_2_loss_trace_vs_explicit",
+      "actual": 33.52824693106152,
+      "expected": 33.528246931061524,
+      "absolute_error": 7.105427357601002e-15,
+      "tolerance": 6.222174568757384e-11,
+      "passed": true
+    },
+    {
+      "name": "case_2_recourse_overlap_vs_explicit",
+      "actual": 3.1048011661991044,
+      "expected": 3.104801166199107,
+      "absolute_error": 2.6645352591003757e-15,
+      "tolerance": 5e-12,
+      "passed": true
+    },
+    {
+      "name": "case_3_loss_direct_vs_explicit",
+      "actual": 12.301606263368344,
+      "expected": 12.301606263368345,
+      "absolute_error": 1.7763568394002505e-15,
+      "tolerance": 5.733836624426935e-11,
+      "passed": true
+    },
+    {
+      "name": "case_3_loss_trace_vs_explicit",
+      "actual": 12.301606263368335,
+      "expected": 12.301606263368345,
+      "absolute_error": 1.0658141036401503e-14,
+      "tolerance": 5.733836624426935e-11,
+      "passed": true
+    },
+    {
+      "name": "case_3_recourse_overlap_vs_explicit",
+      "actual": 3.8498420483143567,
+      "expected": 3.8498420483143585,
+      "absolute_error": 1.7763568394002505e-15,
+      "tolerance": 8e-12,
+      "passed": true
+    }
+  ],
+  "check_count": 25,
+  "failure_count": 0,
+  "all_checks_passed": true,
+  "usage": {
+    "wall_seconds": 0.0018417730025248602,
+    "cpu_seconds": 0.0014270000000000393,
+    "max_rss_kib": 114008
+  }
+}

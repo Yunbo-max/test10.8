@@ -25,3 +25,15 @@ The initial `needs_correction` verdict is retained. A later rereview must state
 the exact corrected candidate and may not convert this record into evidence of
 execution, official scorer parity, native benchmark performance or a scientific
 gate.
+
+## Correction rereview
+
+Corrected candidate `6f104ad753ffe0fc441265405072b39bc4fe5590`, binding
+`39947aebe92eb798a653e4219e1ae659bc81b64f`. The same independent reviewer
+returned **accepted** without execution or writes. It verified oracle SHA256
+`9570b55d398a072cef4f5078dacbd8a5732ce6953b4df21fdce3f70c69a2494e`,
+native plan SHA256 `92bd553b922dd15ea46b3e5d56a587ec473d7635a56f925204033a7567c74669`
+and digest `902f36cff8bfb36f13ace951719272e7dcd703a0709d67653dc284284663fdd5`,
+and harness plan SHA256 `c9e408a7ab9267556de66db4827bdedc1632cebb19f896ee293edcd3e987d8e5`
+and digest `843f8fa71948b3881471889efb3c74a4d4c87238d5564ac2c5fe667cee94516a`.
+This accepted only the finite engineering plan.
