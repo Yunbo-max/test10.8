@@ -136,7 +136,7 @@ def run(args) -> None:
     ]
     archive_paths = {name: output.parent / f"lowdim-{name}.tar.gz"
                      for name, _, _, _, _ in cohorts}
-    staging = output.parent / "lowdim-matrix-raw-v2"
+    staging = output.parent / "lowdim-matrix-raw-v3"
     final_paths = [output, *archive_paths.values()]
     partial_paths = [path.with_name(path.name + ".partial")
                      for path in final_paths]
@@ -155,7 +155,7 @@ def run(args) -> None:
     start = time.perf_counter()
     before = resource.getrusage(resource.RUSAGE_SELF)
     manifest = {
-        "format": "consistent-lra-lowdim-existing-baseline-matrix-v2",
+        "format": "consistent-lra-lowdim-existing-baseline-matrix-v3",
         "scope": "developmental project-repair baseline qualification only",
         "cohorts": [],
         "scientific_gate_advanced": False,
@@ -173,6 +173,7 @@ def run(args) -> None:
     }
     staging.mkdir(parents=False, exist_ok=False)
     fsync_directory(output.parent)
+    published_members = []
     for cohort, dataset, source, k, d in cohorts:
         records = []
         members = []
@@ -180,17 +181,19 @@ def run(args) -> None:
         for config in cohort_configs(cohort, dataset, source, k, d):
             name = slug(config)
             raw = staging / f"{cohort}__{name}.jsonl"
+            working_raw = staging / f".partial-{cohort}__{name}.jsonl"
             native_args = SimpleNamespace(
                 dataset=dataset, source=source, arm=config["arm"], k=k,
                 c=config["c"], interval=config["interval"], ell=config["ell"],
                 seed=20261009, random_variant="released_code_unscaled",
-                output=str(raw),
+                output=str(working_raw),
             )
             native_baselines.run(native_args)
+            working_summary = working_raw.with_suffix(".summary.json")
             summary_path = raw.with_suffix(".summary.json")
-            fsync_file(raw)
-            fsync_file(summary_path)
-            summary = json.loads(summary_path.read_text(encoding="utf-8"))
+            fsync_file(working_raw)
+            fsync_file(working_summary)
+            summary = json.loads(working_summary.read_text(encoding="utf-8"))
             if summary["prefix_denominator"] != 3000:
                 raise ValueError(f"{cohort}/{name} incomplete prefixes")
             identity_keys = ("dataset", "source_blob", "source_sha256", "source_bytes",
@@ -202,9 +205,14 @@ def run(args) -> None:
                 cohort_identity = identity
             elif identity != cohort_identity:
                 raise ValueError(f"{cohort}/{name} native identity drift")
-            raw_hash = sha256(raw)
+            raw_hash = sha256(working_raw)
             if raw_hash != summary["raw_sha256"]:
                 raise ValueError(f"{cohort}/{name} raw hash mismatch")
+            summary_hash = sha256(working_summary)
+            publish_no_replace(working_raw, raw)
+            publish_no_replace(working_summary, summary_path)
+            if sha256(raw) != raw_hash or sha256(summary_path) != summary_hash:
+                raise ValueError(f"{cohort}/{name} final publication mismatch")
             records.append({
                 "name": name,
                 "configuration": config,
@@ -221,9 +229,10 @@ def run(args) -> None:
                 "raw_member": raw.name,
                 "raw_sha256": raw_hash,
                 "summary_member": summary_path.name,
-                "summary_sha256": sha256(summary_path),
+                "summary_sha256": summary_hash,
             })
             members.extend([(raw, raw.name), (summary_path, summary_path.name)])
+            published_members.extend([raw, summary_path])
         fsync_directory(staging)
         archive = archive_paths[cohort]
         archive_hash = deterministic_archive(archive, members)
@@ -261,9 +270,9 @@ def run(args) -> None:
     for cohort in manifest["cohorts"]:
         expected_hashes[cohort["archive"]] = cohort["archive_sha256"]
         for record in cohort["records"]:
-            expected_hashes[f"lowdim-matrix-raw-v2/{record['raw_member']}"] = record["raw_sha256"]
-            expected_hashes[f"lowdim-matrix-raw-v2/{record['summary_member']}"] = record["summary_sha256"]
-    tracked_paths = [*archive_paths.values(), *sorted(staging.iterdir())]
+            expected_hashes[f"lowdim-matrix-raw-v3/{record['raw_member']}"] = record["raw_sha256"]
+            expected_hashes[f"lowdim-matrix-raw-v3/{record['summary_member']}"] = record["summary_sha256"]
+    tracked_paths = [*archive_paths.values(), *published_members]
     observations = {}
     for path in tracked_paths:
         relative = path.relative_to(output.parent).as_posix()

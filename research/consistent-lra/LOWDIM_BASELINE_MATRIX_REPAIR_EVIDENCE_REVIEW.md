@@ -38,4 +38,13 @@ confirmed that all 57 bound evidence paths retained identical Git blobs, but
 found the failure-record SHA above was transcribed incorrectly and the
 summary-set digest lacked a recorded byte recipe. This second and final
 review-record correction fixes both identities and defines the aggregate byte
-recipe; it changes no raw evidence. Independent rereview remains pending.
+recipe; it changes no raw evidence.
+
+Final rereview verdict: **accepted as a failure record** at exact remote commit
+`72ace279f0dbfdf5c84f8a36175d3a965494a344` (tree
+`334f45a6dfd8fc25f9278ede26c2dfbb98e13ebe`). The reviewer reproduced both
+hashes above, found zero blob mismatches across all 57 bound evidence paths,
+and confirmed tasks 48, attempts 11, scientific attempts 0 and failure repair
+counts `0/0/1/1`. This admits only the engineering failure record. It permits
+repair ordinal 2 to enter fresh source review; it admits no numerical result,
+ranking, performance claim or scientific conclusion.
