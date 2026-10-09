@@ -3,7 +3,7 @@
   "task_id": "sampling-source-qualification-independent-review",
   "registered_order": 12,
   "candidate_path": "research/consistent-lra/SAMPLING_SOURCE_QUALIFICATION_20261009.md",
-  "candidate_commit": null,
+  "candidate_commit": "77429350ae1513ae0f6825b7d07c4b0825288b43",
   "primary_sources": [
     "https://arxiv.org/html/1805.03765v6",
     "https://proceedings.iclr.cc/paper_files/paper/2026/file/b14d76c7266be21b338527cd25deac45-Paper-Conference.pdf"

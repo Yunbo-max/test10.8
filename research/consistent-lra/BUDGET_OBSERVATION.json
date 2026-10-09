@@ -7,7 +7,7 @@
   "deadline_utc": "2026-10-09T07:47:45Z",
   "observed_at": "2026-10-09T00:58:36+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 12,
+  "registered_task_assignments": 13,
   "executable_attempts_dispatched": 1,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -53,7 +53,8 @@
     "dynamic-recourse-extension-independent-review",
     "consecutive-condition-supplement-review",
     "integer-density-extension-independent-review",
-    "sampling-source-qualification-independent-review"
+    "sampling-source-qualification-independent-review",
+    "integer-density-extension-correction-re-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -64,6 +65,6 @@
   "verified_scientific_failures_by_direction": {},
   "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run.",
   "formal_review_assignments_completed": false,
-  "pending_formal_review": "integer-density-extension-independent-review",
+  "pending_formal_review": "integer-density-extension-correction-re-review",
   "pending_source_review": "sampling-source-qualification-independent-review"
 }
