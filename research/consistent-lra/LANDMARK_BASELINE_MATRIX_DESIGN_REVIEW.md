@@ -36,3 +36,21 @@ diagnostics, including direct loss for every arm when direct OPT is near zero;
 and raw/summary finals needed the same hard-link no-replace, partial-unlink,
 immediate-final-rehash and directory-fsync contract as archive/manifest. Only
 unpublished working/partial files may be excluded from the 28-file inventory.
+
+## Final rereview
+
+Reviewed immutable commit: `85d84381ad02e01050c978f3611ed6f80ed88e2b`;
+tree: `287eab8752e3764d97153fa6b7bbd51137bc2210`;
+design blob: `a8c9332857eba826bea79d0476bdd76e27d0c0ee`;
+SHA256: `c6b5d2525a87d278f3ad90b2b69045478e4690c66c10459ab16ea574bee11083`.
+Verdict: **ACCEPT — design only**. No code was generated or executed.
+
+The independent reviewer confirmed that direct fallback now replaces every
+reported and derived OPT/loss metric while preserving Gram diagnostics, and
+that near-zero direct OPT forces direct residual scoring for all arms. The
+reviewer also confirmed the hard-link no-replace, partial-unlink, immediate
+final rehash and directory-fsync publication contract for raw and summary
+finals, including published finals located under staging in the 28-file
+inventory. Previously accepted state, timing, rank/tie, denominator and
+resource boundaries remain unchanged. This verdict authorizes neither runner
+generation, an execution plan nor a workload.
