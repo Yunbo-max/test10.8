@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T02:20:42+00:00",
+  "observed_at": "2026-10-09T02:41:35+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 20,
-  "executable_attempts_dispatched": 4,
+  "registered_task_assignments": 25,
+  "executable_attempts_dispatched": 5,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 1.570273,
+  "observed_process_cpu_seconds": 1.571700,
   "reservation": {
     "task": "source-integrity-01",
     "purpose": "mechanical_preparation_only",
@@ -52,6 +52,12 @@
       "category": "asset_access",
       "scientific_refutation": false,
       "repair_count": 0
+    },
+    {
+      "failure": "evaluator_oracle_evidence_ledger_predated_execution",
+      "category": "recordkeeping_release_binding",
+      "scientific_refutation": false,
+      "repair_count": 1
     }
   ],
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
@@ -76,7 +82,12 @@
     "landmark-integrity-execution-evidence-review",
     "author-archive-scorer-audit-independent-review",
     "rice-skin-selected-prefix-identity-plan-review",
-    "rice-skin-selected-prefix-identity-evidence-review"
+    "rice-skin-selected-prefix-identity-evidence-review",
+    "evaluator-semantic-oracle-plan-review",
+    "random-family-identity-review",
+    "evaluator-semantic-oracle-plan-rereview",
+    "random-family-identity-rereview",
+    "evaluator-semantic-oracle-evidence-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -87,7 +98,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 19623,
+  "remaining_wall_seconds_at_observation": 18370,
   "prior_timestamp_correction": "The prelaunch draft used 02:16Z while the host clock was 02:04Z; this observation restores the actual harness timestamps and recomputes remaining wall time rather than consuming fictional elapsed time.",
   "verified_scientific_failures_by_direction": {},
   "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run.",
@@ -122,13 +133,55 @@
   },
   "pending_rice_skin_identity_evidence_review": null,
   "completed_rice_skin_identity_evidence_review": "rice-skin-selected-prefix-identity-evidence-review:accepted_with_thread_context_and_release_receipt_boundaries",
+  "evaluator_semantic_oracle_reservation": {
+    "task": "evaluator-semantic-oracles-01",
+    "purpose": "engineering_software_metric_semantics_only",
+    "cpu_cores_reserved": 1,
+    "ram_mib_reserved_not_enforced": 256,
+    "wall_seconds_upper_bound": 30,
+    "attempts": 1,
+    "retries": 0,
+    "released": true,
+    "release_basis": "completed harness state and this monotonic ledger; no separate lease-release receipt",
+    "native_plan_digest": "902f36cff8bfb36f13ace951719272e7dcd703a0709d67653dc284284663fdd5",
+    "harness_plan_digest": "843f8fa71948b3881471889efb3c74a4d4c87238d5564ac2c5fe667cee94516a",
+    "actual_process_cpu_seconds": 0.0014270000000000393,
+    "actual_metric_wall_seconds": 0.0018417730025248602,
+    "actual_guarded_attempt_wall_seconds": 1.0168422339993413,
+    "actual_harness_wall_seconds": 2.007362716998614,
+    "actual_max_rss_kib": 114008,
+    "receipt_sha256": "cebc7c5a7fe9e8c31c0f497bc90fa4c1afd797fc0517ddd896280ae636d167fa",
+    "output_sha256": "ee7870a3b84bb4cafaa6732c03cd4489663b691be9ece43b1b7330e5ce1cdef3"
+  },
+  "review_correction_history": [
+    {
+      "review": "evaluator-semantic-oracle-plan-review",
+      "initial_verdict": "needs_correction",
+      "repair_count": 1,
+      "rereview_verdict": "accepted"
+    },
+    {
+      "review": "random-family-identity-review",
+      "initial_verdict": "needs_correction",
+      "repair_count": 1,
+      "rereview_verdict": "accepted"
+    },
+    {
+      "review": "evaluator-semantic-oracle-evidence-review",
+      "initial_verdict": "needs_correction",
+      "repair_count": 1,
+      "rereview_verdict": "pending"
+    }
+  ],
+  "pending_evaluator_semantic_oracle_evidence_review": "correction_rereview_after_monotonic_ledger_update",
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T02:04:48+00:00",
+    "observed_at": "2026-10-09T02:36:18+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
     "memory_max_bytes": 8589934592,
     "scientific_job_launched": false,
-    "mechanical_preparation_job_completed": true
+    "mechanical_preparation_job_completed": true,
+    "evaluator_semantic_oracle_job_completed": true
   }
 }
