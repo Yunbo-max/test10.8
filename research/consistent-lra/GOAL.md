@@ -4,6 +4,15 @@
 
 The owner removed the wall deadline and eight-hour total wall cap; historical deadline sections below are superseded, not renewed. Preserve cumulative limits, all receipts, usage and failures. Current target is main, restricted to research/consistent-lra/. See [current authority](AUTHORIZATION_CONTINUATION_20261009.md), [design-only experiment correction](EXPERIMENT_READINESS_CORRECTION_20261009.md) and [exact pending contract decision](EVALUATION_CONTRACT_DECISION_PENDING_20261009.md). No independent-paper-math exception, shared-skill/vendor mutation or scientific admission is granted by these records.
 
+The current mathematical route has independently accepted only the
+[gap-weighted multi-refresh potential](HEAVY_MULTI_REFRESH_POTENTIAL_CANDIDATE.md):
+old-covariance regret telescopes, but a near-tie obstruction prevents converting
+that result to the required unweighted recourse bound.  The next admissible
+mathematical work is a potential for motion inside near-degenerate spectral
+bands or a genuinely repeated source-faithful construction.  Stage B remains
+parked pending the explicit evaluation-contract decision; neither branch is a
+completed research cycle.
+
 ## Current delivery authorization — 2026-10-09 12:29 Europe/London
 
 The owner instructed “以后直接更新到main就行”. Current delivery is

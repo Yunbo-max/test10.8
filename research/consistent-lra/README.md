@@ -1,8 +1,27 @@
 # Consistent LRA: bounded CPU research
 
+## Latest partial multi-refresh result — assignments 183--185
+
+The [candidate](HEAVY_MULTI_REFRESH_POTENTIAL_CANDIDATE.md), its
+[independent review](HEAVY_MULTI_REFRESH_POTENTIAL_INDEPENDENT_REVIEW.md), and
+the finite [numeric certificate](HEAVY_MULTI_REFRESH_NUMERIC_CERTIFICATE.md)
+establish an exact trigger ledger and the gap-weighted bound
+\(\sum_j\gamma_{j-1}\|P_j-P_{j-1}\|_F^2\leq
+2(\operatorname{OPT}_J-\operatorname{OPT}_0)\).  The independent verdict is
+`ACCEPT_PARTIAL_MATH`.  A near-tie family proves that this potential alone
+cannot control unweighted recourse; repeated large-event construction and a
+near-degenerate-band potential remain open.  This is not a theorem refutation,
+method, experiment admission, or completed research cycle.
+
+Current monotonic ledger: **185 registered assignments / 26 executable
+attempts / 2 controller rounds / 0 discovery rounds / 319.730499767 measured
+process CPU seconds lower bound**.  Attempt 25 is a retained missing-timer
+launch failure; attempt 26 is the 0.786 CPU-second finite property check.
+Formal scientific experiments and completed scientific cycles remain zero.
+
 ## Current experiment readiness correction
 
-The [source-bound diagnosis and local contract proposal](EXPERIMENT_READINESS_CORRECTION_20261009.md) separates accepted Stage-A evidence from the unsatisfiable official-scorer condition and specifies independent mathematical reference/live-replay obligations. The [independent review](EXPERIMENT_READINESS_INDEPENDENT_REVIEW_20261009.md) accepts the corrected proposal as design-only; the [exact owner decision](EVALUATION_CONTRACT_DECISION_PENDING_20261009.md) remains pending. No workload or new method was launched. 182 registered assignments / 24 attempts / 318.944499767 CPU core-seconds lower bound; formal scientific experiments and completed scientific cycles remain zero. The [latest authorization](AUTHORIZATION_CONTINUATION_20261009.md) removes the wall deadline while preserving cumulative limits. Historical dated sections below retain their original observations.
+The [source-bound diagnosis and local contract proposal](EXPERIMENT_READINESS_CORRECTION_20261009.md) separates accepted Stage-A evidence from the unsatisfiable official-scorer condition and specifies independent mathematical reference/live-replay obligations. The [independent review](EXPERIMENT_READINESS_INDEPENDENT_REVIEW_20261009.md) accepts the corrected proposal as design-only; the [exact owner decision](EVALUATION_CONTRACT_DECISION_PENDING_20261009.md) remains pending. No formal scientific workload or new method was launched. The [latest authorization](AUTHORIZATION_CONTINUATION_20261009.md) removes the wall deadline while preserving cumulative limits. Historical dated sections below retain their original observations.
 
 
 ## Latest independently reviewed evidence — assignments 179--180

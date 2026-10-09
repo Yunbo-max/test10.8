@@ -1795,5 +1795,24 @@
     "source_manifest_sha256": "70c225b26b807e9434a252bfb8c5657cbab87debbc54b7579923860981c9347b",
     "inventory_corrections_retained_in_review": true
   },
-  "wall_deadline_removed_by_owner_20261009_1639": true
+  "wall_deadline_removed_by_owner_20261009_1639": true,
+  "multi_refresh_partial_math_20261009": {
+    "assignments": [183, 184, 185],
+    "evidence_commit": "e417a97364b48a53ea286bbdd48569bb42e6a92e",
+    "review_status": "ACCEPT_PARTIAL_MATH_gap_weighted_only",
+    "attempt25": "terminal_missing_/usr/bin/time_before_python_launch",
+    "attempt26": "terminal_pass_12000_random_ledger_and_gap_checks",
+    "attempt26_wall_seconds": 0.786,
+    "attempt26_user_cpu_seconds": 0.762,
+    "attempt26_system_cpu_seconds": 0.024,
+    "attempt26_process_cpu_seconds": 0.786,
+    "observed_process_cpu_seconds_lower_bound_after": 319.730499767,
+    "registered_tasks_after": 185,
+    "executable_attempts_after": 26,
+    "controller_rounds_after": 2,
+    "discovery_rounds_after": 0,
+    "formal_scientific_experiments_after": 0,
+    "completed_scientific_cycles_after": 0,
+    "cpu_semantics": "finite software math certificate only; model reasoning CPU is separate and not observable as experiment-host process CPU"
+  }
 }
