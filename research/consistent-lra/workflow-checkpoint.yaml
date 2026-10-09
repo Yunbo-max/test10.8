@@ -58,8 +58,8 @@ completed:
   - Rice_Skin_selected_prefix_formula_identity_evidence_independently_accepted
   - random_family_exact_figure_nonreplication_boundary_accepted_after_correction_review
   - evaluator_semantic_oracle_plan_accepted_after_correction_review
+  - evaluator_semantic_oracle_evidence_accepted_after_ledger_correction_review
 pending:
-  - evaluator_semantic_oracle_evidence_rereview_after_ledger_correction
   - authentic_upstream_runnable_scorer_interface_and_parity_admission
   - existing_paper_lemma_downstream_implications_and_complete_collision_audit
   - baseline_evaluator_repair_contract_and_native_qualification
@@ -73,14 +73,14 @@ scientific_experiments_started: 0
 scientific_results_verified: 0
 eligible_new_papers: 0
 negative_or_invalid_history: BASELINE_AUDIT.md
-next_action: continue step2 on published random identity and repaired evaluator semantic/parity boundary; scientific numeric descendants remain blocked
+next_action: continue step2 on FD semantics/parity and complete native baseline qualification; official scorer parity remains unavailable and scientific numeric descendants remain blocked
 notes:
   - source review is not scientific replication
   - schedule is not uninterrupted CPU execution
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 25
+actual_registered_task_assignments: 26
 actual_executable_attempts: 5
 actual_preparation_attempts: 5
 actual_scientific_attempts: 0
@@ -139,4 +139,4 @@ evaluator_semantic_oracle_failures: 0
 evaluator_semantic_oracle_reservation_released: true
 evaluator_semantic_oracle_release_boundary: completed_harness_plus_monotonic_ledger_no_separate_lease_release_receipt
 evaluator_semantic_oracle_evidence_initial_review: needs_correction_ledger_predated_execution
-evaluator_semantic_oracle_evidence_rereview: pending
+evaluator_semantic_oracle_evidence_rereview: accepted

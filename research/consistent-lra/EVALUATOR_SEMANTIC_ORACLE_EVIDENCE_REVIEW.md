@@ -25,3 +25,11 @@ preparation attempts, cumulative CPU 1.571700 seconds, actual oracle timings,
 harness state plus the monotonic ledger; there is no separate lease-release
 receipt. Raw execution evidence is unchanged. The initial `needs_correction`
 verdict remains part of history pending a bound correction rereview.
+
+## Correction rereview
+
+Corrected candidate `a63878b314df9113bc2c60a2dcd8656cf7207e3c`, binding
+`9736a2207b2430b6514e34fd52daf112520b6d77`. The same independent reviewer
+returned **accepted** without execution or writes. It verified the monotonic
+task/attempt/CPU update, exact timings/RSS, explicit release basis and unchanged
+raw blobs. Acceptance remains limited to engineering software-semantic evidence.

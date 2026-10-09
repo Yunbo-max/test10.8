@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T02:41:35+00:00",
+  "observed_at": "2026-10-09T02:45:29+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 25,
+  "registered_task_assignments": 26,
   "executable_attempts_dispatched": 5,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -87,7 +87,8 @@
     "random-family-identity-review",
     "evaluator-semantic-oracle-plan-rereview",
     "random-family-identity-rereview",
-    "evaluator-semantic-oracle-evidence-review"
+    "evaluator-semantic-oracle-evidence-review",
+    "evaluator-semantic-oracle-evidence-rereview"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -98,7 +99,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 18370,
+  "remaining_wall_seconds_at_observation": 18136,
   "prior_timestamp_correction": "The prelaunch draft used 02:16Z while the host clock was 02:04Z; this observation restores the actual harness timestamps and recomputes remaining wall time rather than consuming fictional elapsed time.",
   "verified_scientific_failures_by_direction": {},
   "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run.",
@@ -170,10 +171,11 @@
       "review": "evaluator-semantic-oracle-evidence-review",
       "initial_verdict": "needs_correction",
       "repair_count": 1,
-      "rereview_verdict": "pending"
+      "rereview_verdict": "accepted"
     }
   ],
-  "pending_evaluator_semantic_oracle_evidence_review": "correction_rereview_after_monotonic_ledger_update",
+  "pending_evaluator_semantic_oracle_evidence_review": null,
+  "completed_evaluator_semantic_oracle_evidence_review": "accepted_after_recorded_ledger_needs_correction",
   "latest_resource_observation": {
     "observed_at": "2026-10-09T02:36:18+00:00",
     "cpu_max": "800000 100000",

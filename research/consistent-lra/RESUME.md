@@ -13,7 +13,12 @@ direct/trace loss, fresh-tail/direct residual and selected-prefix projector form
 agree at three tolerances on eight fixed prefixes, with near-zero OPT ratios left
 missing.  This is not total streaming recourse, baseline performance or official
 scorer parity.  `native_baselines.py`, FD parity, full sensitivity,
-published-normalized random identity and complete four-family G01 remain pending.
+FD parity, full sensitivity and complete four-family G01 remain pending. The
+published random stream is now independently classified as not exactly
+reconstructable; future seeded unscaled streams are prospective instances only.
+The repaired evaluator passed 25 independent semantic-oracle checks after
+recorded correction reviews, but remains a project repair rather than an
+official author scorer.
 Before any future admitted numerical attempt, remeasure cgroup quota/memory,
 reserve finite resources, calibrate runtime/RSS, use <=8 aggregate numerical
 threads and one scientific job; preserve receipt-bound basis/score/prefix

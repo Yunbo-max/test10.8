@@ -1,10 +1,10 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T02:20:42+00:00",
+  "observed_at": "2026-10-09T02:45:29+00:00",
   "rsi_source_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "canonical_controller_run": false,
   "decision": 2,
-  "action": "reread and qualify the remaining random-family identity and repaired native evaluator/parity boundary before Parent/Gate0/IPCG or discovery",
+  "action": "continue source and semantic qualification of FD and full repaired native baselines before Parent/Gate0/IPCG or discovery",
   "basis": [
     {
       "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
@@ -44,12 +44,24 @@
     {
       "path": "LITERATURE_EQUIVALENCE_20261009_3.md",
       "collision": "known_mechanism_and_growth_prior_art; exact_target_application_inconclusive"
+    },
+    {
+      "path": "RANDOM_FAMILY_IDENTITY_REVIEW.md",
+      "sha256": "94c9c757ce4ef4547376c2ab546bf1869350cd5d53ba43b978dcd106b3f9fee2",
+      "verdict": "accepted_after_recorded_needs_correction"
+    },
+    {
+      "path": "EVALUATOR_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
+      "sha256": "7fc5e1f622cef4f21b1f6a589f87611d035f19e2cb2263d125597266fb2d5e81",
+      "verdict": "accepted_software_semantics_after_recorded_ledger_correction"
     }
   ],
   "closed_or_narrowed": {
     "Landmark_asset": "exact bytes/license/full mechanical counts independently accepted",
     "Rice_Skin_formula_identity": "direct/trace/tail and selected-prefix projector identities accepted at three tolerances",
-    "hidden_scorer_search": "complete frozen author tree and ZIP contain no separate official scorer"
+    "hidden_scorer_search": "complete frozen author tree and ZIP contain no separate official scorer",
+    "published_random_identity": "exact Figure 3 replay is not reconstructable; prospective frozen seeded unscaled instances only",
+    "repaired_evaluator_semantics": "25 analytic/algebraic checks accepted as engineering software evidence only"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
@@ -63,12 +75,12 @@
   "gate_advanced": false,
   "eligible_new_papers": 0,
   "continued_independent_work": [
-    "freeze the random-family non-replication/prospective-seed boundary",
-    "design independent repaired-evaluator semantic oracles without relabelling them official",
+    "qualify FD semantics against canonical and author variants",
+    "complete repaired native per-prefix baseline qualification without relabelling it official",
     "continue exact-target correction priority and downstream theorem audit"
   ],
   "reason_not_terminal": "finite productive source, mathematical and engineering qualification tasks remain within the unchanged deadline",
-  "next_restore": "resolve immutable branch head and retained bytes; never rerun accepted Landmark/Rice/Skin preparation or bootstrap immediate request",
+  "next_restore": "resolve immutable branch head and retained bytes; never rerun accepted Landmark/Rice/Skin/oracle preparation or bootstrap immediate request",
   "note": "In-place worker evidence mapping to pinned RSI return-to-source route; no fabricated controller, official scorer, Gate A pass or paper result.",
   "prior_decision": 2
 }

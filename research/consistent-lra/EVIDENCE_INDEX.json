@@ -1,6 +1,6 @@
 {
   "format": "consistent-lra-evidence-index-v1",
-  "observed_at": "2026-10-09T02:20:42+00:00",
+  "observed_at": "2026-10-09T02:45:29+00:00",
   "source_pins": {
     "RSI": "Yunbo-max/Research_Autopilot@1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
     "author": "samsonzhou/consistent-LRA@d607c4f6467216c470d1e3b93989d44d5fcdec97"
@@ -30,7 +30,15 @@
     "rice_skin_plan_assignment": "62d5062e8dc54ca4a4668497968fffe983d2a88f",
     "rice_skin_prelaunch_admission": "2b178b3b8afe32fe13565f4ab91f04cf2993b96e",
     "rice_skin_evidence_candidate": "7b5b71c9f3a7636e77c9bf969f388c6d0c6111ca",
-    "rice_skin_evidence_assignment": "36cab450c873e9de1c2c253b869cac71773be155"
+    "rice_skin_evidence_assignment": "36cab450c873e9de1c2c253b869cac71773be155",
+    "random_evaluator_initial_candidate": "19a46f250bc196c3892e1a01edb6c8a5d7b7440d",
+    "random_evaluator_initial_review_binding": "812e583c91be30143573afe5df6bd6d6be155d6b",
+    "random_evaluator_corrected_candidate": "6f104ad753ffe0fc441265405072b39bc4fe5590",
+    "random_evaluator_correction_rereview_binding": "39947aebe92eb798a653e4219e1ae659bc81b64f",
+    "evaluator_oracle_evidence_candidate": "31970ea931048e833ef883c273f223da25660fe7",
+    "evaluator_oracle_evidence_initial_review_binding": "aab8a9f997422ac5f2cd8b8c6b67543f65740a9f",
+    "evaluator_oracle_ledger_correction": "a63878b314df9113bc2c60a2dcd8656cf7207e3c",
+    "evaluator_oracle_evidence_rereview_binding": "9736a2207b2430b6514e34fd52daf112520b6d77"
   },
   "artifacts": [
     {
@@ -160,13 +168,45 @@
     {
       "path": "runs/attempts/rice-skin-selected-prefix-identity-01/receipt.json",
       "sha256": "a7c5861993e6030cafd261550aa3087d8e570fa384f4d976ba6cec27ee24c5cd"
+    },
+    {
+      "path": "RANDOM_FAMILY_IDENTITY_20261009.md",
+      "sha256": "ccff5d82ccdc196b0c186e6eb08f0182f01145b641f811c31434b3efc59aa077"
+    },
+    {
+      "path": "RANDOM_FAMILY_IDENTITY_REVIEW.md",
+      "sha256": "94c9c757ce4ef4547376c2ab546bf1869350cd5d53ba43b978dcd106b3f9fee2"
+    },
+    {
+      "path": "evaluator_semantic_oracles.py",
+      "sha256": "9570b55d398a072cef4f5078dacbd8a5732ce6953b4df21fdce3f70c69a2494e"
+    },
+    {
+      "path": "EVALUATOR_SEMANTIC_ORACLE_PLAN_REVIEW.md",
+      "sha256": "6e2b270312a8893ff879e553a3dc528ce08237cf5c920322067d5257534bbe8d"
+    },
+    {
+      "path": "EVALUATOR_SEMANTIC_ORACLE_EXECUTION_20261009.md",
+      "sha256": "c76aad10c948c336efe7da70ca655749033304479d7171e4b07a5a05300de6ea"
+    },
+    {
+      "path": "EVALUATOR_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
+      "sha256": "7fc5e1f622cef4f21b1f6a589f87611d035f19e2cb2263d125597266fb2d5e81"
+    },
+    {
+      "path": "runs/attempts/evaluator-semantic-oracles-01/receipt.json",
+      "sha256": "cebc7c5a7fe9e8c31c0f497bc90fa4c1afd797fc0517ddd896280ae636d167fa"
+    },
+    {
+      "path": "runs/attempts/evaluator-semantic-oracles-01/evaluator-semantic-oracles-a1-b267edcdcc43454daba166caf666a2d2/workspace/evidence/qualification/evaluator-semantic-oracles.json",
+      "sha256": "ee7870a3b84bb4cafaa6732c03cd4489663b691be9ece43b1b7330e5ce1cdef3"
     }
   ],
   "actual_usage": {
     "scientific_numerical_attempts": 0,
-    "executable_preparation_attempts": 4,
-    "registered_assignments": 20,
-    "process_cpu_seconds": 1.570273,
+    "executable_preparation_attempts": 5,
+    "registered_assignments": 26,
+    "process_cpu_seconds": 1.571700,
     "peak_RSS_KiB": 148112,
     "unreleased_reservations": []
   },
@@ -183,7 +223,7 @@
   "remaining_tasks": [
     "exact-target correction priority and remaining citation expansion",
     "authentic runnable official native scorer interface",
-    "published random stream and normalization identity",
+    "FD semantic parity and complete repaired native baseline qualification",
     "qualified native references/baselines",
     "Parent/Gate0/IPCG and complete G01",
     "approximately20 substantive independently reviewed method cards and whole-pool ranking",

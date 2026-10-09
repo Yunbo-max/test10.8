@@ -1,7 +1,7 @@
 # Evaluator semantic-oracle execution record
 
 Status: completed engineering software check; independent evidence review
-pending. This is not an official scorer, native benchmark, performance result,
+accepted after a recorded ledger correction. This is not an official scorer, native benchmark, performance result,
 scientific experiment or gate pass.
 
 ## Admission
@@ -54,3 +54,9 @@ frozen author archive supplies no separate scorer. It does not test native
 total streaming recourse, Frequent Directions, baseline performance or any new
 method. `gate_advanced=false`, `scientific_result_verified=false`, and the
 scientific-attempt count remains zero.
+
+Independent evidence review first returned `needs_correction` because the
+frozen budget/checkpoint predated execution. Corrected candidate
+`a63878b314df9113bc2c60a2dcd8656cf7207e3c` monotonically updated the ledger
+without changing raw evidence; rereview binding
+`9736a2207b2430b6514e34fd52daf112520b6d77` was accepted.
