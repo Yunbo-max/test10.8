@@ -3,7 +3,10 @@
   "main_heavy_DAS_transfer": {
     "artifact": "HEAVY_DAS_TRANSFER_MAIN_DRAFT.md",
     "artifact_sha256": "6f2468aea1245c7a13d25446add1f0b5a0db18b5c7510c6dc2e771b3325eb7b8",
-    "canonical_assignments": [177, 178],
+    "canonical_assignments": [
+      177,
+      178
+    ],
     "review_task": "HEAVY_DAS_TRANSFER_REVIEW_TASK_MAIN.md",
     "review_task_sha256": "27ca87167f9909f81805cb258d7195abd14f61be87185a9bffe372adff2d1359",
     "review": "HEAVY_DAS_TRANSFER_REVIEW_MAIN.md",
@@ -17,7 +20,10 @@
   "main_heavy_single_arrival_aggregate_audit": {
     "artifact": "HEAVY_SINGLE_ARRIVAL_AGGREGATE_AUDIT_MAIN_DRAFT.md",
     "artifact_sha256": "92ec4600c73754815a5b652f37c9871da3602e3481c605faf17db25d24d14ac5",
-    "canonical_assignments": [175, 176],
+    "canonical_assignments": [
+      175,
+      176
+    ],
     "review_task": "HEAVY_SINGLE_ARRIVAL_AGGREGATE_REVIEW_TASK_MAIN.md",
     "review": "HEAVY_SINGLE_ARRIVAL_AGGREGATE_REVIEW_MAIN.md",
     "reviewed_commit": "ad77490323fee335dc64ae390cc37d61b29646eb",
@@ -29,8 +35,18 @@
   "main_f1_math_lineage": {
     "artifact": "F1_HEAVY_COUNTEREXAMPLE_MAIN_DRAFT.md",
     "artifact_sha256": "2d6a1fbc256d5fe943eadd93c4266f0c113d3f1e90894ef1729e44997266e056",
-    "canonical_assignments": [167, 169, 170, 171],
-    "worker_local_labels": [161, 163, 164, 165],
+    "canonical_assignments": [
+      167,
+      169,
+      170,
+      171
+    ],
+    "worker_local_labels": [
+      161,
+      163,
+      164,
+      165
+    ],
     "review": "F1_HEAVY_COUNTEREXAMPLE_MAIN_REVIEW.md",
     "verdict": "initial_unreachable_reset_value_rejected_then_repaired_reachable_core_and_exact_final_bytes_accepted",
     "executable_attempts_added": 0,
@@ -46,7 +62,11 @@
   "main_reweighted_integer_premise_audit": {
     "artifact": "REWEIGHTED_INTEGER_PREMISE_AUDIT_MAIN.md",
     "artifact_sha256": "be08ca12844b2dbc71e0fa1e78bd86ac59f6a0c8184ddca161e17b5896b18d45",
-    "canonical_assignments": [172, 173, 174],
+    "canonical_assignments": [
+      172,
+      173,
+      174
+    ],
     "review": "REWEIGHTED_INTEGER_PREMISE_REVIEW_MAIN.md",
     "verdict": "initial_spectral_gap_argument_rejected_then_corrected_DAS_cauchy_binet_repair_accepted",
     "executable_attempts_added": 0,
@@ -856,7 +876,7 @@
   "main_only_tasks_no_measured_CPU": "Eight main-only assignments consume same wall budget; no numeric job was launched there and no attributable CPU measurement was supplied; lower bound is not a full compute total.",
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T14:58:00+00:00",
+  "observed_at": "2026-10-09T15:31:18+00:00",
   "observed_process_cpu_seconds": 318.944499767,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -1020,8 +1040,8 @@
       "wall_seconds": 11.894702007
     }
   ],
-  "registered_task_assignments": 178,
-  "remaining_wall_seconds_at_observation": 9033,
+  "registered_task_assignments": 180,
+  "remaining_wall_seconds_at_observation": 6265,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
@@ -1122,6 +1142,12 @@
       "repair_count": 2,
       "rereview_verdict": "accepted_design_only",
       "review": "landmark-baseline-matrix-design-review"
+    },
+    {
+      "review": "main-onlinepcp-saturated-heavy-independent-review",
+      "initial_verdict": "needs_correction_source_rank_growth_convention_and_control_byte_corruption",
+      "repair_count": 1,
+      "rereview_verdict": "accepted_scoped_single_event"
     }
   ],
   "rice_alg4_cost_calibration_reservation": {
@@ -1342,7 +1368,9 @@
     "main-heavy-single-arrival-aggregate-consequential-derivation",
     "main-heavy-single-arrival-aggregate-independent-math-review",
     "main-heavy-DAS-transfer-consequential-derivation",
-    "main-heavy-DAS-transfer-independent-math-review"
+    "main-heavy-DAS-transfer-independent-math-review",
+    "main-onlinepcp-saturated-heavy-consequential-derivation",
+    "main-onlinepcp-saturated-heavy-independent-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1722,5 +1750,26 @@
     "package": "c23/research-autopilot",
     "source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
     "version": "0.2.0-autonomous.2"
+  },
+  "main_onlinepcp_saturated_heavy": {
+    "artifact": "ONLINEPCP_SATURATED_HEAVY_MAIN_DRAFT.md",
+    "initial_failed_commit": "d30940639d22f3d18113f53ded1bc95773e22303",
+    "corrected_reviewed_commit": "61e3e193f94ec5e9bc16b0914d84056986e70068",
+    "canonical_assignments": [
+      179,
+      180
+    ],
+    "review": "ONLINEPCP_SATURATED_HEAVY_REVIEW_MAIN.md",
+    "status": "accepted_source_rank_growth_convention_all_unit_rows_p1_single_small_epsilon_HEAVY_move_gt_sqrtk",
+    "exclusions": [
+      "no_repeated_events",
+      "no_aggregate_violation",
+      "no_theorem1_3_falsity",
+      "no_novelty",
+      "no_empirical_or_method_or_paper_admission"
+    ],
+    "executable_attempts_added": 0,
+    "scientific_experiments_added": 0,
+    "cpu_seconds_added": 0
   }
 }
