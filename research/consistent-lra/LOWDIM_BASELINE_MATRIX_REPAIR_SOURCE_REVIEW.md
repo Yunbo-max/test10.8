@@ -26,3 +26,22 @@ and compares the complete final 81-file observation inventory (three archives,
 39 raw files and 39 summaries) against all expected hashes before publishing
 the manifest. Independent rereview is required before plan construction or
 execution.
+
+## Correction rereview
+
+Final reviewed remote commit: `86bdfa7378d21bc239cf976f99a77b29b01007a7`
+
+Final reviewed tree: `d4aabd418c2da2d424b87837dbac5f5c8d62fe0d`
+
+Verdict: **accepted for source and publication contract only**.
+
+The reviewer recomputed runner SHA-256
+`e09d9d68d021433d691e74044b4cfe56d7f880a8bd3af04c077285e97df128c7`
+and repair-record SHA-256
+`984d83424a61e5a2fabfe55e3012ebdd0e417a99a59af99c8bb622eac21e9005`.
+The no-clobber publication, 81-file pre-manifest inventory equality and full
+path preflight close the three initial blockers. Archive rereading, fsync,
+member rehashing and failure retention remain present; cohort enumeration,
+parameters, scorer and loader are unchanged. A new plan may enumerate 82
+successful outputs, but must still be independently reviewed, and collector
+rehashing remains mandatory.

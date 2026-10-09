@@ -20,7 +20,8 @@ preprocessing, score, seed, cohort, arm or parameter:
    no-replace hard-link publication and parent-directory fsync.
 4. All 78 retained member hashes are checked again before manifest publication.
 5. The manifest records hash, size, inode, mtime and ctime for each retained
-   member and archive. It is itself fsynced and atomically renamed.
+   member and archive. It is itself fsynced and published through the same
+   no-replace hard-link primitive.
 6. A repaired execution plan must declare the manifest, three archives and all
    78 retained files as outputs so the harness receipt binds every byte. These
    are point-in-time integrity checks; the independent collector must rehash
