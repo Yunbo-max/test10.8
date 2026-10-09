@@ -1,6 +1,6 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T13:44:14.365015+00:00",
+  "observed_at": "2026-10-09T13:45:56.315555+00:00",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
   "decision": 2,
@@ -9,7 +9,8 @@
     "Actual154fullintegerrecoursecertificate accepted; exactlossseparation independentmainreview retained",
     "Actual161known1997mechanismcollision/fullconjunctionpriorityinconclusive",
     "Actual163finiteF1boundcounterexample accepted withlimits",
-    "Actual165v1construction/state and166independentstrictness/v2 accepted:small-epsilonR>4k/5 excludesuniformepsilon-independentconstant sqrtk only"
+    "Actual165v1construction/state and166independentstrictness/v2 accepted:small-epsilonR>4k/5 excludesuniformepsilon-independentconstant sqrtk only",
+    "Canonical167-171 retain a separate reachable k144 exact-final-byte counterexample and bounded priority audit; worker-local labels collided with concurrent tasks and were remapped without dropping history"
   ],
   "closed_or_narrowed": {
     "Landmark_asset": "exact bytes/license/full mechanical counts independently accepted",
@@ -37,7 +38,9 @@
     "integer_projector_complete": "all61roots732decisions exact Rlower2290438555/134217728>8 accepted154",
     "sampled_freshSVD_fallback": "specific append-only prefixPCP known quadraticrank bound qualified150; notnewmethod",
     "algorithm4_proofscope": "additiveTheorem1.1 energyproof independent ofLemma2.1; normalizedrealenergy ratio explicit",
-    "approximate_theorem1_3": "separate chain unresolved HEAVY tailcapture and integer-reweighting/PCP premises; no theoremrefutation"
+    "approximate_theorem1_3": "separate chain unresolved HEAVY tailcapture and integer-reweighting/PCP premises; no theoremrefutation",
+    "direct_F1_k144": "reachable nonnegative-integer exact-final-byte counterexample independently accepted after preserved reset-reachability correction; displayed HEAVY minmax implication only",
+    "small_epsilon_HEAVY_family": "construction/state/recourse accepted by actual165; reviewer-supplied strict-trigger addendum remains pending separate actual166 review"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
@@ -125,24 +128,39 @@
     "native": "blockedspecificcapability"
   },
   "latest_budget_record": {
-    "registered_task_assignments": 166,
+    "registered_task_assignments": 171,
     "original_executable_attempts": 24,
     "recorded_controller_rounds": 2,
     "discovery_rounds": 0,
     "admitted_scientific_experiments": 0,
     "eligible_papers": 0,
     "observed_CPU_lower_bound": 318.944499767,
-    "remaining_wall_seconds": 12688.634985
+    "remaining_wall_seconds": 12586.684445
   },
   "next_bounded_independent_work": {
     "route2": "sourceauditofaggregateproofrepairandpriority,reweightedsampler integerpremise; freezeboundedclaimbeforefurtherreview",
     "native_descendants": "remainblocked authenticreference/livecallback/parity; do notrunStageB ornewmethods",
+    "source_priority": "two bounded audits retain component prior-art collisions and full-conjunction priority as inconclusive; no absence-of-search pass",
+    "source": "reweighted-integer premise remains an independent future action",
+    "native": "blocked trusted live official reference/parity; StageB never executed",
+    "writing": "research evidence note only; eligiblepapers0",
     "route3_if_premise_unclosed": "independent mathematical review beforecode/dispatch"
   },
   "delivery_branch": "main",
   "source_main_commit": "176064b931140da791f58137ee68a37068566f6b",
   "source_legacy_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
   "reconciliation_record": "MAIN_FINAL_PACKET_RECONCILIATION_20261009.md",
-  "registered_task_assignments": 166,
-  "exact_approximate_final_append_only_review": "EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md"
+  "registered_task_assignments": 171,
+  "exact_approximate_final_append_only_review": "EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md",
+  "main_f1_math_evidence": {
+    "artifact": "F1_HEAVY_COUNTEREXAMPLE_MAIN_DRAFT.md",
+    "sha256": "2d6a1fbc256d5fe943eadd93c4266f0c113d3f1e90894ef1729e44997266e056",
+    "review": "F1_HEAVY_COUNTEREXAMPLE_MAIN_REVIEW.md",
+    "verdict": "accepted_reachable_counterexample_to_displayed_F1_HEAVY_implication_only",
+    "theorem1_3_false": false,
+    "scientific_gate_advanced": false
+  },
+  "main_f1_canonical_assignments": [167, 168, 169, 170, 171],
+  "concurrent_small_epsilon_strict_review_assignment": 166,
+  "concurrent_small_epsilon_strict_review_status": "accepted_independently"
 }

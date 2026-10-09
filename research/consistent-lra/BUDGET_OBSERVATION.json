@@ -1,5 +1,22 @@
 {
   "active_window_id": "cpu-window-02-20261009",
+  "main_f1_math_lineage": {
+    "artifact": "F1_HEAVY_COUNTEREXAMPLE_MAIN_DRAFT.md",
+    "artifact_sha256": "2d6a1fbc256d5fe943eadd93c4266f0c113d3f1e90894ef1729e44997266e056",
+    "canonical_assignments": [167, 169, 170, 171],
+    "worker_local_labels": [161, 163, 164, 165],
+    "review": "F1_HEAVY_COUNTEREXAMPLE_MAIN_REVIEW.md",
+    "verdict": "initial_unreachable_reset_value_rejected_then_repaired_reachable_core_and_exact_final_bytes_accepted",
+    "executable_attempts_added": 0,
+    "scientific_experiments_added": 0,
+    "cpu_seconds_added": 0
+  },
+  "main_integer_conjunction_priority_audit": {
+    "artifact": "INTEGER_CONJUNCTION_PRIORITY_AUDIT_MAIN.md",
+    "canonical_assignment": 168,
+    "worker_local_label": 162,
+    "verdict": "component_machinery_prior_art_full_conjunction_priority_inconclusive"
+  },
   "actual_clock_gap_is_not_executable_usage": true,
   "author_fd_semantic_oracle_reservation": {
     "actual_guarded_attempt_wall_seconds": 1.102667963001295,
@@ -967,8 +984,8 @@
       "wall_seconds": 11.894702007
     }
   ],
-  "registered_task_assignments": 166,
-  "remaining_wall_seconds_at_observation": 12688.634985,
+  "registered_task_assignments": 171,
+  "remaining_wall_seconds_at_observation": 12586.684445,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,

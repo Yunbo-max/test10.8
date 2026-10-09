@@ -38,7 +38,7 @@ background_task_id: 6ac82bb085c081919fa92002384b073b
 background_conversation_id: 6ac827e6-de58-83eb-9487-8a2ab69c90e5
 background_observed_state: "same_task_enabled_observed; bootstrap_immediate_ack_historical_not_worker_todo"
 background_control_record: BACKGROUND_TASK.json
-current_step: "2: native evaluator/priority gap; independent exact integer certificate closed; mathematical proof-premise audit next"
+current_step: "2: two HEAVY counterexample routes retained; direct k144 card and small-epsilon rank-family strict-trigger review accepted; aggregate theorem/source premises next; native evaluator blocked"
 completed:
   - frozen_versioned_baseline_repair_contract
   - Rice_Skin_exact_native_bytes_order_labels_and_license_reading
@@ -80,11 +80,11 @@ scientific_experiments_started: 0
 scientific_results_verified: 0
 eligible_new_papers: 0
 negative_or_invalid_history: BASELINE_AUDIT.md
-next_action: "targeted conjunction priority and frozen F.1/reweighting math card with independent review; no StageB dispatch"
+next_action: "trace aggregate Theorem 1.3 dependency/tail-capture repair and separately audit reweighted-integer premise; no StageB dispatch"
 notes:
   - source review is not scientific replication
   - schedule is not uninterrupted CPU execution
-  - do not change main or the unrelated continual_learning_project
+  - deliver only research/consistent-lra on main; legacy branch is read-only; do not change unrelated projects
 
 current_budget_record: BUDGET_OBSERVATION.json
 actual_registered_task_assignments: 154
@@ -437,23 +437,20 @@ current_delivery_branch: main
 historical_delivery_branch_read_only: consistent-lra-rsi
 main_reconciliation_source_main: 176064b931140da791f58137ee68a37068566f6b
 main_reconciliation_source_legacy: 7286e6d5b301f01ebda45d6fa1387afd9d383906
-main_registered_task_assignments: 160
+main_registered_task_assignments: 171
 main_attempts_cumulative: 24
 main_CPU_seconds_lower_bound: 318.944499767
 main_old_writer_reconciliation_pending: false
 main_exact_approximate_review: accepted_final_append_only
-main_next_action: primary_priority_and_consequential_proof_premise_review_no_scientific_dispatch
-
 # Current analytical review state; overrides older narrative counters.
-main_registered_task_assignments_latest: 165
+main_registered_task_assignments_latest: 171
 main_current_route: 3
 main_heavy_finite_review: accepted_numerical_bound_only
-main_heavy_rank_family_review: pending_actual165
+main_heavy_rank_family_review: actual165_construction_and_actual166_independent_strict_trigger_review_accepted
 main_priority_review: classical_mechanisms_collision_full_conjunction_inconclusive
-main_latest_evidence_commit: c3b221820ce96f93e1cdecd47a3158f1b0ab8f50
-
 # Latest integrated independent verdicts override older review-pending entries.
-main_registered_task_assignments_final_observation: 166
+main_latest_evidence_commit: 4d2b0a05611282d27aa6a944c053660f30a0accc
+main_registered_task_assignments_final_observation: 171
 main_current_route_latest: 2
 main_heavy_rank_family_review_latest: accepted_actual165_plus166
 main_heavy_rank_family_strict_review: accepted_actual166
@@ -463,3 +460,11 @@ main_current_controller_rounds: 2
 main_current_CPU_lower_bound: 318.944499767
 main_current_scientific_experiments: 0
 main_current_eligible_papers: 0
+main_f1_heavy_counterexample: F1_HEAVY_COUNTEREXAMPLE_MAIN_DRAFT.md
+main_f1_heavy_counterexample_sha256: 2d6a1fbc256d5fe943eadd93c4266f0c113d3f1e90894ef1729e44997266e056
+main_f1_heavy_independent_review: F1_HEAVY_COUNTEREXAMPLE_MAIN_REVIEW.md
+main_f1_heavy_review_status: accepted_after_preserved_reachability_correction
+main_f1_heavy_canonical_assignments: 167_168_169_170_171
+main_integer_conjunction_priority_audit: INTEGER_CONJUNCTION_PRIORITY_AUDIT_MAIN.md
+main_integer_conjunction_priority_status: component_prior_art_full_conjunction_inconclusive
+main_next_action: theorem1_3_aggregate_dependency_tail_capture_repair_and_separate_reweighting_premise_no_scientific_dispatch
