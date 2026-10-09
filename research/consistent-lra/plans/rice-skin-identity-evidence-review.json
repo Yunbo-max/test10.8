@@ -2,7 +2,7 @@
   "format": "scoped-independent-execution-evidence-review-assignment-v1",
   "task_id": "rice-skin-selected-prefix-identity-evidence-review",
   "registered_order": 20,
-  "candidate_commit": null,
+  "candidate_commit": "7b5b71c9f3a7636e77c9bf969f388c6d0c6111ca",
   "review_paths": [
     "research/consistent-lra/RICE_SKIN_IDENTITY_EXECUTION_20261009.md",
     "research/consistent-lra/evidence/qualification/rice-selected-prefix.json",
