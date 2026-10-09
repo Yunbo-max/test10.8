@@ -1,0 +1,26 @@
+# Independent scalar software evidence review — assignment128
+
+Reviewer /root/window02_stagea_source_review ACCEPT finite scalarengineering only.
+Immutableba35efc546455968927e2b69de2609fbcfbcfe86 exactsource/plans/review/controls/receipts.
+Raw501rows SHA7fe34a70e7a7a2a338173db484c316fb123d9f02890a741c05ac126df5e80403;
+diagnostic1019events SHA63900cfab3832f0ba98174ad8d18dc2865d4b4c4fefdea5060b02aeeb8853ccf;
+summary60742910748a503eebd4dda2ceab76ed684a364a86ce76a74cbd47f02c273e6a;
+manifeste5953fe3e59e746f0d1471b9cff663db5f2198f9837f4f28c6ed05d30b411764.
+All23collectionlistedfiles size/hash andbothpostexit boundaries match. Nested
+receipt/guard onecompleted exit0 retry0 exactcommand/cwd/inputcodebindings,
+harnessterminalconsistent, worker173250/guard173251 absent, fixedruntimeunchanged.
+
+Independent readonly recordeddata checks:501unique455native-recorded+24fixture+
+12rejection+10accumulator rows;479inputs independently recomputed stagedFraction/
+binary64 andexactbranches/null/labels match;455original scalarvalues/JSONLlinehashes
+match;bothaccumulatorcohorts reconstructed,mixed violationcount1, allundefined
+ratio/normalizeddenominators0. Allinput/comparison/rejection/snapshot events and
+originalexpressionpositions/hash verified. Allscientific/authority/confirmationfalse.
+Wholelauncherwall1.155049632 CPU1.095581 RSS37044KiB, scriptCPU0.727921 separate;
+60/90bounds met,reservationreleased21attempts. Snapshotassignments128 before
+subsequentintegerdesigntasks. AdditionalreadonlyreviewCPUlowerbound0.864098s
+(firstself0.691501+git0.144371;secondself0.012415+git0.015811);noattemptincrement.
+
+No qualifier/projectmoduleimport/rerun, sourceedits/publication. Failurejournal
+behavior onlystaticreview, no inducedactualfailure. Matrixfallback/full5000
+summary/pipeline/authenticevaluator/nativeperformance/StageBscience remainpending.

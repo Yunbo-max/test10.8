@@ -1,0 +1,31 @@
+{
+  "format": "scoped-independent-execution-plan-review-assignment-v1",
+  "task_id": "rice-skin-selected-prefix-identity-plan-review",
+  "registered_order": 19,
+  "candidate_commit": "6d2c1021aa01c62d0e4398142fa1b3bf37c3c528",
+  "plan_paths": [
+    "research/consistent-lra/plans/native-rice-skin-selected-prefix-identity.json",
+    "research/consistent-lra/plans/harness-rice-skin-selected-prefix-identity.json"
+  ],
+  "implementation_paths": [
+    "research/consistent-lra/baseline_qualify.py",
+    "research/consistent-lra/REPAIR_CONTRACT_v1.md",
+    "research/consistent-lra/BASELINE_DRAFT_REVIEW.md",
+    "research/consistent-lra/NATIVE_PROTOCOL_DRAFT.md"
+  ],
+  "review_questions": [
+    "Do the frozen input/code hashes, two exact commands, outputs and plan digests validate against the pinned runner?",
+    "Is one core, 512 MiB, 60 seconds per job, 120 seconds total, two attempts and zero retries bounded for Rice/Skin dimensions?",
+    "Does this check only direct-versus-trace loss, fresh-tail identity and direct-versus-overlap selected-prefix recourse on prescribed native prefixes?",
+    "Is purpose engineering and are official-scorer parity, total streaming recourse, baseline performance and all scientific gates explicitly outside scope?",
+    "Does sequential execution preserve the one-active-CPU-job rule and use no GPU, paid API, service or new dependency?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "native_scoring": false,
+  "budget_effect": {
+    "registered_task_assignments": 1,
+    "executable_attempts_if_later_dispatched": 2,
+    "scientific_experiments": 0
+  }
+}

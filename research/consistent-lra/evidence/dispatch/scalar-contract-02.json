@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "vendor/rsi/scripts/run_harness.py",
+    "plans/harness-scalar-contract-02.json",
+    "--root",
+    "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+    "--execute",
+    "--approved-plan-digest",
+    "0b75fc662c4f12c7eb8eebd9a88508a33107a96d013a7eda8bb6f0aefdf03aab"
+  ],
+  "cwd": "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+  "started_at": "2026-10-09T12:06:49.574015+00:00",
+  "completed_at": "2026-10-09T12:06:50.729067+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.1550496319978265,
+  "waited_process_tree_cpu_seconds": 1.0955809999999997,
+  "maximum_child_rss_kib": 37044,
+  "cpu_semantics": "RUSAGE_CHILDREN delta for waited harness and reaped descendants; failed/unreaped processes could undercount",
+  "scientific_gate_advanced": false
+}

@@ -1,0 +1,20 @@
+{
+  "format": "scoped-independent-execution-evidence-review-assignment-v1",
+  "task_id": "fd-semantic-oracle-evidence-review",
+  "registered_order": 29,
+  "evidence_candidate_commit": "75ea9dfd01da41ee63d7005c4115d0970b45ccfc",
+  "receipt_path": "research/consistent-lra/runs/attempts/fd-semantic-oracles-01/receipt.json",
+  "output_path": "research/consistent-lra/runs/attempts/fd-semantic-oracles-01/fd-semantic-oracles-a1-651e783370394554a7271a2f2b64fa15/workspace/evidence/qualification/fd-semantic-oracles.json",
+  "harness_report": "research/consistent-lra/runs/harness/fd-semantic-mechanical-01/report.json",
+  "execution_record": "research/consistent-lra/FD_SEMANTIC_ORACLE_EXECUTION_20261009.md",
+  "review_questions": [
+    "Do receipt, plans, execution context, process guard, stdout/stderr, raw output and declared hashes bind the one reviewed attempt with no retry or GPU?",
+    "Did all 45 predeclared checks actually pass, including same-spec covariance/projector parity, orthonormality, PSD underestimate, directional bound and source-bound behavior probes?",
+    "Do recorded environment/source hashes and CPU/wall/RSS accounting agree across the raw output, receipt, harness records, execution record and monotonic ledger?",
+    "Is the reservation release supported by completed retained state without inventing a separate lease receipt?",
+    "Does acceptance remain engineering-only and preserve non-parity of author/Liberty interfaces plus all native performance/G01/E04/Gate A/paper blockers?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "budget_effect": {"registered_task_assignments": 1, "executable_attempts": 0, "scientific_experiments": 0}
+}

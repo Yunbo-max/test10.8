@@ -1,0 +1,44 @@
+{
+  "schema_id": "harness-plan",
+  "schema_version": "1.0.0",
+  "batch_id": "prospective-random-existing-baseline-matrix-01",
+  "tasks": [
+    {
+      "task_id": "native-prospective-random-baseline-matrix-01",
+      "idea_id": "existing-prospective-random-family-baseline-qualification",
+      "priority": 1,
+      "depends_on": [],
+      "plan_ref": {
+        "path": "plans/native-prospective-random-baseline-matrix.json",
+        "sha256": "42a7cea365851e2bb79001128802641f14ee44ac64bbf86ba3b95a2efdcfcb8b"
+      },
+      "resources": {
+        "cpu_cores": 1,
+        "ram_mib": 512,
+        "gpu_count": 0,
+        "gpu_peak_mib": null,
+        "allow_gpu_share": false,
+        "memory_profile_ref": null,
+        "exclusive_keys": [
+          "consistent-lra-prospective-random-baseline-matrix"
+        ]
+      }
+    }
+  ],
+  "limits": {
+    "cpu_cores": 1,
+    "ram_mib": 512,
+    "max_parallel_tasks": 1,
+    "max_gpu_task_seconds": 0,
+    "total_wall_seconds": 150,
+    "window_seconds": 120
+  },
+  "pool_dir": "/workspace/scratch/bb9f262965cf/dddd-work/research/consistent-lra/runs/pool",
+  "output_root": "runs/harness",
+  "gpus": {
+    "uuids": [],
+    "safety_margin_mib": 256,
+    "max_tasks_per_gpu": 1
+  },
+  "plan_digest": "95657d85b176afddc3bb682c8fc6b246cac8ba26e2f8db9de40f899be86d6292"
+}

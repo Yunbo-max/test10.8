@@ -1,0 +1,3 @@
+{"event":"batch_started","observed_at":"2026-10-09T05:29:06.947623Z","plan_digest":"280abf635dfb5662bce6a15ffb63977c72d72a320f44ef22f1554d9ec5b9e6cf"}
+{"devices":[],"event":"task_started","launcher_pid":5,"native_plan_digest":"d30ea8255bb5b1c7f3eef43389b9399b63092f7ac782959dac8859d7bb863582","observed_at":"2026-10-09T05:29:06.962949Z","task_id":"native-lowdim-baseline-matrix-final-repair-01"}
+{"event":"task_finished","observed_at":"2026-10-09T05:29:31.143066Z","status":"completed","task_id":"native-lowdim-baseline-matrix-final-repair-01"}

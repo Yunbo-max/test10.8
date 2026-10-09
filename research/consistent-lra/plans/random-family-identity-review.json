@@ -1,0 +1,24 @@
+{
+  "format": "scoped-independent-source-review-assignment-v1",
+  "task_id": "random-family-identity-review",
+  "registered_order": 22,
+  "candidate_commit": "19a46f250bc196c3892e1a01edb6c8a5d7b7440d",
+  "artifact_path": "research/consistent-lra/RANDOM_FAMILY_IDENTITY_20261009.md",
+  "source_paths": [
+    "research/consistent-lra/originals/consistent-lra-random.py",
+    "research/consistent-lra/originals/consistent-lra-random-fast.py",
+    "research/consistent-lra/SOURCE_JOIN_20261009.md",
+    "research/consistent-lra/NATIVE_PROTOCOL_DRAFT.md"
+  ],
+  "external_primary_source": "https://proceedings.iclr.cc/paper_files/paper/2026/file/b14d76c7266be21b338527cd25deac45-Paper-Conference.pdf",
+  "review_questions": [
+    "Does the record exactly map the released 3000x4 generator, draw order, inclusive range, absent seed/state/matrix and absent normalization?",
+    "Does Appendix G.1 actually describe column normalization, and is the claimed paper/code mismatch stated no more strongly than the sources allow?",
+    "Is exact published-stream reconstruction unsupported, while prospective seeded unscaled instances are correctly separated from figure replication?",
+    "Is the 3000x100 randomized-SVD script correctly excluded as a substitute?",
+    "Does the artifact preserve all scientific blockers and avoid claiming a failed paper result?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "budget_effect": {"registered_task_assignments": 1, "executable_attempts": 0, "scientific_experiments": 0}
+}

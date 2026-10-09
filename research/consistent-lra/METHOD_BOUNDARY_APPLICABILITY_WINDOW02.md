@@ -1,0 +1,7 @@
+# Applicable method-verification boundaries
+
+Current work is existing-paper formal/source audit plus independently admitted baseline/instrument output-container repair. Installed c23/research-autopilot method-verification explicitly permits intake, baseline audits and instrument repair before new discovery. It is not a new method-discovery batch. Pool0, selection0, eligiblepapers0 remain; no fake candidate/methodbatch is constructed to obtain a green flag.
+
+Actual historical pinned vendor/rsi/scripts/verify_methods.py inspected: CLI requires --root and --batch, with --before code/experiment-design/dispatch/verdict and --candidate operating on actual method-verification-batch records; implementationrequires selection_ref and a completed20→15 pool. There is no applicable real new-method batch yet. Accordingly no metadata pass is claimed or substituted for math/source/native authority. At the first new/reopened candidate investment these actual checks must run on the real batch beforecode, design, dispatch andverdict; missingevidencekeepsitsdescendantspending.
+
+StageA gates instead bind exact repaircontract, baseline/source/plan independent reviews, pinned approved-harness plans, finiteCPU limits andactualreceipts/outputs/evidence reviews. These qualify only engineeringidentity/cost predicates. StageBscientificperformance andnewmethoddiscovery remainblockedonthescientificnativeprotocol/scorer/livecapabilitygap andParent/Gate0/IPCG. Formalcounterexampleproofreview doesnotgrant empirical/scientificauthorization.

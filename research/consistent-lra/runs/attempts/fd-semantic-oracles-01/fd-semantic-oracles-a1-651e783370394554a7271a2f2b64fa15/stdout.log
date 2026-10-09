@@ -1,0 +1,1 @@
+{"output": "evidence/qualification/fd-semantic-oracles.json", "all_checks_passed": true, "check_count": 45, "usage": {"wall_seconds": 0.00425810399610782, "cpu_seconds": 0.0037859999999999144, "max_rss_kib": 115728}}

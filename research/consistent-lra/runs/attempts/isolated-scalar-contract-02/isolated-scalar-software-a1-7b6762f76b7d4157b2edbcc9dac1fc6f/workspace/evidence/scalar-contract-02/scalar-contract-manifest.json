@@ -1,0 +1,28 @@
+{
+  "confirmation": false,
+  "format": "scalar-contract-output-manifest-v1",
+  "native_evaluator_qualified": false,
+  "nearzero_matrix_fallback_qualified": false,
+  "outputs": [
+    {
+      "bytes": 870462,
+      "path": "scalar-contract-diagnostics.jsonl",
+      "sha256": "63900cfab3832f0ba98174ad8d18dc2865d4b4c4fefdea5060b02aeeb8853ccf"
+    },
+    {
+      "bytes": 697028,
+      "path": "scalar-contract-records.jsonl",
+      "sha256": "7fe34a70e7a7a2a338173db484c316fb123d9f02890a741c05ac126df5e80403"
+    },
+    {
+      "bytes": 17090,
+      "path": "scalar-contract-summary.json",
+      "sha256": "60742910748a503eebd4dda2ceab76ed684a364a86ce76a74cbd47f02c273e6a"
+    }
+  ],
+  "performance_claim_eligible": false,
+  "raw_record_count": 501,
+  "scientific_gate_advanced": false,
+  "scope": "finite_engineering_only",
+  "stage_b_execution_admitted": false
+}

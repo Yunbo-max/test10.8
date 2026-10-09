@@ -1,0 +1,36 @@
+[
+  {
+    "pass": 1,
+    "observed_at": "2026-10-09T11:03:02.199398+00:00",
+    "outputs": [
+      {
+        "path": "runs/attempts/formal-geometric-target61-02/formal-geometric-target61-a1-180f6c6be0024da193b15a7af97dddef/workspace/evidence/formal/geometric-target61.certificates.jsonl",
+        "sha256": "06543277737b9b1777c1d7db585610d95273ebe07ca8cba0c5eca4a2d18ddd07",
+        "bytes": 3155810
+      },
+      {
+        "path": "runs/attempts/formal-geometric-target61-02/formal-geometric-target61-a1-180f6c6be0024da193b15a7af97dddef/workspace/evidence/formal/geometric-target61.summary.json",
+        "sha256": "3754306f745e109cc062c9ee579e3510e198eb5ccc506fe643dc7a998fc52daa",
+        "bytes": 1135
+      }
+    ],
+    "mismatches": 0
+  },
+  {
+    "pass": 2,
+    "observed_at": "2026-10-09T11:03:02.202446+00:00",
+    "outputs": [
+      {
+        "path": "runs/attempts/formal-geometric-target61-02/formal-geometric-target61-a1-180f6c6be0024da193b15a7af97dddef/workspace/evidence/formal/geometric-target61.certificates.jsonl",
+        "sha256": "06543277737b9b1777c1d7db585610d95273ebe07ca8cba0c5eca4a2d18ddd07",
+        "bytes": 3155810
+      },
+      {
+        "path": "runs/attempts/formal-geometric-target61-02/formal-geometric-target61-a1-180f6c6be0024da193b15a7af97dddef/workspace/evidence/formal/geometric-target61.summary.json",
+        "sha256": "3754306f745e109cc062c9ee579e3510e198eb5ccc506fe643dc7a998fc52daa",
+        "bytes": 1135
+      }
+    ],
+    "mismatches": 0
+  }
+]

@@ -1,0 +1,3 @@
+{"event":"batch_started","observed_at":"2026-10-09T05:56:18.808443Z","plan_digest":"95657d85b176afddc3bb682c8fc6b246cac8ba26e2f8db9de40f899be86d6292"}
+{"devices":[],"event":"task_started","launcher_pid":5,"native_plan_digest":"280027a1d2bc2279654868cd69d54182617e6c628017f842fd4b23327efea87f","observed_at":"2026-10-09T05:56:18.814853Z","task_id":"native-prospective-random-baseline-matrix-01"}
+{"event":"task_finished","observed_at":"2026-10-09T05:56:26.879087Z","status":"completed","task_id":"native-prospective-random-baseline-matrix-01"}

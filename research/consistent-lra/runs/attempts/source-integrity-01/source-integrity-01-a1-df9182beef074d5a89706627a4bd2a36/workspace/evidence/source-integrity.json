@@ -1,0 +1,57 @@
+{
+  "format": "mechanical-source-integrity-v1",
+  "sources": [
+    {
+      "name": "Rice_Cammeo_Osmancik.arff",
+      "bytes": 427635,
+      "git_blob": "745655b79f4ca46a3a65a0a8653bd792fa6f7c31",
+      "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665",
+      "rows": 3810,
+      "feature_columns": 7,
+      "labels": {
+        "Cammeo": 1630,
+        "Osmancik": 2180
+      },
+      "first3000_labels": {
+        "Cammeo": 1630,
+        "Osmancik": 1370
+      },
+      "source_order": "unchanged released line order"
+    },
+    {
+      "name": "Skin_NonSkin.txt",
+      "bytes": 3155761,
+      "git_blob": "fc58dda2eaf5b1f0d2d8c7924a298cd7d14ba17d",
+      "sha256": "008f1fb6a169498dec54fb5951be6478e5465942cc4f6df3b5dabbe484c9a98f",
+      "rows": 245057,
+      "feature_columns": 3,
+      "labels": {
+        "1": 50859,
+        "2": 194198
+      },
+      "first3000_labels": {
+        "1": 3000
+      },
+      "source_order": "unchanged released line order"
+    }
+  ],
+  "code": [
+    {
+      "path": "baseline_qualify.py",
+      "sha256": "d5566e2177064d0ddd9f940323ca7d10dfb0d9fef14d93f8ba6d16bde54dd934",
+      "ast_parse": "completed_without_import_or_execution"
+    },
+    {
+      "path": "native_baselines.py",
+      "sha256": "ce279d41df2aa4ef76464acac720e94318e2b858b3f8ad2c94a59b51d9eba3e5",
+      "ast_parse": "completed_without_import_or_execution"
+    }
+  ],
+  "numerical_qualification": false,
+  "scientific_gate_advanced": false,
+  "usage": {
+    "wall_seconds": 0.16511069000262069,
+    "process_cpu_seconds": 0.190072,
+    "max_rss_kib": 99788
+  }
+}

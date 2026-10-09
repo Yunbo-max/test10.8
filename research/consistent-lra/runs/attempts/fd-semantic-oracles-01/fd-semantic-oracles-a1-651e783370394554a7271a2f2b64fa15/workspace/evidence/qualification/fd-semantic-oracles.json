@@ -1,0 +1,528 @@
+{
+  "format": "consistent-lra-fd-source-semantic-oracles-v1",
+  "scope": "engineering source and software semantics only; not benchmark or performance evidence",
+  "source_pins": {
+    "author_commit": "d607c4f6467216c470d1e3b93989d44d5fcdec97",
+    "liberty_commit": "691df9edb2ffbc2fdddc2cec3b703a3f1e438d4d",
+    "liberty_blob": "4bb3500cbea9c81c21cbeea5cd5db60ac4006d3d"
+  },
+  "source_hashes": {
+    "fd_semantic_oracles.py": "6a82d80e1c45dfbb129d842c847000acf8828e1f8fd4e806f82ce3ce52926276",
+    "native_baselines.py": "4d005ff930d4b577569d09cd99f20bb2fc48ad04ba2ac7dfd5351827f278b382",
+    "baseline_qualify.py": "d5566e2177064d0ddd9f940323ca7d10dfb0d9fef14d93f8ba6d16bde54dd934",
+    "author_consistent_fd.py": "ba16f17017005dfc90d7ff669678911b2b3e6211582efd4014ed592e44926990",
+    "liberty_frequentDirections.py": "af62753d10fb5ef7b2cd0daeec26e0a292688657860c5f67e1b66537304ea9a1"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  },
+  "checks": [
+    {
+      "name": "prefix_1_independent_covariance_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 3.2e-10
+    },
+    {
+      "name": "prefix_1_independent_projector_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "prefix_1_orthonormal_output",
+      "passed": true,
+      "rank": 1
+    },
+    {
+      "name": "prefix_1_fd_psd_underestimate",
+      "passed": true,
+      "minimum_eigenvalue": 0.0,
+      "tolerance": 3.2e-10
+    },
+    {
+      "name": "prefix_1_fd_directional_bound",
+      "passed": true,
+      "maximum_eigenvalue": 0.0,
+      "theorem_bound": 0.0,
+      "tolerance": 3.2e-10
+    },
+    {
+      "name": "prefix_2_independent_covariance_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 3.2e-10
+    },
+    {
+      "name": "prefix_2_independent_projector_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "prefix_2_orthonormal_output",
+      "passed": true,
+      "rank": 1
+    },
+    {
+      "name": "prefix_2_fd_psd_underestimate",
+      "passed": true,
+      "minimum_eigenvalue": 0.0,
+      "tolerance": 3.2e-10
+    },
+    {
+      "name": "prefix_2_fd_directional_bound",
+      "passed": true,
+      "maximum_eigenvalue": 0.0,
+      "theorem_bound": 4.5,
+      "tolerance": 3.2e-10
+    },
+    {
+      "name": "prefix_3_independent_covariance_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 3.2e-10
+    },
+    {
+      "name": "prefix_3_independent_projector_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "prefix_3_orthonormal_output",
+      "passed": true,
+      "rank": 1
+    },
+    {
+      "name": "prefix_3_fd_psd_underestimate",
+      "passed": true,
+      "minimum_eigenvalue": 0.0,
+      "tolerance": 3.2e-10
+    },
+    {
+      "name": "prefix_3_fd_directional_bound",
+      "passed": true,
+      "maximum_eigenvalue": 0.0,
+      "theorem_bound": 6.5,
+      "tolerance": 3.2e-10
+    },
+    {
+      "name": "prefix_4_independent_covariance_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 3.4438258235530024e-10
+    },
+    {
+      "name": "prefix_4_independent_projector_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "prefix_4_orthonormal_output",
+      "passed": true,
+      "rank": 1
+    },
+    {
+      "name": "prefix_4_fd_psd_underestimate",
+      "passed": true,
+      "minimum_eigenvalue": 0.0,
+      "tolerance": 3.4438258235530024e-10
+    },
+    {
+      "name": "prefix_4_fd_directional_bound",
+      "passed": true,
+      "maximum_eigenvalue": 4.000000000000002,
+      "theorem_bound": 7.390435441117492,
+      "tolerance": 3.4438258235530024e-10
+    },
+    {
+      "name": "prefix_5_independent_covariance_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 3.4926186914744893e-10
+    },
+    {
+      "name": "prefix_5_independent_projector_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "prefix_5_orthonormal_output",
+      "passed": true,
+      "rank": 1
+    },
+    {
+      "name": "prefix_5_fd_psd_underestimate",
+      "passed": true,
+      "minimum_eigenvalue": 0.0,
+      "tolerance": 3.4926186914744893e-10
+    },
+    {
+      "name": "prefix_5_fd_directional_bound",
+      "passed": true,
+      "maximum_eigenvalue": 4.755002001601612,
+      "theorem_bound": 10.268453271313776,
+      "tolerance": 3.4926186914744893e-10
+    },
+    {
+      "name": "prefix_6_independent_covariance_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 4.40334849997755e-10
+    },
+    {
+      "name": "prefix_6_independent_projector_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "prefix_6_orthonormal_output",
+      "passed": true,
+      "rank": 1
+    },
+    {
+      "name": "prefix_6_fd_psd_underestimate",
+      "passed": true,
+      "minimum_eigenvalue": 0.3984474337660615,
+      "tolerance": 4.40334849997755e-10
+    },
+    {
+      "name": "prefix_6_fd_directional_bound",
+      "passed": true,
+      "maximum_eigenvalue": 5.8586623823253134,
+      "theorem_bound": 10.991628750056122,
+      "tolerance": 4.40334849997755e-10
+    },
+    {
+      "name": "prefix_7_independent_covariance_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 4.493327771974946e-10
+    },
+    {
+      "name": "prefix_7_independent_projector_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "prefix_7_orthonormal_output",
+      "passed": true,
+      "rank": 1
+    },
+    {
+      "name": "prefix_7_fd_psd_underestimate",
+      "passed": true,
+      "minimum_eigenvalue": 0.4468492072938531,
+      "tolerance": 4.493327771974946e-10
+    },
+    {
+      "name": "prefix_7_fd_directional_bound",
+      "passed": true,
+      "maximum_eigenvalue": 7.056942610513811,
+      "theorem_bound": 13.76668057006264,
+      "tolerance": 4.493327771974946e-10
+    },
+    {
+      "name": "prefix_8_independent_covariance_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 5.070277098613038e-10
+    },
+    {
+      "name": "prefix_8_independent_projector_parity",
+      "passed": true,
+      "actual": 0.0,
+      "tolerance": 5e-10
+    },
+    {
+      "name": "prefix_8_orthonormal_output",
+      "passed": true,
+      "rank": 1
+    },
+    {
+      "name": "prefix_8_fd_psd_underestimate",
+      "passed": true,
+      "minimum_eigenvalue": 0.7632071544672112,
+      "tolerance": 5.070277098613038e-10
+    },
+    {
+      "name": "prefix_8_fd_directional_bound",
+      "passed": true,
+      "maximum_eigenvalue": 10.003655857926942,
+      "theorem_bound": 16.824307253467396,
+      "tolerance": 5.070277098613038e-10
+    },
+    {
+      "name": "author_and_lrow_are_not_state_parity",
+      "passed": true,
+      "maximum_distance": 6.13975494969708
+    },
+    {
+      "name": "liberty_visible_get_and_lrow_are_not_state_parity",
+      "passed": true,
+      "maximum_distance": 11.234473391950177
+    },
+    {
+      "name": "author_get_sketch_returns_live_mutable_state",
+      "passed": true
+    },
+    {
+      "name": "liberty_get_excludes_pending_lower_buffer_rows",
+      "passed": true,
+      "pending_rows": 1
+    },
+    {
+      "name": "production_returned_basis_is_snapshot",
+      "passed": true
+    }
+  ],
+  "check_count": 45,
+  "failure_count": 0,
+  "all_checks_passed": true,
+  "diagnostics": {
+    "stream": [
+      [
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        2.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        2.0
+      ]
+    ],
+    "k": 1,
+    "ell": 3,
+    "prefixes": [
+      {
+        "prefix": 1,
+        "production_shrinks": 0,
+        "production_reference_covariance_error": 0.0,
+        "production_reference_projector_error": 0.0,
+        "production_author_covariance_distance": 0.0,
+        "production_liberty_visible_covariance_distance": 0.0,
+        "fd_error_min_eigenvalue": 0.0,
+        "fd_error_max_eigenvalue": 0.0,
+        "fd_directional_bound": 0.0,
+        "production_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "prefix": 2,
+        "production_shrinks": 0,
+        "production_reference_covariance_error": 0.0,
+        "production_reference_projector_error": 0.0,
+        "production_author_covariance_distance": 0.0,
+        "production_liberty_visible_covariance_distance": 0.0,
+        "fd_error_min_eigenvalue": 0.0,
+        "fd_error_max_eigenvalue": 0.0,
+        "fd_directional_bound": 4.5,
+        "production_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "prefix": 3,
+        "production_shrinks": 0,
+        "production_reference_covariance_error": 0.0,
+        "production_reference_projector_error": 0.0,
+        "production_author_covariance_distance": 0.0,
+        "production_liberty_visible_covariance_distance": 0.0,
+        "fd_error_min_eigenvalue": 0.0,
+        "fd_error_max_eigenvalue": 0.0,
+        "fd_directional_bound": 6.5,
+        "production_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "prefix": 4,
+        "production_shrinks": 1,
+        "production_reference_covariance_error": 0.0,
+        "production_reference_projector_error": 0.0,
+        "production_author_covariance_distance": 5.535227592408968,
+        "production_liberty_visible_covariance_distance": 6.403124237432849,
+        "fd_error_min_eigenvalue": 0.0,
+        "fd_error_max_eigenvalue": 4.000000000000002,
+        "fd_directional_bound": 7.390435441117492,
+        "production_basis": [
+          [
+            -0.9845473660878848,
+            -0.14866704641358758,
+            0.0,
+            -0.09254508760635917,
+            0.0
+          ]
+        ]
+      },
+      {
+        "prefix": 5,
+        "production_shrinks": 2,
+        "production_reference_covariance_error": 0.0,
+        "production_reference_projector_error": 0.0,
+        "production_author_covariance_distance": 5.43561267422999,
+        "production_liberty_visible_covariance_distance": 6.944068553122909,
+        "fd_error_min_eigenvalue": 0.0,
+        "fd_error_max_eigenvalue": 4.755002001601612,
+        "fd_directional_bound": 10.268453271313776,
+        "production_basis": [
+          [
+            0.9186863023657307,
+            0.3688187846950005,
+            0.06856350504643771,
+            0.10288961781043798,
+            0.0685635050464377
+          ]
+        ]
+      },
+      {
+        "prefix": 6,
+        "production_shrinks": 3,
+        "production_reference_covariance_error": 0.0,
+        "production_reference_projector_error": 0.0,
+        "production_author_covariance_distance": 6.13975494969708,
+        "production_liberty_visible_covariance_distance": 7.523761486499101,
+        "fd_error_min_eigenvalue": 0.3984474337660615,
+        "fd_error_max_eigenvalue": 5.8586623823253134,
+        "fd_directional_bound": 10.991628750056122,
+        "production_basis": [
+          [
+            -0.9454397586899508,
+            -0.18568754533244117,
+            -0.16840451239945908,
+            -0.20595803324378478,
+            -0.029749066246737867
+          ]
+        ]
+      },
+      {
+        "prefix": 7,
+        "production_shrinks": 4,
+        "production_reference_covariance_error": 0.0,
+        "production_reference_projector_error": 0.0,
+        "production_author_covariance_distance": 4.267737761766732,
+        "production_liberty_visible_covariance_distance": 6.596378279311373,
+        "fd_error_min_eigenvalue": 0.4468492072938531,
+        "fd_error_max_eigenvalue": 7.056942610513811,
+        "fd_directional_bound": 13.76668057006264,
+        "production_basis": [
+          [
+            0.8621694476411712,
+            0.31760892358579046,
+            0.1735521128056817,
+            0.3349848896668004,
+            0.11598794354758894
+          ]
+        ]
+      },
+      {
+        "prefix": 8,
+        "production_shrinks": 5,
+        "production_reference_covariance_error": 0.0,
+        "production_reference_projector_error": 0.0,
+        "production_author_covariance_distance": 6.119027920906706,
+        "production_liberty_visible_covariance_distance": 11.234473391950177,
+        "fd_error_min_eigenvalue": 0.7632071544672112,
+        "fd_error_max_eigenvalue": 10.003655857926942,
+        "fd_directional_bound": 16.824307253467396,
+        "production_basis": [
+          [
+            -0.7462732199456603,
+            -0.2582621850169944,
+            -0.4110636532092465,
+            -0.2536129057155688,
+            -0.3782645794241882
+          ]
+        ]
+      }
+    ],
+    "semantic_conclusion": "production matches an independent l-row compress-before-insert specification; the frozen author l+1-augmented and Liberty 2ell-buffer/get interfaces are intentionally distinct and must not be labeled state-parity comparators"
+  },
+  "scientific_gate_advanced": false,
+  "performance_claim_eligible": false,
+  "theorem_proved": false,
+  "usage": {
+    "wall_seconds": 0.00425810399610782,
+    "cpu_seconds": 0.0037859999999999144,
+    "max_rss_kib": 115728
+  },
+  "command": [
+    "fd_semantic_oracles.py",
+    "--output",
+    "evidence/qualification/fd-semantic-oracles.json"
+  ]
+}

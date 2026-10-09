@@ -1,0 +1,81 @@
+{
+  "admission_commit": "617d1c0311bc04112f979596cfd08ca52a6af295",
+  "receipt_sha256": "2fda337ff5c43ac24ecc0a17569f17955f546bbbb30e0c20f47ddfcfb9c9b7d4",
+  "attempt_id": "landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c",
+  "status": "completed",
+  "exit_code": 0,
+  "post_exit_rehash_passes": [
+    [
+      {
+        "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/workspace/evidence/qualification/landmark-stage-a-calibration.json",
+        "sha256": "8dc333232ddf5ece324f622c0af55d62efd6a10843c40d29fa0881f7bbfa3b6c",
+        "bytes": 18229
+      },
+      {
+        "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/workspace/evidence/qualification/landmark-stage-a-calibration.oracles.jsonl.gz",
+        "sha256": "dd826c3a06f82424fceb76623b353ab840d98a8593e744699dcc4a6988d86fd5",
+        "bytes": 4234569
+      },
+      {
+        "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/workspace/evidence/qualification/landmark-stage-a-calibration.timings.jsonl.gz",
+        "sha256": "e4831c96fbdcc9f3b7751247ab5df47dc76668c8d13681aea94aa88cbeb42ed2",
+        "bytes": 34353
+      }
+    ],
+    [
+      {
+        "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/workspace/evidence/qualification/landmark-stage-a-calibration.json",
+        "sha256": "8dc333232ddf5ece324f622c0af55d62efd6a10843c40d29fa0881f7bbfa3b6c",
+        "bytes": 18229
+      },
+      {
+        "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/workspace/evidence/qualification/landmark-stage-a-calibration.oracles.jsonl.gz",
+        "sha256": "dd826c3a06f82424fceb76623b353ab840d98a8593e744699dcc4a6988d86fd5",
+        "bytes": 4234569
+      },
+      {
+        "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/workspace/evidence/qualification/landmark-stage-a-calibration.timings.jsonl.gz",
+        "sha256": "e4831c96fbdcc9f3b7751247ab5df47dc76668c8d13681aea94aa88cbeb42ed2",
+        "bytes": 34353
+      }
+    ]
+  ],
+  "dispatch_measurement": {
+    "command": [
+      "python3",
+      "vendor/rsi/scripts/run_harness.py",
+      "plans/harness-landmark-stage-a-calibration-02.json",
+      "--root",
+      "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+      "--execute",
+      "--approved-plan-digest",
+      "b574cc87b849d9ef3e8b29ef4395c4de6588c59baa5d9e478a87834cdbab3606"
+    ],
+    "cwd": "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+    "started_at": "2026-10-09T09:38:41.615353+00:00",
+    "completed_at": "2026-10-09T09:38:49.785991+00:00",
+    "exit_code": 0,
+    "wall_seconds": 8.170636071001354,
+    "waited_process_tree_cpu_seconds": 7.740773,
+    "maximum_child_rss_kib": 168348,
+    "cpu_semantics": "RUSAGE_CHILDREN delta for waited harness and reaped descendants; failed/unreaped processes could undercount",
+    "scientific_gate_advanced": false
+  },
+  "summary_usage": {
+    "process_cpu_seconds": 5.476436,
+    "pipeline_seconds_before_summary_publication": 5.607432511998923,
+    "maximum_rss_kib": 148032,
+    "shared_reference_seconds": 0.06695057303295471,
+    "identity_oracle_seconds": 0.14981063791492488,
+    "serialization_seconds": 2.233019612634962
+  },
+  "identity_maxima": {
+    "opt_absolute_error": 5.329070518200751e-15,
+    "loss_absolute_error": 3.243932900076629e-14,
+    "recourse_absolute_error": 4.1435604947182014e-14,
+    "orthogonality_error": 1.7648683511401987e-14
+  },
+  "full_stage_a_complete": false,
+  "scientific_gate_advanced": false,
+  "independent_evidence_review": "pending"
+}

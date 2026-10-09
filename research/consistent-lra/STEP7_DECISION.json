@@ -1,0 +1,209 @@
+{
+  "format": "evidence-bound-worker-planning-decision-v1",
+  "observed_at": "2026-10-09T12:12:06.239346+00:00",
+  "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
+  "canonical_controller_run": false,
+  "decision": 2,
+  "action": "return2to scientific native capability/source gap; independently continue primary priority/downstream audit and bounded nearzero software qualification design",
+  "basis": [
+    {
+      "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
+      "sha256": "004f6ddd287cb45d9eab149fa85ba1f1e45dca15c0905ec2409a96fc1e6f99a5",
+      "verdict": "accepted_after_recorded_needs_correction"
+    },
+    {
+      "path": "LANDMARK_INTEGRITY_EXECUTION_20261009.md",
+      "sha256": "bec72037c615dee114f772415fafe92d4adde5d1ceffba5b601a0b0732cae6e2",
+      "independent_evidence_verdict": "accepted_mechanical_only"
+    },
+    {
+      "path": "AUTHOR_ARCHIVE_SCORER_AUDIT_20261009.md",
+      "sha256": "6ed1195adbdae5a7df7ea77888ad3f23a25406140945703cbcd4b4777c4ab599",
+      "verdict": "accepted_no_hidden_official_scorer"
+    },
+    {
+      "path": "RICE_SKIN_IDENTITY_PLAN_REVIEW.md",
+      "sha256": "247282b69654856aca7683c9f7cf4d674f3428a5d513fee1ec169cd8bc7618c6",
+      "verdict": "accepted_engineering_plan_only"
+    },
+    {
+      "path": "RICE_SKIN_IDENTITY_EXECUTION_20261009.md",
+      "sha256": "af6e9aaf3327ad080e96247db737ccb771be1deca8b10ad66b7a45fbda93b28c",
+      "independent_evidence_verdict": "accepted_selected_prefix_identities_only"
+    },
+    {
+      "path": "FORMAL_AUDIT_v4_REVIEW.md",
+      "independent_reviewer": "/root/integer_density_review",
+      "verdict": "accepted_after_recorded_needs_correction"
+    },
+    {
+      "path": "SAMPLING_SOURCE_QUALIFICATION_REVIEW.md",
+      "independent_reviewer": "/root/sampling_source_review",
+      "verdict": "accepted_after_recorded_needs_correction"
+    },
+    {
+      "path": "LITERATURE_EQUIVALENCE_20261009_3.md",
+      "collision": "known_mechanism_and_growth_prior_art; exact_target_application_inconclusive"
+    },
+    {
+      "path": "RANDOM_FAMILY_IDENTITY_REVIEW.md",
+      "sha256": "94c9c757ce4ef4547376c2ab546bf1869350cd5d53ba43b978dcd106b3f9fee2",
+      "verdict": "accepted_after_recorded_needs_correction"
+    },
+    {
+      "path": "EVALUATOR_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
+      "sha256": "7fc5e1f622cef4f21b1f6a589f87611d035f19e2cb2263d125597266fb2d5e81",
+      "verdict": "accepted_software_semantics_after_recorded_ledger_correction"
+    },
+    {
+      "path": "FD_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
+      "sha256": "c3aba01cda774f7cba77669783647eada8cee9680397ecbc2c5f83a6db2b03b5",
+      "verdict": "accepted_fd_source_semantics_after_dependency_and_time_ledger_corrections"
+    },
+    {
+      "path": "RICE_ALG4_CALIBRATION_EVIDENCE_REVIEW.md",
+      "sha256": "5184b12a37e99c93997460304dad87b5b1d3c2c7e25af7ef92afffb300eb4d5c",
+      "verdict": "accepted_engineering_cost_and_all_prefix_coverage_only"
+    },
+    {
+      "path": "AUTHOR_FD_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
+      "sha256": "5611dbee2372bf9598a8f3c9e43a5001b699e1ac44cd302a6e5b288b72e6ca5e",
+      "verdict": "accepted_after_recorded_data_revision_label_correction"
+    },
+    {
+      "path": "LOWDIM_BASELINE_MATRIX_FINAL_REPAIR_EVIDENCE_REVIEW.md",
+      "reviewed_commit": "f7225f3ef51115a620e4c1e0ec89141be1e27d21",
+      "reviewed_record_sha256": "2e2953d01712bda110e05625f8c89f6282563f5805def5faf384a2ea41a10010",
+      "verdict": "accepted_developmental_baseline_evidence"
+    },
+    {
+      "path": "RANDOM_BASELINE_MATRIX_EVIDENCE_REVIEW.md",
+      "reviewed_commit": "99de82eefb87be6f7e9da66f6b924fb35b801349",
+      "reviewed_tree": "1699dcadf286c7b39051b3ab037be8b10dac0db0",
+      "archive_blob": "8f0595f7fa9a85b0eb6fb7616d404bfb1409fe6d",
+      "archive_sha256": "af9b40bfb131570d1d5868006d0f4193550ba087f6679bb250a65554bab1bb8e",
+      "verdict": "accepted_developmental_prospective_family_evidence"
+    },
+    {
+      "path": "NATIVE_PROTOCOL_DRAFT.md",
+      "sha256": "dc19834b84e118c5a80ba0cd2f89ee2eb28526a595621cf6d0b920959265631d",
+      "review": "NATIVE_PROTOCOL_v2_REVIEW.md",
+      "review_sha256": "64cb7d38d45370be31bd7ab1c883515f297baea15dd6afef677947e9c05f88c7",
+      "verdict": "accepted_documentation_design_only_after_recorded_correction"
+    },
+    {
+      "path": "LANDMARK_REFERENCE_CALIBRATION_EVIDENCE_REVIEW.md",
+      "sha256": "6c0fdde0ec58c0932ecf8f9cfae468311035ad443a4fba99bc50ee9f9ce508c7",
+      "reviewed_commit": "d29281f1ec6f757455c03d95b2aaf645397b53a6",
+      "verdict": "accepted_engineering_exact_reference_cost_and_numerical_agreement_only"
+    }
+  ],
+  "closed_or_narrowed": {
+    "Landmark_asset": "exact bytes/license/full mechanical counts independently accepted",
+    "Rice_Skin_formula_identity": "direct/trace/tail and selected-prefix projector identities accepted at three tolerances",
+    "hidden_scorer_search": "complete frozen author tree and ZIP contain no separate official scorer",
+    "published_random_identity": "exact Figure 3 replay is not reconstructable; prospective frozen seeded unscaled instances only",
+    "repaired_evaluator_semantics": "25 analytic/algebraic checks accepted as engineering software evidence only",
+    "fd_source_semantics": "45 checks accepted; project ell-row arm matches independent same-spec reference while author ell+1 and Liberty 2ell interfaces are non-parity",
+    "rice_alg4_cost_coverage": "all 3000 prefixes retained and independently verified; 0.502147s pipeline, 0.498551s CPU and 120220KiB RSS for one repaired-scorer arm only",
+    "author_fd_source_semantics": "58 checks accepted after preserving one data-revision-label correction; frozen ell+1 update semantics qualified, native performance and published recourse parity not qualified",
+    "rice_skin_developmental_matrix": "39 arms and 117000 per-prefix rows accepted after E04 recomputation under the repaired local projector scorer; defined-ratio denominators and warmup-versus-steady recourse remain explicit",
+    "prospective_random_developmental_matrix": "13 arms and 39000 per-prefix rows accepted after fresh durable-blob verification and E04 recomputation for one frozen seeded unscaled generator-family member; not Figure 3 replication or confirmation",
+    "four_family_G01_design": "commands, plan identities, denominators, controls and development/confirmation boundaries independently accepted as documentation after one correction; Landmark baseline-matrix execution and all scientific gates remain pending",
+    "Landmark_reference_calibration": "11-prefix rank-25 Gram reference cost and three direct-SVD numerical agreements independently accepted as engineering evidence; full 5000-prefix baseline matrix and official parity remain pending",
+    "Landmark_stage_a_v2": "455 identity records at 35 prefixes, 65000 update/timing records, all38outputs and59retainedfiles independently accepted; wall79.251553s CPU78.791094 RSS190604KiB; no all-prefix loss/recourse performance or nearzero qualification",
+    "real_parent_k61_exact_arithmetic": "One actual finite target61 command and complete independent decoded-Fraction arithmetic review accepted; all122residues122roots61crossings, bound122/15>8; not fullR/blocksingulars/integerv7validation/nativequalification",
+    "constructive_integer_bit_bound": "v7 analytic integerization independentlyaccepted: R_Z>2k/15-.01,consecutive/crossblockkappa<4,entrybits<=4k+ceillog2k+9 (259at61); exponentialmagnitudes,primarypriorityunresolved,nomethod/paperpass",
+    "StageB_source": "complete13arm5000prefix source/design accepted afterone recorded correction; trueenergyexcess/roles/16metricendpointmeanmedianmax/28filepacket implemented;unexecuted,noadmission",
+    "scalar_source_plan": "source124 and plan126 independentlyaccepted; actual501rows completed pendingevidence128",
+    "integer_primary_priority": "targeted16query primaryaudit114 finds2005finite Cauchy/secular machinery; applicationpriority inconclusive/no originalitypass"
+  },
+  "blocked_descendants": {
+    "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
+    "published_random_replication": "unseeded released generator and paper/code normalization mismatch prevent exact figure stream identity",
+    "full_baseline_qualification": "finiteStageAaccepted; corrected completeStageBsource independentlyaccepted_unexecuted;nearzeroruntimequalification/nativeauthority/scientificdispatch remainblocked",
+    "new_method_discovery": "qualified Parent/Gate0/IPCG and meaningful residual baseline failures pending",
+    "candidate_code_dispatch": "no independently ranked qualified method pool/G01/native scorer",
+    "eligible_writing": "no validated numerical improvement; originality and downstream significance unresolved"
+  },
+  "engineering_exit_zero_is_scientific_pass": false,
+  "gate_advanced": false,
+  "eligible_new_papers": 0,
+  "continued_independent_work": [
+    "independent review of actual isolated scalar software501 records; no native-sciencepass",
+    "exact integer witness design/source qualification child of accepted v7; pendingdesignreview"
+  ],
+  "reason_not_terminal": "Finite independent originality/proofscope and software qualification work remains before harddeadline; no duplicate goal, no scientific gate shortcut",
+  "next_restore": "resolve immutable branch head and retained bytes; never rerun accepted Landmark/Rice/Skin/oracle preparation or bootstrap immediate request",
+  "note": "In-place worker evidence mapping to pinned RSI return-to-source route; no fabricated controller, official scorer, Gate A pass or paper result.",
+  "prior_decision": 2,
+  "previous_observation_preserved": "prior Step7 JSON version remains immutable in parent commits including9f65c9aed3d6952e08d7dae6020eb70eb5698db4",
+  "historical_runtime_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
+  "active_window_id": "cpu-window-02-20261009",
+  "evidence_commit": "ba35efc546455968927e2b69de2609fbcfbcfe86",
+  "window02_current_evidence": [
+    {
+      "artifact": "FORMAL_AUDIT_v5_REVIEW.md",
+      "verdict": "accepted_exactlinearrecourse_rank_dependence"
+    },
+    {
+      "artifact": "FORMAL_AUDIT_v6_REVIEW.md",
+      "verdict": "accepted_constant_consecutive_condition_extension"
+    },
+    {
+      "artifact": "LANDMARK_STAGE_A_CALIBRATION_EVIDENCE_REVIEW.md",
+      "verdict": "accepted_v1_shortidentity_cost"
+    },
+    {
+      "artifact": "LANDMARK_STAGE_A_FULL_FAILURE_REVIEW.md",
+      "verdict": "fullv1failed_containerintegrity_rootcauseunknown"
+    },
+    {
+      "artifact": "LANDMARK_STAGE_A_v2_SOURCE_REVIEW.md",
+      "verdict": "acceptedcorrectedstaticsemantics"
+    },
+    {
+      "artifact": "LANDMARK_STAGE_A_v2_CALIBRATION_PLAN_REVIEW.md",
+      "verdict": "acceptedoneboundedshortattempt"
+    },
+    {
+      "artifact": "runs/attempts/landmark-stage-a-v2-calibration-02/receipt.json",
+      "verdict": "actualcompleted31outputs_pendingindependentevidence"
+    },
+    {
+      "artifact": "LANDMARK_STAGE_A_v2_FULL_EVIDENCE_REVIEW.md",
+      "sha256": "65d566101933c540a6f1e879418f6c1f72f7b186a20bfe4f9c8851bdf015d714",
+      "reviewed_commit": "bc80f1be00f772a8c462f807444cdd4e2b67de35",
+      "verdict": "accepted_finite_identity_output_integrity_and_cost_only"
+    },
+    {
+      "artifact": "FORMAL_AUDIT_v7_REVIEW.md",
+      "sha256": "bc239b1819de5657b481bd776a17bc949b4fdf305e9f69d742b92bf23fd9d003",
+      "verdict": "accepted_analytic_integerization_polynomial_bitlength"
+    },
+    {
+      "artifact": "FORMAL_CERTIFICATE_TARGET61_EVIDENCE_REVIEW_WINDOW02.md",
+      "sha256": "e59796a0d207b56c8749c99044205b9743088eb85e2cf677ffa4ffc4d5d4dce0",
+      "verdict": "accepted_real_parent_k61_finite_arithmetic_execution_and_independent_rawreview"
+    },
+    {
+      "artifact": "LANDMARK_STAGE_B_SOURCE_REVIEW.md",
+      "sha256": "262ea4ea0c9c6f50028114003110c32813d023c82d9f6f72bea97bb52794d098",
+      "reviewed_commit": "9154c3d171d2579f7feef40318ea8b111994beb8",
+      "verdict": "accepted_corrected_source_design_only"
+    },
+    {
+      "artifact": "evidence/scalar-contract-02-collection.json",
+      "reviewed_commit": "ba35efc546455968927e2b69de2609fbcfbcfe86",
+      "verdict": "actual501rows_terminalengineeringrun_pending_independentreview"
+    }
+  ],
+  "independent_routes": {
+    "output_mitigation": 6,
+    "formal_priority": 2,
+    "new_method_discovery": "blocked_parent_native_baseline_and_gate0_ipcg",
+    "exact_formal_certificate": "closed_finite_k61_only",
+    "explicit_integer_bit_bound": "closed_analytic_proof_only",
+    "Stage_B_source_design": "closed_source_design_only"
+  }
+}

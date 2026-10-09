@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-09T10:58:11.238671+00:00",
+  "cpu_max": "800000 100000",
+  "cpu_quota_cores": 8.0,
+  "memory_max_bytes": 8589934592,
+  "visible_affinity_cores": 9,
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "purpose": "finite real-parent exact target61 certificate, stdlib-only; not integer v7 qualification; no target workload launched",
+  "numeric_thread_env_required": 1,
+  "gpu_count": 0,
+  "paid_service_calls": 0,
+  "one_job_policy": true
+}

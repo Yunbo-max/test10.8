@@ -1,0 +1,54 @@
+{
+  "format": "landmark-mechanical-source-integrity-v1",
+  "source_identity": {
+    "upstream": "samsonzhou/consistent-LRA@d607c4f6467216c470d1e3b93989d44d5fcdec97",
+    "path": "landmark.mtx",
+    "git_blob": "4c63060bbefcb38e0c705cea1f883d2fb7121f2c",
+    "sha256": "29fb87018e59049a52314c847c5ac2a4eaa3b875f7cd8467621fe074fbbc298b",
+    "bytes": 34964305
+  },
+  "matrix_market": {
+    "banner": "%%MatrixMarket matrix coordinate real general",
+    "rows": 71952,
+    "columns": 2704,
+    "pattern_entries": 1151232,
+    "numeric_nonzeros": 1146848,
+    "explicit_zeros": 4384,
+    "metadata_lines": [
+      "%-------------------------------------------------------------------------------",
+      "% UF Sparse Matrix Collection, Tim Davis",
+      "% http://www.cise.ufl.edu/research/sparse/matrices/Pereyra/landmark",
+      "% name: Pereyra/landmark",
+      "% [Matrix from Victor Pereyra, Stanford University]",
+      "% id: 903",
+      "% date: 2003",
+      "% author: V. Pereyra",
+      "% ed: T. Davis",
+      "% fields: A Zeros name title id date author ed kind",
+      "% kind: least squares problem",
+      "%-------------------------------------------------------------------------------"
+    ],
+    "coordinate_order_is_column_then_row": true,
+    "adjacent_duplicate_coordinates": 0
+  },
+  "author_script_selected_prefix": {
+    "rows": 5000,
+    "columns": 2704,
+    "pattern_entries": 80000,
+    "numeric_nonzeros": 79325,
+    "explicit_zeros": 675,
+    "nonempty_rows": 5000,
+    "nonempty_columns": 259,
+    "minimum_pattern_entries_per_row": 16,
+    "maximum_pattern_entries_per_row": 16,
+    "source_order": "first 5000 author-script-selected rows without reordering or value modification"
+  },
+  "official_metadata_counts_match": true,
+  "numerical_qualification": false,
+  "scientific_gate_advanced": false,
+  "usage": {
+    "wall_seconds": 0.9763034940006037,
+    "process_cpu_seconds": 1.0006659999999998,
+    "max_rss_kib": 12588
+  }
+}

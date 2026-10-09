@@ -1,0 +1,62 @@
+{
+  "schema_id": "experiment-run-plan",
+  "schema_version": "1.0.0",
+  "run_id": "landmark-reference-calibration-01",
+  "purpose": "engineering",
+  "evidence_mode": "developmental",
+  "protocol_ref": null,
+  "protocol_digest": null,
+  "output_root": "runs/attempts",
+  "provenance": {
+    "git_revision": "c0c7239cc9a07374108e77d0a50e79bb34891f9a",
+    "model_revision": "not_applicable_exact_reference_no_model",
+    "data_revision": "author_landmark_blob_4c63060bbefcb38e0c705cea1f883d2fb7121f2c_first5000_active259",
+    "environment_digest": "4562a986dcbac6a6ea0cbf20ce46f48570b5f64f35b2eef0000f9d97da6c996e",
+    "environment_refs": [
+      {"path": "evidence/environment-preparation.json", "sha256": "4562a986dcbac6a6ea0cbf20ce46f48570b5f64f35b2eef0000f9d97da6c996e"}
+    ]
+  },
+  "limits": {
+    "max_attempts": 1,
+    "max_development_trials": 1,
+    "max_confirmation_trials": 0,
+    "max_retries_per_trial": 0,
+    "wall_time_seconds": 180,
+    "attempt_timeout_seconds": 180
+  },
+  "jobs": [
+    {
+      "trial_id": "landmark-reference-cost",
+      "command": [
+        "/usr/bin/env",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "MKL_NUM_THREADS=1",
+        "NUMEXPR_NUM_THREADS=1",
+        "VECLIB_MAXIMUM_THREADS=1",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "calibrate_landmark_reference.py",
+        "--landmark", "originals/landmark.mtx",
+        "--output", "evidence/calibration/landmark-reference-calibration.json",
+        "--k", "25",
+        "--repeats", "3"
+      ],
+      "cwd": ".",
+      "input_refs": [
+        {"path": "originals/landmark.mtx", "sha256": "29fb87018e59049a52314c847c5ac2a4eaa3b875f7cd8467621fe074fbbc298b"},
+        {"path": "LANDMARK_REFERENCE_CALIBRATION_CANDIDATE.md", "sha256": "ec7ae383d90818ac0875c8c251845d64b56a962e20598e953a3799c235c3a6f5"},
+        {"path": "LANDMARK_REFERENCE_CALIBRATION_SOURCE_REVIEW.md", "sha256": "18b63e71fccbd5c9f203bcd262dd202e04c491161982bba274b41ddd4b01faf3"}
+      ],
+      "code_refs": [
+        {"path": "calibrate_landmark_reference.py", "sha256": "460c09a4a8016744a1531212276f1fcd04b3b5a38702b2cefa6ef446bf16f7be"}
+      ],
+      "output_paths": [
+        "evidence/calibration/landmark-reference-calibration.json"
+      ],
+      "seed": 20261009,
+      "group": "landmark-exact-reference-engineering-calibration",
+      "arm_role": "preparation"
+    }
+  ],
+  "plan_digest": "568c5193935ff57d686cde51b8fe46e9a6e7a0a1776e43b89d928ac321635f57"
+}

@@ -1,0 +1,42 @@
+{
+  "format": "same-writer-continuation-observation-v1",
+  "observed_at": "2026-10-09T00:31:21.269Z",
+  "head": "ec82f7d34916be295111e922f75068d56b1cad25",
+  "control_bindings": [
+    {
+      "name": "AGENTS.md",
+      "sha": "0f5e3b46dc8e7691f7ce9ed920c37c8d1ecfbf32"
+    },
+    {
+      "name": "README.md",
+      "sha": "80f8a4b1e1b8c87b144aa814fc365f75c0807fe0"
+    },
+    {
+      "name": "GOAL.md",
+      "sha": "9626f1b2fe397ac27e86445e4f8f68c3ab5ab231"
+    },
+    {
+      "name": "SOURCES.md",
+      "sha": "e8bd682e2a045afe1ccc5dd1b791638f5d80f1ea"
+    },
+    {
+      "name": "BASELINE_AUDIT.md",
+      "sha": "d25701358dda2aa337a0ae188c38a061649873d4"
+    },
+    {
+      "name": "EXECUTION_SCOPE.md",
+      "sha": "01528c6f621130f726d9c18f31d61ce3607d537e"
+    },
+    {
+      "name": "workflow-checkpoint.yaml",
+      "sha": "96dc76b7ac0e1bd12b30162cf70833a7674af779"
+    },
+    {
+      "name": "BACKGROUND_TASK.json",
+      "sha": "0aaa404738d4a0558e2aaa324468054de2e412f6"
+    }
+  ],
+  "existing_writer": "/root",
+  "scientific_round_increment": 0,
+  "note": "Repeated continuation input was reconciled to this same live writer and immutable controls. No second writer, duplicated goal, budget reset, automation create or worker run_now."
+}

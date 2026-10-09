@@ -1,0 +1,3 @@
+{"event":"batch_started","observed_at":"2026-10-09T09:38:41.730082Z","plan_digest":"b574cc87b849d9ef3e8b29ef4395c4de6588c59baa5d9e478a87834cdbab3606"}
+{"devices":[],"event":"task_started","launcher_pid":6,"native_plan_digest":"6e1a07e0714ae8deecb67dd5197516f0b90c6be7d40f3dc60452b34e4e16918f","observed_at":"2026-10-09T09:38:41.760778Z","task_id":"landmark-stage-a-calibration-02"}
+{"event":"task_finished","observed_at":"2026-10-09T09:38:49.776284Z","status":"completed","task_id":"landmark-stage-a-calibration-02"}

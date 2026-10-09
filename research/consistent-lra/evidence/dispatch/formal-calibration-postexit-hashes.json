@@ -1,0 +1,36 @@
+[
+  {
+    "pass": 1,
+    "observed_at": "2026-10-09T10:53:35.180795+00:00",
+    "outputs": [
+      {
+        "path": "runs/attempts/formal-geometric-calibration-02/formal-geometric-cost-a1-6febbe83118347dd8b92cfaf31f48560/workspace/evidence/formal/geometric-calibration.certificates.jsonl",
+        "sha256": "f62ffd77c3442977be113b1592e32e6905eb107ef5c188577f998b91c6f76348",
+        "bytes": 22977
+      },
+      {
+        "path": "runs/attempts/formal-geometric-calibration-02/formal-geometric-cost-a1-6febbe83118347dd8b92cfaf31f48560/workspace/evidence/formal/geometric-calibration.summary.json",
+        "sha256": "87f8b5586ec3eccd0189e4532ecb94c33c0ee554634bb128610268ab4e18d1d0",
+        "bytes": 1340
+      }
+    ],
+    "mismatches": 0
+  },
+  {
+    "pass": 2,
+    "observed_at": "2026-10-09T10:53:35.180849+00:00",
+    "outputs": [
+      {
+        "path": "runs/attempts/formal-geometric-calibration-02/formal-geometric-cost-a1-6febbe83118347dd8b92cfaf31f48560/workspace/evidence/formal/geometric-calibration.certificates.jsonl",
+        "sha256": "f62ffd77c3442977be113b1592e32e6905eb107ef5c188577f998b91c6f76348",
+        "bytes": 22977
+      },
+      {
+        "path": "runs/attempts/formal-geometric-calibration-02/formal-geometric-cost-a1-6febbe83118347dd8b92cfaf31f48560/workspace/evidence/formal/geometric-calibration.summary.json",
+        "sha256": "87f8b5586ec3eccd0189e4532ecb94c33c0ee554634bb128610268ab4e18d1d0",
+        "bytes": 1340
+      }
+    ],
+    "mismatches": 0
+  }
+]

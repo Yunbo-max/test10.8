@@ -1,0 +1,3 @@
+{"event":"batch_started","observed_at":"2026-10-09T02:36:23.469656Z","plan_digest":"843f8fa71948b3881471889efb3c74a4d4c87238d5564ac2c5fe667cee94516a"}
+{"devices":[],"event":"task_started","launcher_pid":5,"native_plan_digest":"902f36cff8bfb36f13ace951719272e7dcd703a0709d67653dc284284663fdd5","observed_at":"2026-10-09T02:36:23.472298Z","task_id":"evaluator-semantic-oracles-01"}
+{"event":"task_finished","observed_at":"2026-10-09T02:36:25.476101Z","status":"completed","task_id":"evaluator-semantic-oracles-01"}

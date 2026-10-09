@@ -1,0 +1,44 @@
+{
+  "schema_id": "harness-plan",
+  "schema_version": "1.0.0",
+  "batch_id": "landmark-source-mechanical-01",
+  "tasks": [
+    {
+      "task_id": "landmark-source-integrity-01",
+      "idea_id": "existing-landmark-source-mechanical-qualification",
+      "plan_ref": {
+        "path": "plans/native-landmark-source-integrity.json",
+        "sha256": "27f47b4032c0551419f10dfbd4583c0564ea5fc23573b79f8bcb439a32a0fbae"
+      },
+      "depends_on": [],
+      "priority": 1,
+      "resources": {
+        "cpu_cores": 1,
+        "ram_mib": 512,
+        "gpu_count": 0,
+        "gpu_peak_mib": null,
+        "allow_gpu_share": false,
+        "memory_profile_ref": null,
+        "exclusive_keys": [
+          "consistent-lra-landmark-source-integrity"
+        ]
+      }
+    }
+  ],
+  "limits": {
+    "window_seconds": 60,
+    "total_wall_seconds": 90,
+    "max_parallel_tasks": 1,
+    "cpu_cores": 1,
+    "ram_mib": 512,
+    "max_gpu_task_seconds": 0
+  },
+  "pool_dir": "/workspace/scratch/bb9f262965cf/destination-repo/research/consistent-lra/runs/pool",
+  "output_root": "runs/harness",
+  "gpus": {
+    "uuids": [],
+    "safety_margin_mib": 256,
+    "max_tasks_per_gpu": 1
+  },
+  "plan_digest": "b669223f69923da2f7a47d03ffd142d8407a0df24449a8062c4df53bc6395252"
+}

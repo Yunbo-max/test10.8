@@ -1,0 +1,66 @@
+{
+  "schema_id": "experiment-run-plan",
+  "schema_version": "1.0.0",
+  "run_id": "native-lowdim-baseline-matrix-01",
+  "purpose": "engineering",
+  "evidence_mode": "developmental",
+  "protocol_ref": null,
+  "protocol_digest": null,
+  "output_root": "runs/attempts",
+  "provenance": {
+    "git_revision": "608bce8dafc9bbe7ce7c14082191fab27ac6e372",
+    "model_revision": "not_applicable_existing_baselines_no_model",
+    "data_revision": "rice_blob_745655b79f4ca46a3a65a0a8653bd792fa6f7c31_skin_blob_fc58dda2eaf5b1f0d2d8c7924a298cd7d14ba17d_first3000_offline_scaled",
+    "environment_digest": "4562a986dcbac6a6ea0cbf20ce46f48570b5f64f35b2eef0000f9d97da6c996e",
+    "environment_refs": [
+      {"path": "evidence/environment-preparation.json", "sha256": "4562a986dcbac6a6ea0cbf20ce46f48570b5f64f35b2eef0000f9d97da6c996e"}
+    ]
+  },
+  "limits": {
+    "max_attempts": 1,
+    "max_development_trials": 1,
+    "max_confirmation_trials": 0,
+    "max_retries_per_trial": 0,
+    "wall_time_seconds": 180,
+    "attempt_timeout_seconds": 180
+  },
+  "jobs": [
+    {
+      "trial_id": "rice-skin-lowdim-existing-baseline-matrix",
+      "command": [
+        "/usr/bin/env",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "MKL_NUM_THREADS=1",
+        "NUMEXPR_NUM_THREADS=1",
+        "VECLIB_MAXIMUM_THREADS=1",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "run_lowdim_baseline_matrix.py",
+        "--rice-source", "originals/Rice_Cammeo_Osmancik.arff",
+        "--skin-source", "originals/Skin_NonSkin.txt",
+        "--output", "evidence/baselines/lowdim-matrix-manifest.json"
+      ],
+      "cwd": ".",
+      "input_refs": [
+        {"path": "LOWDIM_BASELINE_MATRIX_20261009.md", "sha256": "ff5fc67804d5aa705b2c4ae5b2cefebea0bf2391502b13a663ad0d29b1cd0ea2"},
+        {"path": "originals/Rice_Cammeo_Osmancik.arff", "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665"},
+        {"path": "originals/Skin_NonSkin.txt", "sha256": "008f1fb6a169498dec54fb5951be6478e5465942cc4f6df3b5dabbe484c9a98f"}
+      ],
+      "code_refs": [
+        {"path": "run_lowdim_baseline_matrix.py", "sha256": "4d06d29f61f11172a1811e3daea3f0bd74d8b7a10a7661b5e2afd80b3428deab"},
+        {"path": "native_baselines.py", "sha256": "81c3309e659d1d9fdb69040b9becc6009bbe29b84a36aae8bac89ea6737e2c7c"},
+        {"path": "baseline_qualify.py", "sha256": "d5566e2177064d0ddd9f940323ca7d10dfb0d9fef14d93f8ba6d16bde54dd934"}
+      ],
+      "output_paths": [
+        "evidence/baselines/lowdim-matrix-manifest.json",
+        "evidence/baselines/lowdim-rice-k1.tar.gz",
+        "evidence/baselines/lowdim-skin-k1.tar.gz",
+        "evidence/baselines/lowdim-skin-k2.tar.gz"
+      ],
+      "seed": 20261009,
+      "group": "native-lowdim-existing-baseline-development-matrix",
+      "arm_role": "preparation"
+    }
+  ],
+  "plan_digest": "7358225c54cbe1f78fc9d6b0dfe80d32c83f906d83c0307047a0d36e7076f467"
+}

@@ -1,0 +1,28 @@
+{
+  "format": "scoped-independent-execution-evidence-review-assignment-v1",
+  "task_id": "rice-skin-selected-prefix-identity-evidence-review",
+  "registered_order": 20,
+  "candidate_commit": "7b5b71c9f3a7636e77c9bf969f388c6d0c6111ca",
+  "review_paths": [
+    "research/consistent-lra/RICE_SKIN_IDENTITY_EXECUTION_20261009.md",
+    "research/consistent-lra/evidence/qualification/rice-selected-prefix.json",
+    "research/consistent-lra/evidence/qualification/skin-selected-prefix.json",
+    "research/consistent-lra/runs/attempts/rice-skin-selected-prefix-identity-01/receipt.json",
+    "research/consistent-lra/runs/harness/rice-skin-selected-prefix-mechanical-01/report.json"
+  ],
+  "review_questions": [
+    "Do plan/receipt/attempt/guard/log/harness/output hashes agree on exactly two sequential first attempts with zero retries?",
+    "Are direct-vs-trace, fresh-tail-vs-direct and selected-prefix projector identities correctly summarized at all three tolerances?",
+    "Are missing near-zero-OPT ratios preserved and are positive-loss/near-zero counts zero rather than hidden by ratio=1?",
+    "Are actual wall/CPU/RSS, thread-env boundary and released reservation recorded accurately?",
+    "Are Skin first-3000 single-class order and all engineering/scientific boundary flags reported without performance claims?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "native_scoring": false,
+  "budget_effect": {
+    "registered_task_assignments": 1,
+    "executable_attempts": 0,
+    "scientific_experiments": 0
+  }
+}

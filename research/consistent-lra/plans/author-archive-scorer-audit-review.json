@@ -1,0 +1,26 @@
+{
+  "format": "scoped-independent-source-audit-review-assignment-v1",
+  "task_id": "author-archive-scorer-audit-independent-review",
+  "registered_order": 18,
+  "candidate_commit": "39243725f7418e71ef3b1517e6a33787a7c26624",
+  "candidate_paths": [
+    "research/consistent-lra/AUTHOR_ARCHIVE_SCORER_AUDIT_20261009.md",
+    "research/consistent-lra/BASELINE_AUDIT.md",
+    "research/consistent-lra/vendor/rsi/SCORER_BLOCKER.md"
+  ],
+  "review_questions": [
+    "Does the complete frozen author tree lack any separate evaluator/scorer/test fixture beyond the listed scripts?",
+    "Are root versus ZIP script and CSV differences exactly CRLF versus LF, with Landmark byte-identical?",
+    "Is consistent-lra-test.py accurately characterized as a Rice c=10 timing/ratio plot rather than a recourse/native scorer?",
+    "Is output.csv correctly treated as unauthenticated without schema/provenance rather than as reproduced evidence?",
+    "Does the conclusion preserve the official-scorer blocker and require repaired-evaluator semantic/parity review?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "native_scoring": false,
+  "budget_effect": {
+    "registered_task_assignments": 1,
+    "executable_attempts": 0,
+    "scientific_experiments": 0
+  }
+}

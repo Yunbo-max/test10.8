@@ -1,0 +1,23 @@
+{
+  "format": "scoped-independent-correction-rereview-assignment-v1",
+  "task_id": "random-family-identity-rereview",
+  "registered_order": 24,
+  "corrected_candidate_commit": "6f104ad753ffe0fc441265405072b39bc4fe5590",
+  "initial_candidate_commit": "19a46f250bc196c3892e1a01edb6c8a5d7b7440d",
+  "initial_review": "research/consistent-lra/RANDOM_FAMILY_IDENTITY_REVIEW.md",
+  "correction_scope": [
+    "replace both incorrect source SHA256 strings",
+    "record paper c=2.5 versus script c=2",
+    "record empty-through-2999 prefix behavior and xlim(1,300)",
+    "require runtime/Python identity and matrix hash for prospective instances"
+  ],
+  "review_paths": [
+    "research/consistent-lra/RANDOM_FAMILY_IDENTITY_20261009.md",
+    "research/consistent-lra/RANDOM_FAMILY_IDENTITY_REVIEW.md",
+    "research/consistent-lra/originals/consistent-lra-random.py",
+    "research/consistent-lra/originals/consistent-lra-random-fast.py"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "budget_effect": {"registered_task_assignments": 1, "executable_attempts": 0, "scientific_experiments": 0}
+}

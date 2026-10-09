@@ -1,0 +1,1270 @@
+{
+  "format": "landmark-oracle-member-manifest-v2",
+  "rows": 364,
+  "expected_prefixes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    50,
+    100,
+    150
+  ],
+  "members": [
+    {
+      "prefix": 1,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00001.gz",
+      "sha256": "b88535c8c6c3fc755f2d4cdcf0f212cee9e729c64383e7d01a844d7f2f5f3419",
+      "rows": 13,
+      "uncompressed_sha256": "aa2a9ee2c27d50a38b178df65bfca2e6c45f056a78064779c8c8ad1d1a8167ac",
+      "bytes": 1687,
+      "plain_bytes": 36042,
+      "write_audit": {
+        "calls": 11,
+        "requested_bytes": 1687,
+        "returned_bytes": 1687,
+        "initial": {
+          "device": 27,
+          "inode": 1049923,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049923,
+          "bytes": 0
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049923,
+          "bytes": 1687
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049923,
+          "bytes": 1687
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049923,
+          "bytes": 1687
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049923,
+          "bytes": 1687
+        }
+      }
+    },
+    {
+      "prefix": 2,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00002.gz",
+      "sha256": "aa6cc735ac83ae936c0e84ae693beb3d9712f70c5ecffe7f567711c1808b6dec",
+      "rows": 13,
+      "uncompressed_sha256": "e9deb052bffd202058f24a4e8c916a8b038a9388e92af86481861e1f6b85ebb1",
+      "bytes": 3277,
+      "plain_bytes": 86914,
+      "write_audit": {
+        "calls": 12,
+        "requested_bytes": 3277,
+        "returned_bytes": 3277,
+        "initial": {
+          "device": 27,
+          "inode": 1049924,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049924,
+          "bytes": 0
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049924,
+          "bytes": 3277
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049924,
+          "bytes": 3277
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049924,
+          "bytes": 3277
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049924,
+          "bytes": 3277
+        }
+      }
+    },
+    {
+      "prefix": 3,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00003.gz",
+      "sha256": "52f659bf9e4b7a03d97815c7388b035a75ed77f32b1673e89940bfee6d25c7fc",
+      "rows": 13,
+      "uncompressed_sha256": "22656f54aebc1e34e71f03bf2a5598da661489fe29c79f67b4fff22adbada82f",
+      "bytes": 5033,
+      "plain_bytes": 137244,
+      "write_audit": {
+        "calls": 15,
+        "requested_bytes": 5033,
+        "returned_bytes": 5033,
+        "initial": {
+          "device": 27,
+          "inode": 1049925,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049925,
+          "bytes": 0
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049925,
+          "bytes": 5033
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049925,
+          "bytes": 5033
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049925,
+          "bytes": 5033
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049925,
+          "bytes": 5033
+        }
+      }
+    },
+    {
+      "prefix": 4,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00004.gz",
+      "sha256": "fa2001cff0a9867e7a80a4ffb38095781be889bd32e933a2d3632e762163b9e2",
+      "rows": 13,
+      "uncompressed_sha256": "377db0a7fe0f59c4839fff2cba9b679648f35fc18bb841d3192ed8ea9446be24",
+      "bytes": 6805,
+      "plain_bytes": 184990,
+      "write_audit": {
+        "calls": 15,
+        "requested_bytes": 6805,
+        "returned_bytes": 6805,
+        "initial": {
+          "device": 27,
+          "inode": 1049926,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049926,
+          "bytes": 0
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049926,
+          "bytes": 6805
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049926,
+          "bytes": 6805
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049926,
+          "bytes": 6805
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049926,
+          "bytes": 6805
+        }
+      }
+    },
+    {
+      "prefix": 5,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00005.gz",
+      "sha256": "da2380a9b2ba1b8f1a7deebccb232bc520004eb27b2ad82a5855740c48ca2d6a",
+      "rows": 13,
+      "uncompressed_sha256": "d554a9052c27fbdf9508f4872d4cbdb786538e397d81ca1d66f375b8a7250b5a",
+      "bytes": 8533,
+      "plain_bytes": 232572,
+      "write_audit": {
+        "calls": 20,
+        "requested_bytes": 8533,
+        "returned_bytes": 8533,
+        "initial": {
+          "device": 27,
+          "inode": 1049927,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049927,
+          "bytes": 0
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049927,
+          "bytes": 8533
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049927,
+          "bytes": 8533
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049927,
+          "bytes": 8533
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049927,
+          "bytes": 8533
+        }
+      }
+    },
+    {
+      "prefix": 6,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00006.gz",
+      "sha256": "2205b1991bb4ffd582100b7db1e975c0555473e60bc14dce4cba772fc19e39a8",
+      "rows": 13,
+      "uncompressed_sha256": "43b97b7187645178351f71e96e869d5bc00143fcfef257dd1a49d74aa363e54f",
+      "bytes": 10613,
+      "plain_bytes": 281124,
+      "write_audit": {
+        "calls": 21,
+        "requested_bytes": 10613,
+        "returned_bytes": 10613,
+        "initial": {
+          "device": 27,
+          "inode": 1049928,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049928,
+          "bytes": 0
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049928,
+          "bytes": 10613
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049928,
+          "bytes": 10613
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049928,
+          "bytes": 10613
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049928,
+          "bytes": 10613
+        }
+      }
+    },
+    {
+      "prefix": 7,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00007.gz",
+      "sha256": "c2c4bdd339a8cacf262701d759f6788dd8899eadb770084d87a5fb63b698ee60",
+      "rows": 13,
+      "uncompressed_sha256": "8dec391cff8cb6ad6a271d015e23414557b00c7ba1bcf42627d9fe1110d95ad1",
+      "bytes": 13274,
+      "plain_bytes": 327532,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 13274,
+        "returned_bytes": 13274,
+        "initial": {
+          "device": 27,
+          "inode": 1049929,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049929,
+          "bytes": 0
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049929,
+          "bytes": 13274
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049929,
+          "bytes": 13274
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049929,
+          "bytes": 13274
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049929,
+          "bytes": 13274
+        }
+      }
+    },
+    {
+      "prefix": 8,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00008.gz",
+      "sha256": "569d7c32b9ed794e200429ec5d9ec45eabfad1186e9bee5cb48086e3767af304",
+      "rows": 13,
+      "uncompressed_sha256": "d246beb4bf54e25024d3f3ad8f06f564ccec946e06251d3be9235f9414b2c705",
+      "bytes": 15836,
+      "plain_bytes": 374480,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 15836,
+        "returned_bytes": 15836,
+        "initial": {
+          "device": 27,
+          "inode": 1049930,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049930,
+          "bytes": 0
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049930,
+          "bytes": 15836
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049930,
+          "bytes": 15836
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049930,
+          "bytes": 15836
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049930,
+          "bytes": 15836
+        }
+      }
+    },
+    {
+      "prefix": 9,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00009.gz",
+      "sha256": "6f29100e86f494f7bfb5da9a08d6ea390819c88ffcb6bd7023d02b12508f0fde",
+      "rows": 13,
+      "uncompressed_sha256": "94c5bd85286d93e8cc7e7dc3859bfbdc06e4f05f830019884e266452cb46e939",
+      "bytes": 100761,
+      "plain_bytes": 425326,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 100761,
+        "returned_bytes": 100761,
+        "initial": {
+          "device": 27,
+          "inode": 1049937,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049937,
+          "bytes": 84160
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049937,
+          "bytes": 100761
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049937,
+          "bytes": 100761
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049937,
+          "bytes": 100761
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049937,
+          "bytes": 100761
+        }
+      }
+    },
+    {
+      "prefix": 10,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00010.gz",
+      "sha256": "2ecd8f00af467fe5f3ca34db44258d528e16fd70529181a74c2a78392ed665cc",
+      "rows": 13,
+      "uncompressed_sha256": "1bd72907b034039b2658ff71055ba7693f65f76a0833edb774d7b18e07982f83",
+      "bytes": 106829,
+      "plain_bytes": 467695,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 106829,
+        "returned_bytes": 106829,
+        "initial": {
+          "device": 27,
+          "inode": 1049938,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049938,
+          "bytes": 83608
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049938,
+          "bytes": 106829
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049938,
+          "bytes": 106829
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049938,
+          "bytes": 106829
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049938,
+          "bytes": 106829
+        }
+      }
+    },
+    {
+      "prefix": 11,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00011.gz",
+      "sha256": "529e9cb96c8fcf219ac21b1d7691ae68021059f82d9ba7b07a8c2be26463f917",
+      "rows": 13,
+      "uncompressed_sha256": "5b43d91df9b4e73b9bcee74a62aed4fffbbe967a9e6824b550880fd3a06c297a",
+      "bytes": 117932,
+      "plain_bytes": 517853,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 117932,
+        "returned_bytes": 117932,
+        "initial": {
+          "device": 27,
+          "inode": 1049939,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049939,
+          "bytes": 112664
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049939,
+          "bytes": 117932
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049939,
+          "bytes": 117932
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049939,
+          "bytes": 117932
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049939,
+          "bytes": 117932
+        }
+      }
+    },
+    {
+      "prefix": 12,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00012.gz",
+      "sha256": "6c72b8374dd9c3843a1125b18478c41d6bb8a18b3bda308043bb71f0232aa709",
+      "rows": 13,
+      "uncompressed_sha256": "fe976753c0c3b88008591f81fdd8460f015e975ac4738539f6356c637bdd1194",
+      "bytes": 141054,
+      "plain_bytes": 578187,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 141054,
+        "returned_bytes": 141054,
+        "initial": {
+          "device": 27,
+          "inode": 1049940,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049940,
+          "bytes": 113410
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049940,
+          "bytes": 141054
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049940,
+          "bytes": 141054
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049940,
+          "bytes": 141054
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049940,
+          "bytes": 141054
+        }
+      }
+    },
+    {
+      "prefix": 13,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00013.gz",
+      "sha256": "8e98aaf1f4b22f84f47c35d8576677aef5cd49e946e039188cd078658ab8cd66",
+      "rows": 13,
+      "uncompressed_sha256": "fa49f25e2d04b8e6da64bcbb73a2dc86be4c11b58c65308b8881b5f3b59654f9",
+      "bytes": 141067,
+      "plain_bytes": 600418,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 141067,
+        "returned_bytes": 141067,
+        "initial": {
+          "device": 27,
+          "inode": 1049941,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049941,
+          "bytes": 140517
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049941,
+          "bytes": 141067
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049941,
+          "bytes": 141067
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049941,
+          "bytes": 141067
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049941,
+          "bytes": 141067
+        }
+      }
+    },
+    {
+      "prefix": 14,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00014.gz",
+      "sha256": "cb6022e3683dd7727b82dda7e7a428664ca2b744c9739fbfc40708c3874344b8",
+      "rows": 13,
+      "uncompressed_sha256": "dd71f55b5bd8077098485868004719fa5a6595e81005ece7820005b26e9b14ee",
+      "bytes": 155815,
+      "plain_bytes": 651809,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 155815,
+        "returned_bytes": 155815,
+        "initial": {
+          "device": 27,
+          "inode": 1049942,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049942,
+          "bytes": 141127
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049942,
+          "bytes": 155815
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049942,
+          "bytes": 155815
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049942,
+          "bytes": 155815
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049942,
+          "bytes": 155815
+        }
+      }
+    },
+    {
+      "prefix": 15,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00015.gz",
+      "sha256": "a3f7df24f3a2fe6db279e1524336573e61ab43540753715ad8d3a35ec9ab04d3",
+      "rows": 13,
+      "uncompressed_sha256": "1b0e3afe43b2b313acc8c58a1b029d14f815000dfb509cbf287b35ddbfe4f171",
+      "bytes": 172931,
+      "plain_bytes": 714131,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 172931,
+        "returned_bytes": 172931,
+        "initial": {
+          "device": 27,
+          "inode": 1049943,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049943,
+          "bytes": 170377
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049943,
+          "bytes": 172931
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049943,
+          "bytes": 172931
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049943,
+          "bytes": 172931
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049943,
+          "bytes": 172931
+        }
+      }
+    },
+    {
+      "prefix": 16,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00016.gz",
+      "sha256": "072026aba63a0e282332496cf8509688a299b356c262a2df578e494faf9738a9",
+      "rows": 13,
+      "uncompressed_sha256": "90776f1b7e07d5f267fddcd702a27e3e4d3d3ddabc3b8ca442ab85365c3507d0",
+      "bytes": 161319,
+      "plain_bytes": 719545,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 161319,
+        "returned_bytes": 161319,
+        "initial": {
+          "device": 27,
+          "inode": 1049921,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049921,
+          "bytes": 139971
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049921,
+          "bytes": 161319
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049921,
+          "bytes": 161319
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049921,
+          "bytes": 161319
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049921,
+          "bytes": 161319
+        }
+      }
+    },
+    {
+      "prefix": 17,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00017.gz",
+      "sha256": "5c5b98898f8ea67df43d41db42ad38727fb271d2a5f1a6d6c05f39093e82af6e",
+      "rows": 13,
+      "uncompressed_sha256": "c3142cb915331f89db961f6e09120854b5445839513579b8b96b91a90b258473",
+      "bytes": 159209,
+      "plain_bytes": 744865,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 159209,
+        "returned_bytes": 159209,
+        "initial": {
+          "device": 27,
+          "inode": 1049945,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049945,
+          "bytes": 140012
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049945,
+          "bytes": 159209
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049945,
+          "bytes": 159209
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049945,
+          "bytes": 159209
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049945,
+          "bytes": 159209
+        }
+      }
+    },
+    {
+      "prefix": 18,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00018.gz",
+      "sha256": "a51aeda852eaa887873d656816e14c1930ebd5af5abffc8cd6531dbe791db24f",
+      "rows": 13,
+      "uncompressed_sha256": "4c041c6aa2fe82ee4957e7e7c628eb2f42f46ef5d49c7bf58d7f4d6a566e9dc6",
+      "bytes": 188772,
+      "plain_bytes": 823370,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 188772,
+        "returned_bytes": 188772,
+        "initial": {
+          "device": 27,
+          "inode": 1049946,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049946,
+          "bytes": 168588
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049946,
+          "bytes": 188772
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049946,
+          "bytes": 188772
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049946,
+          "bytes": 188772
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049946,
+          "bytes": 188772
+        }
+      }
+    },
+    {
+      "prefix": 19,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00019.gz",
+      "sha256": "b7389ff918d6e18c9a7452a09c38eab9e9a16df8a032a3002e2b0bdee87367f0",
+      "rows": 13,
+      "uncompressed_sha256": "2bd87988c6be37e7ac26a4b09359bf21cd8f9ab82f00bc8307f43c52a07d6b66",
+      "bytes": 220056,
+      "plain_bytes": 909375,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 220056,
+        "returned_bytes": 220056,
+        "initial": {
+          "device": 27,
+          "inode": 1049947,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049947,
+          "bytes": 198448
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049947,
+          "bytes": 220056
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049947,
+          "bytes": 220056
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049947,
+          "bytes": 220056
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049947,
+          "bytes": 220056
+        }
+      }
+    },
+    {
+      "prefix": 20,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00020.gz",
+      "sha256": "4242ea69ae32b1445fb2b131a49c0574b0adbe3466874572c58c34ef93ffcc40",
+      "rows": 13,
+      "uncompressed_sha256": "8c9dcaf6eadbddfe18367357b52516b961949dbe4206e230d7866c53cdbc8a01",
+      "bytes": 245297,
+      "plain_bytes": 990917,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 245297,
+        "returned_bytes": 245297,
+        "initial": {
+          "device": 27,
+          "inode": 1049948,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049948,
+          "bytes": 227468
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049948,
+          "bytes": 245297
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049948,
+          "bytes": 245297
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049948,
+          "bytes": 245297
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049948,
+          "bytes": 245297
+        }
+      }
+    },
+    {
+      "prefix": 21,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00021.gz",
+      "sha256": "e102aa2b85af31854498829bdcbdc2174f20893595ed34398f98ea69b5122feb",
+      "rows": 13,
+      "uncompressed_sha256": "2454fcb16157d07645daead0638b70500b9c934207d4e2d6268b7cf07aac3e9a",
+      "bytes": 234025,
+      "plain_bytes": 984049,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 234025,
+        "returned_bytes": 234025,
+        "initial": {
+          "device": 27,
+          "inode": 1049949,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049949,
+          "bytes": 226146
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049949,
+          "bytes": 234025
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049949,
+          "bytes": 234025
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049949,
+          "bytes": 234025
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049949,
+          "bytes": 234025
+        }
+      }
+    },
+    {
+      "prefix": 22,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00022.gz",
+      "sha256": "2f13a9862c94d83734f1ab604ebf56dccae02d5b61a2c4514e44297a89667833",
+      "rows": 13,
+      "uncompressed_sha256": "739d73acf4b75f059604831dc3899f342adac243fecee6433b3a98a9d9fa2e84",
+      "bytes": 212186,
+      "plain_bytes": 955794,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 212186,
+        "returned_bytes": 212186,
+        "initial": {
+          "device": 27,
+          "inode": 1049950,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049950,
+          "bytes": 196416
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049950,
+          "bytes": 212186
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049950,
+          "bytes": 212186
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049950,
+          "bytes": 212186
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049950,
+          "bytes": 212186
+        }
+      }
+    },
+    {
+      "prefix": 23,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00023.gz",
+      "sha256": "3a4234bffa986c23e947c1031759f05357fed6bbb20f23923c894c261c21ad9d",
+      "rows": 13,
+      "uncompressed_sha256": "b68d94df2a319b487b53c21d725ac7d4b55fe7f767e1704914060fcf12cc6ef1",
+      "bytes": 216164,
+      "plain_bytes": 990956,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 216164,
+        "returned_bytes": 216164,
+        "initial": {
+          "device": 27,
+          "inode": 1049944,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049944,
+          "bytes": 196178
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049944,
+          "bytes": 216164
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049944,
+          "bytes": 216164
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049944,
+          "bytes": 216164
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049944,
+          "bytes": 216164
+        }
+      }
+    },
+    {
+      "prefix": 24,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00024.gz",
+      "sha256": "96153161966e4fbcbaeea3cff5d5222e6bf998eb5bfcacd4a6c64b4fb4be9d50",
+      "rows": 13,
+      "uncompressed_sha256": "f1bbff57881dc7f9258bf2a040da93032f2188437d9da16199f2e5cef839b5fe",
+      "bytes": 213413,
+      "plain_bytes": 1017621,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 213413,
+        "returned_bytes": 213413,
+        "initial": {
+          "device": 27,
+          "inode": 1049952,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049952,
+          "bytes": 194074
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049952,
+          "bytes": 213413
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049952,
+          "bytes": 213413
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049952,
+          "bytes": 213413
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049952,
+          "bytes": 213413
+        }
+      }
+    },
+    {
+      "prefix": 25,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00025.gz",
+      "sha256": "cb981e00ced6ac64a4c200f138cb3c034a4facd3fcd3a1b332d5f6d912acc5d0",
+      "rows": 13,
+      "uncompressed_sha256": "0fad48a986340ff85c30796d5334de24a2e3d73b12760c6656268ee5bebc37fd",
+      "bytes": 239937,
+      "plain_bytes": 1093084,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 239937,
+        "returned_bytes": 239937,
+        "initial": {
+          "device": 27,
+          "inode": 1049953,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049953,
+          "bytes": 224205
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049953,
+          "bytes": 239937
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049953,
+          "bytes": 239937
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049953,
+          "bytes": 239937
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049953,
+          "bytes": 239937
+        }
+      }
+    },
+    {
+      "prefix": 50,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00050.gz",
+      "sha256": "a78cb76abe64bf4b43f9f0b0345b9a96a7f59964a75e4e09e82b9236dc099a2d",
+      "rows": 13,
+      "uncompressed_sha256": "125d01b95931dbd46f36414524fcabff7dec9aaa8cefa7c1e3f2bbfb28c4af3b",
+      "bytes": 295830,
+      "plain_bytes": 1220496,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 295830,
+        "returned_bytes": 295830,
+        "initial": {
+          "device": 27,
+          "inode": 1049954,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049954,
+          "bytes": 286017
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049954,
+          "bytes": 295830
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049954,
+          "bytes": 295830
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049954,
+          "bytes": 295830
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049954,
+          "bytes": 295830
+        }
+      }
+    },
+    {
+      "prefix": 100,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00100.gz",
+      "sha256": "9b48999bfac01a8dd073007f583d30e1b01d5e7eebb71b457d19d181735bf143",
+      "rows": 13,
+      "uncompressed_sha256": "f99abe86212bc304d2107a3bbadb623ce7f15c476fe48e24e850ad8293942cf2",
+      "bytes": 394134,
+      "plain_bytes": 1397793,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 394134,
+        "returned_bytes": 394134,
+        "initial": {
+          "device": 27,
+          "inode": 1049951,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049951,
+          "bytes": 376421
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049951,
+          "bytes": 394134
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049951,
+          "bytes": 394134
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049951,
+          "bytes": 394134
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049951,
+          "bytes": 394134
+        }
+      }
+    },
+    {
+      "prefix": 150,
+      "path": "landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00150.gz",
+      "sha256": "0e59dccb3b4895c60757026fb0e6b31fa2333be4b9d553fee4615e55be753a38",
+      "rows": 13,
+      "uncompressed_sha256": "a735090d6dfef0753fc7fb6f030582feb21c61954a561a0ee66ab7dbab93afb9",
+      "bytes": 467153,
+      "plain_bytes": 1527493,
+      "write_audit": {
+        "calls": 22,
+        "requested_bytes": 467153,
+        "returned_bytes": 467153,
+        "initial": {
+          "device": 27,
+          "inode": 1049955,
+          "bytes": 0
+        },
+        "before_finalize": {
+          "device": 27,
+          "inode": 1049955,
+          "bytes": 466623
+        },
+        "after_finalize": {
+          "device": 27,
+          "inode": 1049955,
+          "bytes": 467153
+        },
+        "after_close": {
+          "device": 27,
+          "inode": 1049955,
+          "bytes": 467153
+        },
+        "after_readback": {
+          "device": 27,
+          "inode": 1049955,
+          "bytes": 467153
+        },
+        "after_publication": {
+          "device": 27,
+          "inode": 1049955,
+          "bytes": 467153
+        }
+      }
+    }
+  ],
+  "root_cause_repaired": false,
+  "scope": "output container mitigation only"
+}

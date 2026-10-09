@@ -1,0 +1,191 @@
+{
+  "schema_id": "experiment-run-plan",
+  "schema_version": "1.0.0",
+  "run_id": "native-lowdim-baseline-matrix-final-repair-01",
+  "purpose": "engineering",
+  "evidence_mode": "developmental",
+  "protocol_ref": null,
+  "protocol_digest": null,
+  "output_root": "runs/attempts",
+  "provenance": {
+    "git_revision": "a328a4d836c498bd2c0eb036e48ac9e622107254",
+    "model_revision": "not_applicable_existing_baselines_no_model",
+    "data_revision": "rice_blob_745655b79f4ca46a3a65a0a8653bd792fa6f7c31_skin_blob_fc58dda2eaf5b1f0d2d8c7924a298cd7d14ba17d_first3000_offline_scaled",
+    "environment_digest": "4562a986dcbac6a6ea0cbf20ce46f48570b5f64f35b2eef0000f9d97da6c996e",
+    "environment_refs": [
+      {
+        "path": "evidence/environment-preparation.json",
+        "sha256": "4562a986dcbac6a6ea0cbf20ce46f48570b5f64f35b2eef0000f9d97da6c996e"
+      }
+    ],
+    "repair_of_attempt": "rice-skin-lowdim-existing-baseline-matrix-repair-a1-ff7ec599eafb41258231aa7dc8473f6e",
+    "repair_failure": "lowdim_matrix_output_mutation_after_terminal_receipt",
+    "repair_ordinal": 2,
+    "repair_of_attempts": [
+      "rice-skin-lowdim-existing-baseline-matrix-a1-86d48c102a9d4a22862ba72047016fb7",
+      "rice-skin-lowdim-existing-baseline-matrix-repair-a1-ff7ec599eafb41258231aa7dc8473f6e"
+    ]
+  },
+  "limits": {
+    "max_attempts": 1,
+    "max_development_trials": 1,
+    "max_confirmation_trials": 0,
+    "max_retries_per_trial": 0,
+    "wall_time_seconds": 180,
+    "attempt_timeout_seconds": 180
+  },
+  "jobs": [
+    {
+      "trial_id": "rice-skin-lowdim-existing-baseline-matrix-final-repair",
+      "command": [
+        "/usr/bin/env",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "MKL_NUM_THREADS=1",
+        "NUMEXPR_NUM_THREADS=1",
+        "VECLIB_MAXIMUM_THREADS=1",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "run_lowdim_baseline_matrix.py",
+        "--rice-source",
+        "originals/Rice_Cammeo_Osmancik.arff",
+        "--skin-source",
+        "originals/Skin_NonSkin.txt",
+        "--output",
+        "evidence/baselines/lowdim-matrix-manifest-v3.json"
+      ],
+      "cwd": ".",
+      "input_refs": [
+        {
+          "path": "LOWDIM_BASELINE_MATRIX_20261009.md",
+          "sha256": "ff5fc67804d5aa705b2c4ae5b2cefebea0bf2391502b13a663ad0d29b1cd0ea2"
+        },
+        {
+          "path": "originals/Rice_Cammeo_Osmancik.arff",
+          "sha256": "1af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665"
+        },
+        {
+          "path": "originals/Skin_NonSkin.txt",
+          "sha256": "008f1fb6a169498dec54fb5951be6478e5465942cc4f6df3b5dabbe484c9a98f"
+        },
+        {
+          "path": "LOWDIM_BASELINE_MATRIX_REPAIR_EXECUTION_20261009.md",
+          "sha256": "828c76a2721dc8c5966d9f5fdc4dee130e75a2fde898f36d0cf855fc73160f17"
+        },
+        {
+          "path": "LOWDIM_BASELINE_MATRIX_REPAIR_EVIDENCE_REVIEW.md",
+          "sha256": "5991778f0658249894c1fe4fe2be643c32abf3eacd4a746abb0764858f4e915c"
+        },
+        {
+          "path": "LOWDIM_BASELINE_MATRIX_FINAL_REPAIR_20261009.md",
+          "sha256": "5c69a676b5326615eef56db59acc41b571210bf27806fff9a4db89823078b703"
+        },
+        {
+          "path": "LOWDIM_BASELINE_MATRIX_FINAL_REPAIR_SOURCE_REVIEW.md",
+          "sha256": "187328765944d0a115a32aeddb5142246cc2672b2b0596a8a0078e2f8aca1508"
+        }
+      ],
+      "code_refs": [
+        {
+          "path": "run_lowdim_baseline_matrix.py",
+          "sha256": "4934100cd9e7b4d91aee361d1c8e09b7f3fb790e06784c137df7a3a012bfab20"
+        },
+        {
+          "path": "native_baselines.py",
+          "sha256": "81c3309e659d1d9fdb69040b9becc6009bbe29b84a36aae8bac89ea6737e2c7c"
+        },
+        {
+          "path": "baseline_qualify.py",
+          "sha256": "d5566e2177064d0ddd9f940323ca7d10dfb0d9fef14d93f8ba6d16bde54dd934"
+        }
+      ],
+      "output_paths": [
+        "evidence/baselines/lowdim-matrix-manifest-v3.json",
+        "evidence/baselines/lowdim-rice-k1.tar.gz",
+        "evidence/baselines/lowdim-skin-k1.tar.gz",
+        "evidence/baselines/lowdim-skin-k2.tar.gz",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__algorithm4-c1p1.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__algorithm4-c1p1.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__algorithm4-c2p0.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__algorithm4-c2p0.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__algorithm4-c2p5.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__algorithm4-c2p5.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__algorithm4-c5p0.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__algorithm4-c5p0.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__algorithm4-c10p0.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__algorithm4-c10p0.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__algorithm4-c100p0.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__algorithm4-c100p0.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__fresh-default.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__fresh-default.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__fixed-default.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__fixed-default.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__periodic-interval10.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__periodic-interval10.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__periodic-interval100.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__periodic-interval100.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__fd-ell2.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__fd-ell2.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__fd-ell4.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__fd-ell4.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__author_fd-ell2.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/rice-k1__author_fd-ell2.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__algorithm4-c1p1.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__algorithm4-c1p1.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__algorithm4-c2p0.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__algorithm4-c2p0.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__algorithm4-c2p5.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__algorithm4-c2p5.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__algorithm4-c5p0.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__algorithm4-c5p0.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__algorithm4-c10p0.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__algorithm4-c10p0.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__algorithm4-c100p0.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__algorithm4-c100p0.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__fresh-default.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__fresh-default.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__fixed-default.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__fixed-default.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__periodic-interval10.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__periodic-interval10.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__periodic-interval100.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__periodic-interval100.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__fd-ell2.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__fd-ell2.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__fd-ell3.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__fd-ell3.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__author_fd-ell2.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k1__author_fd-ell2.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c1p1.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c1p1.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c1p5.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c1p5.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c2p0.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c2p0.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c2p5.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c2p5.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c5p0.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c5p0.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c10p0.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c10p0.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c100p0.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__algorithm4-c100p0.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__fresh-default.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__fresh-default.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__fixed-default.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__fixed-default.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__periodic-interval10.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__periodic-interval10.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__periodic-interval100.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__periodic-interval100.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__fd-ell3.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__fd-ell3.summary.json",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__author_fd-ell2.jsonl",
+        "evidence/baselines/lowdim-matrix-raw-v3/skin-k2__author_fd-ell2.summary.json"
+      ],
+      "seed": 20261009,
+      "group": "native-lowdim-existing-baseline-development-matrix",
+      "arm_role": "preparation"
+    }
+  ],
+  "plan_digest": "d30ea8255bb5b1c7f3eef43389b9399b63092f7ac782959dac8859d7bb863582"
+}

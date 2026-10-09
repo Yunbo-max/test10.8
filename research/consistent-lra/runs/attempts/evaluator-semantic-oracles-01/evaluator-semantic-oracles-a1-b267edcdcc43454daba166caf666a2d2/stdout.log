@@ -1,0 +1,1 @@
+{"output": "evidence/qualification/evaluator-semantic-oracles.json", "all_checks_passed": true, "check_count": 25, "usage": {"wall_seconds": 0.0018417730025248602, "cpu_seconds": 0.0014270000000000393, "max_rss_kib": 114008}}

@@ -1,0 +1,31 @@
+{
+  "format": "scoped-independent-execution-plan-review-assignment-v1",
+  "task_id": "evaluator-semantic-oracle-plan-review",
+  "registered_order": 21,
+  "candidate_commit": "19a46f250bc196c3892e1a01edb6c8a5d7b7440d",
+  "plan_paths": [
+    "research/consistent-lra/plans/native-evaluator-semantic-oracles.json",
+    "research/consistent-lra/plans/harness-evaluator-semantic-oracles.json"
+  ],
+  "implementation_paths": [
+    "research/consistent-lra/evaluator_semantic_oracles.py",
+    "research/consistent-lra/EVALUATOR_SEMANTIC_ORACLES_20261009.md",
+    "research/consistent-lra/baseline_qualify.py",
+    "research/consistent-lra/REPAIR_CONTRACT_v1.md"
+  ],
+  "review_questions": [
+    "Do all analytic expected values and independent projector calculations implement the frozen loss, fresh-tail and rank-varying recourse definitions?",
+    "Are the fixed-seed algebraic cases clearly software oracles rather than replacement benchmark or scientific evidence?",
+    "Do code/input hashes, output path, native and harness digests validate, with one attempt, zero retries and finite one-CPU/256-MiB/30-second bounds?",
+    "Are official scorer parity, native total recourse, FD correctness, performance and all scientific gates explicitly outside scope?",
+    "If accepted, is the exact candidate safe to execute through the pinned harness without package installation, GPU, network or paid service?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "native_scoring": false,
+  "budget_effect": {
+    "registered_task_assignments": 1,
+    "executable_attempts_if_later_dispatched": 1,
+    "scientific_experiments": 0
+  }
+}

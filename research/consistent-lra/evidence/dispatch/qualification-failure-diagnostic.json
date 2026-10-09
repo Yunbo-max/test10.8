@@ -1,0 +1,27 @@
+{
+  "observed_at": "2026-10-09T10:01:30.717849+00:00",
+  "attempt_id": "landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d",
+  "retained_partial_outputs": [
+    {
+      "path": "runs/attempts/landmark-stage-a-qualification-02/landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d/workspace/evidence/qualification/landmark-stage-a-qualification.timings.jsonl.gz.partial",
+      "bytes": 1136307,
+      "sha256": "b0aae387bf0fbe7a55aa8e8e2d6b3dafe883ddb8fc5a64b3e11e367f9405bd88",
+      "git_blob": "29c7836b403ffb37eea6d5faf599158d3f61a7dd",
+      "gzip_eof": true,
+      "complete_lines": 65000,
+      "decoded_bytes": 12066773,
+      "scientific_claim_eligible": false
+    },
+    {
+      "path": "runs/attempts/landmark-stage-a-qualification-02/landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d/workspace/evidence/qualification/landmark-stage-a-qualification.oracles.jsonl.gz.partial",
+      "bytes": 7487298,
+      "sha256": "59887942553b6bc85638fd7899a93f7bf53a1d8ba90b13d8cbd46e5e4c4c5cd2",
+      "git_blob": "e50c8f0980338455a8b368744825ddb441ffaaa3",
+      "gzip_eof": false,
+      "complete_lines": 423,
+      "decoded_bytes": 28128363,
+      "scientific_claim_eligible": false
+    }
+  ],
+  "note": "Read-only decompression diagnostic. Incomplete bytes are not repaired, published as successful outputs or used for claims."
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/bb9f262965cf/dddd-work/research/consistent-lra/runs/attempts/native-lowdim-baseline-matrix-repair-01/rice-skin-lowdim-existing-baseline-matrix-repair-a1-ff7ec599eafb41258231aa7dc8473f6e/workspace/run_lowdim_baseline_matrix.py", line 304, in <module>
+    main()
+  File "/workspace/scratch/bb9f262965cf/dddd-work/research/consistent-lra/runs/attempts/native-lowdim-baseline-matrix-repair-01/rice-skin-lowdim-existing-baseline-matrix-repair-a1-ff7ec599eafb41258231aa7dc8473f6e/workspace/run_lowdim_baseline_matrix.py", line 300, in main
+    run(parser.parse_args())
+  File "/workspace/scratch/bb9f262965cf/dddd-work/research/consistent-lra/runs/attempts/native-lowdim-baseline-matrix-repair-01/rice-skin-lowdim-existing-baseline-matrix-repair-a1-ff7ec599eafb41258231aa7dc8473f6e/workspace/run_lowdim_baseline_matrix.py", line 259, in run
+    raise ValueError("retained member changed before manifest publication")
+ValueError: retained member changed before manifest publication

@@ -1,0 +1,10 @@
+{
+  "cpu_max": "800000 100000",
+  "gpu": false,
+  "memory_max": "8589934592",
+  "numeric_threads": 1,
+  "observed_at": "2026-10-09T12:16:34.309437+00:00",
+  "python": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "python_version": "3.12.14",
+  "scope": "existing_exact_lemma_integer_witness_construction_only"
+}

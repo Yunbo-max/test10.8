@@ -1,0 +1,11 @@
+{"processed_prefix": 500, "mode": "qualification", "elapsed_seconds": 9.538895005003724}
+{"processed_prefix": 1000, "mode": "qualification", "elapsed_seconds": 15.265164543001447}
+{"processed_prefix": 1500, "mode": "qualification", "elapsed_seconds": 21.53695098100434}
+{"processed_prefix": 2000, "mode": "qualification", "elapsed_seconds": 28.806156926999392}
+{"processed_prefix": 2500, "mode": "qualification", "elapsed_seconds": 35.96025229200313}
+{"processed_prefix": 3000, "mode": "qualification", "elapsed_seconds": 43.97736959699978}
+{"processed_prefix": 3500, "mode": "qualification", "elapsed_seconds": 52.17820061700331}
+{"processed_prefix": 4000, "mode": "qualification", "elapsed_seconds": 60.56202089600265}
+{"processed_prefix": 4500, "mode": "qualification", "elapsed_seconds": 68.10230889700324}
+{"processed_prefix": 5000, "mode": "qualification", "elapsed_seconds": 76.62756268900557}
+{"output": "evidence/qualification/landmark-stage-a-v2-qualification.json", "mode": "qualification", "maxima": {"opt_absolute_error": 1.5063505998114124e-12, "loss_absolute_error": 1.5063505998114124e-12, "recourse_absolute_error": 4.1435604947182014e-14, "orthogonality_error": 5.538933046436071e-14}, "usage": {"process_cpu_seconds": 76.912867, "pipeline_seconds_before_summary_publication": 76.93647712700476, "maximum_rss_kib": 190604, "shared_reference_seconds": 0.6951153612972121, "identity_oracle_seconds": 0.5048753439623397, "serialization_seconds": 6.36521329965035}}

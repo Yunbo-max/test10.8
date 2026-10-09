@@ -1,0 +1,137 @@
+{
+  "commit": "88df0eef2a37251fc4847642d9d4a6759a421f3a",
+  "readback_method": "fresh git fetch actual branch then git show exact commit bytes for each file; Git content identities and connector exact path/blob SHA agree",
+  "files": [
+    {
+      "path": "BUDGET_OBSERVATION.json",
+      "sha256": "14d8adb67904e1fc494fb6a7871667ac316df95b5cbb87e4a4f2e8127bd88fe8",
+      "bytes": 41930
+    },
+    {
+      "path": "evidence/dispatch/calibration-launcher.py",
+      "sha256": "702a26c98c9444ac80cf949e88eab66268e25368783f215c85d7c865f69d5731",
+      "bytes": 1450
+    },
+    {
+      "path": "evidence/dispatch/calibration-publication-files.json",
+      "sha256": "d59c78ff74b68ea0d598c45ba2505e515e33e7d5290fd039443cba36eeab4b5c",
+      "bytes": 2492
+    },
+    {
+      "path": "evidence/dispatch/landmark-stage-a-calibration-02.json",
+      "sha256": "cf1689a495807da6364324b29792b95a33280668425f8c43e5fe578a71d061ae",
+      "bytes": 836
+    },
+    {
+      "path": "evidence/dispatch/landmark-stage-a-calibration-02.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evidence/dispatch/landmark-stage-a-calibration-02.stdout.log",
+      "sha256": "881a335e62648816f9aacc142a5cc543e6d745f109b594f6fa4c205b2182da79",
+      "bytes": 2658
+    },
+    {
+      "path": "evidence/dispatch/landmark-stage-a-calibration-collection.json",
+      "sha256": "a494ad3c39a355aeca0f9980fd7ebdcaafb1132980b31f9e627eb645c4a14557",
+      "bytes": 3850
+    },
+    {
+      "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/attempt.json",
+      "sha256": "06e0db6fd40a141ecea4ad68939e320b2920372120ac3318980e2665c77af95c",
+      "bytes": 4907
+    },
+    {
+      "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/process-guard.json",
+      "sha256": "b7ec50d43091ede6d50e3e3a00d94919ea4fe6a9f7420f3dfa28cf7e2743ec8e",
+      "bytes": 945
+    },
+    {
+      "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/stdout.log",
+      "sha256": "e28c9bff21ab0008fe4d304576c2d2506a43d593ecbdefc47a9ddcfb86805f55",
+      "bytes": 573
+    },
+    {
+      "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/workspace/evidence/qualification/landmark-stage-a-calibration.json",
+      "sha256": "8dc333232ddf5ece324f622c0af55d62efd6a10843c40d29fa0881f7bbfa3b6c",
+      "bytes": 18229
+    },
+    {
+      "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/workspace/evidence/qualification/landmark-stage-a-calibration.oracles.jsonl.gz",
+      "sha256": "dd826c3a06f82424fceb76623b353ab840d98a8593e744699dcc4a6988d86fd5",
+      "bytes": 4234569
+    },
+    {
+      "path": "runs/attempts/landmark-stage-a-calibration-02/landmark-stage-a-cost-a1-31d81fec81e24b6c990f62d84f96a77c/workspace/evidence/qualification/landmark-stage-a-calibration.timings.jsonl.gz",
+      "sha256": "e4831c96fbdcc9f3b7751247ab5df47dc76668c8d13681aea94aa88cbeb42ed2",
+      "bytes": 34353
+    },
+    {
+      "path": "runs/attempts/landmark-stage-a-calibration-02/plan.json",
+      "sha256": "2d7ab538d67983f35400f6860fe378484acce3331fbf281e8aff8f885869e5ec",
+      "bytes": 3562
+    },
+    {
+      "path": "runs/attempts/landmark-stage-a-calibration-02/receipt.json",
+      "sha256": "2fda337ff5c43ac24ecc0a17569f17955f546bbbb30e0c20f47ddfcfb9c9b7d4",
+      "bytes": 5795
+    },
+    {
+      "path": "runs/harness/landmark-stage-a-calibration-batch-02/events.jsonl",
+      "sha256": "a3ace12abd259fa5974460c6485167059cf3e0699ab21a64e9274a310f021019",
+      "bytes": 517
+    },
+    {
+      "path": "runs/harness/landmark-stage-a-calibration-batch-02/plan.json",
+      "sha256": "0d7bff76d4051bb6c6c10110754f9dd52781c76cd08adf3583efd9739b9bf0cf",
+      "bytes": 931
+    },
+    {
+      "path": "runs/harness/landmark-stage-a-calibration-batch-02/report.json",
+      "sha256": "881a335e62648816f9aacc142a5cc543e6d745f109b594f6fa4c205b2182da79",
+      "bytes": 2658
+    },
+    {
+      "path": "runs/harness/landmark-stage-a-calibration-batch-02/state.json",
+      "sha256": "4b9679057ad247e40361f4cb94f8696fe7e5e43be584a808e8615c339b0dbd33",
+      "bytes": 2271
+    },
+    {
+      "path": "runs/harness/landmark-stage-a-calibration-batch-02/tasks/landmark-stage-a-calibration-02/execution-context.json",
+      "sha256": "13e28407714bb693d7141d8459d8addfd183b10421e757a04e05aec54c5bcf92",
+      "bytes": 613
+    },
+    {
+      "path": "runs/harness/landmark-stage-a-calibration-batch-02/tasks/landmark-stage-a-calibration-02/process.json",
+      "sha256": "ae020074a9fcc75b89be452df55aed4d701b7ef42eea0432d0b334c7a0e1540b",
+      "bytes": 88
+    },
+    {
+      "path": "runs/harness/landmark-stage-a-calibration-batch-02/tasks/landmark-stage-a-calibration-02/result.json",
+      "sha256": "ef422caea1c18f2a652e8a72252ebf012376b8b10fdcc3d37da866097836d244",
+      "bytes": 1351
+    },
+    {
+      "path": "runs/harness/landmark-stage-a-calibration-batch-02/tasks/landmark-stage-a-calibration-02/task.json",
+      "sha256": "9d074f1c2488738be6a2379752fe49dff20b4194335f83bec21cc27c5049a4d6",
+      "bytes": 458
+    },
+    {
+      "path": "runs/harness/landmark-stage-a-calibration-batch-02/tasks/landmark-stage-a-calibration-02/worker.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "runs/harness/landmark-stage-a-calibration-batch-02/tasks/landmark-stage-a-calibration-02/worker.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "all_exact": true
+}

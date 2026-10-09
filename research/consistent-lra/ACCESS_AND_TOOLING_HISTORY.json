@@ -1,0 +1,30 @@
+{
+  "format": "source-access-history-v1",
+  "source_pin": "samsonzhou/consistent-LRA@d607c4f6467216c470d1e3b93989d44d5fcdec97",
+  "events": [
+    {
+      "asset": "Skin_NonSkin.txt",
+      "event": "fetch_file above 1MiB returned empty content metadata; fetch_blob succeeded with full UTF8",
+      "scientific_attempt": false,
+      "resolved": true
+    },
+    {
+      "asset": "landmark.mtx",
+      "git_blob": "4c63060bbefcb38e0c705cea1f883d2fb7121f2c",
+      "size_bytes": 34964305,
+      "event": "fetch_blob rejected because response body exceeds 8388608 bytes",
+      "scientific_attempt": false,
+      "resolved": true,
+      "raw_matrix_not_present_in_destination_git": true,
+      "resolution": "read-only partial Git checkout of the frozen author commit; exact root blob and ZIP-embedded copy matched byte-for-byte",
+      "sha256": "29fb87018e59049a52314c847c5ac2a4eaa3b875f7cd8467621fe074fbbc298b"
+    },
+    {
+      "asset": "consistent-lra-random.py and consistent-lra-random-fast.py",
+      "event": "shortened initial filename requests returned404; corrected from actual pinned directory and read full released names",
+      "scientific_attempt": false,
+      "resolved": true
+    }
+  ],
+  "failure_limits_note": "Tooling/access corrections are retained; no empirical candidate failure or scorer parity failure is invented."
+}

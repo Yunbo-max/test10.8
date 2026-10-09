@@ -1,0 +1,3 @@
+{"event":"batch_started","observed_at":"2026-10-09T06:40:56.494560Z","plan_digest":"570f6c67bd609cf2adc75144948a3baa897c91d120ca227d2fba9737c6aecf06"}
+{"devices":[],"event":"task_started","launcher_pid":5,"native_plan_digest":"568c5193935ff57d686cde51b8fe46e9a6e7a0a1776e43b89d928ac321635f57","observed_at":"2026-10-09T06:40:56.521423Z","task_id":"landmark-reference-calibration-01"}
+{"event":"task_finished","observed_at":"2026-10-09T06:40:59.527499Z","status":"completed","task_id":"landmark-reference-calibration-01"}

@@ -1,0 +1,22 @@
+{
+  "format": "scoped-independent-source-correction-review-assignment-v1",
+  "task_id": "sampling-source-qualification-correction-re-review",
+  "registered_order": 14,
+  "candidate_path": "research/consistent-lra/SAMPLING_SOURCE_QUALIFICATION_20261009.md",
+  "candidate_commit": "b8651edf183ff8103aa97823c044d79a9b9cef99",
+  "prior_candidate_commit": "77429350ae1513ae0f6825b7d07c4b0825288b43",
+  "prior_verdict": "needs_correction",
+  "review_questions": [
+    "Is the arXiv v6 date corrected to 11 April 2023?",
+    "Is the fallback stated only on the joint high-probability all-prefix-PCP and sample-size event?",
+    "Is append-only event counting qualified for theoretical Algorithm 5 while executable parity remains pending?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "native_scoring": false,
+  "budget_effect": {
+    "registered_task_assignments": 1,
+    "executable_attempts": 0,
+    "scientific_experiments": 0
+  }
+}

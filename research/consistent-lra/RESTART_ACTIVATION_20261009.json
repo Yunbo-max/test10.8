@@ -1,0 +1,76 @@
+{
+  "observed_service": "6ac82bb085c081919fa92002384b073b",
+  "conversation_id": "6ac827e6-de58-83eb-9487-8a2ab69c90e5",
+  "observed_is_enabled": true,
+  "observed_updated_at": "2026-10-09T09:19:21.119437+00:00",
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/London:20261009T111543\nRRULE:FREQ=HOURLY;COUNT=8\nEND:VEVENT",
+  "next_run_time": null,
+  "prompt_exact_readback_matched": true,
+  "setup_commit": "28893b0a78d1a826f0a8321c810f078616ccaf04",
+  "control_readbacks": [
+    {
+      "path": "BACKGROUND_TASK.json",
+      "blob": "09099ec1d827a6a9eb94fb3a414cc8efd1e06fed",
+      "exact_bytes_matched": true
+    },
+    {
+      "path": "BUDGET_OBSERVATION.json",
+      "blob": "8cfac81e5f14bfa99f32fb0ad5e64f2e1c91b5a3",
+      "exact_bytes_matched": true
+    },
+    {
+      "path": "workflow-checkpoint.yaml",
+      "blob": "b7e958d86ce2f2c3dbe73712a291bf958a5cb3a0",
+      "exact_bytes_matched": true
+    },
+    {
+      "path": "AGENTS.md",
+      "blob": "ce649defbcdd0b142e7f85c9635192ece3379525",
+      "exact_bytes_matched": true
+    },
+    {
+      "path": "GOAL.md",
+      "blob": "6977cbb448bc3579b57e17e18c109647fd11b39c",
+      "exact_bytes_matched": true
+    },
+    {
+      "path": "EXECUTION_SCOPE.md",
+      "blob": "a82566d9d9013947d66ff3fd21c4d39c5af87745",
+      "exact_bytes_matched": true
+    },
+    {
+      "path": "SOURCES.md",
+      "blob": "7dfba16f0279b038ce60770791d950b12fa60155",
+      "exact_bytes_matched": true
+    },
+    {
+      "path": "RESUME.md",
+      "blob": "4f9c8c653e910a20c3ef8e4582ae8742bddef84a",
+      "exact_bytes_matched": true
+    },
+    {
+      "path": "README.md",
+      "blob": "e6806c812a7ff51f015622a4a5f921cfef37ed97",
+      "exact_bytes_matched": true
+    },
+    {
+      "path": "RESTART_AUTHORIZATION_20261009.md",
+      "blob": "5f32c3eee72544d0c8a99f1b0d45ff1fea750676",
+      "exact_bytes_matched": true
+    },
+    {
+      "path": "AUTOMATION_PROMPT.zh-CN.md",
+      "blob": "3745b38cb2444b71c33602085ec90206d776b2b3",
+      "exact_bytes_matched": true
+    }
+  ],
+  "immediate_request_status": "not_yet_requested; next_bootstrap_action_exactly_once; worker_must_not_retrigger",
+  "scientific_process_started_by_bootstrap": false,
+  "writer_handoff": "Bootstrap publishes this receipt, exact-readbacks it, requests immediate once, and performs no subsequent repository mutations; worker owns integration thereafter.",
+  "new_wall_window": {
+    "start": "2026-10-09T09:15:43Z",
+    "deadline": "2026-10-09T17:15:43Z",
+    "window": "cpu-window-02-20261009",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/London:20261009T111543\nRRULE:FREQ=HOURLY;COUNT=8\nEND:VEVENT"
+  }
+}

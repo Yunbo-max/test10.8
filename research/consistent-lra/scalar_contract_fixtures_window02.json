@@ -1,0 +1,961 @@
+{
+  "format": "scalar-engineering-fixtures-v1",
+  "qualification_executed": false,
+  "scope": "software_fixtures_not_scientific_samples",
+  "cases": [
+    {
+      "id": "energy-below-one",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": false,
+        "opt": "0x1.12e0be826d695p-29",
+        "near_zero": false,
+        "loss_fallback": false,
+        "loss": "0x1.9c511dc3a41dfp-29",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": "0x1.8000000000000p+0",
+        "excess": "0x1.12e0be826d694p-30",
+        "energy_normalized_excess": "0x1.12e0be826d694p-28",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "qualified_gram",
+        "loss_source": "qualified_gram"
+      }
+    },
+    {
+      "id": "zero-energy",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x0.0p+0",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x0.0p+0",
+        "gram_loss": "0x0.0p+0",
+        "direct_loss": "0x0.0p+0",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x0.0p+0",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x0.0p+0",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": null,
+        "excess": "0x0.0p+0",
+        "energy_normalized_excess": null,
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "energy-above-one",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p+1",
+        "gram_opt": "0x1.12e0be826d695p-28",
+        "direct_opt": "0x1.12e0be826d695p-28",
+        "gram_loss": "0x1.12e0be826d695p-27",
+        "direct_loss": "0x1.12e0be826d695p-27",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-33",
+        "band": "0x1.12e0be826d695p-29",
+        "opt_fallback": false,
+        "opt": "0x1.12e0be826d695p-28",
+        "near_zero": false,
+        "loss_fallback": false,
+        "loss": "0x1.12e0be826d695p-27",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": "0x1.0000000000000p+1",
+        "excess": "0x1.12e0be826d695p-28",
+        "energy_normalized_excess": "0x1.12e0be826d695p-29",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "qualified_gram",
+        "loss_source": "qualified_gram"
+      }
+    },
+    {
+      "id": "direct-opt-tau-below",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x1.b7cdfd9d7bdbap-34",
+        "gram_loss": "0x1.12e0be826d695p-29",
+        "direct_loss": "0x1.b7cdfd9d7bdbbp-35",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x1.b7cdfd9d7bdbap-34",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x1.b7cdfd9d7bdbbp-35",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": null,
+        "excess": "-0x1.b7cdfd9d7bdb9p-35",
+        "energy_normalized_excess": "-0x1.b7cdfd9d7bdb9p-33",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "direct-opt-tau-equal",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x1.b7cdfd9d7bdbbp-34",
+        "gram_loss": "0x1.12e0be826d695p-29",
+        "direct_loss": "0x1.b7cdfd9d7bdbbp-35",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x1.b7cdfd9d7bdbbp-34",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x1.b7cdfd9d7bdbbp-35",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": null,
+        "excess": "-0x1.b7cdfd9d7bdbbp-35",
+        "energy_normalized_excess": "-0x1.b7cdfd9d7bdbbp-33",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "direct-opt-tau-above",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x1.b7cdfd9d7bdbcp-34",
+        "gram_loss": "0x1.12e0be826d695p-29",
+        "direct_loss": "0x1.b7cdfd9d7bdbbp-35",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x1.b7cdfd9d7bdbcp-34",
+        "near_zero": false,
+        "loss_fallback": false,
+        "loss": "0x1.12e0be826d695p-29",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": "0x1.3ffffffffffffp+4",
+        "excess": "0x1.05224e95818a7p-29",
+        "energy_normalized_excess": "0x1.05224e95818a7p-27",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "qualified_gram"
+      }
+    },
+    {
+      "id": "gram-opt-band-below",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d694p-30",
+        "direct_opt": "0x1.b7cdfd9d7bdbbp-35",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.07e1fe91b0b70p-35",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x1.b7cdfd9d7bdbbp-35",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x1.07e1fe91b0b70p-35",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": null,
+        "excess": "-0x1.5fd7fe1796496p-36",
+        "energy_normalized_excess": "-0x1.5fd7fe1796496p-34",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "gram-opt-band-equal",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-30",
+        "direct_opt": "0x1.b7cdfd9d7bdbbp-35",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.07e1fe91b0b70p-35",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x1.b7cdfd9d7bdbbp-35",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x1.07e1fe91b0b70p-35",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": null,
+        "excess": "-0x1.5fd7fe1796496p-36",
+        "energy_normalized_excess": "-0x1.5fd7fe1796496p-34",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "gram-opt-band-above",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d696p-30",
+        "direct_opt": "0x1.b7cdfd9d7bdbbp-35",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.07e1fe91b0b70p-35",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": false,
+        "opt": "0x1.12e0be826d696p-30",
+        "near_zero": false,
+        "loss_fallback": false,
+        "loss": "0x1.9c511dc3a41dfp-29",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": "0x1.7fffffffffffep+1",
+        "excess": "0x1.12e0be826d694p-29",
+        "energy_normalized_excess": "0x1.12e0be826d694p-27",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "qualified_gram",
+        "loss_source": "qualified_gram"
+      }
+    },
+    {
+      "id": "gram-loss-band-below",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.12e0be826d694p-30",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": false,
+        "opt": "0x1.12e0be826d695p-29",
+        "near_zero": false,
+        "loss_fallback": true,
+        "loss": "0x1.9c511dc3a41dfp-29",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": "0x1.8000000000000p+0",
+        "excess": "0x1.12e0be826d694p-30",
+        "energy_normalized_excess": "0x1.12e0be826d694p-28",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "qualified_gram",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "gram-loss-band-equal",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.12e0be826d695p-30",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": false,
+        "opt": "0x1.12e0be826d695p-29",
+        "near_zero": false,
+        "loss_fallback": true,
+        "loss": "0x1.9c511dc3a41dfp-29",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": "0x1.8000000000000p+0",
+        "excess": "0x1.12e0be826d694p-30",
+        "energy_normalized_excess": "0x1.12e0be826d694p-28",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "qualified_gram",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "gram-loss-band-above",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.12e0be826d696p-30",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": false,
+        "opt": "0x1.12e0be826d695p-29",
+        "near_zero": false,
+        "loss_fallback": false,
+        "loss": "0x1.12e0be826d696p-30",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": "0x1.0000000000001p-1",
+        "excess": "-0x1.12e0be826d694p-30",
+        "energy_normalized_excess": "-0x1.12e0be826d694p-28",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "qualified_gram",
+        "loss_source": "qualified_gram"
+      }
+    },
+    {
+      "id": "direct-loss-tau-below",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x0.0p+0",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.b7cdfd9d7bdbap-34",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x0.0p+0",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x1.b7cdfd9d7bdbap-34",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": null,
+        "excess": "0x1.b7cdfd9d7bdbap-34",
+        "energy_normalized_excess": "0x1.b7cdfd9d7bdbap-32",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "direct-loss-tau-equal",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x0.0p+0",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.b7cdfd9d7bdbbp-34",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x0.0p+0",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x1.b7cdfd9d7bdbbp-34",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": null,
+        "excess": "0x1.b7cdfd9d7bdbbp-34",
+        "energy_normalized_excess": "0x1.b7cdfd9d7bdbbp-32",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "direct-loss-tau-above",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x0.0p+0",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.b7cdfd9d7bdbcp-34",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x0.0p+0",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x1.b7cdfd9d7bdbcp-34",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": null,
+        "excess": "0x1.b7cdfd9d7bdbcp-34",
+        "energy_normalized_excess": "0x1.b7cdfd9d7bdbcp-32",
+        "near_zero_positive_loss_violation": true,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "nearzero-forces-large-loss-direct",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x0.0p+0",
+        "gram_loss": "0x1.999999999999ap-4",
+        "direct_loss": "0x1.b7cdfd9d7bdbbp-33",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x0.0p+0",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x1.b7cdfd9d7bdbbp-33",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": null,
+        "excess": "0x1.b7cdfd9d7bdbbp-33",
+        "energy_normalized_excess": "0x1.b7cdfd9d7bdbbp-31",
+        "near_zero_positive_loss_violation": true,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "direct-opt-crosses-above-tau",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x1.b7cdfd9d7bdbbp-33",
+        "gram_loss": "0x1.999999999999ap-4",
+        "direct_loss": "0x1.999999999999ap-5",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x1.b7cdfd9d7bdbbp-33",
+        "near_zero": false,
+        "loss_fallback": false,
+        "loss": "0x1.999999999999ap-4",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": "0x1.dcd6500000000p+28",
+        "excess": "0x1.9999998bdb29bp-4",
+        "energy_normalized_excess": "0x1.9999998bdb29bp-2",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "qualified_gram"
+      }
+    },
+    {
+      "id": "certain-opt-uncertain-loss",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x0.0p+0",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": false,
+        "opt": "0x1.12e0be826d695p-29",
+        "near_zero": false,
+        "loss_fallback": true,
+        "loss": "0x1.9c511dc3a41dfp-29",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": "0x1.8000000000000p+0",
+        "excess": "0x1.12e0be826d694p-30",
+        "energy_normalized_excess": "0x1.12e0be826d694p-28",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "qualified_gram",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "signed-negative-excess",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.12e0be826d694p-29",
+        "direct_loss": "0x1.12e0be826d694p-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": false,
+        "opt": "0x1.12e0be826d695p-29",
+        "near_zero": false,
+        "loss_fallback": false,
+        "loss": "0x1.12e0be826d694p-29",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": "0x1.ffffffffffffep-1",
+        "excess": "-0x1.0000000000000p-81",
+        "energy_normalized_excess": "-0x1.0000000000000p-79",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "qualified_gram",
+        "loss_source": "qualified_gram"
+      }
+    },
+    {
+      "id": "initialization-excluded",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 1,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": false,
+        "opt": "0x1.12e0be826d695p-29",
+        "near_zero": false,
+        "loss_fallback": false,
+        "loss": "0x1.9c511dc3a41dfp-29",
+        "increment": "0x0.0p+0",
+        "ratio": "0x1.8000000000000p+0",
+        "excess": "0x1.12e0be826d694p-30",
+        "energy_normalized_excess": "0x1.12e0be826d694p-28",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "qualified_gram",
+        "loss_source": "qualified_gram"
+      }
+    },
+    {
+      "id": "prefix-two-included",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": false,
+        "opt": "0x1.12e0be826d695p-29",
+        "near_zero": false,
+        "loss_fallback": false,
+        "loss": "0x1.9c511dc3a41dfp-29",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": "0x1.8000000000000p+0",
+        "excess": "0x1.12e0be826d694p-30",
+        "energy_normalized_excess": "0x1.12e0be826d694p-28",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "qualified_gram",
+        "loss_source": "qualified_gram"
+      }
+    },
+    {
+      "id": "positive-small-energy",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-20",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": false,
+        "opt": "0x1.12e0be826d695p-29",
+        "near_zero": false,
+        "loss_fallback": false,
+        "loss": "0x1.9c511dc3a41dfp-29",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": "0x1.8000000000000p+0",
+        "excess": "0x1.12e0be826d694p-30",
+        "energy_normalized_excess": "0x1.12e0be826d694p-10",
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "qualified_gram",
+        "loss_source": "qualified_gram"
+      }
+    },
+    {
+      "id": "zero-energy-initial",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x0.0p+0",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x0.0p+0",
+        "gram_loss": "0x0.0p+0",
+        "direct_loss": "0x0.0p+0",
+        "t": 1,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x0.0p+0",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x0.0p+0",
+        "increment": "0x0.0p+0",
+        "ratio": null,
+        "excess": "0x0.0p+0",
+        "energy_normalized_excess": null,
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
+    },
+    {
+      "id": "zero-energy-later",
+      "scope": "software_fixture_only",
+      "inputs": {
+        "energy": "0x0.0p+0",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": "0x0.0p+0",
+        "gram_loss": "0x0.0p+0",
+        "direct_loss": "0x0.0p+0",
+        "t": 5000,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected": {
+        "tolerance": "0x1.b7cdfd9d7bdbbp-34",
+        "band": "0x1.12e0be826d695p-30",
+        "opt_fallback": true,
+        "opt": "0x0.0p+0",
+        "near_zero": true,
+        "loss_fallback": true,
+        "loss": "0x0.0p+0",
+        "increment": "0x1.0000000000000p-3",
+        "ratio": null,
+        "excess": "0x0.0p+0",
+        "energy_normalized_excess": null,
+        "near_zero_positive_loss_violation": false,
+        "opt_source": "direct_svd_fallback",
+        "loss_source": "direct_residual_fallback"
+      }
+    }
+  ],
+  "reject_cases": [
+    {
+      "id": "nan-energy",
+      "scope": "runner_input_rejection_only",
+      "inputs": {
+        "energy": "nan",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected_error": "nonfinite_or_negative"
+    },
+    {
+      "id": "inf-loss",
+      "scope": "runner_input_rejection_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "inf",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected_error": "nonfinite_or_negative"
+    },
+    {
+      "id": "negative-energy",
+      "scope": "runner_input_rejection_only",
+      "inputs": {
+        "energy": "-0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected_error": "nonfinite_or_negative"
+    },
+    {
+      "id": "negative-opt",
+      "scope": "runner_input_rejection_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "-0x1.0000000000000p+0",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected_error": "nonfinite_or_negative"
+    },
+    {
+      "id": "negative-loss",
+      "scope": "runner_input_rejection_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "-0x1.0000000000000p+0",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected_error": "nonfinite_or_negative"
+    },
+    {
+      "id": "negative-recourse",
+      "scope": "runner_input_rejection_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "-0x1.0000000000000p+0"
+      },
+      "expected_error": "nonfinite_or_negative"
+    },
+    {
+      "id": "zero-prefix",
+      "scope": "runner_input_rejection_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 0,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected_error": "invalid_prefix"
+    },
+    {
+      "id": "boolean-prefix",
+      "scope": "runner_input_rejection_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": true,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected_error": "invalid_prefix"
+    },
+    {
+      "id": "fractional-prefix",
+      "scope": "runner_input_rejection_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 1.5,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected_error": "invalid_prefix"
+    },
+    {
+      "id": "missing-direct-opt",
+      "scope": "runner_input_rejection_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x0.0p+0",
+        "direct_opt": null,
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected_error": "missing_direct_input"
+    },
+    {
+      "id": "missing-direct-loss",
+      "scope": "runner_input_rejection_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x0.0p+0",
+        "direct_loss": null,
+        "t": 2,
+        "rec": "0x1.0000000000000p-3"
+      },
+      "expected_error": "missing_direct_input"
+    },
+    {
+      "id": "unexpected-input",
+      "scope": "runner_input_rejection_only",
+      "inputs": {
+        "energy": "0x1.0000000000000p-2",
+        "gram_opt": "0x1.12e0be826d695p-29",
+        "direct_opt": "0x1.12e0be826d695p-29",
+        "gram_loss": "0x1.9c511dc3a41dfp-29",
+        "direct_loss": "0x1.9c511dc3a41dfp-29",
+        "t": 2,
+        "rec": "0x1.0000000000000p-3",
+        "unapproved": 0
+      },
+      "expected_error": "unexpected_fields"
+    }
+  ],
+  "accumulator_cohorts": [
+    {
+      "id": "mixed",
+      "case_ids": [
+        "energy-below-one",
+        "zero-energy",
+        "energy-above-one",
+        "direct-opt-tau-below",
+        "direct-opt-tau-equal",
+        "direct-opt-tau-above",
+        "direct-loss-tau-above"
+      ]
+    },
+    {
+      "id": "allundefined",
+      "case_ids": [
+        "zero-energy",
+        "zero-energy-initial",
+        "zero-energy-later"
+      ]
+    }
+  ],
+  "accumulator_other_field_literals": {
+    "cumulative_recourse": [
+      "0x1.1000000000000p+4",
+      "0x1.0800000000000p+5",
+      "0x1.8800000000000p+5",
+      "0x1.0400000000000p+6",
+      "0x1.4400000000000p+6",
+      "0x1.8400000000000p+6",
+      "0x1.c400000000000p+6"
+    ],
+    "steady_recourse": [
+      "0x1.2000000000000p+4",
+      "0x1.1000000000000p+5",
+      "0x1.9000000000000p+5",
+      "0x1.0800000000000p+6",
+      "0x1.4800000000000p+6",
+      "0x1.8800000000000p+6",
+      "0x1.c800000000000p+6"
+    ],
+    "orthogonality_error": [
+      "0x1.3000000000000p+4",
+      "0x1.1800000000000p+5",
+      "0x1.9800000000000p+5",
+      "0x1.0c00000000000p+6",
+      "0x1.4c00000000000p+6",
+      "0x1.8c00000000000p+6",
+      "0x1.cc00000000000p+6"
+    ],
+    "update_seconds": [
+      "0x1.4000000000000p+4",
+      "0x1.2000000000000p+5",
+      "0x1.a000000000000p+5",
+      "0x1.1000000000000p+6",
+      "0x1.5000000000000p+6",
+      "0x1.9000000000000p+6",
+      "0x1.d000000000000p+6"
+    ],
+    "scoring_seconds": [
+      "0x1.5000000000000p+4",
+      "0x1.2800000000000p+5",
+      "0x1.a800000000000p+5",
+      "0x1.1400000000000p+6",
+      "0x1.5400000000000p+6",
+      "0x1.9400000000000p+6",
+      "0x1.d400000000000p+6"
+    ],
+    "shared_reference_seconds": [
+      "0x1.6000000000000p+4",
+      "0x1.3000000000000p+5",
+      "0x1.b000000000000p+5",
+      "0x1.1800000000000p+6",
+      "0x1.5800000000000p+6",
+      "0x1.9800000000000p+6",
+      "0x1.d800000000000p+6"
+    ],
+    "shared_energy_maintenance_seconds": [
+      "0x1.7000000000000p+4",
+      "0x1.3800000000000p+5",
+      "0x1.b800000000000p+5",
+      "0x1.1c00000000000p+6",
+      "0x1.5c00000000000p+6",
+      "0x1.9c00000000000p+6",
+      "0x1.dc00000000000p+6"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+# Independent target-61 finite exact-arithmetic plan review
+
+Actual assignment108 window02-exact-geometric-target61-plan-review. Reviewer /root/window02_consecutive_condition_review. Fixedaf50a74ac331a1fe1d125d7da4bdc5ea76888faa actualgitfetch/gitshow. ACCEPT one target61 attempt, no retry; no reviewer workload/smoke/execution/publication.
+
+NativeSHA6a2220734778d0401847941d6bc816639b91b6a520548a6041316396c7e094c7 digest e1bb32d285072d95b723bb6aa0f019586b7c2294ed84b0f558980923b792707d; outerSHA394ca4352c93d41411523fe4c6f118f1d1d6e63f77205a9933150af411934998 digest34deb544034d52ad591e6f1be2de2e7fe2e8e915be085fc7abe5cd6a36f362f9. All13code/input/planrefs and31vendormanifestentries match fixedproject/actualruntimebytes. Acceptedsource cb16d104... unchanged; allcontract/parents/reviews/calibrationoutputs unchanged.
+
+Argv same stdlib source onlyranks61, fiveenv1, distincttargetJSONL/summarypaths, hardk<=61. Twooutput no-replace/summarylast/hashreadback protocol unchanged. Scope real-parent finite exact identities and strictlowerbound122/15; nofullrecourse/separatev7integerproof/nativeor syntheticbenchmark/newmethod/novelty/paperqualification.
+
+1CPU/1parallel/0GPU/512MiB reserved without OSenforcement;300inner360outerseconds,oneattempt0retry. Freshevidence8corecgroup8GiB, conservative allocation not rank8extrapolation guarantee. Atinspectedledger108assignments19attempts246.292924CPUlowerbound0science/paper;onlytargetresunreleased0launches/unadmitted. Priorfailurespreserved. Rootmust persistactualadmission/counters, recheckclock/singlejob/resources, binddigest, retainpartial/cost onfailure, collectterminalguard/receipts/bothoutputs. Finishbefore17:10:43Zcloseout; staticvalidationfalse no math/executionresult. Actual outcome requiresindependentevidencereview.

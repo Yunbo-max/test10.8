@@ -1,0 +1,4 @@
+{"rank_completed": 1, "scope": "exact_formal_audit_only"}
+{"rank_completed": 2, "scope": "exact_formal_audit_only"}
+{"rank_completed": 8, "scope": "exact_formal_audit_only"}
+{"summary": "evidence/formal/geometric-calibration.summary.json", "summary_identity": {"bytes": 1340, "sha256": "87f8b5586ec3eccd0189e4532ecb94c33c0ee554634bb128610268ab4e18d1d0"}, "record_count": 3, "scientific_gate_advanced": false}
