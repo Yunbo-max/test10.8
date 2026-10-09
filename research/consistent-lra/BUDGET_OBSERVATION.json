@@ -5,10 +5,10 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T03:05:46+00:00",
+  "observed_at": "2026-10-09T03:07:32+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 28,
-  "executable_attempts_dispatched": 6,
+  "executable_attempts_dispatched": 7,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
@@ -179,14 +179,27 @@
       "review": "fd-semantic-oracle-plan-review",
       "initial_verdict": "needs_correction",
       "repair_count": 1,
-      "rereview_verdict": "pending"
+      "rereview_verdict": "accepted"
     }
   ],
   "pending_evaluator_semantic_oracle_evidence_review": null,
   "completed_evaluator_semantic_oracle_evidence_review": "accepted_after_recorded_ledger_needs_correction",
   "pending_fd_semantic_oracle_plan_review": null,
-  "completed_fd_semantic_oracle_plan_review": "needs_correction_dependency_provenance",
-  "pending_fd_semantic_oracle_plan_rereview": "fd-semantic-oracle-plan-rereview",
+  "completed_fd_semantic_oracle_plan_review": "accepted_after_recorded_dependency_provenance_correction",
+  "pending_fd_semantic_oracle_plan_rereview": null,
+  "completed_fd_semantic_oracle_plan_rereview": "accepted",
+  "fd_semantic_oracle_reservation": {
+    "task": "fd-semantic-oracles-01",
+    "purpose": "engineering_fd_source_semantics_only",
+    "cpu_cores_reserved": 1,
+    "ram_mib_reserved_not_enforced": 256,
+    "wall_seconds_upper_bound": 30,
+    "attempts": 1,
+    "retries": 0,
+    "released": false,
+    "native_plan_digest": "729c080b57df1da31f5a2e98a4d25fe99bce47348c60e81576a6204fb2831eef",
+    "harness_plan_digest": "c460d4af7738793ed67ce204f0c69660de45a0f58e392058da880ca2f40b8cae"
+  },
   "unadmitted_development_smoke_history": [
     {
       "direction": "fd_source_semantic_oracles",

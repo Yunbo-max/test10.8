@@ -34,3 +34,25 @@ Initial independently checked values are retained:
 No execution is admitted by this review. Even an accepted correction remains
 software/source qualification, not a theorem proof, native benchmark,
 performance result or scientific gate.
+
+## Correction rereview
+
+Corrected source candidate `c052843d6f9d4389659e71c1a17bcf5f722c048f`,
+corrected plan candidate `f2932a7df6c47bb626cf6cc54cddcc6099d4f63c`,
+assignment `2d6d13726b7febc47563f5705f37f0117fec5061`. The same
+independent reviewer returned **accepted** without execution or writes.
+
+It verified oracle SHA256
+`6a82d80e1c45dfbb129d842c847000acf8828e1f8fd4e806f82ce3ce52926276`,
+document SHA256
+`786ebc4ab5886fa6abbfbc27c7b4292753830c8cd4a460405fb49045259f46c4`,
+native plan SHA256
+`beaafb738713b29d184729b12cb98edd06d210c35fcb19be7a35869d5133e389`
+and digest
+`729c080b57df1da31f5a2e98a4d25fe99bce47348c60e81576a6204fb2831eef`,
+and harness SHA256
+`bdae51f9d4ba3e5ac5338389d5cb246a20f35c364d01b2c5ef5e479728cb0a90`
+and digest
+`c460d4af7738793ed67ce204f0c69660de45a0f58e392058da880ca2f40b8cae`.
+The initial verdict above remains unchanged. Acceptance admits only the exact
+finite engineering execution plan.

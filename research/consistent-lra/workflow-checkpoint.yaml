@@ -81,13 +81,14 @@ notes:
 
 current_budget_record: BUDGET_OBSERVATION.json
 actual_registered_task_assignments: 28
-actual_executable_attempts: 6
-actual_preparation_attempts: 6
+actual_executable_attempts: 7
+actual_preparation_attempts: 7
 actual_scientific_attempts: 0
 actual_discovery_rounds: 0
 actual_observed_process_cpu_seconds: 1.577356
 actual_max_preparation_rss_kib: 148112
-unreleased_reservations: []
+unreleased_reservations:
+  - fd-semantic-oracles-01
 formal_counterexample_artifact: FORMAL_AUDIT_v2.md
 formal_counterexample_sha256: 0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477
 formal_review_record: FORMAL_AUDIT_v2_REVIEW.md
@@ -142,5 +143,5 @@ evaluator_semantic_oracle_evidence_initial_review: needs_correction_ledger_preda
 evaluator_semantic_oracle_evidence_rereview: accepted
 fd_semantic_candidate_commit: 0d729ae4d8cf6e5cc0b527bbb9f4c62c4429862e
 fd_semantic_plan_review: needs_correction_dependency_provenance
-fd_semantic_plan_rereview: pending
+fd_semantic_plan_rereview: accepted
 fd_semantic_unadmitted_smoke: charged_attempt_invalid_as_evidence
