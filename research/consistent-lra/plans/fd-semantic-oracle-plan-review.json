@@ -1,0 +1,29 @@
+{
+  "format": "scoped-independent-execution-plan-review-assignment-v1",
+  "task_id": "fd-semantic-oracle-plan-review",
+  "registered_order": 27,
+  "source_candidate_commit": "0d729ae4d8cf6e5cc0b527bbb9f4c62c4429862e",
+  "plan_candidate_commit": "03ab885b6f0083e5d926909b98fe56461d355d74",
+  "plan_paths": [
+    "research/consistent-lra/plans/native-fd-semantic-oracles.json",
+    "research/consistent-lra/plans/harness-fd-semantic-oracles.json"
+  ],
+  "implementation_paths": [
+    "research/consistent-lra/fd_semantic_oracles.py",
+    "research/consistent-lra/FD_SEMANTIC_QUALIFICATION_20261009.md",
+    "research/consistent-lra/native_baselines.py",
+    "research/consistent-lra/originals/consistent-fd.py",
+    "research/consistent-lra/originals/frequentDirections-liberty-691df9e.py"
+  ],
+  "review_questions": [
+    "Does the independent l-row reference match the declared production compress-before-insert semantics without assuming parity to the author or Liberty variants?",
+    "Are the FD covariance-underestimate and directional-bound finite checks mathematically correct, with appropriate numerical tolerances and no theorem-proof overclaim?",
+    "Do the class-only source loaders faithfully execute the frozen author and normalized Liberty class definitions, and are live-array/pending-buffer conclusions supported?",
+    "Do all input/code hashes and native/harness digests validate, with one attempt, zero retries and finite one-CPU/256-MiB bounds?",
+    "Is the already charged out-of-harness smoke check clearly invalidated as evidence, and is a later reviewed execution still engineering-only?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "native_scoring": false,
+  "budget_effect": {"registered_task_assignments": 1, "executable_attempts_if_later_dispatched": 1, "scientific_experiments": 0}
+}
