@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T05:25:59+00:00",
+  "observed_at": "2026-10-09T05:28:25+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 50,
   "executable_attempts_dispatched": 11,
@@ -130,7 +130,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 8505,
+  "remaining_wall_seconds_at_observation": 8359,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -409,8 +409,32 @@
     "harness_plan": "plans/harness-lowdim-baseline-matrix-final-repair.json",
     "harness_plan_sha256": "09fbf88d732f16f93736a2f258bb8512e29e7e5e4dfa31ce87d189eadd8ae9a7",
     "harness_plan_digest": "280abf635dfb5662bce6a15ffb63977c72d72a320f44ef22f1554d9ec5b9e6cf",
-    "plan_review": "pending",
-    "execution_admitted": false
+    "plan_review": "accepted",
+    "plan_review_commit": "688a5974195fec8fa038c46911dd8a6e8ffd50fa",
+    "plan_review_tree": "3670b8fdecf657523eaaa6aa0c46d0ee24b031f0",
+    "plan_review_record": "LOWDIM_BASELINE_MATRIX_FINAL_REPAIR_PLAN_REVIEW.md",
+    "plan_review_record_sha256": "27ba079ff3ea34f19bc86eb3aa12b17b4f2ce06c4b7976279dbf21fc48137549",
+    "execution_admitted": true
+  },
+  "lowdim_baseline_matrix_final_repair_reservation": {
+    "task": "native-lowdim-baseline-matrix-final-repair-01",
+    "purpose": "engineering_evidence_publication_final_repair_only",
+    "failure": "lowdim_matrix_output_mutation_after_terminal_receipt",
+    "repair_ordinal": 2,
+    "cpu_cores_reserved": 1,
+    "ram_mib_reserved_not_enforced": 512,
+    "wall_seconds_upper_bound": 180,
+    "attempts_reserved": 1,
+    "attempts_completed": 0,
+    "retries": 0,
+    "released": false,
+    "native_plan_digest": "d30ea8255bb5b1c7f3eef43389b9399b63092f7ac782959dac8859d7bb863582",
+    "harness_plan_digest": "280abf635dfb5662bce6a15ffb63977c72d72a320f44ef22f1554d9ec5b9e6cf",
+    "plan_review": "accepted",
+    "plan_review_commit": "688a5974195fec8fa038c46911dd8a6e8ffd50fa",
+    "scientific_experiment": false,
+    "performance_claim_eligible": false,
+    "execution_status": "admitted_not_started"
   },
   "unadmitted_development_smoke_history": [
     {
@@ -428,7 +452,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T05:11:36+00:00",
+    "observed_at": "2026-10-09T05:28:25+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
@@ -447,6 +471,8 @@
     "lowdim_baseline_matrix_process_completed": true,
     "lowdim_baseline_matrix_evidence_valid": false,
     "lowdim_baseline_matrix_repair_01_launched": true,
-    "lowdim_baseline_matrix_repair_01_failed_safely": true
+    "lowdim_baseline_matrix_repair_01_failed_safely": true,
+    "lowdim_baseline_matrix_final_repair_plan_reviewed": true,
+    "lowdim_baseline_matrix_final_repair_launched": false
   }
 }
