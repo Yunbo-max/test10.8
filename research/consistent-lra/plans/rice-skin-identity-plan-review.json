@@ -2,7 +2,7 @@
   "format": "scoped-independent-execution-plan-review-assignment-v1",
   "task_id": "rice-skin-selected-prefix-identity-plan-review",
   "registered_order": 19,
-  "candidate_commit": null,
+  "candidate_commit": "6d2c1021aa01c62d0e4398142fa1b3bf37c3c528",
   "plan_paths": [
     "research/consistent-lra/plans/native-rice-skin-selected-prefix-identity.json",
     "research/consistent-lra/plans/harness-rice-skin-selected-prefix-identity.json"
