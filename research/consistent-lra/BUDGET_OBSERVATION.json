@@ -17,6 +17,16 @@
     "worker_local_label": 162,
     "verdict": "component_machinery_prior_art_full_conjunction_priority_inconclusive"
   },
+  "main_reweighted_integer_premise_audit": {
+    "artifact": "REWEIGHTED_INTEGER_PREMISE_AUDIT_MAIN.md",
+    "artifact_sha256": "be08ca12844b2dbc71e0fa1e78bd86ac59f6a0c8184ddca161e17b5896b18d45",
+    "canonical_assignments": [172, 173, 174],
+    "review": "REWEIGHTED_INTEGER_PREMISE_REVIEW_MAIN.md",
+    "verdict": "initial_spectral_gap_argument_rejected_then_corrected_DAS_cauchy_binet_repair_accepted",
+    "executable_attempts_added": 0,
+    "scientific_experiments_added": 0,
+    "cpu_seconds_added": 0
+  },
   "actual_clock_gap_is_not_executable_usage": true,
   "author_fd_semantic_oracle_reservation": {
     "actual_guarded_attempt_wall_seconds": 1.102667963001295,
@@ -817,10 +827,10 @@
     "scientific_gate_advanced": false,
     "verdict": "accepted_scoped_final_append_only"
   },
-  "main_only_tasks_no_measured_CPU": "Five existing main-only assignments consume same wall budget; no numeric job was launched there and no attributable CPU measurement was supplied; lower bound is not a full compute total.",
+  "main_only_tasks_no_measured_CPU": "Eight main-only assignments consume same wall budget; no numeric job was launched there and no attributable CPU measurement was supplied; lower bound is not a full compute total.",
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T13:44:14.365015+00:00",
+  "observed_at": "2026-10-09T14:01:57.005019+00:00",
   "observed_process_cpu_seconds": 318.944499767,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -984,8 +994,8 @@
       "wall_seconds": 11.894702007
     }
   ],
-  "registered_task_assignments": 171,
-  "remaining_wall_seconds_at_observation": 12586.684445,
+  "registered_task_assignments": 174,
+  "remaining_wall_seconds_at_observation": 11626,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,

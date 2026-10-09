@@ -1,16 +1,17 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T13:45:56.315555+00:00",
+  "observed_at": "2026-10-09T14:01:57.005019+00:00",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
-  "decision": 2,
-  "action": "bounded joined source/priority and aggregate-proof-premise investigation after accepted HEAVY correction",
+  "decision": 3,
+  "action": "bounded mathematical analysis of aggregate HEAVY accounting after independently accepted reweighted-premise repair",
   "basis": [
     "Actual154fullintegerrecoursecertificate accepted; exactlossseparation independentmainreview retained",
     "Actual161known1997mechanismcollision/fullconjunctionpriorityinconclusive",
     "Actual163finiteF1boundcounterexample accepted withlimits",
     "Actual165v1construction/state and166independentstrictness/v2 accepted:small-epsilonR>4k/5 excludesuniformepsilon-independentconstant sqrtk only",
-    "Canonical167-171 retain a separate reachable k144 exact-final-byte counterexample and bounded priority audit; worker-local labels collided with concurrent tasks and were remapped without dropping history"
+    "Canonical167-171 retain a separate reachable k144 exact-final-byte counterexample and bounded priority audit; worker-local labels collided with concurrent tasks and were remapped without dropping history",
+    "Canonical172-174 preserve an initial rejected arbitrary-real argument and independently accept the corrected M=D A_S Cauchy-Binet product-floor repair; literal integrality remains false but is not a recourse-proof blocker"
   ],
   "closed_or_narrowed": {
     "Landmark_asset": "exact bytes/license/full mechanical counts independently accepted",
@@ -38,7 +39,7 @@
     "integer_projector_complete": "all61roots732decisions exact Rlower2290438555/134217728>8 accepted154",
     "sampled_freshSVD_fallback": "specific append-only prefixPCP known quadraticrank bound qualified150; notnewmethod",
     "algorithm4_proofscope": "additiveTheorem1.1 energyproof independent ofLemma2.1; normalizedrealenergy ratio explicit",
-    "approximate_theorem1_3": "separate chain unresolved HEAVY tailcapture and integer-reweighting/PCP premises; no theoremrefutation",
+    "approximate_theorem1_3": "reweighted-integer spectral premise repaired by accepted D A_S Cauchy-Binet argument conditional on sampled-entry magnitude bound; HEAVY aggregate accounting remains unresolved; no theoremrefutation",
     "direct_F1_k144": "reachable nonnegative-integer exact-final-byte counterexample independently accepted after preserved reset-reachability correction; displayed HEAVY minmax implication only",
     "small_epsilon_HEAVY_family": "construction/state/recourse accepted by actual165; reviewer-supplied strict-trigger addendum remains pending separate actual166 review"
   },
@@ -123,34 +124,34 @@
     }
   ],
   "independent_routes": {
-    "route2": "priorityandaggregate/reweightedsourcepremises",
-    "route3": "consequentialproofrepaironlyafterfrozenmathcard",
+    "route2": "reweightedsourcepremiseclosed;priorityremainsinconclusive",
+    "route3": "aggregateHEAVYaccountingandconsequentialproofrepaironlyafterfrozenmathcard",
     "native": "blockedspecificcapability"
   },
   "latest_budget_record": {
-    "registered_task_assignments": 171,
+    "registered_task_assignments": 174,
     "original_executable_attempts": 24,
     "recorded_controller_rounds": 2,
     "discovery_rounds": 0,
     "admitted_scientific_experiments": 0,
     "eligible_papers": 0,
     "observed_CPU_lower_bound": 318.944499767,
-    "remaining_wall_seconds": 12586.684445
+    "remaining_wall_seconds": 11626
   },
   "next_bounded_independent_work": {
-    "route2": "sourceauditofaggregateproofrepairandpriority,reweightedsampler integerpremise; freezeboundedclaimbeforefurtherreview",
+    "route3": "mathematical audit of aggregate HEAVY accounting/tail capture; freeze bounded claim before further review",
     "native_descendants": "remainblocked authenticreference/livecallback/parity; do notrunStageB ornewmethods",
     "source_priority": "two bounded audits retain component prior-art collisions and full-conjunction priority as inconclusive; no absence-of-search pass",
-    "source": "reweighted-integer premise remains an independent future action",
+    "source": "reweighted-integer premise accepted as nonblocking proof-detail repair; sampled-entry magnitude bound remains conditional",
     "native": "blocked trusted live official reference/parity; StageB never executed",
     "writing": "research evidence note only; eligiblepapers0",
-    "route3_if_premise_unclosed": "independent mathematical review beforecode/dispatch"
+    "route3_review": "independent mathematical review required before any code or dispatch"
   },
   "delivery_branch": "main",
   "source_main_commit": "176064b931140da791f58137ee68a37068566f6b",
   "source_legacy_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
   "reconciliation_record": "MAIN_FINAL_PACKET_RECONCILIATION_20261009.md",
-  "registered_task_assignments": 171,
+  "registered_task_assignments": 174,
   "exact_approximate_final_append_only_review": "EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md",
   "main_f1_math_evidence": {
     "artifact": "F1_HEAVY_COUNTEREXAMPLE_MAIN_DRAFT.md",
