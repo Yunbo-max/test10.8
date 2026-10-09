@@ -765,7 +765,7 @@
   "main_only_tasks_no_measured_CPU": "Five existing main-only assignments consume same wall budget; no numeric job was launched there and no attributable CPU measurement was supplied; lower bound is not a full compute total.",
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T13:19:29.618214+00:00",
+  "observed_at": "2026-10-09T13:25:50.642730+00:00",
   "observed_process_cpu_seconds": 318.944499767,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -779,6 +779,18 @@
   "pending_fd_semantic_oracle_plan_rereview": null,
   "pending_fd_semantic_oracle_plan_review": null,
   "pending_formal_review": null,
+  "pending_main_heavy_math_review": {
+    "assignment_number": 163,
+    "draft_assignment_number": 162,
+    "draft_sha256": "70fe1ddc3ea5d0a56fd0b595799b0a88404b875a29502dfd4d114b1ffde9a165",
+    "no_executable_admission": true,
+    "scope": "analytic Algorithm2/F.1 only"
+  },
+  "pending_main_joint_priority_review": {
+    "assignment_number": 161,
+    "no_executable_admission": true,
+    "scope": "bounded backwards primary review"
+  },
   "pending_rice_skin_identity_evidence_review": null,
   "pending_source_review": null,
   "pending_window02_approximate_dependency_review": null,
@@ -925,8 +937,8 @@
       "wall_seconds": 11.894702007
     }
   ],
-  "registered_task_assignments": 160,
-  "remaining_wall_seconds_at_observation": 14173.381786,
+  "registered_task_assignments": 163,
+  "remaining_wall_seconds_at_observation": 13792.35727,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
@@ -1237,7 +1249,10 @@
     "main-scorer-admission-source-capability-independent-audit",
     "main-exact-vs-approximate-quantitative-bound-derivation",
     "main-exact-vs-approximate-bound-independent-review",
-    "main-window02-complete-legacy-final-packet-ownership-budget-reconciliation"
+    "main-window02-complete-legacy-final-packet-ownership-budget-reconciliation",
+    "main-integer-joint-priority-backward-citation-independent-review",
+    "main-heavy-branch-integer-counterexample-consequential-derivation",
+    "main-heavy-branch-integer-counterexample-independent-math-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
