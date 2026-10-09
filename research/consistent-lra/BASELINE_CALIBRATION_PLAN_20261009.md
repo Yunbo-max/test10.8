@@ -34,8 +34,10 @@ needed to check the executable, but are quarantined from scientific claims.
 - Reservation: one CPU core, 512 MiB admission estimate (not an OS-enforced
   hard memory limit), one attempt, zero retry, 90-second process timeout,
   120-second harness window, no GPU and no additional package installation.
-- Thread environment: numerical libraries are capped at one thread by the
-  admitted command environment inherited from the harness invocation.
+- Thread environment: the immutable command starts with `/usr/bin/env` and
+  binds `OPENBLAS_NUM_THREADS=1`, `OMP_NUM_THREADS=1`, `MKL_NUM_THREADS=1`,
+  `NUMEXPR_NUM_THREADS=1` and `VECLIB_MAXIMUM_THREADS=1` before Python imports
+  NumPy.  The plan does not rely on an ambient shell setting or harness magic.
 
 The output paths are
 `evidence/calibration/rice-algorithm4-c2p5.jsonl` and its adjacent

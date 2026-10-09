@@ -28,6 +28,12 @@
     {
       "trial_id": "rice-algorithm4-c2p5",
       "command": [
+        "/usr/bin/env",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "MKL_NUM_THREADS=1",
+        "NUMEXPR_NUM_THREADS=1",
+        "VECLIB_MAXIMUM_THREADS=1",
         "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
         "native_baselines.py",
         "--dataset", "rice",
@@ -56,5 +62,5 @@
       "arm_role": "preparation"
     }
   ],
-  "plan_digest": "a2f57074260d0852c0f90ca9e682e4df114151c3636ea9e04de9b087fdbad687"
+  "plan_digest": "3478d69f2387ed65c06e382859fb579d65891822cada6cfd6b281b435b9a461c"
 }

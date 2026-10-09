@@ -10,7 +10,7 @@
       "depends_on": [],
       "plan_ref": {
         "path": "plans/native-rice-alg4-c2p5-calibration.json",
-        "sha256": "6f624e1c9af2269e386ea1e9cce4cfc4144dc7a5b02e6f256174c27056aebb6c"
+        "sha256": "eb554cc984595a8f2f4efe3b3b669a582fa70b609a0dcf329c7e6a7742806bab"
       },
       "resources": {
         "cpu_cores": 1,
@@ -38,5 +38,5 @@
     "safety_margin_mib": 256,
     "max_tasks_per_gpu": 1
   },
-  "plan_digest": "659f236d2a595398b37efab8911e2256b76726af05e70a237da5ef121c4a4bca"
+  "plan_digest": "3d501cb5b10c3a1e40e377737bc37eef00eda2e56326b3e6a55e73cd931b8d5b"
 }
