@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T05:22:02+00:00",
+  "observed_at": "2026-10-09T05:25:59+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 49,
+  "registered_task_assignments": 50,
   "executable_attempts_dispatched": 11,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -118,7 +118,8 @@
     "lowdim-baseline-matrix-repair-evidence-review",
     "lowdim-baseline-matrix-repair-evidence-correction-rereview",
     "lowdim-baseline-matrix-repair-evidence-documentation-rereview",
-    "lowdim-baseline-matrix-final-repair-source-review"
+    "lowdim-baseline-matrix-final-repair-source-review",
+    "lowdim-baseline-matrix-final-repair-plan-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -129,7 +130,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 8742,
+  "remaining_wall_seconds_at_observation": 8505,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -397,7 +398,18 @@
     "repair_ordinal": 2,
     "runner_sha256": "4934100cd9e7b4d91aee361d1c8e09b7f3fb790e06784c137df7a3a012bfab20",
     "contract_sha256": "5c69a676b5326615eef56db59acc41b571210bf27806fff9a4db89823078b703",
-    "source_review": "pending",
+    "source_review": "accepted",
+    "source_review_commit": "a328a4d836c498bd2c0eb036e48ac9e622107254",
+    "source_review_tree": "1cf02b72af660d792e44a4c66d2d6ee0b036ad11",
+    "source_review_record": "LOWDIM_BASELINE_MATRIX_FINAL_REPAIR_SOURCE_REVIEW.md",
+    "source_review_record_sha256": "187328765944d0a115a32aeddb5142246cc2672b2b0596a8a0078e2f8aca1508",
+    "native_plan": "plans/native-lowdim-baseline-matrix-final-repair.json",
+    "native_plan_sha256": "f8fc3ced5c9d6be3c3c6f4af5d608705c995d3c0f2f879fab3908f564c9fb223",
+    "native_plan_digest": "d30ea8255bb5b1c7f3eef43389b9399b63092f7ac782959dac8859d7bb863582",
+    "harness_plan": "plans/harness-lowdim-baseline-matrix-final-repair.json",
+    "harness_plan_sha256": "09fbf88d732f16f93736a2f258bb8512e29e7e5e4dfa31ce87d189eadd8ae9a7",
+    "harness_plan_digest": "280abf635dfb5662bce6a15ffb63977c72d72a320f44ef22f1554d9ec5b9e6cf",
+    "plan_review": "pending",
     "execution_admitted": false
   },
   "unadmitted_development_smoke_history": [
