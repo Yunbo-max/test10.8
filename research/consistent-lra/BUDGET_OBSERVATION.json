@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T05:52:20+00:00",
+  "observed_at": "2026-10-09T05:55:33+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 56,
   "executable_attempts_dispatched": 12,
@@ -136,7 +136,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 6924,
+  "remaining_wall_seconds_at_observation": 6731,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -507,7 +507,7 @@
     "execution_started": false,
     "status": "accepted_source_design_only"
   },
-  "pending_random_baseline_matrix_plan_review": {
+  "completed_random_baseline_matrix_plan_review": {
     "assignment": "prospective-random-baseline-matrix-plan-review",
     "reviewer": "/root/rice_skin_plan_review",
     "source_commit": "4b8c428c3fb9e3b6ea2fb63f0bb162f5d77f55ac",
@@ -519,8 +519,31 @@
     "harness_plan_digest": "95657d85b176afddc3bb682c8fc6b246cac8ba26e2f8db9de40f899be86d6292",
     "native_validator": "validated_execution_started_false",
     "harness_validator": "validated_execution_started_false",
+    "reviewed_commit": "e9323da6bd4907f2585acdbb424913f807d71cce",
+    "reviewed_tree": "e133c20f15ca0e87c0c4010b72faa400166b7222",
+    "review_record": "RANDOM_BASELINE_MATRIX_PLAN_REVIEW.md",
+    "review_record_sha256": "3b1c374ae70065069ce171bc571dfba46f2bd96a98fd9701c29ae441e89e9b3e",
     "execution_started": false,
-    "status": "assigned_pending_independent_plan_review"
+    "status": "accepted_execution_admission_only"
+  },
+  "prospective_random_baseline_matrix_reservation": {
+    "task": "native-prospective-random-baseline-matrix-01",
+    "purpose": "developmental_prospective_random_family_baseline_qualification_only",
+    "cpu_cores_reserved": 1,
+    "ram_mib_reserved_not_enforced": 512,
+    "wall_seconds_upper_bound": 120,
+    "attempts_reserved": 1,
+    "attempts_completed": 0,
+    "retries": 0,
+    "released": false,
+    "native_plan_digest": "280027a1d2bc2279654868cd69d54182617e6c628017f842fd4b23327efea87f",
+    "harness_plan_digest": "95657d85b176afddc3bb682c8fc6b246cac8ba26e2f8db9de40f899be86d6292",
+    "plan_review": "accepted",
+    "plan_review_commit": "e9323da6bd4907f2585acdbb424913f807d71cce",
+    "scientific_experiment": false,
+    "performance_claim_eligible": false,
+    "original_figure_replication": false,
+    "execution_status": "admitted_not_started"
   },
   "unadmitted_development_smoke_history": [
     {
