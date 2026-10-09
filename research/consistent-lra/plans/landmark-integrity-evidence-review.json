@@ -1,0 +1,28 @@
+{
+  "format": "scoped-independent-execution-evidence-review-assignment-v1",
+  "task_id": "landmark-integrity-execution-evidence-review",
+  "registered_order": 17,
+  "candidate_commit": null,
+  "review_paths": [
+    "research/consistent-lra/LANDMARK_INTEGRITY_EXECUTION_20261009.md",
+    "research/consistent-lra/evidence/landmark-source-integrity.json",
+    "research/consistent-lra/runs/attempts/landmark-source-integrity-01/receipt.json",
+    "research/consistent-lra/runs/attempts/landmark-source-integrity-01/landmark-source-integrity-01-a1-da869994c8214556a5969d39ee316ae5/attempt.json",
+    "research/consistent-lra/runs/attempts/landmark-source-integrity-01/landmark-source-integrity-01-a1-da869994c8214556a5969d39ee316ae5/process-guard.json",
+    "research/consistent-lra/runs/harness/landmark-source-mechanical-01/report.json"
+  ],
+  "review_questions": [
+    "Do receipt, attempt, guard, stdout/stderr, harness state and output hashes agree on one bounded completed attempt?",
+    "Do raw counts match the frozen source identity and the writer's execution record?",
+    "Are actual CPU/wall/RSS costs and released reservation recorded without converting source qualification into scientific scoring?",
+    "Do the evidence and execution record explicitly keep native numerical qualification and gate advancement false?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "native_scoring": false,
+  "budget_effect": {
+    "registered_task_assignments": 1,
+    "executable_attempts": 0,
+    "scientific_experiments": 0
+  }
+}

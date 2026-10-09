@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T02:16:00+00:00",
+  "observed_at": "2026-10-09T02:05:22+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 16,
-  "executable_attempts_dispatched": 1,
+  "registered_task_assignments": 17,
+  "executable_attempts_dispatched": 2,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 0.190072,
+  "observed_process_cpu_seconds": 1.190738,
   "reservation": {
     "task": "source-integrity-01",
     "purpose": "mechanical_preparation_only",
@@ -25,7 +25,7 @@
     "actual_workload_wall_seconds": 0.16511069000262069,
     "actual_max_rss_kib": 99788
   },
-  "pending_reservation": {
+  "landmark_reservation": {
     "task": "landmark-source-integrity-01",
     "purpose": "mechanical_preparation_only",
     "cpu_cores": 1,
@@ -33,9 +33,12 @@
     "wall_seconds_upper_bound": 60,
     "cpu_seconds_upper_bound": 60,
     "attempts": 1,
-    "released": false,
+    "released": true,
     "native_plan_digest": "924ec160b40fed5973c93dd6fd12c3fc6b58bfe443b1e6b4568a546240d661c3",
-    "harness_plan_digest": "b669223f69923da2f7a47d03ffd142d8407a0df24449a8062c4df53bc6395252"
+    "harness_plan_digest": "b669223f69923da2f7a47d03ffd142d8407a0df24449a8062c4df53bc6395252",
+    "actual_workload_wall_seconds": 1.0674546260015632,
+    "actual_process_cpu_seconds": 1.0006659999999998,
+    "actual_max_rss_kib": 12588
   },
   "failure_history": [
     {
@@ -69,14 +72,20 @@
     "integer-density-extension-correction-re-review",
     "sampling-source-qualification-correction-re-review",
     "landmark-source-qualification-independent-review",
-    "landmark-source-qualification-correction-rereview"
+    "landmark-source-qualification-correction-rereview",
+    "landmark-integrity-execution-evidence-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
     "path": "runs/attempts/source-integrity-01/receipt.json",
     "sha256": "abe68964844ec38e356b6c1573f615ea6319756185361d4a0eedf49dbbb0d378"
   },
-  "remaining_wall_seconds_at_observation": 19905,
+  "landmark_preparation_receipt_ref": {
+    "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
+    "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
+  },
+  "remaining_wall_seconds_at_observation": 20543,
+  "prior_timestamp_correction": "The prelaunch draft used 02:16Z while the host clock was 02:04Z; this observation restores the actual harness timestamps and recomputes remaining wall time rather than consuming fictional elapsed time.",
   "verified_scientific_failures_by_direction": {},
   "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run.",
   "formal_review_assignments_completed": true,
@@ -86,12 +95,14 @@
   "completed_source_review": "sampling-source-qualification-correction-re-review:accepted",
   "pending_asset_review": null,
   "completed_asset_review": "landmark-source-qualification-correction-rereview:accepted_after_recorded_needs_correction",
+  "pending_execution_evidence_review": "landmark-integrity-execution-evidence-review",
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T01:02:08+00:00",
+    "observed_at": "2026-10-09T02:04:48+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
     "memory_max_bytes": 8589934592,
-    "scientific_job_launched": false
+    "scientific_job_launched": false,
+    "mechanical_preparation_job_completed": true
   }
 }

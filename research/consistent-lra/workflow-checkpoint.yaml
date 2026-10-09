@@ -54,7 +54,7 @@ completed:
   - independent_source_audit_of_four_author_scripts
   - independent_work_host_capability_audit
 pending:
-  - bounded_mechanical_integrity_of_reviewed_Landmark_blob
+  - independent_review_of_completed_Landmark_integrity_evidence
   - complete_Landmark_asset_and_random_normalization_identity_join
   - authentic_upstream_runnable_scorer_interface_and_parity_admission
   - existing_paper_lemma_downstream_implications_and_complete_collision_audit
@@ -76,15 +76,14 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 16
-actual_executable_attempts: 1
-actual_preparation_attempts: 1
+actual_registered_task_assignments: 17
+actual_executable_attempts: 2
+actual_preparation_attempts: 2
 actual_scientific_attempts: 0
 actual_discovery_rounds: 0
-actual_observed_process_cpu_seconds: 0.190072
+actual_observed_process_cpu_seconds: 1.190738
 actual_max_preparation_rss_kib: 99788
-unreleased_reservations:
-  - landmark-source-integrity-01
+unreleased_reservations: []
 formal_counterexample_artifact: FORMAL_AUDIT_v2.md
 formal_counterexample_sha256: 0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477
 formal_review_record: FORMAL_AUDIT_v2_REVIEW.md
@@ -114,3 +113,7 @@ landmark_source_correction_rereview: accepted
 landmark_source_corrected_candidate: 2dc532076a9a09541c975fd462a496edf6dd89e1
 landmark_source_native_plan: plans/native-landmark-source-integrity.json
 landmark_source_harness_plan: plans/harness-landmark-source-integrity.json
+landmark_source_execution_record: LANDMARK_INTEGRITY_EXECUTION_20261009.md
+landmark_source_receipt: runs/attempts/landmark-source-integrity-01/receipt.json
+landmark_source_evidence_sha256: 62595f9dec8c563b05ebe92a0ecc66ac569c2f9730b699728613f5a366fc8e35
+pending_landmark_execution_review: landmark-integrity-execution-evidence-review
