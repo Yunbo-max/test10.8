@@ -8,7 +8,7 @@
   "protocol_digest": null,
   "output_root": "runs/attempts",
   "provenance": {
-    "git_revision": "0d729ae4d8cf6e5cc0b527bbb9f4c62c4429862e",
+    "git_revision": "c052843d6f9d4389659e71c1a17bcf5f722c048f",
     "model_revision": "not_applicable_no_model_or_inference",
     "data_revision": "fixed_analytic_fd_source_semantic_oracles_not_benchmark_data",
     "environment_digest": "4562a986dcbac6a6ea0cbf20ce46f48570b5f64f35b2eef0000f9d97da6c996e",
@@ -35,10 +35,10 @@
       ],
       "cwd": ".",
       "input_refs": [
-        {"path": "FD_SEMANTIC_QUALIFICATION_20261009.md", "sha256": "128dcff55e4e8e4d4aeb310f7e604754dc2b810f2ecf00a4e4f8bf5806eec0d6"}
+        {"path": "FD_SEMANTIC_QUALIFICATION_20261009.md", "sha256": "786ebc4ab5886fa6abbfbc27c7b4292753830c8cd4a460405fb49045259f46c4"}
       ],
       "code_refs": [
-        {"path": "fd_semantic_oracles.py", "sha256": "1e0c25c5f0ba4d3181917082946ac0a26b70f1b2b637220337ed3c607312e62d"},
+        {"path": "fd_semantic_oracles.py", "sha256": "6a82d80e1c45dfbb129d842c847000acf8828e1f8fd4e806f82ce3ce52926276"},
         {"path": "native_baselines.py", "sha256": "4d005ff930d4b577569d09cd99f20bb2fc48ad04ba2ac7dfd5351827f278b382"},
         {"path": "baseline_qualify.py", "sha256": "d5566e2177064d0ddd9f940323ca7d10dfb0d9fef14d93f8ba6d16bde54dd934"},
         {"path": "originals/consistent-fd.py", "sha256": "ba16f17017005dfc90d7ff669678911b2b3e6211582efd4014ed592e44926990"},
@@ -50,5 +50,5 @@
       "arm_role": "preparation"
     }
   ],
-  "plan_digest": "8217559e74bd3cc17153928befac337a2d7c88abf4afc61bbe44c61d301d9840"
+  "plan_digest": "729c080b57df1da31f5a2e98a4d25fe99bce47348c60e81576a6204fb2831eef"
 }
