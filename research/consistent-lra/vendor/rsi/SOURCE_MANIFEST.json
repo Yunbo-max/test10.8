@@ -1,0 +1,313 @@
+{
+  "record_type": "project_local_source_staging",
+  "repository": "Yunbo-max/Research_Autopilot",
+  "commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
+  "project_root": "/workspace/scratch/bb9f262965cf/research/consistent-lra",
+  "source_root": "/workspace/scratch/bb9f262965cf/research/consistent-lra/vendor/rsi",
+  "status": "source_bytes_verified_no_execution",
+  "scientific_execution_started": false,
+  "daemon_or_shared_skill_installed": false,
+  "files": [
+    {
+      "repository_path": "skills/research-autopilot/scripts/run_harness.py",
+      "relative_path": "scripts/run_harness.py",
+      "git_blob_sha": "3a3a091534a0d2c02075450654e4bb296a0f7cb1",
+      "byte_length": 35776,
+      "sha256": "3b8849c6c718427468eca0548c9edf1db804ad6f27ffea55d8735735546d3d42",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/run_experiments.py",
+      "relative_path": "scripts/run_experiments.py",
+      "git_blob_sha": "293ce523524090da6e951d199af4a657e4ff3398",
+      "byte_length": 19841,
+      "sha256": "e1e2b22c210c22f6028bcb846220eaa33501be4cd22f135c8f97ac9f3405137c",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/_autoresearch.py",
+      "relative_path": "scripts/_autoresearch.py",
+      "git_blob_sha": "4958ce1a02214ebf97330bc3203ed9d1f033b372",
+      "byte_length": 83188,
+      "sha256": "7838317a645d22c97342e76dce3f4915df72a20b9d77b46503f0eb065abf6eba",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/_native_eval.py",
+      "relative_path": "scripts/_native_eval.py",
+      "git_blob_sha": "f51045cf57d18cbd9bdc96d9c1bf6a8b4b391abb",
+      "byte_length": 26550,
+      "sha256": "bbbf79c85c9f7094f4bf4544dd9f34586ac33f9f3aaeda151ddb6234065ce826",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/harness-plan.schema.json",
+      "relative_path": "schemas/harness-plan.schema.json",
+      "git_blob_sha": "0b398ac35c74cee3518ec5ba91963e04835ba40b",
+      "byte_length": 5621,
+      "sha256": "40c3456c4b1bdd1666fc40a8ec52522f8046becd8d94ba96ab958257bf4e44b9",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/experiment-run-plan.schema.json",
+      "relative_path": "schemas/experiment-run-plan.schema.json",
+      "git_blob_sha": "eada5c43a5809dcb96589ceadc48f38588da186f",
+      "byte_length": 5623,
+      "sha256": "53d980d96f79d598347205d2ed1748b7798661b7a3695e919f8c6b32d7a8d370",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/_process_guard.py",
+      "relative_path": "scripts/_process_guard.py",
+      "git_blob_sha": "20858f03500ebf8b68f141ef133e40fc27dbe393",
+      "byte_length": 3024,
+      "sha256": "0c38bf499334ab72de229f750ca1191a16e594f9a630a726a9baad6f6fb14a79",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/verify_methods.py",
+      "relative_path": "scripts/verify_methods.py",
+      "git_blob_sha": "f2c452faaf27dd508d5f29c1a94d02558677a8ba",
+      "byte_length": 24459,
+      "sha256": "96fac69f9a1f763d886dda2735c25a29e33639956d5882ccc6371c7105d621d8",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/_importance.py",
+      "relative_path": "scripts/_importance.py",
+      "git_blob_sha": "d27eb3025c3630215e73abb61367fbad1af8b598",
+      "byte_length": 38881,
+      "sha256": "f8a80d9006c06f15915f0f9da1cdcfeb6f4e7fcec11efacfc9450dbee9fd87d9",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/_evidence.py",
+      "relative_path": "scripts/_evidence.py",
+      "git_blob_sha": "533cadd458e5d530a0ff010e355cccf6268a08a6",
+      "byte_length": 18438,
+      "sha256": "e509f50f617484ae15c1f8e8c6aae112ec56668b1de699c9a5756edae5d050ea",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/_statistical.py",
+      "relative_path": "scripts/_statistical.py",
+      "git_blob_sha": "066c10cfad3e6e2b31b5ec273c729eb101f4e5c2",
+      "byte_length": 6374,
+      "sha256": "85f2507d82096ba6139ea528fdc5205dde09c6477b3f78f76eb8a64288b7622c",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/_writing.py",
+      "relative_path": "scripts/_writing.py",
+      "git_blob_sha": "fb8c845accd3c0346ddc4f8ab9652324dbc5e61c",
+      "byte_length": 5650,
+      "sha256": "b379344cb5e3ea88c28fb287fe01f55cf097be4b022241db632d43f019c9bfed",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/init_project.py",
+      "relative_path": "scripts/init_project.py",
+      "git_blob_sha": "df9e250890d0fc506829b28dd696f0acfbdb453e",
+      "byte_length": 133,
+      "sha256": "cf4b0dcb092eb913d178e9164abcf64f9e27d76f83ccaaae7837c6b6eaf58dee",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/validate_artifact.py",
+      "relative_path": "scripts/validate_artifact.py",
+      "git_blob_sha": "35c583172c5906c8fd65fb2c27ccdb80bbb2577e",
+      "byte_length": 138,
+      "sha256": "08375b9ffa9e9a65eeada02780f7434027df7db992f76b0487dde81916070be2",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/freeze_gate.py",
+      "relative_path": "scripts/freeze_gate.py",
+      "git_blob_sha": "78ef89da419175c7af061344c9415d3a8902f3e6",
+      "byte_length": 132,
+      "sha256": "9679e1e2710408a441ca232acdf4a60e4698c896e5e84b080f5bc42fd28d80f7",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/experiment-run-receipt.schema.json",
+      "relative_path": "schemas/experiment-run-receipt.schema.json",
+      "git_blob_sha": "3f54efc2ee1b9e4cfc2273e6021dd7e71e4d122a",
+      "byte_length": 2068,
+      "sha256": "a8863cb2678550d30212316aa0d320f4c017374e5dcd79619c6d6107db71bef6",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/native-eval-contract.schema.json",
+      "relative_path": "schemas/native-eval-contract.schema.json",
+      "git_blob_sha": "a038889cae996503e933d232a8abadfc797d406f",
+      "byte_length": 12769,
+      "sha256": "f341ab29c50791da073642b6625a6f5039bb63535c52eeef06f0a7e394529c5d",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/gate-a-protocol.schema.json",
+      "relative_path": "schemas/gate-a-protocol.schema.json",
+      "git_blob_sha": "010a5c9839e3f58158d062f641b224cffdf8f89f",
+      "byte_length": 6196,
+      "sha256": "17510d270ad2bd8d840918b68fd84f23c5ede993b4098f888bd89aba744e6621",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/research-intake.schema.json",
+      "relative_path": "schemas/research-intake.schema.json",
+      "git_blob_sha": "2f3b94daebbc76c3328554d634def34a84abbe4e",
+      "byte_length": 12516,
+      "sha256": "08db78a230d32368aa06f2f94dc70ea3ac8f1d88e10c875b7da125400985c3e0",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/research-state.schema.json",
+      "relative_path": "schemas/research-state.schema.json",
+      "git_blob_sha": "a5bca406b78e9cbf9ae6132560f33d96c80566b3",
+      "byte_length": 4130,
+      "sha256": "0ac0b142ded23d96e3d0e5f36c30cb7e790cb71783990405d8f18b38347a6525",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/ledger-anchor.schema.json",
+      "relative_path": "schemas/ledger-anchor.schema.json",
+      "git_blob_sha": "1bb7a6a0a3f8a35a706386ee8b31e5ef2dcbb211",
+      "byte_length": 661,
+      "sha256": "ff4f0598dfb48a9de2f0ce6345246ee1bf6cdd746f6e656876caa9bcf0f6b4ea",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/ledger-event.schema.json",
+      "relative_path": "schemas/ledger-event.schema.json",
+      "git_blob_sha": "3678a20ef851c64de0a4a7aabba461ad84076007",
+      "byte_length": 1969,
+      "sha256": "6203e1b79e49b12befbffa73d6ce83bdcda97443278023447a7746d503b22893",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/parent-problem-card.schema.json",
+      "relative_path": "schemas/parent-problem-card.schema.json",
+      "git_blob_sha": "1d15c172cd08027190497fc88f1ca2b044973be7",
+      "byte_length": 10602,
+      "sha256": "7b9efcb9835afee7f05b665d18bc3f95a568ad3d8fe40097b96c222cb98d8c4c",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/natural-gate-0.schema.json",
+      "relative_path": "schemas/natural-gate-0.schema.json",
+      "git_blob_sha": "69ce223bbbaaa4224dad6c2370cb9044d737d096",
+      "byte_length": 1746,
+      "sha256": "95191b8aa06938e207030c1aa9f196c3fd9be1c464012902133d8d59ebc44cd8",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/importance-decision.schema.json",
+      "relative_path": "schemas/importance-decision.schema.json",
+      "git_blob_sha": "d83154b6ba7314ac11bc0a62e3f711b1fc739384",
+      "byte_length": 4091,
+      "sha256": "64a2f9045d8a1386ec39978a08355ae5e3dd5472b25dfae983f40241da6acc5f",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/evidence-snapshot.schema.json",
+      "relative_path": "schemas/evidence-snapshot.schema.json",
+      "git_blob_sha": "cbd9afda8cfa2f317c2f99baf5a93100efdaae73",
+      "byte_length": 1782,
+      "sha256": "1644d0467559321fc1462fa94a7606ec2454e9a719b88062f9a99581f206522f",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/scripts/_literature.py",
+      "relative_path": "scripts/_literature.py",
+      "git_blob_sha": "b022a3d85f79cfdb8e4663e7a237e693c971a468",
+      "byte_length": 7166,
+      "sha256": "0bc9044bdf96b20c08a9d57e9a26aa34b2464b679ff22aa3e2abc7ca14df1cee",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/native-eval-receipt.schema.json",
+      "relative_path": "schemas/native-eval-receipt.schema.json",
+      "git_blob_sha": "b21cc81b7995ac04667edd1e6533f6bf370fec1b",
+      "byte_length": 5791,
+      "sha256": "54b7f58ac1fa521289dd12f37a69b57a2aa60b9ded002a362c267bd70097a3ff",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/run-manifest.schema.json",
+      "relative_path": "schemas/run-manifest.schema.json",
+      "git_blob_sha": "db250956bde379661d64eaa7777825f512d433aa",
+      "byte_length": 2785,
+      "sha256": "246763179751843649c7feb06b0530abc5b23ee107faa811e93a23a885877b25",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/full-validation-protocol.schema.json",
+      "relative_path": "schemas/full-validation-protocol.schema.json",
+      "git_blob_sha": "9cba1f89cbae719907eddea7e1b93d25acd43bc7",
+      "byte_length": 7242,
+      "sha256": "8e1408809b059b6f7dcb4edd0804a8588d64a5bd6c6d2d49a25d13eae3532fc6",
+      "git_blob_verified": true
+    },
+    {
+      "repository_path": "skills/research-autopilot/schemas/idea-atom.schema.json",
+      "relative_path": "schemas/idea-atom.schema.json",
+      "git_blob_sha": "406ce20fcd41ac084ff03d58e955b8ea49c9a436",
+      "byte_length": 3870,
+      "sha256": "51af200f32915c10225b0022777d40ce6a1f7bd04556f1e2ec91c5b8edfe7d27",
+      "git_blob_verified": true
+    }
+  ],
+  "verified_at_utc": "2026-10-09T00:00:28.954756+00:00",
+  "dependency_inventory": {
+    "observed_python_import_roots": [
+      "_autoresearch",
+      "_evidence",
+      "_importance",
+      "_literature",
+      "_native_eval",
+      "_statistical",
+      "_writing",
+      "argparse",
+      "collections",
+      "contextlib",
+      "contextvars",
+      "copy",
+      "ctypes",
+      "datetime",
+      "fcntl",
+      "hashlib",
+      "json",
+      "math",
+      "numpy",
+      "operator",
+      "os",
+      "pathlib",
+      "re",
+      "run_experiments",
+      "scipy",
+      "shutil",
+      "signal",
+      "statistics",
+      "subprocess",
+      "sys",
+      "tempfile",
+      "threading",
+      "time",
+      "urllib",
+      "uuid",
+      "verify_methods",
+      "warnings",
+      "yaml"
+    ],
+    "cpu_harness_requires": [
+      "Linux/POSIX",
+      "Python >= 3.11",
+      "Python standard library",
+      "writable project-local output and pool directories"
+    ],
+    "optional_yaml_reader": "Existing PyYAML only if non-JSON YAML is parsed",
+    "optional_statistical_analysis": "Existing numpy/scipy for statistical helper analysis",
+    "installs_performed": [],
+    "scientific_processes_started": 0
+  }
+}
