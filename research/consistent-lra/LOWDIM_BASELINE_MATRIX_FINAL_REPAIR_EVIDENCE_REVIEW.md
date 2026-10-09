@@ -37,3 +37,17 @@ Pending rereview, the numerical evidence is not accepted. If the ledger-only
 correction passes, the allowed scope is developmental Rice/Skin baseline
 evidence under the fixed local scorer. It is not official scorer parity,
 Landmark/random coverage, confirmation, Gate A, complete G01 or a paper claim.
+
+Final rereview verdict: **accepted developmental baseline evidence** at exact
+remote commit `f7225f3ef51115a620e4c1e0ec89141be1e27d21` (tree
+`51f2d8726d3b1a04ff2f01abe8033cf7acb9a9fa`). The reviewer confirmed the two
+repair counters are 2, tasks are 52, attempts are 12, scientific attempts are
+0, cumulative CPU remains 66.562782 seconds, and every scientific/evidence
+blob is unchanged from `f915a158...`.
+
+Allowed reporting is descriptive only for fixed-first-3000, offline-scaled
+Rice/Skin under the repaired local projector scorer. Defined-ratio
+denominators, near-zero exclusions, and total versus warmup-excluded steady
+recourse must remain explicit. The review does not establish official scorer
+parity, Landmark/random coverage, confirmation, Gate A, complete G01,
+generalized superiority, theorem validation or paper readiness.

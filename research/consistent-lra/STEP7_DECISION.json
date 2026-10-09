@@ -1,10 +1,10 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T04:11:37+00:00",
+  "observed_at": "2026-10-09T05:42:16+00:00",
   "rsi_source_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "canonical_controller_run": false,
   "decision": 2,
-  "action": "continue full native strong/simple baseline qualification and sensitivity before Parent/Gate0/IPCG or discovery; FD source semantics are closed",
+  "action": "continue source and benchmark reading for authentic official scorer parity and missing Landmark/random native baseline matrices before Parent/Gate0/IPCG or discovery",
   "basis": [
     {
       "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
@@ -69,6 +69,12 @@
       "path": "AUTHOR_FD_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
       "sha256": "5611dbee2372bf9598a8f3c9e43a5001b699e1ac44cd302a6e5b288b72e6ca5e",
       "verdict": "accepted_after_recorded_data_revision_label_correction"
+    },
+    {
+      "path": "LOWDIM_BASELINE_MATRIX_FINAL_REPAIR_EVIDENCE_REVIEW.md",
+      "reviewed_commit": "f7225f3ef51115a620e4c1e0ec89141be1e27d21",
+      "reviewed_record_sha256": "2e2953d01712bda110e05625f8c89f6282563f5805def5faf384a2ea41a10010",
+      "verdict": "accepted_developmental_baseline_evidence"
     }
   ],
   "closed_or_narrowed": {
@@ -79,12 +85,13 @@
     "repaired_evaluator_semantics": "25 analytic/algebraic checks accepted as engineering software evidence only",
     "fd_source_semantics": "45 checks accepted; project ell-row arm matches independent same-spec reference while author ell+1 and Liberty 2ell interfaces are non-parity",
     "rice_alg4_cost_coverage": "all 3000 prefixes retained and independently verified; 0.502147s pipeline, 0.498551s CPU and 120220KiB RSS for one repaired-scorer arm only",
-    "author_fd_source_semantics": "58 checks accepted after preserving one data-revision-label correction; frozen ell+1 update semantics qualified, native performance and published recourse parity not qualified"
+    "author_fd_source_semantics": "58 checks accepted after preserving one data-revision-label correction; frozen ell+1 update semantics qualified, native performance and published recourse parity not qualified",
+    "rice_skin_developmental_matrix": "39 arms and 117000 per-prefix rows accepted after E04 recomputation under the repaired local projector scorer; defined-ratio denominators and warmup-versus-steady recourse remain explicit"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
     "published_random_replication": "unseeded released generator and paper/code normalization mismatch prevent exact figure stream identity",
-    "full_baseline_qualification": "native performance, total per-prefix recourse, author diagnostics, full sensitivity and four-family G01 remain pending",
+    "full_baseline_qualification": "Rice/Skin local-scorer matrix is accepted, but authentic official parity plus Landmark/random native matrices and four-family G01 remain pending",
     "new_method_discovery": "qualified Parent/Gate0/IPCG and meaningful residual baseline failures pending",
     "candidate_code_dispatch": "no independently ranked qualified method pool/G01/native scorer",
     "eligible_writing": "no validated numerical improvement; originality and downstream significance unresolved"
@@ -93,7 +100,7 @@
   "gate_advanced": false,
   "eligible_new_papers": 0,
   "continued_independent_work": [
-    "complete repaired native per-prefix baseline qualification without relabelling it official",
+    "qualify authentic official scorer parity and complete Landmark/random native matrices without relabelling local-scorer evidence official",
     "continue exact-target correction priority and downstream theorem audit"
   ],
   "reason_not_terminal": "finite productive source, mathematical and engineering qualification tasks remain within the unchanged deadline",
