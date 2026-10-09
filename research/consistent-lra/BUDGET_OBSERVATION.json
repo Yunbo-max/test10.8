@@ -1,5 +1,16 @@
 {
   "active_window_id": "cpu-window-02-20261009",
+  "main_heavy_DAS_transfer": {
+    "artifact": "HEAVY_DAS_TRANSFER_MAIN_DRAFT.md",
+    "artifact_sha256": "6f2468aea1245c7a13d25446add1f0b5a0db18b5c7510c6dc2e771b3325eb7b8",
+    "canonical_assignments": [177, 178],
+    "review_task": "HEAVY_DAS_TRANSFER_REVIEW_TASK_MAIN.md",
+    "review_task_sha256": "27ca87167f9909f81805cb258d7195abd14f61be87185a9bffe372adff2d1359",
+    "status": "candidate_frozen_review_pending",
+    "executable_attempts_added": 0,
+    "scientific_experiments_added": 0,
+    "cpu_seconds_added": 0
+  },
   "main_heavy_single_arrival_aggregate_audit": {
     "artifact": "HEAVY_SINGLE_ARRIVAL_AGGREGATE_AUDIT_MAIN_DRAFT.md",
     "artifact_sha256": "92ec4600c73754815a5b652f37c9871da3602e3481c605faf17db25d24d14ac5",
@@ -1006,8 +1017,8 @@
       "wall_seconds": 11.894702007
     }
   ],
-  "registered_task_assignments": 176,
-  "remaining_wall_seconds_at_observation": 9614,
+  "registered_task_assignments": 178,
+  "remaining_wall_seconds_at_observation": 9347,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
@@ -1326,7 +1337,9 @@
     "main-heavy-branch-small-epsilon-rank-family-independent-review",
     "main-heavy-branch-rank-family-strict-trigger-clarification-independent-rereview",
     "main-heavy-single-arrival-aggregate-consequential-derivation",
-    "main-heavy-single-arrival-aggregate-independent-math-review"
+    "main-heavy-single-arrival-aggregate-independent-math-review",
+    "main-heavy-DAS-transfer-consequential-derivation",
+    "main-heavy-DAS-transfer-independent-math-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [

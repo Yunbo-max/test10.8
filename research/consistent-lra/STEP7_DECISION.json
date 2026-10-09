@@ -131,14 +131,14 @@
     "native": "blockedspecificcapability"
   },
   "latest_budget_record": {
-    "registered_task_assignments": 176,
+    "registered_task_assignments": 178,
     "original_executable_attempts": 24,
     "recorded_controller_rounds": 2,
     "discovery_rounds": 0,
     "admitted_scientific_experiments": 0,
     "eligible_papers": 0,
     "observed_CPU_lower_bound": 318.944499767,
-    "remaining_wall_seconds": 9614
+    "remaining_wall_seconds": 9347
   },
   "next_bounded_independent_work": {
     "route3": "test integer or D A_S specialization and multi-refresh amortization; preserve theorem-wide exclusion",
@@ -153,7 +153,7 @@
   "source_main_commit": "176064b931140da791f58137ee68a37068566f6b",
   "source_legacy_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
   "reconciliation_record": "MAIN_FINAL_PACKET_RECONCILIATION_20261009.md",
-  "registered_task_assignments": 176,
+  "registered_task_assignments": 178,
   "exact_approximate_final_append_only_review": "EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md",
   "main_f1_math_evidence": {
     "artifact": "F1_HEAVY_COUNTEREXAMPLE_MAIN_DRAFT.md",

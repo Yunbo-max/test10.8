@@ -15,7 +15,7 @@ See [migration provenance](MAIN_DELIVERY_AUTHORIZATION_20261009.md).
 
 ## Current independently reviewed evidence — 2026-10-09T13:45:56.315555+00:00
 
-Main current **176 unique assignments / 24 original executable attempts / 2 recorded controller rounds / CPU lower bound 318.944499767s**. Discovery/admitted-native-scientific/paper counts remain 0. No active numeric process or execution reservation. Same-window deadline17:15:43Z and five-minute closeout reserve are unchanged; 9,614 seconds remained at this observation.
+Main current **178 registered assignments / 24 original executable attempts / 2 recorded controller rounds / CPU lower bound 318.944499767s**. Assignments175--176 are accepted; assignment178 is the pending independent review of the newly frozen assignment177 `D A_S` transfer. Discovery/admitted-native-scientific/paper counts remain 0. No active numeric process or execution reservation. Same-window deadline17:15:43Z and five-minute closeout reserve are unchanged; 9,347 seconds remained at this observation.
 
 [Assignments175--176](HEAVY_SINGLE_ARRIVAL_AGGREGATE_REVIEW_MAIN.md) independently accept a reachable real-row construction in which one non-reset HEAVY arrival has recourse greater than `sqrt(k)`. This refutes the domain-free `r=1` segment bound used by the displayed F.1-to-Lemma3.7 chain. It is not an integer stream, is not qualified as the sampled form `D A_S`, supplies no repeated-event theorem counterexample, and does not establish novelty, a method, empirical evidence, or paper eligibility. The next finite proof task is the integer/`D A_S` specialization or an alternative multi-refresh amortization; native StageB remains blocked and unexecuted.
 
