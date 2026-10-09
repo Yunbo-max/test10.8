@@ -662,8 +662,8 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:23:31.715603+00:00",
-  "observed_process_cpu_seconds": 292.775693082,
+  "observed_at": "2026-10-09T12:24:37.775508+00:00",
+  "observed_process_cpu_seconds": 293.196099082,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
   "pending_asset_review": null,
@@ -1160,11 +1160,11 @@
     "attempts_reserved": 1,
     "cpu_cores": 1,
     "execution_admitted": true,
-    "execution_status": "charged_prelaunch_no_process_yet",
+    "execution_status": "completed_existing_exact_integer_witness_pending_independent_review",
     "harness_plan_digest": "aca5500a34085d81ccecddea8c740e8a982be3c429681bc401197af06a8baf97",
     "native_plan_digest": "3db894cffd06776ec58513867dc17559c6d9cf53be4b3d35df62f8feb0382905",
     "ram_mib_reserved_not_enforced": 256,
-    "released": false,
+    "released": true,
     "scope": "existing_lemma_exact_integer_construction_no_matrix_evaluation",
     "task": "exact-integer-witness-02",
     "wall_seconds_upper_bound": 90,
@@ -1176,7 +1176,13 @@
       "active_matching_processes": [],
       "remaining_wall_seconds": 17531.284397,
       "process_inventory_method": "proc exactargvbasename"
-    }
+    },
+    "attempt_id": "exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e",
+    "attempts_completed": 1,
+    "release_basis": "terminalcompletednestedreceipt and twoalltwo postexit outputhashchecks",
+    "waited_process_tree_cpu_seconds": 0.420406,
+    "actual_harness_wall_seconds": 1.084131615003571,
+    "maximum_child_rss_kib": 30948
   },
   "window02_integer_witness_source_corrections": [
     {

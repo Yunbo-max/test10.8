@@ -1,0 +1,3 @@
+{"event":"batch_started","observed_at":"2026-10-09T12:23:37.133657Z","plan_digest":"aca5500a34085d81ccecddea8c740e8a982be3c429681bc401197af06a8baf97"}
+{"devices":[],"event":"task_started","launcher_pid":6,"native_plan_digest":"3db894cffd06776ec58513867dc17559c6d9cf53be4b3d35df62f8feb0382905","observed_at":"2026-10-09T12:23:37.139054Z","task_id":"exact-integer-witness-02"}
+{"event":"task_finished","observed_at":"2026-10-09T12:23:38.145434Z","status":"completed","task_id":"exact-integer-witness-02"}
