@@ -44,10 +44,14 @@ sensitivity settings of one existing method, never separate contributions.
 loss, fresh OPT, additive and normalized excess, defined ratio, zero-OPT flag,
 projector increment/cumulative/steady recourse, rank/warmup/update flags,
 orthogonality, basis and separated update/reference/scoring times.  Each raw
-JSONL plus its summary is placed in a deterministic gzip-compressed tar archive
-per cohort.  The manifest records member and archive SHA256, exact configuration,
-headline aggregates and total process CPU/RSS.  Compression is lossless and
-must be independently decompressed/hash-checked before any verdict.
+JSONL plus its summary is placed in a gzip-compressed tar archive per cohort.
+Container metadata and member ordering are deterministic for fixed member
+bytes, but timing-bearing summaries mean archives are not expected to be
+byte-identical across reruns.  The manifest records member and archive SHA256,
+exact configuration, complete runtime/code/thread provenance, cohort-native
+source/transformed/label identities, headline aggregates and total process
+CPU/RSS.  Compression is lossless and must be independently decompressed/hash-
+checked before any verdict.
 
 ## Falsifiers and interpretation
 
@@ -57,6 +61,11 @@ any basis/metric is nonfinite, orthonormality exceeds the frozen tolerance,
 near-zero OPT is divided through, thread bindings exceed one, or the run does
 not terminate inside its reviewed budget.  Any malformed arm blocks only this
 matrix and descendants; it is not repaired silently.
+
+All four final output paths are preflighted as distinct and absent, then opened
+exclusively.  A uniquely owned staging directory is preserved on any failure,
+including partial raw files; it is removed only after all three lossless
+archives and the manifest have been written successfully.
 
 A valid result may expose residual accuracy/recourse/cost failures among
 existing baselines and bound later G01 planning.  It cannot establish whole-
