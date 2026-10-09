@@ -43,6 +43,13 @@ comparison, parameter search or claim test was performed.
 
 ## Review state
 
-Independent review is assigned separately against an immutable candidate.
-Until accepted, these are collected raw observations rather than an accepted
-evidence verdict.
+Independent review was assigned separately against immutable evidence candidate
+`3314a7e86b2f1b0fa1461ea1d1475d184d618709`, bound by
+`17e4e192b4816842faa0c523cfa32eac4ab2368b`.
+
+Reviewer `/root/landmark_evidence_review` returned `accepted` after independently
+recomputing both plan digests and every relevant artifact hash, checking the
+single attempt/no-retry history, raw counts, resource accounting, released
+reservation and all false gate/scientific flags.  It ran no project code and
+wrote no files.  This acceptance is limited to mechanical source-integrity
+evidence; it is not native numerical qualification.

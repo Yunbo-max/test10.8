@@ -54,7 +54,7 @@ completed:
   - independent_source_audit_of_four_author_scripts
   - independent_work_host_capability_audit
 pending:
-  - independent_review_of_completed_Landmark_integrity_evidence
+  - bounded_Rice_Skin_selected_prefix_identity_plan_review
   - complete_Landmark_asset_and_random_normalization_identity_join
   - authentic_upstream_runnable_scorer_interface_and_parity_admission
   - existing_paper_lemma_downstream_implications_and_complete_collision_audit
@@ -76,7 +76,7 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 18
+actual_registered_task_assignments: 19
 actual_executable_attempts: 2
 actual_preparation_attempts: 2
 actual_scientific_attempts: 0
@@ -116,5 +116,6 @@ landmark_source_harness_plan: plans/harness-landmark-source-integrity.json
 landmark_source_execution_record: LANDMARK_INTEGRITY_EXECUTION_20261009.md
 landmark_source_receipt: runs/attempts/landmark-source-integrity-01/receipt.json
 landmark_source_evidence_sha256: 62595f9dec8c563b05ebe92a0ecc66ac569c2f9730b699728613f5a366fc8e35
-pending_landmark_execution_review: landmark-integrity-execution-evidence-review
+landmark_execution_review: accepted
 pending_author_archive_scorer_review: author-archive-scorer-audit-independent-review
+pending_rice_skin_identity_plan_review: rice-skin-selected-prefix-identity-plan-review

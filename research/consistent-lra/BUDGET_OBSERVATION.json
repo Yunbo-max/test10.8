@@ -7,7 +7,7 @@
   "deadline_utc": "2026-10-09T07:47:45Z",
   "observed_at": "2026-10-09T02:05:22+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 18,
+  "registered_task_assignments": 19,
   "executable_attempts_dispatched": 2,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -74,7 +74,8 @@
     "landmark-source-qualification-independent-review",
     "landmark-source-qualification-correction-rereview",
     "landmark-integrity-execution-evidence-review",
-    "author-archive-scorer-audit-independent-review"
+    "author-archive-scorer-audit-independent-review",
+    "rice-skin-selected-prefix-identity-plan-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -96,8 +97,10 @@
   "completed_source_review": "sampling-source-qualification-correction-re-review:accepted",
   "pending_asset_review": null,
   "completed_asset_review": "landmark-source-qualification-correction-rereview:accepted_after_recorded_needs_correction",
-  "pending_execution_evidence_review": "landmark-integrity-execution-evidence-review",
+  "pending_execution_evidence_review": null,
+  "completed_execution_evidence_review": "landmark-integrity-execution-evidence-review:accepted",
   "pending_archive_scorer_review": "author-archive-scorer-audit-independent-review",
+  "pending_execution_plan_review": "rice-skin-selected-prefix-identity-plan-review",
   "latest_resource_observation": {
     "observed_at": "2026-10-09T02:04:48+00:00",
     "cpu_max": "800000 100000",

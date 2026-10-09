@@ -1,0 +1,38 @@
+{
+  "schema_id": "harness-plan",
+  "schema_version": "1.0.0",
+  "batch_id": "rice-skin-selected-prefix-mechanical-01",
+  "tasks": [
+    {
+      "task_id": "rice-skin-selected-prefix-identity-01",
+      "idea_id": "existing-evaluator-selected-prefix-identity",
+      "plan_ref": {
+        "path": "plans/native-rice-skin-selected-prefix-identity.json",
+        "sha256": "2d9167929fe11d7c14919f69af44af3d0234dbf62141877f752e260d7d398456"
+      },
+      "depends_on": [],
+      "priority": 1,
+      "resources": {
+        "cpu_cores": 1,
+        "ram_mib": 512,
+        "gpu_count": 0,
+        "gpu_peak_mib": null,
+        "allow_gpu_share": false,
+        "memory_profile_ref": null,
+        "exclusive_keys": ["consistent-lra-rice-skin-identity"]
+      }
+    }
+  ],
+  "limits": {
+    "window_seconds": 120,
+    "total_wall_seconds": 150,
+    "max_parallel_tasks": 1,
+    "cpu_cores": 1,
+    "ram_mib": 512,
+    "max_gpu_task_seconds": 0
+  },
+  "pool_dir": "/workspace/scratch/bb9f262965cf/destination-repo/research/consistent-lra/runs/pool",
+  "output_root": "runs/harness",
+  "gpus": {"uuids": [], "safety_margin_mib": 256, "max_tasks_per_gpu": 1},
+  "plan_digest": "b6c9a8f6550e1cc71851d7ca3dc71cfde90ba4b861ad800740d1478102ba6cc9"
+}
