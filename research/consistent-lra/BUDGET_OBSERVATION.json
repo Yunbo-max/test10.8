@@ -5,14 +5,15 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T05:09:47+00:00",
+  "observed_at": "2026-10-09T05:11:36+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 45,
-  "executable_attempts_dispatched": 10,
+  "registered_task_assignments": 46,
+  "executable_attempts_dispatched": 11,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 25.379104,
+  "observed_process_cpu_seconds": 44.153886,
+  "observed_process_cpu_seconds_semantics": "lower_bound_after_failed_repair_01; exact aggregate unavailable because producer rejected before manifest",
   "reservation": {
     "task": "source-integrity-01",
     "purpose": "mechanical_preparation_only",
@@ -45,7 +46,7 @@
       "failure": "native_official_scorer_interface_absent",
       "category": "capability_source_admission_gap",
       "scientific_refutation": false,
-      "repair_count": 0
+      "repair_count": 1
     },
     {
       "failure": "landmark_blob_exceeds_MCP_response_8388608_bytes",
@@ -113,7 +114,8 @@
     "lowdim-baseline-matrix-evidence-review",
     "lowdim-baseline-matrix-repair-source-review",
     "lowdim-baseline-matrix-repair-source-correction-rereview",
-    "lowdim-baseline-matrix-repair-plan-review"
+    "lowdim-baseline-matrix-repair-plan-review",
+    "lowdim-baseline-matrix-repair-evidence-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -124,7 +126,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 9478,
+  "remaining_wall_seconds_at_observation": 9369,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -357,15 +359,25 @@
     "ram_mib_reserved_not_enforced": 512,
     "wall_seconds_upper_bound": 180,
     "attempts_reserved": 1,
-    "attempts_completed": 0,
+    "attempts_completed": 1,
     "retries": 0,
-    "released": false,
+    "released": true,
+    "release_basis": "guarded process exited 1 and harness is terminal failed; no surviving process",
     "native_plan_digest": "10f6cacb9074dbcb3b5f8f539371aef148cb09b91eb606334d35e7b14f7969bf",
     "harness_plan_digest": "78ce83b3889722561525987f4248782f0325061cf7692c3eb93adb17a1d276de",
     "plan_review": "accepted",
     "plan_review_commit": "1e6d644c44eb59c49415dc1a89acce4822a1937f",
     "scientific_experiment": false,
-    "performance_claim_eligible": false
+    "performance_claim_eligible": false,
+    "execution_status": "failed_detected_retained_member_mutation_before_manifest",
+    "guarded_wall_seconds": 23.73879423499602,
+    "measured_per_arm_cpu_seconds_lower_bound": 18.774781999999995,
+    "actual_max_rss_kib": 158096,
+    "receipt_sha256": "4e79b341350560232cd49f3836eb575828ea23657a0267a6d540e6945caf3235",
+    "attempt_sha256": "004f348deb153681ce34430ce7fd34ff59e6ca95ea424c4e446ffda1b9a54218",
+    "raw_member_mismatches": 4,
+    "manifest_published": false,
+    "independent_evidence_review": "pending"
   },
   "unadmitted_development_smoke_history": [
     {
@@ -383,7 +395,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T05:09:47+00:00",
+    "observed_at": "2026-10-09T05:11:36+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
@@ -400,6 +412,8 @@
     "lowdim_baseline_matrix_plan_reviewed": true,
     "lowdim_baseline_matrix_launched": true,
     "lowdim_baseline_matrix_process_completed": true,
-    "lowdim_baseline_matrix_evidence_valid": false
+    "lowdim_baseline_matrix_evidence_valid": false,
+    "lowdim_baseline_matrix_repair_01_launched": true,
+    "lowdim_baseline_matrix_repair_01_failed_safely": true
   }
 }
