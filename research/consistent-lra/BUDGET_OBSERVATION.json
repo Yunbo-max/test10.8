@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T10:25:08.339562+00:00",
+  "observed_at": "2026-10-09T10:28:15.005924+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 96,
+  "registered_task_assignments": 97,
   "executable_attempts_dispatched": 17,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -176,7 +176,8 @@
     "window02-stage-a-v2-calibration-execution",
     "window02-stage-a-v2-calibration-evidence-review",
     "window02-stage-a-v2-full-plan-generation",
-    "window02-stage-a-v2-full-plan-review"
+    "window02-stage-a-v2-full-plan-review",
+    "window02-stage-a-v2-full-execution"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -933,11 +934,7 @@
     "actual_harness_wall_seconds": 7.197787519005942,
     "maximum_child_rss_kib": 168128
   },
-  "pending_window02_priority_audit": {
-    "assignment": "window02-geometric-correction-priority-primary-audit",
-    "scope": "bounded_primary_literature_and_current_author_correction_status;not_novelty_gate",
-    "inputs_commit": "8ff8bc67a3cba06b6346554a2c5c0cd4a97fc1d6"
-  },
+  "pending_window02_priority_audit": null,
   "completed_window02_v2_plan_review": {
     "assignment": "window02-stage-a-v2-calibration-plan-review",
     "reviewer": "/root/window02_stagea_source_review",
@@ -956,10 +953,7 @@
     "commit": "fa2834bbce357fff263c8788e36624bfd27aad7d",
     "verdict": "accepted_identity_container_and_cost_only"
   },
-  "pending_window02_v2_full_plan_review": {
-    "assignment": "window02-stage-a-v2-full-plan-review",
-    "status": "complete_plan_ready"
-  },
+  "pending_window02_v2_full_plan_review": null,
   "window02_stagea_v2_full_reservation": {
     "task": "landmark-stage-a-v2-qualification-02",
     "cpu_cores": 1,
@@ -968,9 +962,24 @@
     "attempts_reserved": 1,
     "attempts_launched": 0,
     "released": false,
-    "execution_admitted": false,
+    "execution_admitted": true,
     "native_plan_digest": "46cd6fa3fa9377b0235855e6ac54a3b8a8ffdf9e0cf83ae3d579c05f555f277c",
     "harness_plan_digest": "4370389392dfd58452c6e46d53d112b34d9c22ea24c40286b141076209273cbb",
-    "scope": "same35finite_native_identity_oracles_5000update_costs_outputmitigation_only_no_performance"
+    "scope": "same35finite_native_identity_oracles_5000update_costs_outputmitigation_only_no_performance",
+    "execution_status": "reserved_awaiting_actual_single_dispatch",
+    "plan_review": "LANDMARK_STAGE_A_v2_FULL_PLAN_REVIEW.md"
+  },
+  "completed_window02_priority_audit": {
+    "assignment": "window02-geometric-correction-priority-primary-audit",
+    "reviewer": "/root/window02_geometric_formal_review",
+    "commit": "b7a70b71489c41dbd5364294fa61897ad7fec5e1",
+    "status": "bounded_primary_audit_complete_priority_inconclusive;no_gate",
+    "record": "GEOMETRIC_PRIORITY_AUDIT_WINDOW02.md"
+  },
+  "completed_window02_v2_full_plan_review": {
+    "assignment": "window02-stage-a-v2-full-plan-review",
+    "reviewer": "/root/window02_stagea_source_review",
+    "commit": "6d6775c36563cfeac1a3df77f7986fa58c29aa4e",
+    "verdict": "accepted_one_finite_identity_cost_attempt"
   }
 }
