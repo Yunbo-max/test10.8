@@ -112,9 +112,46 @@ class FrequentDirectionsBaseline:
         return q.copy(), True, t <= self.k
 
 
+class AuthorAugmentedFDDiagnostic:
+    """Frozen-author ell+1 update, scored with the common projector contract.
+
+    The update mirrors `originals/consistent-fd.py`: fill the first row for
+    which ``np.any`` is false; once all ell rows are nonzero, append the new
+    row, decompose the (ell+1)-row matrix, subtract sigma_{ell+1}^2 and retain
+    ell weighted right-singular rows.  This intentionally preserves the
+    author's all-zero-row ambiguity.  It does *not* preserve the author's live
+    array alias or row-span recourse metric: the diagnostic emits a copied,
+    row-orthonormal top-k basis for the shared repaired scorer.
+    """
+    def __init__(self, matrix, k, ell):
+        if not 1 <= k <= ell < matrix.shape[1]:
+            raise ValueError("author FD diagnostic requires 1<=k<=ell<d")
+        self.matrix, self.k, self.ell = matrix, k, ell
+        self.b = np.zeros((ell, matrix.shape[1]), dtype=np.float64)
+        self.shrinks = 0
+
+    def update(self, t, energy):
+        row = self.matrix[t - 1]
+        for index in range(self.ell):
+            if not np.any(self.b[index]):
+                self.b[index] = row
+                break
+        else:
+            augmented = np.vstack([self.b, row])
+            _, singular, vh = np.linalg.svd(augmented, full_matrices=False)
+            delta = singular[self.ell] ** 2
+            shrunk = np.sqrt(np.maximum(singular[:self.ell] ** 2 - delta, 0.0))
+            self.b = shrunk[:, None] * vh[:self.ell]
+            self.shrinks += 1
+        q, _ = top_basis(self.b, min(self.k, t))
+        return q.copy(), True, t <= self.k
+
+
 def make_arm(args, matrix):
     if args.arm == "fd":
         return FrequentDirectionsBaseline(matrix, args.k, args.ell)
+    if args.arm == "author_fd":
+        return AuthorAugmentedFDDiagnostic(matrix, args.k, args.ell)
     if args.arm == "algorithm4" and (not np.isfinite(args.c) or not args.c > 1):
         raise ValueError("c must be greater than1")
     if args.arm == "periodic" and args.interval <= 0:
@@ -215,11 +252,15 @@ def run(args):
                "confirmation": False, "scientific_gate_advanced": False,
                "low_recourse_theorem_transferred": False,
                "zero_energy_convention": ("refresh canonical first min(k,t) coordinate directions"
-                                          if args.arm != "fd" else "FD numpy_svd_library_tie_policy_pending_qualification"),
+                                          if args.arm not in ("fd", "author_fd")
+                                          else "FD numpy_svd_library_tie_policy_pending_qualification"),
                "timing_accounting": "Algorithm4 update_seconds includes energy_maintenance_seconds; do not add this diagnostic twice",
                "nonzero_degenerate_spectrum_convention": "numpy_svd_library_tie_policy_no_low_recourse_guarantee",
                "initialization_from_zero_excluded_from_primary_recourse": True,
-               "sensitivity_and_author_FD_diagnostic": "pending separate reviewed implementation; not complete G01",
+               "fd_variant": ({"fd": "strong_ell_row_compress_before_insert",
+                               "author_fd": "frozen_author_ell_plus_one_update_common_projector_output"}.get(args.arm)),
+               "author_fd_is_diagnostic_not_strong_baseline": args.arm == "author_fd",
+               "sensitivity_and_author_FD_diagnostic": "implementation candidate present; execution and complete G01 pending",
                "qualification_pending": True}
     output.with_suffix(".summary.json").write_text(json.dumps(summary, allow_nan=False, indent=2) + "\n")
     print(json.dumps({"output": str(output), "usage": summary["usage"], "scientific_gate_advanced": False}))
@@ -237,7 +278,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dataset", choices=["rice", "skin", "landmark", "random"], required=True)
     parser.add_argument("--source", default="")
-    parser.add_argument("--arm", choices=["algorithm4", "fresh", "fixed", "periodic", "fd"], required=True)
+    parser.add_argument("--arm", choices=["algorithm4", "fresh", "fixed", "periodic", "fd", "author_fd"], required=True)
     parser.add_argument("--k", type=int, required=True)
     parser.add_argument("--c", type=float, default=1.1)
     parser.add_argument("--interval", type=int, default=100)
