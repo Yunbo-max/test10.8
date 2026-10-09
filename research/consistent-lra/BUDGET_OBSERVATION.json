@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T10:28:36.994630+00:00",
+  "observed_at": "2026-10-09T10:31:09.848707+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 97,
+  "registered_task_assignments": 98,
   "executable_attempts_dispatched": 18,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 167.29431,
+  "observed_process_cpu_seconds": 246.085404,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "reservation": {
     "task": "source-integrity-01",
@@ -177,7 +177,8 @@
     "window02-stage-a-v2-calibration-evidence-review",
     "window02-stage-a-v2-full-plan-generation",
     "window02-stage-a-v2-full-plan-review",
-    "window02-stage-a-v2-full-execution"
+    "window02-stage-a-v2-full-execution",
+    "window02-stage-a-v2-full-evidence-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -961,14 +962,19 @@
     "wall_seconds_upper_bound": 660,
     "attempts_reserved": 1,
     "attempts_launched": 1,
-    "released": false,
+    "released": true,
     "execution_admitted": true,
     "native_plan_digest": "46cd6fa3fa9377b0235855e6ac54a3b8a8ffdf9e0cf83ae3d579c05f555f277c",
     "harness_plan_digest": "4370389392dfd58452c6e46d53d112b34d9c22ea24c40286b141076209273cbb",
     "scope": "same35finite_native_identity_oracles_5000update_costs_outputmitigation_only_no_performance",
-    "execution_status": "running_actual_exec_session8251_reviewed_harness",
+    "execution_status": "completed_pending_independent_evidence_review",
     "plan_review": "LANDMARK_STAGE_A_v2_FULL_PLAN_REVIEW.md",
-    "execution_started": true
+    "execution_started": true,
+    "attempts_completed": 1,
+    "release_basis": "terminalcompletedreceipt and twoall38postexitoutputrehashes",
+    "waited_process_tree_cpu_seconds": 78.791094,
+    "actual_harness_wall_seconds": 79.25155311999697,
+    "maximum_child_rss_kib": 190604
   },
   "completed_window02_priority_audit": {
     "assignment": "window02-geometric-correction-priority-primary-audit",
@@ -982,5 +988,9 @@
     "reviewer": "/root/window02_stagea_source_review",
     "commit": "6d6775c36563cfeac1a3df77f7986fa58c29aa4e",
     "verdict": "accepted_one_finite_identity_cost_attempt"
+  },
+  "pending_window02_v2_full_evidence_review": {
+    "assignment": "window02-stage-a-v2-full-evidence-review",
+    "attempt_id": "landmark-stage-a-v2-identity-a1-4132a34d9d364ec9b556ac5d64803735"
   }
 }
