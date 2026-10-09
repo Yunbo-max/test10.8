@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T01:05:00+00:00",
+  "observed_at": "2026-10-09T01:52:30+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 14,
+  "registered_task_assignments": 15,
   "executable_attempts_dispatched": 1,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -55,14 +55,15 @@
     "integer-density-extension-independent-review",
     "sampling-source-qualification-independent-review",
     "integer-density-extension-correction-re-review",
-    "sampling-source-qualification-correction-re-review"
+    "sampling-source-qualification-correction-re-review",
+    "landmark-source-qualification-independent-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
     "path": "runs/attempts/source-integrity-01/receipt.json",
     "sha256": "abe68964844ec38e356b6c1573f615ea6319756185361d4a0eedf49dbbb0d378"
   },
-  "remaining_wall_seconds_at_observation": 24165,
+  "remaining_wall_seconds_at_observation": 21314,
   "verified_scientific_failures_by_direction": {},
   "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run.",
   "formal_review_assignments_completed": true,
@@ -70,6 +71,7 @@
   "completed_formal_review": "integer-density-extension-correction-re-review:accepted",
   "pending_source_review": null,
   "completed_source_review": "sampling-source-qualification-correction-re-review:accepted",
+  "pending_asset_review": "landmark-source-qualification-independent-review",
   "latest_resource_observation": {
     "observed_at": "2026-10-09T01:02:08+00:00",
     "cpu_max": "800000 100000",

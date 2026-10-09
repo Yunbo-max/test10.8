@@ -54,6 +54,7 @@ completed:
   - independent_source_audit_of_four_author_scripts
   - independent_work_host_capability_audit
 pending:
+  - independent_review_and_mechanical_integrity_of_acquired_Landmark_blob
   - complete_Landmark_asset_and_random_normalization_identity_join
   - authentic_upstream_runnable_scorer_interface_and_parity_admission
   - existing_paper_lemma_downstream_implications_and_complete_collision_audit
@@ -75,7 +76,7 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 14
+actual_registered_task_assignments: 15
 actual_executable_attempts: 1
 actual_preparation_attempts: 1
 actual_scientific_attempts: 0
@@ -104,3 +105,5 @@ latest_resource_observation_utc: '2026-10-09T01:02:08+00:00'
 latest_cpu_max: '800000 100000'
 latest_visible_processors: 9
 latest_memory_max_bytes: 8589934592
+landmark_source_acquisition_draft: LANDMARK_SOURCE_ACQUISITION_20261009.md
+landmark_source_inspector_draft: inspect_landmark_source.py

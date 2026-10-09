@@ -1,0 +1,25 @@
+{
+  "format": "scoped-independent-source-and-code-review-assignment-v1",
+  "task_id": "landmark-source-qualification-independent-review",
+  "registered_order": 15,
+  "candidate_paths": [
+    "research/consistent-lra/LANDMARK_SOURCE_ACQUISITION_20261009.md",
+    "research/consistent-lra/inspect_landmark_source.py"
+  ],
+  "candidate_commit": null,
+  "review_questions": [
+    "Do the frozen author blob, observed hashes and official SuiteSparse metadata identify the same Landmark matrix?",
+    "Does the official source support the stated CC-BY-4.0 and attribution/modification obligations?",
+    "Does the script stream rather than densify, validate the complete source, and avoid scientific scoring?",
+    "Are the first-5000-row counts descriptive source qualification rather than an invented benchmark or result?",
+    "Is the one-core, 512-MiB, 60-second, one-attempt envelope safe and bounded?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "native_scoring": false,
+  "budget_effect": {
+    "registered_task_assignments": 1,
+    "executable_attempts": 0,
+    "scientific_experiments": 0
+  }
+}
