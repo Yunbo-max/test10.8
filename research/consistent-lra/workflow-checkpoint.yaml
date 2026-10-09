@@ -105,7 +105,7 @@ integer_density_extension_draft: FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md
 integer_density_initial_review_record: FORMAL_AUDIT_v4_REVIEW.md
 sampling_source_qualification_draft: SAMPLING_SOURCE_QUALIFICATION_20261009.md
 sampling_source_initial_review_record: SAMPLING_SOURCE_QUALIFICATION_REVIEW.md
-latest_resource_observation_utc: '2026-10-09T01:02:08+00:00'
+latest_resource_observation_utc: '2026-10-09T03:08:34+00:00'
 latest_cpu_max: '800000 100000'
 latest_visible_processors: 9
 latest_memory_max_bytes: 8589934592
@@ -148,4 +148,5 @@ fd_semantic_oracle_receipt_sha256: 02676afa9a50320d5756e18ddf3cc0e7708f9949499ff
 fd_semantic_oracle_output_sha256: 8dc34bdced536cadbef966182f759e941e3725f8f400c9d09f780d82a1ee507b
 fd_semantic_oracle_checks: 45
 fd_semantic_oracle_failures: 0
+fd_semantic_oracle_evidence_review: needs_correction_time_ledger_only
 fd_semantic_unadmitted_smoke: charged_attempt_invalid_as_evidence

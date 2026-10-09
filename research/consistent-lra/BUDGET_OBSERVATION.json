@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T03:10:32+00:00",
+  "observed_at": "2026-10-09T03:15:27+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 29,
   "executable_attempts_dispatched": 7,
@@ -102,7 +102,15 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 18136,
+  "remaining_wall_seconds_at_observation": 16338,
+  "fd_evidence_remaining_wall_correction": {
+    "deadline_utc": "2026-10-09T07:47:45Z",
+    "evidence_observed_at": "2026-10-09T03:08:34Z",
+    "evidence_remaining_wall_seconds": 16751,
+    "assignment_observed_at": "2026-10-09T03:10:32Z",
+    "assignment_remaining_wall_seconds": 16633,
+    "raw_execution_bytes_changed": false
+  },
   "prior_timestamp_correction": "The prelaunch draft used 02:16Z while the host clock was 02:04Z; this observation restores the actual harness timestamps and recomputes remaining wall time rather than consuming fictional elapsed time.",
   "verified_scientific_failures_by_direction": {},
   "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run.",
@@ -181,6 +189,12 @@
       "initial_verdict": "needs_correction",
       "repair_count": 1,
       "rereview_verdict": "accepted"
+    },
+    {
+      "review": "fd-semantic-oracle-evidence-review",
+      "initial_verdict": "needs_correction",
+      "repair_count": 1,
+      "rereview_verdict": "pending"
     }
   ],
   "pending_evaluator_semantic_oracle_evidence_review": null,
@@ -209,7 +223,8 @@
     "receipt_sha256": "02676afa9a50320d5756e18ddf3cc0e7708f9949499ff9149059aea9b20175ea",
     "output_sha256": "8dc34bdced536cadbef966182f759e941e3725f8f400c9d09f780d82a1ee507b"
   },
-  "pending_fd_semantic_oracle_evidence_review": "fd-semantic-oracle-evidence-review",
+  "pending_fd_semantic_oracle_evidence_review": null,
+  "completed_fd_semantic_oracle_evidence_review": "needs_correction_time_ledger_only",
   "unadmitted_development_smoke_history": [
     {
       "direction": "fd_source_semantic_oracles",
