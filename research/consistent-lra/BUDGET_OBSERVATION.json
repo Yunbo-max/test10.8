@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T09:40:42.032248+00:00",
+  "observed_at": "2026-10-09T09:45:59.758198+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 77,
+  "registered_task_assignments": 78,
   "executable_attempts_dispatched": 15,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -68,7 +68,7 @@
     }
   ],
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
-  "independent_work": "primary-source collision and sampling qualification after accepted finite and dynamic formal counterexamples",
+  "independent_work": "unresolved universal single-update rank dependence: read full Krein/Uebersohn lineage, map actual finite rank and cutoff assumptions; no novelmethodclaim",
   "task_assignments": [
     "source_join_review",
     "harness_staging_review",
@@ -146,7 +146,8 @@
     "window02-landmark-stage-a-calibration-plan-generation",
     "window02-landmark-stage-a-calibration-plan-review",
     "window02-landmark-stage-a-calibration-execution",
-    "window02-landmark-stage-a-calibration-evidence-review"
+    "window02-landmark-stage-a-calibration-evidence-review",
+    "window02-rankone-finite-bound-primary-source-investigation"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -799,5 +800,7 @@
     "commit": "4052a9686c7910366611d0b889626e98c51ea2ae",
     "verdict": "accepted_one_calibration_only"
   },
-  "pending_window02_calibration_evidence_review": "window02-landmark-stage-a-calibration-evidence-review"
+  "pending_window02_calibration_evidence_review": "window02-landmark-stage-a-calibration-evidence-review",
+  "stage_b_execution_admitted": false,
+  "stage_b_blocker": "scientific_native_protocol_official_scorer_live_capability_missing; cannot dispatch as engineering"
 }
