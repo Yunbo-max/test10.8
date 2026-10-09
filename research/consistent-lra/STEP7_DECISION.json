@@ -4,7 +4,7 @@
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
   "decision": 3,
-  "action": "bounded integer or D A_S specialization and multi-refresh amortization after independently accepted real-row r1 HEAVY counterexample",
+  "action": "bounded actual-sampler restriction or multi-refresh amortization after independently accepted algebraic D A_S r1 HEAVY counterexample",
   "basis": [
     "Actual154fullintegerrecoursecertificate accepted; exactlossseparation independentmainreview retained",
     "Actual161known1997mechanismcollision/fullconjunctionpriorityinconclusive",
@@ -12,7 +12,8 @@
     "Actual165v1construction/state and166independentstrictness/v2 accepted:small-epsilonR>4k/5 excludesuniformepsilon-independentconstant sqrtk only",
     "Canonical167-171 retain a separate reachable k144 exact-final-byte counterexample and bounded priority audit; worker-local labels collided with concurrent tasks and were remapped without dropping history",
     "Canonical172-174 preserve an initial rejected arbitrary-real argument and independently accept the corrected M=D A_S Cauchy-Binet product-floor repair; literal integrality remains false but is not a recourse-proof blocker",
-    "Canonical175-176 independently accept a reachable single-arrival real-row violation of the r=1 HEAVY segment bound; integer/D A_S membership, repeated-event and theorem-wide claims remain excluded"
+    "Canonical175-176 independently accept a reachable single-arrival real-row violation of the r=1 HEAVY segment bound; integer/D A_S membership, repeated-event and theorem-wide claims remain excluded",
+    "Canonical177-178 independently transfer the event to integer-base D A_S with D>=I; actual ridge-leverage sampler reachability, repeated events and theorem-wide claims remain excluded"
   ],
   "closed_or_narrowed": {
     "Landmark_asset": "exact bytes/license/full mechanical counts independently accepted",
@@ -127,7 +128,7 @@
   ],
   "independent_routes": {
     "route2": "reweightedsourcepremiseclosed;priorityremainsinconclusive",
-    "route3": "real-row r1 counterexample accepted; integer/DAS specialization or alternative multi-refresh amortization remains",
+    "route3": "real-row and algebraic D A_S r1 counterexamples accepted; actual sampler restriction or alternative multi-refresh amortization remains",
     "native": "blockedspecificcapability"
   },
   "latest_budget_record": {
@@ -138,10 +139,10 @@
     "admitted_scientific_experiments": 0,
     "eligible_papers": 0,
     "observed_CPU_lower_bound": 318.944499767,
-    "remaining_wall_seconds": 9347
+    "remaining_wall_seconds": 9124
   },
   "next_bounded_independent_work": {
-    "route3": "test integer or D A_S specialization and multi-refresh amortization; preserve theorem-wide exclusion",
+    "route3": "test actual ridge-leverage sampler restrictions or multi-refresh amortization; preserve theorem-wide exclusion",
     "native_descendants": "remainblocked authenticreference/livecallback/parity; do notrunStageB ornewmethods",
     "source_priority": "two bounded audits retain component prior-art collisions and full-conjunction priority as inconclusive; no absence-of-search pass",
     "source": "reweighted-integer premise accepted as nonblocking proof-detail repair; sampled-entry magnitude bound remains conditional",
@@ -173,6 +174,19 @@
     "reviewed_commit": "ad77490323fee335dc64ae390cc37d61b29646eb",
     "verdict": "accepted_scoped_real_row_r1_counterexample_only",
     "integer_or_DAS_membership": false,
+    "repeated_event": false,
+    "theorem1_3_false": false,
+    "scientific_gate_advanced": false
+  },
+  "main_heavy_DAS_transfer_evidence": {
+    "artifact": "HEAVY_DAS_TRANSFER_MAIN_DRAFT.md",
+    "sha256": "6f2468aea1245c7a13d25446add1f0b5a0db18b5c7510c6dc2e771b3325eb7b8",
+    "review": "HEAVY_DAS_TRANSFER_REVIEW_MAIN.md",
+    "review_sha256": "e73c0665d859b1d0c0a5038fc5d7368d1d7987d84a6723fbdf6838d4761cf4f0",
+    "reviewed_commit": "97fc0e424ddea8eac706af0eb618624fc2e02dd5",
+    "verdict": "accepted_algebraic_DAS_transfer_only",
+    "actual_sampler_reachability": false,
+    "literal_integer_stream": false,
     "repeated_event": false,
     "theorem1_3_false": false,
     "scientific_gate_advanced": false

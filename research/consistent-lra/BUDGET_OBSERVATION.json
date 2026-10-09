@@ -6,7 +6,10 @@
     "canonical_assignments": [177, 178],
     "review_task": "HEAVY_DAS_TRANSFER_REVIEW_TASK_MAIN.md",
     "review_task_sha256": "27ca87167f9909f81805cb258d7195abd14f61be87185a9bffe372adff2d1359",
-    "status": "candidate_frozen_review_pending",
+    "review": "HEAVY_DAS_TRANSFER_REVIEW_MAIN.md",
+    "review_sha256": "e73c0665d859b1d0c0a5038fc5d7368d1d7987d84a6723fbdf6838d4761cf4f0",
+    "reviewed_commit": "97fc0e424ddea8eac706af0eb618624fc2e02dd5",
+    "status": "accepted_DAS_algebraic_transfer_actual_sampler_and_theoremwide_claims_excluded",
     "executable_attempts_added": 0,
     "scientific_experiments_added": 0,
     "cpu_seconds_added": 0
@@ -617,7 +620,7 @@
   },
   "formal_review_assignments_completed": true,
   "format": "monotonic-project-planning-observation-v1",
-  "independent_work": "Integerexact61rootcertificate, small-epsilonHEAVYrank-family correction, and one-arrival real-row r1 aggregate dependency counterexample accepted; integer/DAS aggregate repair remains open; nativefullcomparisonblocked",
+  "independent_work": "One-arrival r1 HEAVY counterexample and algebraic D A_S transfer independently accepted; actual ridge-leverage sampler reachability, repeated-event aggregate repair, and native comparison remain open",
   "landmark_preparation_receipt_ref": {
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
@@ -1018,7 +1021,7 @@
     }
   ],
   "registered_task_assignments": 178,
-  "remaining_wall_seconds_at_observation": 9347,
+  "remaining_wall_seconds_at_observation": 9124,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
