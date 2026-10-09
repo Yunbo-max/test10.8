@@ -1,5 +1,30 @@
 # Consistent LRA: bounded CPU research
 
+
+## Latest independently reviewed evidence — assignments 179--180
+
+The actual-sampler reachability gap is now closed for **one event**. The
+[source-faithful construction](ONLINEPCP_SATURATED_HEAVY_MAIN_DRAFT.md) and
+[independent review](ONLINEPCP_SATURATED_HEAVY_REVIEW_MAIN.md) show that, under
+Braverman et al. Definition 2.1's explicit rank-growth convention, a bounded
+unit-integer stream with online condition number at most \(\sqrt5\) is sampled
+unchanged by OnlinePCP. For \(k=m^2\), \(\eta=1/m<.01\), every sampled
+probability is one and Algorithm 2 reaches a non-reset HEAVY update with
+projector movement greater than \(\sqrt{k}\).
+
+The first draft at \`d309406\` was independently rejected because it ignored
+the source's rank-growth convention; the corrected fixed bytes at \`61e3e19\`
+were then accepted. This result removes the prior arbitrary-\(D A_S\)-weight
+reachability objection. It still gives only one event: repeated recycling,
+aggregate recourse, Theorem 1.3 falsity, novelty, empirical evidence, method
+admission and paper eligibility all remain unproved.
+
+Current ledger: **180 registered assignments, 24 executable attempts,
+2 controller rounds, at least 318.944499767 CPU seconds; 0 discovery rounds,
+0 admitted scientific experiments, 0 eligible papers**. No numerical execution
+was added. Step 7 remains route 3: seek a repeated-event construction or a valid
+multi-refresh amortization; native Stage B remains blocked and unexecuted.
+
 ## Current delivery authorization — 2026-10-09 12:29 Europe/London
 
 The owner instructed “以后直接更新到main就行”. Current delivery is
