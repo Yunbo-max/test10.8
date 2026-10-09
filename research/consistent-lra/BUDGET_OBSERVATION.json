@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T06:01:51+00:00",
+  "observed_at": "2026-10-09T06:06:15+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 58,
   "executable_attempts_dispatched": 13,
@@ -138,7 +138,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 6353,
+  "remaining_wall_seconds_at_observation": 6090,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -266,7 +266,7 @@
       "review": "prospective-random-baseline-matrix-evidence-review",
       "initial_verdict": "needs_correction_invalid_durable_archive_binding",
       "repair_count": 1,
-      "rereview_verdict": "pending"
+      "rereview_verdict": "accepted_developmental_prospective_family_evidence"
     }
   ],
   "pending_evaluator_semantic_oracle_evidence_review": null,
@@ -461,7 +461,7 @@
     "plan_review_commit": "688a5974195fec8fa038c46911dd8a6e8ffd50fa",
     "scientific_experiment": false,
     "performance_claim_eligible": false,
-    "execution_status": "completed_pending_independent_evidence_review",
+    "execution_status": "accepted_developmental_prospective_family_evidence",
     "attempt_id": "rice-skin-lowdim-existing-baseline-matrix-final-repair-a1-f1b61a189db048988917b37c2626a74f",
     "producer_wall_seconds": 22.415467460996297,
     "actual_process_cpu_seconds": 22.408896,
@@ -573,17 +573,26 @@
     "invalid_remote_archive_sha256": "178edc6f1111e531cbedc020825bf1acf880ec06ce797ae6e4d56745db323184",
     "invalid_remote_archive_bytes": 786444,
     "surviving_archive_blob": "8f0595f7fa9a85b0eb6fb7616d404bfb1409fe6d",
-    "durable_publication_repair_count": 1
+    "durable_publication_repair_count": 1,
+    "repaired_remote_commit": "99de82eefb87be6f7e9da66f6b924fb35b801349",
+    "repaired_remote_tree": "1699dcadf286c7b39051b3ab037be8b10dac0db0",
+    "independent_rereview_verdict": "accepted_developmental_prospective_family_evidence"
   },
-  "pending_random_baseline_matrix_evidence_review": {
+  "completed_random_baseline_matrix_evidence_review": {
     "assignment": "prospective-random-baseline-matrix-durable-archive-repair-rereview",
     "reviewer": "/root/rice_skin_evidence_review",
     "initial_reviewed_commit": "373bec07ddb5f48d9861a9884711b220e5733148",
     "initial_reviewed_tree": "8ebf3215435065617cbcad145f696b55d857e5b9",
     "review_record": "RANDOM_BASELINE_MATRIX_EVIDENCE_REVIEW.md",
-    "review_record_sha256": "1ea52051a0a9fd74d1cd0c11fcbca10974a4e4564f43c54e3634d949a784b92c",
-    "status": "publication_repair_1_pending_fixed_commit_rereview",
-    "required_scope": "integrity_plus_E04_developmental_only"
+    "review_record_sha256": "f9f566c8805b0667fead56e158e5bc3c98a4218b2b096a352c55eb1faa1cc9fa",
+    "repaired_remote_commit": "99de82eefb87be6f7e9da66f6b924fb35b801349",
+    "repaired_remote_tree": "1699dcadf286c7b39051b3ab037be8b10dac0db0",
+    "archive_blob": "8f0595f7fa9a85b0eb6fb7616d404bfb1409fe6d",
+    "archive_bytes": 5096362,
+    "archive_sha256": "af9b40bfb131570d1d5868006d0f4193550ba087f6679bb250a65554bab1bb8e",
+    "archive_members": 26,
+    "status": "accepted_developmental_prospective_family_evidence",
+    "scope": "integrity_plus_E04_developmental_only"
   },
   "unadmitted_development_smoke_history": [
     {
@@ -601,7 +610,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T05:57:42+00:00",
+    "observed_at": "2026-10-09T06:06:15+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
@@ -628,7 +637,7 @@
     "prospective_random_baseline_matrix_plan_reviewed": true,
     "prospective_random_baseline_matrix_launched": true,
     "prospective_random_baseline_matrix_completed": true,
-    "prospective_random_baseline_matrix_evidence_reviewed": false,
-    "prospective_random_durable_archive_repair_1_pending": true
+    "prospective_random_baseline_matrix_evidence_reviewed": true,
+    "prospective_random_durable_archive_repair_1_pending": false
   }
 }

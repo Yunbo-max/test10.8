@@ -28,7 +28,9 @@ and asks GitHub to create one blob.  Acceptance requires the returned Git blob
 to equal `8f0595f7...`, followed by an independent fresh remote download,
 SHA-256, gzip test, 26-member inventory and member-hash verification.  No
 numerical source, plan, execution, receipt, manifest or summary is changed.
-Independent repair rereview is pending.
+Independent repair rereview is complete at immutable remote commit
+`99de82eefb87be6f7e9da66f6b924fb35b801349`, tree
+`1699dcadf286c7b39051b3ab037be8b10dac0db0`.
 
 The reviewer completed a bounded numerical/integrity audit against the
 surviving archive while awaiting durable repair.  Every non-archive byte at
@@ -43,3 +45,33 @@ large-energy scale, `1.77e-8` for eigenvalue OPT, zero for direct/SVD loss,
 output.  Plans, receipt, attempt, guard, harness and ledger totals also pass.
 These checks narrow the failure to durable archive publication, but do not
 accept the evidence until a fresh download of the replacement blob passes.
+
+## Repair rereview verdict
+
+Final verdict: **ACCEPTED_DEVELOPMENTAL_PROSPECTIVE_FAMILY_EVIDENCE**.
+
+The independent reviewer freshly fetched the receipt-bound archive at the
+exact repaired commit.  `git rev-parse` returned blob
+`8f0595f7fa9a85b0eb6fb7616d404bfb1409fe6d`; `git cat-file -s` returned
+5096362 bytes; streaming the blob through `sha256sum` returned
+`af9b40bfb131570d1d5868006d0f4193550ba087f6679bb250a65554bab1bb8e`;
+and `gzip -t` exited zero.  A fresh tar audit found 26 unique regular members,
+with no duplicate, non-regular, missing, unexpected or hash-mismatched member
+against manifest SHA-256
+`5a30b214e230da04364f8cff6e6aef24f7e0b832c54d211fc27f5f550da4609f`.
+The receipt remains SHA-256
+`21f9577fe9fa837c47a5acb8cae823e4ae46e2d80f53bd2109bd9f8e3f7c8608`.
+
+The diff from invalid publication commit `373bec07...` contains exactly five
+intended paths: the corrected archive and the evidence-review, execution,
+budget and checkpoint records.  All other source, plan, receipt, manifest,
+log, harness and numerical evidence bytes are unchanged.  The review
+assignment accidentally named a nonexistent top-level copy; the reviewer
+resolved that task-text typo by using the sole path actually bound by the
+receipt and manifest.  No second copy was ever declared or required.
+
+This verdict binds the prior full recomputation to durable remote bytes.  Its
+scope is only one fixed-seed, unscaled prospective generator-family
+development instance.  It is not Figure 3 reproduction, authentic scorer or
+normalization parity, confirmation, independent-seed uncertainty, Landmark or
+four-family G01, Gate A, theorem/generalization evidence, or a paper claim.
