@@ -66,6 +66,15 @@
     "source_commit": "6c002452afccd7deeb6e0c0993a384ce559046b6",
     "verdict": "accepted_displayed_F1_numerical_bound_only"
   },
+  "completed_main_heavy_rank_family_review": {
+    "assignment_number": 165,
+    "record": "HEAVY_BRANCH_INTEGER_RANK_FAMILY_REVIEW.md",
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "source_commit": "c3b221820ce96f93e1cdecd47a3158f1b0ab8f50",
+    "source_or_execution_admitted": false,
+    "strict_F1_implication_pending_independent_addendum_review": 166,
+    "verdict": "accept_state_construction_recoursesteps_with_explicit_new_strictness_premise"
+  },
   "completed_main_joint_priority_review": {
     "assignment_number": 161,
     "record": "INTEGER_JOINT_PRIORITY_REVIEW_MAIN.md",
@@ -783,7 +792,7 @@
   "main_only_tasks_no_measured_CPU": "Five existing main-only assignments consume same wall budget; no numeric job was launched there and no attributable CPU measurement was supplied; lower bound is not a full compute total.",
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T13:38:45.369762+00:00",
+  "observed_at": "2026-10-09T13:40:16.712341+00:00",
   "observed_process_cpu_seconds": 318.944499767,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -798,12 +807,7 @@
   "pending_fd_semantic_oracle_plan_review": null,
   "pending_formal_review": null,
   "pending_main_heavy_math_review": null,
-  "pending_main_heavy_rank_family_review": {
-    "assignment_number": 165,
-    "derivation_assignment_number": 164,
-    "draft_sha256": "75407facfe13695286ed775dc49c072806db14e0d2e30a187769c2d5ae52d675",
-    "source_or_execution_admitted": false
-  },
+  "pending_main_heavy_rank_family_review": null,
   "pending_main_heavy_rank_family_strict_review": {
     "addendum_sha256": "f2e21db8c8c4b5e4be8da9978d95bf6fb43c55e5f58dbca161d50ab78418da4f",
     "assignment_number": 166,
@@ -958,7 +962,7 @@
     }
   ],
   "registered_task_assignments": 166,
-  "remaining_wall_seconds_at_observation": 13017.630238,
+  "remaining_wall_seconds_at_observation": 12926.287659,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
