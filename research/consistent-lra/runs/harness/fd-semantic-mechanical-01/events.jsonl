@@ -1,0 +1,3 @@
+{"event":"batch_started","observed_at":"2026-10-09T03:08:32.489550Z","plan_digest":"c460d4af7738793ed67ce204f0c69660de45a0f58e392058da880ca2f40b8cae"}
+{"devices":[],"event":"task_started","launcher_pid":14,"native_plan_digest":"729c080b57df1da31f5a2e98a4d25fe99bce47348c60e81576a6204fb2831eef","observed_at":"2026-10-09T03:08:32.492539Z","task_id":"fd-semantic-oracles-01"}
+{"event":"task_finished","observed_at":"2026-10-09T03:08:34.496373Z","status":"completed","task_id":"fd-semantic-oracles-01"}

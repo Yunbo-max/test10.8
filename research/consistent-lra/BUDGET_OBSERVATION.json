@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T03:07:32+00:00",
+  "observed_at": "2026-10-09T03:08:34+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 28,
   "executable_attempts_dispatched": 7,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 1.577356,
+  "observed_process_cpu_seconds": 1.581142,
   "reservation": {
     "task": "source-integrity-01",
     "purpose": "mechanical_preparation_only",
@@ -196,10 +196,19 @@
     "wall_seconds_upper_bound": 30,
     "attempts": 1,
     "retries": 0,
-    "released": false,
+    "released": true,
+    "release_basis": "completed harness state and this monotonic ledger; no separate lease-release receipt",
     "native_plan_digest": "729c080b57df1da31f5a2e98a4d25fe99bce47348c60e81576a6204fb2831eef",
-    "harness_plan_digest": "c460d4af7738793ed67ce204f0c69660de45a0f58e392058da880ca2f40b8cae"
+    "harness_plan_digest": "c460d4af7738793ed67ce204f0c69660de45a0f58e392058da880ca2f40b8cae",
+    "actual_process_cpu_seconds": 0.0037859999999999144,
+    "actual_metric_wall_seconds": 0.00425810399610782,
+    "actual_guarded_attempt_wall_seconds": 1.0732064050025656,
+    "actual_harness_wall_seconds": 2.0076340150044416,
+    "actual_max_rss_kib": 115728,
+    "receipt_sha256": "02676afa9a50320d5756e18ddf3cc0e7708f9949499ff9149059aea9b20175ea",
+    "output_sha256": "8dc34bdced536cadbef966182f759e941e3725f8f400c9d09f780d82a1ee507b"
   },
+  "pending_fd_semantic_oracle_evidence_review": null,
   "unadmitted_development_smoke_history": [
     {
       "direction": "fd_source_semantic_oracles",
@@ -216,7 +225,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T02:56:59+00:00",
+    "observed_at": "2026-10-09T03:08:34+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
@@ -224,6 +233,6 @@
     "scientific_job_launched": false,
     "mechanical_preparation_job_completed": true,
     "evaluator_semantic_oracle_job_completed": true,
-    "fd_semantic_oracle_job_completed": false
+    "fd_semantic_oracle_job_completed": true
   }
 }
