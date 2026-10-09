@@ -2,7 +2,9 @@
 
 Candidate only until independent source and exact plan review.  This wrapper
 uses the already reviewed scorer/arms in native_baselines and losslessly packs
-all raw per-prefix outputs into deterministic per-cohort archives.
+all raw per-prefix outputs into deterministic per-cohort archives.  Raw staging
+is intentionally retained: the first execution demonstrated that deleting a
+mutable staging tree could race the surrounding evidence collector.
 """
 from __future__ import annotations
 
@@ -13,10 +15,8 @@ import io
 import json
 import os
 import resource
-import shutil
 import sys
 import tarfile
-import tempfile
 import time
 from pathlib import Path
 from types import SimpleNamespace
@@ -37,6 +37,19 @@ def sha256(path: Path) -> str:
         for block in iter(lambda: stream.read(1024 * 1024), b""):
             digest.update(block)
     return digest.hexdigest()
+
+
+def fsync_file(path: Path) -> None:
+    with path.open("rb") as stream:
+        os.fsync(stream.fileno())
+
+
+def fsync_directory(path: Path) -> None:
+    descriptor = os.open(path, os.O_RDONLY | os.O_DIRECTORY)
+    try:
+        os.fsync(descriptor)
+    finally:
+        os.close(descriptor)
 
 
 def cohort_configs(name: str, dataset: str, source: str, k: int, d: int):
@@ -75,7 +88,8 @@ def slug(config: dict) -> str:
 
 
 def deterministic_archive(output: Path, members: list[tuple[Path, str]]) -> str:
-    with output.open("xb") as raw:
+    partial = output.with_name(output.name + ".partial")
+    with partial.open("xb") as raw:
         with gzip.GzipFile(filename="", mode="wb", fileobj=raw, mtime=0) as zipped:
             with tarfile.open(fileobj=zipped, mode="w", format=tarfile.PAX_FORMAT) as archive:
                 for path, arcname in sorted(members, key=lambda item: item[1]):
@@ -87,6 +101,22 @@ def deterministic_archive(output: Path, members: list[tuple[Path, str]]) -> str:
                     info.uid = info.gid = 0
                     info.uname = info.gname = ""
                     archive.addfile(info, io.BytesIO(data))
+        raw.flush()
+        os.fsync(raw.fileno())
+    expected = {arcname: sha256(path) for path, arcname in members}
+    observed = {}
+    with tarfile.open(partial, mode="r:gz") as archive:
+        for member in archive.getmembers():
+            if not member.isfile() or member.name in observed:
+                raise ValueError("archive contains a non-file or duplicate member")
+            extracted = archive.extractfile(member)
+            if extracted is None:
+                raise ValueError(f"archive member unavailable: {member.name}")
+            observed[member.name] = hashlib.sha256(extracted.read()).hexdigest()
+    if observed != expected:
+        raise ValueError(f"archive verification failed for {output.name}")
+    os.replace(partial, output)
+    fsync_directory(output.parent)
     return sha256(output)
 
 
@@ -100,11 +130,16 @@ def run(args) -> None:
     ]
     archive_paths = {name: output.parent / f"lowdim-{name}.tar.gz"
                      for name, _, _, _, _ in cohorts}
+    staging = output.parent / "lowdim-matrix-raw-v2"
     final_paths = [output, *archive_paths.values()]
     resolved = [path.resolve() for path in final_paths]
     if len(set(resolved)) != len(resolved):
         raise ValueError("manifest and archive output paths must be distinct")
     occupied = [str(path) for path in final_paths if path.exists()]
+    occupied += [str(path) for path in archive_paths.values()
+                 if path.with_name(path.name + ".partial").exists()]
+    if staging.exists():
+        occupied.append(str(staging))
     if occupied:
         raise FileExistsError("final output path already exists: " + ", ".join(occupied))
     thread_names = ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS",
@@ -115,7 +150,7 @@ def run(args) -> None:
     start = time.perf_counter()
     before = resource.getrusage(resource.RUSAGE_SELF)
     manifest = {
-        "format": "consistent-lra-lowdim-existing-baseline-matrix-v1",
+        "format": "consistent-lra-lowdim-existing-baseline-matrix-v2",
         "scope": "developmental project-repair baseline qualification only",
         "cohorts": [],
         "scientific_gate_advanced": False,
@@ -131,14 +166,15 @@ def run(args) -> None:
             "sklearn": sklearn.__version__,
         },
     }
-    temporary = Path(tempfile.mkdtemp(prefix="lowdim-matrix-", dir=output.parent))
+    staging.mkdir(parents=False, exist_ok=False)
+    fsync_directory(output.parent)
     for cohort, dataset, source, k, d in cohorts:
         records = []
         members = []
         cohort_identity = None
         for config in cohort_configs(cohort, dataset, source, k, d):
             name = slug(config)
-            raw = temporary / f"{cohort}__{name}.jsonl"
+            raw = staging / f"{cohort}__{name}.jsonl"
             native_args = SimpleNamespace(
                 dataset=dataset, source=source, arm=config["arm"], k=k,
                 c=config["c"], interval=config["interval"], ell=config["ell"],
@@ -147,6 +183,8 @@ def run(args) -> None:
             )
             native_baselines.run(native_args)
             summary_path = raw.with_suffix(".summary.json")
+            fsync_file(raw)
+            fsync_file(summary_path)
             summary = json.loads(summary_path.read_text(encoding="utf-8"))
             if summary["prefix_denominator"] != 3000:
                 raise ValueError(f"{cohort}/{name} incomplete prefixes")
@@ -181,6 +219,7 @@ def run(args) -> None:
                 "summary_sha256": sha256(summary_path),
             })
             members.extend([(raw, raw.name), (summary_path, summary_path.name)])
+        fsync_directory(staging)
         archive = archive_paths[cohort]
         archive_hash = deterministic_archive(archive, members)
         manifest["cohorts"].append({
@@ -207,10 +246,31 @@ def run(args) -> None:
     }
     if sum(item["arm_count"] for item in manifest["cohorts"]) != 39:
         raise ValueError("matrix must contain exactly 39 arms")
-    with output.open("x", encoding="utf-8") as stream:
+    for cohort in manifest["cohorts"]:
+        for record in cohort["records"]:
+            raw = staging / record["raw_member"]
+            summary = staging / record["summary_member"]
+            if sha256(raw) != record["raw_sha256"] or sha256(summary) != record["summary_sha256"]:
+                raise ValueError("retained member changed before manifest publication")
+    tracked_paths = [*archive_paths.values(), *sorted(staging.iterdir())]
+    manifest["publication_observations"] = {
+        path.relative_to(output.parent).as_posix(): {
+            "sha256": sha256(path),
+            "bytes": path.stat().st_size,
+            "inode": path.stat().st_ino,
+            "mtime_ns": path.stat().st_mtime_ns,
+            "ctime_ns": path.stat().st_ctime_ns,
+        }
+        for path in tracked_paths
+    }
+    partial_manifest = output.with_name(output.name + ".partial")
+    with partial_manifest.open("x", encoding="utf-8") as stream:
         json.dump(manifest, stream, allow_nan=False, indent=2)
         stream.write("\n")
-    shutil.rmtree(temporary)
+        stream.flush()
+        os.fsync(stream.fileno())
+    os.replace(partial_manifest, output)
+    fsync_directory(output.parent)
     print(json.dumps({"output": str(output), "usage": manifest["usage"],
                       "arms": 39, "scientific_gate_advanced": False}))
 

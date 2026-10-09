@@ -81,7 +81,7 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 42
+actual_registered_task_assignments: 43
 actual_executable_attempts: 10
 actual_preparation_attempts: 10
 actual_scientific_attempts: 0
@@ -106,7 +106,7 @@ integer_density_extension_draft: FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md
 integer_density_initial_review_record: FORMAL_AUDIT_v4_REVIEW.md
 sampling_source_qualification_draft: SAMPLING_SOURCE_QUALIFICATION_20261009.md
 sampling_source_initial_review_record: SAMPLING_SOURCE_QUALIFICATION_REVIEW.md
-latest_resource_observation_utc: '2026-10-09T04:57:26+00:00'
+latest_resource_observation_utc: '2026-10-09T04:58:45+00:00'
 latest_cpu_max: '800000 100000'
 latest_visible_processors: 9
 latest_memory_max_bytes: 8589934592
@@ -198,3 +198,6 @@ lowdim_baseline_matrix_evidence_review: accepted_as_failure_record
 lowdim_baseline_matrix_evidence_review_record: LOWDIM_BASELINE_MATRIX_EVIDENCE_REVIEW.md
 lowdim_baseline_matrix_evidence_review_commit: 17bde0dbd39d9409dc7a792e020e7d15c1b88e7f
 lowdim_baseline_matrix_failure_record_sha256: 139772a7723b0cfc12c0e735d91facc00a8fa9d844cf9d42ac3fd4a540f06778
+lowdim_baseline_matrix_repair_source_review: pending
+lowdim_baseline_matrix_repair_runner_sha256: c56fcb1544ef6b7f8ea057776a3ba20d0e56088749a438460cae8425a5549e8f
+lowdim_baseline_matrix_repair_record_sha256: bb28bb9184731d5394157fbbdf61b8339bae1135ee81ca238a161dd572a0ea23
