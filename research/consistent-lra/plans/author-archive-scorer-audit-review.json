@@ -2,7 +2,7 @@
   "format": "scoped-independent-source-audit-review-assignment-v1",
   "task_id": "author-archive-scorer-audit-independent-review",
   "registered_order": 18,
-  "candidate_commit": null,
+  "candidate_commit": "39243725f7418e71ef3b1517e6a33787a7c26624",
   "candidate_paths": [
     "research/consistent-lra/AUTHOR_ARCHIVE_SCORER_AUDIT_20261009.md",
     "research/consistent-lra/BASELINE_AUDIT.md",
