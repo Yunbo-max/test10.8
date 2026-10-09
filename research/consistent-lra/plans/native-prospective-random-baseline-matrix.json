@@ -1,0 +1,118 @@
+{
+  "schema_id": "experiment-run-plan",
+  "schema_version": "1.0.0",
+  "run_id": "native-prospective-random-baseline-matrix-01",
+  "purpose": "engineering",
+  "evidence_mode": "developmental",
+  "protocol_ref": null,
+  "protocol_digest": null,
+  "output_root": "runs/attempts",
+  "provenance": {
+    "git_revision": "4b8c428c3fb9e3b6ea2fb63f0bb162f5d77f55ac",
+    "model_revision": "not_applicable_existing_baselines_no_model",
+    "data_revision": "generator_blob_cfe96c16b699a96720e41cc36ab36a25a45b4627_seed_20261009_unscaled_matrix_sha256_13256cf8e42a78ada22dcf95253af44d593187a8009fa73e39223b98695752e1",
+    "environment_digest": "4562a986dcbac6a6ea0cbf20ce46f48570b5f64f35b2eef0000f9d97da6c996e",
+    "environment_refs": [
+      {
+        "path": "evidence/environment-preparation.json",
+        "sha256": "4562a986dcbac6a6ea0cbf20ce46f48570b5f64f35b2eef0000f9d97da6c996e"
+      }
+    ]
+  },
+  "limits": {
+    "max_attempts": 1,
+    "max_development_trials": 1,
+    "max_confirmation_trials": 0,
+    "max_retries_per_trial": 0,
+    "wall_time_seconds": 120,
+    "attempt_timeout_seconds": 120
+  },
+  "jobs": [
+    {
+      "trial_id": "prospective-random-seed20261009-existing-baseline-matrix",
+      "command": [
+        "/usr/bin/env",
+        "OPENBLAS_NUM_THREADS=1",
+        "OMP_NUM_THREADS=1",
+        "MKL_NUM_THREADS=1",
+        "NUMEXPR_NUM_THREADS=1",
+        "VECLIB_MAXIMUM_THREADS=1",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "run_random_baseline_matrix.py",
+        "--output",
+        "evidence/baselines/prospective-random-matrix-manifest-v1.json"
+      ],
+      "cwd": ".",
+      "input_refs": [
+        {
+          "path": "RANDOM_FAMILY_IDENTITY_20261009.md",
+          "sha256": "ccff5d82ccdc196b0c186e6eb08f0182f01145b641f811c31434b3efc59aa077"
+        },
+        {
+          "path": "RANDOM_BASELINE_MATRIX_SOURCE_CANDIDATE.md",
+          "sha256": "3b94a807c798b273a26002ec6425384db70bb360b840fbe0d58165e19bc304f5"
+        },
+        {
+          "path": "RANDOM_BASELINE_MATRIX_SOURCE_REVIEW.md",
+          "sha256": "8e4e1c962c848bfde32c8318b22622259563b626eb325f1a3938356edd3addac"
+        },
+        {
+          "path": "LOWDIM_BASELINE_MATRIX_FINAL_REPAIR_EXECUTION_20261009.md",
+          "sha256": "3c1087563b289d46ccfe0a1d515d841921f14e0e13e1b4bed43de423df131cf2"
+        }
+      ],
+      "code_refs": [
+        {
+          "path": "run_random_baseline_matrix.py",
+          "sha256": "27f2a10557ec0c63f92756f0e566912a5c5ed966ff57e3a3662f6987d7f6d67a"
+        },
+        {
+          "path": "run_lowdim_baseline_matrix.py",
+          "sha256": "4934100cd9e7b4d91aee361d1c8e09b7f3fb790e06784c137df7a3a012bfab20"
+        },
+        {
+          "path": "native_baselines.py",
+          "sha256": "81c3309e659d1d9fdb69040b9becc6009bbe29b84a36aae8bac89ea6737e2c7c"
+        },
+        {
+          "path": "baseline_qualify.py",
+          "sha256": "d5566e2177064d0ddd9f940323ca7d10dfb0d9fef14d93f8ba6d16bde54dd934"
+        }
+      ],
+      "output_paths": [
+        "evidence/baselines/prospective-random-matrix-manifest-v1.json",
+        "evidence/baselines/random-seed20261009-k1.tar.gz",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__algorithm4-c1p1.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__algorithm4-c1p1.summary.json",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__algorithm4-c2p0.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__algorithm4-c2p0.summary.json",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__algorithm4-c2p5.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__algorithm4-c2p5.summary.json",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__algorithm4-c5p0.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__algorithm4-c5p0.summary.json",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__algorithm4-c10p0.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__algorithm4-c10p0.summary.json",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__algorithm4-c100p0.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__algorithm4-c100p0.summary.json",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__fresh-default.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__fresh-default.summary.json",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__fixed-default.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__fixed-default.summary.json",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__periodic-interval10.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__periodic-interval10.summary.json",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__periodic-interval100.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__periodic-interval100.summary.json",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__fd-ell2.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__fd-ell2.summary.json",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__fd-ell4.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__fd-ell4.summary.json",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__author_fd-ell2.jsonl",
+        "evidence/baselines/random-matrix-raw-v1/random-seed20261009-k1__author_fd-ell2.summary.json"
+      ],
+      "seed": 20261009,
+      "group": "prospective-random-existing-baseline-development-matrix",
+      "arm_role": "preparation"
+    }
+  ],
+  "plan_digest": "280027a1d2bc2279654868cd69d54182617e6c628017f842fd4b23327efea87f"
+}

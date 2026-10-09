@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T05:50:49+00:00",
+  "observed_at": "2026-10-09T05:52:20+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 55,
+  "registered_task_assignments": 56,
   "executable_attempts_dispatched": 12,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -124,7 +124,8 @@
     "lowdim-baseline-matrix-final-repair-evidence-ledger-rereview",
     "lowdim-baseline-matrix-developmental-results-report-review",
     "prospective-random-baseline-matrix-source-review",
-    "prospective-random-baseline-matrix-source-correction-rereview"
+    "prospective-random-baseline-matrix-source-correction-rereview",
+    "prospective-random-baseline-matrix-plan-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -135,7 +136,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 7015,
+  "remaining_wall_seconds_at_observation": 6924,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -505,6 +506,21 @@
     "rereview_verdict": "accepted_source_design_only",
     "execution_started": false,
     "status": "accepted_source_design_only"
+  },
+  "pending_random_baseline_matrix_plan_review": {
+    "assignment": "prospective-random-baseline-matrix-plan-review",
+    "reviewer": "/root/rice_skin_plan_review",
+    "source_commit": "4b8c428c3fb9e3b6ea2fb63f0bb162f5d77f55ac",
+    "native_plan": "plans/native-prospective-random-baseline-matrix.json",
+    "native_plan_sha256": "42a7cea365851e2bb79001128802641f14ee44ac64bbf86ba3b95a2efdcfcb8b",
+    "native_plan_digest": "280027a1d2bc2279654868cd69d54182617e6c628017f842fd4b23327efea87f",
+    "harness_plan": "plans/harness-prospective-random-baseline-matrix.json",
+    "harness_plan_sha256": "47cdbf443775ce40cd541623578e6796f5471087db0e2f7ea5266d9a40bc7e11",
+    "harness_plan_digest": "95657d85b176afddc3bb682c8fc6b246cac8ba26e2f8db9de40f899be86d6292",
+    "native_validator": "validated_execution_started_false",
+    "harness_validator": "validated_execution_started_false",
+    "execution_started": false,
+    "status": "assigned_pending_independent_plan_review"
   },
   "unadmitted_development_smoke_history": [
     {
