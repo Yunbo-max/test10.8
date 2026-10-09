@@ -5,10 +5,11 @@ which script produced a published figure and it is not a reproduction.
 
 ## Frozen scope
 
-The complete Git tree of `samsonzhou/consistent-LRA` at
+The complete 34-path Git tree of `samsonzhou/consistent-LRA` at
 `d607c4f6467216c470d1e3b93989d44d5fcdec97` contains seven Python scripts,
 three data/text artifacts (`Rice_Cammeo_Osmancik.arff`, `Skin_NonSkin.txt`,
-`landmark.mtx`), `output.csv`, images and `consistent-lra.zip`.  There is no
+`landmark.mtx`), `output.csv`, images and `consistent-lra.zip`.  The ZIP's 33
+entries are exactly all Git-tree paths except the ZIP itself.  There is no
 test suite, package manifest, command-line evaluator, schema, metric fixture or
 separately named scorer in that frozen tree.
 
@@ -31,7 +32,8 @@ evaluation implementation.
 - Root `output.csv` is Git blob
   `0a81ae8d54f363dabacc0a32bcb78eda3732f7cb`, SHA256
   `f7c5408812c9d63d92d16860f385e7dbea31f13de3414bba9306851877dfb801`.
-  It has 18 newline-terminated, headerless rows and 751,522 bytes.  It carries
+  It has 18 LF terminators comprising 15 nonempty headerless records and three
+  empty lines, and is 751,522 bytes.  It carries
   no dataset/configuration/seed/metric schema, no command or code revision, and
   cannot by itself authenticate the native scoring path or map every row to a
   published curve.
@@ -51,3 +53,14 @@ must first receive independent semantic review and parity/oracle qualification;
 it must be labelled a project repair rather than “the official scorer.”  The
 archive audit alone does not authorize numerical baseline dispatch or a theorem
 claim.
+
+## Independent verdict
+
+Reviewer `/root/author_archive_review` independently re-enumerated the frozen
+Git tree and ZIP, normalized CRLF to LF, and checked the exact blobs, hashes and
+script behavior against immutable candidate
+`39243725f7418e71ef3b1517e6a33787a7c26624` and assignment
+`37f5da4394e46b23e0695f4c1bdd104bfe3c350c`.  Verdict: `accepted`.
+No code was executed and no files were written.  The reviewer supplied the
+non-blocking 15-record/three-empty-line precision correction incorporated
+above; the missing-official-scorer conclusion is unchanged.
