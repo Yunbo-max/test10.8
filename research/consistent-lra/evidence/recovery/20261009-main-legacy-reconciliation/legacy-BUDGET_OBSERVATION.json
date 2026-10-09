@@ -140,13 +140,6 @@
   },
   "completed_rice_skin_identity_evidence_review": "rice-skin-selected-prefix-identity-evidence-review:accepted_with_thread_context_and_release_receipt_boundaries",
   "completed_source_review": "landmark-baseline-matrix-design-final-rereview:accepted_design_only",
-  "completed_window02_approximate_dependency_review": {
-    "assignment_number": 150,
-    "record": "APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md",
-    "reviewed_commit": "cf5f60bc155ff20440d3859806138e04ffba4ec4",
-    "reviewer": "/root/window02_geometric_formal_review",
-    "verdict": "theorem1_2_proofgap_known_quadratic_fallback_qualified_theorem1_3_unresolved_separate_chain"
-  },
   "completed_window02_calibration_evidence_review": {
     "assignment": "window02-landmark-stage-a-calibration-evidence-review",
     "evidence_commit": "88df0eef2a37251fc4847642d9d4a6759a421f3a",
@@ -286,22 +279,6 @@
     "reviewer": "/root/window02_consecutive_condition_review",
     "verdict": "accepted_source_semantics_only"
   },
-  "completed_window02_integer_projector_target_evidence_review": {
-    "assignment_number": 154,
-    "record": "INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md",
-    "recourse_lower_bound_denominator": 134217728,
-    "recourse_lower_bound_numerator": 2290438555,
-    "reviewed_commit": "eed4b24ca7549f4bce1ae71ce65008431dbbea67",
-    "reviewer": "/root/window02_consecutive_condition_review",
-    "verdict": "accepted_complete61root_exact_integer_projector_lower_bound_only"
-  },
-  "completed_window02_integer_projector_target_plan_review": {
-    "assignment_number": 152,
-    "record": "INTEGER_PROJECTOR_TARGET61_PLAN_REVIEW_WINDOW02.md",
-    "reviewed_commit": "3e293a02cd7fb4b74962ee44a6ded05747ac939a",
-    "reviewer": "/root/window02_consecutive_condition_review",
-    "verdict": "accepted_one_finite_full61_mathematical_certificate_attempt"
-  },
   "completed_window02_integer_witness_design_review": {
     "assignment_number": 130,
     "commit": "6f05dbd2890de391f48f83d439009cbfa2d5b4ea",
@@ -437,8 +414,6 @@
   "controller_rounds": 2,
   "current_round": "window02-native-landmark-qualification",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "delivery_authorization_record": "MAIN_DELIVERY_AUTHORIZATION_20261009.md",
-  "delivery_branch": "main",
   "discovery_rounds": 0,
   "eligible_papers": 0,
   "evaluator_semantic_oracle_reservation": {
@@ -612,19 +587,6 @@
     "reason": "prelaunch_counter_write used repository-relative path from project cwd and failed; authorized launcher subsequently started once; actualattempt17reconciled withoutretry",
     "reservation_preexisted": true
   },
-  "legacy_writer_reconciliation": {
-    "all_legacy_packet_integrated": true,
-    "execution_reservations_released": true,
-    "local_matching_processes_observed": 0,
-    "merged_unique_existing_assignments": 159,
-    "new_reconciliation_assignment_number": 160,
-    "no_new_launch": true,
-    "old_branch_read_only_from_now": true,
-    "provisional_ordinal_preservation": "Legacy and main-local historical ordinals retained; counts use unique task names. No receipt/task assignment renamed.",
-    "source_legacy_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
-    "source_main_commit": "176064b931140da791f58137ee68a37068566f6b",
-    "writer": "single /root integration writer"
-  },
   "lowdim_baseline_matrix_final_repair_reservation": {
     "actual_max_rss_kib": 158252,
     "actual_process_cpu_seconds": 22.408896,
@@ -754,18 +716,9 @@
     "task": "native-lowdim-baseline-matrix-01",
     "wall_seconds_upper_bound": 180
   },
-  "main_formal_clarification": {
-    "draft": "EXACT_APPROXIMATE_SEPARATION_MAIN_DRAFT.md",
-    "draft_commit": "a990a23fb2336c9684b1b86f616d44a64dcaf296",
-    "draft_sha256": "65a373607d880e4bf81fb8ac3c729af8543a29c43e9c4652a31120956c95d670",
-    "review": "EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md",
-    "scientific_gate_advanced": false,
-    "verdict": "accepted_scoped_final_append_only"
-  },
-  "main_only_tasks_no_measured_CPU": "Five existing main-only assignments consume same wall budget; no numeric job was launched there and no attributable CPU measurement was supplied; lower bound is not a full compute total.",
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T13:19:29.618214+00:00",
+  "observed_at": "2026-10-09T13:08:41.552697+00:00",
   "observed_process_cpu_seconds": 318.944499767,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -802,7 +755,6 @@
   "pending_window02_integer_projector_design_review": null,
   "pending_window02_integer_projector_plan_review": null,
   "pending_window02_integer_projector_source_review": null,
-  "pending_window02_integer_projector_target_evidence_review": null,
   "pending_window02_integer_projector_target_plan_review": null,
   "pending_window02_integer_witness_design_review": null,
   "pending_window02_integer_witness_evidence_review": null,
@@ -917,16 +869,16 @@
     },
     {
       "assignment_number": 154,
-      "git_cpu_seconds": 0.313056,
       "record": "INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md",
-      "scientific_gate_advanced": false,
       "self_cpu_seconds": 11.577978659,
+      "git_cpu_seconds": 0.313056,
       "total_cpu_seconds": 11.891034659,
-      "wall_seconds": 11.894702007
+      "wall_seconds": 11.894702007,
+      "scientific_gate_advanced": false
     }
   ],
-  "registered_task_assignments": 160,
-  "remaining_wall_seconds_at_observation": 14173.381786,
+  "registered_task_assignments": 154,
+  "remaining_wall_seconds_at_observation": 14821.447303,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
@@ -1231,13 +1183,7 @@
     "window02-integer-projector-full61-plan-generation",
     "window02-integer-projector-full61-plan-independent-review",
     "window02-integer-projector-full61-execution",
-    "window02-integer-projector-full61-evidence-independent-review",
-    "main-subtree-exact-migration-and-control-reconciliation",
-    "main-integer-witness-corrected-source-independent-rereview",
-    "main-scorer-admission-source-capability-independent-audit",
-    "main-exact-vs-approximate-quantitative-bound-derivation",
-    "main-exact-vs-approximate-bound-independent-review",
-    "main-window02-complete-legacy-final-packet-ownership-budget-reconciliation"
+    "window02-integer-projector-full61-evidence-independent-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1342,34 +1288,34 @@
     "wall_seconds_upper_bound": 120
   },
   "window02_integer_projector_target_reservation": {
-    "actual_harness_wall_seconds": 13.09010588900128,
-    "attempt_id": "exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea",
-    "attempts_charged": 1,
-    "attempts_completed": 1,
     "attempts_launched": 1,
     "attempts_reserved": 1,
     "calibrated_cost_envelope_seconds": 93.975417497335,
     "cpu_cores": 1,
     "execution_admitted": true,
-    "execution_status": "accepted_complete61root_exact_integer_projector_lower_bound_and_execution_only",
     "harness_plan_digest": "6986ad275e6cd1441a5f55c68ffd38741dafaa4c7b187de2b812b83e886eb993",
-    "maximum_child_rss_kib": 25392,
     "native_plan_digest": "fbb52f2e5b6f16974f8ffaaff329cabad803909189d732142388a71f304c05e9",
-    "prelaunch_observation": {
-      "active_matching_processes": [],
-      "cpu_max": "800000 100000",
-      "memory_max_bytes": 8589934592,
-      "observed_at": "2026-10-09T13:00:16.042607+00:00",
-      "process_inventory_method": "proc exactargvbasename",
-      "remaining_wall_seconds": 15326.957393
-    },
     "ram_mib_reserved_not_enforced": 256,
-    "release_basis": "terminalnestedreceipt and postexit outputreadbacks; independent process reconciliation pending",
     "released": true,
     "scope": "existing_lemma_full61_exact_integer_projector_lower_bound_only",
     "task": "exact-integer-projector-target61-02",
+    "wall_seconds_upper_bound": 360,
+    "attempts_charged": 1,
+    "execution_status": "accepted_complete61root_exact_integer_projector_lower_bound_and_execution_only",
+    "prelaunch_observation": {
+      "observed_at": "2026-10-09T13:00:16.042607+00:00",
+      "cpu_max": "800000 100000",
+      "memory_max_bytes": 8589934592,
+      "active_matching_processes": [],
+      "remaining_wall_seconds": 15326.957393,
+      "process_inventory_method": "proc exactargvbasename"
+    },
+    "attempt_id": "exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea",
+    "attempts_completed": 1,
+    "release_basis": "terminalnestedreceipt and postexit outputreadbacks; independent process reconciliation pending",
     "waited_process_tree_cpu_seconds": 12.213068000000002,
-    "wall_seconds_upper_bound": 360
+    "actual_harness_wall_seconds": 13.09010588900128,
+    "maximum_child_rss_kib": 25392
   },
   "window02_integer_witness_plan_history": [
     {
@@ -1603,5 +1549,29 @@
     "package": "c23/research-autopilot",
     "source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
     "version": "0.2.0-autonomous.2"
+  },
+  "completed_window02_integer_projector_target_plan_review": {
+    "assignment_number": 152,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "reviewed_commit": "3e293a02cd7fb4b74962ee44a6ded05747ac939a",
+    "record": "INTEGER_PROJECTOR_TARGET61_PLAN_REVIEW_WINDOW02.md",
+    "verdict": "accepted_one_finite_full61_mathematical_certificate_attempt"
+  },
+  "pending_window02_integer_projector_target_evidence_review": null,
+  "completed_window02_approximate_dependency_review": {
+    "assignment_number": 150,
+    "reviewer": "/root/window02_geometric_formal_review",
+    "reviewed_commit": "cf5f60bc155ff20440d3859806138e04ffba4ec4",
+    "record": "APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md",
+    "verdict": "theorem1_2_proofgap_known_quadratic_fallback_qualified_theorem1_3_unresolved_separate_chain"
+  },
+  "completed_window02_integer_projector_target_evidence_review": {
+    "assignment_number": 154,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "reviewed_commit": "eed4b24ca7549f4bce1ae71ce65008431dbbea67",
+    "record": "INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md",
+    "verdict": "accepted_complete61root_exact_integer_projector_lower_bound_only",
+    "recourse_lower_bound_numerator": 2290438555,
+    "recourse_lower_bound_denominator": 134217728
   }
 }

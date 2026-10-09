@@ -1,35 +1,5 @@
 # Consistent LRA: bounded CPU research
 
-## Current delivery authorization — 2026-10-09 12:29 Europe/London
-
-The owner instructed “以后直接更新到main就行”. Current delivery is
-`Yunbo-max/test10.8/main`, limited to `research/consistent-lra/`.
-This supersedes all older branch prohibitions and delivery hints below.
-The legacy `consistent-lra-rsi` branch is a read-only historical source.
-Use one integration writer, current expected main head and exact commit/subtree
-readback. Preserve other paths, every historical receipt and cumulative budget.
-No scientific gate, resource limit or deadline is waived.
-See [migration provenance](MAIN_DELIVERY_AUTHORIZATION_20261009.md).
-
-
-
-## Reconciled current state — 2026-10-09T13:19:29.618214+00:00
-
-Main and legacy heads were pinned at `176064b931140da791f58137ee68a37068566f6b` and `7286e6d5b301f01ebda45d6fa1387afd9d383906`. Both source snapshots and control hashes are retained in `evidence/recovery/20261009-main-legacy-reconciliation/`. All new legacy source, raw receipts and reviews are imported without changing their history; all main-only artifacts are preserved. Future delivery and recovery use **main**, only `research/consistent-lra/`. The old branch is read-only.
-
-Current cumulative ledger: **160 unique assignments, 24 original executable attempts, 2 controller rounds, CPU lower bound318.944499767s; 0 discovery rounds, 0 admitted scientific experiments, 0 eligible papers**. All numeric execution reservations are released. Historical local task ordinals remain unchanged; union by task names prevents double counting. Five main-only assignments and this actual reconciliation are carried in the same finite budget. Stop opening new work17:10:43Z; deadline17:15:43Z unchanged.
-
-The complete rank61 positive-integer witness has certified `R >= 2290438555/134217728 > 8`; all61 roots and732 bisection decisions independently replayed. Original execution wall13.090105889s/CPU12.213068s/RSS25392KiB; reviewer CPU11.891034659s charged separately. [Exact evidence note](INTEGER_COUNTEREXAMPLE_CERTIFICATE_WINDOW02.md), [independent verification](INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md). Consecutive block conditioning remains an accepted analytic statement rather than a new numeric measurement.
-
-The main [independent analytic review](EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md) establishes that retaining the old exact optimizer on this final append costs zero movement and less than1% excess relative loss. This is a final-update bound, not a full-stream algorithm or a theorem repair. The [proof dependency audit](APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md) separates the false exact lemma from independent Algorithm4 additive guarantee, the known quadratic-recourse PCP fallback and unresolved HEAVY-tail/integer-reweighting premises.
-
-[Scorer capability audit](SCORER_ADMISSION_MAIN_AUDIT.md) retains the authentic native reference/live replay block. StageB source is accepted but unexecuted; no fair benchmark victory, new method or paper pass. Next finite independent work: joint-priority/backward citations and a source-bound consequential proof-premise card, independently reviewed before any further executable task. Historical snapshots below describe earlier states and do not override this latest ledger.
-
-
-## Retained latest legacy narrative (historical delivery references)
-
-# Consistent LRA: bounded CPU research
-
 **2026-10-09 restart:** the owner reopened this project using Research Autopilot Auto
 0.2.0-autonomous.2. The new window ends at **18:15:43 Europe/London today**.
 See [restart authorization and exact pending work](RESTART_AUTHORIZATION_20261009.md). Prior results and

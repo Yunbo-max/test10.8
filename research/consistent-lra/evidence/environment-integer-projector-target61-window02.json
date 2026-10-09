@@ -1,0 +1,14 @@
+{
+  "accepted_calibration_collection": "evidence/integer-projector-calibration-02-collection.json",
+  "cost_is_heuristic_not_worstcase_proof": true,
+  "cpu_max": "800000 100000",
+  "gpu": false,
+  "memory_max": "8589934592",
+  "numeric_threads": 1,
+  "observed_at": "2026-10-09T12:57:51.614962+00:00",
+  "observed_calibration_rss_kib": 24832,
+  "prospective_full_cost_envelope_seconds": 93.975417497335,
+  "python": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "python_version": "3.12.14",
+  "scope": "existing_exact_lemma_full61_projector_interval_arithmetic_only_no_native_benchmark"
+}

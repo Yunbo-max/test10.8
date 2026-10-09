@@ -1,0 +1,569 @@
+{
+  "source_main": "176064b931140da791f58137ee68a37068566f6b",
+  "source_legacy": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+  "snapshot_control_hashes": [
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/main-AGENTS.md",
+      "source_commit": "176064b931140da791f58137ee68a37068566f6b",
+      "source_path": "research/consistent-lra/AGENTS.md",
+      "sha256": "674ec0d0e422cbcf5578d99246dc2f606262494fcfbb7e3e668cdb05c51a6cdd"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/main-BACKGROUND_TASK.json",
+      "source_commit": "176064b931140da791f58137ee68a37068566f6b",
+      "source_path": "research/consistent-lra/BACKGROUND_TASK.json",
+      "sha256": "91395a950789a88aed63f4f9c7348d8ed547bd54d25af3323fa30a54ca44436d"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/main-BASELINE_AUDIT.md",
+      "source_commit": "176064b931140da791f58137ee68a37068566f6b",
+      "source_path": "research/consistent-lra/BASELINE_AUDIT.md",
+      "sha256": "7de6b86ce2a840317b0b51eb36ca3249c7b289feedc7fef5847fde791226ab98"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/main-BUDGET_OBSERVATION.json",
+      "source_commit": "176064b931140da791f58137ee68a37068566f6b",
+      "source_path": "research/consistent-lra/BUDGET_OBSERVATION.json",
+      "sha256": "aa204542050bc681f1b803c5e9988e41b1ed938f1caf0d9d141eaf26a9522c68"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/main-EXECUTION_SCOPE.md",
+      "source_commit": "176064b931140da791f58137ee68a37068566f6b",
+      "source_path": "research/consistent-lra/EXECUTION_SCOPE.md",
+      "sha256": "ecc48cb660cf02ca2b6b209c76afe5185a71926612389dcd62f1e485af186cb9"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/main-GOAL.md",
+      "source_commit": "176064b931140da791f58137ee68a37068566f6b",
+      "source_path": "research/consistent-lra/GOAL.md",
+      "sha256": "0c540f63a44f4117801c32fc83970c2693ef60ddf852a8fa459d00e01111635f"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/main-PROGRESS_WINDOW02_20261009.md",
+      "source_commit": "176064b931140da791f58137ee68a37068566f6b",
+      "source_path": "research/consistent-lra/PROGRESS_WINDOW02_20261009.md",
+      "sha256": "d9b9753b5b1e8434e55ef7b728288168f82f5e53c4a371ea7d26e1365c3e5e9e"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/main-README.md",
+      "source_commit": "176064b931140da791f58137ee68a37068566f6b",
+      "source_path": "research/consistent-lra/README.md",
+      "sha256": "f847a6007d331a09d4fb08abea09a0f2c99ebad62465c2362f8aa0fe97beab25"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/main-RESUME.md",
+      "source_commit": "176064b931140da791f58137ee68a37068566f6b",
+      "source_path": "research/consistent-lra/RESUME.md",
+      "sha256": "bd7e64e69c6f64bf650d1e6b7cdebebeb000c7afea6c1ec1932e2ce690a3f588"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/main-SOURCES.md",
+      "source_commit": "176064b931140da791f58137ee68a37068566f6b",
+      "source_path": "research/consistent-lra/SOURCES.md",
+      "sha256": "9526cd3d79bc0d76ad3404918bcb20c5ad1d7c0200dc1f89e35cf84ddd146254"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/main-STEP7_DECISION.json",
+      "source_commit": "176064b931140da791f58137ee68a37068566f6b",
+      "source_path": "research/consistent-lra/STEP7_DECISION.json",
+      "sha256": "7510b4cf79123bebcd1911e14022bd75f74af9ebec0fbeb3f1bee074a84c390a"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/main-workflow-checkpoint.yaml",
+      "source_commit": "176064b931140da791f58137ee68a37068566f6b",
+      "source_path": "research/consistent-lra/workflow-checkpoint.yaml",
+      "sha256": "fd1fc7f84d1d0b96f8120c0b7d468bf47ca224ddb745ef82f64e6ce8aac4a651"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/legacy-AGENTS.md",
+      "source_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+      "source_path": "research/consistent-lra/AGENTS.md",
+      "sha256": "43a8e318acb19023d358f2de82eb1da3735baf22b2e18a876b9015dcfa9eaca2"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/legacy-BACKGROUND_TASK.json",
+      "source_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+      "source_path": "research/consistent-lra/BACKGROUND_TASK.json",
+      "sha256": "df98529b818d602f80148845b031f753407765c2dbd0f00023ae34808ef8bdbb"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/legacy-BASELINE_AUDIT.md",
+      "source_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+      "source_path": "research/consistent-lra/BASELINE_AUDIT.md",
+      "sha256": "7de6b86ce2a840317b0b51eb36ca3249c7b289feedc7fef5847fde791226ab98"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/legacy-BUDGET_OBSERVATION.json",
+      "source_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+      "source_path": "research/consistent-lra/BUDGET_OBSERVATION.json",
+      "sha256": "37c85f1ea2fda7e6af0dfa7b6e13fd6ddf0fc2a9ca44295561f95252ce5ff31e"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/legacy-EXECUTION_SCOPE.md",
+      "source_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+      "source_path": "research/consistent-lra/EXECUTION_SCOPE.md",
+      "sha256": "d307d8dfaf7205de01f3f3a60eaf7a5118afb04468584e52dc486eda0cad637e"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/legacy-GOAL.md",
+      "source_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+      "source_path": "research/consistent-lra/GOAL.md",
+      "sha256": "4bd240cc4777ae298eda7b3d0e14c24658b0c30fead41de78de26f0feccef094"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/legacy-PROGRESS_WINDOW02_20261009.md",
+      "source_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+      "source_path": "research/consistent-lra/PROGRESS_WINDOW02_20261009.md",
+      "sha256": "b3b4123d72d794b16edd177306cda33c0d96bca280158b250566c2cc400edf37"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/legacy-README.md",
+      "source_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+      "source_path": "research/consistent-lra/README.md",
+      "sha256": "061e52142ce40800c49715921921988a743077ba282048904629267958a82053"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/legacy-RESUME.md",
+      "source_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+      "source_path": "research/consistent-lra/RESUME.md",
+      "sha256": "2e14f1c871ba369498f3fe131fcd43a2fca1e66f80d77f9a7add91cafd78f980"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/legacy-SOURCES.md",
+      "source_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+      "source_path": "research/consistent-lra/SOURCES.md",
+      "sha256": "aee43e1284700dcfa9c46ea8669dab2a4298559ae929e6427a76aa88119c2d63"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/legacy-STEP7_DECISION.json",
+      "source_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+      "source_path": "research/consistent-lra/STEP7_DECISION.json",
+      "sha256": "e102649021df1d0bbf9da31260976d731622333073fc274f21ab1e5501c829a0"
+    },
+    {
+      "path": "evidence/recovery/20261009-main-legacy-reconciliation/legacy-workflow-checkpoint.yaml",
+      "source_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+      "source_path": "research/consistent-lra/workflow-checkpoint.yaml",
+      "sha256": "a230c5848c18c46a682186ea8db6d2b4198cbefde0cec01da968ff21858d8380"
+    }
+  ],
+  "main_only_task_names": [],
+  "imported_existing_blob_entries": [
+    {
+      "path": "research/consistent-lra/APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c26a0fbdf5af9a984c63ae4b5545db5e8c28d4b"
+    },
+    {
+      "path": "research/consistent-lra/APPROXIMATE_PROOF_DEPENDENCY_TASK_WINDOW02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1201e7f8205803795eee0a72eec0c3cf202777a2"
+    },
+    {
+      "path": "research/consistent-lra/INTEGER_CORRECTION_INDEPENDENT_COLLISION_REVIEW_WINDOW02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ba8cbadc26b9c55a204702b38daf5647fa33cb3"
+    },
+    {
+      "path": "research/consistent-lra/INTEGER_COUNTEREXAMPLE_CERTIFICATE_WINDOW02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1eea7e74f61714b1bbb8b14322332504b64636f"
+    },
+    {
+      "path": "research/consistent-lra/INTEGER_PROJECTOR_CALIBRATION_EVIDENCE_REVIEW_WINDOW02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47e1899113354e7cff41f496b97b5b7a6696c3e9"
+    },
+    {
+      "path": "research/consistent-lra/INTEGER_PROJECTOR_CALIBRATION_PLAN_REVIEW_WINDOW02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d177927d4cdd21484c99fdd5755ebd3c5353c666"
+    },
+    {
+      "path": "research/consistent-lra/INTEGER_PROJECTOR_CERTIFICATE_DESIGN_REVIEW_WINDOW02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "434ae0f85998b93ccc5293cdfa29a30053f26630"
+    },
+    {
+      "path": "research/consistent-lra/INTEGER_PROJECTOR_COST_ADDENDUM_WINDOW02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c58f89491a6ee9a7d07277c3cbda71c9b4710329"
+    },
+    {
+      "path": "research/consistent-lra/INTEGER_PROJECTOR_COST_REVIEW_WINDOW02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b036adca5669c1a80d6a00e5c77df981e202794"
+    },
+    {
+      "path": "research/consistent-lra/INTEGER_PROJECTOR_SOURCE_REVIEW_WINDOW02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db98a290555b6ff8f3c727e864c9e706e6d709bb"
+    },
+    {
+      "path": "research/consistent-lra/INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "194a854e5ac12e01aef36fec9c5154a46085b8cb"
+    },
+    {
+      "path": "research/consistent-lra/INTEGER_PROJECTOR_TARGET61_PLAN_REVIEW_WINDOW02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1011e3d0dd75005dd7f2839a9a12db7c867e5dfd"
+    },
+    {
+      "path": "research/consistent-lra/SOURCES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9b54dc16aa0051f3a43b8185ec01122247a63b9"
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/collect-integer-projector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f58a7bc98517432249b26afaa7122a99cd5f506b"
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/integer-projector-calibration-02.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72bd333fa506157bcfebfc9397d51676d0fbe6cb"
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/integer-projector-calibration-02.stderr.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/integer-projector-calibration-02.stdout.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5314b515da5aa73349e7d9118a3c85dda52262a6"
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/integer-projector-calibration-launcher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6560822914217a9ecc4c15580dd83d9f4b15685"
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/integer-projector-target61-02.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6d552250ef538d38bb55ca5afae7d876aeccd07"
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/integer-projector-target61-02.stderr.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/integer-projector-target61-02.stdout.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e60ec879555f198e3872706d4cdf32fa40355e29"
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/integer-projector-target61-launcher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fd28cc8822e34ee280853f6a988028d483c8d4c"
+    },
+    {
+      "path": "research/consistent-lra/evidence/environment-integer-projector-calibration-window02.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bad9feb5c671532472917564da61feaa9e23cfe0"
+    },
+    {
+      "path": "research/consistent-lra/evidence/environment-integer-projector-target61-window02.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9632e2bea2e9264d8c83903b65cd6cfc7a11a781"
+    },
+    {
+      "path": "research/consistent-lra/evidence/integer-projector-calibration-02-collection.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c6d081192e52f802b4ae0b853045f2d8ec3cfe0"
+    },
+    {
+      "path": "research/consistent-lra/evidence/integer-projector-target61-02-collection.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6224215df5db62090501b90f7d4f14c2fbbe62cf"
+    },
+    {
+      "path": "research/consistent-lra/evidence/reviews/actual154-independent-replay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2dd09178a222baa1df1174238264a34bfbed691"
+    },
+    {
+      "path": "research/consistent-lra/integer_projector_certificate_window02.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8ac66d4c019e14f077ef34275e901ec2b3ec460"
+    },
+    {
+      "path": "research/consistent-lra/plans/harness-integer-projector-calibration-02.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "352a70c8305653061d77be294176af4a207a66f7"
+    },
+    {
+      "path": "research/consistent-lra/plans/harness-integer-projector-target61-02.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8e4e3503bc8a8aca687d3ea1878a9a81e3f8cc4"
+    },
+    {
+      "path": "research/consistent-lra/plans/native-integer-projector-calibration-02.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e2610d3fc977dbef31c9fe0981460f60d65877"
+    },
+    {
+      "path": "research/consistent-lra/plans/native-integer-projector-target61-02.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7764991cfc50e4a4dd030fc4c0c39c63eed3b944"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/attempt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d15cb39abb6f2727265ed77a74a7ec71b7dd523a"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/process-guard.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccf938d33edd4437c67cd0d5ce276561a8f5d110"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/stderr.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/stdout.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79ac70e2b69b192f9851bdaab45c4a7728b0ec62"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/workspace/evidence/integer-projector-calibration-02/projector-certificate.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "984abee497b47d3911c6fc4621a303dc309bcde8"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-calibration-02/exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef/workspace/evidence/integer-projector-calibration-02/projector-summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e0de26db4f6910026c27e387e76a667326bd24c"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-calibration-02/plan.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba3b454851698c9c75777b922cd8d140d1c4aa5e"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-calibration-02/receipt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fdeda31fd1283cf75dc74be39282431b2515f22"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/attempt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d54f947db13b9e71bab4b52f7a151313b606586c"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/process-guard.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bafec3b7d754595f65e578fe7ee4f5885277d7ed"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/stderr.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/stdout.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b27abccd0e1d2bf55bb254ee53a332aa20ead9ea"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/workspace/evidence/integer-projector-target61-02/projector-certificate.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c28b49cbbf5fe1db49d9ed28443bbef8e7dc7844"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/workspace/evidence/integer-projector-target61-02/projector-summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e157a200c672073888337482e9eae76ecd4a4aa"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-target61-02/plan.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f23b92b502a2acc6dfa81d7292bc158b3e5281f7"
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/exact-integer-projector-target61-02/receipt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a72e76582eb44f6eab43f4c35d28bef4095efd5a"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-calibration-batch-02/events.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2367a74e15d0e1d5b11f7507b00d18aec5d2897"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-calibration-batch-02/plan.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4fff5c64b9057cda48b74c82eb8fa34981c439b"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-calibration-batch-02/report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5314b515da5aa73349e7d9118a3c85dda52262a6"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-calibration-batch-02/state.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "964a4d370c0d0529a324cddadb0fc3caa7fb5425"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-calibration-batch-02/tasks/exact-integer-projector-calibration-02/execution-context.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffa870acaa14fd7ad61d86dd04e2f72b9f480518"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-calibration-batch-02/tasks/exact-integer-projector-calibration-02/process.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70a9d797730198080cf1ece7207361808c114e45"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-calibration-batch-02/tasks/exact-integer-projector-calibration-02/result.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1b5801964d2ff05ba46e27cff1b6f29bfc9c02d"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-calibration-batch-02/tasks/exact-integer-projector-calibration-02/task.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47f54232649d4e35d5456e9a9518219de6e678f0"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-calibration-batch-02/tasks/exact-integer-projector-calibration-02/worker.stderr.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-calibration-batch-02/tasks/exact-integer-projector-calibration-02/worker.stdout.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-target61-batch-02/events.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d119cf0ae0d45b8bc3d497444609ef9ced05892b"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-target61-batch-02/plan.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff33ac2b461529780a67f296da93b12f30b8f093"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-target61-batch-02/report.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e60ec879555f198e3872706d4cdf32fa40355e29"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-target61-batch-02/state.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee00139ec31e472ad50b51536a60797d5ee1611"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-target61-batch-02/tasks/exact-integer-projector-target61-02/execution-context.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "021107856e149920949eec36ddb2b25aff8f48f6"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-target61-batch-02/tasks/exact-integer-projector-target61-02/process.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6afb84ef15418e138752efb9eaea7ebaa3c10d70"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-target61-batch-02/tasks/exact-integer-projector-target61-02/result.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee683bea508f5e446307e46d33088b8edae613f5"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-target61-batch-02/tasks/exact-integer-projector-target61-02/task.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf3929bf10caa9787d0bc0b06c3122cfc1dabf12"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-target61-batch-02/tasks/exact-integer-projector-target61-02/worker.stderr.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/exact-integer-projector-target61-batch-02/tasks/exact-integer-projector-target61-02/worker.stdout.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    }
+  ],
+  "old_registered_tasks": 154,
+  "main_registered_tasks": 146,
+  "merged_unique_preexisting_tasks": 159,
+  "current_tasks_including_reconciliation": 160,
+  "observed_at": "2026-10-09T13:19:29.618214+00:00",
+  "outside_project_changes": 0,
+  "new_executable_attempts": 0,
+  "science_gate_advanced": false
+}

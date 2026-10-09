@@ -12,23 +12,39 @@ No scientific gate, resource limit or deadline is waived.
 See [migration provenance](MAIN_DELIVERY_AUTHORIZATION_20261009.md).
 
 
+## Latest main snapshot — 2026-10-09T12:35:35Z
 
-## Reconciled current state — 2026-10-09T13:19:29.618214+00:00
+Main includes all legacy project evidence through e12a3d10853509cc560c70070c0ab3b990115621,
+plus the two independent main reviews and the accepted analytic clarification.
+The current counts are 146 unique assignments, 22 executable attempts,
+2 controller rounds, CPU lower bound293.52897959s;
+0 discovery rounds, 0 admitted scientific experiments, 0 eligible papers.
+The integer construction completed256entries/ranks1,2,61, max258bits at61,
+CPU0.420406s/wall1.084132s/RSS30948KiB; independent raw-evidence review accepted all128coordinates/256integers and receipts.
+Its outputs construct integers; they do not compute recourse or block condition.
 
-Main and legacy heads were pinned at `176064b931140da791f58137ee68a37068566f6b` and `7286e6d5b301f01ebda45d6fa1387afd9d383906`. Both source snapshots and control hashes are retained in `evidence/recovery/20261009-main-legacy-reconciliation/`. All new legacy source, raw receipts and reviews are imported without changing their history; all main-only artifacts are preserved. Future delivery and recovery use **main**, only `research/consistent-lra/`. The old branch is read-only.
+[Independent analytic clarification](EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md)
+accepts the [source-bound derivation](EXACT_APPROXIMATE_SEPARATION_MAIN_DRAFT.md):
+on the accepted rank61 final append, retaining the old exact projector incurs
+zero change and less than1% relative excess loss, despite exact optimizers'
+recourse>8. Final update only; no full-stream approximate guarantee or novelty.
 
-Current cumulative ledger: **160 unique assignments, 24 original executable attempts, 2 controller rounds, CPU lower bound318.944499767s; 0 discovery rounds, 0 admitted scientific experiments, 0 eligible papers**. All numeric execution reservations are released. Historical local task ordinals remain unchanged; union by task names prevents double counting. Five main-only assignments and this actual reconciliation are carried in the same finite budget. Stop opening new work17:10:43Z; deadline17:15:43Z unchanged.
+[Scorer admission audit](SCORER_ADMISSION_MAIN_AUDIT.md) specifies the genuine
+native reference/contract/live-replay gap. StageB remains unexecuted, source-only.
+[Writer reconciliation](MAIN_WRITER_RECONCILIATION_20261009.md) retains the actual
+legacy attempt without another launch. The already-active legacy worker still
+published after migration; this invocation could not hot-steer it. On next
+resume, pin live main and legacy heads, import only any new legacy project blobs,
+union unique task names and monotonic usage, preserve main authorization and
+other paths. Never rerun the integer witness or its accepted prior preparations.
+The legacy INTEGER_PROJECTOR_CERTIFICATE_DESIGN_WINDOW02.md is a pending exact
+formal certificate design, not an admitted workload. Follow its real review
+and existing owner/receipt identity before dispatch. Deadline17:15:43Z,
+stop opening new work17:10:43Z unchanged; no task launch/retrigger or budget reset.
 
-The complete rank61 positive-integer witness has certified `R >= 2290438555/134217728 > 8`; all61 roots and732 bisection decisions independently replayed. Original execution wall13.090105889s/CPU12.213068s/RSS25392KiB; reviewer CPU11.891034659s charged separately. [Exact evidence note](INTEGER_COUNTEREXAMPLE_CERTIFICATE_WINDOW02.md), [independent verification](INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md). Consecutive block conditioning remains an accepted analytic statement rather than a new numeric measurement.
+Historical observations below remain source snapshots; this paragraph and the
+latest BUDGET_OBSERVATION/control fields describe current state.
 
-The main [independent analytic review](EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md) establishes that retaining the old exact optimizer on this final append costs zero movement and less than1% excess relative loss. This is a final-update bound, not a full-stream algorithm or a theorem repair. The [proof dependency audit](APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md) separates the false exact lemma from independent Algorithm4 additive guarantee, the known quadratic-recourse PCP fallback and unresolved HEAVY-tail/integer-reweighting premises.
-
-[Scorer capability audit](SCORER_ADMISSION_MAIN_AUDIT.md) retains the authentic native reference/live replay block. StageB source is accepted but unexecuted; no fair benchmark victory, new method or paper pass. Next finite independent work: joint-priority/backward citations and a source-bound consequential proof-premise card, independently reviewed before any further executable task. Historical snapshots below describe earlier states and do not override this latest ledger.
-
-
-## Retained latest legacy narrative (historical delivery references)
-
-# Consistent LRA: bounded CPU research
 
 **2026-10-09 restart:** the owner reopened this project using Research Autopilot Auto
 0.2.0-autonomous.2. The new window ends at **18:15:43 Europe/London today**.
@@ -39,16 +55,10 @@ negative history are retained; background activation is recorded separately.
 
 实数父构造的秩 61 精确有理数记录也已实际执行并完整独立复核：122 项 residue、122 项 secular/导数/归一化、61 项交叉权重，严格下界 `122/15>8`。原执行 wall 32.111198 秒、CPU 31.346881 秒；另外独立只读算术验收消耗 CPU 13.176209 秒，单独累计。[代码](formal_geometric_certificate.py)、[完整验收](FORMAL_CERTIFICATE_TARGET61_EVIDENCE_REVIEW_WINDOW02.md)。它验证实数父卡的有限恒等式，不生成或验证 v7 整数输入，也不计算完整 recourse。
 
-完整 13 对照、5,000 前缀的 [Stage B 代码草案](run_landmark_stage_b.py)及[保留初审问题的独立复审](LANDMARK_STAGE_B_SOURCE_REVIEW.md)已生成，近零直接 SVD/残差回退、分母、初始与稳态 recourse、原始输出和归档均有实现；初审指出归一化分母和角色分类问题；一次修正后已通过独立源码审查，未导入/未执行。正式数值比较仍缺原生 evaluator 资格，不因代码或 Stage A 接受而绕过。累计 2 轮控制迭代、154 个登记任务、24 次执行尝试、至少 318.944500 秒实测 CPU；正式科学实验、新候选发现轮和合格论文均为 0。新颖性/优先权仍未结案。
+完整 13 对照、5,000 前缀的 [Stage B 代码草案](run_landmark_stage_b.py)及[保留初审问题的独立复审](LANDMARK_STAGE_B_SOURCE_REVIEW.md)已生成，近零直接 SVD/残差回退、分母、初始与稳态 recourse、原始输出和归档均有实现；初审指出归一化分母和角色分类问题；一次修正后已通过独立源码审查，未导入/未执行。正式数值比较仍缺原生 evaluator 资格，不因代码或 Stage A 接受而绕过。累计 2 轮控制迭代、130 个登记任务、21 次执行尝试、至少 291.911595 秒实测 CPU；正式科学实验、新候选发现轮和合格论文均为 0。新颖性/优先权仍未结案。
 
 
-新增形式证书已完整执行并独立接受：rank 61、维度 122 的整数输入追加一行后，投影 recourse 满足精确下界 **2290438555/134217728 > 8**。61 个根与 732 次固定二分决策全部独立复算；[证据说明](INTEGER_COUNTEREXAMPLE_CERTIFICATE_WINDOW02.md)、[原始收集包](evidence/integer-projector-target61-02-collection.json)、[完整独立验收](INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md)和独立 replay 源码均已保存。原执行 wall 13.090106 秒、CPU 12.213068 秒、RSS 25,392 KiB；另外独立 replay CPU 11.891035 秒单独累计。它支持同一引理的具体整数反例，不资格化原生性能或新论文。
-
-此前 [501 条隔离标量检查](NEARZERO_SCALAR_EVIDENCE_REVIEW_WINDOW02.md)和[三个 rank、256 个整数的见证构造](INTEGER_WITNESS_EVIDENCE_REVIEW_WINDOW02.md)也已独立接受；rank 61 实际最大位长 258 位。完整科学 Stage B 比较仍未执行。
-
-[近似证明依赖的独立审查](APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md)确认 Theorem 1.2 的显示证明依赖错误引理；引用的在线 PCP 采样与 freshSVD 只能给出已知的 rank 平方回退界。Theorem 1.3 使用单独的证明链，能量/整数重加权前提仍有未闭合项；没有据此宣称近似存在定理为假。Algorithm 4 的能量论证支持加性误差 Theorem 1.1，应与相对误差保证区分。
-
-[独立主文献碰撞与范围审查](INTEGER_CORRECTION_INDEPENDENT_COLLISION_REVIEW_WINDOW02.md)支持继续核实引理 2.1 的狭义纠错；secular/Cauchy/逆谱机制已有先例，完整构造组合的优先权仍不确定。不能据此声称近似存在定理错误，或把 v5/v6/v7 拆成不同论文。
+新增隔离标量软件验收已真实运行：501 条记录全部通过，四个输出两次退出后哈希一致，整次 wall 1.155050 秒、CPU 1.095581 秒、RSS 37,044 KiB；[原始收集包](evidence/scalar-contract-02-collection.json)已保存，独立证据复审进行中。只检查冻结来源中的标量分支/分母/累计逻辑，不计算新的矩阵指标，不资格化完整 Stage B 或官方评分器。另有[整数见证生成设计](INTEGER_WITNESS_DESIGN_WINDOW02.md)等待独立设计审查，尚无整数生成源码或执行。
 
 本项目使用 `Research_Autopilot/autonomous-rsi` 的机器审查流程，研究流式低秩近似的重构质量、子空间稳定性和计算成本。用户授权使用当前 ChatGPT Work 的 CPU，并要求一个 8 小时研究窗口。资源实测为 8 核 CPU 配额、8 GiB 内存上限；无需 GPU 或额外模型 API。
 

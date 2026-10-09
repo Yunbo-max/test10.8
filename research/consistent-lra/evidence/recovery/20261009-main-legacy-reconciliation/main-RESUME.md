@@ -1,4 +1,4 @@
-# Resume from current main evidence
+# Resume from actual durable evidence
 
 ## Current delivery authorization — 2026-10-09 12:29 Europe/London
 
@@ -12,23 +12,39 @@ No scientific gate, resource limit or deadline is waived.
 See [migration provenance](MAIN_DELIVERY_AUTHORIZATION_20261009.md).
 
 
+## Latest main snapshot — 2026-10-09T12:35:35Z
 
-## Reconciled current state — 2026-10-09T13:19:29.618214+00:00
+Main includes all legacy project evidence through e12a3d10853509cc560c70070c0ab3b990115621,
+plus the two independent main reviews and the accepted analytic clarification.
+The current counts are 146 unique assignments, 22 executable attempts,
+2 controller rounds, CPU lower bound293.52897959s;
+0 discovery rounds, 0 admitted scientific experiments, 0 eligible papers.
+The integer construction completed256entries/ranks1,2,61, max258bits at61,
+CPU0.420406s/wall1.084132s/RSS30948KiB; independent raw-evidence review accepted all128coordinates/256integers and receipts.
+Its outputs construct integers; they do not compute recourse or block condition.
 
-Main and legacy heads were pinned at `176064b931140da791f58137ee68a37068566f6b` and `7286e6d5b301f01ebda45d6fa1387afd9d383906`. Both source snapshots and control hashes are retained in `evidence/recovery/20261009-main-legacy-reconciliation/`. All new legacy source, raw receipts and reviews are imported without changing their history; all main-only artifacts are preserved. Future delivery and recovery use **main**, only `research/consistent-lra/`. The old branch is read-only.
+[Independent analytic clarification](EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md)
+accepts the [source-bound derivation](EXACT_APPROXIMATE_SEPARATION_MAIN_DRAFT.md):
+on the accepted rank61 final append, retaining the old exact projector incurs
+zero change and less than1% relative excess loss, despite exact optimizers'
+recourse>8. Final update only; no full-stream approximate guarantee or novelty.
 
-Current cumulative ledger: **160 unique assignments, 24 original executable attempts, 2 controller rounds, CPU lower bound318.944499767s; 0 discovery rounds, 0 admitted scientific experiments, 0 eligible papers**. All numeric execution reservations are released. Historical local task ordinals remain unchanged; union by task names prevents double counting. Five main-only assignments and this actual reconciliation are carried in the same finite budget. Stop opening new work17:10:43Z; deadline17:15:43Z unchanged.
+[Scorer admission audit](SCORER_ADMISSION_MAIN_AUDIT.md) specifies the genuine
+native reference/contract/live-replay gap. StageB remains unexecuted, source-only.
+[Writer reconciliation](MAIN_WRITER_RECONCILIATION_20261009.md) retains the actual
+legacy attempt without another launch. The already-active legacy worker still
+published after migration; this invocation could not hot-steer it. On next
+resume, pin live main and legacy heads, import only any new legacy project blobs,
+union unique task names and monotonic usage, preserve main authorization and
+other paths. Never rerun the integer witness or its accepted prior preparations.
+The legacy INTEGER_PROJECTOR_CERTIFICATE_DESIGN_WINDOW02.md is a pending exact
+formal certificate design, not an admitted workload. Follow its real review
+and existing owner/receipt identity before dispatch. Deadline17:15:43Z,
+stop opening new work17:10:43Z unchanged; no task launch/retrigger or budget reset.
 
-The complete rank61 positive-integer witness has certified `R >= 2290438555/134217728 > 8`; all61 roots and732 bisection decisions independently replayed. Original execution wall13.090105889s/CPU12.213068s/RSS25392KiB; reviewer CPU11.891034659s charged separately. [Exact evidence note](INTEGER_COUNTEREXAMPLE_CERTIFICATE_WINDOW02.md), [independent verification](INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md). Consecutive block conditioning remains an accepted analytic statement rather than a new numeric measurement.
+Historical observations below remain source snapshots; this paragraph and the
+latest BUDGET_OBSERVATION/control fields describe current state.
 
-The main [independent analytic review](EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md) establishes that retaining the old exact optimizer on this final append costs zero movement and less than1% excess relative loss. This is a final-update bound, not a full-stream algorithm or a theorem repair. The [proof dependency audit](APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md) separates the false exact lemma from independent Algorithm4 additive guarantee, the known quadratic-recourse PCP fallback and unresolved HEAVY-tail/integer-reweighting premises.
-
-[Scorer capability audit](SCORER_ADMISSION_MAIN_AUDIT.md) retains the authentic native reference/live replay block. StageB source is accepted but unexecuted; no fair benchmark victory, new method or paper pass. Next finite independent work: joint-priority/backward citations and a source-bound consequential proof-premise card, independently reviewed before any further executable task. Historical snapshots below describe earlier states and do not override this latest ledger.
-
-
-## Retained latest legacy narrative (historical delivery references)
-
-# Resume from actual durable evidence
 
 One writer owns research/consistent-lra/ on consistent-lra-rsi. Resolve and pin the branch head; read all eight control files and referenced artifacts at that same commit. Preserve the original clock anchor and deadline. Reconcile the same background task identity and all outstanding reservations before dispatch. Do not replay the bootstrap immediate request.
 
@@ -88,7 +104,7 @@ is authorized. Reuse background task 6ac82bb085c081919fa92002384b073b and branch
 
 ## Window02 current continuation, 2026-10-09
 
-Current 2 controller rounds /154 registered assignments /24 original executable attempts /0 discovery /0 admitted scientific experiments /0 papers. CPU lower bound318.944499767s includes separately recorded13.176209082s independent k61 Fraction evidence analysis; do not rerun accepted target or reset counts. No currently unreleased execution reservation. Active window09:15:43Z–17:15:43Z; stop opening new work17:10:43Z. Same writer/branch/automation, historical bootstrap immediate request is never a worker task.
+Current 2 controller rounds /130 registered assignments /21 original executable attempts /0 discovery /0 admitted scientific experiments /0 papers. CPU lower bound291.911595082s includes separately recorded13.176209082s independent k61 Fraction evidence analysis; do not rerun accepted target or reset counts. No currently unreleased execution reservation. Active window09:15:43Z–17:15:43Z; stop opening new work17:10:43Z. Same writer/branch/automation, historical bootstrap immediate request is never a worker task.
 
 Restore live immutable head and all controls/evidence at that SHA. Accepted finite full Stage-A v2 evidence is atbc80f1be00f772a8c462f807444cdd4e2b67de35, real-parent k61 exact evidence atea547dd4c732a01b06969b045866eb03bd906271; later root commits hold independent reviews. v7 explicit integer bit-bound proof is accepted at3f8aa6e48335052f93b75e55a4ce3a41311481ca via FORMAL_AUDIT_v7_REVIEW.md, same correction lineage, not newpaper/algorithm. Integer magnitudes exponential, bits polynomial; v7 is analytic and not produced by the real-parent certificate.
 
@@ -97,34 +113,5 @@ Assignment110 original Stage-B source was rejected for normalized-energy denomin
 Independent useful work: targeted primary priority/downstream audit of constructive polynomial-bit integer correction; accepted mechanism is prior art, no absence-of-search novelty pass. Gate0/IPCG/full baseline/residual failures remain prerequisites for discovery; pool0, no forged verify_methods batch or metadata authorization. Keep generated source and real mathematical/provenance artifacts even if paper eligibility remains0.
 
 
-## Current verified complete integer projector certificate
-Latest immutable branch head is authoritative. Ledger154 assignments/24 attempts,
-2 recorded control rounds, CPUlowerbound318.944499767s; discovery/scientific/
-eligiblepapers0. All execution reservations released. Never reset or rerun accepted
-work because historical PID/scratch disappears.
-
-Scalar501 and integer256 entries accepted. Complete integer61root/732decision
-certificate at eed4b24ca7549f4bce1ae71ce65008431dbbea67 has actual154 independent
-acceptance integrated at0db0ecb783c9902517d866cfc15db526f851dd53. Rlower exactly
-2290438555/134217728>8. Producerwall13.090105889 CPU12.213068 RSS25392KiB;
-independentreplayCPU11.891034659 separately charged. Source unchanged e59cf9...
-plans/calibration/complete evidence and independent replay source preserved.
-INTEGER_COUNTEREXAMPLE_CERTIFICATE_WINDOW02.md is an evidence note, not a paper
-eligibility/novelty pass. Consecutive-block condition remains analytic acceptedv7.
-
-150 APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md: target Theorem1.2 displayed
-proof gap; specific append-only simultaneous-prefix PCP + freshSVD yields known
-O(k^2 epsilon^-2 log(n) log^2 max(2,kappa)) bound. Algorithm4 additive Theorem1.1
-energy proof independent. Theorem1.3 separate chain has unresolved quantitative
-HEAVY energy and integer reweighting/sampling premises; no counterexample/theorem
-falsity established there. Primary full relevant E/F proofs read; alltheorem audit
-not complete. Capture hashes are retrieval-object identities, not PDF-byte hashes.
-
-Next independent route2/3: close combined construction priority/backward primary
-citations and formulate a consequential mathematical card for unresolved F.1
-energy inequality or reweighted-integer premise; independently review before any
-new code/executable work. New approximate-method discovery still needs qualified
-nativebaselines/Parent/Gate0/IPCG/residualfailure/fullG01/~20mathcards/allpoolranking.
-Scientific StageB missing authentic faithful evaluator/live parity authority stays
-blocked; the accepted formal witness cannot replace nativebenchmark data/scoring.
-Restore remaining cumulative window and save before17:10:43Z; deadline17:15:43Z.
+## Actual scalar software execution and next independent child
+Restore ba35efc546455968927e2b69de2609fbcfbcfe86 packet or latestsamehead: isolated scalar501rows,diagnosticjournal,summary,manifest and21receipts/logs files exactbyte-readbackrootverified. Oneactualattempt wall1.155049632 CPU1.095581 RSS37044KiB, reservationreleased; evidence128review pending. Source124 and plan126acceptance stored; no scientific/native/StageB admission. INTEGER_WITNESS_DESIGN_WINDOW02.md at6f05dbd2890de391f48f83d439009cbfa2d5b4ea pending actualdesign130review; no executablegenerator created. Retain targeted priorityaudit114 known2005machinery and unresolvedapplicationpriority, no noveltypass.

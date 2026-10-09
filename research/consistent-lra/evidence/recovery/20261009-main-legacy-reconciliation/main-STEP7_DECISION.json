@@ -1,10 +1,10 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T13:11:36.517314+00:00",
+  "observed_at": "2026-10-09T12:35:35Z",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
   "decision": 2,
-  "action": "return2for original scientific native authority and unresolved conjunction priority; independently route3 for existing-paper HEAVY energy/reweighting premise math audit; no new method/source execution now",
+  "action": "return2to scientific native capability/source gap; independently continue primary priority/downstream audit and bounded nearzero software qualification design",
   "basis": [
     {
       "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
@@ -96,41 +96,6 @@
       "sha256": "6c0fdde0ec58c0932ecf8f9cfae468311035ad443a4fba99bc50ee9f9ce508c7",
       "reviewed_commit": "d29281f1ec6f757455c03d95b2aaf645397b53a6",
       "verdict": "accepted_engineering_exact_reference_cost_and_numerical_agreement_only"
-    },
-    {
-      "path": "NEARZERO_SCALAR_EVIDENCE_REVIEW_WINDOW02.md",
-      "sha256": "24d925c2c1ffa23a47bd8b78bc1cbfc13748371fb921bc354c4dd16aab0ee4c6",
-      "scope": "only explicit independently reviewed property; not native scientific or paper admission"
-    },
-    {
-      "path": "INTEGER_WITNESS_EVIDENCE_REVIEW_WINDOW02.md",
-      "sha256": "f7ae275d01ebaa9f4aa536de8e4dbe370e3d318a428e9c44f70d191b7ad6ceab",
-      "scope": "only explicit independently reviewed property; not native scientific or paper admission"
-    },
-    {
-      "path": "INTEGER_CORRECTION_INDEPENDENT_COLLISION_REVIEW_WINDOW02.md",
-      "sha256": "eefb3614c7505cd294f224888714db1b8492aea6c86d506e8af3f91e66b55fb8",
-      "scope": "only explicit independently reviewed property; not native scientific or paper admission"
-    },
-    {
-      "path": "INTEGER_PROJECTOR_CERTIFICATE_DESIGN_REVIEW_WINDOW02.md",
-      "sha256": "5faa7f8837d38a8d8dcbc89fb80bb4e296366a4d8102f53638788f3fcc0e57d4",
-      "scope": "only explicit independently reviewed property; not native scientific or paper admission"
-    },
-    {
-      "path": "INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md",
-      "sha256": "174982aa76cce1770707908010eb159c5acf4f2d63d9a1ea8dae4505045598ce",
-      "scope": "explicit reviewed existing-paper mathematical property only"
-    },
-    {
-      "path": "APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md",
-      "sha256": "96f0c4e357737ac2a4ce9b637b3c3a6f2f08bb718705b545d31e2e4623d8c605",
-      "scope": "explicit reviewed existing-paper mathematical property only"
-    },
-    {
-      "path": "INTEGER_COUNTEREXAMPLE_CERTIFICATE_WINDOW02.md",
-      "sha256": "a02e39bd3e5158990ca8fd25ae2de6b675f968f397260d21bca7bf65174c2fba",
-      "scope": "explicit reviewed existing-paper mathematical property only"
     }
   ],
   "closed_or_narrowed": {
@@ -150,16 +115,11 @@
     "real_parent_k61_exact_arithmetic": "One actual finite target61 command and complete independent decoded-Fraction arithmetic review accepted; all122residues122roots61crossings, bound122/15>8; not fullR/blocksingulars/integerv7validation/nativequalification",
     "constructive_integer_bit_bound": "v7 analytic integerization independentlyaccepted: R_Z>2k/15-.01,consecutive/crossblockkappa<4,entrybits<=4k+ceillog2k+9 (259at61); exponentialmagnitudes,primarypriorityunresolved,nomethod/paperpass",
     "StageB_source": "complete13arm5000prefix source/design accepted afterone recorded correction; trueenergyexcess/roles/16metricendpointmeanmedianmax/28filepacket implemented;unexecuted,noadmission",
-    "scalar_source_plan": "source124 and plan126 independentlyaccepted; actual501rows completed pendingevidence128",
+    "scalar_source_plan": "accepted501 finite scalar software records only; no native science",
     "integer_primary_priority": "targeted16query primaryaudit114 finds2005finite Cauchy/secular machinery; applicationpriority inconclusive/no originalitypass",
-    "scalar_contract": "501 finite scalar records independently accepted; no fullStageB qualification",
-    "integer_witness": "256 integer entries construction/bits independently accepted; projector R not computed",
-    "integer_projector_design": "math/design accepted source generation only; representative61 cost gate pending",
-    "correction_priority": "narrowLemma2.1 audit advanced; existing machinery; conjunction priority inconclusive; no theorem1.2/1.3 refutation",
-    "integer_projector_complete": "all61roots732decisions exact Rlower2290438555/134217728>8 accepted154",
-    "sampled_freshSVD_fallback": "specific append-only prefixPCP known quadraticrank bound qualified150; notnewmethod",
-    "algorithm4_proofscope": "additiveTheorem1.1 energyproof independent ofLemma2.1; normalizedrealenergy ratio explicit",
-    "approximate_theorem1_3": "separate chain unresolved HEAVY tailcapture and integer-reweighting/PCP premises; no theoremrefutation"
+    "integer_source": "accepted corrected constructor and all independent recorded arithmetic128coordinates256integers; real attempt completed, max258bits at61; no numeric recourse/eigenvalue/condition computation",
+    "exact_approximate_separation": "independent reviewer accepts real8/(15k-4) and integer514/(960k-257) excess-ratio bounds on final append; k61<1.01 while exact optimizer recourse>8",
+    "integer_execution_review": "INTEGER_WITNESS_EVIDENCE_REVIEW_WINDOW02.md at e12a3d10853509cc560c70070c0ab3b990115621 accepts receipts/hashes and complete exact construction arithmetic; reviewCPU0.332880508s charged without another attempt"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
@@ -173,17 +133,18 @@
   "gate_advanced": false,
   "eligible_new_papers": 0,
   "continued_independent_work": [
-    "independent review of actual isolated scalar software501 records; no native-sciencepass",
-    "exact integer witness design/source qualification child of accepted v7; pendingdesignreview"
+    "reconcile legacy integer witness independent evidence/priority/certificate records into main without repeat launch",
+    "complete exact integer projector certificate design review with existing owner before any bounded dispatch",
+    "join loss-dependent approximate theorem/source arguments to the accepted final-update separation; no exact-motion lower-bound overclaim"
   ],
-  "reason_not_terminal": "Finite independent originality/proofscope and software qualification work remains before harddeadline; no duplicate goal, no scientific gate shortcut",
-  "next_restore": "resolve immutable branch head and retained bytes; never rerun accepted Landmark/Rice/Skin/oracle preparation or bootstrap immediate request",
+  "reason_not_terminal": "active legacy work and independent formal certificate/priority/source obligations remain within existing finite deadline; no new goal",
+  "next_restore": "pin live main; use legacy b625289 only for immutable provenance; preserve all budgets and outstanding unlaunched integer reservation",
   "note": "In-place worker evidence mapping to pinned RSI return-to-source route; no fabricated controller, official scorer, Gate A pass or paper result.",
   "prior_decision": 2,
   "previous_observation_preserved": "prior Step7 JSON version remains immutable in parent commits including9f65c9aed3d6952e08d7dae6020eb70eb5698db4",
   "historical_runtime_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "active_window_id": "cpu-window-02-20261009",
-  "evidence_commit": "ba35efc546455968927e2b69de2609fbcfbcfe86",
+  "evidence_commit": "a990a23fb2336c9684b1b86f616d44a64dcaf296",
   "window02_current_evidence": [
     {
       "artifact": "FORMAL_AUDIT_v5_REVIEW.md",
@@ -249,17 +210,15 @@
     "explicit_integer_bit_bound": "closed_analytic_proof_only",
     "Stage_B_source_design": "closed_source_design_only"
   },
-  "latest_budget_record": "BUDGET_OBSERVATION.json",
-  "next_bounded_independent_work": {
-    "source_priority": "target conjunction and bounded backward citation analysis; no absence-of-search pass",
-    "mathematics": "freeze F.1 quantitative energy/reweighting premise card, independent review before code",
-    "scientific_execution": "blocked authentic faithful native evaluator live capability; fullcomparisons/newmethods pending",
-    "writing": "research evidence note only; eligiblepapers0"
-  },
   "delivery_branch": "main",
-  "source_main_commit": "176064b931140da791f58137ee68a37068566f6b",
-  "source_legacy_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
-  "reconciliation_record": "MAIN_FINAL_PACKET_RECONCILIATION_20261009.md",
-  "registered_task_assignments": 160,
-  "exact_approximate_final_append_only_review": "EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md"
+  "delivery_authorization_record": "MAIN_DELIVERY_AUTHORIZATION_20261009.md",
+  "current_budget": {
+    "assignments": 146,
+    "attempts": 22,
+    "controller_rounds": 2,
+    "discovery_rounds": 0,
+    "scientific_experiments": 0,
+    "papers": 0,
+    "observed_CPU_lower_bound": 293.52897959
+  }
 }

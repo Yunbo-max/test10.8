@@ -1,0 +1,273 @@
+{
+  "format": "exact-integer-projector-collection-v1",
+  "attempt_id": "exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea",
+  "status": "completed",
+  "attempt_exit_code": 0,
+  "launcher_usage": {
+    "command": [
+      "python3",
+      "vendor/rsi/scripts/run_harness.py",
+      "plans/harness-integer-projector-target61-02.json",
+      "--root",
+      "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+      "--execute",
+      "--approved-plan-digest",
+      "6986ad275e6cd1441a5f55c68ffd38741dafaa4c7b187de2b812b83e886eb993"
+    ],
+    "cwd": "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+    "started_at": "2026-10-09T13:00:20.474862+00:00",
+    "completed_at": "2026-10-09T13:00:33.564966+00:00",
+    "exit_code": 0,
+    "wall_seconds": 13.09010588900128,
+    "waited_process_tree_cpu_seconds": 12.213068000000002,
+    "maximum_child_rss_kib": 25392,
+    "cpu_semantics": "RUSAGE_CHILDREN delta for waited harness and reaped descendants; failed/unreaped processes could undercount",
+    "scientific_gate_advanced": false
+  },
+  "output_readback_boundaries": [
+    [
+      {
+        "path": "runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/workspace/evidence/integer-projector-target61-02/projector-certificate.jsonl",
+        "bytes": 392961,
+        "sha256": "fcfc912b0d09ecaa94aa8a5a6e3571034a3958b1574555536ef3cf7c8ab98f2f"
+      },
+      {
+        "path": "runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/workspace/evidence/integer-projector-target61-02/projector-summary.json",
+        "bytes": 1570,
+        "sha256": "105ea07065253198060efdd71b95d5700df28082e1ee01d4750ad8d9e73777aa"
+      }
+    ],
+    [
+      {
+        "path": "runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/workspace/evidence/integer-projector-target61-02/projector-certificate.jsonl",
+        "bytes": 392961,
+        "sha256": "fcfc912b0d09ecaa94aa8a5a6e3571034a3958b1574555536ef3cf7c8ab98f2f"
+      },
+      {
+        "path": "runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/workspace/evidence/integer-projector-target61-02/projector-summary.json",
+        "bytes": 1570,
+        "sha256": "105ea07065253198060efdd71b95d5700df28082e1ee01d4750ad8d9e73777aa"
+      }
+    ]
+  ],
+  "summary": {
+    "approximate_existence_refuted": false,
+    "arithmetic_completed": true,
+    "block_condition_computed": false,
+    "confirmation": false,
+    "cost_envelope_is_planning_heuristic_not_worstcase_proof": true,
+    "format": "exact-integer-projector-certificate-v1",
+    "maximum_self_rss_kib": 25392,
+    "mode": "full",
+    "native_evaluator_qualified": false,
+    "novelty_qualified": false,
+    "performance_claim_eligible": false,
+    "prospective_full_cost_envelope_seconds": null,
+    "ranks": [
+      {
+        "approximate_existence_refuted": false,
+        "block_condition_computed": false,
+        "complete_topk_inventory": true,
+        "completed_roots": 61,
+        "confirmation": false,
+        "k": 61,
+        "native_evaluator_qualified": false,
+        "novelty_qualified": false,
+        "performance_claim_eligible": false,
+        "recourse_lower_bound": {
+          "denominator_hex": "0x8000000",
+          "numerator_hex": "0x8885519b"
+        },
+        "root_indices": [
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121
+        ],
+        "scientific_gate_advanced": false,
+        "target_applicable": true,
+        "target_strictly_greater_than_8": true,
+        "target_verdict": "certified"
+      }
+    ],
+    "raw": {
+      "bytes": 392961,
+      "path": "projector-certificate.jsonl",
+      "sha256": "fcfc912b0d09ecaa94aa8a5a6e3571034a3958b1574555536ef3cf7c8ab98f2f"
+    },
+    "raw_records": 63,
+    "scientific_gate_advanced": false,
+    "script_cpu_before_summary_seconds": 11.923972685999999,
+    "script_wall_before_summary_seconds": 11.938685690998682,
+    "source_sha256": "e59cf9f03c40007271c14ca98ecd940f59bfa33cbd5a860218310556be67a22d",
+    "timestamps": {
+      "completed_before_summary_at": "2026-10-09T13:00:32.595576+00:00"
+    }
+  },
+  "files": [
+    {
+      "path": "evidence/dispatch/integer-projector-target61-02.json",
+      "bytes": 843,
+      "sha256": "d58459f4ff827f7f07f5a60de64793fb5e14334a23b8eeac34d07b96db286953"
+    },
+    {
+      "path": "evidence/dispatch/integer-projector-target61-02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/dispatch/integer-projector-target61-02.stdout.log",
+      "bytes": 2443,
+      "sha256": "615f427f0771e4401a37789dd1f3399b878eeb59c4cac0d950b69a896c3c1720"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/attempt.json",
+      "bytes": 5855,
+      "sha256": "da9a7871ab715d34aa93c43fc56993efd96a06be593136bfa2ee085944866b1f"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/process-guard.json",
+      "bytes": 1247,
+      "sha256": "4bbffc279053d8113dbf643edba77f5f1d9b009bd3b7faaabf0a53f00c984f8d"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/stdout.log",
+      "bytes": 553,
+      "sha256": "8f2858a6abe09de62d6f7ebc8e425cc30ab8f1ec03e33dd19c760dbbdacb9eac"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/workspace/evidence/integer-projector-target61-02/projector-certificate.jsonl",
+      "bytes": 392961,
+      "sha256": "fcfc912b0d09ecaa94aa8a5a6e3571034a3958b1574555536ef3cf7c8ab98f2f"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-target61-02/exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea/workspace/evidence/integer-projector-target61-02/projector-summary.json",
+      "bytes": 1570,
+      "sha256": "105ea07065253198060efdd71b95d5700df28082e1ee01d4750ad8d9e73777aa"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-target61-02/plan.json",
+      "bytes": 4597,
+      "sha256": "3e3fbd3347487a5afdc7b49fb3fa8a9c0eac593aba6e3af9636a98b358d3bddf"
+    },
+    {
+      "path": "runs/attempts/exact-integer-projector-target61-02/receipt.json",
+      "bytes": 6751,
+      "sha256": "573f295f9a29cae094ad6ff01ec9fece4dad4b6f793ac7d2b99f4b0c43cda9d0"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-target61-batch-02/events.jsonl",
+      "bytes": 525,
+      "sha256": "85b24aadaf94a9e14dd81307a13bb8669eb9c5baaa5ef34e9259ea64cda9c2a2"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-target61-batch-02/plan.json",
+      "bytes": 933,
+      "sha256": "6a3ce26d91f286cf04dc2a574d1909ad7b6f790ec2c6ca87a2d6931eeefe7cb6"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-target61-batch-02/report.json",
+      "bytes": 2443,
+      "sha256": "615f427f0771e4401a37789dd1f3399b878eeb59c4cac0d950b69a896c3c1720"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-target61-batch-02/state.json",
+      "bytes": 2056,
+      "sha256": "1f2c99fff5a2a782dbcc878078e97e2f16376a74f8c2bc583518468f995efa4d"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-target61-batch-02/tasks/exact-integer-projector-target61-02/execution-context.json",
+      "bytes": 612,
+      "sha256": "b0a5804f301e64f792b82a8a5185e96c3b83d649ad94d2a7e4f37fac5748f490"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-target61-batch-02/tasks/exact-integer-projector-target61-02/process.json",
+      "bytes": 88,
+      "sha256": "a8fe9f215e22e699b738c2278f94fa3a9b3f40e3cfd39ec00f5a146488d5494e"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-target61-batch-02/tasks/exact-integer-projector-target61-02/result.json",
+      "bytes": 1126,
+      "sha256": "d6f8d303f3886c6d8969878bdd39d1d6e890704c456f9c135975bd9e187bca40"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-target61-batch-02/tasks/exact-integer-projector-target61-02/task.json",
+      "bytes": 457,
+      "sha256": "24d61aaf8c7312e55b0e46d1c0dfbdd82adcef79e23d0d04073536dab45c79bf"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-target61-batch-02/tasks/exact-integer-projector-target61-02/worker.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/harness/exact-integer-projector-target61-batch-02/tasks/exact-integer-projector-target61-02/worker.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scientific_gate_advanced": false,
+  "native_evaluator_qualified": false
+}
