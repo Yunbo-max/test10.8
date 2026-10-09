@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T10:52:31.598733+00:00",
+  "observed_at": "2026-10-09T10:53:35.181367+00:00",
   "controller_rounds": 2,
   "registered_task_assignments": 106,
   "executable_attempts_dispatched": 19,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 246.085404,
+  "observed_process_cpu_seconds": 246.292924,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "reservation": {
     "task": "source-integrity-01",
@@ -1022,20 +1022,26 @@
     "ram_mib_reserved_not_enforced": 512,
     "wall_seconds_upper_bound": 90,
     "attempts_reserved": 1,
-    "attempts_launched": 0,
-    "released": false,
+    "attempts_launched": 1,
+    "released": true,
     "execution_admitted": true,
     "native_plan_digest": "9ca9deecb9809a8109a6918a5f789d8cbc5795574372c34f969eba445c97d7d7",
     "harness_plan_digest": "efaf6cc61a8bcfd37a89ba8b5bdaf0169362aa1118718a1cc1f299975ef93aad",
     "plan_review": "FORMAL_CERTIFICATE_CALIBRATION_PLAN_REVIEW_WINDOW02.md",
     "attempts_charged": 1,
-    "execution_status": "authorized_dispatch_charged_pending_actual_start_receipt",
+    "execution_status": "completed_pending_independent_evidence_review",
     "prelaunch_observation": {
       "observed_at": "2026-10-09T10:52:31.598733+00:00",
       "cpu_max": "800000 100000",
       "memory_max_bytes": 8589934592,
       "active_numerical_job_pids": []
-    }
+    },
+    "attempts_completed": 1,
+    "attempt_id": "formal-geometric-cost-a1-6febbe83118347dd8b92cfaf31f48560",
+    "release_basis": "terminalcompletedreceipt and twoall2postexitoutputrehashes",
+    "waited_process_tree_cpu_seconds": 0.20751999999999998,
+    "actual_harness_wall_seconds": 1.0736070679995464,
+    "maximum_child_rss_kib": 16384
   },
   "pending_window02_explicit_integer_derivation": {
     "assignment": "window02-geometric-explicit-integer-bit-bound-derivation",
@@ -1054,6 +1060,6 @@
   },
   "pending_window02_exact_certificate_calibration_evidence_review": {
     "assignment": "window02-exact-geometric-calibration-evidence-review",
-    "status": "awaiting_actual_execution"
+    "status": "actualcompleted_two_outputs_waiting_fixed_commit_review"
   }
 }

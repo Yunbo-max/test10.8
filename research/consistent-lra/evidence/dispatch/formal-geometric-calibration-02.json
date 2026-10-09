@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "vendor/rsi/scripts/run_harness.py",
+    "plans/harness-formal-geometric-calibration-02.json",
+    "--root",
+    "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+    "--execute",
+    "--approved-plan-digest",
+    "efaf6cc61a8bcfd37a89ba8b5bdaf0169362aa1118718a1cc1f299975ef93aad"
+  ],
+  "cwd": "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+  "started_at": "2026-10-09T10:52:40.668944+00:00",
+  "completed_at": "2026-10-09T10:52:41.742551+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.0736070679995464,
+  "waited_process_tree_cpu_seconds": 0.20751999999999998,
+  "maximum_child_rss_kib": 16384,
+  "cpu_semantics": "RUSAGE_CHILDREN delta for waited harness and reaped descendants; failed/unreaped processes could undercount",
+  "scientific_gate_advanced": false
+}
