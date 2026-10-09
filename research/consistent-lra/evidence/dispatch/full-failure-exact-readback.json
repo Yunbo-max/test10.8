@@ -1,0 +1,222 @@
+{
+  "commit": "ea09f11cb9f0e107290c02bdedbea014df2c6903",
+  "method": "fresh git fetch followed by git show exact commit:path for every file; actual binary bytes",
+  "checks": [
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-qualification-02/plan.json",
+      "sha256": "03319034486faf385b9b4fe2922b23a58b690f326da5fc992d2980135b84cf5a",
+      "bytes": 3992,
+      "git_blob": "045d325375e80f977122d5a812a30dd8dfd346ca",
+      "readback_sha256": "03319034486faf385b9b4fe2922b23a58b690f326da5fc992d2980135b84cf5a",
+      "readback_bytes": 3992,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-qualification-02/receipt.json",
+      "sha256": "85c47e0ff1ed32db99bbe74f997ffa8a47e02b0d5bd9241ab367ee6797b30a90",
+      "bytes": 5460,
+      "git_blob": "6b0baefadc7ade0b1e8e71371f519913f21e695f",
+      "readback_sha256": "85c47e0ff1ed32db99bbe74f997ffa8a47e02b0d5bd9241ab367ee6797b30a90",
+      "readback_bytes": 5460,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-qualification-02/landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d/stderr.log",
+      "sha256": "f78f8a333edc738771cbeb0ae4cab99e70fd831c261d6f6c887ba818201b599d",
+      "bytes": 1534,
+      "git_blob": "30d2fb4da02a7f667283c1d917cdd6c717c677f1",
+      "readback_sha256": "f78f8a333edc738771cbeb0ae4cab99e70fd831c261d6f6c887ba818201b599d",
+      "readback_bytes": 1534,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-qualification-02/landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d/stdout.log",
+      "sha256": "e8502367ef93dd78adf2384e1cf81dbfa5639cb3dd72a7cd0d6084cf48edded9",
+      "bytes": 899,
+      "git_blob": "5bb221e8e552ebb096bb284a776223df14884ad6",
+      "readback_sha256": "e8502367ef93dd78adf2384e1cf81dbfa5639cb3dd72a7cd0d6084cf48edded9",
+      "readback_bytes": 899,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-qualification-02/landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d/attempt.json",
+      "sha256": "4f4f1c55a178d16df19b240bf293472cae8232072ca540deb650031d4c5f757f",
+      "bytes": 4562,
+      "git_blob": "8d0432f02987730fa294f4980b4b2da91e184f85",
+      "readback_sha256": "4f4f1c55a178d16df19b240bf293472cae8232072ca540deb650031d4c5f757f",
+      "readback_bytes": 4562,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-qualification-02/landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d/process-guard.json",
+      "sha256": "385519d662cab9322d9f04bc768091d3f33caefd2dc12b4aae5316bc05471eab",
+      "bytes": 954,
+      "git_blob": "86c3dcb816fac70f297512b0a1d13526f4885c69",
+      "readback_sha256": "385519d662cab9322d9f04bc768091d3f33caefd2dc12b4aae5316bc05471eab",
+      "readback_bytes": 954,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-qualification-02/landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d/workspace/evidence/qualification/landmark-stage-a-qualification.timings.jsonl.gz.partial",
+      "sha256": "b0aae387bf0fbe7a55aa8e8e2d6b3dafe883ddb8fc5a64b3e11e367f9405bd88",
+      "bytes": 1136307,
+      "git_blob": "29c7836b403ffb37eea6d5faf599158d3f61a7dd",
+      "readback_sha256": "b0aae387bf0fbe7a55aa8e8e2d6b3dafe883ddb8fc5a64b3e11e367f9405bd88",
+      "readback_bytes": 1136307,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-qualification-02/landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d/workspace/evidence/qualification/landmark-stage-a-qualification.oracles.jsonl.gz.partial",
+      "sha256": "59887942553b6bc85638fd7899a93f7bf53a1d8ba90b13d8cbd46e5e4c4c5cd2",
+      "bytes": 7487298,
+      "git_blob": "e50c8f0980338455a8b368744825ddb441ffaaa3",
+      "readback_sha256": "59887942553b6bc85638fd7899a93f7bf53a1d8ba90b13d8cbd46e5e4c4c5cd2",
+      "readback_bytes": 7487298,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-qualification-batch-02/plan.json",
+      "sha256": "3ec0ce19e6b5c1a53486285af117938877a13f3553eecff33d27a100560a84b2",
+      "bytes": 937,
+      "git_blob": "b5e784d1cebf6250cc514e05e0a4b384a093fa77",
+      "readback_sha256": "3ec0ce19e6b5c1a53486285af117938877a13f3553eecff33d27a100560a84b2",
+      "readback_bytes": 937,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-qualification-batch-02/report.json",
+      "sha256": "3e9cac82444b0aa6b605960d8cf565e51fab8d9e98d9fc79750388389163949c",
+      "bytes": 1865,
+      "git_blob": "87bff0a5232ae89a57c141b5948b6e485f357749",
+      "readback_sha256": "3e9cac82444b0aa6b605960d8cf565e51fab8d9e98d9fc79750388389163949c",
+      "readback_bytes": 1865,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-qualification-batch-02/state.json",
+      "sha256": "19fae7b254e7fcc0d9ba074ad49efcd38b00aa15bd43f276939578d40ad66573",
+      "bytes": 1478,
+      "git_blob": "b95ea89ca9ce3207808a46384334073bdf53d468",
+      "readback_sha256": "19fae7b254e7fcc0d9ba074ad49efcd38b00aa15bd43f276939578d40ad66573",
+      "readback_bytes": 1478,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-qualification-batch-02/events.jsonl",
+      "sha256": "35b9afb0dda95b2dfb035ef9067ff357ab0bd89549b12e097c5454b4d190b066",
+      "bytes": 518,
+      "git_blob": "58c98cb9e2d7bb446cd1ecfc62505b80b7dd0ce6",
+      "readback_sha256": "35b9afb0dda95b2dfb035ef9067ff357ab0bd89549b12e097c5454b4d190b066",
+      "readback_bytes": 518,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-qualification-batch-02/tasks/landmark-stage-a-qualification-02/execution-context.json",
+      "sha256": "da72eb97ceab5c6b0628f94b852627b2f2bdc1a42defa3a31ad8dedcff7fed5f",
+      "bytes": 615,
+      "git_blob": "176ba3fa100e311315ced2bf6284a179501458bf",
+      "readback_sha256": "da72eb97ceab5c6b0628f94b852627b2f2bdc1a42defa3a31ad8dedcff7fed5f",
+      "readback_bytes": 615,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-qualification-batch-02/tasks/landmark-stage-a-qualification-02/result.json",
+      "sha256": "257d8826990684a3794bc263156108686300891b5e781b4466e4814998cc48f1",
+      "bytes": 553,
+      "git_blob": "5be542f34a2c20e9a052caef42464704b2b3be3d",
+      "readback_sha256": "257d8826990684a3794bc263156108686300891b5e781b4466e4814998cc48f1",
+      "readback_bytes": 553,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-qualification-batch-02/tasks/landmark-stage-a-qualification-02/worker.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "readback_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "readback_bytes": 0,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-qualification-batch-02/tasks/landmark-stage-a-qualification-02/worker.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "readback_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "readback_bytes": 0,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-qualification-batch-02/tasks/landmark-stage-a-qualification-02/task.json",
+      "sha256": "de9b13ac334d0d892446817dbb47ee3ca09ca54b365dd78cbf971e73c888b88e",
+      "bytes": 462,
+      "git_blob": "be7ebec48a2921ea60169cfe9fd2176eeb3e0000",
+      "readback_sha256": "de9b13ac334d0d892446817dbb47ee3ca09ca54b365dd78cbf971e73c888b88e",
+      "readback_bytes": 462,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-qualification-batch-02/tasks/landmark-stage-a-qualification-02/process.json",
+      "sha256": "b03fa7a9845970192ed501407ef203928dc867426e0bef7721034d45c56192e3",
+      "bytes": 88,
+      "git_blob": "6ac4014c3fc4128d4e690f2241ff4398b3f0a5e3",
+      "readback_sha256": "b03fa7a9845970192ed501407ef203928dc867426e0bef7721034d45c56192e3",
+      "readback_bytes": 88,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/BUDGET_OBSERVATION.json",
+      "sha256": "ca2c2d53d26f30411fa9f24b666b00c276cea25c666cb4179dd5187badd49a47",
+      "bytes": 45147,
+      "git_blob": "40858cb40f37be519687df4dfb35e99a190af72d",
+      "readback_sha256": "ca2c2d53d26f30411fa9f24b666b00c276cea25c666cb4179dd5187badd49a47",
+      "readback_bytes": 45147,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/LANDMARK_STAGE_A_FULL_FAILURE_20261009.md",
+      "sha256": "e2e000deb841a7b2ff0819f168f9db8d8a29699c982363a5dd2a47f5e4965bc3",
+      "bytes": 1392,
+      "git_blob": "34b9a5060ac21c1563865b554d9af6a0e4b4cd9d",
+      "readback_sha256": "e2e000deb841a7b2ff0819f168f9db8d8a29699c982363a5dd2a47f5e4965bc3",
+      "readback_bytes": 1392,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/qualification-failure-diagnostic.json",
+      "sha256": "fdf56596543e41f577bb11d64b2cba7e417ce6bbdc04726fee2ce0769623cd61",
+      "bytes": 1364,
+      "git_blob": "49f43ea6eb8c134bc31e5b6a624622b675c10f79",
+      "readback_sha256": "fdf56596543e41f577bb11d64b2cba7e417ce6bbdc04726fee2ce0769623cd61",
+      "readback_bytes": 1364,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/landmark-stage-a-qualification-02.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "readback_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "readback_bytes": 0,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/landmark-stage-a-qualification-02.json",
+      "sha256": "ab82d6b3ebaf93dea9aa65b8ce163c1389495806c3793a3ded9a223ff6926e88",
+      "bytes": 838,
+      "git_blob": "44cb5aaadd309a64ec4b926de49be0fcb5c4e663",
+      "readback_sha256": "ab82d6b3ebaf93dea9aa65b8ce163c1389495806c3793a3ded9a223ff6926e88",
+      "readback_bytes": 838,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/landmark-stage-a-qualification-02.stdout.log",
+      "sha256": "3e9cac82444b0aa6b605960d8cf565e51fab8d9e98d9fc79750388389163949c",
+      "bytes": 1865,
+      "git_blob": "87bff0a5232ae89a57c141b5948b6e485f357749",
+      "readback_sha256": "3e9cac82444b0aa6b605960d8cf565e51fab8d9e98d9fc79750388389163949c",
+      "readback_bytes": 1865,
+      "match": true
+    }
+  ]
+}
