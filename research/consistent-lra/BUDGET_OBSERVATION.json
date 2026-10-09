@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T11:43:15.597591+00:00",
+  "observed_at": "2026-10-09T11:47:36.552034+00:00",
   "controller_rounds": 2,
   "registered_task_assignments": 122,
   "executable_attempts_dispatched": 20,
@@ -213,7 +213,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 19947.402409,
+  "remaining_wall_seconds_at_observation": 19686.447966,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -1231,7 +1231,12 @@
     "author": "/root",
     "reviewer": "/root/window02_stagea_source_review",
     "accepted_design_commit": "941cf147c727966208f17f2fd51e17321edfd81f",
-    "status": "registered_source_generation_unexecuted",
-    "execution_admitted": false
+    "status": "complete_source_and_fixtures_generated_unexecuted_pending_review",
+    "execution_admitted": false,
+    "source_sha256": "4bf171abb61c276769a59082c359a79ca530d81c5a08e84d4fc98d9d6ab53837",
+    "fixture_sha256": "02a7569f3673e4483f5397580510a967e1aef7e502cf3957eae1b1b9b1e7f0bc",
+    "fixture_asset_authoring_command": "python3 research/consistent-lra/evidence/dispatch/build_scalar_fixtures_authoring.py",
+    "qualification_execution_started": false,
+    "source_asset_authoring_cpu_unmetered_not_zero": true
   }
 }
