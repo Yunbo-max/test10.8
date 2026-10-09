@@ -1,14 +1,15 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T13:36:16.567279+00:00",
+  "observed_at": "2026-10-09T13:44:14.365015+00:00",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
-  "decision": 3,
-  "action": "independent mathematical verification of consequential HEAVY rank-family card before any source/executable design",
+  "decision": 2,
+  "action": "bounded joined source/priority and aggregate-proof-premise investigation after accepted HEAVY correction",
   "basis": [
-    "Actual163 independently accepted finiteF1 numericalcounterexample at frozen6c002452afccd7deeb6e0c0993a384ce559046b6 withsmall-epsilon/asymptoticlimits",
-    "Actual161 findsclassicalbackwardcollision1997/fullconjunctionpriorityinconclusive",
-    "Actual165 reviewing separatelyfrozen small-epsilonrankfamily atc3b221820ce96f93e1cdecd47a3158f1b0ab8f50; do notpromotedraft"
+    "Actual154fullintegerrecoursecertificate accepted; exactlossseparation independentmainreview retained",
+    "Actual161known1997mechanismcollision/fullconjunctionpriorityinconclusive",
+    "Actual163finiteF1boundcounterexample accepted withlimits",
+    "Actual165v1construction/state and166independentstrictness/v2 accepted:small-epsilonR>4k/5 excludesuniformepsilon-independentconstant sqrtk only"
   ],
   "closed_or_narrowed": {
     "Landmark_asset": "exact bytes/license/full mechanical counts independently accepted",
@@ -119,29 +120,29 @@
     }
   ],
   "independent_routes": {
-    "route3": "HEAVYfamilyindependentreview",
-    "route2": "jointpriorityandproofsourcepremises",
-    "native_descendants": "blocked"
+    "route2": "priorityandaggregate/reweightedsourcepremises",
+    "route3": "consequentialproofrepaironlyafterfrozenmathcard",
+    "native": "blockedspecificcapability"
   },
   "latest_budget_record": {
-    "registered_task_assignments": 165,
+    "registered_task_assignments": 166,
     "original_executable_attempts": 24,
-    "controller_rounds": 2,
+    "recorded_controller_rounds": 2,
     "discovery_rounds": 0,
     "admitted_scientific_experiments": 0,
     "eligible_papers": 0,
     "observed_CPU_lower_bound": 318.944499767,
-    "remaining_wall_seconds": 13166.432721
+    "remaining_wall_seconds": 12688.634985
   },
   "next_bounded_independent_work": {
-    "math": "Collectactual165independentreview,retaincorrections/limits",
-    "source": "prioritygapandreweightedintegerpremise remainindependentfutureactions",
-    "native": "blockedtrustedliveofficialreference/parity; StageB neverexecuted"
+    "route2": "sourceauditofaggregateproofrepairandpriority,reweightedsampler integerpremise; freezeboundedclaimbeforefurtherreview",
+    "native_descendants": "remainblocked authenticreference/livecallback/parity; do notrunStageB ornewmethods",
+    "route3_if_premise_unclosed": "independent mathematical review beforecode/dispatch"
   },
   "delivery_branch": "main",
   "source_main_commit": "176064b931140da791f58137ee68a37068566f6b",
   "source_legacy_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
   "reconciliation_record": "MAIN_FINAL_PACKET_RECONCILIATION_20261009.md",
-  "registered_task_assignments": 165,
+  "registered_task_assignments": 166,
   "exact_approximate_final_append_only_review": "EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md"
 }

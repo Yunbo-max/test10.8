@@ -451,3 +451,15 @@ main_heavy_finite_review: accepted_numerical_bound_only
 main_heavy_rank_family_review: pending_actual165
 main_priority_review: classical_mechanisms_collision_full_conjunction_inconclusive
 main_latest_evidence_commit: c3b221820ce96f93e1cdecd47a3158f1b0ab8f50
+
+# Latest integrated independent verdicts override older review-pending entries.
+main_registered_task_assignments_final_observation: 166
+main_current_route_latest: 2
+main_heavy_rank_family_review_latest: accepted_actual165_plus166
+main_heavy_rank_family_strict_review: accepted_actual166
+main_active_review_assignments: none
+main_current_executable_attempts: 24
+main_current_controller_rounds: 2
+main_current_CPU_lower_bound: 318.944499767
+main_current_scientific_experiments: 0
+main_current_eligible_papers: 0

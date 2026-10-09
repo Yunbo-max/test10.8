@@ -72,8 +72,19 @@
     "reviewer": "/root/window02_consecutive_condition_review",
     "source_commit": "c3b221820ce96f93e1cdecd47a3158f1b0ab8f50",
     "source_or_execution_admitted": false,
-    "strict_F1_implication_pending_independent_addendum_review": 166,
+    "strict_F1_implication_accepted_by": 166,
+    "strict_F1_implication_pending_independent_addendum_review": null,
     "verdict": "accept_state_construction_recoursesteps_with_explicit_new_strictness_premise"
+  },
+  "completed_main_heavy_rank_family_strict_review": {
+    "assignment_number": 166,
+    "record": "HEAVY_BRANCH_INTEGER_RANK_FAMILY_v2_REVIEW.md",
+    "reviewer": "/root/window02_geometric_formal_review",
+    "source_commit": "576bd857b054d4a46b21b491efa25735de2fc35e",
+    "source_or_execution_admitted": false,
+    "total_theorem_or_novelty_accepted": false,
+    "uniform_constant_scope": "independent_of_k_and_epsilon_only",
+    "verdict": "accepted_v2_strict_trigger_and_scoped_rank_family"
   },
   "completed_main_joint_priority_review": {
     "assignment_number": 161,
@@ -556,7 +567,7 @@
   },
   "formal_review_assignments_completed": true,
   "format": "monotonic-project-planning-observation-v1",
-  "independent_work": "complete integer witness and exact61root recourse certificate accepted; primary known quadratic fallback qualified; narrow lemma correction priority and approximate proof quantitative premises remain open; native scientific authority blocked",
+  "independent_work": "Integerexact61rootcertificateand small-epsilonHEAVYrank-family correctionaccepted; fullconjunctionpriority/reweightedintegerpremise/aggregateproofrepair remain open; nativefullcomparisonblocked",
   "landmark_preparation_receipt_ref": {
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
@@ -792,7 +803,7 @@
   "main_only_tasks_no_measured_CPU": "Five existing main-only assignments consume same wall budget; no numeric job was launched there and no attributable CPU measurement was supplied; lower bound is not a full compute total.",
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T13:40:16.712341+00:00",
+  "observed_at": "2026-10-09T13:44:14.365015+00:00",
   "observed_process_cpu_seconds": 318.944499767,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -808,12 +819,7 @@
   "pending_formal_review": null,
   "pending_main_heavy_math_review": null,
   "pending_main_heavy_rank_family_review": null,
-  "pending_main_heavy_rank_family_strict_review": {
-    "addendum_sha256": "f2e21db8c8c4b5e4be8da9978d95bf6fb43c55e5f58dbca161d50ab78418da4f",
-    "assignment_number": 166,
-    "different_reviewer_required": true,
-    "source_or_execution_admitted": false
-  },
+  "pending_main_heavy_rank_family_strict_review": null,
   "pending_main_joint_priority_review": null,
   "pending_rice_skin_identity_evidence_review": null,
   "pending_source_review": null,
@@ -962,7 +968,7 @@
     }
   ],
   "registered_task_assignments": 166,
-  "remaining_wall_seconds_at_observation": 12926.287659,
+  "remaining_wall_seconds_at_observation": 12688.634985,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
@@ -1363,7 +1369,8 @@
       "scientific_failure": false,
       "source": "HEAVY_BRANCH_INTEGER_RANK_FAMILY_DRAFT.md",
       "source_sha256": "75407facfe13695286ed775dc49c072806db14e0d2e30a187769c2d5ae52d675",
-      "strict_F1_conclusion_pending": 166,
+      "strict_F1_conclusion_independently_accepted_by": 166,
+      "strict_F1_conclusion_pending": null,
       "threshold_or_stream_changed": false
     }
   ],
