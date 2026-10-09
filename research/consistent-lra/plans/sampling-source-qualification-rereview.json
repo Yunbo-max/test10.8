@@ -3,7 +3,7 @@
   "task_id": "sampling-source-qualification-correction-re-review",
   "registered_order": 14,
   "candidate_path": "research/consistent-lra/SAMPLING_SOURCE_QUALIFICATION_20261009.md",
-  "candidate_commit": null,
+  "candidate_commit": "b8651edf183ff8103aa97823c044d79a9b9cef99",
   "prior_candidate_commit": "77429350ae1513ae0f6825b7d07c4b0825288b43",
   "prior_verdict": "needs_correction",
   "review_questions": [
