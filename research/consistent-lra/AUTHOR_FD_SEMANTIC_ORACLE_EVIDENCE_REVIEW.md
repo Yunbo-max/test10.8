@@ -38,7 +38,13 @@ stay auditable.  No rerun is required because the executed source bytes were
 the correctly bound blob; only the human-readable `data_revision` label was
 wrong.
 
-Correction rereview verdict: **pending**.
+Correction rereview verdict: **accepted** at commit
+`30a59f1685b46c005dc9522327081c977fa02246`, with this correction record at
+SHA256 `5611dbee2372bf9598a8f3c9e43a5001b699e1ac44cd302a6e5b288b72e6ca5e`.
+The reviewer compared every retained raw plan, receipt, output, and harness
+artifact to evidence commit `9ff1976d22c82ce1686f1485ae9243365e834c59`
+and found them byte-identical. Final status:
+**accepted after recorded data-revision label correction**.
 
 Even after acceptance, scope is engineering/developmental source semantics
 only.  It is not official recourse parity, strong FD, native performance,

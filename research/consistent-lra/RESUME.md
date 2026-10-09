@@ -15,8 +15,13 @@ missing.  This is not total streaming recourse, baseline performance or official
 scorer parity. The project `native_baselines.py` strong FD arm also has accepted
 engineering source-semantic evidence on eight fixed analytic prefixes: 45
 checks passed and same-spec covariance/projector state matched, while the author
-and Liberty interfaces were confirmed non-parity. Native FD performance,
-author diagnostic runs, full sensitivity and complete four-family G01 remain pending. The
+and Liberty interfaces were confirmed non-parity. The separately named frozen-author
+`ell+1` diagnostic now has accepted engineering source-semantic evidence: 58
+checks cover exact state/covariance, an independent projector, shrink counts,
+snapshot copying, varying rank and the preserved zero-row ambiguity. Its
+historical `data_revision` typo and immutable correction are retained. Native FD
+performance, author-diagnostic native results, full sensitivity and complete
+four-family G01 remain pending. The
 published random stream is now independently classified as not exactly
 reconstructable; future seeded unscaled streams are prospective instances only.
 The repaired evaluator passed 25 independent semantic-oracle checks after

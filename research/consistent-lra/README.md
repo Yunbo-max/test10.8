@@ -8,8 +8,8 @@
 
 已完成并独立核验 Landmark 全文件机械完整性，以及 Rice/Skin 真实数据上
 8 个预声明 prefix 的评分恒等式检查、修复评分器的 25 项解析/代数
-semantic oracle，以及强 FD 基线的 45 项来源/语义 oracle。累计可归因进程
-CPU 为 2.079693 秒，
+semantic oracle、强 FD 基线的 45 项来源/语义 oracle，以及作者 `ell+1`
+FD 诊断的 58 项来源/语义 oracle。累计可归因进程 CPU 为 2.084459 秒，
 准备作业峰值 RSS 148,112 KiB；所有输入、日志、receipts 和原始 JSON 已保存。
 这些是来源/工程资格，不是数值基线胜负、已验证新算法或论文分数。另有一次
 经独立审查接受的 Rice Algorithm 4 全 3,000-prefix 成本/覆盖校准：pipeline
@@ -29,6 +29,7 @@ CPU 为 2.079693 秒，
 - [随机族不可精确复现边界](RANDOM_FAMILY_IDENTITY_20261009.md)与[独立复审](RANDOM_FAMILY_IDENTITY_REVIEW.md)
 - [评分器 semantic oracle](EVALUATOR_SEMANTIC_ORACLES_20261009.md)、[初审/修复复审](EVALUATOR_SEMANTIC_ORACLE_PLAN_REVIEW.md)、[执行证据](EVALUATOR_SEMANTIC_ORACLE_EXECUTION_20261009.md)与[证据复审](EVALUATOR_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md)
 - [FD 来源/语义 oracle](FD_SEMANTIC_QUALIFICATION_20261009.md)、[计划审查](FD_SEMANTIC_ORACLE_PLAN_REVIEW.md)、[执行证据](FD_SEMANTIC_ORACLE_EXECUTION_20261009.md)与[证据复审](FD_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md)
+- [作者 FD 诊断资格化](AUTHOR_FD_DIAGNOSTIC_QUALIFICATION_20261009.md)、[源码审查](AUTHOR_FD_DIAGNOSTIC_SOURCE_REVIEW.md)、[计划审查](AUTHOR_FD_DIAGNOSTIC_PLAN_REVIEW.md)、[执行记录](AUTHOR_FD_SEMANTIC_ORACLE_EXECUTION_20261009.md)与[保留 provenance 更正的证据复审](AUTHOR_FD_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md)
 - [Rice 全前缀成本校准计划](BASELINE_CALIBRATION_PLAN_20261009.md)、[计划审查](BASELINE_CALIBRATION_PLAN_REVIEW.md)、[执行记录](RICE_ALG4_CALIBRATION_EXECUTION_20261009.md)与[证据审查](RICE_ALG4_CALIBRATION_EVIDENCE_REVIEW.md)
 - [基线修复源码审查](BASELINE_DRAFT_REVIEW.md)
 - [四类原生实验设计草案](NATIVE_PROTOCOL_DRAFT.md)
@@ -36,7 +37,7 @@ CPU 为 2.079693 秒，
 
 Landmark 大文件读取限制已通过固定 author Git blob 解决；完整作者 tree/ZIP
 审计确认没有隐藏的独立官方 scorer。科学数值执行仍受官方可运行评分接口
-及其 parity 缺口、完整原生性能基线、FD sensitivity/作者诊断与四类 G01 阻塞。published random
+及其 parity 缺口、完整原生性能基线、FD sensitivity/作者诊断的原生性能与四类 G01 阻塞。published random
 stream 已被限定为不可精确复现；只能使用预先冻结的新 seed 作为 prospective
 family instance。独立的形式证明、相关文献和下游定理依赖审查继续进行。
 
