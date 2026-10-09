@@ -82,14 +82,13 @@ notes:
 
 current_budget_record: BUDGET_OBSERVATION.json
 actual_registered_task_assignments: 41
-actual_executable_attempts: 9
-actual_preparation_attempts: 9
+actual_executable_attempts: 10
+actual_preparation_attempts: 10
 actual_scientific_attempts: 0
 actual_discovery_rounds: 0
-actual_observed_process_cpu_seconds: 2.084459
-actual_max_preparation_rss_kib: 148112
-unreleased_reservations:
-  - native-lowdim-baseline-matrix-01: 1 CPU, 512 MiB admission, 180 seconds, 1 attempt
+actual_observed_process_cpu_seconds: 25.379104
+actual_max_preparation_rss_kib: 157864
+unreleased_reservations: []
 formal_counterexample_artifact: FORMAL_AUDIT_v2.md
 formal_counterexample_sha256: 0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477
 formal_review_record: FORMAL_AUDIT_v2_REVIEW.md
@@ -107,7 +106,7 @@ integer_density_extension_draft: FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md
 integer_density_initial_review_record: FORMAL_AUDIT_v4_REVIEW.md
 sampling_source_qualification_draft: SAMPLING_SOURCE_QUALIFICATION_20261009.md
 sampling_source_initial_review_record: SAMPLING_SOURCE_QUALIFICATION_REVIEW.md
-latest_resource_observation_utc: '2026-10-09T04:27:52+00:00'
+latest_resource_observation_utc: '2026-10-09T04:31:49+00:00'
 latest_cpu_max: '800000 100000'
 latest_visible_processors: 9
 latest_memory_max_bytes: 8589934592
@@ -188,4 +187,11 @@ lowdim_baseline_matrix_candidate_commit: 608bce8dafc9bbe7ce7c14082191fab27ac6e37
 lowdim_baseline_matrix_plan_review: accepted
 lowdim_baseline_matrix_plan_review_record: LOWDIM_BASELINE_MATRIX_PLAN_REVIEW.md
 lowdim_baseline_matrix_plan_commit: bf030293e388d10262f8acd2f927ba7247084f74
-lowdim_baseline_matrix_reservation: active_unreleased
+lowdim_baseline_matrix_reservation: released_after_terminal_execution
+lowdim_baseline_matrix_execution: invalid_confounded_output_mutation
+lowdim_baseline_matrix_receipt_sha256: a2160582c6feb89dae45a0caf1ef185929cd63fe8a86e5662a610380226ce826
+lowdim_baseline_matrix_manifest_sha256: eaefff5ad920faa8cc3f61b26b3b446af3f4ba8108d5ecb3f4b429a57316dbfd
+lowdim_baseline_matrix_archives_readable: false
+lowdim_baseline_matrix_staged_member_hash_mismatches: 4
+lowdim_baseline_matrix_performance_claim_eligible: false
+lowdim_baseline_matrix_evidence_review: pending

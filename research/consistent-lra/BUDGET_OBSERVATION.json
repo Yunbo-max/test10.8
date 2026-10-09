@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T04:27:52+00:00",
+  "observed_at": "2026-10-09T04:31:49+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 41,
-  "executable_attempts_dispatched": 9,
+  "executable_attempts_dispatched": 10,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 2.084459,
+  "observed_process_cpu_seconds": 25.379104,
   "reservation": {
     "task": "source-integrity-01",
     "purpose": "mechanical_preparation_only",
@@ -58,6 +58,12 @@
       "category": "recordkeeping_release_binding",
       "scientific_refutation": false,
       "repair_count": 1
+    },
+    {
+      "failure": "lowdim_matrix_output_mutation_after_terminal_receipt",
+      "category": "evidence_integrity",
+      "scientific_refutation": false,
+      "repair_count": 0
     }
   ],
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
@@ -114,7 +120,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 11992,
+  "remaining_wall_seconds_at_observation": 11755,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -308,15 +314,26 @@
     "ram_mib_reserved_not_enforced": 512,
     "wall_seconds_upper_bound": 180,
     "attempts_reserved": 1,
-    "attempts_completed": 0,
+    "attempts_completed": 1,
     "retries": 0,
-    "released": false,
+    "released": true,
+    "release_basis": "terminal completed harness and guarded attempt; no surviving process, but output evidence is invalid/confounded",
     "native_plan_digest": "7358225c54cbe1f78fc9d6b0dfe80d32c83f906d83c0307047a0d36e7076f467",
     "harness_plan_digest": "6a488ed4362dbdc9e9d99799f6ccca07a5cb20e0ce53e575c4b036f379fdde96",
     "plan_review": "accepted",
     "plan_review_commit": "bf030293e388d10262f8acd2f927ba7247084f74",
     "scientific_experiment": false,
-    "performance_claim_eligible": false
+    "performance_claim_eligible": false,
+    "execution_status": "invalid_confounded_output_mutation",
+    "actual_workload_wall_seconds": 23.299657982002827,
+    "actual_process_cpu_seconds": 23.294644999999996,
+    "actual_max_rss_kib": 157864,
+    "receipt_sha256": "a2160582c6feb89dae45a0caf1ef185929cd63fe8a86e5662a610380226ce826",
+    "manifest_sha256": "eaefff5ad920faa8cc3f61b26b3b446af3f4ba8108d5ecb3f4b429a57316dbfd",
+    "archive_integrity": "three_of_three_gzip_tar_archives_truncated",
+    "staged_member_hash_mismatches": 4,
+    "scientific_failure_charged": false,
+    "independent_evidence_review": "pending"
   },
   "unadmitted_development_smoke_history": [
     {
@@ -334,7 +351,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T04:27:52+00:00",
+    "observed_at": "2026-10-09T04:31:49+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
@@ -349,6 +366,8 @@
     "author_fd_semantic_oracle_launched": true,
     "author_fd_semantic_oracle_completed": true,
     "lowdim_baseline_matrix_plan_reviewed": true,
-    "lowdim_baseline_matrix_launched": false
+    "lowdim_baseline_matrix_launched": true,
+    "lowdim_baseline_matrix_process_completed": true,
+    "lowdim_baseline_matrix_evidence_valid": false
   }
 }
