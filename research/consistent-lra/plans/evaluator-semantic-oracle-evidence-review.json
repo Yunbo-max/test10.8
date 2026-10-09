@@ -1,0 +1,20 @@
+{
+  "format": "scoped-independent-execution-evidence-review-assignment-v1",
+  "task_id": "evaluator-semantic-oracle-evidence-review",
+  "registered_order": 25,
+  "evidence_candidate_commit": "31970ea931048e833ef883c273f223da25660fe7",
+  "execution_record": "research/consistent-lra/EVALUATOR_SEMANTIC_ORACLE_EXECUTION_20261009.md",
+  "receipt_path": "research/consistent-lra/runs/attempts/evaluator-semantic-oracles-01/receipt.json",
+  "output_path": "research/consistent-lra/runs/attempts/evaluator-semantic-oracles-01/evaluator-semantic-oracles-a1-b267edcdcc43454daba166caf666a2d2/workspace/evidence/qualification/evaluator-semantic-oracles.json",
+  "harness_report": "research/consistent-lra/runs/harness/evaluator-semantic-mechanical-01/report.json",
+  "review_questions": [
+    "Do the candidate tree, plans, receipt, attempt, guard, logs, execution context and raw output form one exact single-attempt chain?",
+    "Do all 25 reported checks independently satisfy their frozen expected values and tolerances with no hidden failure or nonfinite value?",
+    "Do source hashes, environment versions, output/receipt/log hashes, timings and RSS agree across the record and raw files?",
+    "Are one attempt, zero retries, empty stderr, no GPU and released reservation supported by retained evidence?",
+    "Does the record remain software-semantic evidence only and preserve official-scorer, native-recourse, FD, performance and gate blockers?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "budget_effect": {"registered_task_assignments": 1, "executable_attempts": 0, "scientific_experiments": 0}
+}
