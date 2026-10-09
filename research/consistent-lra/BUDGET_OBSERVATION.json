@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T06:12:14+00:00",
+  "observed_at": "2026-10-09T06:14:37+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 59,
+  "registered_task_assignments": 60,
   "executable_attempts_dispatched": 13,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -128,7 +128,8 @@
     "prospective-random-baseline-matrix-plan-review",
     "prospective-random-baseline-matrix-evidence-review",
     "prospective-random-baseline-matrix-durable-archive-repair-rereview",
-    "prospective-random-baseline-matrix-developmental-results-report-review"
+    "prospective-random-baseline-matrix-developmental-results-report-review",
+    "native-protocol-v2-independent-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -139,7 +140,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 5731,
+  "remaining_wall_seconds_at_observation": 5588,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -607,6 +608,13 @@
     "review_record_sha256": "0ec99edd13995393e98ebbc6c8843954d999ef4c6dfa8c18fc2a3aab3e354e78",
     "status": "accepted_no_correction_required"
   },
+  "pending_native_protocol_v2_review": {
+    "assignment": "native-protocol-v2-independent-review",
+    "reviewer": "/root/rice_skin_plan_review",
+    "artifact": "NATIVE_PROTOCOL_DRAFT.md",
+    "artifact_sha256": "4cb31710b4b2d70df5e77663ddbc9c82c7dfd415b69f1b190da57068f00d7a34",
+    "status": "pending_independent_G01_design_review"
+  },
   "unadmitted_development_smoke_history": [
     {
       "direction": "fd_source_semantic_oracles",
@@ -623,7 +631,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T06:12:14+00:00",
+    "observed_at": "2026-10-09T06:14:37+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
