@@ -1,0 +1,23 @@
+{
+  "format": "scoped-mathematical-review-assignment-v1",
+  "task_id": "consecutive-condition-supplement-review",
+  "reviewer": "/root/execution_capability",
+  "artifact": {
+    "path": "CONDITION_SCOPE_SUPPLEMENT_DRAFT.md",
+    "sha256": "a283038010597ae8c23846839bbb1202794f67f92c1c35557fcc3fa33cf3546d"
+  },
+  "source": "FOCS2020 author manuscript PMC8375632 FrameworkI.1; base v2 and fixed v3 extension",
+  "scope": [
+    "all consecutive-row submatrix cases",
+    "trace and a1 bounds",
+    "row-coefficient lower singular-value proof",
+    "PSD upper spectral bound and polynomial condition claim",
+    "bounded-epsilon PCP fallback precision"
+  ],
+  "scientific_executable_attempts": 0,
+  "numerical_execution_allowed": false,
+  "writes_or_publication_allowed": false,
+  "status": "registered_before_assignment; review_pending",
+  "time_limit_seconds": 180,
+  "deadline_utc": "2026-10-09T07:47:45Z"
+}
