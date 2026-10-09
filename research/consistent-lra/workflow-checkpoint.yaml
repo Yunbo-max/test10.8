@@ -36,7 +36,7 @@ budget_clock_anchor: '2026-10-09T09:15:43Z'
 wall_deadline_utc: null
 background_task_id: 6ac82bb085c081919fa92002384b073b
 background_conversation_id: 6ac827e6-de58-83eb-9487-8a2ab69c90e5
-background_observed_state: "same_task_enabled_observed; bootstrap_immediate_ack_historical_not_worker_todo"
+background_observed_state: "same_task_disabled_after_external_gate0_block; bootstrap_immediate_ack_historical_not_worker_todo"
 background_control_record: BACKGROUND_TASK.json
 current_step: "3 prerequisite: Parent frozen; Natural Gate0 externally blocked; no candidate-pool expansion, Step-4 code or scientific execution"
 completed:
@@ -80,7 +80,7 @@ scientific_experiments_started: 0
 scientific_results_verified: 0
 eligible_new_papers: 0
 negative_or_invalid_history: BASELINE_AUDIT.md
-next_action: "review readiness proposal; StageB parked pending explicit project-local evaluation-contract/runtime authority; no repeated scorer search"
+next_action: "remain parked; resume only after genuine corrected upstream scorer or explicit project-local evaluator plus trusted live-validation authority"
 notes:
   - source review is not scientific replication
   - schedule is not uninterrupted CPU execution
@@ -572,3 +572,11 @@ main_method_candidate_pool_expansion_legal: false
 main_method_code_generation_legal: false
 main_method_scientific_dispatch_legal: false
 main_method_exact_unblock: "genuine corrected runnable upstream scorer OR explicit authority for separately versioned project-local paper-math evaluator and compatible trusted live validation"
+
+# Final service state after assignment 191 and exact automation readback.
+background_enabled_at_final_observation: false
+background_service_state_checked_at_utc: "2026-10-09T19:28:21.802103+00:00"
+background_pause_reason: "Natural Gate0 externally blocked; no admissible candidate expansion, code, StageB or scientific execution under current authority"
+background_resume_condition: "genuine corrected runnable upstream scorer OR explicit authority for separately versioned project-local paper-math evaluator and compatible trusted live validation"
+background_pause_added_scientific_experiments: 0
+background_pause_added_measured_process_cpu_seconds: 0
