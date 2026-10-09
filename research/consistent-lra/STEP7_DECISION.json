@@ -68,7 +68,7 @@
   "previous_observation_preserved": "prior Step7 JSON version remains immutable in parent commits including9f65c9aed3d6952e08d7dae6020eb70eb5698db4",
   "historical_runtime_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "active_window_id": "cpu-window-02-20261009",
-  "evidence_commit": "ba35efc546455968927e2b69de2609fbcfbcfe86",
+  "evidence_commit": "7a247bc67cc84c691193128a3c293465f04a24f6",
   "window02_current_evidence": [
     {
       "artifact": "FORMAL_AUDIT_v5_REVIEW.md",

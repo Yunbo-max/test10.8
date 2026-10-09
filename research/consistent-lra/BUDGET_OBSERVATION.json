@@ -1021,7 +1021,7 @@
     }
   ],
   "registered_task_assignments": 178,
-  "remaining_wall_seconds_at_observation": 9124,
+  "remaining_wall_seconds_at_observation": 9033,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
