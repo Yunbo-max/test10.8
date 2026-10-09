@@ -1,0 +1,50 @@
+{
+  "format": "monotonic-project-planning-observation-v1",
+  "canonical_RSI_ledger_initialized": false,
+  "restored_bootstrap_head": "276377b9bce7c4d3c6fc2ed4c685d34444731574",
+  "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
+  "window_anchor_utc": "2026-10-08T23:47:45Z",
+  "deadline_utc": "2026-10-09T07:47:45Z",
+  "observed_at": "2026-10-09T00:07:38.180541+00:00",
+  "controller_rounds": 1,
+  "registered_task_assignments": 5,
+  "executable_attempts_dispatched": 0,
+  "discovery_rounds": 0,
+  "scientific_experiments_dispatched": 0,
+  "eligible_papers": 0,
+  "observed_process_cpu_seconds": 0,
+  "reservation": {
+    "task": "source-integrity-01",
+    "purpose": "mechanical_preparation_only",
+    "cpu_cores": 1,
+    "ram_mib": 512,
+    "wall_seconds_upper_bound": 60,
+    "cpu_seconds_upper_bound": 60,
+    "attempts": 1,
+    "released": false
+  },
+  "failure_history": [
+    {
+      "failure": "native_official_scorer_interface_absent",
+      "category": "capability_source_admission_gap",
+      "scientific_refutation": false,
+      "repair_count": 0
+    },
+    {
+      "failure": "landmark_blob_exceeds_MCP_response_8388608_bytes",
+      "category": "asset_access",
+      "scientific_refutation": false,
+      "repair_count": 0
+    }
+  ],
+  "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
+  "independent_work": "source_preparation_and_existing_paper_formal_proof_audit",
+  "task_assignments": [
+    "source_join_review",
+    "harness_staging_review",
+    "qualification_source_review",
+    "lemma21_formal_review",
+    "source-integrity-01"
+  ],
+  "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured."
+}

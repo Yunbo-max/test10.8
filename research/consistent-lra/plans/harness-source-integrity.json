@@ -1,0 +1,44 @@
+{
+  "schema_id": "harness-plan",
+  "schema_version": "1.0.0",
+  "batch_id": "mechanical-source-01",
+  "tasks": [
+    {
+      "task_id": "source-integrity-01",
+      "idea_id": "existing-source-mechanical-preparation",
+      "plan_ref": {
+        "path": "plans/native-source-integrity.json",
+        "sha256": "86dfbf1889b0e7e5a9b2da38f5db7898f5a100d4d9faead1a78d8cdc41ee1613"
+      },
+      "depends_on": [],
+      "priority": 1,
+      "resources": {
+        "cpu_cores": 1,
+        "ram_mib": 512,
+        "gpu_count": 0,
+        "gpu_peak_mib": null,
+        "allow_gpu_share": false,
+        "memory_profile_ref": null,
+        "exclusive_keys": [
+          "consistent-lra-source-integrity"
+        ]
+      }
+    }
+  ],
+  "limits": {
+    "window_seconds": 60,
+    "total_wall_seconds": 90,
+    "max_parallel_tasks": 1,
+    "cpu_cores": 1,
+    "ram_mib": 512,
+    "max_gpu_task_seconds": 0
+  },
+  "pool_dir": "/workspace/scratch/bb9f262965cf/research/consistent-lra/runs/pool",
+  "output_root": "runs/harness",
+  "gpus": {
+    "uuids": [],
+    "safety_margin_mib": 256,
+    "max_tasks_per_gpu": 1
+  },
+  "plan_digest": "d962a49eef524eb2c27226b7d094c98d41d77bd45406a3929f37975bf1374838"
+}
