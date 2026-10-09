@@ -1,10 +1,10 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T10:22:44.783768+00:00",
+  "observed_at": "2026-10-09T10:51:00.777047+00:00",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
   "decision": 2,
-  "action": "retain scientific native-evaluator/source gap; independently continue admitted output mitigation verification and exact formal priority/downstream audit",
+  "action": "return to scientific native evaluator/source gap; independently continue exact formal arithmetic calibration and explicit integer bit-bound proof; Stage-B implementation may be drafted but not dispatched",
   "basis": [
     {
       "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
@@ -110,12 +110,13 @@
     "rice_skin_developmental_matrix": "39 arms and 117000 per-prefix rows accepted after E04 recomputation under the repaired local projector scorer; defined-ratio denominators and warmup-versus-steady recourse remain explicit",
     "prospective_random_developmental_matrix": "13 arms and 39000 per-prefix rows accepted after fresh durable-blob verification and E04 recomputation for one frozen seeded unscaled generator-family member; not Figure 3 replication or confirmation",
     "four_family_G01_design": "commands, plan identities, denominators, controls and development/confirmation boundaries independently accepted as documentation after one correction; Landmark baseline-matrix execution and all scientific gates remain pending",
-    "Landmark_reference_calibration": "11-prefix rank-25 Gram reference cost and three direct-SVD numerical agreements independently accepted as engineering evidence; full 5000-prefix baseline matrix and official parity remain pending"
+    "Landmark_reference_calibration": "11-prefix rank-25 Gram reference cost and three direct-SVD numerical agreements independently accepted as engineering evidence; full 5000-prefix baseline matrix and official parity remain pending",
+    "Landmark_stage_a_v2": "455 identity records at 35 prefixes, 65000 update/timing records, all38outputs and59retainedfiles independently accepted; wall79.251553s CPU78.791094 RSS190604KiB; no all-prefix loss/recourse performance or nearzero qualification"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
     "published_random_replication": "unseeded released generator and paper/code normalization mismatch prevent exact figure stream identity",
-    "full_baseline_qualification": "Landmark full numericalidentity qualification failedv1; v2shortactualcompletedpendingreview, fullv2notyetadmitted; scientificparityseparatelymissing",
+    "full_baseline_qualification": "Finite Stage-A v2 35-prefix/13-arm identities and all5000 update costs accepted; all-prefix Stage-B scoring and native scientific authority remain pending",
     "new_method_discovery": "qualified Parent/Gate0/IPCG and meaningful residual baseline failures pending",
     "candidate_code_dispatch": "no independently ranked qualified method pool/G01/native scorer",
     "eligible_writing": "no validated numerical improvement; originality and downstream significance unresolved"
@@ -124,17 +125,18 @@
   "gate_advanced": false,
   "eligible_new_papers": 0,
   "continued_independent_work": [
-    "independentlyverifyv2shortauditthenreviewfullv2finiteplan",
-    "boundedprimarypriorityauditforacceptedconstantconditionlinearrecoursecounterexample"
+    "review_and_calibrate_exact_fraction_certificate_then_fresh_target61_plan_if_cost_allows",
+    "derive_and_independently_review_explicit_integer_bit_bound_for_existing_formal_counterexample",
+    "generate_unexecuted_full_StageB_existing_baseline_source_and_semantic_review"
   ],
-  "reason_not_terminal": "productive finite instrumentqualification and formalpriority/downstream work remain; no deadline or bindingstop reached",
+  "reason_not_terminal": "Finite useful formal audit/instrument work remains, inside hard deadline; native capability block affects scientific descendants only",
   "next_restore": "resolve immutable branch head and retained bytes; never rerun accepted Landmark/Rice/Skin/oracle preparation or bootstrap immediate request",
   "note": "In-place worker evidence mapping to pinned RSI return-to-source route; no fabricated controller, official scorer, Gate A pass or paper result.",
   "prior_decision": 2,
   "previous_observation_preserved": "prior Step7 JSON version remains immutable in parent commits including9f65c9aed3d6952e08d7dae6020eb70eb5698db4",
   "historical_runtime_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "active_window_id": "cpu-window-02-20261009",
-  "evidence_commit": "fa2834bbce357fff263c8788e36624bfd27aad7d",
+  "evidence_commit": "bc80f1be00f772a8c462f807444cdd4e2b67de35",
   "window02_current_evidence": [
     {
       "artifact": "FORMAL_AUDIT_v5_REVIEW.md",
@@ -163,11 +165,20 @@
     {
       "artifact": "runs/attempts/landmark-stage-a-v2-calibration-02/receipt.json",
       "verdict": "actualcompleted31outputs_pendingindependentevidence"
+    },
+    {
+      "artifact": "LANDMARK_STAGE_A_v2_FULL_EVIDENCE_REVIEW.md",
+      "sha256": "65d566101933c540a6f1e879418f6c1f72f7b186a20bfe4f9c8851bdf015d714",
+      "reviewed_commit": "bc80f1be00f772a8c462f807444cdd4e2b67de35",
+      "verdict": "accepted_finite_identity_output_integrity_and_cost_only"
     }
   ],
   "independent_routes": {
     "output_mitigation": 6,
     "formal_priority": 2,
-    "new_method_discovery": "blocked_parent_native_baseline_and_gate0_ipcg"
+    "new_method_discovery": "blocked_parent_native_baseline_and_gate0_ipcg",
+    "exact_formal_certificate": 4,
+    "explicit_integer_bit_bound": 3,
+    "Stage_B_source_design": 4
   }
 }
