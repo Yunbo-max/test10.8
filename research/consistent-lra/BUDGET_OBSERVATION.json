@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T09:35:16.061061+00:00",
+  "observed_at": "2026-10-09T09:38:13.957758+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 75,
+  "registered_task_assignments": 76,
   "executable_attempts_dispatched": 14,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -144,7 +144,8 @@
     "window02-landmark-stage-a-source-generation",
     "window02-landmark-stage-a-source-review",
     "window02-landmark-stage-a-calibration-plan-generation",
-    "window02-landmark-stage-a-calibration-plan-review"
+    "window02-landmark-stage-a-calibration-plan-review",
+    "window02-landmark-stage-a-calibration-execution"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -155,7 +156,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 27626.938939,
+  "remaining_wall_seconds_at_observation": 27449.042242,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -770,7 +771,7 @@
     "commit": "8137143140d946b7d04d08d2d31c3055bdf03e5c",
     "verdict": "accepted_static_source_semantics_only"
   },
-  "pending_window02_plan_review": "window02-landmark-stage-a-calibration-plan-review",
+  "pending_window02_plan_review": null,
   "window02_stagea_calibration_reservation": {
     "task": "landmark-stage-a-calibration-02",
     "cpu_cores": 1,
@@ -779,9 +780,16 @@
     "attempts_reserved": 1,
     "attempts_launched": 0,
     "released": false,
-    "execution_admitted": false,
+    "execution_admitted": true,
     "native_plan_digest": "6e1a07e0714ae8deecb67dd5197516f0b90c6be7d40f3dc60452b34e4e16918f",
     "harness_plan_digest": "b574cc87b849d9ef3e8b29ef4395c4de6588c59baa5d9e478a87834cdbab3606",
-    "scope": "native_numerical_identity_and_all_arm_cost_only"
+    "scope": "native_numerical_identity_and_all_arm_cost_only",
+    "execution_started": false,
+    "plan_review": "LANDMARK_STAGE_A_CALIBRATION_PLAN_REVIEW.md"
+  },
+  "completed_window02_plan_review": {
+    "assignment": "window02-landmark-stage-a-calibration-plan-review",
+    "commit": "4052a9686c7910366611d0b889626e98c51ea2ae",
+    "verdict": "accepted_one_calibration_only"
   }
 }
