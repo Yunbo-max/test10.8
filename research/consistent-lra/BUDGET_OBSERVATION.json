@@ -662,7 +662,7 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:44:54.419472+00:00",
+  "observed_at": "2026-10-09T12:46:57.561723+00:00",
   "observed_process_cpu_seconds": 293.52897959,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -1441,6 +1441,9 @@
   "pending_window02_integer_projector_source_review": {
     "assignment_number": 145,
     "reviewer": "/root/window02_consecutive_condition_review",
-    "execution_admitted": false
+    "execution_admitted": false,
+    "source": "integer_projector_certificate_window02.py",
+    "source_sha256": "e59cf9f03c40007271c14ca98ecd940f59bfa33cbd5a860218310556be67a22d",
+    "scope": "exact rational existing integer lemma certificate only no native experiments"
   }
 }
