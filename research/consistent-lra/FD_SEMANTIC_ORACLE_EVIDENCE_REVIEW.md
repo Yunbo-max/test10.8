@@ -35,3 +35,17 @@ harness and log bytes must remain unchanged.
 
 This review cannot establish a theorem, author/Liberty state parity, native
 benchmark performance, G01, E04, Gate A or a paper claim.
+
+## Time-ledger correction rereview
+
+Corrected candidate `c36734766f80c85864e005711cfe7ab1c36c61be`,
+rereview binding `77932f7ccfe13f1091ef70acf3c862bbda9e3937`. The same
+independent reviewer returned **accepted** without execution or writes.
+
+It verified the historical remaining times (16,751 and 16,633 seconds), the
+corrected-candidate value (16,338), the rereview-binding value (16,269), and
+the `03:08:34Z` resource observation. Tasks increased monotonically from 29 to
+30 while attempts remained 7, scientific attempts remained zero and cumulative
+process CPU remained 1.581142 seconds. It compared Git blob identities and
+confirmed every raw FD plan, receipt, output, harness and log byte was unchanged.
+Acceptance is limited to the finite engineering source/software qualification.

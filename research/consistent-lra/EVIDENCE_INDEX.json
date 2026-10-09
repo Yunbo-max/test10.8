@@ -1,6 +1,6 @@
 {
   "format": "consistent-lra-evidence-index-v1",
-  "observed_at": "2026-10-09T02:45:29+00:00",
+  "observed_at": "2026-10-09T03:18:40+00:00",
   "source_pins": {
     "RSI": "Yunbo-max/Research_Autopilot@1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
     "author": "samsonzhou/consistent-LRA@d607c4f6467216c470d1e3b93989d44d5fcdec97"
@@ -38,7 +38,14 @@
     "evaluator_oracle_evidence_candidate": "31970ea931048e833ef883c273f223da25660fe7",
     "evaluator_oracle_evidence_initial_review_binding": "aab8a9f997422ac5f2cd8b8c6b67543f65740a9f",
     "evaluator_oracle_ledger_correction": "a63878b314df9113bc2c60a2dcd8656cf7207e3c",
-    "evaluator_oracle_evidence_rereview_binding": "9736a2207b2430b6514e34fd52daf112520b6d77"
+    "evaluator_oracle_evidence_rereview_binding": "9736a2207b2430b6514e34fd52daf112520b6d77",
+    "fd_source_candidate": "0d729ae4d8cf6e5cc0b527bbb9f4c62c4429862e",
+    "fd_corrected_plan_candidate": "f2932a7df6c47bb626cf6cc54cddcc6099d4f63c",
+    "fd_prelaunch_admission": "b0f6b425d3a22ec41cb6d7ea63b409bb68a75555",
+    "fd_evidence_candidate": "75ea9dfd01da41ee63d7005c4115d0970b45ccfc",
+    "fd_evidence_initial_review_binding": "0402c6fe105cefc6e3e45919e0badee5d12553b4",
+    "fd_time_ledger_correction": "c36734766f80c85864e005711cfe7ab1c36c61be",
+    "fd_evidence_rereview_binding": "77932f7ccfe13f1091ef70acf3c862bbda9e3937"
   },
   "artifacts": [
     {
@@ -200,13 +207,33 @@
     {
       "path": "runs/attempts/evaluator-semantic-oracles-01/evaluator-semantic-oracles-a1-b267edcdcc43454daba166caf666a2d2/workspace/evidence/qualification/evaluator-semantic-oracles.json",
       "sha256": "ee7870a3b84bb4cafaa6732c03cd4489663b691be9ece43b1b7330e5ce1cdef3"
+    },
+    {
+      "path": "fd_semantic_oracles.py",
+      "sha256": "6a82d80e1c45dfbb129d842c847000acf8828e1f8fd4e806f82ce3ce52926276"
+    },
+    {
+      "path": "FD_SEMANTIC_ORACLE_EXECUTION_20261009.md",
+      "sha256": "71fbcef2d97211819a22e00c67d5a14beb6e575f8a46d2c104f4a5692974cd5c"
+    },
+    {
+      "path": "FD_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
+      "sha256": "c3aba01cda774f7cba77669783647eada8cee9680397ecbc2c5f83a6db2b03b5"
+    },
+    {
+      "path": "runs/attempts/fd-semantic-oracles-01/receipt.json",
+      "sha256": "02676afa9a50320d5756e18ddf3cc0e7708f9949499ff9149059aea9b20175ea"
+    },
+    {
+      "path": "runs/attempts/fd-semantic-oracles-01/fd-semantic-oracles-a1-651e783370394554a7271a2f2b64fa15/workspace/evidence/qualification/fd-semantic-oracles.json",
+      "sha256": "8dc34bdced536cadbef966182f759e941e3725f8f400c9d09f780d82a1ee507b"
     }
   ],
   "actual_usage": {
     "scientific_numerical_attempts": 0,
-    "executable_preparation_attempts": 5,
-    "registered_assignments": 26,
-    "process_cpu_seconds": 1.571700,
+    "executable_preparation_attempts": 7,
+    "registered_assignments": 30,
+    "process_cpu_seconds": 1.581142,
     "peak_RSS_KiB": 148112,
     "unreleased_reservations": []
   },
@@ -223,7 +250,7 @@
   "remaining_tasks": [
     "exact-target correction priority and remaining citation expansion",
     "authentic runnable official native scorer interface",
-    "FD semantic parity and complete repaired native baseline qualification",
+    "complete repaired native baseline performance qualification, FD sensitivity and author diagnostics",
     "qualified native references/baselines",
     "Parent/Gate0/IPCG and complete G01",
     "approximately20 substantive independently reviewed method cards and whole-pool ranking",

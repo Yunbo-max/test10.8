@@ -59,6 +59,7 @@ completed:
   - random_family_exact_figure_nonreplication_boundary_accepted_after_correction_review
   - evaluator_semantic_oracle_plan_accepted_after_correction_review
   - evaluator_semantic_oracle_evidence_accepted_after_ledger_correction_review
+  - fd_source_semantic_oracles_accepted_after_dependency_and_time_ledger_corrections
 pending:
   - authentic_upstream_runnable_scorer_interface_and_parity_admission
   - existing_paper_lemma_downstream_implications_and_complete_collision_audit
@@ -73,7 +74,7 @@ scientific_experiments_started: 0
 scientific_results_verified: 0
 eligible_new_papers: 0
 negative_or_invalid_history: BASELINE_AUDIT.md
-next_action: continue step2 on FD semantics/parity and complete native baseline qualification; official scorer parity remains unavailable and scientific numeric descendants remain blocked
+next_action: continue step2 on full native strong/simple baseline qualification and sensitivity; FD source semantics are closed but official scorer parity and scientific numeric descendants remain blocked
 notes:
   - source review is not scientific replication
   - schedule is not uninterrupted CPU execution
@@ -149,4 +150,5 @@ fd_semantic_oracle_output_sha256: 8dc34bdced536cadbef966182f759e941e3725f8f400c9
 fd_semantic_oracle_checks: 45
 fd_semantic_oracle_failures: 0
 fd_semantic_oracle_evidence_review: needs_correction_time_ledger_only
+fd_semantic_oracle_evidence_rereview: accepted
 fd_semantic_unadmitted_smoke: charged_attempt_invalid_as_evidence

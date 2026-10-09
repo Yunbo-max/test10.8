@@ -12,8 +12,11 @@ Productive independent route: the existing-paper formal audit. FORMAL_AUDIT_v2.m
 direct/trace loss, fresh-tail/direct residual and selected-prefix projector formulas
 agree at three tolerances on eight fixed prefixes, with near-zero OPT ratios left
 missing.  This is not total streaming recourse, baseline performance or official
-scorer parity.  `native_baselines.py`, FD parity, full sensitivity,
-FD parity, full sensitivity and complete four-family G01 remain pending. The
+scorer parity. The project `native_baselines.py` strong FD arm also has accepted
+engineering source-semantic evidence on eight fixed analytic prefixes: 45
+checks passed and same-spec covariance/projector state matched, while the author
+and Liberty interfaces were confirmed non-parity. Native FD performance,
+author diagnostic runs, full sensitivity and complete four-family G01 remain pending. The
 published random stream is now independently classified as not exactly
 reconstructable; future seeded unscaled streams are prospective instances only.
 The repaired evaluator passed 25 independent semantic-oracle checks after

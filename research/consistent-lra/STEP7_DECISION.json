@@ -1,10 +1,10 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T02:45:29+00:00",
+  "observed_at": "2026-10-09T03:18:40+00:00",
   "rsi_source_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "canonical_controller_run": false,
   "decision": 2,
-  "action": "continue source and semantic qualification of FD and full repaired native baselines before Parent/Gate0/IPCG or discovery",
+  "action": "continue full native strong/simple baseline qualification and sensitivity before Parent/Gate0/IPCG or discovery; FD source semantics are closed",
   "basis": [
     {
       "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
@@ -54,6 +54,11 @@
       "path": "EVALUATOR_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
       "sha256": "7fc5e1f622cef4f21b1f6a589f87611d035f19e2cb2263d125597266fb2d5e81",
       "verdict": "accepted_software_semantics_after_recorded_ledger_correction"
+    },
+    {
+      "path": "FD_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
+      "sha256": "c3aba01cda774f7cba77669783647eada8cee9680397ecbc2c5f83a6db2b03b5",
+      "verdict": "accepted_fd_source_semantics_after_dependency_and_time_ledger_corrections"
     }
   ],
   "closed_or_narrowed": {
@@ -61,12 +66,13 @@
     "Rice_Skin_formula_identity": "direct/trace/tail and selected-prefix projector identities accepted at three tolerances",
     "hidden_scorer_search": "complete frozen author tree and ZIP contain no separate official scorer",
     "published_random_identity": "exact Figure 3 replay is not reconstructable; prospective frozen seeded unscaled instances only",
-    "repaired_evaluator_semantics": "25 analytic/algebraic checks accepted as engineering software evidence only"
+    "repaired_evaluator_semantics": "25 analytic/algebraic checks accepted as engineering software evidence only",
+    "fd_source_semantics": "45 checks accepted; project ell-row arm matches independent same-spec reference while author ell+1 and Liberty 2ell interfaces are non-parity"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
     "published_random_replication": "unseeded released generator and paper/code normalization mismatch prevent exact figure stream identity",
-    "full_baseline_qualification": "FD parity, total per-prefix recourse, full sensitivity and four-family G01 remain pending",
+    "full_baseline_qualification": "native performance, total per-prefix recourse, author diagnostics, full sensitivity and four-family G01 remain pending",
     "new_method_discovery": "qualified Parent/Gate0/IPCG and meaningful residual baseline failures pending",
     "candidate_code_dispatch": "no independently ranked qualified method pool/G01/native scorer",
     "eligible_writing": "no validated numerical improvement; originality and downstream significance unresolved"
@@ -75,7 +81,6 @@
   "gate_advanced": false,
   "eligible_new_papers": 0,
   "continued_independent_work": [
-    "qualify FD semantics against canonical and author variants",
     "complete repaired native per-prefix baseline qualification without relabelling it official",
     "continue exact-target correction priority and downstream theorem audit"
   ],

@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T03:16:36+00:00",
+  "observed_at": "2026-10-09T03:18:40+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 30,
   "executable_attempts_dispatched": 7,
@@ -103,7 +103,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 16269,
+  "remaining_wall_seconds_at_observation": 16145,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -195,7 +195,7 @@
       "review": "fd-semantic-oracle-evidence-review",
       "initial_verdict": "needs_correction",
       "repair_count": 1,
-      "rereview_verdict": "pending"
+      "rereview_verdict": "accepted"
     }
   ],
   "pending_evaluator_semantic_oracle_evidence_review": null,
@@ -225,8 +225,9 @@
     "output_sha256": "8dc34bdced536cadbef966182f759e941e3725f8f400c9d09f780d82a1ee507b"
   },
   "pending_fd_semantic_oracle_evidence_review": null,
-  "completed_fd_semantic_oracle_evidence_review": "needs_correction_time_ledger_only",
-  "pending_fd_semantic_oracle_evidence_rereview": "fd-semantic-oracle-evidence-rereview",
+  "completed_fd_semantic_oracle_evidence_review": "accepted_after_recorded_time_ledger_correction",
+  "pending_fd_semantic_oracle_evidence_rereview": null,
+  "completed_fd_semantic_oracle_evidence_rereview": "accepted",
   "unadmitted_development_smoke_history": [
     {
       "direction": "fd_source_semantic_oracles",
