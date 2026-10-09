@@ -380,7 +380,7 @@
     "task": "evaluator-semantic-oracles-01",
     "wall_seconds_upper_bound": 30
   },
-  "executable_attempts_dispatched": 21,
+  "executable_attempts_dispatched": 22,
   "failure_history": [
     {
       "category": "capability_source_admission_gap",
@@ -662,7 +662,7 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:20:49.892712+00:00",
+  "observed_at": "2026-10-09T12:23:31.715603+00:00",
   "observed_process_cpu_seconds": 292.775693082,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -693,11 +693,7 @@
   "pending_window02_geometric_review": null,
   "pending_window02_integer_priority_audit": null,
   "pending_window02_integer_witness_design_review": null,
-  "pending_window02_integer_witness_plan_review": {
-    "assignment_number": 134,
-    "execution_admitted": false,
-    "reviewer": "/root/window02_consecutive_condition_review"
-  },
+  "pending_window02_integer_witness_plan_review": null,
   "pending_window02_integer_witness_source_review": null,
   "pending_window02_mitigation_source_review": null,
   "pending_window02_nearzero_design": null,
@@ -786,7 +782,7 @@
       "scope": "independent recordedscalar recomputation; no sourceimport/qualifierrerun"
     }
   ],
-  "registered_task_assignments": 136,
+  "registered_task_assignments": 138,
   "remaining_wall_seconds_at_observation": 18801.791587,
   "reservation": {
     "actual_max_rss_kib": 99788,
@@ -1074,7 +1070,9 @@
     "window02-integer-witness-plan-generation",
     "window02-integer-witness-plan-independent-review",
     "window02-integer-witness-source-publication-correction",
-    "window02-integer-witness-source-publication-rereview"
+    "window02-integer-witness-source-publication-rereview",
+    "window02-integer-witness-execution",
+    "window02-integer-witness-evidence-independent-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1158,18 +1156,27 @@
     }
   ],
   "window02_integer_witness_reservation": {
-    "attempts_launched": 0,
+    "attempts_launched": 1,
     "attempts_reserved": 1,
     "cpu_cores": 1,
-    "execution_admitted": false,
-    "execution_status": "unlaunched correctedsource accepted pendingactual134planreview",
+    "execution_admitted": true,
+    "execution_status": "charged_prelaunch_no_process_yet",
     "harness_plan_digest": "aca5500a34085d81ccecddea8c740e8a982be3c429681bc401197af06a8baf97",
     "native_plan_digest": "3db894cffd06776ec58513867dc17559c6d9cf53be4b3d35df62f8feb0382905",
     "ram_mib_reserved_not_enforced": 256,
     "released": false,
     "scope": "existing_lemma_exact_integer_construction_no_matrix_evaluation",
     "task": "exact-integer-witness-02",
-    "wall_seconds_upper_bound": 90
+    "wall_seconds_upper_bound": 90,
+    "attempts_charged": 1,
+    "prelaunch_observation": {
+      "observed_at": "2026-10-09T12:23:31.715603+00:00",
+      "cpu_max": "800000 100000",
+      "memory_max_bytes": 8589934592,
+      "active_matching_processes": [],
+      "remaining_wall_seconds": 17531.284397,
+      "process_inventory_method": "proc exactargvbasename"
+    }
   },
   "window02_integer_witness_source_corrections": [
     {
@@ -1366,5 +1373,17 @@
     "package": "c23/research-autopilot",
     "source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
     "version": "0.2.0-autonomous.2"
+  },
+  "completed_window02_integer_witness_plan_review": {
+    "assignment_number": 134,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "commit": "80a22e3b58c9369bce3cc0a6faf2be52543cb254",
+    "verdict": "accepted_one_exact_integer_witness_attempt",
+    "record": "INTEGER_WITNESS_PLAN_REVIEW_WINDOW02.md"
+  },
+  "pending_window02_integer_witness_evidence_review": {
+    "assignment_number": 138,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "status": "await_actual_execution"
   }
 }
