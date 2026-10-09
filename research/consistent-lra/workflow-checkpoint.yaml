@@ -81,14 +81,15 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 33
+actual_registered_task_assignments: 36
 actual_executable_attempts: 8
 actual_preparation_attempts: 8
 actual_scientific_attempts: 0
 actual_discovery_rounds: 0
 actual_observed_process_cpu_seconds: 2.079693
 actual_max_preparation_rss_kib: 148112
-unreleased_reservations: []
+unreleased_reservations:
+  - author-fd-semantic-oracles-01: 1 CPU, 256 MiB admission, 30 seconds, 1 attempt
 formal_counterexample_artifact: FORMAL_AUDIT_v2.md
 formal_counterexample_sha256: 0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477
 formal_review_record: FORMAL_AUDIT_v2_REVIEW.md
@@ -106,7 +107,7 @@ integer_density_extension_draft: FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md
 integer_density_initial_review_record: FORMAL_AUDIT_v4_REVIEW.md
 sampling_source_qualification_draft: SAMPLING_SOURCE_QUALIFICATION_20261009.md
 sampling_source_initial_review_record: SAMPLING_SOURCE_QUALIFICATION_REVIEW.md
-latest_resource_observation_utc: '2026-10-09T03:31:22.938875+00:00'
+latest_resource_observation_utc: '2026-10-09T04:06:02+00:00'
 latest_cpu_max: '800000 100000'
 latest_visible_processors: 9
 latest_memory_max_bytes: 8589934592
@@ -164,3 +165,9 @@ rice_alg4_cost_calibration_summary_sha256: 2c124b017e374642fc020c13df402d26a8186
 rice_alg4_cost_calibration_prefixes: 3000
 rice_alg4_cost_calibration_evidence_review: accepted
 rice_alg4_cost_calibration_evidence_commit: 4ffc2d57a43e740a4205cdabba7fab303ddd8f15
+author_fd_diagnostic_source_initial_review: needs_correction
+author_fd_diagnostic_source_correction_rereview: accepted
+author_fd_diagnostic_plan_review: accepted
+author_fd_diagnostic_plan_review_record: AUTHOR_FD_DIAGNOSTIC_PLAN_REVIEW.md
+author_fd_diagnostic_plan_commit: a1d78b55391bf444da5a7a9ca37647fb061a20c6
+author_fd_semantic_oracle_reservation: active_unreleased
