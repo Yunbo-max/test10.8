@@ -1,0 +1,5 @@
+# v2 source review and correction history
+
+Assignment87 window02-landmark-stage-a-output-mitigation-source-review. Reviewer /root/window02_stagea_source_review, exact d38f1946e594bd7549064f00d118bb93d160e76c, candidate SHA aa5282d47f116266ffabe9713ee7adc03c74d02e7dd0b10031ba1416d18af190, actual contract SHA bfe6f30652746a86f9739fe8362ddb181911e77e470411ef9404a8c87c6c6a4d. Task's 6f148614... identity is contract freezing commit, not file SHA; subsequent plan binds inspected actual bytes.
+
+Initial verdict NEEDS_CORRECTION publication stability only. Numerical source semantics/per-prefix mitigation accepted statically; no execution. Required corrections: include all35memberrefs in summary inventory/final-exit rehash (fullplan38finalfiles); record/compare device/inode/size afterdecompression and afterpublication against closed descriptoridentity. Current candidate revised both while preserving arithmetic/input/algorithms/prefixes/ranks/tolerances. Independent correction review pending. Originalv1 andfailedpartials unchanged; no rootcausefixclaim orscientificadmission.

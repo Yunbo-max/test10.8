@@ -178,7 +178,13 @@ class RetainedGzip:
                 plain_bytes += len(line)
         if digest.hexdigest() != self.plain_hash.hexdigest() or rows != self.rows or plain_bytes != self.plain_bytes:
             raise ValueError("gzip content integrity failure")
+        after_readback = self.partial.stat()
+        if (after_readback.st_dev, after_readback.st_ino, after_readback.st_size) != (after_finalize["device"], after_finalize["inode"], after_finalize["bytes"]):
+            raise ValueError("compressed identity changed during readback")
         publish_no_replace(self.partial, self.output)
+        after_publication = self.output.stat()
+        if (after_publication.st_dev, after_publication.st_ino, after_publication.st_size) != (after_finalize["device"], after_finalize["inode"], after_finalize["bytes"]):
+            raise ValueError("compressed identity changed during publication")
         if sha256(self.output) != expected:
             raise ValueError("published gzip hash mismatch")
         return {"path": self.output.name, "sha256": expected, "rows": rows,
@@ -187,7 +193,9 @@ class RetainedGzip:
                 "write_audit": {"calls": self.raw.write_calls, "requested_bytes": self.raw.requested_bytes,
                                 "returned_bytes": self.raw.returned_bytes, "initial": self.raw.initial,
                                 "before_finalize": before_finalize, "after_finalize": after_finalize,
-                                "after_close": {"device": stat.st_dev, "inode": stat.st_ino, "bytes": stat.st_size}}}
+                                "after_close": {"device": stat.st_dev, "inode": stat.st_ino, "bytes": stat.st_size},
+                                "after_readback": {"device": after_readback.st_dev, "inode": after_readback.st_ino, "bytes": after_readback.st_size},
+                                "after_publication": {"device": after_publication.st_dev, "inode": after_publication.st_ino, "bytes": after_publication.st_size}}}
 
 
 class PrefixOracleGzip:
@@ -366,7 +374,8 @@ def main():
                               "elapsed_seconds": time.perf_counter() - start}), flush=True)
     if oracles.rows != len(prefixes) * 13 or timings.rows != n * 13:
         raise ValueError("incomplete denominators")
-    outputs = [oracles.publish(), timings.publish()]
+    oracle_manifest = oracles.publish()
+    outputs = [oracle_manifest, timings.publish(), *oracles.members]
     after = resource.getrusage(resource.RUSAGE_SELF)
     result = {"format": "landmark-stage-a-identity-v2", "mode": args.mode,
               "scope": "native numerical identity and bounded update cost only",

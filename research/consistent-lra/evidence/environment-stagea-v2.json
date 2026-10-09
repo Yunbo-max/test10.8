@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-10-09T10:11:59.408877+00:00",
+  "cpu_max": "800000 100000",
+  "memory_max_bytes": 8589934592,
+  "numerical_threads_planned": 1,
+  "gpu_allowed": false,
+  "observed_running_scientific_jobs": 0,
+  "scope": "read-only cgroup recheck; no scientific execution"
+}

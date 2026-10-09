@@ -36,9 +36,9 @@ budget_clock_anchor: '2026-10-09T09:15:43Z'
 wall_deadline_utc: '2026-10-09T17:15:43Z'
 background_task_id: 6ac82bb085c081919fa92002384b073b
 background_conversation_id: 6ac827e6-de58-83eb-9487-8a2ab69c90e5
-background_observed_state: same_task_enabled_prompt_schedule_exact_readback_immediate_pending_bootstrap
+background_observed_state: "same_task_enabled_observed; bootstrap_immediate_ack_historical_not_worker_todo"
 background_control_record: BACKGROUND_TASK.json
-current_step: '2: primary-literature equivalence and remaining native admission gaps after independent formal audits'
+current_step: "2: scientific native evaluator/source gap; independent output-container mitigation and formal priority work"
 completed:
   - frozen_versioned_baseline_repair_contract
   - Rice_Skin_exact_native_bytes_order_labels_and_license_reading
@@ -80,21 +80,21 @@ scientific_experiments_started: 0
 scientific_results_verified: 0
 eligible_new_papers: 0
 negative_or_invalid_history: BASELINE_AUDIT.md
-next_action: decision_2_continue_source_and_benchmark_reading_for_official_scorer_parity_and_missing_Landmark_random_native_matrix_before_Parent_Gate0_IPCG_or_discovery
+next_action: "decision_2_scientific_evaluator_gap; independent_step4_output_mitigation_and_formal_priority_audit"
 notes:
   - source review is not scientific replication
   - schedule is not uninterrupted CPU execution
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 73
-actual_executable_attempts: 14
-actual_preparation_attempts: 14
+actual_registered_task_assignments: 88
+actual_executable_attempts: 16
+actual_preparation_attempts: 16
 actual_scientific_attempts: 0
 actual_discovery_rounds: 0
-actual_observed_process_cpu_seconds: 74.624432
+actual_observed_process_cpu_seconds: 160.615645
 actual_observed_process_cpu_seconds_semantics: lower_bound_after_failed_repair_01_plus_exact_final_repair_plus_prospective_random
-actual_max_preparation_rss_kib: 158252
+actual_max_preparation_rss_kib: 182056
 unreleased_reservations: []
 formal_counterexample_artifact: FORMAL_AUDIT_v2.md
 formal_counterexample_sha256: 0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477
@@ -376,5 +376,14 @@ restart_next_action: qualify_Landmark_Stage_A_and_bound_all_arm_cost_before_Stag
 
 window02_round_observation: 2
 window02_stage_a_source: landmark_stage_a.py
-window02_stage_a_source_status: generated_unexecuted_pending_independent_review
+window02_stage_a_source_status: "v1_short_calibration_accepted; full_v1_failed_gzip_integrity; v2_source_pending_independent_review"
 window02_scorer_scope_review: WINDOW02_SCORER_SCOPE_REVIEW.md
+
+window02_geometric_parent: FORMAL_AUDIT_v5_GEOMETRIC_DRAFT.md
+window02_geometric_parent_review: FORMAL_AUDIT_v5_REVIEW.md
+window02_consecutive_extension: FORMAL_AUDIT_v6_CONSECUTIVE_CONDITION_DRAFT.md
+window02_consecutive_extension_review: FORMAL_AUDIT_v6_REVIEW.md
+window02_full_stage_a_failure: LANDMARK_STAGE_A_FULL_FAILURE_REVIEW.md
+window02_full_stage_a_qualification: failed_not_complete
+window02_output_mitigation_contract: LANDMARK_STAGE_A_OUTPUT_MITIGATION_v2.md
+window02_stage_b_admission: blocked_native_protocol_evaluator_capability

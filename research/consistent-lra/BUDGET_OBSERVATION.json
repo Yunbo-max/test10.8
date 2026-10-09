@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T10:09:18.384748+00:00",
+  "observed_at": "2026-10-09T10:12:53.926317+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 88,
+  "registered_task_assignments": 89,
   "executable_attempts_dispatched": 16,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -77,7 +77,7 @@
     }
   ],
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
-  "independent_work": "unresolved universal single-update rank dependence: read full Krein/Uebersohn lineage, map actual finite rank and cutoff assumptions; no novelmethodclaim",
+  "independent_work": "accepted linear-in-rank exact-optimal counterexample under constant consecutive conditioning; priority/downstream audit pending; output mitigation source review active",
   "task_assignments": [
     "source_join_review",
     "harness_staging_review",
@@ -166,7 +166,8 @@
     "window02-geometric-consecutive-conditioning-derivation",
     "window02-landmark-stage-a-output-mitigation-source-generation",
     "window02-landmark-stage-a-output-mitigation-source-review",
-    "window02-geometric-consecutive-conditioning-independent-review"
+    "window02-geometric-consecutive-conditioning-independent-review",
+    "window02-landmark-stage-a-output-mitigation-source-correction-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -878,13 +879,25 @@
     "record": "LANDMARK_STAGE_A_FULL_FAILURE_REVIEW.md"
   },
   "pending_window02_mitigation_source_review": {
-    "assignment": "window02-landmark-stage-a-output-mitigation-source-review",
-    "contract": "LANDMARK_STAGE_A_OUTPUT_MITIGATION_v2.md",
-    "status": "awaiting_actual_generated_source"
+    "assignment": "window02-landmark-stage-a-output-mitigation-source-correction-review",
+    "artifact": "landmark_stage_a_v2.py",
+    "sha256": "aba46507a5b60f4b39d237418b79566ed9b8dd6aee9d65586e8ac7d3031bd16a"
   },
-  "pending_window02_condition_review": {
+  "pending_window02_condition_review": null,
+  "completed_window02_condition_review": {
     "assignment": "window02-geometric-consecutive-conditioning-independent-review",
-    "artifact": "FORMAL_AUDIT_v6_CONSECUTIVE_CONDITION_DRAFT.md",
-    "author": "/root/window02_scorer_scope_review"
-  }
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "commit": "bf93cc132e6dc934b54e9dc779befc909a784bf6",
+    "sha256": "140141fcc4b5e86bc182ea1bf399f80f6df5f1cb4dd8fe6c76b9bd569bd6573b",
+    "verdict": "accepted_exact_math_and_dependency_gap_only",
+    "record": "FORMAL_AUDIT_v6_REVIEW.md"
+  },
+  "window02_mitigation_source_corrections": [
+    {
+      "commit": "d38f1946e594bd7549064f00d118bb93d160e76c",
+      "verdict": "needs_correction_publication_stability",
+      "source_repair_count": 1,
+      "scientific_failure": false
+    }
+  ]
 }

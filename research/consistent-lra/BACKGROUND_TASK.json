@@ -5,7 +5,7 @@
   "project_path": "research/consistent-lra",
   "task_id": "6ac82bb085c081919fa92002384b073b",
   "conversation_id": "6ac827e6-de58-83eb-9487-8a2ab69c90e5",
-  "title": "CPU 低秩近似 RSI 研究",
+  "title": "CPU \u4f4e\u79e9\u8fd1\u4f3c RSI \u7814\u7a76",
   "execution_mechanism": "finite_hourly_continuation_created_from_current_Work_chat",
   "current_Work_identity_source": "developer-provided Work Mode context",
   "actual_service_receipt_observed": true,
@@ -53,7 +53,7 @@
     "request_immediate_run_once"
   ],
   "authority": {
-    "cpu_host_choice": "你可以用你gpt的cpu",
+    "cpu_host_choice": "\u4f60\u53ef\u4ee5\u7528\u4f60gpt\u7684cpu",
     "cpu_quota_cores_observed": 8,
     "memory_cap_bytes_observed": 8589934592,
     "gpu": false,
@@ -63,8 +63,8 @@
   "service_state_checked_at_utc": "2026-10-09T09:19:21.119437+00:00",
   "initial_immediate_request_field_is_historical": true,
   "initial_pending_before_dispatch_is_historical": true,
-  "current_continuation_status": "same_task_enabled_service_readback_verified; immediate_request_pending_bootstrap_only",
-  "preparation_attempts_observed_completed": 1,
+  "current_continuation_status": "active_same_writer; actual CPU short calibration accepted, fullidentity_attemptfailed and preserved, mitigationreviewactive; no worker retrigger",
+  "preparation_attempts_observed_completed": 16,
   "current_writer": "single /root integration writer with expected-head updates",
   "retention_reason": "Existing-paper collision and downstream-proof work remains productive inside original finite deadline",
   "window_history": [
@@ -94,15 +94,19 @@
   "runtime_source_commit_retained": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "restart_immediate_run_request": {
     "window_id": "cpu-window-02-20261009",
-    "status": "not_requested; bootstrap may request once after exact readback and activation",
+    "status": "bootstrap acknowledged once per prior session observation; no worker request",
     "max_requests": 1,
     "worker_must_not_request": true
   },
-  "current_activation_pending": [
-    "bootstrap_request_immediate_once"
-  ],
+  "current_activation_pending": [],
   "restored_head": "9f65c9aed3d6952e08d7dae6020eb70eb5698db4",
   "stop_opening_new_work_at_utc": "2026-10-09T17:10:43Z",
   "activation_receipt_record": "RESTART_ACTIVATION_20261009.json",
-  "latest_control_readback_commit": "28893b0a78d1a826f0a8321c810f078616ccaf04"
+  "latest_control_readback_commit": "28893b0a78d1a826f0a8321c810f078616ccaf04",
+  "latest_work_evidence_commit": "d38f1946e594bd7549064f00d118bb93d160e76c",
+  "latest_progress_observed_at": "2026-10-09T10:12:53.926317+00:00",
+  "observed_controller_rounds": 2,
+  "observed_executable_attempts": 16,
+  "observed_registered_tasks": 88,
+  "bootstrap_request_history_note": "Initial activation receipt and pending fields are retained as historical snapshots, not current work obligations; service request acknowledgement was observed in bootstrap continuation."
 }
