@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T06:36:41+00:00",
+  "observed_at": "2026-10-09T06:40:06+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 64,
   "executable_attempts_dispatched": 13,
@@ -144,7 +144,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 4264,
+  "remaining_wall_seconds_at_observation": 4059,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -167,8 +167,8 @@
   "completed_execution_evidence_review": "landmark-integrity-execution-evidence-review:accepted",
   "pending_archive_scorer_review": null,
   "completed_archive_scorer_review": "author-archive-scorer-audit-independent-review:accepted_with_nonblocking_row-count_precision_note",
-  "pending_execution_plan_review": "landmark-reference-calibration-plan-review",
-  "completed_execution_plan_review": "rice-skin-selected-prefix-identity-plan-review:accepted",
+  "pending_execution_plan_review": null,
+  "completed_execution_plan_review": "landmark-reference-calibration-plan-review:accepted_engineering_calibration_only",
   "rice_skin_identity_reservation": {
     "task": "rice-skin-selected-prefix-identity-01",
     "purpose": "engineering_selected_prefix_identity_only",
@@ -681,5 +681,19 @@
     "prospective_random_baseline_matrix_completed": true,
     "prospective_random_baseline_matrix_evidence_reviewed": true,
     "prospective_random_durable_archive_repair_1_pending": false
+  },
+  "landmark_reference_calibration_reservation": {
+    "task": "landmark-reference-calibration-01",
+    "purpose": "engineering_exact_reference_cost_and_numerical_agreement_only",
+    "cpu_cores_reserved": 1,
+    "ram_mib_reserved_not_enforced": 1024,
+    "gpu_count": 0,
+    "wall_seconds_upper_bound": 240,
+    "attempts": 1,
+    "retries": 0,
+    "native_plan_digest": "568c5193935ff57d686cde51b8fe46e9a6e7a0a1776e43b89d928ac321635f57",
+    "harness_plan_digest": "570f6c67bd609cf2adc75144948a3baa897c91d120ca227d2fba9737c6aecf06",
+    "released": false,
+    "execution_started": false
   }
 }
