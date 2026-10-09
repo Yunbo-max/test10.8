@@ -1,0 +1,42 @@
+{
+  "schema_id": "harness-plan",
+  "schema_version": "1.0.0",
+  "batch_id": "native-lowdim-existing-baseline-matrix-01",
+  "tasks": [
+    {
+      "task_id": "native-lowdim-baseline-matrix-01",
+      "idea_id": "existing-native-lowdim-baseline-qualification",
+      "priority": 1,
+      "depends_on": [],
+      "plan_ref": {
+        "path": "plans/native-lowdim-baseline-matrix.json",
+        "sha256": "261b70cb94f9e14a101ac9b3c0e512c167e84857d0d45428046e6112d69d0eef"
+      },
+      "resources": {
+        "cpu_cores": 1,
+        "ram_mib": 512,
+        "gpu_count": 0,
+        "gpu_peak_mib": null,
+        "allow_gpu_share": false,
+        "memory_profile_ref": null,
+        "exclusive_keys": ["consistent-lra-lowdim-baseline-matrix"]
+      }
+    }
+  ],
+  "limits": {
+    "cpu_cores": 1,
+    "ram_mib": 512,
+    "max_parallel_tasks": 1,
+    "max_gpu_task_seconds": 0,
+    "total_wall_seconds": 210,
+    "window_seconds": 180
+  },
+  "pool_dir": "/workspace/scratch/bb9f262965cf/dddd-work/research/consistent-lra/runs/pool",
+  "output_root": "runs/harness",
+  "gpus": {
+    "uuids": [],
+    "safety_margin_mib": 256,
+    "max_tasks_per_gpu": 1
+  },
+  "plan_digest": "6a488ed4362dbdc9e9d99799f6ccca07a5cb20e0ce53e575c4b036f379fdde96"
+}

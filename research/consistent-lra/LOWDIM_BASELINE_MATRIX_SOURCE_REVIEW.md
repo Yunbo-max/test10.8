@@ -30,4 +30,20 @@ Required corrections:
 
 The 180-second/512-MiB estimate was judged plausible from the retained Rice
 calibration, not guaranteed.  The candidate now implements the three repairs.
-Correction rereview verdict: **pending**.
+Correction rereview verdict: **accepted** at exact commit
+`608bce8dafc9bbe7ce7c14082191fab27ac6e372`.
+
+Corrected identities independently matched:
+
+- design SHA256
+  `ff5fc67804d5aa705b2c4ae5b2cefebea0bf2391502b13a663ad0d29b1cd0ea2`;
+- runner SHA256
+  `4d06d29f61f11172a1811e3daea3f0bd74d8b7a10a7661b5e2afd80b3428deab`;
+- preserved initial-review-record SHA256
+  `b4c78f7eb041a2ca81edc775967e87bdb157ab2f6700ca5b1f4ef69470ec0eec`;
+- unchanged `native_baselines.py` / `baseline_qualify.py` SHA256
+  `81c3309e659d1d9fdb69040b9becc6009bbe29b84a36aae8bac89ea6737e2c7c` /
+  `d5566e2177064d0ddd9f940323ca7d10dfb0d9fef14d93f8ba6d16bde54dd934`.
+
+This closes source/design review only.  Exact execution-plan admission, raw
+execution evidence, E04/scientific verdict and all claims remain separate.

@@ -81,7 +81,7 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 38
+actual_registered_task_assignments: 40
 actual_executable_attempts: 9
 actual_preparation_attempts: 9
 actual_scientific_attempts: 0
@@ -106,7 +106,7 @@ integer_density_extension_draft: FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md
 integer_density_initial_review_record: FORMAL_AUDIT_v4_REVIEW.md
 sampling_source_qualification_draft: SAMPLING_SOURCE_QUALIFICATION_20261009.md
 sampling_source_initial_review_record: SAMPLING_SOURCE_QUALIFICATION_REVIEW.md
-latest_resource_observation_utc: '2026-10-09T04:11:37+00:00'
+latest_resource_observation_utc: '2026-10-09T04:26:04+00:00'
 latest_cpu_max: '800000 100000'
 latest_visible_processors: 9
 latest_memory_max_bytes: 8589934592
@@ -180,3 +180,7 @@ author_fd_semantic_oracle_evidence_review_record: AUTHOR_FD_SEMANTIC_ORACLE_EVID
 author_fd_semantic_oracle_corrected_blob: 294438ac128556f01a2c3d920bdb4f1225dd819f
 author_fd_semantic_oracle_raw_bytes_changed_for_correction: false
 author_fd_semantic_oracle_evidence_rereview: accepted
+lowdim_baseline_matrix_source_initial_review: needs_correction
+lowdim_baseline_matrix_source_correction_rereview: accepted
+lowdim_baseline_matrix_source_review_record: LOWDIM_BASELINE_MATRIX_SOURCE_REVIEW.md
+lowdim_baseline_matrix_candidate_commit: 608bce8dafc9bbe7ce7c14082191fab27ac6e372
