@@ -1,10 +1,10 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T06:47:00+00:00",
-  "rsi_source_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
+  "observed_at": "2026-10-09T10:22:44.783768+00:00",
+  "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
   "decision": 2,
-  "action": "continue source and benchmark reading for authentic official scorer parity and the missing Landmark native baseline matrix before Parent/Gate0/IPCG or discovery",
+  "action": "retain scientific native-evaluator/source gap; independently continue admitted output mitigation verification and exact formal priority/downstream audit",
   "basis": [
     {
       "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
@@ -115,7 +115,7 @@
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
     "published_random_replication": "unseeded released generator and paper/code normalization mismatch prevent exact figure stream identity",
-    "full_baseline_qualification": "Rice/Skin and one prospective random local-scorer matrix are accepted; Landmark exact-reference cost is now calibrated, but authentic official parity plus the Landmark baseline matrix remain pending",
+    "full_baseline_qualification": "Landmark full numericalidentity qualification failedv1; v2shortactualcompletedpendingreview, fullv2notyetadmitted; scientificparityseparatelymissing",
     "new_method_discovery": "qualified Parent/Gate0/IPCG and meaningful residual baseline failures pending",
     "candidate_code_dispatch": "no independently ranked qualified method pool/G01/native scorer",
     "eligible_writing": "no validated numerical improvement; originality and downstream significance unresolved"
@@ -124,11 +124,50 @@
   "gate_advanced": false,
   "eligible_new_papers": 0,
   "continued_independent_work": [
-    "qualify authentic official scorer parity and complete the Landmark native matrix without relabelling local-scorer evidence official",
-    "continue exact-target correction priority and downstream theorem audit"
+    "independentlyverifyv2shortauditthenreviewfullv2finiteplan",
+    "boundedprimarypriorityauditforacceptedconstantconditionlinearrecoursecounterexample"
   ],
-  "reason_not_terminal": "finite productive source, mathematical and engineering qualification tasks remain within the unchanged deadline",
+  "reason_not_terminal": "productive finite instrumentqualification and formalpriority/downstream work remain; no deadline or bindingstop reached",
   "next_restore": "resolve immutable branch head and retained bytes; never rerun accepted Landmark/Rice/Skin/oracle preparation or bootstrap immediate request",
   "note": "In-place worker evidence mapping to pinned RSI return-to-source route; no fabricated controller, official scorer, Gate A pass or paper result.",
-  "prior_decision": 2
+  "prior_decision": 2,
+  "previous_observation_preserved": "prior Step7 JSON version remains immutable in parent commits including9f65c9aed3d6952e08d7dae6020eb70eb5698db4",
+  "historical_runtime_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
+  "active_window_id": "cpu-window-02-20261009",
+  "evidence_commit": "fa2834bbce357fff263c8788e36624bfd27aad7d",
+  "window02_current_evidence": [
+    {
+      "artifact": "FORMAL_AUDIT_v5_REVIEW.md",
+      "verdict": "accepted_exactlinearrecourse_rank_dependence"
+    },
+    {
+      "artifact": "FORMAL_AUDIT_v6_REVIEW.md",
+      "verdict": "accepted_constant_consecutive_condition_extension"
+    },
+    {
+      "artifact": "LANDMARK_STAGE_A_CALIBRATION_EVIDENCE_REVIEW.md",
+      "verdict": "accepted_v1_shortidentity_cost"
+    },
+    {
+      "artifact": "LANDMARK_STAGE_A_FULL_FAILURE_REVIEW.md",
+      "verdict": "fullv1failed_containerintegrity_rootcauseunknown"
+    },
+    {
+      "artifact": "LANDMARK_STAGE_A_v2_SOURCE_REVIEW.md",
+      "verdict": "acceptedcorrectedstaticsemantics"
+    },
+    {
+      "artifact": "LANDMARK_STAGE_A_v2_CALIBRATION_PLAN_REVIEW.md",
+      "verdict": "acceptedoneboundedshortattempt"
+    },
+    {
+      "artifact": "runs/attempts/landmark-stage-a-v2-calibration-02/receipt.json",
+      "verdict": "actualcompleted31outputs_pendingindependentevidence"
+    }
+  ],
+  "independent_routes": {
+    "output_mitigation": 6,
+    "formal_priority": 2,
+    "new_method_discovery": "blocked_parent_native_baseline_and_gate0_ipcg"
+  }
 }

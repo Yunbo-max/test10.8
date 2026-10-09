@@ -1,0 +1,474 @@
+{
+  "commit": "fa2834bbce357fff263c8788e36624bfd27aad7d",
+  "method": "fresh git fetch + git show immutablecommit:path, actualtextandbinarybytes",
+  "checks": [
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/plan.json",
+      "sha256": "e0be1194b111d991d6960804c20a2044241e1e5a3864723798e67204b360d677",
+      "bytes": 6293,
+      "git_blob": "8fe980e4f642d6cae7753965d1b0055cce8e78dd",
+      "readback_sha256": "e0be1194b111d991d6960804c20a2044241e1e5a3864723798e67204b360d677",
+      "readback_bytes": 6293,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/receipt.json",
+      "sha256": "f41a033805cb0a490058ccdd133d6c5e4ca91cb5c3fa6889cfcda48668e241bf",
+      "bytes": 14315,
+      "git_blob": "1300111704260288add68989484b3dfa3bf52de0",
+      "readback_sha256": "f41a033805cb0a490058ccdd133d6c5e4ca91cb5c3fa6889cfcda48668e241bf",
+      "readback_bytes": 14315,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "readback_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "readback_bytes": 0,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/stdout.log",
+      "sha256": "46040a1e4347d31e2a88dfc2aeb82069d6b3512691f15fa1a306f30a6e6130b9",
+      "bytes": 586,
+      "git_blob": "208f7badf39852dbb4f8cd0ff4d9ccfc6655ffc8",
+      "readback_sha256": "46040a1e4347d31e2a88dfc2aeb82069d6b3512691f15fa1a306f30a6e6130b9",
+      "readback_bytes": 586,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/attempt.json",
+      "sha256": "9db70f2e218465a9eb2a0f7ca46b3a531eb0119b1c97a90506c97d26a7a7cc2f",
+      "bytes": 13425,
+      "git_blob": "f3646c863beae2c08e90097ff500a62b11c01f0f",
+      "readback_sha256": "9db70f2e218465a9eb2a0f7ca46b3a531eb0119b1c97a90506c97d26a7a7cc2f",
+      "readback_bytes": 13425,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/process-guard.json",
+      "sha256": "3b14e5059787deb0603775db471e7543ab91bdc69cc31c71c88271ec2b569d4e",
+      "bytes": 960,
+      "git_blob": "eb9a3ac6571c7039e9a0608bb900588818fa5ad8",
+      "readback_sha256": "3b14e5059787deb0603775db471e7543ab91bdc69cc31c71c88271ec2b569d4e",
+      "readback_bytes": 960,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00009.gz",
+      "sha256": "6f29100e86f494f7bfb5da9a08d6ea390819c88ffcb6bd7023d02b12508f0fde",
+      "bytes": 100761,
+      "git_blob": "bbacd75855350b4e8c98852bbab5f49337a884db",
+      "readback_sha256": "6f29100e86f494f7bfb5da9a08d6ea390819c88ffcb6bd7023d02b12508f0fde",
+      "readback_bytes": 100761,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00008.gz",
+      "sha256": "569d7c32b9ed794e200429ec5d9ec45eabfad1186e9bee5cb48086e3767af304",
+      "bytes": 15836,
+      "git_blob": "3a4ca13172142889654fd01d614f328bc7e39d17",
+      "readback_sha256": "569d7c32b9ed794e200429ec5d9ec45eabfad1186e9bee5cb48086e3767af304",
+      "readback_bytes": 15836,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00001.gz",
+      "sha256": "b88535c8c6c3fc755f2d4cdcf0f212cee9e729c64383e7d01a844d7f2f5f3419",
+      "bytes": 1687,
+      "git_blob": "6682658b09c2226bff161dae9b927bc29e89cb74",
+      "readback_sha256": "b88535c8c6c3fc755f2d4cdcf0f212cee9e729c64383e7d01a844d7f2f5f3419",
+      "readback_bytes": 1687,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00018.gz",
+      "sha256": "a51aeda852eaa887873d656816e14c1930ebd5af5abffc8cd6531dbe791db24f",
+      "bytes": 188772,
+      "git_blob": "1977b022fb4ef9d20848a2ce7b7e5ba7012de300",
+      "readback_sha256": "a51aeda852eaa887873d656816e14c1930ebd5af5abffc8cd6531dbe791db24f",
+      "readback_bytes": 188772,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00010.gz",
+      "sha256": "2ecd8f00af467fe5f3ca34db44258d528e16fd70529181a74c2a78392ed665cc",
+      "bytes": 106829,
+      "git_blob": "2b03a3e466b04ea32f9bf1959eccba749e874494",
+      "readback_sha256": "2ecd8f00af467fe5f3ca34db44258d528e16fd70529181a74c2a78392ed665cc",
+      "readback_bytes": 106829,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.manifest.json",
+      "sha256": "60366c11441fce3eb9069a47601c8a39d035a25f1d12461e91871074ce89617a",
+      "bytes": 33147,
+      "git_blob": "422f59700e52f83c7719c2edbab44c65097aa110",
+      "readback_sha256": "60366c11441fce3eb9069a47601c8a39d035a25f1d12461e91871074ce89617a",
+      "readback_bytes": 33147,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00005.gz",
+      "sha256": "da2380a9b2ba1b8f1a7deebccb232bc520004eb27b2ad82a5855740c48ca2d6a",
+      "bytes": 8533,
+      "git_blob": "0f25d8a3895b72251145bf5e330f8a640f80acd2",
+      "readback_sha256": "da2380a9b2ba1b8f1a7deebccb232bc520004eb27b2ad82a5855740c48ca2d6a",
+      "readback_bytes": 8533,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00020.gz",
+      "sha256": "4242ea69ae32b1445fb2b131a49c0574b0adbe3466874572c58c34ef93ffcc40",
+      "bytes": 245297,
+      "git_blob": "49acf2825c21d66150d602703559ddb11e85cada",
+      "readback_sha256": "4242ea69ae32b1445fb2b131a49c0574b0adbe3466874572c58c34ef93ffcc40",
+      "readback_bytes": 245297,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00011.gz",
+      "sha256": "529e9cb96c8fcf219ac21b1d7691ae68021059f82d9ba7b07a8c2be26463f917",
+      "bytes": 117932,
+      "git_blob": "1a64fa99a76c94538dad1ea5d890d9cab1f10af1",
+      "readback_sha256": "529e9cb96c8fcf219ac21b1d7691ae68021059f82d9ba7b07a8c2be26463f917",
+      "readback_bytes": 117932,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00006.gz",
+      "sha256": "2205b1991bb4ffd582100b7db1e975c0555473e60bc14dce4cba772fc19e39a8",
+      "bytes": 10613,
+      "git_blob": "ff4ed0d93487fac9fb2979216cbd572ed3c804d5",
+      "readback_sha256": "2205b1991bb4ffd582100b7db1e975c0555473e60bc14dce4cba772fc19e39a8",
+      "readback_bytes": 10613,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00050.gz",
+      "sha256": "a78cb76abe64bf4b43f9f0b0345b9a96a7f59964a75e4e09e82b9236dc099a2d",
+      "bytes": 295830,
+      "git_blob": "d28a37bd46e072a8e449ad81f7620103ba1785ce",
+      "readback_sha256": "a78cb76abe64bf4b43f9f0b0345b9a96a7f59964a75e4e09e82b9236dc099a2d",
+      "readback_bytes": 295830,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00012.gz",
+      "sha256": "6c72b8374dd9c3843a1125b18478c41d6bb8a18b3bda308043bb71f0232aa709",
+      "bytes": 141054,
+      "git_blob": "e7e8e83d86628a18070d0862c52b43f2301c50ef",
+      "readback_sha256": "6c72b8374dd9c3843a1125b18478c41d6bb8a18b3bda308043bb71f0232aa709",
+      "readback_bytes": 141054,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00100.gz",
+      "sha256": "9b48999bfac01a8dd073007f583d30e1b01d5e7eebb71b457d19d181735bf143",
+      "bytes": 394134,
+      "git_blob": "4d7ec6669f9fe9bb15b3011e4ff2bd1a14ead759",
+      "readback_sha256": "9b48999bfac01a8dd073007f583d30e1b01d5e7eebb71b457d19d181735bf143",
+      "readback_bytes": 394134,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00007.gz",
+      "sha256": "c2c4bdd339a8cacf262701d759f6788dd8899eadb770084d87a5fb63b698ee60",
+      "bytes": 13274,
+      "git_blob": "152cf601230c7780454bf872dcc1bb425069c2ff",
+      "readback_sha256": "c2c4bdd339a8cacf262701d759f6788dd8899eadb770084d87a5fb63b698ee60",
+      "readback_bytes": 13274,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00003.gz",
+      "sha256": "52f659bf9e4b7a03d97815c7388b035a75ed77f32b1673e89940bfee6d25c7fc",
+      "bytes": 5033,
+      "git_blob": "0683be2ac82bcec2f67b0e4c6fda8dca9f3ed634",
+      "readback_sha256": "52f659bf9e4b7a03d97815c7388b035a75ed77f32b1673e89940bfee6d25c7fc",
+      "readback_bytes": 5033,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00150.gz",
+      "sha256": "0e59dccb3b4895c60757026fb0e6b31fa2333be4b9d553fee4615e55be753a38",
+      "bytes": 467153,
+      "git_blob": "a328ae72d7e0dba4c7531ec2c50aaf9be58dbb28",
+      "readback_sha256": "0e59dccb3b4895c60757026fb0e6b31fa2333be4b9d553fee4615e55be753a38",
+      "readback_bytes": 467153,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00002.gz",
+      "sha256": "aa6cc735ac83ae936c0e84ae693beb3d9712f70c5ecffe7f567711c1808b6dec",
+      "bytes": 3277,
+      "git_blob": "1a1343466398afa7719da5e4711f262c009b103a",
+      "readback_sha256": "aa6cc735ac83ae936c0e84ae693beb3d9712f70c5ecffe7f567711c1808b6dec",
+      "readback_bytes": 3277,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00019.gz",
+      "sha256": "b7389ff918d6e18c9a7452a09c38eab9e9a16df8a032a3002e2b0bdee87367f0",
+      "bytes": 220056,
+      "git_blob": "c699299ea91e5bf8263ba92cee4b2aa347039897",
+      "readback_sha256": "b7389ff918d6e18c9a7452a09c38eab9e9a16df8a032a3002e2b0bdee87367f0",
+      "readback_bytes": 220056,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00004.gz",
+      "sha256": "fa2001cff0a9867e7a80a4ffb38095781be889bd32e933a2d3632e762163b9e2",
+      "bytes": 6805,
+      "git_blob": "a011818f44608ac376740ffecbc6c642f3ef249f",
+      "readback_sha256": "fa2001cff0a9867e7a80a4ffb38095781be889bd32e933a2d3632e762163b9e2",
+      "readback_bytes": 6805,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00025.gz",
+      "sha256": "cb981e00ced6ac64a4c200f138cb3c034a4facd3fcd3a1b332d5f6d912acc5d0",
+      "bytes": 239937,
+      "git_blob": "b0d11bd350456e3c9bc39c03c19806e90f41d431",
+      "readback_sha256": "cb981e00ced6ac64a4c200f138cb3c034a4facd3fcd3a1b332d5f6d912acc5d0",
+      "readback_bytes": 239937,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00015.gz",
+      "sha256": "a3f7df24f3a2fe6db279e1524336573e61ab43540753715ad8d3a35ec9ab04d3",
+      "bytes": 172931,
+      "git_blob": "bfe482ad82590eaf74da1c8d713ff66282f78a68",
+      "readback_sha256": "a3f7df24f3a2fe6db279e1524336573e61ab43540753715ad8d3a35ec9ab04d3",
+      "readback_bytes": 172931,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00021.gz",
+      "sha256": "e102aa2b85af31854498829bdcbdc2174f20893595ed34398f98ea69b5122feb",
+      "bytes": 234025,
+      "git_blob": "aa026dd4d454618043e49e8f1bf8336a4f105aa6",
+      "readback_sha256": "e102aa2b85af31854498829bdcbdc2174f20893595ed34398f98ea69b5122feb",
+      "readback_bytes": 234025,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00016.gz",
+      "sha256": "072026aba63a0e282332496cf8509688a299b356c262a2df578e494faf9738a9",
+      "bytes": 161319,
+      "git_blob": "40be7e509d4b376375884fc17f1f5f00b6a13d7e",
+      "readback_sha256": "072026aba63a0e282332496cf8509688a299b356c262a2df578e494faf9738a9",
+      "readback_bytes": 161319,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00017.gz",
+      "sha256": "5c5b98898f8ea67df43d41db42ad38727fb271d2a5f1a6d6c05f39093e82af6e",
+      "bytes": 159209,
+      "git_blob": "56ccb29dc129f31a8275132d4b9436ec01626714",
+      "readback_sha256": "5c5b98898f8ea67df43d41db42ad38727fb271d2a5f1a6d6c05f39093e82af6e",
+      "readback_bytes": 159209,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00022.gz",
+      "sha256": "2f13a9862c94d83734f1ab604ebf56dccae02d5b61a2c4514e44297a89667833",
+      "bytes": 212186,
+      "git_blob": "b7aef358a2082f4e9dfa114154a04104b4936797",
+      "readback_sha256": "2f13a9862c94d83734f1ab604ebf56dccae02d5b61a2c4514e44297a89667833",
+      "readback_bytes": 212186,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.timings.jsonl.gz",
+      "sha256": "291325baea1e0b89c4776a480e678fe0e27a6291b0b89191fee4de0f0f3fd48d",
+      "bytes": 34337,
+      "git_blob": "4455f90800db6a1fd69571a8170c867062f8640f",
+      "readback_sha256": "291325baea1e0b89c4776a480e678fe0e27a6291b0b89191fee4de0f0f3fd48d",
+      "readback_bytes": 34337,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00013.gz",
+      "sha256": "8e98aaf1f4b22f84f47c35d8576677aef5cd49e946e039188cd078658ab8cd66",
+      "bytes": 141067,
+      "git_blob": "17c56424ae83fb5db683cbe97b0a42bf562937d2",
+      "readback_sha256": "8e98aaf1f4b22f84f47c35d8576677aef5cd49e946e039188cd078658ab8cd66",
+      "readback_bytes": 141067,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00024.gz",
+      "sha256": "96153161966e4fbcbaeea3cff5d5222e6bf998eb5bfcacd4a6c64b4fb4be9d50",
+      "bytes": 213413,
+      "git_blob": "083a9a5d17b20c6d81c950b6a0fd286602ac46d1",
+      "readback_sha256": "96153161966e4fbcbaeea3cff5d5222e6bf998eb5bfcacd4a6c64b4fb4be9d50",
+      "readback_bytes": 213413,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00023.gz",
+      "sha256": "3a4234bffa986c23e947c1031759f05357fed6bbb20f23923c894c261c21ad9d",
+      "bytes": 216164,
+      "git_blob": "15231eab7b60662aabf4e80e16581bf008d1000d",
+      "readback_sha256": "3a4234bffa986c23e947c1031759f05357fed6bbb20f23923c894c261c21ad9d",
+      "readback_bytes": 216164,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.oracles.jsonl.prefix-00014.gz",
+      "sha256": "cb6022e3683dd7727b82dda7e7a428664ca2b744c9739fbfc40708c3874344b8",
+      "bytes": 155815,
+      "git_blob": "2ecc2f997ff1bc40e870e15d1176be95d3772e30",
+      "readback_sha256": "cb6022e3683dd7727b82dda7e7a428664ca2b744c9739fbfc40708c3874344b8",
+      "readback_bytes": 155815,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/landmark-stage-a-v2-calibration-02/landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348/workspace/evidence/qualification/landmark-stage-a-v2-calibration.json",
+      "sha256": "874ae2e5e6848afe4645bdfbe06ee49ca6bb34c1a23e9e95091883508d400201",
+      "bytes": 51874,
+      "git_blob": "41a444ac04d0ad818bf280820ff868100e0a0a5b",
+      "readback_sha256": "874ae2e5e6848afe4645bdfbe06ee49ca6bb34c1a23e9e95091883508d400201",
+      "readback_bytes": 51874,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-v2-calibration-batch-02/plan.json",
+      "sha256": "a290b5a5b4fe104ffec7a2f66085359cc36c57694bc80fc4b3d9763698aa7871",
+      "bytes": 940,
+      "git_blob": "53844e0a57386bd9179478efb3fed1d585f0d607",
+      "readback_sha256": "a290b5a5b4fe104ffec7a2f66085359cc36c57694bc80fc4b3d9763698aa7871",
+      "readback_bytes": 940,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-v2-calibration-batch-02/report.json",
+      "sha256": "811c9c578d43dba93e5e1d68ce18efa5f660d247e05baf8ca234f1aa6e563fcc",
+      "bytes": 10893,
+      "git_blob": "8d9e086eed2c8a6ad7c46de9543892a0061856b5",
+      "readback_sha256": "811c9c578d43dba93e5e1d68ce18efa5f660d247e05baf8ca234f1aa6e563fcc",
+      "readback_bytes": 10893,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-v2-calibration-batch-02/state.json",
+      "sha256": "fe0e49096325218e98a5087b73d532f43f4e9b69786c55da48fd03733e905feb",
+      "bytes": 10504,
+      "git_blob": "424712efb7fde96d710c7dd7e0fcfcd80a78e302",
+      "readback_sha256": "fe0e49096325218e98a5087b73d532f43f4e9b69786c55da48fd03733e905feb",
+      "readback_bytes": 10504,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-v2-calibration-batch-02/events.jsonl",
+      "sha256": "6944530d05691bcf8da9c101ca4e3e4ac4119d92bac9604854df87e14802cf19",
+      "bytes": 523,
+      "git_blob": "cef37645a8bb0a10895e6981875c3225394987c8",
+      "readback_sha256": "6944530d05691bcf8da9c101ca4e3e4ac4119d92bac9604854df87e14802cf19",
+      "readback_bytes": 523,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-v2-calibration-batch-02/tasks/landmark-stage-a-v2-calibration-02/execution-context.json",
+      "sha256": "29662a5b6bccc54347766d82722c93d607a65879fed239620dae6ea99bded094",
+      "bytes": 616,
+      "git_blob": "40164a71b88c31b14163fd0f4e643a720aca7b82",
+      "readback_sha256": "29662a5b6bccc54347766d82722c93d607a65879fed239620dae6ea99bded094",
+      "readback_bytes": 616,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-v2-calibration-batch-02/tasks/landmark-stage-a-v2-calibration-02/result.json",
+      "sha256": "35c28fc067dd520ee4766a6f800df1b62afb9d7ba60137445b788cedb26f729f",
+      "bytes": 9574,
+      "git_blob": "3723919ff5ae0e3fff2adf7ca60bf7b80fd3cce5",
+      "readback_sha256": "35c28fc067dd520ee4766a6f800df1b62afb9d7ba60137445b788cedb26f729f",
+      "readback_bytes": 9574,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-v2-calibration-batch-02/tasks/landmark-stage-a-v2-calibration-02/worker.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "readback_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "readback_bytes": 0,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-v2-calibration-batch-02/tasks/landmark-stage-a-v2-calibration-02/worker.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "readback_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "readback_bytes": 0,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-v2-calibration-batch-02/tasks/landmark-stage-a-v2-calibration-02/task.json",
+      "sha256": "db5a006a0150f78f71daec8e78c91c36f040ed6b77921ce7b648ab74481669cc",
+      "bytes": 464,
+      "git_blob": "dee5d204f22a7db196a0a22dd4150100caf38f09",
+      "readback_sha256": "db5a006a0150f78f71daec8e78c91c36f040ed6b77921ce7b648ab74481669cc",
+      "readback_bytes": 464,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/landmark-stage-a-v2-calibration-batch-02/tasks/landmark-stage-a-v2-calibration-02/process.json",
+      "sha256": "8523ceb46cc0f4d0429f258efa4f7de4b8dc5ae624eb950e03b4e349e57f281f",
+      "bytes": 88,
+      "git_blob": "dc6cfcc5532836f4afb16e7c3fa5a7bc842171ce",
+      "readback_sha256": "8523ceb46cc0f4d0429f258efa4f7de4b8dc5ae624eb950e03b4e349e57f281f",
+      "readback_bytes": 88,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/BUDGET_OBSERVATION.json",
+      "sha256": "f281d90d7b1cb73b357cfc09dc9690e5f4250079b7b93a634db186b5ac897851",
+      "bytes": 49654,
+      "git_blob": "773eee3de55bdb8ac375b22ddedf1ef48cdb5468",
+      "readback_sha256": "f281d90d7b1cb73b357cfc09dc9690e5f4250079b7b93a634db186b5ac897851",
+      "readback_bytes": 49654,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/v2-calibration-postexit.json",
+      "sha256": "386806fb96a057e867c56ac685bff1b7d67019ead55dc9286d5aa5278827e3cd",
+      "bytes": 24214,
+      "git_blob": "d1514d5d7a171d0263a1bb60fdf681d3d1f45905",
+      "readback_sha256": "386806fb96a057e867c56ac685bff1b7d67019ead55dc9286d5aa5278827e3cd",
+      "readback_bytes": 24214,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/landmark-stage-a-v2-calibration-02.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "readback_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "readback_bytes": 0,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/landmark-stage-a-v2-calibration-02.stdout.log",
+      "sha256": "811c9c578d43dba93e5e1d68ce18efa5f660d247e05baf8ca234f1aa6e563fcc",
+      "bytes": 10893,
+      "git_blob": "8d9e086eed2c8a6ad7c46de9543892a0061856b5",
+      "readback_sha256": "811c9c578d43dba93e5e1d68ce18efa5f660d247e05baf8ca234f1aa6e563fcc",
+      "readback_bytes": 10893,
+      "match": true
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/landmark-stage-a-v2-calibration-02.json",
+      "sha256": "078ed725715469548abeaeddaf7b671e29099abb986ea01ddc06ca51961f6b37",
+      "bytes": 849,
+      "git_blob": "c60351e75dc70ac445847421e046bf1dcb8db46f",
+      "readback_sha256": "078ed725715469548abeaeddaf7b671e29099abb986ea01ddc06ca51961f6b37",
+      "readback_bytes": 849,
+      "match": true
+    }
+  ]
+}
