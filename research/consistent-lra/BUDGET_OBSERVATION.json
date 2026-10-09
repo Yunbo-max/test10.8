@@ -244,6 +244,20 @@
     "scope": "bounded primary retrieval and semantic comparison only; not independent adjudication of its authored v7 card",
     "status": "bounded_primary_retrieval_complete;known_2005_components;priority_inconclusive;not_independent_adjudication"
   },
+  "completed_window02_integer_projector_calibration_evidence_review": {
+    "assignment_number": 149,
+    "record": "INTEGER_PROJECTOR_CALIBRATION_EVIDENCE_REVIEW_WINDOW02.md",
+    "reviewed_commit": "db7abf9d6bdfa57ef93359b79c6ccbbd9aa7b0fe",
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "verdict": "accepted_all5root_finite_math_execution_and_cost_only"
+  },
+  "completed_window02_integer_projector_calibration_plan_review": {
+    "assignment_number": 147,
+    "commit": "b08e1c831e8aab1a6ee038bebc7d267dab612ae2",
+    "record": "INTEGER_PROJECTOR_CALIBRATION_PLAN_REVIEW_WINDOW02.md",
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "verdict": "accepted_one_finite_exact_arithmetic_calibration_only"
+  },
   "completed_window02_integer_projector_cost_review": {
     "assignment_number": 143,
     "record": "INTEGER_PROJECTOR_COST_REVIEW_WINDOW02.md",
@@ -704,7 +718,7 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:57:46.729431+00:00",
+  "observed_at": "2026-10-09T12:57:51.614962+00:00",
   "observed_process_cpu_seconds": 294.840397108,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -720,6 +734,11 @@
   "pending_formal_review": null,
   "pending_rice_skin_identity_evidence_review": null,
   "pending_source_review": null,
+  "pending_window02_approximate_dependency_review": {
+    "assignment_number": 150,
+    "reviewer": "/root/window02_geometric_formal_review",
+    "scope": "existing target paper proof dependency only no code/experiments or discovery"
+  },
   "pending_window02_calibration_evidence_review": null,
   "pending_window02_condition_derivation": null,
   "pending_window02_condition_review": null,
@@ -735,10 +754,16 @@
   "pending_window02_geometric_review": null,
   "pending_window02_integer_collision_review": null,
   "pending_window02_integer_priority_audit": null,
+  "pending_window02_integer_projector_calibration_evidence_review": null,
   "pending_window02_integer_projector_cost_review": null,
   "pending_window02_integer_projector_design_review": null,
   "pending_window02_integer_projector_plan_review": null,
   "pending_window02_integer_projector_source_review": null,
+  "pending_window02_integer_projector_target_plan_review": {
+    "assignment_number": 152,
+    "execution_admitted": false,
+    "reviewer": "/root/window02_consecutive_condition_review"
+  },
   "pending_window02_integer_witness_design_review": null,
   "pending_window02_integer_witness_evidence_review": null,
   "pending_window02_integer_witness_plan_review": null,
@@ -843,15 +868,15 @@
     },
     {
       "assignment_number": 149,
-      "record": "INTEGER_PROJECTOR_CALIBRATION_EVIDENCE_REVIEW_WINDOW02.md",
-      "self_cpu_seconds": 0.478734518,
       "git_cpu_seconds": 0.156598,
+      "record": "INTEGER_PROJECTOR_CALIBRATION_EVIDENCE_REVIEW_WINDOW02.md",
+      "scientific_gate_advanced": false,
+      "self_cpu_seconds": 0.478734518,
       "total_cpu_seconds": 0.635332518,
-      "wall_seconds": 0.628058674,
-      "scientific_gate_advanced": false
+      "wall_seconds": 0.628058674
     }
   ],
-  "registered_task_assignments": 150,
+  "registered_task_assignments": 152,
   "remaining_wall_seconds_at_observation": 15735.600932,
   "reservation": {
     "actual_max_rss_kib": 99788,
@@ -1153,7 +1178,9 @@
     "window02-integer-projector-calibration-plan-independent-review",
     "window02-integer-projector-representative-calibration-execution",
     "window02-integer-projector-calibration-evidence-independent-review",
-    "window02-approximate-proof-dependency-independent-source-math-audit"
+    "window02-approximate-proof-dependency-independent-source-math-audit",
+    "window02-integer-projector-full61-plan-generation",
+    "window02-integer-projector-full61-plan-independent-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1229,33 +1256,47 @@
     "wall_seconds_upper_bound": 360
   },
   "window02_integer_projector_calibration_reservation": {
+    "actual_harness_wall_seconds": 1.0842821660044137,
+    "attempt_id": "exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef",
+    "attempts_charged": 1,
+    "attempts_completed": 1,
     "attempts_launched": 1,
     "attempts_reserved": 1,
     "cpu_cores": 1,
     "execution_admitted": true,
+    "execution_status": "accepted_all5root_finite_math_execution_and_cost_only",
     "harness_plan_digest": "6c865767df21755e10f2a8e1f6ac245631c2b2398f8b29cdd63db7a4ceffcfe1",
+    "maximum_child_rss_kib": 24832,
     "native_plan_digest": "c45b24bc770b9de7ecfe0ae99306a6e11e45228e6a2ea22832e949c5b75c1165",
+    "prelaunch_observation": {
+      "active_matching_processes": [],
+      "cpu_max": "800000 100000",
+      "memory_max_bytes": 8589934592,
+      "observed_at": "2026-10-09T12:52:45.837032+00:00",
+      "process_inventory_method": "proc exactargvbasename",
+      "remaining_wall_seconds": 15777.162968
+    },
     "ram_mib_reserved_not_enforced": 256,
+    "release_basis": "terminalnestedreceipt and postexit outputreadbacks; independent process reconciliation pending",
     "released": true,
     "scope": "existing_lemma_exact_rational_projector_certificate_cost_only",
     "task": "exact-integer-projector-calibration-02",
-    "wall_seconds_upper_bound": 120,
-    "attempts_charged": 1,
-    "execution_status": "accepted_all5root_finite_math_execution_and_cost_only",
-    "prelaunch_observation": {
-      "observed_at": "2026-10-09T12:52:45.837032+00:00",
-      "cpu_max": "800000 100000",
-      "memory_max_bytes": 8589934592,
-      "active_matching_processes": [],
-      "remaining_wall_seconds": 15777.162968,
-      "process_inventory_method": "proc exactargvbasename"
-    },
-    "attempt_id": "exact-projector-cost-calibration-a1-296a0df7b9d241ec8e6db08927ce7fef",
-    "attempts_completed": 1,
-    "release_basis": "terminalnestedreceipt and postexit outputreadbacks; independent process reconciliation pending",
     "waited_process_tree_cpu_seconds": 0.676085,
-    "actual_harness_wall_seconds": 1.0842821660044137,
-    "maximum_child_rss_kib": 24832
+    "wall_seconds_upper_bound": 120
+  },
+  "window02_integer_projector_target_reservation": {
+    "attempts_launched": 0,
+    "attempts_reserved": 1,
+    "calibrated_cost_envelope_seconds": 93.975417497335,
+    "cpu_cores": 1,
+    "execution_admitted": false,
+    "harness_plan_digest": "6986ad275e6cd1441a5f55c68ffd38741dafaa4c7b187de2b812b83e886eb993",
+    "native_plan_digest": "fbb52f2e5b6f16974f8ffaaff329cabad803909189d732142388a71f304c05e9",
+    "ram_mib_reserved_not_enforced": 256,
+    "released": false,
+    "scope": "existing_lemma_full61_exact_integer_projector_lower_bound_only",
+    "task": "exact-integer-projector-target61-02",
+    "wall_seconds_upper_bound": 360
   },
   "window02_integer_witness_plan_history": [
     {
@@ -1489,25 +1530,5 @@
     "package": "c23/research-autopilot",
     "source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
     "version": "0.2.0-autonomous.2"
-  },
-  "completed_window02_integer_projector_calibration_plan_review": {
-    "assignment_number": 147,
-    "reviewer": "/root/window02_consecutive_condition_review",
-    "commit": "b08e1c831e8aab1a6ee038bebc7d267dab612ae2",
-    "record": "INTEGER_PROJECTOR_CALIBRATION_PLAN_REVIEW_WINDOW02.md",
-    "verdict": "accepted_one_finite_exact_arithmetic_calibration_only"
-  },
-  "pending_window02_integer_projector_calibration_evidence_review": null,
-  "pending_window02_approximate_dependency_review": {
-    "assignment_number": 150,
-    "reviewer": "/root/window02_geometric_formal_review",
-    "scope": "existing target paper proof dependency only no code/experiments or discovery"
-  },
-  "completed_window02_integer_projector_calibration_evidence_review": {
-    "assignment_number": 149,
-    "reviewer": "/root/window02_consecutive_condition_review",
-    "reviewed_commit": "db7abf9d6bdfa57ef93359b79c6ccbbd9aa7b0fe",
-    "record": "INTEGER_PROJECTOR_CALIBRATION_EVIDENCE_REVIEW_WINDOW02.md",
-    "verdict": "accepted_all5root_finite_math_execution_and_cost_only"
   }
 }
