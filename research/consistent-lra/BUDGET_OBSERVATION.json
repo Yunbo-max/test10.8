@@ -662,7 +662,7 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:26:25.451563+00:00",
+  "observed_at": "2026-10-09T12:31:15.139413+00:00",
   "observed_process_cpu_seconds": 293.196099082,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -782,7 +782,7 @@
       "scope": "independent recordedscalar recomputation; no sourceimport/qualifierrerun"
     }
   ],
-  "registered_task_assignments": 139,
+  "registered_task_assignments": 141,
   "remaining_wall_seconds_at_observation": 18801.791587,
   "reservation": {
     "actual_max_rss_kib": 99788,
@@ -1073,7 +1073,9 @@
     "window02-integer-witness-source-publication-rereview",
     "window02-integer-witness-execution",
     "window02-integer-witness-evidence-independent-review",
-    "window02-integer-correction-independent-primary-collision-and-scope-review"
+    "window02-integer-correction-independent-primary-collision-and-scope-review",
+    "window02-integer-projector-certificate-math-design",
+    "window02-integer-projector-certificate-independent-math-design-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1399,5 +1401,11 @@
     "scope": "independent priorart and correction scope audit existingv7; no newdiscovery or papereligibility",
     "maximum_new_queries": 8,
     "maximum_new_primary_fulltexts": 3
+  },
+  "pending_window02_integer_projector_design_review": {
+    "assignment_number": 141,
+    "reviewer": "/root/window02_scorer_scope_review",
+    "scope": "existinglemma exactinterval certificate math/design only",
+    "source_or_execution_admitted": false
   }
 }
