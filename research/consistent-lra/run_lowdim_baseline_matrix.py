@@ -52,6 +52,13 @@ def fsync_directory(path: Path) -> None:
         os.close(descriptor)
 
 
+def publish_no_replace(partial: Path, output: Path) -> None:
+    """Atomically publish without overwriting a concurrently created final."""
+    os.link(partial, output, follow_symlinks=False)
+    partial.unlink()
+    fsync_directory(output.parent)
+
+
 def cohort_configs(name: str, dataset: str, source: str, k: int, d: int):
     c_values = list(C_SENSITIVITY)
     if name == "skin-k2":
@@ -115,8 +122,7 @@ def deterministic_archive(output: Path, members: list[tuple[Path, str]]) -> str:
             observed[member.name] = hashlib.sha256(extracted.read()).hexdigest()
     if observed != expected:
         raise ValueError(f"archive verification failed for {output.name}")
-    os.replace(partial, output)
-    fsync_directory(output.parent)
+    publish_no_replace(partial, output)
     return sha256(output)
 
 
@@ -132,14 +138,13 @@ def run(args) -> None:
                      for name, _, _, _, _ in cohorts}
     staging = output.parent / "lowdim-matrix-raw-v2"
     final_paths = [output, *archive_paths.values()]
-    resolved = [path.resolve() for path in final_paths]
+    partial_paths = [path.with_name(path.name + ".partial")
+                     for path in final_paths]
+    candidates = [*final_paths, *partial_paths, staging]
+    resolved = [path.resolve() for path in candidates]
     if len(set(resolved)) != len(resolved):
-        raise ValueError("manifest and archive output paths must be distinct")
-    occupied = [str(path) for path in final_paths if path.exists()]
-    occupied += [str(path) for path in archive_paths.values()
-                 if path.with_name(path.name + ".partial").exists()]
-    if staging.exists():
-        occupied.append(str(staging))
+        raise ValueError("manifest, archives, partials and staging paths must be distinct")
+    occupied = [str(path) for path in candidates if path.exists()]
     if occupied:
         raise FileExistsError("final output path already exists: " + ", ".join(occupied))
     thread_names = ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS",
@@ -252,25 +257,37 @@ def run(args) -> None:
             summary = staging / record["summary_member"]
             if sha256(raw) != record["raw_sha256"] or sha256(summary) != record["summary_sha256"]:
                 raise ValueError("retained member changed before manifest publication")
+    expected_hashes = {}
+    for cohort in manifest["cohorts"]:
+        expected_hashes[cohort["archive"]] = cohort["archive_sha256"]
+        for record in cohort["records"]:
+            expected_hashes[f"lowdim-matrix-raw-v2/{record['raw_member']}"] = record["raw_sha256"]
+            expected_hashes[f"lowdim-matrix-raw-v2/{record['summary_member']}"] = record["summary_sha256"]
     tracked_paths = [*archive_paths.values(), *sorted(staging.iterdir())]
-    manifest["publication_observations"] = {
-        path.relative_to(output.parent).as_posix(): {
+    observations = {}
+    for path in tracked_paths:
+        relative = path.relative_to(output.parent).as_posix()
+        status = path.stat()
+        observations[relative] = {
             "sha256": sha256(path),
-            "bytes": path.stat().st_size,
-            "inode": path.stat().st_ino,
-            "mtime_ns": path.stat().st_mtime_ns,
-            "ctime_ns": path.stat().st_ctime_ns,
+            "bytes": status.st_size,
+            "inode": status.st_ino,
+            "mtime_ns": status.st_mtime_ns,
+            "ctime_ns": status.st_ctime_ns,
         }
-        for path in tracked_paths
-    }
+    if set(observations) != set(expected_hashes):
+        raise ValueError("publication inventory differs from expected inventory")
+    if any(observations[path]["sha256"] != expected
+           for path, expected in expected_hashes.items()):
+        raise ValueError("publication bytes changed before manifest publication")
+    manifest["publication_observations"] = observations
     partial_manifest = output.with_name(output.name + ".partial")
     with partial_manifest.open("x", encoding="utf-8") as stream:
         json.dump(manifest, stream, allow_nan=False, indent=2)
         stream.write("\n")
         stream.flush()
         os.fsync(stream.fileno())
-    os.replace(partial_manifest, output)
-    fsync_directory(output.parent)
+    publish_no_replace(partial_manifest, output)
     print(json.dumps({"output": str(output), "usage": manifest["usage"],
                       "arms": 39, "scientific_gate_advanced": False}))
 
