@@ -5,7 +5,7 @@
   "initial_candidate_commit": "22d6ae44b52489e643495d2b02b550032777b1d5",
   "initial_assignment_commit": "8bb842c7f92fd7ae92fe06d753186a5246beee32",
   "initial_verdict": "needs_correction",
-  "corrected_candidate_commit": null,
+  "corrected_candidate_commit": "2dc532076a9a09541c975fd462a496edf6dd89e1",
   "candidate_paths": [
     "research/consistent-lra/LANDMARK_SOURCE_ACQUISITION_20261009.md",
     "research/consistent-lra/inspect_landmark_source.py",
