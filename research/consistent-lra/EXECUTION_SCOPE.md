@@ -27,3 +27,7 @@ Initial concurrent scientific experiment processes: at most one until actual cal
 A future scheduled invocation may have a fresh filesystem. Restore code from the exact latest approved branch commit and acquire pinned native data through supported sources; validate byte identities. Do not treat scratch paths from this turn as persistent. Save small raw evidence in GitHub before ending. Unknown large-asset destinations remain an explicit gap.
 
 The Python RSI runtime/controller, ACP backends and unattended daemon are not installed or configured by this packet. Current Work plus its real finite schedule follows the pinned workflow instructions; it is not claimed to be a deployed SQLite/ACP supervisor.
+
+## Actual preparation execution: 2026-10-09
+
+One engineering source-integrity task ran through the pinned project-local CPU harness, with zero GPU. Workload CPU 0.190072s, wall 0.165110690s, peakRSS 99788KiB, exit0. Full receipt, original inputs and staged source are retained under runs/. Separate environment observation confirms cgroup quota8 cores and memory8589934592 bytes; CPU affinity9 is not a nine-core quota. The harness's host inspection does not itself read this cgroup limit. No scientific numerical task has started. No background process continuity across invocations is claimed.

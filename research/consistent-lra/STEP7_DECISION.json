@@ -1,0 +1,39 @@
+{
+  "format": "evidence-bound-worker-planning-decision-v1",
+  "observed_at": "2026-10-09T00:20:33.782905+00:00",
+  "rsi_source_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
+  "canonical_controller_run": false,
+  "decision": 3,
+  "action": "revisit existing-paper mathematical premise and downstream proof; audit novelty before claiming a correction paper",
+  "basis": [
+    {
+      "path": "FORMAL_AUDIT_v2.md",
+      "sha256": "0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477"
+    },
+    {
+      "path": "FORMAL_AUDIT_v2_REVIEW.md",
+      "independent_reviewers": [
+        "/root/baseline_audit",
+        "/root/execution_capability"
+      ]
+    }
+  ],
+  "blocked_descendants": {
+    "native_numerical_qualification": "authentic official runnable scorer/interface absent",
+    "Landmark": "native asset response-size limit and pending license",
+    "new_method_discovery": "qualified Parent/Gate0/IPCG and residual failures pending",
+    "candidate_code_dispatch": "no qualified method pool/G01/native scorer",
+    "eligible_writing": "originality and downstream significance unresolved; no validated numerical improvement"
+  },
+  "preparation_exit_zero_is_scientific_pass": false,
+  "gate_advanced": false,
+  "eligible_new_papers": 0,
+  "continued_independent_work": [
+    "precise target theorem dependencies",
+    "rank-one spectral prior-art equivalence/citation expansion",
+    "possible repaired mathematical statement"
+  ],
+  "reason_not_terminal": "finite productive mathematical/source tasks remain; deadline unchanged",
+  "next_restore": "resolve immutable branch head and retained real bytes; never rerun completed preparation or bootstrap immediate request",
+  "note": "This is the in-place worker mapping its actual evidence to the pinned RSI return-to-math route, not a fabricated ACP/SQLite controller receipt or gate verdict."
+}

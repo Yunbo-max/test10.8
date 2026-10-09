@@ -1,0 +1,13 @@
+# Resume from actual durable evidence
+
+One writer owns research/consistent-lra/ on consistent-lra-rsi. Resolve and pin the branch head; read all eight control files and referenced artifacts at that same commit. Preserve the original clock anchor and deadline. Reconcile the same background task identity and all outstanding reservations before dispatch. Do not replay the bootstrap immediate request.
+
+Completed source-integrity-01 is historical preparation, not pending work. Restore its actual workspace and logs if verifying its receipt; never rerun it merely because its old PID is absent. Historical absolute cwd/root paths are retained exactly. For read-only hash verification on a new host, resolve project-relative refs against the newly restored root and preserve historical receipt bytes. The workspace baseline remains the original ce279... hash even though the root has a repaired draft.
+
+Earliest scientific admission gap: authentic official runnable scorer interface/parity under the pinned runtime (vendor/rsi/SCORER_BLOCKER.md). Landmark data access is separately blocked. Pending dependencies stay pending; a corrected formula is not automatically an official scoring implementation. No engineering relabel of numerical work and no fabricated method-verification pass.
+
+Productive independent route: the existing-paper formal audit. FORMAL_AUDIT_v2.md is fixed at SHA256 0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477, with two scoped independent symbolic reviews in FORMAL_AUDIT_v2_REVIEW.md. Continue primary-literature collision analysis and downstream theorem/Algorithm4 proof dependencies. Preserve the narrow supported conclusion and all gaps. Do not generate a new-method pool or result papers before their separate prerequisites.
+
+Numerical drafts baseline_qualify.py/native_baselines.py have source reviews and real command interfaces, but have not been numerically qualified or scientifically admitted. FD parity, full sensitivity, published-normalized random identity, complete four-family G01 and Landmark evidence remain pending. Before any future admitted numerical attempt, remeasure cgroup quota/memory, reserve finite resources, calibrate runtime/RSS, use <=8 aggregate numerical threads and one scientific job; preserve receipt-bound basis/score/prefix evidence. A developmental run is not fresh confirmation.
+
+At the deadline: open no new rounds/experiments; collect/save/read back truthful evidence and disable only this same task. Current continuation is retained because scoped formal source/dependency work is still productive, not for indefinite monitoring.

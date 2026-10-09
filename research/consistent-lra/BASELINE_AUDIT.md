@@ -46,3 +46,7 @@ Section 4 reports a greater-than-400-fold recourse separation. These inspected s
 - https://github.com/samsonzhou/consistent-LRA/blob/d607c4f6467216c470d1e3b93989d44d5fcdec97/consistent-lra-rice.py
 - https://github.com/samsonzhou/consistent-LRA/blob/d607c4f6467216c470d1e3b93989d44d5fcdec97/consistent-lra-skin.py
 - https://proceedings.iclr.cc/paper_files/paper/2026/file/b14d76c7266be21b338527cd25deac45-Paper-Conference.pdf
+
+## Versioned repair and later source review
+
+REPAIR_CONTRACT_v1.md freezes the intended numerical semantics. BASELINE_DRAFT_REVIEW.md records exact code versions and independent correction findings. Code drafts are unexecuted numerically; no corrected scientific comparison or FD qualification is complete. Historical source-integrity preparation uses the old draft and must not be relabeled proof of the repaired draft. Official scorer admission remains blocked as recorded in vendor/rsi/SCORER_BLOCKER.md.

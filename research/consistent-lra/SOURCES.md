@@ -16,12 +16,13 @@ This records actual source reading and source identities, not reproduced experim
 | consistent-fd.py | 294438ac128556f01a2c3d920bdb4f1225dd819f | Full source read by parent and independent audit worker |
 | consistent-lra-rice.py | eb8e4e97a9538a14dd6b72d5e271b36c96c05e7c | Full source read by parent and independent audit worker |
 | consistent-lra-skin.py | 9581652064a08f5b282cee83286ec7c72ac0fdad | Full source read by parent and independent audit worker |
-| Rice_Cammeo_Osmancik.arff | 745655b79f4ca46a3a65a0a8653bd792fa6f7c31 | Directory identity observed; data bytes/access qualification pending |
-| Skin_NonSkin.txt | fc58dda2eaf5b1f0d2d8c7924a298cd7d14ba17d | Directory identity observed; data bytes/access qualification pending |
+| Rice_Cammeo_Osmancik.arff | 745655b79f4ca46a3a65a0a8653bd792fa6f7c31 | Actual bytes/hash/source-order inspected; numerical qualification pending |
+| Skin_NonSkin.txt | fc58dda2eaf5b1f0d2d8c7924a298cd7d14ba17d | Actual bytes/hash/source-order inspected; numerical qualification pending |
 | landmark.mtx | 4c63060bbefcb38e0c705cea1f883d2fb7121f2c | Directory identity observed; data bytes/access qualification pending |
-| consistent-lra-random.py / random-fast.py | Not yet pinned in this packet | Actual generator/source reading pending |
+| consistent-lra-random.py | cfe96c16b699a96720e41cc36ab36a25a45b4627 | Full source read; unseeded integer generator, unscaled |
+| consistent-lra-random-fast.py | 4edc0664ac183391af3a761e429c67947a61cc1e | Full source read; different 3000x100/k20 family |
 
-The paper's formal objective, core bounds, Algorithm 4 and empirical Sections 4/G were inspected. A full theorem-by-theorem proof verification has not been performed. Source inspection does not establish any theorem defect. The source defects below do not prove that the figures used these exact code paths; figure-generation provenance remains pending.
+The paper's formal objective, core bounds, Algorithm 4 and empirical Sections 4/G were inspected. A full theorem-by-theorem proof verification has not been performed. Initial source inspection alone did not establish any theorem defect. The later, separate FORMAL_AUDIT_v2.md and its two independent symbolic reviews establish a scoped counterexample to Lemma 2.1; they do not establish a blanket main-theorem failure. The source defects below do not prove that the figures used these exact code paths; figure-generation provenance remains pending.
 
 ## Independent source audit
 
@@ -38,4 +39,14 @@ Current Work identity is supplied by the host context. Real automation identity,
 
 ## Outstanding reading and qualification
 
-Actual data contents and official provenance/access/license; published random generator and preprocessing; full native scorer reconciliation; faithful strong/simple baseline implementations; current novelty/collision audit; independent mathematical pool review/ranking; G01, numerical semantics, actual costs, E04 and confirmation. All remain pending.
+Rice/Skin native byte identity, source order, labels and UCI metadata/license have now been inspected. Generator/preprocessing code and relevant proof sections are recorded in SOURCE_JOIN_20261009.md. Remaining: Landmark acquisition/license, original random draw and normalization provenance, authentic native scorer reconciliation, qualified strong/simple baselines, completed collision audit, independent new-method pool review/ranking, full G01, numerical costs/results, scientific E04 and fresh confirmation.
+
+## 2026-10-09 retained evidence and primary-source additions
+
+The original source/data copies and their attribution are preserved in originals/ and ORIGINALS_ATTRIBUTION.md. Actual preparation receipt and inputs are preserved under runs/; see PREPARATION_REVIEW_20261009.md. Source-integrity output SHA256 b5d87432c73b0500cd0e0909aed9e6b50be130c57d39ffd7e6cf1ae9d9bbf0b9.
+
+Relevant target proofs read: main Algorithm4 argument, Appendix E.1/E.2 and empirical Appendix G. Lemma2.1 has a separately verified finite real-matrix counterexample; other theorem dependencies remain pending. ArXiv https://arxiv.org/abs/2603.02148 showed v1 (2 March 2026) in the inspected submission history; its assertion is Lemma2.3.
+
+Canonical FD source read: edoliberty/frequent-directions@691df9edb2ffbc2fdddc2cec3b703a3f1e438d4d, frequentDirections.py blob4bb3500cbea9c81c21cbeea5cd5db60ac4006d3d. Buffer/shrink/get behavior differs from the author variant and has not been parity-qualified.
+
+New primary mathematical source locators, actual reading scopes and unresolved equivalence/novelty questions are in NOVELTY_PRELIMINARY_20261009.md. No source full-text hash is asserted where only web full-text retrieval was available. Repeated target proof in Accelerating Scientific Research with Gemini was read at Theorem7.33 only.

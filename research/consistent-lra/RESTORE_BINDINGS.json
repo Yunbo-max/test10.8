@@ -1,0 +1,36 @@
+{
+  "format": "historical-preparation-restore-bindings-v1",
+  "original_source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
+  "receipt_bytes_preserved": true,
+  "historical_workspace": "runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/workspace",
+  "code_ref_resolution": [
+    {
+      "receipt_path": "inspect_sources.py",
+      "retained_workspace_path": "runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/workspace/inspect_sources.py",
+      "sha256": "15158a9e14b52d6fe60291db530a2ee8d645babfe5d6cf9163fb3faad16e1c47"
+    },
+    {
+      "receipt_path": "baseline_qualify.py",
+      "retained_workspace_path": "runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/workspace/baseline_qualify.py",
+      "sha256": "d5566e2177064d0ddd9f940323ca7d10dfb0d9fef14d93f8ba6d16bde54dd934"
+    },
+    {
+      "receipt_path": "native_baselines.py",
+      "retained_workspace_path": "runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/workspace/native_baselines.py",
+      "sha256": "ce279d41df2aa4ef76464acac720e94318e2b858b3f8ad2c94a59b51d9eba3e5"
+    }
+  ],
+  "input_ref_resolution": [
+    {
+      "receipt_path": "originals/Rice_Cammeo_Osmancik.arff",
+      "retained_workspace_path": "runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/workspace/originals/Rice_Cammeo_Osmancik.arff",
+      "git_blob": "745655b79f4ca46a3a65a0a8653bd792fa6f7c31"
+    },
+    {
+      "receipt_path": "originals/Skin_NonSkin.txt",
+      "retained_workspace_path": "runs/attempts/source-integrity-01/source-integrity-01-a1-df9182beef074d5a89706627a4bd2a36/workspace/originals/Skin_NonSkin.txt",
+      "git_blob": "fc58dda2eaf5b1f0d2d8c7924a298cd7d14ba17d"
+    }
+  ],
+  "note": "Restore these bytes at the same new pinned destination commit. The current root baseline draft has advanced; it is not the historical receipt code. Old absolute process/root paths are records only, not current process identities."
+}

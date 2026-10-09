@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T00:07:38.180541+00:00",
+  "observed_at": "2026-10-09T00:20:33.782905+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 5,
-  "executable_attempts_dispatched": 0,
+  "registered_task_assignments": 8,
+  "executable_attempts_dispatched": 1,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 0,
+  "observed_process_cpu_seconds": 0.190072,
   "reservation": {
     "task": "source-integrity-01",
     "purpose": "mechanical_preparation_only",
@@ -21,7 +21,9 @@
     "wall_seconds_upper_bound": 60,
     "cpu_seconds_upper_bound": 60,
     "attempts": 1,
-    "released": false
+    "released": true,
+    "actual_workload_wall_seconds": 0.16511069000262069,
+    "actual_max_rss_kib": 99788
   },
   "failure_history": [
     {
@@ -38,13 +40,23 @@
     }
   ],
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
-  "independent_work": "source_preparation_and_existing_paper_formal_proof_audit",
+  "independent_work": "existing-paper formal counterexample, independent symbolic reviews, collision and downstream proof audit",
   "task_assignments": [
     "source_join_review",
     "harness_staging_review",
     "qualification_source_review",
     "lemma21_formal_review",
-    "source-integrity-01"
+    "source-integrity-01",
+    "unique-spectrum-counterexample-review",
+    "second-unique-spectrum-counterexample-review",
+    "corrected-baseline-draft-source-review"
   ],
-  "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured."
+  "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
+  "preparation_receipt_ref": {
+    "path": "runs/attempts/source-integrity-01/receipt.json",
+    "sha256": "abe68964844ec38e356b6c1573f615ea6319756185361d4a0eedf49dbbb0d378"
+  },
+  "remaining_wall_seconds_at_observation": 26831.217095,
+  "verified_scientific_failures_by_direction": {},
+  "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run."
 }

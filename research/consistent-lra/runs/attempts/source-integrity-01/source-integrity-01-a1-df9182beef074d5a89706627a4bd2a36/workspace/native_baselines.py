@@ -6,7 +6,6 @@ and be dispatched through a pinned RSI scientific harness protocol before use.
 """
 import argparse
 import hashlib
-import io
 import json
 import random
 import resource
@@ -29,7 +28,7 @@ def load_stream(args):
         if blob_digest(raw) != LANDMARK_BLOB:
             raise ValueError("Landmark source identity mismatch")
         # Slice sparsely before densifying; never allocate all 71952 rows.
-        sparse = mmread(io.BytesIO(raw)).tocsr()
+        sparse = mmread(args.source).tocsr()
         if sparse.shape != (71952, 2704):
             raise ValueError("Landmark source dimensions mismatch")
         a = sparse[:5000].toarray().astype(np.float64)
@@ -60,8 +59,6 @@ class RefreshBaseline:
         self.refreshes = 0
 
     def update(self, t, energy):
-        if not np.isfinite(energy):
-            raise ValueError("nonfinite stream energy")
         warmup = t <= self.k
         refresh = warmup or len(self.q) == 0
         if self.mode == "fresh":
@@ -73,10 +70,7 @@ class RefreshBaseline:
         elif self.mode != "fixed":
             raise ValueError("unknown refresh baseline")
         if refresh:
-            if energy == 0:
-                self.q = np.eye(self.matrix.shape[1])[:min(self.k, t)].copy()
-            else:
-                self.q, _ = top_basis(self.matrix[:t], self.k)
+            self.q, _ = top_basis(self.matrix[:t], self.k)
             self.energy_at_refresh = energy
             self.refreshes += 1
         return self.q.copy(), refresh, warmup
@@ -115,7 +109,7 @@ class FrequentDirectionsBaseline:
 def make_arm(args, matrix):
     if args.arm == "fd":
         return FrequentDirectionsBaseline(matrix, args.k, args.ell)
-    if args.arm == "algorithm4" and (not np.isfinite(args.c) or not args.c > 1):
+    if args.arm == "algorithm4" and not args.c > 1:
         raise ValueError("c must be greater than1")
     if args.arm == "periodic" and args.interval <= 0:
         raise ValueError("period must be positive")
@@ -129,29 +123,20 @@ def run(args):
     matrix, native = load_stream(args)
     if args.k < 1 or args.k >= matrix.shape[1]:
         raise ValueError("require1<=k<d for nontrivial audit")
-    if not np.isfinite(matrix).all():
-        raise ValueError("nonfinite native input")
     arm = make_arm(args, matrix)
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
     previous = None
-    cumulative = steady = update_total = scoring_total = reference_total = energy_total = 0.0
+    cumulative = steady = update_total = scoring_total = reference_total = 0.0
     finite_ratios = []
     excluded = zero_violations = 0
     energy = 0.0
     with output.open("w", encoding="utf-8") as stream:
         for t in range(1, len(matrix) + 1):
-            then = time.perf_counter()
             energy += float(np.dot(matrix[t - 1], matrix[t - 1]))
-            energy_time = time.perf_counter() - then
-            energy_total += energy_time
-            if not np.isfinite(energy):
-                raise ValueError("nonfinite energy")
             then = time.perf_counter()
             q, updated, warmup = arm.update(t, energy)
             update_time = time.perf_counter() - then
-            if args.arm == "algorithm4":
-                update_time += energy_time
             update_total += update_time
             # Fresh prefix OPT has no access to the arm's retained basis.
             then = time.perf_counter()
@@ -161,8 +146,6 @@ def run(args):
             reference_total += reference_time
             then = time.perf_counter()
             loss = score_direct(matrix[:t], q)
-            if not np.isfinite(q).all() or not np.isfinite(loss) or not np.isfinite(optimal):
-                raise ValueError("nonfinite arm basis or score")
             orthogonality = float(np.linalg.norm(q @ q.T - np.eye(len(q)), ord="fro"))
             if orthogonality > 1e-10 * max(1, len(q)):
                 raise ValueError("nonorthonormal arm output")
@@ -193,7 +176,6 @@ def run(args):
                       "recourse_increment": increment, "recourse": cumulative,
                       "steady_recourse": steady, "orthogonality_error": orthogonality,
                       "update_seconds": update_time, "reference_seconds": reference_time,
-                      "energy_maintenance_seconds": energy_time,
                       "scoring_seconds": scoring_time, "basis": q.tolist()}
             stream.write(json.dumps(record, allow_nan=False, separators=(",", ":")) + "\n")
             previous = q.copy()
@@ -206,31 +188,16 @@ def run(args):
                "ratio_median": float(np.median(finite_ratios)) if finite_ratios else None,
                "ratio_max": float(np.max(finite_ratios)) if finite_ratios else None,
                "final_recourse": cumulative, "final_steady_recourse": steady,
-               "raw_sha256": file_sha256(output),
+               "raw_sha256": hashlib.sha256(output.read_bytes()).hexdigest(),
                "usage": {"pipeline_seconds": time.perf_counter() - start,
                          "update_seconds": update_total, "reference_seconds": reference_total,
                          "scoring_seconds": scoring_total, "max_rss_kib": cpu_end.ru_maxrss,
-                         "energy_maintenance_seconds": energy_total,
                          "cpu_seconds": cpu_end.ru_utime + cpu_end.ru_stime - cpu_start.ru_utime - cpu_start.ru_stime},
                "confirmation": False, "scientific_gate_advanced": False,
                "low_recourse_theorem_transferred": False,
-               "zero_energy_convention": ("refresh canonical first min(k,t) coordinate directions"
-                                          if args.arm != "fd" else "FD numpy_svd_library_tie_policy_pending_qualification"),
-               "timing_accounting": "Algorithm4 update_seconds includes energy_maintenance_seconds; do not add this diagnostic twice",
-               "nonzero_degenerate_spectrum_convention": "numpy_svd_library_tie_policy_no_low_recourse_guarantee",
-               "initialization_from_zero_excluded_from_primary_recourse": True,
-               "sensitivity_and_author_FD_diagnostic": "pending separate reviewed implementation; not complete G01",
                "qualification_pending": True}
     output.with_suffix(".summary.json").write_text(json.dumps(summary, allow_nan=False, indent=2) + "\n")
     print(json.dumps({"output": str(output), "usage": summary["usage"], "scientific_gate_advanced": False}))
-
-
-def file_sha256(path):
-    h = hashlib.sha256()
-    with Path(path).open("rb") as stream:
-        for block in iter(lambda: stream.read(1024 * 1024), b""):
-            h.update(block)
-    return h.hexdigest()
 
 
 def main():
