@@ -504,7 +504,7 @@
   },
   "formal_review_assignments_completed": true,
   "format": "monotonic-project-planning-observation-v1",
-  "independent_work": "accepted constructive integer mathematical audit and real-parent exact certificate; complete corrected StageB source independentlyaccepted but unexecuted; next primary priority/downstream audit and scoped nearzero engineering qualification design; native scientific authority remainsblocked",
+  "independent_work": "complete integer witness and exact61root recourse certificate accepted; primary known quadratic fallback qualified; narrow lemma correction priority and approximate proof quantitative premises remain open; native scientific authority blocked",
   "landmark_preparation_receipt_ref": {
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
@@ -718,8 +718,8 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T13:01:31.232618+00:00",
-  "observed_process_cpu_seconds": 307.053465108,
+  "observed_at": "2026-10-09T13:08:41.552697+00:00",
+  "observed_process_cpu_seconds": 318.944499767,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
   "pending_asset_review": null,
@@ -734,11 +734,7 @@
   "pending_formal_review": null,
   "pending_rice_skin_identity_evidence_review": null,
   "pending_source_review": null,
-  "pending_window02_approximate_dependency_review": {
-    "assignment_number": 150,
-    "reviewer": "/root/window02_geometric_formal_review",
-    "scope": "existing target paper proof dependency only no code/experiments or discovery"
-  },
+  "pending_window02_approximate_dependency_review": null,
   "pending_window02_calibration_evidence_review": null,
   "pending_window02_condition_derivation": null,
   "pending_window02_condition_review": null,
@@ -870,10 +866,19 @@
       "self_cpu_seconds": 0.478734518,
       "total_cpu_seconds": 0.635332518,
       "wall_seconds": 0.628058674
+    },
+    {
+      "assignment_number": 154,
+      "record": "INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md",
+      "self_cpu_seconds": 11.577978659,
+      "git_cpu_seconds": 0.313056,
+      "total_cpu_seconds": 11.891034659,
+      "wall_seconds": 11.894702007,
+      "scientific_gate_advanced": false
     }
   ],
   "registered_task_assignments": 154,
-  "remaining_wall_seconds_at_observation": 15251.767382,
+  "remaining_wall_seconds_at_observation": 14821.447303,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
@@ -1296,7 +1301,7 @@
     "task": "exact-integer-projector-target61-02",
     "wall_seconds_upper_bound": 360,
     "attempts_charged": 1,
-    "execution_status": "completed_pending_independent_evidence_review",
+    "execution_status": "accepted_complete61root_exact_integer_projector_lower_bound_and_execution_only",
     "prelaunch_observation": {
       "observed_at": "2026-10-09T13:00:16.042607+00:00",
       "cpu_max": "800000 100000",
@@ -1552,9 +1557,21 @@
     "record": "INTEGER_PROJECTOR_TARGET61_PLAN_REVIEW_WINDOW02.md",
     "verdict": "accepted_one_finite_full61_mathematical_certificate_attempt"
   },
-  "pending_window02_integer_projector_target_evidence_review": {
+  "pending_window02_integer_projector_target_evidence_review": null,
+  "completed_window02_approximate_dependency_review": {
+    "assignment_number": 150,
+    "reviewer": "/root/window02_geometric_formal_review",
+    "reviewed_commit": "cf5f60bc155ff20440d3859806138e04ffba4ec4",
+    "record": "APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md",
+    "verdict": "theorem1_2_proofgap_known_quadratic_fallback_qualified_theorem1_3_unresolved_separate_chain"
+  },
+  "completed_window02_integer_projector_target_evidence_review": {
     "assignment_number": 154,
     "reviewer": "/root/window02_consecutive_condition_review",
-    "scope": "complete61root exactmath receipt hash and cost only no native or novelty promotion"
+    "reviewed_commit": "eed4b24ca7549f4bce1ae71ce65008431dbbea67",
+    "record": "INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md",
+    "verdict": "accepted_complete61root_exact_integer_projector_lower_bound_only",
+    "recourse_lower_bound_numerator": 2290438555,
+    "recourse_lower_bound_denominator": 134217728
   }
 }
