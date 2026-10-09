@@ -1,6 +1,6 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T06:22:13+00:00",
+  "observed_at": "2026-10-09T06:47:00+00:00",
   "rsi_source_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "canonical_controller_run": false,
   "decision": 2,
@@ -90,6 +90,12 @@
       "review": "NATIVE_PROTOCOL_v2_REVIEW.md",
       "review_sha256": "64cb7d38d45370be31bd7ab1c883515f297baea15dd6afef677947e9c05f88c7",
       "verdict": "accepted_documentation_design_only_after_recorded_correction"
+    },
+    {
+      "path": "LANDMARK_REFERENCE_CALIBRATION_EVIDENCE_REVIEW.md",
+      "sha256": "6c0fdde0ec58c0932ecf8f9cfae468311035ad443a4fba99bc50ee9f9ce508c7",
+      "reviewed_commit": "d29281f1ec6f757455c03d95b2aaf645397b53a6",
+      "verdict": "accepted_engineering_exact_reference_cost_and_numerical_agreement_only"
     }
   ],
   "closed_or_narrowed": {
@@ -103,12 +109,13 @@
     "author_fd_source_semantics": "58 checks accepted after preserving one data-revision-label correction; frozen ell+1 update semantics qualified, native performance and published recourse parity not qualified",
     "rice_skin_developmental_matrix": "39 arms and 117000 per-prefix rows accepted after E04 recomputation under the repaired local projector scorer; defined-ratio denominators and warmup-versus-steady recourse remain explicit",
     "prospective_random_developmental_matrix": "13 arms and 39000 per-prefix rows accepted after fresh durable-blob verification and E04 recomputation for one frozen seeded unscaled generator-family member; not Figure 3 replication or confirmation",
-    "four_family_G01_design": "commands, plan identities, denominators, controls and development/confirmation boundaries independently accepted as documentation after one correction; Landmark numerical execution and all scientific gates remain pending"
+    "four_family_G01_design": "commands, plan identities, denominators, controls and development/confirmation boundaries independently accepted as documentation after one correction; Landmark baseline-matrix execution and all scientific gates remain pending",
+    "Landmark_reference_calibration": "11-prefix rank-25 Gram reference cost and three direct-SVD numerical agreements independently accepted as engineering evidence; full 5000-prefix baseline matrix and official parity remain pending"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
     "published_random_replication": "unseeded released generator and paper/code normalization mismatch prevent exact figure stream identity",
-    "full_baseline_qualification": "Rice/Skin and one prospective random local-scorer matrix are accepted, but authentic official parity plus Landmark native matrix and four-family G01 remain pending",
+    "full_baseline_qualification": "Rice/Skin and one prospective random local-scorer matrix are accepted; Landmark exact-reference cost is now calibrated, but authentic official parity plus the Landmark baseline matrix remain pending",
     "new_method_discovery": "qualified Parent/Gate0/IPCG and meaningful residual baseline failures pending",
     "candidate_code_dispatch": "no independently ranked qualified method pool/G01/native scorer",
     "eligible_writing": "no validated numerical improvement; originality and downstream significance unresolved"

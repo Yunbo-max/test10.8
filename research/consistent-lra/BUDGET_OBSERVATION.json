@@ -164,8 +164,8 @@
   "completed_source_review": "landmark-reference-calibration-source-correction-rereview:accepted_static_source_semantics_only",
   "pending_asset_review": null,
   "completed_asset_review": "landmark-source-qualification-correction-rereview:accepted_after_recorded_needs_correction",
-  "pending_execution_evidence_review": "landmark-reference-calibration-evidence-review",
-  "completed_execution_evidence_review": "landmark-integrity-execution-evidence-review:accepted",
+  "pending_execution_evidence_review": null,
+  "completed_execution_evidence_review": "landmark-reference-calibration-evidence-review:accepted_engineering_exact_reference_cost_and_numerical_agreement_only",
   "pending_archive_scorer_review": null,
   "completed_archive_scorer_review": "author-archive-scorer-audit-independent-review:accepted_with_nonblocking_row-count_precision_note",
   "pending_execution_plan_review": null,
@@ -685,7 +685,7 @@
     "landmark_reference_calibration_plan_reviewed": true,
     "landmark_reference_calibration_launched": true,
     "landmark_reference_calibration_completed": true,
-    "landmark_reference_calibration_evidence_reviewed": false
+    "landmark_reference_calibration_evidence_reviewed": true
   },
   "landmark_reference_calibration_reservation": {
     "task": "landmark-reference-calibration-01",
@@ -700,7 +700,7 @@
     "harness_plan_digest": "570f6c67bd609cf2adc75144948a3baa897c91d120ca227d2fba9737c6aecf06",
     "released": true,
     "execution_started": true,
-    "execution_status": "completed_pending_independent_evidence_review",
+    "execution_status": "accepted_engineering_exact_reference_cost_and_numerical_agreement_only",
     "attempt_id": "landmark-reference-cost-a1-177b60cdd7444745b59898cc4731e74a",
     "actual_process_cpu_seconds": 1.421907,
     "actual_script_wall_seconds": 1.422161420006887,
