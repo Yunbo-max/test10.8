@@ -1,6 +1,6 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T12:33:36Z",
+  "observed_at": "2026-10-09T12:35:35Z",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
   "decision": 2,
@@ -117,8 +117,9 @@
     "StageB_source": "complete13arm5000prefix source/design accepted afterone recorded correction; trueenergyexcess/roles/16metricendpointmeanmedianmax/28filepacket implemented;unexecuted,noadmission",
     "scalar_source_plan": "accepted501 finite scalar software records only; no native science",
     "integer_primary_priority": "targeted16query primaryaudit114 finds2005finite Cauchy/secular machinery; applicationpriority inconclusive/no originalitypass",
-    "integer_source": "accepted corrected constructor; actual22nd attempt completed3records256integerentries258maxbits at61; no numeric recourse",
-    "exact_approximate_separation": "independent reviewer accepts real8/(15k-4) and integer514/(960k-257) excess-ratio bounds on final append; k61<1.01 while exact optimizer recourse>8"
+    "integer_source": "accepted corrected constructor and all independent recorded arithmetic128coordinates256integers; real attempt completed, max258bits at61; no numeric recourse/eigenvalue/condition computation",
+    "exact_approximate_separation": "independent reviewer accepts real8/(15k-4) and integer514/(960k-257) excess-ratio bounds on final append; k61<1.01 while exact optimizer recourse>8",
+    "integer_execution_review": "INTEGER_WITNESS_EVIDENCE_REVIEW_WINDOW02.md at e12a3d10853509cc560c70070c0ab3b990115621 accepts receipts/hashes and complete exact construction arithmetic; reviewCPU0.332880508s charged without another attempt"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
@@ -218,6 +219,6 @@
     "discovery_rounds": 0,
     "scientific_experiments": 0,
     "papers": 0,
-    "observed_CPU_lower_bound": 293.196099082
+    "observed_CPU_lower_bound": 293.52897959
   }
 }

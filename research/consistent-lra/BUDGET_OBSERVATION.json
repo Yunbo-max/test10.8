@@ -662,8 +662,8 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:33:36Z",
-  "observed_process_cpu_seconds": 293.196099082,
+  "observed_at": "2026-10-09T12:35:35Z",
+  "observed_process_cpu_seconds": 293.52897959,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
   "pending_asset_review": null,
@@ -780,10 +780,22 @@
       "increments_original_executable_attempt": false,
       "scientific_experiment": false,
       "scope": "independent recordedscalar recomputation; no sourceimport/qualifierrerun"
+    },
+    {
+      "assignment": "window02-integer-witness-evidence-independent-review",
+      "started_at": "2026-10-09T12:30:05.248373Z",
+      "completed_at": "2026-10-09T12:30:05.574677Z",
+      "wall_seconds": 0.326309899,
+      "additional_cpu_lower_bound_seconds": 0.332880508,
+      "maximum_self_rss_kib": 21120,
+      "scope": "independent decoded recorded integer reconstruction/arithmetic; no generatorimport/rerun",
+      "charged_to_observed_cpu_total": true,
+      "increments_original_executable_attempt": false,
+      "scientific_experiment": false
     }
   ],
   "registered_task_assignments": 146,
-  "remaining_wall_seconds_at_observation": 16927,
+  "remaining_wall_seconds_at_observation": 16808,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
@@ -1168,7 +1180,7 @@
     "attempts_reserved": 1,
     "cpu_cores": 1,
     "execution_admitted": true,
-    "execution_status": "completed_existing_exact_integer_witness_pending_independent_review",
+    "execution_status": "accepted_finite_integer_construction_and_execution_only",
     "harness_plan_digest": "aca5500a34085d81ccecddea8c740e8a982be3c429681bc401197af06a8baf97",
     "native_plan_digest": "3db894cffd06776ec58513867dc17559c6d9cf53be4b3d35df62f8feb0382905",
     "ram_mib_reserved_not_enforced": 256,
@@ -1395,11 +1407,7 @@
     "verdict": "accepted_one_exact_integer_witness_attempt",
     "record": "INTEGER_WITNESS_PLAN_REVIEW_WINDOW02.md"
   },
-  "pending_window02_integer_witness_evidence_review": {
-    "assignment_number": 138,
-    "reviewer": "/root/window02_consecutive_condition_review",
-    "status": "await_actual_execution"
-  },
+  "pending_window02_integer_witness_evidence_review": null,
   "pending_window02_integer_collision_review": {
     "assignment_number": 139,
     "reviewer": "/root/integer_density_review",
@@ -1413,16 +1421,15 @@
     "scope": "existinglemma exactinterval certificate math/design only",
     "source_or_execution_admitted": false
   },
+  "completed_window02_integer_witness_evidence_review": {
+    "assignment_number": 138,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "commit": "066361e4d3e816fbc6ca4863f74a9afb12dfcaeb",
+    "verdict": "accepted_complete_finite_integer_witness_and_execution_only",
+    "record": "INTEGER_WITNESS_EVIDENCE_REVIEW_WINDOW02.md"
+  },
   "delivery_branch": "main",
   "delivery_authorization_record": "MAIN_DELIVERY_AUTHORIZATION_20261009.md",
-  "legacy_writer_reconciliation": {
-    "source_commit": "10f4ce45df5e9ddd9b918c81291204ea5337e928",
-    "main_migration_commit": "2584996b627adb9a2096acc86d5ccee0f5d08f5b",
-    "duplicate_launch": false,
-    "last_observed_legacy_writer_advancing": true,
-    "no_local_scientific_or_generator_launch": true,
-    "provisional_ordinals_note": "source review138/scorer139 retained as invocation-local labels; actual unique task names merged after all legacy tasks"
-  },
   "main_formal_clarification": {
     "draft": "EXACT_APPROXIMATE_SEPARATION_MAIN_DRAFT.md",
     "draft_sha256": "65a373607d880e4bf81fb8ac3c729af8543a29c43e9c4652a31120956c95d670",
@@ -1430,5 +1437,13 @@
     "review": "EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md",
     "verdict": "accepted_scoped_final_append_only",
     "scientific_gate_advanced": false
+  },
+  "legacy_writer_reconciliation": {
+    "source_commit": "e12a3d10853509cc560c70070c0ab3b990115621",
+    "main_migration_commit": "2584996b627adb9a2096acc86d5ccee0f5d08f5b",
+    "duplicate_launch": false,
+    "last_observed_legacy_writer_advancing": true,
+    "no_local_scientific_or_generator_launch": true,
+    "provisional_ordinals_note": "source review138/scorer139 retained as invocation-local labels; actual unique task names merged after all legacy tasks"
   }
 }

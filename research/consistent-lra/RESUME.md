@@ -12,15 +12,15 @@ No scientific gate, resource limit or deadline is waived.
 See [migration provenance](MAIN_DELIVERY_AUTHORIZATION_20261009.md).
 
 
-## Latest main snapshot — 2026-10-09T12:33:36Z
+## Latest main snapshot — 2026-10-09T12:35:35Z
 
-Main includes all legacy project evidence through 10f4ce45df5e9ddd9b918c81291204ea5337e928,
+Main includes all legacy project evidence through e12a3d10853509cc560c70070c0ab3b990115621,
 plus the two independent main reviews and the accepted analytic clarification.
 The current counts are 146 unique assignments, 22 executable attempts,
-2 controller rounds, CPU lower bound293.196099082s;
+2 controller rounds, CPU lower bound293.52897959s;
 0 discovery rounds, 0 admitted scientific experiments, 0 eligible papers.
 The integer construction completed256entries/ranks1,2,61, max258bits at61,
-CPU0.420406s/wall1.084132s/RSS30948KiB; independent raw-evidence review is pending.
+CPU0.420406s/wall1.084132s/RSS30948KiB; independent raw-evidence review accepted all128coordinates/256integers and receipts.
 Its outputs construct integers; they do not compute recourse or block condition.
 
 [Independent analytic clarification](EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md)
