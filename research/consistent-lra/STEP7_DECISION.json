@@ -1,6 +1,6 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T12:12:06.239346+00:00",
+  "observed_at": "2026-10-09T12:22:59.462457+00:00",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
   "decision": 2,
@@ -134,7 +134,7 @@
     "exact integer witness design/source qualification child of accepted v7; pendingdesignreview"
   ],
   "reason_not_terminal": "Finite independent originality/proofscope and software qualification work remains before harddeadline; no duplicate goal, no scientific gate shortcut",
-  "next_restore": "resolve immutable branch head and retained bytes; never rerun accepted Landmark/Rice/Skin/oracle preparation or bootstrap immediate request",
+  "next_restore": "pin live main; use legacy b625289 only for immutable provenance; preserve all budgets and outstanding unlaunched integer reservation",
   "note": "In-place worker evidence mapping to pinned RSI return-to-source route; no fabricated controller, official scorer, Gate A pass or paper result.",
   "prior_decision": 2,
   "previous_observation_preserved": "prior Step7 JSON version remains immutable in parent commits including9f65c9aed3d6952e08d7dae6020eb70eb5698db4",
@@ -205,5 +205,7 @@
     "exact_formal_certificate": "closed_finite_k61_only",
     "explicit_integer_bit_bound": "closed_analytic_proof_only",
     "Stage_B_source_design": "closed_source_design_only"
-  }
+  },
+  "delivery_branch": "main",
+  "delivery_authorization_record": "MAIN_DELIVERY_AUTHORIZATION_20261009.md"
 }

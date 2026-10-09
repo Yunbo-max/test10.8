@@ -654,7 +654,7 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:18:20.259593+00:00",
+  "observed_at": "2026-10-09T12:22:59.462457+00:00",
   "observed_process_cpu_seconds": 292.775693082,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -782,8 +782,8 @@
       "scope": "independent recordedscalar recomputation; no sourceimport/qualifierrerun"
     }
   ],
-  "registered_task_assignments": 136,
-  "remaining_wall_seconds_at_observation": 18801.791587,
+  "registered_task_assignments": 139,
+  "remaining_wall_seconds_at_observation": 17563.535258,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
@@ -1070,7 +1070,10 @@
     "window02-integer-witness-plan-generation",
     "window02-integer-witness-plan-independent-review",
     "window02-integer-witness-source-publication-correction",
-    "window02-integer-witness-source-publication-rereview"
+    "window02-integer-witness-source-publication-rereview",
+    "main-subtree-exact-migration-and-control-reconciliation",
+    "main-integer-witness-corrected-source-independent-rereview",
+    "main-scorer-admission-source-capability-independent-audit"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1354,5 +1357,7 @@
       "qualification_executed": false,
       "scientific_failure": false
     }
-  ]
+  ],
+  "delivery_branch": "main",
+  "delivery_authorization_record": "MAIN_DELIVERY_AUTHORIZATION_20261009.md"
 }

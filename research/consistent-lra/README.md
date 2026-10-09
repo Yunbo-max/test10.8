@@ -1,5 +1,17 @@
 # Consistent LRA: bounded CPU research
 
+## Current delivery authorization — 2026-10-09 12:29 Europe/London
+
+The owner instructed “以后直接更新到main就行”. Current delivery is
+`Yunbo-max/test10.8/main`, limited to `research/consistent-lra/`.
+This supersedes all older branch prohibitions and delivery hints below.
+The legacy `consistent-lra-rsi` branch is a read-only historical source.
+Use one integration writer, current expected main head and exact commit/subtree
+readback. Preserve other paths, every historical receipt and cumulative budget.
+No scientific gate, resource limit or deadline is waived.
+See [migration provenance](MAIN_DELIVERY_AUTHORIZATION_20261009.md).
+
+
 **2026-10-09 restart:** the owner reopened this project using Research Autopilot Auto
 0.2.0-autonomous.2. The new window ends at **18:15:43 Europe/London today**.
 See [restart authorization and exact pending work](RESTART_AUTHORIZATION_20261009.md). Prior results and

@@ -1,5 +1,17 @@
 # Resume from actual durable evidence
 
+## Current delivery authorization — 2026-10-09 12:29 Europe/London
+
+The owner instructed “以后直接更新到main就行”. Current delivery is
+`Yunbo-max/test10.8/main`, limited to `research/consistent-lra/`.
+This supersedes all older branch prohibitions and delivery hints below.
+The legacy `consistent-lra-rsi` branch is a read-only historical source.
+Use one integration writer, current expected main head and exact commit/subtree
+readback. Preserve other paths, every historical receipt and cumulative budget.
+No scientific gate, resource limit or deadline is waived.
+See [migration provenance](MAIN_DELIVERY_AUTHORIZATION_20261009.md).
+
+
 One writer owns research/consistent-lra/ on consistent-lra-rsi. Resolve and pin the branch head; read all eight control files and referenced artifacts at that same commit. Preserve the original clock anchor and deadline. Reconcile the same background task identity and all outstanding reservations before dispatch. Do not replay the bootstrap immediate request.
 
 Completed source-integrity-01 is historical preparation, not pending work. Restore its actual workspace and logs if verifying its receipt; never rerun it merely because its old PID is absent. Historical absolute cwd/root paths are retained exactly. For read-only hash verification on a new host, resolve project-relative refs against the newly restored root and preserve historical receipt bytes. The workspace baseline remains the original ce279... hash even though the root has a repaired draft.

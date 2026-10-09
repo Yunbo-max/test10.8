@@ -1,5 +1,17 @@
 # Instructions for this CPU research project
 
+## Current delivery authorization — 2026-10-09 12:29 Europe/London
+
+The owner instructed “以后直接更新到main就行”. Current delivery is
+`Yunbo-max/test10.8/main`, limited to `research/consistent-lra/`.
+This supersedes all older branch prohibitions and delivery hints below.
+The legacy `consistent-lra-rsi` branch is a read-only historical source.
+Use one integration writer, current expected main head and exact commit/subtree
+readback. Preserve other paths, every historical receipt and cumulative budget.
+No scientific gate, resource limit or deadline is waived.
+See [migration provenance](MAIN_DELIVERY_AUTHORIZATION_20261009.md).
+
+
 Resolve the branch head once and pin that immutable commit. Read README.md, GOAL.md, SOURCES.md, BASELINE_AUDIT.md, EXECUTION_SCOPE.md, workflow-checkpoint.yaml and all source/evidence files from that same commit before continuing. Record and verify restored identities; do not silently mix changing branch snapshots.
 
 Use the owner-selected autonomous-rsi source at Research_Autopilot commit 1de12dfed5b84957b29ac5b3a2f04904bf3742bc. Read its SKILL.md and the applicable reference modules at that revision; do not mix a different installed export with this source silently.
