@@ -5,7 +5,9 @@
     "artifact_sha256": "92ec4600c73754815a5b652f37c9871da3602e3481c605faf17db25d24d14ac5",
     "canonical_assignments": [175, 176],
     "review_task": "HEAVY_SINGLE_ARRIVAL_AGGREGATE_REVIEW_TASK_MAIN.md",
-    "status": "candidate_frozen_review_pending",
+    "review": "HEAVY_SINGLE_ARRIVAL_AGGREGATE_REVIEW_MAIN.md",
+    "reviewed_commit": "ad77490323fee335dc64ae390cc37d61b29646eb",
+    "status": "accepted_scoped_real_row_r1_counterexample_no_integer_or_DAS_or_theoremwide_claim",
     "executable_attempts_added": 0,
     "scientific_experiments_added": 0,
     "cpu_seconds_added": 0
@@ -604,7 +606,7 @@
   },
   "formal_review_assignments_completed": true,
   "format": "monotonic-project-planning-observation-v1",
-  "independent_work": "Integerexact61rootcertificateand small-epsilonHEAVYrank-family correctionaccepted; fullconjunctionpriority/reweightedintegerpremise/aggregateproofrepair remain open; nativefullcomparisonblocked",
+  "independent_work": "Integerexact61rootcertificate, small-epsilonHEAVYrank-family correction, and one-arrival real-row r1 aggregate dependency counterexample accepted; integer/DAS aggregate repair remains open; nativefullcomparisonblocked",
   "landmark_preparation_receipt_ref": {
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
@@ -1005,7 +1007,7 @@
     }
   ],
   "registered_task_assignments": 176,
-  "remaining_wall_seconds_at_observation": 11626,
+  "remaining_wall_seconds_at_observation": 9614,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,

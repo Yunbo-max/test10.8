@@ -13,13 +13,15 @@ See [migration provenance](MAIN_DELIVERY_AUTHORIZATION_20261009.md).
 
 
 
-## Current independently reviewed evidence — 2026-10-09T13:45:56.315555+00:00
+## Current independently reviewed evidence — 2026-10-09T14:35:28.083387+00:00
 
-Main current **174 unique assignments / 24 original executable attempts / 2 recorded controller rounds / CPU lower bound 318.944499767s**. Discovery/admitted-native-scientific/paper counts remain 0. No active numeric process or execution reservation. Same-window deadline17:15:43Z and five-minute closeout reserve are unchanged; 11,626 seconds remained at this observation.
+Main current **176 unique assignments / 24 original executable attempts / 2 recorded controller rounds / CPU lower bound 318.944499767s**. Discovery/admitted-native-scientific/paper counts remain 0. No active numeric process or execution reservation. Same-window deadline17:15:43Z and five-minute closeout reserve are unchanged; 9,614 seconds remained at this observation.
+
+[Assignments175--176](HEAVY_SINGLE_ARRIVAL_AGGREGATE_REVIEW_MAIN.md) independently accept a reachable real-row construction in which a single non-reset HEAVY arrival has projector recourse greater than `sqrt(k)`. This invalidates the domain-free `r=1` version of the segment bound used by the displayed F.1-to-Lemma3.7 proof chain. It is not an integer stream or a qualified sampled `D A_S` stream; no repeated-event construction, Theorem1.3 falsity, novelty, method, empirical, or paper claim follows. Next work is limited to an integer/`D A_S` specialization or a different multi-refresh amortization. Native full comparison remains blocked and StageB remains unexecuted.
 
 [Actual163](HEAVY_BRANCH_INTEGER_COUNTEREXAMPLE_REVIEW.md) accepts the finite 35-row integer HEAVY example. [Actual165](HEAVY_BRANCH_INTEGER_RANK_FAMILY_REVIEW.md) accepts the small-epsilon state/recourse family, and [independent reviewer166](HEAVY_BRANCH_INTEGER_RANK_FAMILY_v2_REVIEW.md) accepts the separately frozen [strict-trigger addendum](HEAVY_BRANCH_INTEGER_RANK_FAMILY_v2_STRICT_TRIGGER.md). For arbitrary `m>=11`, `k=m^4`, `epsilon=1/m^2<.01`, `M=k^2+k`, the reachable persistent HEAVY refresh has `R>4k/5`, excluding a uniform `K sqrt(k)` repair with `K` independent of epsilon. Canonical167--171 additionally retain the exact-final-byte `k=144` card and bounded priority audit below.
 
-These results do not exclude epsilon-dependent constants, prove a fixed-epsilon asymptotic failure, refute the full aggregate or existence theorem, establish novelty, or pass a paper gate. The [claim-evidence table](CORRECTION_CLAIM_EVIDENCE_STATUS_MAIN.md) preserves the precise boundary. Both priority audits keep the full conjunction unresolved. Assignments172--174 close the reweighted-integer premise as a non-blocking proof-detail correction after preserving an initial rejected argument. Machine planning is now route3 mathematical analysis of aggregate HEAVY accounting; native full comparison remains blocked and StageB was never executed.
+The older F.1 results do not exclude epsilon-dependent constants, prove a fixed-epsilon asymptotic failure, refute the full aggregate or existence theorem, establish novelty, or pass a paper gate. The [claim-evidence table](CORRECTION_CLAIM_EVIDENCE_STATUS_MAIN.md) preserves their precise boundary. Both priority audits keep the full conjunction unresolved. Assignments172--174 close the reweighted-integer premise as a non-blocking proof-detail correction after preserving an initial rejected argument. Assignments175--176 now close only the arbitrary-real `r=1` aggregate subclaim; the integer/`D A_S` and repeated-event boundaries remain open.
 
 ## Reconciled current state — 2026-10-09T13:19:29.618214+00:00
 

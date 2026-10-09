@@ -4,14 +4,15 @@
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
   "decision": 3,
-  "action": "bounded mathematical analysis of aggregate HEAVY accounting after independently accepted reweighted-premise repair",
+  "action": "bounded integer or D A_S specialization and multi-refresh amortization after independently accepted real-row r1 HEAVY counterexample",
   "basis": [
     "Actual154fullintegerrecoursecertificate accepted; exactlossseparation independentmainreview retained",
     "Actual161known1997mechanismcollision/fullconjunctionpriorityinconclusive",
     "Actual163finiteF1boundcounterexample accepted withlimits",
     "Actual165v1construction/state and166independentstrictness/v2 accepted:small-epsilonR>4k/5 excludesuniformepsilon-independentconstant sqrtk only",
     "Canonical167-171 retain a separate reachable k144 exact-final-byte counterexample and bounded priority audit; worker-local labels collided with concurrent tasks and were remapped without dropping history",
-    "Canonical172-174 preserve an initial rejected arbitrary-real argument and independently accept the corrected M=D A_S Cauchy-Binet product-floor repair; literal integrality remains false but is not a recourse-proof blocker"
+    "Canonical172-174 preserve an initial rejected arbitrary-real argument and independently accept the corrected M=D A_S Cauchy-Binet product-floor repair; literal integrality remains false but is not a recourse-proof blocker",
+    "Canonical175-176 independently accept a reachable single-arrival real-row violation of the r=1 HEAVY segment bound; integer/D A_S membership, repeated-event and theorem-wide claims remain excluded"
   ],
   "closed_or_narrowed": {
     "Landmark_asset": "exact bytes/license/full mechanical counts independently accepted",
@@ -39,9 +40,10 @@
     "integer_projector_complete": "all61roots732decisions exact Rlower2290438555/134217728>8 accepted154",
     "sampled_freshSVD_fallback": "specific append-only prefixPCP known quadraticrank bound qualified150; notnewmethod",
     "algorithm4_proofscope": "additiveTheorem1.1 energyproof independent ofLemma2.1; normalizedrealenergy ratio explicit",
-    "approximate_theorem1_3": "reweighted-integer spectral premise repaired by accepted D A_S Cauchy-Binet argument conditional on sampled-entry magnitude bound; HEAVY aggregate accounting remains unresolved; no theoremrefutation",
+    "approximate_theorem1_3": "reweighted-integer spectral premise repaired by accepted D A_S Cauchy-Binet argument conditional on sampled-entry magnitude bound; real-row r1 HEAVY segment bound independently refuted but integer/D A_S aggregate repair remains unresolved; no theoremrefutation",
     "direct_F1_k144": "reachable nonnegative-integer exact-final-byte counterexample independently accepted after preserved reset-reachability correction; displayed HEAVY minmax implication only",
-    "small_epsilon_HEAVY_family": "construction/state/recourse accepted by actual165; reviewer-supplied strict-trigger addendum remains pending separate actual166 review"
+    "small_epsilon_HEAVY_family": "construction/state/recourse accepted by actual165; reviewer-supplied strict-trigger addendum accepted by actual166",
+    "real_row_single_arrival_HEAVY": "fixed candidate and independent review176 accepted for r1 domain-free real-row segment only; not integer, D A_S, repeated-event or theorem-wide"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
@@ -125,21 +127,21 @@
   ],
   "independent_routes": {
     "route2": "reweightedsourcepremiseclosed;priorityremainsinconclusive",
-    "route3": "aggregateHEAVYaccountingandconsequentialproofrepaironlyafterfrozenmathcard",
+    "route3": "real-row r1 counterexample accepted; integer/DAS specialization or alternative multi-refresh amortization remains",
     "native": "blockedspecificcapability"
   },
   "latest_budget_record": {
-    "registered_task_assignments": 174,
+    "registered_task_assignments": 176,
     "original_executable_attempts": 24,
     "recorded_controller_rounds": 2,
     "discovery_rounds": 0,
     "admitted_scientific_experiments": 0,
     "eligible_papers": 0,
     "observed_CPU_lower_bound": 318.944499767,
-    "remaining_wall_seconds": 11626
+    "remaining_wall_seconds": 9614
   },
   "next_bounded_independent_work": {
-    "route3": "mathematical audit of aggregate HEAVY accounting/tail capture; freeze bounded claim before further review",
+    "route3": "test integer or D A_S specialization and multi-refresh amortization; preserve theorem-wide exclusion",
     "native_descendants": "remainblocked authenticreference/livecallback/parity; do notrunStageB ornewmethods",
     "source_priority": "two bounded audits retain component prior-art collisions and full-conjunction priority as inconclusive; no absence-of-search pass",
     "source": "reweighted-integer premise accepted as nonblocking proof-detail repair; sampled-entry magnitude bound remains conditional",
@@ -151,7 +153,7 @@
   "source_main_commit": "176064b931140da791f58137ee68a37068566f6b",
   "source_legacy_commit": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
   "reconciliation_record": "MAIN_FINAL_PACKET_RECONCILIATION_20261009.md",
-  "registered_task_assignments": 174,
+  "registered_task_assignments": 176,
   "exact_approximate_final_append_only_review": "EXACT_APPROXIMATE_SEPARATION_MAIN_REVIEW.md",
   "main_f1_math_evidence": {
     "artifact": "F1_HEAVY_COUNTEREXAMPLE_MAIN_DRAFT.md",
@@ -163,5 +165,16 @@
   },
   "main_f1_canonical_assignments": [167, 168, 169, 170, 171],
   "concurrent_small_epsilon_strict_review_assignment": 166,
-  "concurrent_small_epsilon_strict_review_status": "accepted_independently"
+  "concurrent_small_epsilon_strict_review_status": "accepted_independently",
+  "main_heavy_single_arrival_evidence": {
+    "artifact": "HEAVY_SINGLE_ARRIVAL_AGGREGATE_AUDIT_MAIN_DRAFT.md",
+    "sha256": "92ec4600c73754815a5b652f37c9871da3602e3481c605faf17db25d24d14ac5",
+    "review": "HEAVY_SINGLE_ARRIVAL_AGGREGATE_REVIEW_MAIN.md",
+    "reviewed_commit": "ad77490323fee335dc64ae390cc37d61b29646eb",
+    "verdict": "accepted_scoped_real_row_r1_counterexample_only",
+    "integer_or_DAS_membership": false,
+    "repeated_event": false,
+    "theorem1_3_false": false,
+    "scientific_gate_advanced": false
+  }
 }
