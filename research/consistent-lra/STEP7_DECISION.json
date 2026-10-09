@@ -4,7 +4,7 @@
   "rsi_source_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "canonical_controller_run": false,
   "decision": 2,
-  "action": "continue source and benchmark reading for authentic official scorer parity and missing Landmark/random native baseline matrices before Parent/Gate0/IPCG or discovery",
+  "action": "continue source and benchmark reading for authentic official scorer parity and the missing Landmark native baseline matrix before Parent/Gate0/IPCG or discovery",
   "basis": [
     {
       "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
