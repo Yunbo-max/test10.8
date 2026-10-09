@@ -704,8 +704,8 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:54:57.503561+00:00",
-  "observed_process_cpu_seconds": 294.20506459,
+  "observed_at": "2026-10-09T12:57:46.729431+00:00",
+  "observed_process_cpu_seconds": 294.840397108,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
   "pending_asset_review": null,
@@ -840,6 +840,15 @@
       "scope": "independent decoded recorded integer reconstruction/arithmetic; no generatorimport/rerun",
       "started_at": "2026-10-09T12:30:05.248373Z",
       "wall_seconds": 0.326309899
+    },
+    {
+      "assignment_number": 149,
+      "record": "INTEGER_PROJECTOR_CALIBRATION_EVIDENCE_REVIEW_WINDOW02.md",
+      "self_cpu_seconds": 0.478734518,
+      "git_cpu_seconds": 0.156598,
+      "total_cpu_seconds": 0.635332518,
+      "wall_seconds": 0.628058674,
+      "scientific_gate_advanced": false
     }
   ],
   "registered_task_assignments": 150,
@@ -1232,7 +1241,7 @@
     "task": "exact-integer-projector-calibration-02",
     "wall_seconds_upper_bound": 120,
     "attempts_charged": 1,
-    "execution_status": "completed_pending_independent_evidence_review",
+    "execution_status": "accepted_all5root_finite_math_execution_and_cost_only",
     "prelaunch_observation": {
       "observed_at": "2026-10-09T12:52:45.837032+00:00",
       "cpu_max": "800000 100000",
@@ -1488,14 +1497,17 @@
     "record": "INTEGER_PROJECTOR_CALIBRATION_PLAN_REVIEW_WINDOW02.md",
     "verdict": "accepted_one_finite_exact_arithmetic_calibration_only"
   },
-  "pending_window02_integer_projector_calibration_evidence_review": {
-    "assignment_number": 149,
-    "reviewer": "/root/window02_consecutive_condition_review",
-    "scope": "all5root arithmetic receipts costs only no full61 or scientific claim"
-  },
+  "pending_window02_integer_projector_calibration_evidence_review": null,
   "pending_window02_approximate_dependency_review": {
     "assignment_number": 150,
     "reviewer": "/root/window02_geometric_formal_review",
     "scope": "existing target paper proof dependency only no code/experiments or discovery"
+  },
+  "completed_window02_integer_projector_calibration_evidence_review": {
+    "assignment_number": 149,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "reviewed_commit": "db7abf9d6bdfa57ef93359b79c6ccbbd9aa7b0fe",
+    "record": "INTEGER_PROJECTOR_CALIBRATION_EVIDENCE_REVIEW_WINDOW02.md",
+    "verdict": "accepted_all5root_finite_math_execution_and_cost_only"
   }
 }
