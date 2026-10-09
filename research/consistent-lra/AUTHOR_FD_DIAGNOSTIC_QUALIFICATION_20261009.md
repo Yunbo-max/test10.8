@@ -28,14 +28,21 @@ strong FD baseline, and not a new method.
 ## Proposed finite semantic oracles
 
 `author_fd_semantic_oracles.py` parses and compiles only the
-`FrequentDirections` class from the frozen author source.  On the fixed 8-by-5
-software-test stream already used for FD qualification, with `k=1,ell=3`, every
-prefix will compare:
+`FrequentDirections` class only after validating the raw file's Git blob against
+the frozen author identity.  On the fixed 8-by-5 software-test stream already
+used for FD qualification, with `k=1,ell=3`, every prefix will compare:
 
 - the complete diagnostic sketch state to the frozen author state;
-- sketch covariance and top-`k` projector;
+- sketch covariance and top-`k` projector, with the latter independently
+  reconstructed by an eigendecomposition of the author sketch covariance;
 - orthonormality and snapshot immutability of the emitted basis;
-- shrink counts and the explicit zero-row source behavior.
+- shrink counts against an independent count of the frozen author's branch
+  condition, plus the explicit zero-row source behavior.
+
+A separate `k=2,ell=3` probe checks the varying-rank warmup convention and
+independent projector reference at ranks one and two.  Snapshot immutability is
+checked by retaining the first emitted basis while later valid prefixes execute;
+the oracle never appends the final row twice.
 
 These analytic fixtures are software oracles, not native scientific benchmark
 data.  A later native author-diagnostic run remains blocked until this exact code

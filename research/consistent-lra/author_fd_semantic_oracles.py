@@ -19,7 +19,6 @@ import numpy as np
 import scipy
 import sklearn
 
-from baseline_qualify import top_basis
 from native_baselines import AuthorAugmentedFDDiagnostic
 
 
@@ -35,8 +34,16 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def git_blob_digest(raw: bytes) -> str:
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
+
+
 def load_author(path: Path) -> type:
-    tree = ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+    raw = path.read_bytes()
+    actual_blob = git_blob_digest(raw)
+    if actual_blob != AUTHOR_BLOB:
+        raise ValueError(f"frozen author blob mismatch: {actual_blob}")
+    tree = ast.parse(raw.decode("utf-8"), filename=str(path))
     nodes = [node for node in tree.body if isinstance(node, ast.ClassDef)
              and node.name == "FrequentDirections"]
     if len(nodes) != 1:
@@ -48,6 +55,13 @@ def load_author(path: Path) -> type:
 
 def projector(q: np.ndarray) -> np.ndarray:
     return q.T @ q
+
+
+def independent_top_projector(matrix: np.ndarray, rank: int) -> np.ndarray:
+    covariance = matrix.T @ matrix
+    eigenvalues, eigenvectors = np.linalg.eigh((covariance + covariance.T) / 2)
+    order = np.argsort(eigenvalues)[::-1][:rank]
+    return eigenvectors[:, order] @ eigenvectors[:, order].T
 
 
 def check(rows: list[dict], name: str, passed: bool, **diagnostics) -> None:
@@ -72,17 +86,20 @@ def run(root: Path) -> tuple[list[dict], list[dict]]:
     author = AuthorFD(sketch_size=ell, dim=stream.shape[1])
     checks: list[dict] = []
     prefixes: list[dict] = []
-    first_basis = None
+    first_basis = first_snapshot = None
+    author_shrinks = 0
 
     for t, row in enumerate(stream, start=1):
         q, updated, warmup = production.update(t, float(np.sum(stream[:t] ** 2)))
+        will_shrink = all(np.any(author.B[index]) for index in range(ell))
         author.append(row)
+        author_shrinks += int(will_shrink)
         expected_b = np.asarray(author.get_sketch()).copy()
-        expected_q, _ = top_basis(expected_b, min(k, t))
         state_error = float(np.linalg.norm(production.b - expected_b, ord="fro"))
         covariance_error = float(np.linalg.norm(
             production.b.T @ production.b - expected_b.T @ expected_b, ord="fro"))
-        projector_error = float(np.linalg.norm(projector(q) - projector(expected_q), ord="fro"))
+        expected_projector = independent_top_projector(expected_b, min(k, t))
+        projector_error = float(np.linalg.norm(projector(q) - expected_projector, ord="fro"))
         scale = max(1.0, float(np.linalg.norm(expected_b, ord="fro")))
         check(checks, f"prefix_{t}_exact_state", state_error <= 2e-12 * scale,
               actual=state_error, tolerance=2e-12 * scale)
@@ -95,6 +112,8 @@ def run(root: Path) -> tuple[list[dict], list[dict]]:
               actual=orthogonality, tolerance=5e-12)
         check(checks, f"prefix_{t}_flags", updated and warmup == (t <= k),
               updated=updated, warmup=warmup)
+        check(checks, f"prefix_{t}_shrink_count", production.shrinks == author_shrinks,
+              production_shrinks=production.shrinks, author_condition_count=author_shrinks)
         prefixes.append({"prefix": t, "state_error": state_error,
                          "covariance_error": covariance_error,
                          "projector_error": projector_error,
@@ -102,10 +121,26 @@ def run(root: Path) -> tuple[list[dict], list[dict]]:
                          "basis": q.tolist()})
         if first_basis is None:
             first_basis = q
-
-    first_snapshot = first_basis.copy()
-    production.update(len(stream), float(np.sum(stream ** 2)))
+            first_snapshot = q.copy()
     check(checks, "returned_basis_is_snapshot", np.array_equal(first_basis, first_snapshot))
+
+    # Exercise the shared varying-rank convention separately at k=2.  The
+    # independent reference is an eigendecomposition of the frozen-author
+    # sketch covariance, not the production SVD helper.
+    rank_two_prod = AuthorAugmentedFDDiagnostic(stream, 2, ell)
+    rank_two_author = AuthorFD(sketch_size=ell, dim=stream.shape[1])
+    for t, row in enumerate(stream[:4], start=1):
+        q, _, warmup = rank_two_prod.update(t, float(np.sum(stream[:t] ** 2)))
+        rank_two_author.append(row)
+        expected_rank = min(2, t)
+        rank_projector = independent_top_projector(
+            np.asarray(rank_two_author.get_sketch()), expected_rank)
+        error = float(np.linalg.norm(projector(q) - rank_projector, ord="fro"))
+        check(checks, f"rank_two_prefix_{t}_rank_convention",
+              len(q) == expected_rank and warmup == (t <= 2),
+              actual_rank=len(q), expected_rank=expected_rank, warmup=warmup)
+        check(checks, f"rank_two_prefix_{t}_independent_projector", error <= 5e-10,
+              actual=error, tolerance=5e-10)
 
     # The frozen source treats an actually inserted zero row as still empty.
     zero_stream = np.array([[0.0] * 5, [1.0, 2.0, 0.0, 0.0, 0.0]], dtype=np.float64)
