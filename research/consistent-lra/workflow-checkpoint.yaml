@@ -81,14 +81,15 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 40
+actual_registered_task_assignments: 41
 actual_executable_attempts: 9
 actual_preparation_attempts: 9
 actual_scientific_attempts: 0
 actual_discovery_rounds: 0
 actual_observed_process_cpu_seconds: 2.084459
 actual_max_preparation_rss_kib: 148112
-unreleased_reservations: []
+unreleased_reservations:
+  - native-lowdim-baseline-matrix-01: 1 CPU, 512 MiB admission, 180 seconds, 1 attempt
 formal_counterexample_artifact: FORMAL_AUDIT_v2.md
 formal_counterexample_sha256: 0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477
 formal_review_record: FORMAL_AUDIT_v2_REVIEW.md
@@ -106,7 +107,7 @@ integer_density_extension_draft: FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md
 integer_density_initial_review_record: FORMAL_AUDIT_v4_REVIEW.md
 sampling_source_qualification_draft: SAMPLING_SOURCE_QUALIFICATION_20261009.md
 sampling_source_initial_review_record: SAMPLING_SOURCE_QUALIFICATION_REVIEW.md
-latest_resource_observation_utc: '2026-10-09T04:26:04+00:00'
+latest_resource_observation_utc: '2026-10-09T04:27:52+00:00'
 latest_cpu_max: '800000 100000'
 latest_visible_processors: 9
 latest_memory_max_bytes: 8589934592
@@ -184,3 +185,7 @@ lowdim_baseline_matrix_source_initial_review: needs_correction
 lowdim_baseline_matrix_source_correction_rereview: accepted
 lowdim_baseline_matrix_source_review_record: LOWDIM_BASELINE_MATRIX_SOURCE_REVIEW.md
 lowdim_baseline_matrix_candidate_commit: 608bce8dafc9bbe7ce7c14082191fab27ac6e372
+lowdim_baseline_matrix_plan_review: accepted
+lowdim_baseline_matrix_plan_review_record: LOWDIM_BASELINE_MATRIX_PLAN_REVIEW.md
+lowdim_baseline_matrix_plan_commit: bf030293e388d10262f8acd2f927ba7247084f74
+lowdim_baseline_matrix_reservation: active_unreleased
