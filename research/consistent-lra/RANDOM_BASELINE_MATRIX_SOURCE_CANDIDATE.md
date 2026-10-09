@@ -17,7 +17,9 @@ This candidate freezes a **new prospective development instance**:
 - Python `random.Random(20261009).randint(0,100)`, row-major;
 - no scaling, matching the released code path rather than guessing the paper's
   ambiguous column normalization;
-- every output and manifest says `original_figure_replication: false`.
+- every per-arm summary and the matrix manifest say
+  `original_figure_replication: false`; manifest-linked raw rows identify the
+  prospective instance through seeded `sample_id` values.
 
 It may qualify behavior on one member of the released generator family.  It
 cannot be described as a reproduction, confirmation or held-out test because
