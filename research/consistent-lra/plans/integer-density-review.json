@@ -3,7 +3,7 @@
   "task_id": "integer-density-extension-independent-review",
   "registered_order": 11,
   "candidate_path": "research/consistent-lra/FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md",
-  "candidate_commit": "TO_BE_BOUND_TO_PREASSIGNMENT_COMMIT",
+  "candidate_commit": "8f35727ad9e096e58936d30437285d01321793ee",
   "base_artifact": {
     "path": "research/consistent-lra/FORMAL_AUDIT_v2.md",
     "sha256": "0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477"
