@@ -1,0 +1,14 @@
+# Independent full Stage A plan review
+Assignment:window02-landmark-stage-a-full-plan-review
+Reviewer:/root/window02_stagea_source_review
+Fixed reviewed commit:a506c3d717e94a382026f73dee8500375ac773a5.
+Verdict:ACCEPT one bounded full Stage A numerical identity/cost attempt only.
+
+Native file03319034486faf385b9b4fe2922b23a58b690f326da5fc992d2980135b84cf5a,digest40d656d29755bef4a68b1edcc010ed584989d78d59f79f270e31bc027f7cb8db.
+Harness file3ec0ce19e6b5c1a53486285af117938877a13f3553eecff33d27a100560a84b2,digest769704bce8bf79c70708c517771d3dbc0c0a439034654dab3084a46b21daca4d.
+
+Immutable plans,acceptedcalibrationreview,boundaryclarification,budget inspected. Both canonicaldigests recomputed;15 input/codesHA256 agree. PinnedmetadataCLIs validated execution_started:false. Sourceunchanged;nativesource/map/environment/calibration bound. Qualificationmode exactly5000updates,35prefixoracles,13arms=>455oracles65000timings;3 matching finaloutputs absent. Noallprefixlossmatrix,ratiofallback orperformanceverdict.
+
+OneCPUtask,threads1,GPU0,600sinner660souter,1024MiBreservationnotenforced,1attempt0retry. Cgroup8cores8GiB;80assignments15dispatched2controller0discovery,onlyfullStageAreservationunreleased. Remainingdeadline accommodatesfinitework/closeout. Same stdlib measurementwrapperaccepted withplanpath,digest,uniquerecordprefix substituted. Actualwholecallerwall/waitedCPU scope preserved. Independent output/cost/release review stillrequired.
+
+Noformalnativeevaluatorqualification orStageBadmission:fullperformancecomparison remains blocked. Source/design mayproceed separately.
