@@ -121,6 +121,7 @@ def run(args) -> None:
         "scientific_gate_advanced": False,
         "performance_claim_eligible": False,
         "confirmation": False,
+        "rss_semantics": "per-arm ru_maxrss is cumulative process high-water mark, not an independent arm peak",
         "argv": sys.argv,
         "thread_environment": thread_environment,
         "environment": {

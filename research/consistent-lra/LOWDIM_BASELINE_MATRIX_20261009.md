@@ -53,6 +53,12 @@ source/transformed/label identities, headline aggregates and total process
 CPU/RSS.  Compression is lossless and must be independently decompressed/hash-
 checked before any verdict.
 
+Because all arms run inside one process, each arm summary's `ru_maxrss` is the
+process high-water mark accumulated through that point, not an independent
+per-arm peak.  It must not be used to rank arm memory.  Only the final process
+high-water mark is a batch-level memory observation; update/reference/scoring
+clocks remain per arm under the existing instrumentation.
+
 ## Falsifiers and interpretation
 
 The execution is invalid if a cohort lacks 13 arms, an arm lacks exactly 3,000
