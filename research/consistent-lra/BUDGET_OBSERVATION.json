@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T09:29:02.719209+00:00",
+  "observed_at": "2026-10-09T09:35:16.061061+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 73,
+  "registered_task_assignments": 75,
   "executable_attempts_dispatched": 14,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -142,7 +142,9 @@
     "cpu-window-02-explicit-restart-bootstrap",
     "window02-scorer-scope-independent-review",
     "window02-landmark-stage-a-source-generation",
-    "window02-landmark-stage-a-source-review"
+    "window02-landmark-stage-a-source-review",
+    "window02-landmark-stage-a-calibration-plan-generation",
+    "window02-landmark-stage-a-calibration-plan-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -153,7 +155,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 28000.280791,
+  "remaining_wall_seconds_at_observation": 27626.938939,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -762,10 +764,24 @@
   },
   "current_round": "window02-native-landmark-qualification",
   "completed_window02_scorer_scope_review": "accepted_source_scope_diagnosis_no_scientific_gate",
-  "pending_window02_source_review": {
+  "pending_window02_source_review": null,
+  "completed_window02_source_review": {
     "assignment": "window02-landmark-stage-a-source-review",
-    "source": "landmark_stage_a.py",
-    "sha256": "d8ea3977059594604b69cfe96bfbb781a7e2b7a362589569a7340c283b19294e",
-    "status": "pending_actual_independent_assignment"
+    "commit": "8137143140d946b7d04d08d2d31c3055bdf03e5c",
+    "verdict": "accepted_static_source_semantics_only"
+  },
+  "pending_window02_plan_review": "window02-landmark-stage-a-calibration-plan-review",
+  "window02_stagea_calibration_reservation": {
+    "task": "landmark-stage-a-calibration-02",
+    "cpu_cores": 1,
+    "ram_mib_reserved_not_enforced": 1024,
+    "wall_seconds_upper_bound": 180,
+    "attempts_reserved": 1,
+    "attempts_launched": 0,
+    "released": false,
+    "execution_admitted": false,
+    "native_plan_digest": "6e1a07e0714ae8deecb67dd5197516f0b90c6be7d40f3dc60452b34e4e16918f",
+    "harness_plan_digest": "b574cc87b849d9ef3e8b29ef4395c4de6588c59baa5d9e478a87834cdbab3606",
+    "scope": "native_numerical_identity_and_all_arm_cost_only"
   }
 }
