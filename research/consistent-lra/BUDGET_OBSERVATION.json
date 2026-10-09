@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T11:32:10.313366+00:00",
+  "observed_at": "2026-10-09T11:35:56.745441+00:00",
   "controller_rounds": 2,
   "registered_task_assignments": 116,
   "executable_attempts_dispatched": 20,
@@ -207,7 +207,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 20612.686634,
+  "remaining_wall_seconds_at_observation": 20386.254559,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -1174,7 +1174,7 @@
     "actor": "/root/window02_geometric_formal_review",
     "scope": "bounded primary retrieval and semantic comparison only; not independent adjudication of its authored v7 card",
     "inputs_commit": "7d75f63e21cec0a6e29fddd76121f2518246e732",
-    "status": "registered_not_dispatched"
+    "status": "dispatched_actual_followup_readonly"
   },
   "pending_window02_nearzero_design": {
     "author_assignment": 115,
@@ -1183,6 +1183,7 @@
     "reviewer": "/root/window02_stagea_source_review",
     "scope": "pure-derived scalar classification/denominator design; no matrix/scorer/benchmark execution",
     "inputs_commit": "7d75f63e21cec0a6e29fddd76121f2518246e732",
-    "status": "registered_not_dispatched"
+    "status": "author_design_generated_unexecuted_pending_independent_review",
+    "design_sha256": "ab66c24f56025c46c4294da18b594144fa7a9a53adad1b6965c2831f5555b734"
   }
 }
