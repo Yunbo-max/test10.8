@@ -718,8 +718,8 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T13:00:16.042607+00:00",
-  "observed_process_cpu_seconds": 294.840397108,
+  "observed_at": "2026-10-09T13:01:31.232618+00:00",
+  "observed_process_cpu_seconds": 307.053465108,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
   "pending_asset_review": null,
@@ -873,7 +873,7 @@
     }
   ],
   "registered_task_assignments": 154,
-  "remaining_wall_seconds_at_observation": 15326.957393,
+  "remaining_wall_seconds_at_observation": 15251.767382,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
@@ -1291,12 +1291,12 @@
     "harness_plan_digest": "6986ad275e6cd1441a5f55c68ffd38741dafaa4c7b187de2b812b83e886eb993",
     "native_plan_digest": "fbb52f2e5b6f16974f8ffaaff329cabad803909189d732142388a71f304c05e9",
     "ram_mib_reserved_not_enforced": 256,
-    "released": false,
+    "released": true,
     "scope": "existing_lemma_full61_exact_integer_projector_lower_bound_only",
     "task": "exact-integer-projector-target61-02",
     "wall_seconds_upper_bound": 360,
     "attempts_charged": 1,
-    "execution_status": "admitted_precharged_not_yet_started",
+    "execution_status": "completed_pending_independent_evidence_review",
     "prelaunch_observation": {
       "observed_at": "2026-10-09T13:00:16.042607+00:00",
       "cpu_max": "800000 100000",
@@ -1304,7 +1304,13 @@
       "active_matching_processes": [],
       "remaining_wall_seconds": 15326.957393,
       "process_inventory_method": "proc exactargvbasename"
-    }
+    },
+    "attempt_id": "exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea",
+    "attempts_completed": 1,
+    "release_basis": "terminalnestedreceipt and postexit outputreadbacks; independent process reconciliation pending",
+    "waited_process_tree_cpu_seconds": 12.213068000000002,
+    "actual_harness_wall_seconds": 13.09010588900128,
+    "maximum_child_rss_kib": 25392
   },
   "window02_integer_witness_plan_history": [
     {
