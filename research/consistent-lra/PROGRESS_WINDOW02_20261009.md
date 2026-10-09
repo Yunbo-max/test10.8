@@ -1,0 +1,11 @@
+# CPU research progress — 2026-10-09T11:19:51.366269+00:00
+
+Current step2: authentic native scientific evaluator capability/source gap remains. Within the same bounded authorized project, independently accepted new work includes complete finite Landmark Stage-A v2 raw455oracles/65000timings, constructive integer v7 math with R_Z>2k/15-.01 andall-consecutivecondition<4/259bits atk61, and real-parent k61 exact Fraction certificate with completeindependentarithmeticreadback. Originaltargetwall32.111197714/CPU31.346881/RSS28812KiB; separateverificationCPU13.176209082charged. Complete corrected Stage-B13arm5000prefix scorer source accepted afterpreservedrejection/onecorrection, generated_unexecuted.
+
+Counts2controllerrounds113assignments20originalexecutabledispatchattempts0discovery0scientificexperiments0eligiblepapers. CPUlowerbound290.816014082seconds, all executionreservationsreleased; modelreasoning/toolsnotfullymetered and scheduleisnotcontinuousCPU. Remainingcurrentwallbudget21352seconds until17:15:43Z;stopnewwork17:10:43Z. No main/Delta/sharedskill changes, no paidservices/GPU/newdependencies.
+
+No comparativewinner/paperclaim. Parent/Gate0/IPCG/fullnativebaseline residuals, approx20cardpool/wholepoolranking,G01/nativeE04/prospectiveconfirmation remainactualdependencies. Knownrankone/Cauchymechanism notnovel; v7targetapplicationpriority unresolved, approximate-existence theorem not refuted.
+
+New source/evidence identities: Stage-A evidencebc80f1be00f772a8c462f807444cdd4e2b67de35; v7draft3f8aa6e48335052f93b75e55a4ce3a41311481ca SHA d0f56dbf1ec12c302ad2b42e8ae608a06c9c6c2da63b50da2ee11f6ec8fede79; realtargetevidenceea547dd4c732a01b06969b045866eb03bd906271 JSONL3155810bytesSHA06543277737b9b1777c1d7db585610d95273ebe07ca8cba0c5eca4a2d18ddd07; correctedStageBsource9154c3d171d2579f7feef40318ea8b111994beb8 SHA12fa733061a4ec93983cafeb0fbed7af31b19f85c0d1ab875be8de3803457f5e. Later integrationcommit containsactualindependentreviewrecords andupdated controls, exactreadbackrequired.
+
+Next: targetedprimarypriority/downstreamaudit andsource-firstfinite nearzero derived-metricengineeringqualificationdesign, preservingactualnative-scientificblockeddescendants. Neverrerunacceptedwork orbootstrapimmediaterequest; restoresamegoal/livehead/samebackendidentity, no secondwriter.

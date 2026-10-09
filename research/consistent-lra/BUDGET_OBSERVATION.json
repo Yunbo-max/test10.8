@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T11:15:28.916879+00:00",
+  "observed_at": "2026-10-09T11:19:51.366269+00:00",
   "controller_rounds": 2,
   "registered_task_assignments": 113,
   "executable_attempts_dispatched": 20,
@@ -79,7 +79,7 @@
     }
   ],
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
-  "independent_work": "accepted constructive polynomial-bit integer lemma counterexample and complete real-parent k61 exact arithmetic corroboration; complete StageB scoring source generated pending independentreview; novelty/nativeauthority remain unresolved",
+  "independent_work": "accepted constructive integer mathematical audit and real-parent exact certificate; complete corrected StageB source independentlyaccepted but unexecuted; next primary priority/downstream audit and scoped nearzero engineering qualification design; native scientific authority remainsblocked",
   "task_assignments": [
     "source_join_review",
     "harness_staging_review",
@@ -204,7 +204,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 21887.924588,
+  "remaining_wall_seconds_at_observation": 21351.633731,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -1153,12 +1153,17 @@
       "verdict": "needs_correction_positive_energy_normalization_arm_roles_and_aggregation_completeness",
       "source_repair_count": 1,
       "scientific_failure": false,
-      "source_executed": false
+      "source_executed": false,
+      "rereview_verdict": "accepted_corrected_source_design_only"
     }
   ],
-  "pending_window02_stage_b_source_correction_review": {
+  "pending_window02_stage_b_source_correction_review": null,
+  "completed_window02_stage_b_source_review": {
     "assignment": "window02-landmark-stage-b-source-correction-review",
+    "reviewer": "/root/window02_stagea_source_review",
+    "commit": "9154c3d171d2579f7feef40318ea8b111994beb8",
     "source_sha256": "12fa733061a4ec93983cafeb0fbed7af31b19f85c0d1ab875be8de3803457f5e",
-    "status": "generated_unexecuted_waiting_fixed_commit_review"
+    "verdict": "accepted_corrected_source_design_only_no_runtime_or_native_scientific_admission",
+    "record": "LANDMARK_STAGE_B_SOURCE_REVIEW.md"
   }
 }

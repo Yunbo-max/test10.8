@@ -38,7 +38,7 @@ background_task_id: 6ac82bb085c081919fa92002384b073b
 background_conversation_id: 6ac827e6-de58-83eb-9487-8a2ab69c90e5
 background_observed_state: "same_task_enabled_observed; bootstrap_immediate_ack_historical_not_worker_todo"
 background_control_record: BACKGROUND_TASK.json
-current_step: "2: scientific native evaluator/source gap; independent Stage-B source review and constructive integer priority audit"
+current_step: "2: scientific native evaluator/source gap; independent priority/downstream and nearzero engineering qualification design"
 completed:
   - frozen_versioned_baseline_repair_contract
   - Rice_Skin_exact_native_bytes_order_labels_and_license_reading
@@ -80,14 +80,14 @@ scientific_experiments_started: 0
 scientific_results_verified: 0
 eligible_new_papers: 0
 negative_or_invalid_history: BASELINE_AUDIT.md
-next_action: "finish_stage_b_source_semantic_review_without_dispatch_then_primary_priority_downstream_audit"
+next_action: "primary_priority_downstream_audit_then_bounded_nearzero_source_plan_qualification; StageB_not_admitted"
 notes:
   - source review is not scientific replication
   - schedule is not uninterrupted CPU execution
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 112
+actual_registered_task_assignments: 113
 actual_executable_attempts: 20
 actual_preparation_attempts: 20
 actual_scientific_attempts: 0
@@ -399,5 +399,8 @@ window02_explicit_integer_bit_bound_state: accepted_constructive_analytic_intege
 window02_integer_bit_bound_review: FORMAL_AUDIT_v7_REVIEW.md
 window02_target61_evidence_review: FORMAL_CERTIFICATE_TARGET61_EVIDENCE_REVIEW_WINDOW02.md
 window02_stage_b_source: run_landmark_stage_b.py
-window02_stage_b_source_status: generated_unexecuted_pending_independent_review
+window02_stage_b_source_status: accepted_corrected_source_design_only_unexecuted_no_native_authority
 window02_readonly_fraction_review_CPU_seconds: 13.176209082
+
+window02_stage_b_source_review: LANDMARK_STAGE_B_SOURCE_REVIEW.md
+window02_stage_b_corrected_source_sha256: 12fa733061a4ec93983cafeb0fbed7af31b19f85c0d1ab875be8de3803457f5e

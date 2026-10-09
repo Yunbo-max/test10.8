@@ -1,10 +1,10 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T11:11:57.978485+00:00",
+  "observed_at": "2026-10-09T11:19:51.366269+00:00",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
   "decision": 2,
-  "action": "return2to scientific native source/capability gap; independently finish existing Stage-B source review and constructive integer priority/downstream audit",
+  "action": "return2to scientific native capability/source gap; independently continue primary priority/downstream audit and bounded nearzero software qualification design",
   "basis": [
     {
       "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
@@ -113,12 +113,13 @@
     "Landmark_reference_calibration": "11-prefix rank-25 Gram reference cost and three direct-SVD numerical agreements independently accepted as engineering evidence; full 5000-prefix baseline matrix and official parity remain pending",
     "Landmark_stage_a_v2": "455 identity records at 35 prefixes, 65000 update/timing records, all38outputs and59retainedfiles independently accepted; wall79.251553s CPU78.791094 RSS190604KiB; no all-prefix loss/recourse performance or nearzero qualification",
     "real_parent_k61_exact_arithmetic": "One actual finite target61 command and complete independent decoded-Fraction arithmetic review accepted; all122residues122roots61crossings, bound122/15>8; not fullR/blocksingulars/integerv7validation/nativequalification",
-    "constructive_integer_bit_bound": "v7 analytic integerization independentlyaccepted: R_Z>2k/15-.01,consecutive/crossblockkappa<4,entrybits<=4k+ceillog2k+9 (259at61); exponentialmagnitudes,primarypriorityunresolved,nomethod/paperpass"
+    "constructive_integer_bit_bound": "v7 analytic integerization independentlyaccepted: R_Z>2k/15-.01,consecutive/crossblockkappa<4,entrybits<=4k+ceillog2k+9 (259at61); exponentialmagnitudes,primarypriorityunresolved,nomethod/paperpass",
+    "StageB_source": "complete13arm5000prefix source/design accepted afterone recorded correction; trueenergyexcess/roles/16metricendpointmeanmedianmax/28filepacket implemented;unexecuted,noadmission"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
     "published_random_replication": "unseeded released generator and paper/code normalization mismatch prevent exact figure stream identity",
-    "full_baseline_qualification": "finite StageA v2 accepted; full5000 StageB scorer source generated pendingindependentreview, noStageBexecution/nativeauthority/nearzeroqualification",
+    "full_baseline_qualification": "finiteStageAaccepted; corrected completeStageBsource independentlyaccepted_unexecuted;nearzeroruntimequalification/nativeauthority/scientificdispatch remainblocked",
     "new_method_discovery": "qualified Parent/Gate0/IPCG and meaningful residual baseline failures pending",
     "candidate_code_dispatch": "no independently ranked qualified method pool/G01/native scorer",
     "eligible_writing": "no validated numerical improvement; originality and downstream significance unresolved"
@@ -127,10 +128,10 @@
   "gate_advanced": false,
   "eligible_new_papers": 0,
   "continued_independent_work": [
-    "finish_assignment110_fixed_stageB_source_semantic_review_no_dispatch",
-    "targeted_primary_priority_and_downstream_scope_audit_of_constructive_polynomial_bit_integer_counterexample"
+    "targeted_primary_priority_and_downstream_audit_of_constructive_integerbit_family",
+    "bounded_sourcefirst_pure_derivedmetric_nearzero_engineering_qualification_design;not_StageB_scoring"
   ],
-  "reason_not_terminal": "independent finite source/design and primary priority/downstream work remain inside authorized deadline; scientific capability block affects actual descendants only",
+  "reason_not_terminal": "Finite independent originality/proofscope and software qualification work remains before harddeadline; no duplicate goal, no scientific gate shortcut",
   "next_restore": "resolve immutable branch head and retained bytes; never rerun accepted Landmark/Rice/Skin/oracle preparation or bootstrap immediate request",
   "note": "In-place worker evidence mapping to pinned RSI return-to-source route; no fabricated controller, official scorer, Gate A pass or paper result.",
   "prior_decision": 2,
@@ -182,6 +183,12 @@
       "artifact": "FORMAL_CERTIFICATE_TARGET61_EVIDENCE_REVIEW_WINDOW02.md",
       "sha256": "e59796a0d207b56c8749c99044205b9743088eb85e2cf677ffa4ffc4d5d4dce0",
       "verdict": "accepted_real_parent_k61_finite_arithmetic_execution_and_independent_rawreview"
+    },
+    {
+      "artifact": "LANDMARK_STAGE_B_SOURCE_REVIEW.md",
+      "sha256": "262ea4ea0c9c6f50028114003110c32813d023c82d9f6f72bea97bb52794d098",
+      "reviewed_commit": "9154c3d171d2579f7feef40318ea8b111994beb8",
+      "verdict": "accepted_corrected_source_design_only"
     }
   ],
   "independent_routes": {
@@ -190,6 +197,6 @@
     "new_method_discovery": "blocked_parent_native_baseline_and_gate0_ipcg",
     "exact_formal_certificate": "closed_finite_k61_only",
     "explicit_integer_bit_bound": "closed_analytic_proof_only",
-    "Stage_B_source_design": 4
+    "Stage_B_source_design": "closed_source_design_only"
   }
 }

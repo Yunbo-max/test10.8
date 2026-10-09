@@ -9,7 +9,7 @@ negative history are retained; background activation is recorded separately.
 
 实数父构造的秩 61 精确有理数记录也已实际执行并完整独立复核：122 项 residue、122 项 secular/导数/归一化、61 项交叉权重，严格下界 `122/15>8`。原执行 wall 32.111198 秒、CPU 31.346881 秒；另外独立只读算术验收消耗 CPU 13.176209 秒，单独累计。[代码](formal_geometric_certificate.py)、[完整验收](FORMAL_CERTIFICATE_TARGET61_EVIDENCE_REVIEW_WINDOW02.md)。它验证实数父卡的有限恒等式，不生成或验证 v7 整数输入，也不计算完整 recourse。
 
-完整 13 对照、5,000 前缀的 [Stage B 代码草案](run_landmark_stage_b.py)已生成，近零直接 SVD/残差回退、分母、初始与稳态 recourse、原始输出和归档均有实现；当前正在独立源码审查，未导入/未执行。正式数值比较仍缺原生 evaluator 资格，不因代码或 Stage A 接受而绕过。累计 2 轮控制迭代、112 个登记任务、20 次执行尝试、至少 290.816014 秒实测 CPU；正式科学实验、新候选发现轮和合格论文均为 0。新颖性/优先权仍未结案。
+完整 13 对照、5,000 前缀的 [Stage B 代码草案](run_landmark_stage_b.py)及[保留初审问题的独立复审](LANDMARK_STAGE_B_SOURCE_REVIEW.md)已生成，近零直接 SVD/残差回退、分母、初始与稳态 recourse、原始输出和归档均有实现；初审指出归一化分母和角色分类问题；一次修正后已通过独立源码审查，未导入/未执行。正式数值比较仍缺原生 evaluator 资格，不因代码或 Stage A 接受而绕过。累计 2 轮控制迭代、113 个登记任务、20 次执行尝试、至少 290.816014 秒实测 CPU；正式科学实验、新候选发现轮和合格论文均为 0。新颖性/优先权仍未结案。
 
 
 本项目使用 `Research_Autopilot/autonomous-rsi` 的机器审查流程，研究流式低秩近似的重构质量、子空间稳定性和计算成本。用户授权使用当前 ChatGPT Work 的 CPU，并要求一个 8 小时研究窗口。资源实测为 8 核 CPU 配额、8 GiB 内存上限；无需 GPU 或额外模型 API。
