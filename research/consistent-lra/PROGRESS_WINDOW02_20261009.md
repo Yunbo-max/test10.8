@@ -1,24 +1,19 @@
-# CPU research progress — 2026-10-09T12:12:06.239346+00:00
+# CPU research progress — 2026-10-09T12:44:07.187554+00:00
 
-Current step2 native evaluator/source authority gap; independent child work advances
-without scientific gate. Isolated scalar source/plan accepted after recorded
-retention/coverage/lineage correction. Single actual attempt
-isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f completed
-12:06:49.574015–12:06:50.729067Z;501allpass unique rows, fouroutputs, two
-postexit hashes and25exactGitcommitfile readbacks atba35efc546455968927e2b69de2609fbcfbcfe86.
-Wall1.155049632 CPU1.095581 RSS37044KiB; full logs/receipts/diagnostic retained,
-independent128evidence review pending. No matrices recomputed/fullStageB executed.
+Step2 native authority/priority gap; independent route4 exact projector source
+preparation. Scalar501 records and integer256 entries have actual independent
+acceptance. Original single attempts retained: scalar wall1.155049632 CPU1.095581
+RSS37044KiB; integer wall1.084131615 CPU0.420406 RSS30948KiB. Raw packets
+ba35efc546455968927e2b69de2609fbcfbcfe86 and066361e4d3e816fbc6ca4863f74a9afb12dfcaeb
+with exact readback. Separate readonly review costs retained in ledger.
 
-Counts2controllerrounds130assignments21originalattempts0discovery0scientific0papers.
-CPUlowerbound291.911595082s, no unreleasedexecutionreservations. Remaining wall
-18217s until17:15:43Z;stopnewwork17:10:43Z. No continuousCPU claim.
+2 recordedcontrolrounds/143 assignments/22 attempts/0 discovery/0 scientific/
+0 eligiblepapers; CPUlowerbound293.528979590s. All executionreservationsreleased.
+Remainingwall16295.8s, harddeadline17:15:43Z/stopnewwork17:10:43Z.
 
-Primaryaudit114: known2005finite rankone/Cauchy/secular formulas found; conjunction
-priority inconclusive. Accepted v7 math and realk61certificate keptdistinct.
-New integerwitness design130review pending at6f05dbd2890de391f48f83d439009cbfa2d5b4ea,
-exact construction/bits only; no source/execution/scienceclaim yet.
-
-Next: close actualscalar evidence review; accepted integer design can proceed
-to complete source/independentsource/plan/finite execution/evidence. Scientific
-Parent/Gate0/IPCG/fullnativebaselines/G01/20cards/allpoolranking/freshconfirmation
-remain actualpending dependencies. No comparative winner or eligible manuscript.
+139primaryreview ADVANCE narrowlemma correction, KILL knownmachinery novelty,
+INCONCLUSIVE fullconstructionconjunctionpriority. 141math/design ACCEPT source
+generationonly; prospectiveR>8 stillneeds actualinteger rootcertificate.
+143representative rank61 cost addendum review pending. Next complete source,
+independentsource/plans, admitted calibration, independent arithmetic/cost
+review, conditional full61. Native StageB and performance/writing staypending.

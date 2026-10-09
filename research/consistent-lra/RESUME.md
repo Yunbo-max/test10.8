@@ -67,5 +67,19 @@ Assignment110 original Stage-B source was rejected for normalized-energy denomin
 Independent useful work: targeted primary priority/downstream audit of constructive polynomial-bit integer correction; accepted mechanism is prior art, no absence-of-search novelty pass. Gate0/IPCG/full baseline/residual failures remain prerequisites for discovery; pool0, no forged verify_methods batch or metadata authorization. Keep generated source and real mathematical/provenance artifacts even if paper eligibility remains0.
 
 
-## Actual scalar software execution and next independent child
-Restore ba35efc546455968927e2b69de2609fbcfbcfe86 packet or latestsamehead: isolated scalar501rows,diagnosticjournal,summary,manifest and21receipts/logs files exactbyte-readbackrootverified. Oneactualattempt wall1.155049632 CPU1.095581 RSS37044KiB, reservationreleased; evidence128review pending. Source124 and plan126acceptance stored; no scientific/native/StageB admission. INTEGER_WITNESS_DESIGN_WINDOW02.md at6f05dbd2890de391f48f83d439009cbfa2d5b4ea pending actualdesign130review; no executablegenerator created. Retain targeted priorityaudit114 known2005machinery and unresolvedapplicationpriority, no noveltypass.
+## Current verified scalar/integer work and dependent projector certificate
+Restore latest branch immutable head; current ledger is143 assignments/22 attempts,
+2 recorded control rounds, CPU lower bound293.528979590s; zero discovery/scientific
+experiments/eligible papers. All execution reservations released. Scalar501 records
+and actual256 integers accepted independently in NEARZERO_SCALAR_EVIDENCE_REVIEW_WINDOW02.md
+and INTEGER_WITNESS_EVIDENCE_REVIEW_WINDOW02.md. Raw packets ba35efc546455968927e2b69de2609fbcfbcfe86
+and066361e4d3e816fbc6ca4863f74a9afb12dfcaeb; do not rerun completed work.
+
+Actual139 INTEGER_CORRECTION_INDEPENDENT_COLLISION_REVIEW_WINDOW02.md supports narrow
+lemma correction, kills mechanism novelty and leaves conjunction priority unresolved.
+Actual140/141 projector math/design accepted source generation only. Actual142/143
+INTEGER_PROJECTOR_COST_ADDENDUM_WINDOW02.md is a predetermined representative-rank61
+cost proposal pending independent review; source, complete plan and execution are
+separate. Next create complete source only after addendum review, then independent
+source and plans, one bounded calibration, independent actual arithmetic/cost review,
+then conditional full61 certificate. No StageB/native authority supplied.

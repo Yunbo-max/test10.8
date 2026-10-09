@@ -38,7 +38,7 @@ background_task_id: 6ac82bb085c081919fa92002384b073b
 background_conversation_id: 6ac827e6-de58-83eb-9487-8a2ab69c90e5
 background_observed_state: "same_task_enabled_observed; bootstrap_immediate_ack_historical_not_worker_todo"
 background_control_record: BACKGROUND_TASK.json
-current_step: "2: native evaluator/source gap; independent integer witness design and completed scalar software evidence review"
+current_step: "2: native evaluator/source gap; independent exact integer projector design/source preparation"
 completed:
   - frozen_versioned_baseline_repair_contract
   - Rice_Skin_exact_native_bytes_order_labels_and_license_reading
@@ -80,19 +80,19 @@ scientific_experiments_started: 0
 scientific_results_verified: 0
 eligible_new_papers: 0
 negative_or_invalid_history: BASELINE_AUDIT.md
-next_action: "review isolated scalar actual evidence and integer witness design; StageB not admitted"
+next_action: "review representative rank61 cost addendum, generate complete projector source, independently review source/plans before calibration"
 notes:
   - source review is not scientific replication
   - schedule is not uninterrupted CPU execution
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 130
-actual_executable_attempts: 21
-actual_preparation_attempts: 21
+actual_registered_task_assignments: 143
+actual_executable_attempts: 22
+actual_preparation_attempts: 22
 actual_scientific_attempts: 0
 actual_discovery_rounds: 0
-actual_observed_process_cpu_seconds: 291.91159508199996
+actual_observed_process_cpu_seconds: 293.528979590
 actual_observed_process_cpu_seconds_semantics: lower_bound_after_failed_repair_01_plus_exact_final_repair_plus_prospective_random
 actual_max_preparation_rss_kib: 190604
 unreleased_reservations: []
@@ -406,10 +406,18 @@ window02_stage_b_source_review: LANDMARK_STAGE_B_SOURCE_REVIEW.md
 window02_stage_b_corrected_source_sha256: 12fa733061a4ec93983cafeb0fbed7af31b19f85c0d1ab875be8de3803457f5e
 
 scalar_contract_execution_commit: ba35efc546455968927e2b69de2609fbcfbcfe86
-scalar_contract_execution_status: completed_engineering_only_pending_independent_review
+scalar_contract_execution_status: accepted_finite_scalar_software_only
 scalar_contract_records: 501
 scalar_contract_attempt: isolated-scalar-software-a1-7b6762f76b7d4157b2edbcc9dac1fc6f
 scalar_contract_source_review: NEARZERO_SCALAR_SOURCE_REVIEW_WINDOW02.md
 scalar_contract_plan_review: NEARZERO_SCALAR_PLAN_REVIEW_WINDOW02.md
 integer_witness_design: INTEGER_WITNESS_DESIGN_WINDOW02.md
-integer_witness_design_status: pending_independent_review_generated_unexecuted
+integer_witness_design_status: accepted_source_plan_and_integer_execution_evidence_only
+
+# Actual139/141 integrated; mathematical certificate remains dependent work.
+integer_witness_execution_commit: 066361e4d3e816fbc6ca4863f74a9afb12dfcaeb
+integer_witness_evidence_review: INTEGER_WITNESS_EVIDENCE_REVIEW_WINDOW02.md
+integer_correction_collision_review: INTEGER_CORRECTION_INDEPENDENT_COLLISION_REVIEW_WINDOW02.md
+integer_projector_design_review: INTEGER_PROJECTOR_CERTIFICATE_DESIGN_REVIEW_WINDOW02.md
+integer_projector_cost_addendum: INTEGER_PROJECTOR_COST_ADDENDUM_WINDOW02.md
+integer_projector_certificate_status: design_accepted_source_generation_only_cost_addendum_pending
