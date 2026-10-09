@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T04:31:49+00:00",
+  "observed_at": "2026-10-09T04:57:26+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 41,
+  "registered_task_assignments": 42,
   "executable_attempts_dispatched": 10,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -109,7 +109,8 @@
     "author-fd-semantic-oracle-evidence-correction-rereview",
     "lowdim-baseline-matrix-source-review",
     "lowdim-baseline-matrix-source-correction-rereview",
-    "lowdim-baseline-matrix-plan-review"
+    "lowdim-baseline-matrix-plan-review",
+    "lowdim-baseline-matrix-evidence-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -120,7 +121,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 11755,
+  "remaining_wall_seconds_at_observation": 10219,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -333,7 +334,10 @@
     "archive_integrity": "three_of_three_gzip_tar_archives_truncated",
     "staged_member_hash_mismatches": 4,
     "scientific_failure_charged": false,
-    "independent_evidence_review": "pending"
+    "independent_evidence_review": "accepted_as_failure_record",
+    "independent_evidence_review_commit": "17bde0dbd39d9409dc7a792e020e7d15c1b88e7f",
+    "independent_evidence_review_tree": "875ca1384463447a14cd0246d10a32d222d951c0",
+    "failure_record_sha256": "139772a7723b0cfc12c0e735d91facc00a8fa9d844cf9d42ac3fd4a540f06778"
   },
   "unadmitted_development_smoke_history": [
     {
@@ -351,7 +355,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T04:31:49+00:00",
+    "observed_at": "2026-10-09T04:57:26+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
