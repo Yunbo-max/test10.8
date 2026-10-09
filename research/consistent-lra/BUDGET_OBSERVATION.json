@@ -5,15 +5,15 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T06:40:06+00:00",
+  "observed_at": "2026-10-09T06:41:26+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 64,
-  "executable_attempts_dispatched": 13,
+  "registered_task_assignments": 65,
+  "executable_attempts_dispatched": 14,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 73.202525,
-  "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds but repair-01 aggregate remains a per-arm lower bound",
+  "observed_process_cpu_seconds": 74.624432,
+  "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound",
   "reservation": {
     "task": "source-integrity-01",
     "purpose": "mechanical_preparation_only",
@@ -133,7 +133,8 @@
     "native-protocol-v2-correction-rereview",
     "landmark-reference-calibration-source-review",
     "landmark-reference-calibration-source-correction-rereview",
-    "landmark-reference-calibration-plan-review"
+    "landmark-reference-calibration-plan-review",
+    "landmark-reference-calibration-evidence-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -144,7 +145,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 4059,
+  "remaining_wall_seconds_at_observation": 3979,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -163,7 +164,7 @@
   "completed_source_review": "landmark-reference-calibration-source-correction-rereview:accepted_static_source_semantics_only",
   "pending_asset_review": null,
   "completed_asset_review": "landmark-source-qualification-correction-rereview:accepted_after_recorded_needs_correction",
-  "pending_execution_evidence_review": null,
+  "pending_execution_evidence_review": "landmark-reference-calibration-evidence-review",
   "completed_execution_evidence_review": "landmark-integrity-execution-evidence-review:accepted",
   "pending_archive_scorer_review": null,
   "completed_archive_scorer_review": "author-archive-scorer-audit-independent-review:accepted_with_nonblocking_row-count_precision_note",
@@ -680,7 +681,11 @@
     "prospective_random_baseline_matrix_launched": true,
     "prospective_random_baseline_matrix_completed": true,
     "prospective_random_baseline_matrix_evidence_reviewed": true,
-    "prospective_random_durable_archive_repair_1_pending": false
+    "prospective_random_durable_archive_repair_1_pending": false,
+    "landmark_reference_calibration_plan_reviewed": true,
+    "landmark_reference_calibration_launched": true,
+    "landmark_reference_calibration_completed": true,
+    "landmark_reference_calibration_evidence_reviewed": false
   },
   "landmark_reference_calibration_reservation": {
     "task": "landmark-reference-calibration-01",
@@ -693,7 +698,16 @@
     "retries": 0,
     "native_plan_digest": "568c5193935ff57d686cde51b8fe46e9a6e7a0a1776e43b89d928ac321635f57",
     "harness_plan_digest": "570f6c67bd609cf2adc75144948a3baa897c91d120ca227d2fba9737c6aecf06",
-    "released": false,
-    "execution_started": false
+    "released": true,
+    "execution_started": true,
+    "execution_status": "completed_pending_independent_evidence_review",
+    "attempt_id": "landmark-reference-cost-a1-177b60cdd7444745b59898cc4731e74a",
+    "actual_process_cpu_seconds": 1.421907,
+    "actual_script_wall_seconds": 1.422161420006887,
+    "actual_attempt_wall_seconds": 1.819964804002666,
+    "actual_harness_wall_seconds": 3.0339310380004463,
+    "actual_max_rss_kib": 80104,
+    "receipt_sha256": "2cf21ec972891eb1477973a981632a638593815d6d7412baf72bedcfcb050d29",
+    "output_sha256": "25887ba1e2a81776a87a88ab0f78cfc0134a408fa3642686d039d04ba5f9df90"
   }
 }
