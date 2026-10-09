@@ -1,0 +1,26 @@
+{
+  "format": "scoped-independent-source-and-algebra-review-assignment-v1",
+  "task_id": "sampling-source-qualification-independent-review",
+  "registered_order": 12,
+  "candidate_path": "research/consistent-lra/SAMPLING_SOURCE_QUALIFICATION_20261009.md",
+  "candidate_commit": null,
+  "primary_sources": [
+    "https://arxiv.org/html/1805.03765v6",
+    "https://proceedings.iclr.cc/paper_files/paper/2026/file/b14d76c7266be21b338527cd25deac45-Paper-Conference.pdf"
+  ],
+  "review_questions": [
+    "Does the pinned PCP source support the online condition and simultaneous all-prefix statements?",
+    "Is the target paper dependency described without strengthening either source?",
+    "Are the loss-transfer calibration and projector-diameter fallback algebraically correct?",
+    "Is the distinction between sample size and output-changing event count explicit and adequate?",
+    "Does the record avoid claiming that Theorem 1.2 itself is false?"
+  ],
+  "allowed_outcomes": ["accepted", "needs_correction", "rejected", "inconclusive"],
+  "execution": false,
+  "native_scoring": false,
+  "budget_effect": {
+    "registered_task_assignments": 1,
+    "executable_attempts": 0,
+    "scientific_experiments": 0
+  }
+}
