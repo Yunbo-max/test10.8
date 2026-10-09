@@ -1,0 +1,14 @@
+# Source/data join, first continuation
+Restored commit 276377b9bce7c4d3c6fc2ed4c685d34444731574; pinned RSI source 1de12dfed5b84957b29ac5b3a2f04904bf3742bc. All eight control files read from the same head. No active scientific process or saved attempt exists in bootstrap state. Deadline unchanged 2026-10-09T07:47:45Z.
+
+Actual acquisition: Rice via GitHub fetch_file; Skin fetch_file returned metadata with emptycontent, raw-fetch failed, fetch_blob returned complete UTF8. Saved bytes verified against original Git blob, removing only the serializer-added final newline. Rice427635bytes/SHA2561af97883100c89de2ea2972f7a28d428f4f1c14711a61defc0b0569e9eb65665; Skin3155761bytes/SHA256008f1fb6a169498dec54fb5951be6478e5465942cc4f6df3b5dabbe484c9a98f. Parsing/numerical qualification has NOT run.
+
+Correct filenames consistent-lra-random.py and consistent-lra-random-fast.py. Earlier shortened filenames returned404 and were corrected from exactauthor directory; no scientific attempt executed. Both actual files fully inspected, unseeded Python randint; unscaled. Fast uses3000x100/k20 and randomized decomposition at eachprefix. Original3000x4 and AppendixG normalized description disagree. Both original files retained, no fabricated figure seed.
+
+Independent audit /root/baseline_audit confirms generator differences; its complete review pending. FD closest-source investigated: edoliberty/frequent-directions@691df9edb2ffbc2fdddc2cec3b703a3f1e438d4d, frequentDirections.py blob4bb3500cbea9c81c21cbeea5cd5db60ac4006d3d fullyread. Uses2ellbuffer, shrink subtraction sell-1 squared, specialcase d<ell; get returns onlyfirstellrows even withnewpendingbufferrows, so its exactoutput semantics need audit before parityclaims. Sourceauthor FD usesell+1augmented shrinkdelta s[ell]^2, unqualifiedell=k; do not silently equate variants.
+
+Full AppendixE Algorithm4 and LemmasE1/E2 inspected: additive correctness uses OPTmonotonicity and staleenergyincrement bound; recourse bound counts energythresholdrefreshes with integerfirstnonzeroenergy>=1. Integerdynamicrange refreshbound cannot transfer unqualified to normalizedrealstreams. Full other theorem/proof verification still pending; no theoremdefect claimed.
+
+Primary provenance read: UCI Rice https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik (3810instances/7features/CCBY4.0/DOI10.24432/C5MW4Z); Skin https://archive.ics.uci.edu/dataset/229/skin+segmentation (245057/3features/CCBY4.0); SuiteSparse https://sparse.tamu.edu/Pereyra/landmark (ID903,71952x2704,1146848nonzeros). Sourcepages read2026-10-09; full capture/benchmark-native receipt contract pending.
+
+No empirical newmethodcomparison, papereligibility or scientificgate completed. Source/protocol repair may proceed on M route without artificial20candidatebatch. New discovery remains gated.
