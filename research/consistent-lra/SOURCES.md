@@ -69,3 +69,16 @@ and independent review are in SAMPLING_SOURCE_QUALIFICATION_20261009.md and
 SAMPLING_SOURCE_QUALIFICATION_REVIEW.md.  The quadratic-in-rank fallback is
 conditional on a joint high-probability event for the theoretical append-only
 sampler; executable parity and native scoring remain pending.
+
+## Explicit restart and plugin selection — 2026-10-09
+
+The owner selected Research Autopilot Auto private plugin version 0.2.0-autonomous.2
+and then instructed "你就重新开始跑吧？". This explicitly reopens the same project
+with a new eight-hour wall window (2026-10-09T09:15:43Z through 2026-10-09T17:15:43Z); all previous
+usage, failures, task identities, limits and reviews remain authoritative. Read
+[RESTART_AUTHORIZATION_20261009.md](RESTART_AUTHORIZATION_20261009.md) and the active fields of BACKGROUND_TASK.json. This section
+supersedes old deadline and workflow-source requirements only. Use installed
+plugin c23/research-autopilot and same-package modules; historical vendor/rsi
+at 1de12dfed5b84957b29ac5b3a2f04904bf3742bc remains pinned for prior receipts
+and unchanged runtime/checker execution. No shared skill or runtime upgrade
+is authorized. Reuse background task 6ac82bb085c081919fa92002384b073b and branch scope; no second writer.

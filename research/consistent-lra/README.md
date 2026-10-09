@@ -1,5 +1,10 @@
 # Consistent LRA: bounded CPU research
 
+**2026-10-09 restart:** the owner reopened this project using Research Autopilot Auto
+0.2.0-autonomous.2. The new window ends at **18:15:43 Europe/London today**.
+See [restart authorization and exact pending work](RESTART_AUTHORIZATION_20261009.md). Prior results and
+negative history are retained; background activation is recorded separately.
+
 本项目使用 `Research_Autopilot/autonomous-rsi` 的机器审查流程，研究流式低秩近似的重构质量、子空间稳定性和计算成本。用户授权使用当前 ChatGPT Work 的 CPU，并要求一个 8 小时研究窗口。资源实测为 8 核 CPU 配额、8 GiB 内存上限；无需 GPU 或额外模型 API。
 
 **当前已保存一个经两名独立审查者核验的正式反例：原论文“追加一行后的最优投影 recourse 至多为 8”引理，在其写明的实矩阵条件下不成立，即使最优投影唯一。进一步的独立审查确认：插入/删除序列也否定了无秩依赖的“精确最优动态维护总 recourse 为 O(n)”结论。近似算法的存在定理、原创性与可发表性仍需分别审查。**

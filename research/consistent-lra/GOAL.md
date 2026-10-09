@@ -50,3 +50,16 @@ Use at most one scientific CPU experiment process at a time until actual resourc
 At each milestone save an exact source/evidence artifact and a compact checkpoint. The same actual scheduler task is resumed; do not create a new goal after a failed idea. Reconcile live ownership before another writer or process. Future schedules are hourly, finite and may be delayed by the platform.
 
 Pause after a real blocking dependency once independent authorized work is exhausted, after complete scoped delivery, or when the original eight-hour window ends. On expiry retain complete and incomplete comparisons, exact observed usage, all negative outcomes, manuscript eligibility and the next prerequisite. Do not call an incomplete matrix a completed paper.
+
+## Explicit restart and plugin selection — 2026-10-09
+
+The owner selected Research Autopilot Auto private plugin version 0.2.0-autonomous.2
+and then instructed "你就重新开始跑吧？". This explicitly reopens the same project
+with a new eight-hour wall window (2026-10-09T09:15:43Z through 2026-10-09T17:15:43Z); all previous
+usage, failures, task identities, limits and reviews remain authoritative. Read
+[RESTART_AUTHORIZATION_20261009.md](RESTART_AUTHORIZATION_20261009.md) and the active fields of BACKGROUND_TASK.json. This section
+supersedes old deadline and workflow-source requirements only. Use installed
+plugin c23/research-autopilot and same-package modules; historical vendor/rsi
+at 1de12dfed5b84957b29ac5b3a2f04904bf3742bc remains pinned for prior receipts
+and unchanged runtime/checker execution. No shared skill or runtime upgrade
+is authorized. Reuse background task 6ac82bb085c081919fa92002384b073b and branch scope; no second writer.

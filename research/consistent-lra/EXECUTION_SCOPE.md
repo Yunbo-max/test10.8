@@ -31,3 +31,16 @@ The Python RSI runtime/controller, ACP backends and unattended daemon are not in
 ## Actual preparation execution: 2026-10-09
 
 One engineering source-integrity task ran through the pinned project-local CPU harness, with zero GPU. Workload CPU 0.190072s, wall 0.165110690s, peakRSS 99788KiB, exit0. Full receipt, original inputs and staged source are retained under runs/. Separate environment observation confirms cgroup quota8 cores and memory8589934592 bytes; CPU affinity9 is not a nine-core quota. The harness's host inspection does not itself read this cgroup limit. No scientific numerical task has started. No background process continuity across invocations is claimed.
+
+## Explicit restart and plugin selection — 2026-10-09
+
+The owner selected Research Autopilot Auto private plugin version 0.2.0-autonomous.2
+and then instructed "你就重新开始跑吧？". This explicitly reopens the same project
+with a new eight-hour wall window (2026-10-09T09:15:43Z through 2026-10-09T17:15:43Z); all previous
+usage, failures, task identities, limits and reviews remain authoritative. Read
+[RESTART_AUTHORIZATION_20261009.md](RESTART_AUTHORIZATION_20261009.md) and the active fields of BACKGROUND_TASK.json. This section
+supersedes old deadline and workflow-source requirements only. Use installed
+plugin c23/research-autopilot and same-package modules; historical vendor/rsi
+at 1de12dfed5b84957b29ac5b3a2f04904bf3742bc remains pinned for prior receipts
+and unchanged runtime/checker execution. No shared skill or runtime upgrade
+is authorized. Reuse background task 6ac82bb085c081919fa92002384b073b and branch scope; no second writer.

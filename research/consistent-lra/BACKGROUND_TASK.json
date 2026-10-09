@@ -10,15 +10,15 @@
   "current_Work_identity_source": "developer-provided Work Mode context",
   "actual_service_receipt_observed": true,
   "initial_prompt_readback_matched": true,
-  "enabled_at_latest_observation": true,
-  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/London:20261009T014745\nRRULE:FREQ=HOURLY;COUNT=8\nEND:VEVENT",
+  "enabled_at_latest_observation": false,
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/London:20261009T111543\nRRULE:FREQ=HOURLY;COUNT=8\nEND:VEVENT",
   "default_timezone": "Europe/London",
-  "last_observed_updated_at": "2026-10-08T23:53:22.732410+00:00",
-  "first_scheduled_run_local": "2026-10-09T01:47:45+01:00",
-  "wall_window_anchor_utc": "2026-10-08T23:47:45+00:00",
-  "wall_window_deadline_utc": "2026-10-09T07:47:45+00:00",
-  "wall_window_deadline_local": "2026-10-09T08:47:45+01:00",
-  "wall_window_anchor_basis": "actual_host_clock_before_single_task_creation",
+  "last_observed_updated_at": "2026-10-09T09:16:50.011017+00:00",
+  "first_scheduled_run_local": "2026-10-09T11:15:43+01:00",
+  "wall_window_anchor_utc": "2026-10-09T09:15:43Z",
+  "wall_window_deadline_utc": "2026-10-09T17:15:43Z",
+  "wall_window_deadline_local": "2026-10-09T18:15:43+01:00",
+  "wall_window_anchor_basis": "explicit_user_restart_and_host_clock_observed_20261009",
   "max_wall_window_seconds": 28800,
   "max_scheduled_occurrences": 8,
   "max_immediate_run_requests": 1,
@@ -60,11 +60,49 @@
     "paid_model_API_or_cloud": false
   },
   "note": "Configuration/receipts establish scheduling only. Observe actual runs/processes separately; monotonic future counters and reservations must be derived from retained actual evidence.",
-  "service_state_checked_at_utc": "2026-10-09T00:19:50.610027+00:00",
+  "service_state_checked_at_utc": "2026-10-09T09:16:50.011017+00:00",
   "initial_immediate_request_field_is_historical": true,
   "initial_pending_before_dispatch_is_historical": true,
-  "current_continuation_status": "actual_in_place_work_completed_preparation_and_formal_review; do_not_retrigger",
+  "current_continuation_status": "restart_checkpoint_prepared_service_paused_pending_activation",
   "preparation_attempts_observed_completed": 1,
   "current_writer": "single /root integration writer with expected-head updates",
-  "retention_reason": "Existing-paper collision and downstream-proof work remains productive inside original finite deadline"
+  "retention_reason": "Existing-paper collision and downstream-proof work remains productive inside original finite deadline",
+  "window_history": [
+    {
+      "window_id": "cpu-window-01-20261008",
+      "anchor_utc": "2026-10-08T23:47:45+00:00",
+      "deadline_utc": "2026-10-09T07:47:45+00:00",
+      "closeout_commit": "9f65c9aed3d6952e08d7dae6020eb70eb5698db4",
+      "closeout_record": "RUN_CLOSEOUT_20261009.md",
+      "service_observed_enabled": false,
+      "last_run_time": "2026-10-09T07:50:07.361280+00:00",
+      "service_stop_updated_at": "2026-10-09T07:51:11.238533+00:00",
+      "registered_tasks": 69,
+      "attempts": 14,
+      "controller_rounds": 1,
+      "observed_cpu_seconds_lower_bound": 74.624432
+    }
+  ],
+  "active_window_id": "cpu-window-02-20261009",
+  "restart_authorization_record": "RESTART_AUTHORIZATION_20261009.md",
+  "active_workflow_plugin": {
+    "id": "plugins_6ac8ad1eb9648191a0b6c1941de5d6b2",
+    "version": "0.2.0-autonomous.2",
+    "package": "c23/research-autopilot",
+    "source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7"
+  },
+  "runtime_source_commit_retained": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
+  "restart_immediate_run_request": {
+    "window_id": "cpu-window-02-20261009",
+    "status": "not_requested; bootstrap may request once after exact readback and activation",
+    "max_requests": 1,
+    "worker_must_not_request": true
+  },
+  "current_activation_pending": [
+    "exact_commit_control_readback",
+    "enable_same_task_and_service_readback",
+    "bootstrap_request_immediate_once"
+  ],
+  "restored_head": "9f65c9aed3d6952e08d7dae6020eb70eb5698db4",
+  "stop_opening_new_work_at_utc": "2026-10-09T17:10:43Z"
 }

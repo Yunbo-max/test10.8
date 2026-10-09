@@ -1,6 +1,6 @@
 # Planning checkpoint; not a launch receipt, registered task state or scientific approval.
 project: consistent-lra-cpu
-round: continuation-01-20261009
+round: explicit-restart-window-02-20261009
 goal: seek independently verified improvements to consistent low-rank approximation
 role: work_supervisor_with_explicit_gpt_cpu_execution_scope
 source_route: existing_published_method_audit_then_qualified_discovery
@@ -11,7 +11,10 @@ destination_basis: conservative_default_after_optional_questions_returned_no_ans
 hugging_face: unresolved_no_uploads
 skill_repo: Yunbo-max/Research_Autopilot
 skill_branch: autonomous-rsi
-skill_commit: 1de12dfed5b84957b29ac5b3a2f04904bf3742bc
+skill_commit: 169c92a326c8c08163b7d165d35e21e05c2268d7
+skill_plugin_id: plugins_6ac8ad1eb9648191a0b6c1941de5d6b2
+skill_plugin_version: 0.2.0-autonomous.2
+historical_runtime_commit: 1de12dfed5b84957b29ac5b3a2f04904bf3742bc
 author_repo: samsonzhou/consistent-LRA
 author_commit: d607c4f6467216c470d1e3b93989d44d5fcdec97
 resource_observation_utc: '2026-10-08T23:40:11Z'
@@ -29,11 +32,11 @@ max_repairs_per_identical_failure: 2
 registered_tasks_at_bootstrap: 0
 executable_attempts_at_bootstrap: 0
 scientific_controller_rounds_at_bootstrap: 0
-budget_clock_anchor: '2026-10-08T23:47:45+00:00'
-wall_deadline_utc: '2026-10-09T07:47:45+00:00'
+budget_clock_anchor: '2026-10-09T09:15:43Z'
+wall_deadline_utc: '2026-10-09T17:15:43Z'
 background_task_id: 6ac82bb085c081919fa92002384b073b
 background_conversation_id: 6ac827e6-de58-83eb-9487-8a2ab69c90e5
-background_observed_state: same_task_enabled_observed_actual_continuation
+background_observed_state: restart_prompt_saved_same_task_paused_pending_activation
 background_control_record: BACKGROUND_TASK.json
 current_step: '2: primary-literature equivalence and remaining native admission gaps after independent formal audits'
 completed:
@@ -84,7 +87,7 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 69
+actual_registered_task_assignments: 70
 actual_executable_attempts: 14
 actual_preparation_attempts: 14
 actual_scientific_attempts: 0
@@ -362,3 +365,11 @@ lowdim_baseline_matrix_repair_harness_plan_sha256: 9f494be5d29827561331f3901bc7a
 lowdim_baseline_matrix_repair_harness_plan_digest: 78ce83b3889722561525987f4248782f0325061cf7692c3eb93adb17a1d276de
 lowdim_baseline_matrix_repair_runner_sha256: e09d9d68d021433d691e74044b4cfe56d7f880a8bd3af04c077285e97df128c7
 lowdim_baseline_matrix_repair_record_sha256: e230bc45dab64b9003407b736949288eb234edd945574b32a0acfbf98471510b
+
+active_wall_window: cpu-window-02-20261009
+restart_authorization: RESTART_AUTHORIZATION_20261009.md
+restored_immutable_head: 9f65c9aed3d6952e08d7dae6020eb70eb5698db4
+prior_window_closeout: RUN_CLOSEOUT_20261009.md
+restart_is_new_scientific_iteration: false
+new_scientific_attempts_this_restart: 0
+restart_next_action: qualify_Landmark_Stage_A_and_bound_all_arm_cost_before_Stage_B

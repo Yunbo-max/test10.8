@@ -41,3 +41,16 @@ evidence. A developmental run is not fresh confirmation.
 At the deadline: open no new rounds/experiments; collect/save/read back truthful evidence and disable only this same task. Current continuation is retained because scoped formal source/dependency work is still productive, not for indefinite monitoring.
 
 Further accepted formal evidence: FORMAL_AUDIT_v3_EXTENSION.md and CONDITION_SCOPE_SUPPLEMENT_DRAFT.md with FORMAL_EXTENSION_REVIEWS.md. Their historical draft headers are not current review statuses. The dynamic exact-optimal rank-uniform O(n) assertion is refuted; approximate insertion-only existence is not. The stronger consecutive-row condition gap is closed for the insertion-only base. Preserve the bounded-epsilon PCP precision. Next step returns to actual primary literature, novelty and native/sampling admission; no result-paper or new-method gate advanced.
+
+## Explicit restart and plugin selection — 2026-10-09
+
+The owner selected Research Autopilot Auto private plugin version 0.2.0-autonomous.2
+and then instructed "你就重新开始跑吧？". This explicitly reopens the same project
+with a new eight-hour wall window (2026-10-09T09:15:43Z through 2026-10-09T17:15:43Z); all previous
+usage, failures, task identities, limits and reviews remain authoritative. Read
+[RESTART_AUTHORIZATION_20261009.md](RESTART_AUTHORIZATION_20261009.md) and the active fields of BACKGROUND_TASK.json. This section
+supersedes old deadline and workflow-source requirements only. Use installed
+plugin c23/research-autopilot and same-package modules; historical vendor/rsi
+at 1de12dfed5b84957b29ac5b3a2f04904bf3742bc remains pinned for prior receipts
+and unchanged runtime/checker execution. No shared skill or runtime upgrade
+is authorized. Reuse background task 6ac82bb085c081919fa92002384b073b and branch scope; no second writer.
