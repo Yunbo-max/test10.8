@@ -7,7 +7,7 @@ native run, theorem repair certificate, or paper claim.
 
 1. Vladimir Braverman, Petros Drineas, Cameron Musco, Christopher Musco,
    Jalaj Upadhyay, David P. Woodruff, Samson Zhou, *Near Optimal Linear Algebra
-   in the Online and Sliding Window Models*, arXiv:1805.03765v6 (13 March
+   in the Online and Sliding Window Models*, arXiv:1805.03765v6 (11 April
    2023), <https://arxiv.org/html/1805.03765v6>.
 2. David Woodruff and Samson Zhou, *Consistent Low-Rank Approximation*, official
    ICLR 2026 PDF, paper identifier b14d76c7266be21b338527cd25deac45,
@@ -77,9 +77,19 @@ For any two rank-`k` orthogonal projectors,
  \leq 2k.
 \]
 
-Suppose the output projector is recomputed only when the online coreset changes,
-and suppose the total number of such output-changing update events is at most
-`s`.  Summing the universal projector diameter over those events gives
+For one run of the theoretical sampler, define the joint high-probability event
+
+\[
+ \mathcal E=\{\text{every sampled prefix is a PCP for its input prefix}\}
+ \cap\{|M_n|\leq s\}.
+\]
+
+Algorithm 5 in Braverman et al. appends an accepted row to `M` once and never
+deletes, replaces or resamples an existing row.  If the output projector is a
+fixed deterministic function of the current coreset, rejected rows do not
+change it.  Consequently the number of output-changing events is at most the
+number of accepted rows, and on `E` it is at most `s`.  Summing the universal
+projector diameter over those events gives, on `E`,
 
 \[
   \operatorname{Recourse}
@@ -90,20 +100,21 @@ and suppose the total number of such output-changing update events is at most
 
 under polynomial online condition number and the calibrated PCP accuracy.
 
-The update-count premise must be checked against the actual sampler: `s` is a
-space/sample-size bound, and it bounds output-changing events only for an
-insertion-only, irrevocable sampling implementation in which each retained row
-is added once and no resampling/replacement changes the coreset state.  The
-source describes irrevocable online sampling, but this exact event-accounting
-step remains an implementation-level admission item rather than a consequence
-of PCP semantics alone.
+This is not an unconditional deterministic asymptotic bound: both simultaneous
+all-prefix PCP validity and `|M_n|<=s` are components of the high-probability
+event `E`.  The event accounting is source-qualified for the *theoretical*
+append-only Algorithm 5; the project's executable implementation, its random
+choices and exact correspondence to that pseudocode remain separate admission
+items.  For a general streaming coreset, a space bound alone does not bound the
+number of replacements or resampling events.
 
 ## Claim boundary
 
 - Qualified at source/statement level: the online-condition definition, the
   all-prefix PCP guarantee, the asymptotic coreset size, and the target paper's
   use of these facts.
-- Qualified algebraically conditional on event accounting: the
+- Qualified algebraically on the explicitly stated joint high-probability event:
+  the
   `O(k^2 epsilon^-2 log^3 n)` universal-diameter fallback.
 - Not qualified here: executable sampler code, probability constants, random
   seed handling, native scoring parity, or an empirical result.
@@ -121,7 +132,8 @@ of PCP semantics alone.
 2. Is the target paper's Theorem 2.4-to-Theorem 1.2 dependency represented
    without strengthening either source?
 3. Is the PCP loss-transfer calibration exact?
-4. Is `2ks` valid only after separately qualifying the output-changing event
-   count, and is that caveat strong enough?
+4. Does theoretical Algorithm 5 support the append-only event count, is the
+   joint high-probability event stated correctly, and is executable parity
+   still kept pending?
 5. Does the claim boundary avoid converting a proof failure into a refutation
    of the theorem's existence statement?

@@ -52,7 +52,7 @@ completed:
   - independent_source_audit_of_four_author_scripts
   - independent_work_host_capability_audit
 pending:
-  - independent_review_of_sampling_source_qualification_and_fallback
+  - independent_re_review_of_corrected_sampling_source_qualification_and_fallback
   - complete_Landmark_asset_and_random_normalization_identity_join
   - authentic_upstream_runnable_scorer_interface_and_parity_admission
   - existing_paper_lemma_downstream_implications_and_complete_collision_audit
@@ -74,7 +74,7 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 13
+actual_registered_task_assignments: 14
 actual_executable_attempts: 1
 actual_preparation_attempts: 1
 actual_scientific_attempts: 0
@@ -98,3 +98,4 @@ primary_literature_equivalence_audit: LITERATURE_EQUIVALENCE_20261009_3.md
 integer_density_extension_draft: FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md
 integer_density_initial_review_record: FORMAL_AUDIT_v4_REVIEW.md
 sampling_source_qualification_draft: SAMPLING_SOURCE_QUALIFICATION_20261009.md
+sampling_source_initial_review_record: SAMPLING_SOURCE_QUALIFICATION_REVIEW.md
