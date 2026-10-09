@@ -484,3 +484,22 @@ main_DAS_transfer_review_sha256: e73c0665d859b1d0c0a5038fc5d7368d1d7987d84a6723f
 main_DAS_transfer_review_status: accepted_assignment178_algebraic_DAS_only_actual_sampler_excluded
 main_DAS_transfer_reviewed_commit: 97fc0e424ddea8eac706af0eb618624fc2e02dd5
 main_next_action_latest: actual_sampler_restriction_or_multi_refresh_amortization_no_scientific_dispatch
+
+
+# Latest main evidence, assignments 179-180
+main_onlinepcp_saturated_heavy_candidate: ONLINEPCP_SATURATED_HEAVY_MAIN_DRAFT.md
+main_onlinepcp_saturated_heavy_initial_failed_commit: d30940639d22f3d18113f53ded1bc95773e22303
+main_onlinepcp_saturated_heavy_corrected_commit: 61e3e193f94ec5e9bc16b0914d84056986e70068
+main_onlinepcp_saturated_heavy_review: ONLINEPCP_SATURATED_HEAVY_REVIEW_MAIN.md
+main_onlinepcp_saturated_heavy_review_commit: 3eb96021a7a9188d84268b86aaeb59c5d6c2114d
+main_onlinepcp_saturated_heavy_verdict: accepted_source_faithful_single_event_only
+main_onlinepcp_sampler_property: "Definition2.1 rank-growth rows score1; all other unit rows tau>0.306 and p=1 for valid delta<=eta/(20+eta)"
+main_onlinepcp_witness_property: "unit integer entries; online kappa<=sqrt5; eta=1/m<.01; one non-reset HEAVY movement>sqrt(k)"
+main_onlinepcp_exclusions: "no repeated event / aggregate theorem falsity / novelty / method / experiment / dispatch / paper admission"
+main_registered_task_assignments_latest: 180
+main_actual_executable_attempts_latest: 24
+main_actual_scientific_attempts_latest: 0
+main_actual_discovery_rounds_latest: 0
+main_observed_process_cpu_seconds_latest: 318.944499767
+main_current_route_latest_after_180: 3
+main_next_action_latest: "repeated-event recycling construction or alternative multi-refresh amortization; no StageB dispatch"
