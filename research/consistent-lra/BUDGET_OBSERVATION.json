@@ -290,7 +290,7 @@
       "review": "landmark-baseline-matrix-design-review",
       "initial_verdict": "needs_correction_versioning_tolerances_timing_ties_and_publication",
       "repair_count": 2,
-      "rereview_verdict": "pending"
+      "rereview_verdict": "accepted_design_only"
     }
   ],
   "pending_evaluator_semantic_oracle_evidence_review": null,
@@ -485,7 +485,7 @@
     "plan_review_commit": "688a5974195fec8fa038c46911dd8a6e8ffd50fa",
     "scientific_experiment": false,
     "performance_claim_eligible": false,
-    "execution_status": "accepted_developmental_prospective_family_evidence",
+    "execution_status": "accepted_developmental_baseline_evidence",
     "attempt_id": "rice-skin-lowdim-existing-baseline-matrix-final-repair-a1-f1b61a189db048988917b37c2626a74f",
     "producer_wall_seconds": 22.415467460996297,
     "actual_process_cpu_seconds": 22.408896,
@@ -576,7 +576,7 @@
     "scientific_experiment": false,
     "performance_claim_eligible": false,
     "original_figure_replication": false,
-    "execution_status": "completed_pending_independent_evidence_review",
+    "execution_status": "accepted_developmental_prospective_family_evidence",
     "attempt_id": "prospective-random-seed20261009-existing-baseline-matrix-a1-4effb02f72124183a5e61a1913b8b325",
     "producer_wall_seconds": 6.640326954999182,
     "actual_process_cpu_seconds": 6.639743000000001,
