@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T05:34:16+00:00",
+  "observed_at": "2026-10-09T05:40:22+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 51,
+  "registered_task_assignments": 52,
   "executable_attempts_dispatched": 12,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -64,7 +64,7 @@
       "failure": "lowdim_matrix_output_mutation_after_terminal_receipt",
       "category": "evidence_integrity",
       "scientific_refutation": false,
-      "repair_count": 1
+      "repair_count": 2
     }
   ],
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
@@ -120,7 +120,8 @@
     "lowdim-baseline-matrix-repair-evidence-documentation-rereview",
     "lowdim-baseline-matrix-final-repair-source-review",
     "lowdim-baseline-matrix-final-repair-plan-review",
-    "lowdim-baseline-matrix-final-repair-evidence-review"
+    "lowdim-baseline-matrix-final-repair-evidence-review",
+    "lowdim-baseline-matrix-final-repair-evidence-ledger-rereview"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -131,7 +132,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 8008,
+  "remaining_wall_seconds_at_observation": 7642,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -242,6 +243,12 @@
       "initial_verdict": "needs_correction_ledger_only",
       "repair_count": 2,
       "rereview_verdict": "accepted_as_failure_record"
+    },
+    {
+      "review": "lowdim-baseline-matrix-final-repair-evidence-review",
+      "initial_verdict": "needs_correction_repair_count_ledger_only",
+      "repair_count": 1,
+      "rereview_verdict": "pending"
     }
   ],
   "pending_evaluator_semantic_oracle_evidence_review": null,
@@ -453,7 +460,8 @@
     "recreated_partials_alias_corresponding_finals": 0,
     "execution_record": "LOWDIM_BASELINE_MATRIX_FINAL_REPAIR_EXECUTION_20261009.md",
     "execution_record_sha256": "3c1087563b289d46ccfe0a1d515d841921f14e0e13e1b4bed43de423df131cf2",
-    "independent_evidence_review": "pending"
+    "independent_evidence_review": "needs_correction_repair_count_ledger_only",
+    "independent_evidence_rereview": "pending"
   },
   "unadmitted_development_smoke_history": [
     {
