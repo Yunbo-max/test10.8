@@ -6,7 +6,7 @@
     "research/consistent-lra/LANDMARK_SOURCE_ACQUISITION_20261009.md",
     "research/consistent-lra/inspect_landmark_source.py"
   ],
-  "candidate_commit": null,
+  "candidate_commit": "22d6ae44b52489e643495d2b02b550032777b1d5",
   "review_questions": [
     "Do the frozen author blob, observed hashes and official SuiteSparse metadata identify the same Landmark matrix?",
     "Does the official source support the stated CC-BY-4.0 and attribution/modification obligations?",
