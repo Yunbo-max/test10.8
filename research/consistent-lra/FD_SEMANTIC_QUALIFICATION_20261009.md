@@ -50,9 +50,13 @@ oracles, while the other frozen interfaces are detectably different.
 ## Execution boundary
 
 One engineering attempt, no retries, one CPU core, 256 MiB admission
-reservation, and 30 seconds. The pinned RSI native runner and single-task outer
-harness must bind exact code/input hashes. No GPU, network, package install,
-model service, native dataset, candidate method, or scientific gate is used.
+reservation, and 30 seconds. These resource values are admission bounds, not a
+claim of OS affinity or a memory RLIMIT. The pinned RSI native runner and
+single-task outer harness must bind exact code/input hashes. The already
+installed Python, NumPy, SciPy and scikit-learn versions are recorded; importing
+`baseline_qualify.top_basis` loads all three numerical packages, so the oracle
+also records that module's source hash. No GPU, network, package install, model
+service, native dataset, candidate method, or scientific gate is used.
 
 Independent source/semantic review is required before execution, followed by a
 separate receipt/output/hash review. Even acceptance leaves native baseline

@@ -173,11 +173,18 @@
       "initial_verdict": "needs_correction",
       "repair_count": 1,
       "rereview_verdict": "accepted"
+    },
+    {
+      "review": "fd-semantic-oracle-plan-review",
+      "initial_verdict": "needs_correction",
+      "repair_count": 1,
+      "rereview_verdict": "pending"
     }
   ],
   "pending_evaluator_semantic_oracle_evidence_review": null,
   "completed_evaluator_semantic_oracle_evidence_review": "accepted_after_recorded_ledger_needs_correction",
-  "pending_fd_semantic_oracle_plan_review": "fd-semantic-oracle-plan-review",
+  "pending_fd_semantic_oracle_plan_review": null,
+  "completed_fd_semantic_oracle_plan_review": "needs_correction_dependency_provenance",
   "unadmitted_development_smoke_history": [
     {
       "direction": "fd_source_semantic_oracles",

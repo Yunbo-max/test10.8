@@ -19,6 +19,7 @@ from pathlib import Path
 
 import numpy as np
 import scipy
+import sklearn
 from scipy.linalg import svd as scipy_svd
 
 from baseline_qualify import top_basis
@@ -249,10 +250,16 @@ def main() -> int:
         "source_hashes": {
             "fd_semantic_oracles.py": sha256(Path(__file__).resolve()),
             "native_baselines.py": sha256(root / "native_baselines.py"),
+            "baseline_qualify.py": sha256(root / "baseline_qualify.py"),
             "author_consistent_fd.py": sha256(root / "originals" / "consistent-fd.py"),
             "liberty_frequentDirections.py": sha256(root / "originals" / "frequentDirections-liberty-691df9e.py"),
         },
-        "environment": {"python": platform.python_version(), "numpy": np.__version__, "scipy": scipy.__version__},
+        "environment": {
+            "python": platform.python_version(),
+            "numpy": np.__version__,
+            "scipy": scipy.__version__,
+            "sklearn": sklearn.__version__,
+        },
         "checks": checks,
         "check_count": len(checks),
         "failure_count": sum(not item["passed"] for item in checks),
