@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T10:07:51.082175+00:00",
+  "observed_at": "2026-10-09T10:09:18.384748+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 87,
+  "registered_task_assignments": 88,
   "executable_attempts_dispatched": 16,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -165,7 +165,8 @@
     "window02-landmark-stage-a-full-failure-review",
     "window02-geometric-consecutive-conditioning-derivation",
     "window02-landmark-stage-a-output-mitigation-source-generation",
-    "window02-landmark-stage-a-output-mitigation-source-review"
+    "window02-landmark-stage-a-output-mitigation-source-review",
+    "window02-geometric-consecutive-conditioning-independent-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -860,12 +861,7 @@
   },
   "pending_window02_geometric_review": null,
   "pending_window02_full_evidence_review": null,
-  "pending_window02_condition_derivation": {
-    "assignment": "window02-geometric-consecutive-conditioning-derivation",
-    "worker": "/root/window02_scorer_scope_review",
-    "parent": "FORMAL_AUDIT_v5_GEOMETRIC_DRAFT.md",
-    "scope": "separate proof only; no scientific dispatch"
-  },
+  "pending_window02_condition_derivation": null,
   "completed_window02_geometric_review": {
     "assignment": "window02-geometric-formal-independent-review",
     "reviewer": "/root/window02_geometric_formal_review",
@@ -885,5 +881,10 @@
     "assignment": "window02-landmark-stage-a-output-mitigation-source-review",
     "contract": "LANDMARK_STAGE_A_OUTPUT_MITIGATION_v2.md",
     "status": "awaiting_actual_generated_source"
+  },
+  "pending_window02_condition_review": {
+    "assignment": "window02-geometric-consecutive-conditioning-independent-review",
+    "artifact": "FORMAL_AUDIT_v6_CONSECUTIVE_CONDITION_DRAFT.md",
+    "author": "/root/window02_scorer_scope_review"
   }
 }
