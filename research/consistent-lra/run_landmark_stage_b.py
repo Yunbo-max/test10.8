@@ -12,6 +12,7 @@ import os
 from pathlib import Path
 import platform
 import resource
+import statistics
 import sys
 import time
 
@@ -24,6 +25,29 @@ from landmark_stage_a_v2 import (K, N, ORACLE_PREFIXES, THREAD_NAMES, GramRefres
                                 CALIBRATION_SHA256)
 from run_lowdim_baseline_matrix import (deterministic_archive, fsync_directory,
                                        publish_no_replace)
+
+DESCRIPTIVE_FIELDS = ("raw_gram_opt", "opt", "raw_gram_loss", "loss", "energy", "ratio",
+                      "additive_excess", "energy_normalized_excess", "primary_increment",
+                      "cumulative_recourse", "steady_recourse", "orthogonality_error",
+                      "update_seconds", "scoring_seconds", "shared_reference_seconds",
+                      "shared_energy_maintenance_seconds")
+
+
+def arm_role(name):
+    if name.startswith("algorithm4-"):
+        return "existing_algorithm4_sensitivity"
+    if name == "fresh":
+        return "fresh_exact_reference"
+    if name == "fixed":
+        return "simple_fixed_control"
+    if name.startswith("periodic-"):
+        return "simple_periodic_control"
+    if name.startswith("fd-ell"):
+        return "qualified_fd_comparator"
+    if name == "author-fd-ell50":
+        return "author_fd_diagnostic"
+    raise ValueError("unknown frozen arm role")
+
 
 STAGE_A_SUMMARY_SHA256 = "a0523b88fbc96adae1f035ce9c9974a0d3ae9fe97f3e7ff782c363e6177f6ae7"
 STAGE_A_REVIEW_SHA256 = "65d566101933c540a6f1e879418f6c1f72f7b186a20bfe4f9c8851bdf015d714"
@@ -91,7 +115,11 @@ def new_slice(first):
             "ratio_denominator": 0, "ratio_missing_count": 0,
             "near_zero_positive_loss_violations": 0, "ratio_sum": 0.0,
             "maximum_defined_ratio": None, "loss_sum": 0.0, "opt_sum": 0.0,
-            "excess_sum": 0.0, "energy_normalized_excess_sum": 0.0}
+            "excess_sum": 0.0, "energy_normalized_excess_sum": 0.0,
+            "energy_normalized_excess_denominator": 0,
+            "energy_normalized_excess_missing_count": 0,
+            "_metric_values": {field: [] for field in DESCRIPTIVE_FIELDS},
+            "final_endpoint": None}
 
 
 def add_slice(stat, row):
@@ -99,7 +127,18 @@ def add_slice(stat, row):
     stat["loss_sum"] += row["loss"]
     stat["opt_sum"] += row["opt"]
     stat["excess_sum"] += row["additive_excess"]
-    stat["energy_normalized_excess_sum"] += row["energy_normalized_excess"]
+    normalized = row["energy_normalized_excess"]
+    if normalized is None:
+        stat["energy_normalized_excess_missing_count"] += 1
+    else:
+        stat["energy_normalized_excess_denominator"] += 1
+        stat["energy_normalized_excess_sum"] += normalized
+    for field in DESCRIPTIVE_FIELDS:
+        value = row[field]
+        if value is not None:
+            stat["_metric_values"][field].append(value)
+    stat["final_endpoint"] = {"prefix": row["prefix"],
+                              **{field: row[field] for field in DESCRIPTIVE_FIELDS}}
     ratio = row["ratio"]
     if ratio is None:
         stat["ratio_missing_count"] += 1
@@ -238,7 +277,7 @@ def main():
                        "ratio": ratio, "near_zero_opt": near_zero,
                        "near_zero_positive_loss_violation": near_zero and loss > tolerance,
                        "additive_excess": excess,
-                       "energy_normalized_excess": excess / max(1.0, energy),
+                       "energy_normalized_excess": excess / energy if energy > 0 else None,
                        "raw_recourse": raw_rec, "recourse": rec, "recourse_tolerance": rec_tol,
                        "direct_recourse_oracle": direct_rec, "primary_increment": increment,
                        "initialization_from_zero": rec if t == 1 else None,
@@ -280,9 +319,27 @@ def main():
                 if stat["prefix_count"] != expected or stat["ratio_denominator"] + stat["ratio_missing_count"] != expected:
                     raise ValueError("slice denominator mismatch")
                 stat["mean_defined_ratio"] = stat["ratio_sum"] / stat["ratio_denominator"] if stat["ratio_denominator"] else None
+                if stat["energy_normalized_excess_denominator"] + stat["energy_normalized_excess_missing_count"] != expected:
+                    raise ValueError("normalized-excess denominator mismatch")
+                metric_values = stat.pop("_metric_values")
+                descriptive = {}
+                for field, values in metric_values.items():
+                    denominator = len(values)
+                    required = (stat["ratio_denominator"] if field == "ratio" else
+                                stat["energy_normalized_excess_denominator"] if field == "energy_normalized_excess" else expected)
+                    if denominator != required:
+                        raise ValueError("descriptive denominator mismatch")
+                    descriptive[field] = {"defined_denominator": denominator,
+                                          "missing_count": expected - denominator,
+                                          "mean": statistics.fmean(values) if values else None,
+                                          "median": statistics.median(values) if values else None,
+                                          "max": max(values) if values else None}
+                stat["descriptive"] = descriptive
+                stat["eligible_prefix_semantics"] = "ratio OPT>tau; normalizedexcess energy>0; others allslice prefixes"
                 stat["is_paper_table1_denominator"] = False
             raw_ref = raw[name].finish()
-            summary = {"arm": name, "strong_comparator": name != "author-fd-ell50",
+            summary = {"arm": name, "arm_role": arm_role(name),
+                       "strong_comparator": name == "fresh" or arm_role(name) == "qualified_fd_comparator",
                        "aggregates": agg, "raw": raw_ref, "k": K, "n": N,
                        "scope": "project_repair_developmental_only", "confirmation": False,
                        "official_scorer_parity": False, "scientific_gate_advanced": False,
