@@ -1,0 +1,1 @@
+{"output": "evidence/calibration/rice-algorithm4-c2p5.jsonl", "usage": {"pipeline_seconds": 0.5021469819985214, "update_seconds": 0.007995398736966308, "reference_seconds": 0.23855539196665632, "scoring_seconds": 0.13948423189867754, "max_rss_kib": 120220, "energy_maintenance_seconds": 0.003951159946154803, "cpu_seconds": 0.49855099999999997}, "scientific_gate_advanced": false}

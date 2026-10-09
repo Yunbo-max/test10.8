@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T03:30:09+00:00",
+  "observed_at": "2026-10-09T03:31:22.938875+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 32,
-  "executable_attempts_dispatched": 7,
+  "executable_attempts_dispatched": 8,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 1.581142,
+  "observed_process_cpu_seconds": 2.079693,
   "reservation": {
     "task": "source-integrity-01",
     "purpose": "mechanical_preparation_only",
@@ -105,7 +105,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 15455,
+  "remaining_wall_seconds_at_observation": 15382,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -234,13 +234,23 @@
     "wall_seconds_upper_bound": 120,
     "cpu_seconds_upper_bound": 90,
     "attempts_reserved": 1,
+    "attempts_completed": 1,
     "retries": 0,
-    "released": false,
+    "released": true,
+    "release_basis": "terminal completed harness and guarded attempt; no surviving descendant",
     "native_plan_digest": "3478d69f2387ed65c06e382859fb579d65891822cada6cfd6b281b435b9a461c",
     "harness_plan_digest": "3d501cb5b10c3a1e40e377737bc37eef00eda2e56326b3e6a55e73cd931b8d5b",
     "plan_review": "accepted_after_recorded_thread_binding_correction",
     "scientific_experiment": false,
-    "performance_claim_eligible": false
+    "performance_claim_eligible": false,
+    "actual_pipeline_seconds": 0.5021469819985214,
+    "actual_process_cpu_seconds": 0.49855099999999997,
+    "actual_max_rss_kib": 120220,
+    "raw_jsonl_sha256": "921e5b8f63387d15a5e893a35e3eac97fb936c15617042641b88c83c6536589e",
+    "raw_jsonl_gzip_sha256": "70351bcf505b93af38e0cfd28eecda099a9cabbb68a2c2edb4d8b0461a6e22fd",
+    "summary_sha256": "2c124b017e374642fc020c13df402d26a8186b874e0fc2bfd26a73fc924b075d",
+    "receipt_sha256": "5c7fc845d29f0bed4adda18d0102a6055dbc69b21640f6c991aab7f09f21fc45",
+    "independent_evidence_review": "pending"
   },
   "pending_fd_semantic_oracle_evidence_review": null,
   "completed_fd_semantic_oracle_evidence_review": "accepted_after_recorded_time_ledger_correction",
@@ -262,7 +272,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T03:29:30+00:00",
+    "observed_at": "2026-10-09T03:31:22.938875+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
@@ -271,6 +281,7 @@
     "mechanical_preparation_job_completed": true,
     "evaluator_semantic_oracle_job_completed": true,
     "fd_semantic_oracle_job_completed": true,
-    "rice_alg4_cost_calibration_launched": false
+    "rice_alg4_cost_calibration_launched": true,
+    "rice_alg4_cost_calibration_completed": true
   }
 }
