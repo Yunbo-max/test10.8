@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T05:45:05+00:00",
+  "observed_at": "2026-10-09T05:46:57+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 53,
+  "registered_task_assignments": 54,
   "executable_attempts_dispatched": 12,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -122,7 +122,8 @@
     "lowdim-baseline-matrix-final-repair-plan-review",
     "lowdim-baseline-matrix-final-repair-evidence-review",
     "lowdim-baseline-matrix-final-repair-evidence-ledger-rereview",
-    "lowdim-baseline-matrix-developmental-results-report-review"
+    "lowdim-baseline-matrix-developmental-results-report-review",
+    "prospective-random-baseline-matrix-source-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -133,7 +134,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 7359,
+  "remaining_wall_seconds_at_observation": 7247,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -467,13 +468,27 @@
     "independent_evidence_review_tree": "51f2d8726d3b1a04ff2f01abe8033cf7acb9a9fa",
     "independent_evidence_review_record_sha256": "2e2953d01712bda110e05625f8c89f6282563f5805def5faf384a2ea41a10010"
   },
-  "pending_lowdim_developmental_results_report_review": {
+  "completed_lowdim_developmental_results_report_review": {
     "assignment": "lowdim-baseline-matrix-developmental-results-report-review",
     "reviewer": "/root/rice_skin_evidence_review",
     "report": "LOWDIM_BASELINE_MATRIX_DEVELOPMENTAL_RESULTS.md",
     "report_sha256": "d590e1ca3a2a165aa2f4362346bf81b1d1cd3e3bc1af7c379d30f264f59dc1c3",
     "evidence_commit": "f7225f3ef51115a620e4c1e0ec89141be1e27d21",
-    "status": "assigned_pending_independent_review"
+    "review_record": "LOWDIM_BASELINE_MATRIX_DEVELOPMENTAL_RESULTS_REVIEW.md",
+    "review_record_sha256": "13d8e852412269fd802d4e98c90e47721909163d6f644c05585ccfbab40b177a",
+    "reviewed_commit": "1e4cb472c26a50c35e7a06ecea5f7d418f66413b",
+    "reviewed_tree": "cbcfee1033fb892b0404ef21e0eb5e712dca4e66",
+    "status": "accepted_no_correction_required"
+  },
+  "pending_random_baseline_matrix_source_review": {
+    "assignment": "prospective-random-baseline-matrix-source-review",
+    "reviewer": "/root/baseline_audit",
+    "runner": "run_random_baseline_matrix.py",
+    "runner_sha256": "27f2a10557ec0c63f92756f0e566912a5c5ed966ff57e3a3662f6987d7f6d67a",
+    "source_candidate": "RANDOM_BASELINE_MATRIX_SOURCE_CANDIDATE.md",
+    "source_candidate_sha256": "178c65bb522ab819be821c0e49bac6053e187b6352e13fa3d3757e07446d95a2",
+    "execution_started": false,
+    "status": "assigned_pending_independent_source_review"
   },
   "unadmitted_development_smoke_history": [
     {
