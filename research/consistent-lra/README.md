@@ -1,5 +1,26 @@
 # Consistent LRA: bounded CPU research
 
+## Latest mathematical method candidate — assignments 186--188
+
+The [minimum-recourse feasible refresh candidate](MINIMUM_RECOURSE_FEASIBLE_REFRESH_CANDIDATE.md)
+replaces an exact-SVD HEAVY refresh by the closest rank-k projector that
+restores a frozen relative-loss margin.  The preserved [initial independent
+review](MINIMUM_RECOURSE_FEASIBLE_REFRESH_INDEPENDENT_REVIEW.md) rejected a
+false real-convexity step and an integer-exchange formula.  The corrected
+candidate uses complex k-numerical-range scalarization plus real cutoff-space
+recovery and gives the continuous exact near-tie law.  The [independent
+re-review](MINIMUM_RECOURSE_FEASIBLE_REFRESH_REREVIEW.md) returns
+`ACCEPT_CANDIDATE_MATH`.
+
+Acceptance is limited to the mathematical candidate pool.  Originality remains
+unresolved after broad collisions with adjacent-subspace/Grassmannian
+regularization; the method is not selected, implemented, numerically qualified,
+or admitted to Stage B.  Current ledger: **188 registered assignments / 26
+executable attempts / 2 controller rounds / 0 discovery rounds /
+319.730499767 measured process CPU seconds lower bound**.  This batch added no
+native numerical process CPU, formal experiment, or completed scientific
+cycle; model reasoning CPU is separate and is not experiment-host measurement.
+
 ## Latest partial multi-refresh result — assignments 183--185
 
 The [candidate](HEAVY_MULTI_REFRESH_POTENTIAL_CANDIDATE.md), its

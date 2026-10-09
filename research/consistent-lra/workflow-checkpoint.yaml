@@ -38,7 +38,7 @@ background_task_id: 6ac82bb085c081919fa92002384b073b
 background_conversation_id: 6ac827e6-de58-83eb-9487-8a2ab69c90e5
 background_observed_state: "same_task_enabled_observed; bootstrap_immediate_ack_historical_not_worker_todo"
 background_control_record: BACKGROUND_TASK.json
-current_step: "1: experiment-admission contract decision pending; design-only repair in step 4; independent mathematical route 3 remains open"
+current_step: "3: one corrected method card accepted into candidate pool; experiment-admission contract still pending; no Step-4 code or scientific execution"
 completed:
   - frozen_versioned_baseline_repair_contract
   - Rice_Skin_exact_native_bytes_order_labels_and_license_reading
@@ -87,12 +87,12 @@ notes:
   - deliver only research/consistent-lra on main; legacy branch is read-only; do not change unrelated projects
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 182
-actual_executable_attempts: 24
-actual_preparation_attempts: 24
+actual_registered_task_assignments: 188
+actual_executable_attempts: 26
+actual_preparation_attempts: 26
 actual_scientific_attempts: 0
 actual_discovery_rounds: 0
-actual_observed_process_cpu_seconds: 318.944499767
+actual_observed_process_cpu_seconds: 319.730499767
 actual_observed_process_cpu_seconds_semantics: lower_bound_after_failed_repair_01_plus_exact_final_repair_plus_prospective_random
 actual_max_preparation_rss_kib: 190604
 unreleased_reservations: []
@@ -526,7 +526,27 @@ main_multi_refresh_numeric_certificate: HEAVY_MULTI_REFRESH_NUMERIC_CERTIFICATE.
 main_multi_refresh_numeric_certificate_sha256: e9fc23bac0b3857f4aa6401408782d99f0c1de3f9df60554fd778036964e70eb
 main_multi_refresh_exact_claim: "sum_j gap_(j-1)*R_j <= 2*(OPT_J-OPT_0)"
 main_multi_refresh_open_obstruction: near_degenerate_spectral_band_unweighted_motion
-main_registered_task_assignments_current: 185
+main_registered_task_assignments_after_multi_refresh: 185
+main_actual_executable_attempts_after_multi_refresh: 26
+main_actual_controller_rounds_after_multi_refresh: 2
+main_actual_discovery_rounds_after_multi_refresh: 0
+main_observed_process_cpu_seconds_after_multi_refresh: 319.730499767
+main_formal_scientific_experiments_after_multi_refresh: 0
+main_completed_scientific_cycles_after_multi_refresh: 0
+main_active_review_assignments_after_multi_refresh: none
+main_next_action_after_multi_refresh: "near-degenerate-band potential or repeated source-faithful construction; StageB parked"
+
+# Assignments 186--188: corrected minimum-recourse feasible refresh method card.
+main_minimum_recourse_refresh_evidence_commit: 305338ab91e6a86ba4161e8189ca4d4617211764
+main_minimum_recourse_refresh_candidate: MINIMUM_RECOURSE_FEASIBLE_REFRESH_CANDIDATE.md
+main_minimum_recourse_refresh_candidate_sha256: 10e15b9d352a44947fed213f98679f4cbcb1e864e481cb8d1623904f8cff15cd
+main_minimum_recourse_refresh_initial_review: MINIMUM_RECOURSE_FEASIBLE_REFRESH_INDEPENDENT_REVIEW.md
+main_minimum_recourse_refresh_initial_verdict: CORRECT_AND_REREVIEW
+main_minimum_recourse_refresh_rereview: MINIMUM_RECOURSE_FEASIBLE_REFRESH_REREVIEW.md
+main_minimum_recourse_refresh_rereview_sha256: cbe8f11d41f477d3012479edfd5e71db50975c6bbd13d690d52d2e0da7989861
+main_minimum_recourse_refresh_verdict: ACCEPT_CANDIDATE_MATH
+main_minimum_recourse_refresh_scope: "candidate pool only; no originality, selection, code, experiment or paper admission"
+main_registered_task_assignments_current: 188
 main_actual_executable_attempts_current: 26
 main_actual_controller_rounds_current: 2
 main_actual_discovery_rounds_current: 0
@@ -534,4 +554,4 @@ main_observed_process_cpu_seconds_current: 319.730499767
 main_formal_scientific_experiments_current: 0
 main_completed_scientific_cycles_current: 0
 main_active_review_assignments_current: none
-main_next_action_current: "near-degenerate-band potential or repeated source-faithful construction; StageB parked"
+main_next_action_current: "continue approximately-20-card pool and primary collision audit; no Step4 until whole-pool selection; StageB parked"

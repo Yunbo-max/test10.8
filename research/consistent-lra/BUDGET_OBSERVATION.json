@@ -572,7 +572,7 @@
     "task": "evaluator-semantic-oracles-01",
     "wall_seconds_upper_bound": 30
   },
-  "executable_attempts_dispatched": 24,
+  "executable_attempts_dispatched": 26,
   "failure_history": [
     {
       "category": "capability_source_admission_gap",
@@ -876,8 +876,8 @@
   "main_only_tasks_no_measured_CPU": "Eight main-only assignments consume same wall budget; no numeric job was launched there and no attributable CPU measurement was supplied; lower bound is not a full compute total.",
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T15:31:18+00:00",
-  "observed_process_cpu_seconds": 318.944499767,
+  "observed_at": "2026-10-09T18:33:20.893125819+00:00",
+  "observed_process_cpu_seconds": 319.730499767,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
   "pending_asset_review": null,
@@ -1040,7 +1040,7 @@
       "wall_seconds": 11.894702007
     }
   ],
-  "registered_task_assignments": 182,
+  "registered_task_assignments": 188,
   "remaining_wall_seconds_at_observation": 6265,
   "reservation": {
     "actual_max_rss_kib": 99788,
@@ -1814,5 +1814,26 @@
     "formal_scientific_experiments_after": 0,
     "completed_scientific_cycles_after": 0,
     "cpu_semantics": "finite software math certificate only; model reasoning CPU is separate and not observable as experiment-host process CPU"
+  },
+  "minimum_recourse_refresh_candidate_20261009": {
+    "assignments": [186, 187, 188],
+    "evidence_commit": "305338ab91e6a86ba4161e8189ca4d4617211764",
+    "candidate": "MINIMUM_RECOURSE_FEASIBLE_REFRESH_CANDIDATE.md",
+    "candidate_sha256": "10e15b9d352a44947fed213f98679f4cbcb1e864e481cb8d1623904f8cff15cd",
+    "initial_review": "MINIMUM_RECOURSE_FEASIBLE_REFRESH_INDEPENDENT_REVIEW.md",
+    "initial_verdict": "CORRECT_AND_REREVIEW",
+    "rereview": "MINIMUM_RECOURSE_FEASIBLE_REFRESH_REREVIEW.md",
+    "rereview_sha256": "cbe8f11d41f477d3012479edfd5e71db50975c6bbd13d690d52d2e0da7989861",
+    "rereview_verdict": "ACCEPT_CANDIDATE_MATH",
+    "registered_tasks_after": 188,
+    "executable_attempts_after": 26,
+    "controller_rounds_after": 2,
+    "discovery_rounds_after": 0,
+    "formal_scientific_experiments_after": 0,
+    "completed_scientific_cycles_after": 0,
+    "observed_process_cpu_seconds_lower_bound_after": 319.730499767,
+    "measured_process_cpu_seconds_added": 0,
+    "cpu_semantics": "mathematical authoring and model review only; no native numeric process launched; model reasoning CPU is not experiment-host measurement",
+    "admission_scope": "candidate_pool_only_not_originality_selection_code_or_experiment"
   }
 }
