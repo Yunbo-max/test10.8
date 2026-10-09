@@ -1,0 +1,42 @@
+{
+  "schema_id": "harness-plan",
+  "schema_version": "1.0.0",
+  "batch_id": "landmark-reference-calibration-batch-01",
+  "tasks": [
+    {
+      "task_id": "landmark-reference-calibration-01",
+      "idea_id": "existing-landmark-exact-reference-cost-calibration",
+      "priority": 1,
+      "depends_on": [],
+      "plan_ref": {
+        "path": "plans/native-landmark-reference-calibration.json",
+        "sha256": "97e37ac46d4bd859f55d1546d9672e949aa974204c6b1af340442747044b0402"
+      },
+      "resources": {
+        "cpu_cores": 1,
+        "ram_mib": 1024,
+        "gpu_count": 0,
+        "gpu_peak_mib": null,
+        "allow_gpu_share": false,
+        "memory_profile_ref": null,
+        "exclusive_keys": ["consistent-lra-landmark-reference-calibration"]
+      }
+    }
+  ],
+  "limits": {
+    "cpu_cores": 1,
+    "ram_mib": 1024,
+    "max_parallel_tasks": 1,
+    "max_gpu_task_seconds": 0,
+    "total_wall_seconds": 240,
+    "window_seconds": 240
+  },
+  "pool_dir": "/tmp/consistent-lra-landmark-reference-pool",
+  "output_root": "runs/harness",
+  "gpus": {
+    "uuids": [],
+    "safety_margin_mib": 256,
+    "max_tasks_per_gpu": 1
+  },
+  "plan_digest": "570f6c67bd609cf2adc75144948a3baa897c91d120ca227d2fba9737c6aecf06"
+}

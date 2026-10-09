@@ -33,3 +33,27 @@ Execution was blocked pending three corrections:
 
 This review neither challenges source identity nor grants execution admission,
 native-scoring parity, G01, Gate A, mathematical proof or scientific evidence.
+
+## Correction rereview
+
+Rereviewer: `/root/landmark_source_review`.
+Reviewed immutable commit: `c0c7239cc9a07374108e77d0a50e79bb34891f9a`;
+tree: `fcc0e8320ddd64efe19525b97998e1ab7b7b3e34`.
+Verdict: **ACCEPT** for corrected static source/semantics only. No code was
+executed and no files were written by the reviewer.
+
+Exact accepted identities:
+
+- runner blob `5766d2d64a500b6a67ae2a6b48eb911dc89b135c`, SHA256
+  `460c09a4a8016744a1531212276f1fcd04b3b5a38702b2cefa6ef446bf16f7be`;
+- candidate-document blob `86eceab7e101ad8682a7baeed5d10b75b885d441`,
+  SHA256 `ec7ae383d90818ac0875c8c251845d64b56a962e20598e953a3799c235c3a6f5`;
+- preserved initial-review blob `219fc1946417754963f46c124959aefb4a9ed4d6`,
+  SHA256 `ef5b87c651a3408f6458c5bb736d19a5f264934d19e767c5dd46dcba85bfdfa0`.
+
+The rereviewer verified the raw/clipped residual and cancellation controls,
+copy-plus-solver timing, explicit timing/RSS scope, and pre-import harness thread
+obligation. No new defect was found in the unchanged source/parser/reference
+path. Acceptance permits only a later separately reviewed bounded harness plan;
+it does not admit execution, validate numerical output or establish official
+scorer parity, G01, Gate A or scientific evidence.

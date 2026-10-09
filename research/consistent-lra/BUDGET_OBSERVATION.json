@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T06:32:59+00:00",
+  "observed_at": "2026-10-09T06:36:41+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 63,
+  "registered_task_assignments": 64,
   "executable_attempts_dispatched": 13,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -132,7 +132,8 @@
     "native-protocol-v2-independent-review",
     "native-protocol-v2-correction-rereview",
     "landmark-reference-calibration-source-review",
-    "landmark-reference-calibration-source-correction-rereview"
+    "landmark-reference-calibration-source-correction-rereview",
+    "landmark-reference-calibration-plan-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -143,7 +144,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 4486,
+  "remaining_wall_seconds_at_observation": 4264,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -158,15 +159,15 @@
   "formal_review_assignments_completed": true,
   "pending_formal_review": null,
   "completed_formal_review": "integer-density-extension-correction-re-review:accepted",
-  "pending_source_review": "landmark-reference-calibration-source-correction-rereview",
-  "completed_source_review": "sampling-source-qualification-correction-re-review:accepted",
+  "pending_source_review": null,
+  "completed_source_review": "landmark-reference-calibration-source-correction-rereview:accepted_static_source_semantics_only",
   "pending_asset_review": null,
   "completed_asset_review": "landmark-source-qualification-correction-rereview:accepted_after_recorded_needs_correction",
   "pending_execution_evidence_review": null,
   "completed_execution_evidence_review": "landmark-integrity-execution-evidence-review:accepted",
   "pending_archive_scorer_review": null,
   "completed_archive_scorer_review": "author-archive-scorer-audit-independent-review:accepted_with_nonblocking_row-count_precision_note",
-  "pending_execution_plan_review": null,
+  "pending_execution_plan_review": "landmark-reference-calibration-plan-review",
   "completed_execution_plan_review": "rice-skin-selected-prefix-identity-plan-review:accepted",
   "rice_skin_identity_reservation": {
     "task": "rice-skin-selected-prefix-identity-01",
@@ -277,7 +278,7 @@
       "review": "landmark-reference-calibration-source-review",
       "initial_verdict": "needs_correction_numerical_timing_and_thread_semantics",
       "repair_count": 1,
-      "rereview_verdict": "pending"
+      "rereview_verdict": "accepted_static_source_semantics_only"
     }
   ],
   "pending_evaluator_semantic_oracle_evidence_review": null,
