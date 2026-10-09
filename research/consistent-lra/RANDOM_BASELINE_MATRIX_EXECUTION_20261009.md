@@ -93,3 +93,13 @@ generator family.  It cannot establish original Figure-3 reproduction,
 normalization parity, official scorer parity, confirmation, independent-seed
 uncertainty, Landmark coverage, complete four-family G01, Gate A, theorem
 validation, generalized superiority, paper readiness or a new paper.
+
+## Durable-publication correction
+
+The first remote evidence commit `373bec07...` is invalid because its archive
+blob was truncated during transport to 786444 bytes and is not readable gzip.
+The local terminal archive and all execution records remain intact.  The
+failure is preserved in `RANDOM_BASELINE_MATRIX_EVIDENCE_REVIEW.md`; one
+publication repair is pending independent rereview.  No numerical result is
+accepted until a reviewer freshly downloads and verifies the repaired remote
+archive.
