@@ -54,7 +54,7 @@ completed:
   - independent_source_audit_of_four_author_scripts
   - independent_work_host_capability_audit
 pending:
-  - bounded_Rice_Skin_selected_prefix_identity_execution
+  - independent_review_of_Rice_Skin_selected_prefix_identity_evidence
   - complete_Landmark_asset_and_random_normalization_identity_join
   - authentic_upstream_runnable_scorer_interface_and_parity_admission
   - existing_paper_lemma_downstream_implications_and_complete_collision_audit
@@ -76,15 +76,14 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 19
-actual_executable_attempts: 2
-actual_preparation_attempts: 2
+actual_registered_task_assignments: 20
+actual_executable_attempts: 4
+actual_preparation_attempts: 4
 actual_scientific_attempts: 0
 actual_discovery_rounds: 0
-actual_observed_process_cpu_seconds: 1.190738
-actual_max_preparation_rss_kib: 99788
-unreleased_reservations:
-  - rice-skin-selected-prefix-identity-01
+actual_observed_process_cpu_seconds: 1.570273
+actual_max_preparation_rss_kib: 148112
+unreleased_reservations: []
 formal_counterexample_artifact: FORMAL_AUDIT_v2.md
 formal_counterexample_sha256: 0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477
 formal_review_record: FORMAL_AUDIT_v2_REVIEW.md
@@ -121,3 +120,5 @@ landmark_execution_review: accepted
 author_archive_scorer_review: accepted
 rice_skin_identity_plan_review: accepted
 rice_skin_identity_plan_review_record: RICE_SKIN_IDENTITY_PLAN_REVIEW.md
+rice_skin_identity_execution_record: RICE_SKIN_IDENTITY_EXECUTION_20261009.md
+pending_rice_skin_identity_evidence_review: rice-skin-selected-prefix-identity-evidence-review

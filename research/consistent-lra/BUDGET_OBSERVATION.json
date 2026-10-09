@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T02:05:22+00:00",
+  "observed_at": "2026-10-09T02:14:52+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 19,
-  "executable_attempts_dispatched": 2,
+  "registered_task_assignments": 20,
+  "executable_attempts_dispatched": 4,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 1.190738,
+  "observed_process_cpu_seconds": 1.570273,
   "reservation": {
     "task": "source-integrity-01",
     "purpose": "mechanical_preparation_only",
@@ -75,7 +75,8 @@
     "landmark-source-qualification-correction-rereview",
     "landmark-integrity-execution-evidence-review",
     "author-archive-scorer-audit-independent-review",
-    "rice-skin-selected-prefix-identity-plan-review"
+    "rice-skin-selected-prefix-identity-plan-review",
+    "rice-skin-selected-prefix-identity-evidence-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -86,7 +87,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 20543,
+  "remaining_wall_seconds_at_observation": 19973,
   "prior_timestamp_correction": "The prelaunch draft used 02:16Z while the host clock was 02:04Z; this observation restores the actual harness timestamps and recomputes remaining wall time rather than consuming fictional elapsed time.",
   "verified_scientific_failures_by_direction": {},
   "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run.",
@@ -111,10 +112,15 @@
     "wall_seconds_upper_bound": 120,
     "attempts": 2,
     "retries": 0,
-    "released": false,
+    "released": true,
     "native_plan_digest": "9dca9c9df1c59f7ecf359a4426d3d33ef3d4dc95da9b2a7052e5a4561d7b3eee",
-    "harness_plan_digest": "b6c9a8f6550e1cc71851d7ca3dc71cfde90ba4b861ad800740d1478102ba6cc9"
+    "harness_plan_digest": "b6c9a8f6550e1cc71851d7ca3dc71cfde90ba4b861ad800740d1478102ba6cc9",
+    "actual_rice_process_cpu_seconds": 0.07575299999999996,
+    "actual_skin_process_cpu_seconds": 0.3037820000000001,
+    "actual_max_rss_kib": 148112,
+    "receipt_sha256": "a7c5861993e6030cafd261550aa3087d8e570fa384f4d976ba6cec27ee24c5cd"
   },
+  "pending_rice_skin_identity_evidence_review": "rice-skin-selected-prefix-identity-evidence-review",
   "latest_resource_observation": {
     "observed_at": "2026-10-09T02:04:48+00:00",
     "cpu_max": "800000 100000",
