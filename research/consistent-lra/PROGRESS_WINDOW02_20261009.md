@@ -1,19 +1,25 @@
-# CPU research progress — 2026-10-09T12:44:07.187554+00:00
+# CPU research progress — 2026-10-09T13:11:36.517314+00:00
 
-Step2 native authority/priority gap; independent route4 exact projector source
-preparation. Scalar501 records and integer256 entries have actual independent
-acceptance. Original single attempts retained: scalar wall1.155049632 CPU1.095581
-RSS37044KiB; integer wall1.084131615 CPU0.420406 RSS30948KiB. Raw packets
-ba35efc546455968927e2b69de2609fbcfbcfe86 and066361e4d3e816fbc6ca4863f74a9afb12dfcaeb
-with exact readback. Separate readonly review costs retained in ledger.
+Currentstep2: native scientific evaluator and conjunction-priority gaps. Independent
+integer mathematical certificate is complete. At eed4b24ca7549f4bce1ae71ce65008431dbbea67,
+complete61roots/732decisions/63rawrecords certify R>=2290438555/134217728>8;
+actual154 all-arithmetic/receipts/hash/process verification accepted. Source,
+completeplans, calibratedcost and independent replay source retained. Wholeoriginal
+runwall13.090105889 CPU12.213068 RSS25392KiB; separateverifierCPU11.891034659.
+This confirms the integer narrowLemma2.1 correction; analyticallblockcondition,
+novelty/nativeperformance/papereligibility retain distinct scope.
 
-2 recordedcontrolrounds/143 assignments/22 attempts/0 discovery/0 scientific/
-0 eligiblepapers; CPUlowerbound293.528979590s. All executionreservationsreleased.
-Remainingwall16295.8s, harddeadline17:15:43Z/stopnewwork17:10:43Z.
+150 primary full relevant proof audit: Theorem1.2 displayedproofgap, knownquadratic
+freshSVD/PCP fallback qualified. Algorithm4 energyproof supports additive1.1;
+Theorem1.3's separate HEAVY/integer reweighting/sampling premises unresolved,
+not refuted. Full details and source/capture boundaries saved.
 
-139primaryreview ADVANCE narrowlemma correction, KILL knownmachinery novelty,
-INCONCLUSIVE fullconstructionconjunctionpriority. 141math/design ACCEPT source
-generationonly; prospectiveR>8 stillneeds actualinteger rootcertificate.
-143representative rank61 cost addendum review pending. Next complete source,
-independentsource/plans, admitted calibration, independent arithmetic/cost
-review, conditional full61. Native StageB and performance/writing staypending.
+Cumulative2recordedcontrolrounds/154assignments/24attempts/0discovery/
+0admittedscientificexperiments/0eligiblepapers; CPUlowerbound318.944499767s.
+No unreleasedexecutionreservation. Remainingwall14646.5s until17:15:43Z;
+stopnewwork17:10:43Z. Existingraw/scalars/witnesses neverreset/rerun onresume.
+
+Nextboundedwork: targeted conjunction priority/backwardcitations and independently
+reviewed mathcard for missing F.1 quantitative energy or integer-reweighting premise.
+ScientificStageB fullcomparison remainsblocked authenticnative/livefaithfulparity;
+no fabricated gate, paperwinner or CPUresidency claim. Samewriter/branch/scope.

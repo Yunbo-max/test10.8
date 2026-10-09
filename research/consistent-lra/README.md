@@ -9,10 +9,14 @@ negative history are retained; background activation is recorded separately.
 
 实数父构造的秩 61 精确有理数记录也已实际执行并完整独立复核：122 项 residue、122 项 secular/导数/归一化、61 项交叉权重，严格下界 `122/15>8`。原执行 wall 32.111198 秒、CPU 31.346881 秒；另外独立只读算术验收消耗 CPU 13.176209 秒，单独累计。[代码](formal_geometric_certificate.py)、[完整验收](FORMAL_CERTIFICATE_TARGET61_EVIDENCE_REVIEW_WINDOW02.md)。它验证实数父卡的有限恒等式，不生成或验证 v7 整数输入，也不计算完整 recourse。
 
-完整 13 对照、5,000 前缀的 [Stage B 代码草案](run_landmark_stage_b.py)及[保留初审问题的独立复审](LANDMARK_STAGE_B_SOURCE_REVIEW.md)已生成，近零直接 SVD/残差回退、分母、初始与稳态 recourse、原始输出和归档均有实现；初审指出归一化分母和角色分类问题；一次修正后已通过独立源码审查，未导入/未执行。正式数值比较仍缺原生 evaluator 资格，不因代码或 Stage A 接受而绕过。累计 2 轮控制迭代、143 个登记任务、22 次执行尝试、至少 293.528980 秒实测 CPU；正式科学实验、新候选发现轮和合格论文均为 0。新颖性/优先权仍未结案。
+完整 13 对照、5,000 前缀的 [Stage B 代码草案](run_landmark_stage_b.py)及[保留初审问题的独立复审](LANDMARK_STAGE_B_SOURCE_REVIEW.md)已生成，近零直接 SVD/残差回退、分母、初始与稳态 recourse、原始输出和归档均有实现；初审指出归一化分母和角色分类问题；一次修正后已通过独立源码审查，未导入/未执行。正式数值比较仍缺原生 evaluator 资格，不因代码或 Stage A 接受而绕过。累计 2 轮控制迭代、154 个登记任务、24 次执行尝试、至少 318.944500 秒实测 CPU；正式科学实验、新候选发现轮和合格论文均为 0。新颖性/优先权仍未结案。
 
 
-新增两项实际执行已独立接受：[501 条隔离标量检查](NEARZERO_SCALAR_EVIDENCE_REVIEW_WINDOW02.md)（wall 1.155050 秒、CPU 1.095581 秒、RSS 37,044 KiB）；[三个 rank 的整数见证](INTEGER_WITNESS_EVIDENCE_REVIEW_WINDOW02.md)（256 个整数，rank 61 最大 258 位；wall 1.084132 秒、CPU 0.420406 秒、RSS 30,948 KiB）。原始日志、receipts 和输出均已保存并精确读回。前者不资格化完整 Stage B，后者只验证整数构造，尚未计算它的投影 recourse。其[精确区间证书设计](INTEGER_PROJECTOR_CERTIFICATE_DESIGN_REVIEW_WINDOW02.md)已通过独立数学审查，rank 61 代表性成本校准设计正在审查。
+新增形式证书已完整执行并独立接受：rank 61、维度 122 的整数输入追加一行后，投影 recourse 满足精确下界 **2290438555/134217728 > 8**。61 个根与 732 次固定二分决策全部独立复算；[证据说明](INTEGER_COUNTEREXAMPLE_CERTIFICATE_WINDOW02.md)、[原始收集包](evidence/integer-projector-target61-02-collection.json)、[完整独立验收](INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md)和独立 replay 源码均已保存。原执行 wall 13.090106 秒、CPU 12.213068 秒、RSS 25,392 KiB；另外独立 replay CPU 11.891035 秒单独累计。它支持同一引理的具体整数反例，不资格化原生性能或新论文。
+
+此前 [501 条隔离标量检查](NEARZERO_SCALAR_EVIDENCE_REVIEW_WINDOW02.md)和[三个 rank、256 个整数的见证构造](INTEGER_WITNESS_EVIDENCE_REVIEW_WINDOW02.md)也已独立接受；rank 61 实际最大位长 258 位。完整科学 Stage B 比较仍未执行。
+
+[近似证明依赖的独立审查](APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md)确认 Theorem 1.2 的显示证明依赖错误引理；引用的在线 PCP 采样与 freshSVD 只能给出已知的 rank 平方回退界。Theorem 1.3 使用单独的证明链，能量/整数重加权前提仍有未闭合项；没有据此宣称近似存在定理为假。Algorithm 4 的能量论证支持加性误差 Theorem 1.1，应与相对误差保证区分。
 
 [独立主文献碰撞与范围审查](INTEGER_CORRECTION_INDEPENDENT_COLLISION_REVIEW_WINDOW02.md)支持继续核实引理 2.1 的狭义纠错；secular/Cauchy/逆谱机制已有先例，完整构造组合的优先权仍不确定。不能据此声称近似存在定理错误，或把 v5/v6/v7 拆成不同论文。
 

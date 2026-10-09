@@ -38,7 +38,7 @@ background_task_id: 6ac82bb085c081919fa92002384b073b
 background_conversation_id: 6ac827e6-de58-83eb-9487-8a2ab69c90e5
 background_observed_state: "same_task_enabled_observed; bootstrap_immediate_ack_historical_not_worker_todo"
 background_control_record: BACKGROUND_TASK.json
-current_step: "2: native evaluator/source gap; independent exact integer projector design/source preparation"
+current_step: "2: native evaluator/priority gap; independent exact integer certificate closed; mathematical proof-premise audit next"
 completed:
   - frozen_versioned_baseline_repair_contract
   - Rice_Skin_exact_native_bytes_order_labels_and_license_reading
@@ -80,19 +80,19 @@ scientific_experiments_started: 0
 scientific_results_verified: 0
 eligible_new_papers: 0
 negative_or_invalid_history: BASELINE_AUDIT.md
-next_action: "review representative rank61 cost addendum, generate complete projector source, independently review source/plans before calibration"
+next_action: "targeted conjunction priority and frozen F.1/reweighting math card with independent review; no StageB dispatch"
 notes:
   - source review is not scientific replication
   - schedule is not uninterrupted CPU execution
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 143
-actual_executable_attempts: 22
-actual_preparation_attempts: 22
+actual_registered_task_assignments: 154
+actual_executable_attempts: 24
+actual_preparation_attempts: 24
 actual_scientific_attempts: 0
 actual_discovery_rounds: 0
-actual_observed_process_cpu_seconds: 293.528979590
+actual_observed_process_cpu_seconds: 318.944499767
 actual_observed_process_cpu_seconds_semantics: lower_bound_after_failed_repair_01_plus_exact_final_repair_plus_prospective_random
 actual_max_preparation_rss_kib: 190604
 unreleased_reservations: []
@@ -389,7 +389,7 @@ window02_output_mitigation_contract: LANDMARK_STAGE_A_OUTPUT_MITIGATION_v2.md
 window02_stage_b_admission: blocked_native_protocol_evaluator_capability
 
 # Current window02 bounded work observation; prior entries remain historical.
-window02_latest_evidence_commit: bc80f1be00f772a8c462f807444cdd4e2b67de35
+window02_latest_evidence_commit: eed4b24ca7549f4bce1ae71ce65008431dbbea67
 window02_stage_a_full_evidence_review: LANDMARK_STAGE_A_v2_FULL_EVIDENCE_REVIEW.md
 window02_exact_certificate_source: formal_geometric_certificate.py
 window02_exact_certificate_source_review: FORMAL_CERTIFICATE_SOURCE_REVIEW_WINDOW02.md
@@ -420,4 +420,14 @@ integer_witness_evidence_review: INTEGER_WITNESS_EVIDENCE_REVIEW_WINDOW02.md
 integer_correction_collision_review: INTEGER_CORRECTION_INDEPENDENT_COLLISION_REVIEW_WINDOW02.md
 integer_projector_design_review: INTEGER_PROJECTOR_CERTIFICATE_DESIGN_REVIEW_WINDOW02.md
 integer_projector_cost_addendum: INTEGER_PROJECTOR_COST_ADDENDUM_WINDOW02.md
-integer_projector_certificate_status: design_accepted_source_generation_only_cost_addendum_pending
+integer_projector_certificate_status: accepted_complete61root_exact_integer_projector_lowerbound_only
+
+integer_projector_target_evidence_review: INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md
+integer_projector_actual_attempt: exact-integer-projector-target61-a1-b9dc996d1f18438c83588d878c1dd1ea
+integer_projector_exact_R_lower_numerator: 2290438555
+integer_projector_exact_R_lower_denominator: 134217728
+integer_projector_root_count: 61
+integer_projector_bisection_decision_count: 732
+integer_projector_independent_replay_CPU_seconds: 11.891034659
+approximate_proof_dependency_review: APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md
+all_current_execution_reservations_released: true

@@ -1,10 +1,10 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T12:44:07.187554+00:00",
+  "observed_at": "2026-10-09T13:11:36.517314+00:00",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
   "decision": 2,
-  "action": "return2for scientific native authority and priority gaps; independent route4 accepted existing-lemma projector source/design after representative cost review",
+  "action": "return2for original scientific native authority and unresolved conjunction priority; independently route3 for existing-paper HEAVY energy/reweighting premise math audit; no new method/source execution now",
   "basis": [
     {
       "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
@@ -116,6 +116,21 @@
       "path": "INTEGER_PROJECTOR_CERTIFICATE_DESIGN_REVIEW_WINDOW02.md",
       "sha256": "5faa7f8837d38a8d8dcbc89fb80bb4e296366a4d8102f53638788f3fcc0e57d4",
       "scope": "only explicit independently reviewed property; not native scientific or paper admission"
+    },
+    {
+      "path": "INTEGER_PROJECTOR_TARGET61_EVIDENCE_REVIEW_WINDOW02.md",
+      "sha256": "174982aa76cce1770707908010eb159c5acf4f2d63d9a1ea8dae4505045598ce",
+      "scope": "explicit reviewed existing-paper mathematical property only"
+    },
+    {
+      "path": "APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md",
+      "sha256": "96f0c4e357737ac2a4ce9b637b3c3a6f2f08bb718705b545d31e2e4623d8c605",
+      "scope": "explicit reviewed existing-paper mathematical property only"
+    },
+    {
+      "path": "INTEGER_COUNTEREXAMPLE_CERTIFICATE_WINDOW02.md",
+      "sha256": "a02e39bd3e5158990ca8fd25ae2de6b675f968f397260d21bca7bf65174c2fba",
+      "scope": "explicit reviewed existing-paper mathematical property only"
     }
   ],
   "closed_or_narrowed": {
@@ -140,7 +155,11 @@
     "scalar_contract": "501 finite scalar records independently accepted; no fullStageB qualification",
     "integer_witness": "256 integer entries construction/bits independently accepted; projector R not computed",
     "integer_projector_design": "math/design accepted source generation only; representative61 cost gate pending",
-    "correction_priority": "narrowLemma2.1 audit advanced; existing machinery; conjunction priority inconclusive; no theorem1.2/1.3 refutation"
+    "correction_priority": "narrowLemma2.1 audit advanced; existing machinery; conjunction priority inconclusive; no theorem1.2/1.3 refutation",
+    "integer_projector_complete": "all61roots732decisions exact Rlower2290438555/134217728>8 accepted154",
+    "sampled_freshSVD_fallback": "specific append-only prefixPCP known quadraticrank bound qualified150; notnewmethod",
+    "algorithm4_proofscope": "additiveTheorem1.1 energyproof independent ofLemma2.1; normalizedrealenergy ratio explicit",
+    "approximate_theorem1_3": "separate chain unresolved HEAVY tailcapture and integer-reweighting/PCP premises; no theoremrefutation"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
@@ -230,5 +249,11 @@
     "explicit_integer_bit_bound": "closed_analytic_proof_only",
     "Stage_B_source_design": "closed_source_design_only"
   },
-  "latest_budget_record": "BUDGET_OBSERVATION.json"
+  "latest_budget_record": "BUDGET_OBSERVATION.json",
+  "next_bounded_independent_work": {
+    "source_priority": "target conjunction and bounded backward citation analysis; no absence-of-search pass",
+    "mathematics": "freeze F.1 quantitative energy/reweighting premise card, independent review before code",
+    "scientific_execution": "blocked authentic faithful native evaluator live capability; fullcomparisons/newmethods pending",
+    "writing": "research evidence note only; eligiblepapers0"
+  }
 }

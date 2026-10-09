@@ -58,7 +58,7 @@ is authorized. Reuse background task 6ac82bb085c081919fa92002384b073b and branch
 
 ## Window02 current continuation, 2026-10-09
 
-Current 2 controller rounds /130 registered assignments /21 original executable attempts /0 discovery /0 admitted scientific experiments /0 papers. CPU lower bound291.911595082s includes separately recorded13.176209082s independent k61 Fraction evidence analysis; do not rerun accepted target or reset counts. No currently unreleased execution reservation. Active window09:15:43Z–17:15:43Z; stop opening new work17:10:43Z. Same writer/branch/automation, historical bootstrap immediate request is never a worker task.
+Current 2 controller rounds /154 registered assignments /24 original executable attempts /0 discovery /0 admitted scientific experiments /0 papers. CPU lower bound318.944499767s includes separately recorded13.176209082s independent k61 Fraction evidence analysis; do not rerun accepted target or reset counts. No currently unreleased execution reservation. Active window09:15:43Z–17:15:43Z; stop opening new work17:10:43Z. Same writer/branch/automation, historical bootstrap immediate request is never a worker task.
 
 Restore live immutable head and all controls/evidence at that SHA. Accepted finite full Stage-A v2 evidence is atbc80f1be00f772a8c462f807444cdd4e2b67de35, real-parent k61 exact evidence atea547dd4c732a01b06969b045866eb03bd906271; later root commits hold independent reviews. v7 explicit integer bit-bound proof is accepted at3f8aa6e48335052f93b75e55a4ce3a41311481ca via FORMAL_AUDIT_v7_REVIEW.md, same correction lineage, not newpaper/algorithm. Integer magnitudes exponential, bits polynomial; v7 is analytic and not produced by the real-parent certificate.
 
@@ -67,19 +67,34 @@ Assignment110 original Stage-B source was rejected for normalized-energy denomin
 Independent useful work: targeted primary priority/downstream audit of constructive polynomial-bit integer correction; accepted mechanism is prior art, no absence-of-search novelty pass. Gate0/IPCG/full baseline/residual failures remain prerequisites for discovery; pool0, no forged verify_methods batch or metadata authorization. Keep generated source and real mathematical/provenance artifacts even if paper eligibility remains0.
 
 
-## Current verified scalar/integer work and dependent projector certificate
-Restore latest branch immutable head; current ledger is143 assignments/22 attempts,
-2 recorded control rounds, CPU lower bound293.528979590s; zero discovery/scientific
-experiments/eligible papers. All execution reservations released. Scalar501 records
-and actual256 integers accepted independently in NEARZERO_SCALAR_EVIDENCE_REVIEW_WINDOW02.md
-and INTEGER_WITNESS_EVIDENCE_REVIEW_WINDOW02.md. Raw packets ba35efc546455968927e2b69de2609fbcfbcfe86
-and066361e4d3e816fbc6ca4863f74a9afb12dfcaeb; do not rerun completed work.
+## Current verified complete integer projector certificate
+Latest immutable branch head is authoritative. Ledger154 assignments/24 attempts,
+2 recorded control rounds, CPUlowerbound318.944499767s; discovery/scientific/
+eligiblepapers0. All execution reservations released. Never reset or rerun accepted
+work because historical PID/scratch disappears.
 
-Actual139 INTEGER_CORRECTION_INDEPENDENT_COLLISION_REVIEW_WINDOW02.md supports narrow
-lemma correction, kills mechanism novelty and leaves conjunction priority unresolved.
-Actual140/141 projector math/design accepted source generation only. Actual142/143
-INTEGER_PROJECTOR_COST_ADDENDUM_WINDOW02.md is a predetermined representative-rank61
-cost proposal pending independent review; source, complete plan and execution are
-separate. Next create complete source only after addendum review, then independent
-source and plans, one bounded calibration, independent actual arithmetic/cost review,
-then conditional full61 certificate. No StageB/native authority supplied.
+Scalar501 and integer256 entries accepted. Complete integer61root/732decision
+certificate at eed4b24ca7549f4bce1ae71ce65008431dbbea67 has actual154 independent
+acceptance integrated at0db0ecb783c9902517d866cfc15db526f851dd53. Rlower exactly
+2290438555/134217728>8. Producerwall13.090105889 CPU12.213068 RSS25392KiB;
+independentreplayCPU11.891034659 separately charged. Source unchanged e59cf9...
+plans/calibration/complete evidence and independent replay source preserved.
+INTEGER_COUNTEREXAMPLE_CERTIFICATE_WINDOW02.md is an evidence note, not a paper
+eligibility/novelty pass. Consecutive-block condition remains analytic acceptedv7.
+
+150 APPROXIMATE_PROOF_DEPENDENCY_REVIEW_WINDOW02.md: target Theorem1.2 displayed
+proof gap; specific append-only simultaneous-prefix PCP + freshSVD yields known
+O(k^2 epsilon^-2 log(n) log^2 max(2,kappa)) bound. Algorithm4 additive Theorem1.1
+energy proof independent. Theorem1.3 separate chain has unresolved quantitative
+HEAVY energy and integer reweighting/sampling premises; no counterexample/theorem
+falsity established there. Primary full relevant E/F proofs read; alltheorem audit
+not complete. Capture hashes are retrieval-object identities, not PDF-byte hashes.
+
+Next independent route2/3: close combined construction priority/backward primary
+citations and formulate a consequential mathematical card for unresolved F.1
+energy inequality or reweighted-integer premise; independently review before any
+new code/executable work. New approximate-method discovery still needs qualified
+nativebaselines/Parent/Gate0/IPCG/residualfailure/fullG01/~20mathcards/allpoolranking.
+Scientific StageB missing authentic faithful evaluator/live parity authority stays
+blocked; the accepted formal witness cannot replace nativebenchmark data/scoring.
+Restore remaining cumulative window and save before17:10:43Z; deadline17:15:43Z.
