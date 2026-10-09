@@ -19,3 +19,14 @@ The source candidate now states that exact arrangement.  No scorer, arm,
 generator, output schema or execution state changed.  This correction does
 not qualify numerical evidence and does not change the prospective,
 non-reproduction boundary.  Independent rereview is pending.
+
+Final rereview verdict: **accepted source/design only** at exact remote commit
+`4b8c428c3fb9e3b6ea2fb63f0bb162f5d77f55ac` (tree
+`937df0eeadd6dc1a16c8aa8b28917bf366b5dbff`).  The corrected source-candidate
+SHA-256 is
+`3b94a807c798b273a26002ec6425384db70bb360b840fbe0d58165e19bc304f5`;
+the runner SHA-256 remains
+`27f2a10557ec0c63f92756f0e566912a5c5ed966ff57e3a3662f6987d7f6d67a`.
+The reviewer confirmed that this was the sole change and that runner,
+publication helper, native implementation, scorer and original-source bytes
+are unchanged.  Execution and empirical admission remain separate.

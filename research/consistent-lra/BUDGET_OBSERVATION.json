@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T05:49:25+00:00",
+  "observed_at": "2026-10-09T05:50:49+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 55,
   "executable_attempts_dispatched": 12,
@@ -135,7 +135,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 7099,
+  "remaining_wall_seconds_at_observation": 7015,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -257,7 +257,7 @@
       "review": "prospective-random-baseline-matrix-source-review",
       "initial_verdict": "needs_correction_documentation_only",
       "repair_count": 1,
-      "rereview_verdict": "pending"
+      "rereview_verdict": "accepted_source_design_only"
     }
   ],
   "pending_evaluator_semantic_oracle_evidence_review": null,
@@ -487,7 +487,7 @@
     "reviewed_tree": "cbcfee1033fb892b0404ef21e0eb5e712dca4e66",
     "status": "accepted_no_correction_required"
   },
-  "pending_random_baseline_matrix_source_review": {
+  "completed_random_baseline_matrix_source_review": {
     "assignment": "prospective-random-baseline-matrix-source-correction-rereview",
     "reviewer": "/root/baseline_audit",
     "runner": "run_random_baseline_matrix.py",
@@ -498,10 +498,13 @@
     "initial_reviewed_tree": "767084decec2e6d8e75e5c5c676bca932a5bde2a",
     "initial_verdict": "needs_correction_documentation_only",
     "review_record": "RANDOM_BASELINE_MATRIX_SOURCE_REVIEW.md",
-    "review_record_sha256": "3784db66df7aaf2993be37f7518bb7495513902cb346e1ebd3eedf0a53254ad9",
+    "review_record_sha256": "8e4e1c962c848bfde32c8318b22622259563b626eb325f1a3938356edd3addac",
     "repair_count": 1,
+    "rereviewed_commit": "4b8c428c3fb9e3b6ea2fb63f0bb162f5d77f55ac",
+    "rereviewed_tree": "937df0eeadd6dc1a16c8aa8b28917bf366b5dbff",
+    "rereview_verdict": "accepted_source_design_only",
     "execution_started": false,
-    "status": "correction_applied_pending_independent_rereview"
+    "status": "accepted_source_design_only"
   },
   "unadmitted_development_smoke_history": [
     {
