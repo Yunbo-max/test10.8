@@ -436,7 +436,7 @@
     "task": "evaluator-semantic-oracles-01",
     "wall_seconds_upper_bound": 30
   },
-  "executable_attempts_dispatched": 23,
+  "executable_attempts_dispatched": 24,
   "failure_history": [
     {
       "category": "capability_source_admission_gap",
@@ -718,7 +718,7 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:57:51.614962+00:00",
+  "observed_at": "2026-10-09T13:00:16.042607+00:00",
   "observed_process_cpu_seconds": 294.840397108,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -759,11 +759,7 @@
   "pending_window02_integer_projector_design_review": null,
   "pending_window02_integer_projector_plan_review": null,
   "pending_window02_integer_projector_source_review": null,
-  "pending_window02_integer_projector_target_plan_review": {
-    "assignment_number": 152,
-    "execution_admitted": false,
-    "reviewer": "/root/window02_consecutive_condition_review"
-  },
+  "pending_window02_integer_projector_target_plan_review": null,
   "pending_window02_integer_witness_design_review": null,
   "pending_window02_integer_witness_evidence_review": null,
   "pending_window02_integer_witness_plan_review": null,
@@ -876,8 +872,8 @@
       "wall_seconds": 0.628058674
     }
   ],
-  "registered_task_assignments": 152,
-  "remaining_wall_seconds_at_observation": 15735.600932,
+  "registered_task_assignments": 154,
+  "remaining_wall_seconds_at_observation": 15326.957393,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
@@ -1180,7 +1176,9 @@
     "window02-integer-projector-calibration-evidence-independent-review",
     "window02-approximate-proof-dependency-independent-source-math-audit",
     "window02-integer-projector-full61-plan-generation",
-    "window02-integer-projector-full61-plan-independent-review"
+    "window02-integer-projector-full61-plan-independent-review",
+    "window02-integer-projector-full61-execution",
+    "window02-integer-projector-full61-evidence-independent-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1285,18 +1283,28 @@
     "wall_seconds_upper_bound": 120
   },
   "window02_integer_projector_target_reservation": {
-    "attempts_launched": 0,
+    "attempts_launched": 1,
     "attempts_reserved": 1,
     "calibrated_cost_envelope_seconds": 93.975417497335,
     "cpu_cores": 1,
-    "execution_admitted": false,
+    "execution_admitted": true,
     "harness_plan_digest": "6986ad275e6cd1441a5f55c68ffd38741dafaa4c7b187de2b812b83e886eb993",
     "native_plan_digest": "fbb52f2e5b6f16974f8ffaaff329cabad803909189d732142388a71f304c05e9",
     "ram_mib_reserved_not_enforced": 256,
     "released": false,
     "scope": "existing_lemma_full61_exact_integer_projector_lower_bound_only",
     "task": "exact-integer-projector-target61-02",
-    "wall_seconds_upper_bound": 360
+    "wall_seconds_upper_bound": 360,
+    "attempts_charged": 1,
+    "execution_status": "admitted_precharged_not_yet_started",
+    "prelaunch_observation": {
+      "observed_at": "2026-10-09T13:00:16.042607+00:00",
+      "cpu_max": "800000 100000",
+      "memory_max_bytes": 8589934592,
+      "active_matching_processes": [],
+      "remaining_wall_seconds": 15326.957393,
+      "process_inventory_method": "proc exactargvbasename"
+    }
   },
   "window02_integer_witness_plan_history": [
     {
@@ -1530,5 +1538,17 @@
     "package": "c23/research-autopilot",
     "source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
     "version": "0.2.0-autonomous.2"
+  },
+  "completed_window02_integer_projector_target_plan_review": {
+    "assignment_number": 152,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "reviewed_commit": "3e293a02cd7fb4b74962ee44a6ded05747ac939a",
+    "record": "INTEGER_PROJECTOR_TARGET61_PLAN_REVIEW_WINDOW02.md",
+    "verdict": "accepted_one_finite_full61_mathematical_certificate_attempt"
+  },
+  "pending_window02_integer_projector_target_evidence_review": {
+    "assignment_number": 154,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "scope": "complete61root exactmath receipt hash and cost only no native or novelty promotion"
   }
 }
