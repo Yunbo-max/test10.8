@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T06:18:51+00:00",
+  "observed_at": "2026-10-09T06:21:15+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 61,
   "executable_attempts_dispatched": 13,
@@ -141,7 +141,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 5334,
+  "remaining_wall_seconds_at_observation": 5190,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -609,7 +609,7 @@
     "review_record_sha256": "0ec99edd13995393e98ebbc6c8843954d999ef4c6dfa8c18fc2a3aab3e354e78",
     "status": "accepted_no_correction_required"
   },
-  "pending_native_protocol_v2_review": {
+  "completed_native_protocol_v2_review": {
     "assignment": "native-protocol-v2-correction-rereview",
     "reviewer": "/root/rice_skin_plan_review",
     "artifact": "NATIVE_PROTOCOL_DRAFT.md",
@@ -620,8 +620,12 @@
     "initial_verdict": "needs_correction_commands_and_denominators",
     "repair_count": 1,
     "review_record": "NATIVE_PROTOCOL_v2_REVIEW.md",
-    "review_record_sha256": "e432789eed5446fca419b057112677a64b39f8ec2a5a4d0588a29b1e7393122a",
-    "status": "repair_1_pending_independent_rereview"
+    "initial_review_record_sha256": "e432789eed5446fca419b057112677a64b39f8ec2a5a4d0588a29b1e7393122a",
+    "review_record_sha256": "64cb7d38d45370be31bd7ab1c883515f297baea15dd6afef677947e9c05f88c7",
+    "rereviewed_commit": "39641db14c9999929f70ad26a08c5f70cb7c1120",
+    "rereviewed_tree": "ec68df6efcaf39addf8571282b7cfcdc2d8bfeee",
+    "rereview_verdict": "accepted_documentation_design_only",
+    "status": "accepted_documentation_design_only"
   },
   "unadmitted_development_smoke_history": [
     {
@@ -639,7 +643,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T06:18:51+00:00",
+    "observed_at": "2026-10-09T06:21:15+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
