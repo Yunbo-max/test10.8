@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T10:17:41.463752+00:00",
+  "observed_at": "2026-10-09T10:19:02.353615+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 93,
-  "executable_attempts_dispatched": 16,
+  "registered_task_assignments": 94,
+  "executable_attempts_dispatched": 17,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 160.615645,
+  "observed_process_cpu_seconds": 167.29431,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "reservation": {
     "task": "source-integrity-01",
@@ -173,7 +173,8 @@
     "window02-stage-a-v2-calibration-plan-generation",
     "window02-stage-a-v2-calibration-plan-review",
     "window02-geometric-correction-priority-primary-audit",
-    "window02-stage-a-v2-calibration-execution"
+    "window02-stage-a-v2-calibration-execution",
+    "window02-stage-a-v2-calibration-evidence-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -916,12 +917,19 @@
     "ram_mib_reserved_not_enforced": 1024,
     "wall_seconds_upper_bound": 180,
     "attempts_reserved": 1,
-    "attempts_launched": 0,
-    "released": false,
+    "attempts_launched": 1,
+    "released": true,
     "execution_admitted": true,
     "native_plan_digest": "bd65b8ae552a6f512b5c2ab34a2b8f5ac9521368e940ee8ed591e84731c75b86",
     "harness_plan_digest": "de73b9fd3b9b43f628ecbbcfdd9b7e098ea88b7da02a1ee6f699f3b34d426ced",
-    "scope": "same_native_finite_identities_and_output_mitigation_calibration_only_no_performance"
+    "scope": "same_native_finite_identities_and_output_mitigation_calibration_only_no_performance",
+    "execution_started": true,
+    "execution_status": "completed_pending_independent_evidence_review",
+    "attempts_completed": 1,
+    "release_basis": "terminalcompletedreceipt and twoall31postexitoutputrehashes",
+    "waited_process_tree_cpu_seconds": 6.678665,
+    "actual_harness_wall_seconds": 7.197787519005942,
+    "maximum_child_rss_kib": 168128
   },
   "pending_window02_priority_audit": {
     "assignment": "window02-geometric-correction-priority-primary-audit",
@@ -933,5 +941,14 @@
     "reviewer": "/root/window02_stagea_source_review",
     "commit": "8ff8bc67a3cba06b6346554a2c5c0cd4a97fc1d6",
     "verdict": "accepted_single_calibration_only"
+  },
+  "launch_counter_reconciliation": {
+    "reason": "prelaunch_counter_write used repository-relative path from project cwd and failed; authorized launcher subsequently started once; actualattempt17reconciled withoutretry",
+    "reservation_preexisted": true,
+    "no_secondlaunch": true
+  },
+  "pending_window02_v2_calibration_evidence_review": {
+    "assignment": "window02-stage-a-v2-calibration-evidence-review",
+    "attempt_id": "landmark-stage-a-v2-cost-a1-c08a8de423d94bc08cdd049ef9bd6348"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "vendor/rsi/scripts/run_harness.py",
+    "plans/harness-landmark-stage-a-v2-calibration-02.json",
+    "--root",
+    "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+    "--execute",
+    "--approved-plan-digest",
+    "de73b9fd3b9b43f628ecbbcfdd9b7e098ea88b7da02a1ee6f699f3b34d426ced"
+  ],
+  "cwd": "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+  "started_at": "2026-10-09T10:18:18.972100+00:00",
+  "completed_at": "2026-10-09T10:18:26.169912+00:00",
+  "exit_code": 0,
+  "wall_seconds": 7.197787519005942,
+  "waited_process_tree_cpu_seconds": 6.6786650000000005,
+  "maximum_child_rss_kib": 168128,
+  "cpu_semantics": "RUSAGE_CHILDREN delta for waited harness and reaped descendants; failed/unreaped processes could undercount",
+  "scientific_gate_advanced": false
+}
