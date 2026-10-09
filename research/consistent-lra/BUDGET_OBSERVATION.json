@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T10:53:35.181367+00:00",
+  "observed_at": "2026-10-09T10:55:58.076318+00:00",
   "controller_rounds": 2,
   "registered_task_assignments": 106,
   "executable_attempts_dispatched": 19,
@@ -1043,10 +1043,7 @@
     "actual_harness_wall_seconds": 1.0736070679995464,
     "maximum_child_rss_kib": 16384
   },
-  "pending_window02_explicit_integer_derivation": {
-    "assignment": "window02-geometric-explicit-integer-bit-bound-derivation",
-    "scope": "existing published lemma formal correction lineage; explicit rounding/spectral-gap proof before any computational validation;notdiscovery/newmethod"
-  },
+  "pending_window02_explicit_integer_derivation": null,
   "pending_window02_explicit_integer_review": {
     "assignment": "window02-geometric-explicit-integer-bit-bound-independent-review",
     "status": "waiting_author_derivation_not_dispatched"
@@ -1061,5 +1058,13 @@
   "pending_window02_exact_certificate_calibration_evidence_review": {
     "assignment": "window02-exact-geometric-calibration-evidence-review",
     "status": "actualcompleted_two_outputs_waiting_fixed_commit_review"
+  },
+  "completed_window02_explicit_integer_derivation": {
+    "assignment": "window02-geometric-explicit-integer-bit-bound-derivation",
+    "author": "/root/window02_geometric_formal_review",
+    "source_commit": "4620aab26aa9d5706d0b5861224b84ab9f247c0a",
+    "draft_sha256": "d0f56dbf1ec12c302ad2b42e8ae608a06c9c6c2da63b50da2ee11f6ec8fede79",
+    "status": "author_derivation_delivered_pending_independent_review",
+    "scientific_gate_advanced": false
   }
 }
