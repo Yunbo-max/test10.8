@@ -28,3 +28,28 @@ no-replace/re-hash intent sound. Native/StageB/scientific flags false.
 
 Root froze one versioned source/fixture correction contract below before mutation.
 Source/fixture rereview124 pending; no executable plan or reservation admitted.
+
+
+## Assignment124 corrected source review — ACCEPT
+
+Independent reviewer /root/window02_stagea_source_review checked immutable commit
+f2fc8165f95cd359a8612e10c6f9ef39aca08730 against exact connector blobs.
+Qualifier SHA256 f5b70d1df22000be8250dc0f1a6827d2413f70e7ae8badc194fb140f84cae608
+(25957bytes); fixtures47b9fb7a1f752b28a32a2ece0c9d79659cac7e7da5476030857108610d84dbd7
+(31202bytes); buildera623bbae8cffe8d908007a63aaa19252a0bdbae43ae823bd69257af9221599c1.
+Correction contract2bd64f3fff396d187686c4f5614d5235ac71c261238ca181869df3661e973871.
+
+All three findings closed. Exclusive diagnostic journal opens before dependency
+checks; input/lineage and actual/expected values and accumulator snapshot/batch
+references fsynced before assertions. Failure evidence retained, nonzero exits.
+24valid+12reject fixtures, mixed7 including truepositive violation, allundefined3
+real appends; distinct nonzero other-field software literals;501raw records.
+Four original expressions retain segment/start/end/hash before synthetic wrapping.
+Pinned source/helper, strict ASTnamespace, staged arithmetic oracle, exact
+classification/count predicates and recorded-member scalar provenance unchanged.
+Four successfiles diagnostic/raw/summary/manifest, failure artifacts separate.
+
+Static inspection and read-only JSON/hash parsing only; no qualifier/extracted
+function/builder/project module/numerical workload executed by reviewer. No edits.
+ACCEPT source/fixtures only; separate plan required. Native evaluator, matrix
+fallback/fullsummary/pipeline qualification and StageBscience remain blocked.

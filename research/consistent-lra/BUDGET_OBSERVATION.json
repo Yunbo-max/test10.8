@@ -624,7 +624,7 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:02:21.208413+00:00",
+  "observed_at": "2026-10-09T12:03:23.636171+00:00",
   "observed_process_cpu_seconds": 290.816014082,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -656,23 +656,7 @@
   "pending_window02_integer_priority_audit": null,
   "pending_window02_mitigation_source_review": null,
   "pending_window02_nearzero_design": null,
-  "pending_window02_nearzero_source": {
-    "accepted_design_commit": "941cf147c727966208f17f2fd51e17321edfd81f",
-    "author": "/root",
-    "author_assignment": 121,
-    "corrected_source_commit": "f2fc8165f95cd359a8612e10c6f9ef39aca08730",
-    "correction_assignment": 123,
-    "execution_admitted": false,
-    "fixture_asset_authoring_command": "python3 research/consistent-lra/evidence/dispatch/build_scalar_fixtures_authoring.py",
-    "fixture_sha256": "02a7569f3673e4483f5397580510a967e1aef7e502cf3957eae1b1b9b1e7f0bc",
-    "qualification_execution_started": false,
-    "rereview_assignment": 124,
-    "review_assignment": 122,
-    "reviewer": "/root/window02_stagea_source_review",
-    "source_asset_authoring_cpu_unmetered_not_zero": true,
-    "source_sha256": "4bf171abb61c276769a59082c359a79ca530d81c5a08e84d4fc98d9d6ab53837",
-    "status": "source_correction_generation_before_rereview"
-  },
+  "pending_window02_nearzero_source": null,
   "pending_window02_plan_review": null,
   "pending_window02_priority_audit": null,
   "pending_window02_scalar_plan_review": {
@@ -1275,5 +1259,14 @@
     "package": "c23/research-autopilot",
     "source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
     "version": "0.2.0-autonomous.2"
+  },
+  "completed_window02_nearzero_source": {
+    "assignment_number": 124,
+    "reviewer": "/root/window02_stagea_source_review",
+    "commit": "f2fc8165f95cd359a8612e10c6f9ef39aca08730",
+    "source_sha256": "f5b70d1df22000be8250dc0f1a6827d2413f70e7ae8badc194fb140f84cae608",
+    "verdict": "accepted_static_scalar_software_source_only",
+    "record": "NEARZERO_SCALAR_SOURCE_REVIEW_WINDOW02.md",
+    "qualification_executed": false
   }
 }
