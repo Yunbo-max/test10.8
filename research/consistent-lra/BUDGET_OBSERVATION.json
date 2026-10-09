@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T02:45:29+00:00",
+  "observed_at": "2026-10-09T02:56:59+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 26,
-  "executable_attempts_dispatched": 5,
+  "registered_task_assignments": 27,
+  "executable_attempts_dispatched": 6,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 1.571700,
+  "observed_process_cpu_seconds": 1.577356,
   "reservation": {
     "task": "source-integrity-01",
     "purpose": "mechanical_preparation_only",
@@ -88,7 +88,8 @@
     "evaluator-semantic-oracle-plan-rereview",
     "random-family-identity-rereview",
     "evaluator-semantic-oracle-evidence-review",
-    "evaluator-semantic-oracle-evidence-rereview"
+    "evaluator-semantic-oracle-evidence-rereview",
+    "fd-semantic-oracle-plan-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -176,14 +177,31 @@
   ],
   "pending_evaluator_semantic_oracle_evidence_review": null,
   "completed_evaluator_semantic_oracle_evidence_review": "accepted_after_recorded_ledger_needs_correction",
+  "pending_fd_semantic_oracle_plan_review": "fd-semantic-oracle-plan-review",
+  "unadmitted_development_smoke_history": [
+    {
+      "direction": "fd_source_semantic_oracles",
+      "status": "completed_but_invalid_as_evidence",
+      "reason": "developer smoke check occurred before independent plan review and outside the pinned harness",
+      "charged_executable_attempt": 1,
+      "scientific_experiment": false,
+      "output_retained": false,
+      "observed_process_cpu_seconds": 0.005656,
+      "observed_metric_wall_seconds": 0.006052,
+      "observed_checks": 45,
+      "observed_failures": 0,
+      "use_for_claims": false
+    }
+  ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T02:36:18+00:00",
+    "observed_at": "2026-10-09T02:56:59+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
     "memory_max_bytes": 8589934592,
     "scientific_job_launched": false,
     "mechanical_preparation_job_completed": true,
-    "evaluator_semantic_oracle_job_completed": true
+    "evaluator_semantic_oracle_job_completed": true,
+    "fd_semantic_oracle_job_completed": false
   }
 }

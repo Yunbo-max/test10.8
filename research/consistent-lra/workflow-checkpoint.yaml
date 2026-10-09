@@ -80,12 +80,12 @@ notes:
   - do not change main or the unrelated continual_learning_project
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 26
-actual_executable_attempts: 5
-actual_preparation_attempts: 5
+actual_registered_task_assignments: 27
+actual_executable_attempts: 6
+actual_preparation_attempts: 6
 actual_scientific_attempts: 0
 actual_discovery_rounds: 0
-actual_observed_process_cpu_seconds: 1.571700
+actual_observed_process_cpu_seconds: 1.577356
 actual_max_preparation_rss_kib: 148112
 unreleased_reservations: []
 formal_counterexample_artifact: FORMAL_AUDIT_v2.md
@@ -140,3 +140,6 @@ evaluator_semantic_oracle_reservation_released: true
 evaluator_semantic_oracle_release_boundary: completed_harness_plus_monotonic_ledger_no_separate_lease_release_receipt
 evaluator_semantic_oracle_evidence_initial_review: needs_correction_ledger_predated_execution
 evaluator_semantic_oracle_evidence_rereview: accepted
+fd_semantic_candidate_commit: 0d729ae4d8cf6e5cc0b527bbb9f4c62c4429862e
+fd_semantic_plan_review: pending
+fd_semantic_unadmitted_smoke: charged_attempt_invalid_as_evidence
