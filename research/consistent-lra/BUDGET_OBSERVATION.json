@@ -1040,7 +1040,7 @@
       "wall_seconds": 11.894702007
     }
   ],
-  "registered_task_assignments": 180,
+  "registered_task_assignments": 182,
   "remaining_wall_seconds_at_observation": 6265,
   "reservation": {
     "actual_max_rss_kib": 99788,
@@ -1370,7 +1370,9 @@
     "main-heavy-DAS-transfer-consequential-derivation",
     "main-heavy-DAS-transfer-independent-math-review",
     "main-onlinepcp-saturated-heavy-consequential-derivation",
-    "main-onlinepcp-saturated-heavy-independent-review"
+    "main-onlinepcp-saturated-heavy-independent-review",
+    "main-experiment-readiness-contract-correction-design-only",
+    "main-experiment-readiness-independent-design-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1771,5 +1773,27 @@
     "executable_attempts_added": 0,
     "scientific_experiments_added": 0,
     "cpu_seconds_added": 0
-  }
+  },
+  "readiness_correction_20261009": {
+    "assignments": [
+      181,
+      182
+    ],
+    "proposal": "EXPERIMENT_READINESS_CORRECTION_20261009.md",
+    "proposal_sha256": "863d9f4c2f2c83434f67c808b64b593dcf45a75d4eebf1aa3325dcde6cd80bbf",
+    "review_task": "EXPERIMENT_READINESS_REVIEW_TASK_20261009.md",
+    "review_status": "ACCEPT_DESIGN_ONLY",
+    "scientific_experiments_added": 0,
+    "executable_attempts_added": 0,
+    "measured_scientific_CPU_seconds_added": 0,
+    "cpu_semantics": "controller/Git/authoring costs not measured here; model reasoning is not measured experiment-host CPU",
+    "unresolved_gate": "official-only contract unsupported by pinned release; local exception design_only_not_authorized",
+    "authority_record": "AUTHORIZATION_CONTINUATION_20261009.md",
+    "observed_at": "2026-10-09T16:21:12.732244+00:00",
+    "review": "EXPERIMENT_READINESS_INDEPENDENT_REVIEW_20261009.md",
+    "review_sha256": "ac919f15216f521c0108301b706156a729e343d616013cfbc2b8e042149bad86",
+    "source_manifest_sha256": "70c225b26b807e9434a252bfb8c5657cbab87debbc54b7579923860981c9347b",
+    "inventory_corrections_retained_in_review": true
+  },
+  "wall_deadline_removed_by_owner_20261009_1639": true
 }

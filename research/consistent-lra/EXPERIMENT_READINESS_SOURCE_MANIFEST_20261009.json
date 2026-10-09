@@ -1,0 +1,155 @@
+{
+  "base_commit": "4ab8e122fcaed61b6f1ac9ec4d8e899989402036",
+  "legacy_head": "7286e6d5b301f01ebda45d6fa1387afd9d383906",
+  "evidence": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "674ec0d0e422cbcf5578d99246dc2f606262494fcfbb7e3e668cdb05c51a6cdd",
+      "bytes": 4228,
+      "git_blob": "4a2aa5c1a6af6f8a528da2a4a57913b8ca0d3ae5",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "README.md",
+      "sha256": "94b874ef84a5ab710a4152080396dc0adabd4c738a381fd9ca04fa4da6922900",
+      "bytes": 20219,
+      "git_blob": "b86d80f21fec85426351e692b429d506ec0224f8",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "GOAL.md",
+      "sha256": "0c540f63a44f4117801c32fc83970c2693ef60ddf852a8fa459d00e01111635f",
+      "bytes": 8435,
+      "git_blob": "2ecb0a82c89f6147bdeb4dcd74c745479a7a1712",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "6328a6caa73c2770483aa3955ed707810fce0ced8fbe01ddcdd9b1c346fcf15e",
+      "bytes": 15348,
+      "git_blob": "4ac934b624e5e1ee06a09514f959acf576d2d327",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "BASELINE_AUDIT.md",
+      "sha256": "7de6b86ce2a840317b0b51eb36ca3249c7b289feedc7fef5847fde791226ab98",
+      "bytes": 6336,
+      "git_blob": "8f4d15bdee510bc19390d9afbe4ba8fceea25a04",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "EXECUTION_SCOPE.md",
+      "sha256": "ecc48cb660cf02ca2b6b209c76afe5185a71926612389dcd62f1e485af186cb9",
+      "bytes": 4599,
+      "git_blob": "015d020e6a70044d79afcd6771b75247d0f677cd",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "workflow-checkpoint.yaml",
+      "sha256": "d945a0141acbbb574a546c3bd787bfe92d9bc33704b3a3b4bf7a85775e5f5e6e",
+      "bytes": 36560,
+      "git_blob": "8284b71240d04cfd4dd2d4e865f959396ed2a381",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "BACKGROUND_TASK.json",
+      "sha256": "7d0b6f24e648a4ca4b728653a2ea0a61dec5de372bd0643dd2e294fd7c1b13c1",
+      "bytes": 9587,
+      "git_blob": "29fcfdc14f83459842c967744f2f8df85fbcc187",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "BUDGET_OBSERVATION.json",
+      "sha256": "6950db5391ab05c9d9cea0bb45c0da5b470e68eebc23d9a933cb8a2ea69fbff6",
+      "bytes": 90168,
+      "git_blob": "69f2a33ad7c75ce23fd93ede05ff1c3a192ab719",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "NATIVE_PROTOCOL_DRAFT.md",
+      "sha256": "dc19834b84e118c5a80ba0cd2f89ee2eb28526a595621cf6d0b920959265631d",
+      "bytes": 9879,
+      "git_blob": "a730fae2c4f089eac71ed0991a0329349bf3a7a9",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "WINDOW02_SCORER_SCOPE_REVIEW.md",
+      "sha256": "f02cafc20fdafddd191213e41f49dbd66f5ed279f2eb76620f0b7fe3753b7c25",
+      "bytes": 3960,
+      "git_blob": "00a7ebce9eba51b90f8c3c70e7355f68fa97d1e5",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "SCORER_ADMISSION_MAIN_AUDIT.md",
+      "sha256": "7e0cc32990a839e1865392875d0494b726f727364795b218c4bde2816e9ea906",
+      "bytes": 13298,
+      "git_blob": "8a9a99db74ac9492faac2495a2fb9ef0ee21d36a",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "AUTHOR_ARCHIVE_SCORER_AUDIT_20261009.md",
+      "sha256": "6ed1195adbdae5a7df7ea77888ad3f23a25406140945703cbcd4b4777c4ab599",
+      "bytes": 3498,
+      "git_blob": "72d5da361eacc4f24341a7f238f7ef6b6f71a8f4",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "REPAIR_CONTRACT_v1.md",
+      "sha256": "d00db725241d68629785bfa7ae39bfd90fb32c899c6956047912b4431a540e1e",
+      "bytes": 4553,
+      "git_blob": "7a63091f695c8d40ef0afae1572d5b56f4f8bb0a",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "LANDMARK_BASELINE_MATRIX_DESIGN_CANDIDATE.md",
+      "sha256": "c6b5d2525a87d278f3ad90b2b69045478e4690c66c10459ab16ea574bee11083",
+      "bytes": 10114,
+      "git_blob": "a8c9332857eba826bea79d0476bdd76e27d0c0ee",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "LANDMARK_BASELINE_MATRIX_DESIGN_REVIEW.md",
+      "sha256": "42160d6f420599cd5f7d0c07e9b1f10409fc60c979184ce0a12c314b6ae31fb5",
+      "bytes": 3183,
+      "git_blob": "1e0568c7cc9da91dd4c18d8759f47f2574807280",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "LANDMARK_STAGE_A_v2_FULL_EVIDENCE_REVIEW.md",
+      "sha256": "65d566101933c540a6f1e879418f6c1f72f7b186a20bfe4f9c8851bdf015d714",
+      "bytes": 2949,
+      "git_blob": "54982605c87351a0fd1edc64adfda887e833ac9c",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "LANDMARK_STAGE_B_SOURCE_REVIEW.md",
+      "sha256": "262ea4ea0c9c6f50028114003110c32813d023c82d9f6f72bea97bb52794d098",
+      "bytes": 4886,
+      "git_blob": "5385a8a058d27dca4608e368249dc1ef269d658b",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "run_landmark_stage_b.py",
+      "sha256": "12fa733061a4ec93983cafeb0fbed7af31b19f85c0d1ab875be8de3803457f5e",
+      "bytes": 22026,
+      "git_blob": "5bde8d89cd5afad4bdafdfa4bcc98e727a048819",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    },
+    {
+      "path": "vendor/rsi/scripts/_native_eval.py",
+      "sha256": "bbbf79c85c9f7094f4bf4544dd9f34586ac33f9f3aaeda151ddb6234065ce826",
+      "bytes": 26550,
+      "git_blob": "f51045cf57d18cbd9bdc96d9c1bf6a8b4b391abb",
+      "read_scope": "source_and_retained_review_controller_inspection_not_new_numeric_reverification"
+    }
+  ],
+  "raw_outputs_rerun": false,
+  "proposal_status": "design_only_unadmitted",
+  "installed_module": {
+    "resource": "skill://plugins_6ac8ad1eb9648191a0b6c1941de5d6b2/research-autopilot/references/native-evaluation.md",
+    "capture_path": "evidence/readiness-20261009/installed-native-evaluation.md",
+    "sha256": "6262d90670f1ca667669f4b208a44df6aab748956b2360527e94f80b500c9a80",
+    "read_scope": "full current installed module",
+    "bytes": 7407
+  }
+}

@@ -1,20 +1,15 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T15:31:18+00:00",
+  "observed_at": "2026-10-09T16:22:00.489624+00:00",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
-  "decision": 3,
-  "action": "bounded repeated-event recycling or alternative multi-refresh amortization after source-faithful OnlinePCP single-event counterexample",
+  "decision": 1,
+  "action": "park affected scientific StageB pending explicitly authorized independent-paper-metric contract/local trusted runtime; deliver design-only correction; independent repeated-event math remains route3",
   "basis": [
-    "Actual154fullintegerrecoursecertificate accepted; exactlossseparation independentmainreview retained",
-    "Actual161known1997mechanismcollision/fullconjunctionpriorityinconclusive",
-    "Actual163finiteF1boundcounterexample accepted withlimits",
-    "Actual165v1construction/state and166independentstrictness/v2 accepted:small-epsilonR>4k/5 excludesuniformepsilon-independentconstant sqrtk only",
-    "Canonical167-171 retain a separate reachable k144 exact-final-byte counterexample and bounded priority audit; worker-local labels collided with concurrent tasks and were remapped without dropping history",
-    "Canonical172-174 preserve an initial rejected arbitrary-real argument and independently accept the corrected M=D A_S Cauchy-Binet product-floor repair; literal integrality remains false but is not a recourse-proof blocker",
-    "Canonical175-176 independently accept a reachable single-arrival real-row violation of the r=1 HEAVY segment bound; integer/D A_S membership, repeated-event and theorem-wide claims remain excluded",
-    "Canonical177-178 independently transfer the event to integer-base D A_S with D>=I; actual ridge-leverage sampler reachability, repeated events and theorem-wide claims remain excluded",
-    "Canonical179-180 preserve an initial rejected source-semantics draft and independently accept the corrected bounded-unit constant-condition small-epsilon stream: source OnlinePCP samples every row with p=1 and Algorithm2 incurs one non-reset HEAVY move >sqrt(k)"
+    "Existing native contract requires live official scorer and accepts official values; audited author release lacks a correct full-metric executable",
+    "Accepted StageA closes finite35prefix identity and5000update timing only; StageB corrected source is generated unexecuted",
+    "Assignment181 supplies source-bound diagnosis and concrete independent paper-metric local contract requirements; assignment182 reviews exact design-only bytes",
+    "Owner removed totalwall deadline; cumulative limits retained; no scientific run or completed discovery cycle added"
   ],
   "closed_or_narrowed": {
     "Landmark_asset": "exact bytes/license/full mechanical counts independently accepted",
@@ -199,5 +194,30 @@
     "repeated_event": false,
     "theorem1_3_false": false,
     "scientific_gate_advanced": false
-  }
+  },
+  "prior_route_observation_before_readiness_correction": {
+    "observed_at": "2026-10-09T15:31:18+00:00",
+    "decision": 3,
+    "action": "bounded repeated-event recycling or alternative multi-refresh amortization after source-faithful OnlinePCP single-event counterexample",
+    "basis": [
+      "Actual154fullintegerrecoursecertificate accepted; exactlossseparation independentmainreview retained",
+      "Actual161known1997mechanismcollision/fullconjunctionpriorityinconclusive",
+      "Actual163finiteF1boundcounterexample accepted withlimits",
+      "Actual165v1construction/state and166independentstrictness/v2 accepted:small-epsilonR>4k/5 excludesuniformepsilon-independentconstant sqrtk only",
+      "Canonical167-171 retain a separate reachable k144 exact-final-byte counterexample and bounded priority audit; worker-local labels collided with concurrent tasks and were remapped without dropping history",
+      "Canonical172-174 preserve an initial rejected arbitrary-real argument and independently accept the corrected M=D A_S Cauchy-Binet product-floor repair; literal integrality remains false but is not a recourse-proof blocker",
+      "Canonical175-176 independently accept a reachable single-arrival real-row violation of the r=1 HEAVY segment bound; integer/D A_S membership, repeated-event and theorem-wide claims remain excluded",
+      "Canonical177-178 independently transfer the event to integer-base D A_S with D>=I; actual ridge-leverage sampler reachability, repeated events and theorem-wide claims remain excluded",
+      "Canonical179-180 preserve an initial rejected source-semantics draft and independently accept the corrected bounded-unit constant-condition small-epsilon stream: source OnlinePCP samples every row with p=1 and Algorithm2 incurs one non-reset HEAVY move >sqrt(k)"
+    ]
+  },
+  "readiness_proposal": "EXPERIMENT_READINESS_CORRECTION_20261009.md",
+  "readiness_review_status": "ACCEPT_DESIGN_ONLY",
+  "evaluation_contract_exception_authorized": false,
+  "evaluation_contract_exception_implemented": false,
+  "independent_math_next_action_retained": "repeated-event recycling construction or alternative multi-refresh amortization",
+  "controller_round_increment": 0,
+  "scientific_cycles_completed": 0,
+  "readiness_review": "EXPERIMENT_READINESS_INDEPENDENT_REVIEW_20261009.md",
+  "readiness_review_sha256": "ac919f15216f521c0108301b706156a729e343d616013cfbc2b8e042149bad86"
 }

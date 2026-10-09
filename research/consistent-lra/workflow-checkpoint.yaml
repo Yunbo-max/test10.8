@@ -22,7 +22,7 @@ cpu_quota_cores: 8
 memory_limit_bytes: 8589934592
 gpu_allowed: false
 paid_api_or_cloud_allowed: false
-requested_wall_window_seconds: 28800
+requested_wall_window_seconds: null
 max_controller_rounds: 12
 max_registered_tasks: 256
 max_executable_attempts: 128
@@ -33,12 +33,12 @@ registered_tasks_at_bootstrap: 0
 executable_attempts_at_bootstrap: 0
 scientific_controller_rounds_at_bootstrap: 0
 budget_clock_anchor: '2026-10-09T09:15:43Z'
-wall_deadline_utc: '2026-10-09T17:15:43Z'
+wall_deadline_utc: null
 background_task_id: 6ac82bb085c081919fa92002384b073b
 background_conversation_id: 6ac827e6-de58-83eb-9487-8a2ab69c90e5
 background_observed_state: "same_task_enabled_observed; bootstrap_immediate_ack_historical_not_worker_todo"
 background_control_record: BACKGROUND_TASK.json
-current_step: "3: r=1 HEAVY bound refuted on real rows and algebraic D A_S class; actual sampler and repeated-event aggregate remain; native evaluator blocked"
+current_step: "1: experiment-admission contract decision pending; design-only repair in step 4; independent mathematical route 3 remains open"
 completed:
   - frozen_versioned_baseline_repair_contract
   - Rice_Skin_exact_native_bytes_order_labels_and_license_reading
@@ -80,14 +80,14 @@ scientific_experiments_started: 0
 scientific_results_verified: 0
 eligible_new_papers: 0
 negative_or_invalid_history: BASELINE_AUDIT.md
-next_action: "audit actual ridge-leverage sampler restrictions or multi-refresh amortization; no StageB dispatch"
+next_action: "review readiness proposal; StageB parked pending explicit project-local evaluation-contract/runtime authority; no repeated scorer search"
 notes:
   - source review is not scientific replication
   - schedule is not uninterrupted CPU execution
   - deliver only research/consistent-lra on main; legacy branch is read-only; do not change unrelated projects
 
 current_budget_record: BUDGET_OBSERVATION.json
-actual_registered_task_assignments: 176
+actual_registered_task_assignments: 182
 actual_executable_attempts: 24
 actual_preparation_attempts: 24
 actual_scientific_attempts: 0
@@ -443,7 +443,7 @@ main_CPU_seconds_lower_bound: 318.944499767
 main_old_writer_reconciliation_pending: false
 main_exact_approximate_review: accepted_final_append_only
 # Current analytical review state; overrides older narrative counters.
-main_registered_task_assignments_latest: 178
+main_registered_task_assignments_latest: 182
 main_current_route: 3
 main_heavy_finite_review: accepted_numerical_bound_only
 main_heavy_rank_family_review: actual165_construction_and_actual166_independent_strict_trigger_review_accepted
@@ -454,7 +454,7 @@ main_registered_task_assignments_final_observation: 178
 main_current_route_latest: 3
 main_heavy_rank_family_review_latest: accepted_actual165_plus166
 main_heavy_rank_family_strict_review: accepted_actual166
-main_active_review_assignments: none
+main_active_review_assignments: "none;182 completed design-only"
 main_current_executable_attempts: 24
 main_current_controller_rounds: 2
 main_current_CPU_lower_bound: 318.944499767
@@ -496,10 +496,21 @@ main_onlinepcp_saturated_heavy_verdict: accepted_source_faithful_single_event_on
 main_onlinepcp_sampler_property: "Definition2.1 rank-growth rows score1; all other unit rows tau>0.306 and p=1 for valid delta<=eta/(20+eta)"
 main_onlinepcp_witness_property: "unit integer entries; online kappa<=sqrt5; eta=1/m<.01; one non-reset HEAVY movement>sqrt(k)"
 main_onlinepcp_exclusions: "no repeated event / aggregate theorem falsity / novelty / method / experiment / dispatch / paper admission"
-main_registered_task_assignments_latest: 180
+main_registered_task_assignments_latest: 182
 main_actual_executable_attempts_latest: 24
 main_actual_scientific_attempts_latest: 0
 main_actual_discovery_rounds_latest: 0
 main_observed_process_cpu_seconds_latest: 318.944499767
 main_current_route_latest_after_180: 3
 main_next_action_latest: "repeated-event recycling construction or alternative multi-refresh amortization; no StageB dispatch"
+
+latest_owner_authority_record: AUTHORIZATION_CONTINUATION_20261009.md
+latest_readiness_proposal: EXPERIMENT_READINESS_CORRECTION_20261009.md
+latest_readiness_review_task: EXPERIMENT_READINESS_REVIEW_TASK_20261009.md
+current_full_scientific_cycles_completed: 0
+current_wall_deadline_owner_removed: true
+current_evaluation_contract_exception_authorized: false
+current_evaluation_contract_exception_implemented: false
+current_registered_assignments_after_readiness_correction: 182
+current_readiness_review: EXPERIMENT_READINESS_INDEPENDENT_REVIEW_20261009.md
+current_readiness_review_verdict: ACCEPT_DESIGN_ONLY

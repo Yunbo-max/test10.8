@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-09T16:23:15.526903+00:00",
+  "cpu_max": "800000 100000",
+  "memory_max_bytes": 8589934592,
+  "matching_visible_native_workload_pids": [],
+  "scope": "visible current PID namespace only, not other environments",
+  "scientific_workload_launched_this_invocation": false,
+  "scientific_CPU_seconds_added": 0,
+  "controller_git_authoring_CPU_cost": "not measured; model inference location/cost not inferred",
+  "previous_dirty_workspaces_modified": false
+}

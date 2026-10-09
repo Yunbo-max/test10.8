@@ -1,5 +1,9 @@
 # Consistent LRA: bounded CPU research
 
+## Current experiment readiness correction
+
+The [source-bound diagnosis and local contract proposal](EXPERIMENT_READINESS_CORRECTION_20261009.md) separates accepted Stage-A evidence from the unsatisfiable official-scorer condition and specifies independent mathematical reference/live-replay obligations. The [independent review](EXPERIMENT_READINESS_INDEPENDENT_REVIEW_20261009.md) accepts the corrected proposal as design-only; the [exact owner decision](EVALUATION_CONTRACT_DECISION_PENDING_20261009.md) remains pending. No workload or new method was launched. 182 registered assignments / 24 attempts / 318.944499767 CPU core-seconds lower bound; formal scientific experiments and completed scientific cycles remain zero. The [latest authorization](AUTHORIZATION_CONTINUATION_20261009.md) removes the wall deadline while preserving cumulative limits. Historical dated sections below retain their original observations.
+
 
 ## Latest independently reviewed evidence — assignments 179--180
 
