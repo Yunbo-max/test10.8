@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T11:03:02.202965+00:00",
+  "observed_at": "2026-10-09T11:08:23.454329+00:00",
   "controller_rounds": 2,
   "registered_task_assignments": 112,
   "executable_attempts_dispatched": 20,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 277.639805,
+  "observed_process_cpu_seconds": 290.816014082,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "reservation": {
     "task": "source-integrity-01",
@@ -1088,7 +1088,7 @@
     "native_plan_digest": "e1bb32d285072d95b723bb6aa0f019586b7c2294ed84b0f558980923b792707d",
     "harness_plan_digest": "34deb544034d52ad591e6f1be2de2e7fe2e8e915be085fc7abe5cd6a36f362f9",
     "attempts_charged": 1,
-    "execution_status": "completed_pending_independent_evidence_review",
+    "execution_status": "accepted_complete_k61_real_parent_finite_arithmetic_and_execution_only",
     "plan_review": "FORMAL_CERTIFICATE_TARGET61_PLAN_REVIEW_WINDOW02.md",
     "prelaunch_observation": {
       "observed_at": "2026-10-09T11:00:52.836314+00:00",
@@ -1105,8 +1105,9 @@
   },
   "pending_window02_stage_b_source_review": {
     "assignment": "window02-landmark-stage-b-source-review",
-    "status": "awaiting_generated_source_no_execution_admission",
-    "scope": "existing13arm complete fullprefix scorer/draft; no newmethod and no scientificdispatch"
+    "status": "source_generated_unexecuted_awaiting_fixed_commit_independent_review",
+    "scope": "existing13arm complete fullprefix scorer/draft; no newmethod and no scientificdispatch",
+    "source_sha256": "97bd59897fe98abac6204976cd03e7c19029e3cd6c817ae96bd4c1444b2f8f8f"
   },
   "completed_window02_explicit_integer_review": {
     "assignment": "window02-geometric-explicit-integer-bit-bound-independent-review",
@@ -1124,8 +1125,28 @@
     "verdict": "accepted_one_target61_finite_real_parent_arithmetic_attempt",
     "record": "FORMAL_CERTIFICATE_TARGET61_PLAN_REVIEW_WINDOW02.md"
   },
-  "pending_window02_exact_certificate_target_evidence_review": {
+  "pending_window02_exact_certificate_target_evidence_review": null,
+  "completed_window02_exact_certificate_target_evidence_review": {
     "assignment": "window02-exact-geometric-target61-evidence-review",
-    "status": "actualcompleted_two_outputs_waiting_fixed_commit_review"
-  }
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "commit": "ea547dd4c732a01b06969b045866eb03bd906271",
+    "verdict": "accepted_complete_k61_real_parent_finite_arithmetic_and_execution_only",
+    "record": "FORMAL_CERTIFICATE_TARGET61_EVIDENCE_REVIEW_WINDOW02.md"
+  },
+  "read_only_evidence_analysis_costs": [
+    {
+      "assignment": "window02-exact-geometric-target61-evidence-review",
+      "scope": "independent decoding/recomputation of existing complete recorded Fraction certificate; no source import/rerun/neworiginalattempt",
+      "started_at": "2026-10-09T11:05:52.519004Z",
+      "completed_at": "2026-10-09T11:06:05.686232Z",
+      "wall_seconds": 13.167230952,
+      "process_cpu_seconds": 12.912453082,
+      "waited_git_child_cpu_seconds": 0.263756,
+      "additional_cpu_lower_bound_seconds": 13.176209082,
+      "maximum_self_rss_kib": 23552,
+      "charged_to_observed_cpu_total": true,
+      "increments_original_executable_attempt": false,
+      "scientific_experiment": false
+    }
+  ]
 }

@@ -1,0 +1,170 @@
+{
+  "commit": "ea547dd4c732a01b06969b045866eb03bd906271",
+  "actual_remote_git_bytes_read": true,
+  "observed_at": "2026-10-09T11:04:06.099840+00:00",
+  "checks": [
+    {
+      "path": "research/consistent-lra/BUDGET_OBSERVATION.json",
+      "bytes": 58865,
+      "sha256": "9f836e721cd6df158af24df4c623c46d64780dcad74b99541acd5f32429b4193",
+      "git_blob": "af19342369eacdb24abfe82c281930a935111a37",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/formal-geometric-target61-02.json",
+      "bytes": 842,
+      "sha256": "07cc8cb2dc4cfdcbfffb2e274fd731e8b41e845ae9a4fef57133a7b221956656",
+      "git_blob": "3adc007434150a572a11d43db9e2999c178c53f7",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/formal-geometric-target61-02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/formal-geometric-target61-02.stdout.log",
+      "bytes": 2355,
+      "sha256": "a448d64e518a1749f8f275818100deef7dd771795f67a95dc0481652fdf70050",
+      "git_blob": "8aba807d10726c9e8482d6e607e40d43a513d8ba",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/evidence/dispatch/formal-target61-postexit-hashes.json",
+      "bytes": 1493,
+      "sha256": "b468b0812036120b0142479a79d8375f9d9fc1326e28059916ff7399272d3b7f",
+      "git_blob": "417481686239ba83d1d5688feff5da7c7e6a99bf",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/formal-geometric-target61-02/formal-geometric-target61-a1-180f6c6be0024da193b15a7af97dddef/attempt.json",
+      "bytes": 4578,
+      "sha256": "cae914b54b699b3c741c98e442dbec5b60830ef2b0cc41215353554959827728",
+      "git_blob": "8b265d019696816683d5d2df863e2f92ae4658bc",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/formal-geometric-target61-02/formal-geometric-target61-a1-180f6c6be0024da193b15a7af97dddef/process-guard.json",
+      "bytes": 779,
+      "sha256": "36d70d97449751bf564fd8d721600871ca8e220280dd96ac4253a37b4255d4ec",
+      "git_blob": "97e857aca4954a5806e8324c87ad68f0a3edb570",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/formal-geometric-target61-02/formal-geometric-target61-a1-180f6c6be0024da193b15a7af97dddef/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/formal-geometric-target61-02/formal-geometric-target61-a1-180f6c6be0024da193b15a7af97dddef/stdout.log",
+      "bytes": 291,
+      "sha256": "eb7abeeb0a8626160cd6b0280fbcba4d4b57e06a6985d5a8d497a7c0d5b80fc1",
+      "git_blob": "3011a37b250cdc598a2b5d292428e6dc7760f055",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/formal-geometric-target61-02/formal-geometric-target61-a1-180f6c6be0024da193b15a7af97dddef/workspace/evidence/formal/geometric-target61.certificates.jsonl",
+      "bytes": 3155810,
+      "sha256": "06543277737b9b1777c1d7db585610d95273ebe07ca8cba0c5eca4a2d18ddd07",
+      "git_blob": "cbd2cbbf74cbcd0d11336e354daea6f05e810fbc",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/formal-geometric-target61-02/formal-geometric-target61-a1-180f6c6be0024da193b15a7af97dddef/workspace/evidence/formal/geometric-target61.summary.json",
+      "bytes": 1135,
+      "sha256": "3754306f745e109cc062c9ee579e3510e198eb5ccc506fe643dc7a998fc52daa",
+      "git_blob": "a1d77e2b024f2eaa95acd865de854206cb28eebd",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/formal-geometric-target61-02/plan.json",
+      "bytes": 3418,
+      "sha256": "6a2220734778d0401847941d6bc816639b91b6a520548a6041316396c7e094c7",
+      "git_blob": "800a9244b7523886bcb79cbc16d1f6221df664a9",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/attempts/formal-geometric-target61-02/receipt.json",
+      "bytes": 5459,
+      "sha256": "88ad668372762065b06c604b9f898a21f52506503148f984bfe925037455d441",
+      "git_blob": "af400456c7a0fe0fef6e165d3e69745756126bda",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/formal-geometric-target61-batch-02/events.jsonl",
+      "bytes": 511,
+      "sha256": "1f0bb605749ea9c04259de44078805dbfcbe03dde307b6b1cdddeb53d358cd7c",
+      "git_blob": "8fddacb17d3be34fce586e8e9a132f3faef8023d",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/formal-geometric-target61-batch-02/plan.json",
+      "bytes": 916,
+      "sha256": "394ca4352c93d41411523fe4c6f118f1d1d6e63f77205a9933150af411934998",
+      "git_blob": "88feaa837b46529bcad5fe1e6491794099120221",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/formal-geometric-target61-batch-02/report.json",
+      "bytes": 2355,
+      "sha256": "a448d64e518a1749f8f275818100deef7dd771795f67a95dc0481652fdf70050",
+      "git_blob": "8aba807d10726c9e8482d6e607e40d43a513d8ba",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/formal-geometric-target61-batch-02/state.json",
+      "bytes": 1967,
+      "sha256": "08b3b76d1d33308588336730486e63a3fe434b5dcd80786c0ef8e8025412bf84",
+      "git_blob": "e03251677c44d030f94d6d162e7d8477b648bba8",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/formal-geometric-target61-batch-02/tasks/formal-geometric-target61-02/execution-context.json",
+      "bytes": 611,
+      "sha256": "a564c48d351fe9d71e08f1d8cca6fa2a7823426cede792125a5023bf3a203841",
+      "git_blob": "a5acf83982f9899e29c51289960fed2b11a4f48c",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/formal-geometric-target61-batch-02/tasks/formal-geometric-target61-02/process.json",
+      "bytes": 88,
+      "sha256": "4390e6cc5b9ba6a871958ef440bdd00d9683438234e683f2ef6eeaa423263559",
+      "git_blob": "adbe3afa6b9c3141795980168fbf3294e0a6a265",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/formal-geometric-target61-batch-02/tasks/formal-geometric-target61-02/result.json",
+      "bytes": 1050,
+      "sha256": "fb53ad85d3e8f08d1eab6d5d9472c43c02365bd0a964ec0367535beb3030fdad",
+      "git_blob": "84b0dcbce23069640b956d17e7241d1ad88ec3e5",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/formal-geometric-target61-batch-02/tasks/formal-geometric-target61-02/task.json",
+      "bytes": 447,
+      "sha256": "8d33f6d87fd54fe1265e7c1282663ee41d8691727124eae296cb8b45bd15f50d",
+      "git_blob": "d76abc54ab7e62c47e6d79e61924eb34bd80a596",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/formal-geometric-target61-batch-02/tasks/formal-geometric-target61-02/worker.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "matches": true
+    },
+    {
+      "path": "research/consistent-lra/runs/harness/formal-geometric-target61-batch-02/tasks/formal-geometric-target61-02/worker.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "matches": true
+    }
+  ],
+  "mismatches": 0,
+  "collection_note": "Initial git-show preceded completion of yielded fetch and returned missing-object; after fetch completed every actual byte/hash matched; no workload rerun or artifact repair"
+}
