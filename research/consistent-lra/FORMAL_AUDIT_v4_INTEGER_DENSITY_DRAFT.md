@@ -96,7 +96,8 @@ superlinear-in-`L` recourse.
 For each `k`, only finitely many distinct prefix and consecutive-row matrices
 occur in the insertion-only base stream.  Intersect the two cutoff-gap
 neighborhoods above with open neighborhoods preserving the positive nonzero
-singular values of every relevant full-row-rank prefix/consecutive block within
+singular values of every relevant full-rank prefix/consecutive block (in the
+appropriate rectangular sense) within
 constant factors of their base values.  The reviewed real family has polynomial
 consecutive-block condition number; the sufficiently close rational pair
 therefore retains a polynomial bound up to constant factors.  Common scaling
@@ -118,3 +119,10 @@ approximation and bounded-integer-magnitude obligations and is not implicated.
   family and retain the explicit lack of a bound on `q_k`, `M_k` or bit length.
 - Do **not** use this to claim failure of Theorem 1.3: that result has an explicit integer-magnitude parameter and separate approximation/proof obligations. Algorithm 4 and the insertion-only approximate results remain outside this argument.
 - This existence proof does not make the enormous example executable on the 8 GiB host and is not a benchmark or CPU result.
+
+## Independent status
+
+Accepted on correction re-review at immutable candidate commit
+`e6ca030dae13084a116659a78d8f1e680e862b95`.  The wording clarification above
+does not change the reviewed argument: for the full augmented block,
+`sigma_min([B;v]) >= sigma_min(B)` supplies the required control.

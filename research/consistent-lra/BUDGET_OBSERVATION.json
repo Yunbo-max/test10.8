@@ -65,6 +65,7 @@
   "verified_scientific_failures_by_direction": {},
   "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run.",
   "formal_review_assignments_completed": false,
-  "pending_formal_review": "integer-density-extension-correction-re-review",
+  "pending_formal_review": null,
+  "completed_formal_review": "integer-density-extension-correction-re-review:accepted",
   "pending_source_review": "sampling-source-qualification-independent-review"
 }
