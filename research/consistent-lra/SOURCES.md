@@ -82,3 +82,7 @@ plugin c23/research-autopilot and same-package modules; historical vendor/rsi
 at 1de12dfed5b84957b29ac5b3a2f04904bf3742bc remains pinned for prior receipts
 and unchanged runtime/checker execution. No shared skill or runtime upgrade
 is authorized. Reuse background task 6ac82bb085c081919fa92002384b073b and branch scope; no second writer.
+
+## Window02 targeted constructive-integer priority audit
+
+Assignment114 atfa18157ed860dd351f705b31cd80d934785c63c0 found earlier finite residue/Cauchy formulas in Hentschel–Ullmo–Baranger2005 (cond-mat/0503330v1, §II B eq15–18). Root separately opened arXiv/PDF and verified those sections. Other targeted primary trace/physics/bit-complexity reads and all16queries are retained in INTEGER_PRIORITY_TARGETED_AUDIT_WINDOW02.md. The reader authored v7; no independent novelty adjudication or complete collision snapshot is supplied. Exact conditioned integer family priority remains inconclusive; full search response captures not durable. No new scientific experiment or paper pass.

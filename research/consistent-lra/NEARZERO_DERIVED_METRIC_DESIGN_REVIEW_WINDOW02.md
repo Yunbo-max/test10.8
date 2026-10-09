@@ -42,3 +42,15 @@ Root made one contract correction preserving the original source and rejection.
 Independent rereview assignment118 is pending. No process/plan/reservation
 admission follows either review. Native matrix fallback, final summary reducer
 and native evaluator authority remain separate unqualified dependencies.
+
+## Actual assignment118 rereview
+
+Commit f4b9d1fc40163ba53f9cfc02c55f8a0681419c59, SHA256
+a44a8775a915c9d8ab06a61c2e4888c81af1c18aa2bf50fd134316cf1b7f4928,
+Git blob c85f9b63a8a553d0eb2afc75d52c25ff7e2215cd. Verdict NEEDS_CORRECTION:
+all prior findings closed, but actual add_slice line149 calls
+max(ratio,stat["maximum_defined_ratio"]). Closed namespace omitted max; validation
+would reject unchanged source or fail at the second defined ratio. Bind explicit
+max for that authenticated call, keep empty default builtins and reject others.
+Root retains second source-contract correction; final actual reviewer120 pending.
+No source imports/execution/plan admission; scientific blocks unchanged.

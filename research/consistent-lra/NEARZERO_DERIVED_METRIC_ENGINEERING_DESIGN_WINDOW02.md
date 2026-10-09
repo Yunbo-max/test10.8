@@ -7,7 +7,9 @@ Status: corrected proposed software-contract design, generated_unexecuted. Initi
 independent review of commit236674928aa94d21d482d06833964180fa0f1b20
 required binary64 threshold-operation boundaries, explicit authenticated N/global
 bindings and native scalar field mapping. Preserve that source and verdict.
-Correction author assignment117; independent rereview assignment118. No
+First correction author assignment117; independent rereview assignment118
+found the remaining exact builtin max binding. Second correction author119;
+final independent rereview120. No
 software source, executable plan, reservation or execution is admitted here.
 
 ## Consequential question and boundary
@@ -96,13 +98,15 @@ Separately, AST-extract literal DESCRIPTIVE_FIELDS and the pure functions
 new_slice/add_slice. Their allowed operations must be exhaustively checked:
 local/dictionary/list arithmetic, append, declared field iteration and int;
 no file access, numerical library, arbitrary attribute/call or project import.
-The only free bindings are DESCRIPTIVE_FIELDS, N and int. Authenticate N=5000
+The only free bindings are DESCRIPTIVE_FIELDS, N, int and max. Authenticate N=5000
 by selecting the unique literal assignment in unchanged landmark_stage_a_v2.py,
 SHA256 aba46507a5b60f4b39d237418b79566ed9b8dd6aee9d65586e8ac7d3031bd16a,
 without importing it; also authenticate Stage B's original N import binding.
 DESCRIPTIVE_FIELDS is the unique literal tuple from the pinned Stage-B source.
-Use an explicit namespace with __builtins__={} and int only as the named
-capability; no automatic Python builtins. Attribute calls are allowed only for
+Use an explicit namespace with __builtins__={}, int for the exact violation
+count conversion, and max for the exact max(ratio,stat["maximum_defined_ratio"])
+call in unchanged add_slice. No automatic Python builtins or other max call is
+permitted. Attribute calls are allowed only for
 append on stat["_metric_values"][field] in the authenticated original function.
 Reject every other free name/attribute/call. Source qualification must define the
 exact node/call whitelist before compiling these functions. Retain the original
