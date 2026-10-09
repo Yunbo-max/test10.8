@@ -11,9 +11,21 @@ restriction for right-space residuals, not a rank claim.
 
 The frozen prefixes are 25, 50, 100, 150, 250, 500, 1000, 2000, 3000, 4000
 and 5000. At each, the script performs three top-25 symmetric-Gram eigenvalue
-references. Prefixes 150, 1000 and 5000 also receive an independent direct-SVD
-tail-energy check. The output records every timing, reference value, agreement
-tolerance, source identity, active-column map, CPU time and RSS.
+references. Every reference time includes the Gram copy and records copy and
+solver time separately. The raw Gram residual, top-25 eigenvalue sum and frozen
+`1e-10 * max(1, energy)` cancellation tolerance are retained; a residual below
+the negative tolerance fails, and only an in-tolerance negative value is clipped
+to zero for reporting. Prefixes 150, 1000 and 5000 also receive an independent
+direct-SVD tail-energy check against both raw and reported Gram residuals. Its
+`1e-9 * max(1, energy)` agreement tolerance is engineering-only and does not
+qualify a near-zero optimum as a future ratio denominator.
+
+Internal wall and CPU timing begins after NumPy/SciPy import and ends before JSON
+serialization/write. `ru_maxrss` is process high-water RSS, not incremental
+allocation; the future harness receipt remains authoritative for workload and
+pipeline cost. The script does not enforce or observe a thread count. A reviewed
+harness must set OpenBLAS, OMP, MKL, NumExpr and platform-BLAS thread variables to
+one before process start/import and retain those settings and the CPU guard.
 
 This is engineering calibration only. It does not run Algorithm 4, FD, fixed,
 periodic or fresh-SVD arms; it does not estimate a baseline win, reproduce

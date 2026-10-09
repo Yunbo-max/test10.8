@@ -31,6 +31,7 @@ EXPECTED = {
 }
 PREFIXES = [25, 50, 100, 150, 250, 500, 1000, 2000, 3000, 4000, 5000]
 SVD_CHECK_PREFIXES = {150, 1000, 5000}
+CANCELLATION_TOLERANCE_SCALE = 1e-10
 
 
 def source_identity(path: Path):
@@ -86,17 +87,33 @@ def load_first_5000(path: Path):
 
 
 def top_k_opt_from_gram(gram, energy, k):
+    copy_start = time.perf_counter()
+    eig_input = gram.copy()
+    copy_seconds = time.perf_counter() - copy_start
     start = time.perf_counter()
     eigenvalues = eigh(
-        gram,
-        subset_by_index=[gram.shape[0] - k, gram.shape[0] - 1],
+        eig_input,
+        subset_by_index=[eig_input.shape[0] - k, eig_input.shape[0] - 1],
         eigvals_only=True,
         driver="evr",
         check_finite=False,
     )
-    elapsed = time.perf_counter() - start
-    optimal = max(0.0, float(energy - np.sum(eigenvalues)))
-    return optimal, elapsed
+    solver_seconds = time.perf_counter() - start
+    top_k_eigenvalue_sum = float(np.sum(eigenvalues))
+    raw_residual = float(energy - top_k_eigenvalue_sum)
+    cancellation_tolerance = CANCELLATION_TOLERANCE_SCALE * max(1.0, energy)
+    if raw_residual < -cancellation_tolerance:
+        raise ValueError("materially negative Gram residual")
+    reported_residual = max(0.0, raw_residual)
+    return {
+        "reported_residual": reported_residual,
+        "raw_residual": raw_residual,
+        "top_k_eigenvalue_sum": top_k_eigenvalue_sum,
+        "cancellation_tolerance": cancellation_tolerance,
+        "copy_seconds": copy_seconds,
+        "solver_seconds": solver_seconds,
+        "reference_seconds": copy_seconds + solver_seconds,
+    }
 
 
 def main():
@@ -133,13 +150,12 @@ def main():
         gram_update_seconds += time.perf_counter() - update_start
         if prefix not in prefix_set:
             continue
-        timings = []
-        opts = []
+        references = []
         for _ in range(args.repeats):
-            optimal, elapsed = top_k_opt_from_gram(gram.copy(), energy, args.k)
-            timings.append(elapsed)
-            opts.append(optimal)
-        if max(opts) - min(opts) > 1e-8 * max(1.0, energy):
+            references.append(top_k_opt_from_gram(gram, energy, args.k))
+        reported_opts = [item["reported_residual"] for item in references]
+        raw_opts = [item["raw_residual"] for item in references]
+        if max(raw_opts) - min(raw_opts) > 1e-8 * max(1.0, energy):
             raise ValueError("repeated eigen references disagree")
         svd = None
         if prefix in SVD_CHECK_PREFIXES:
@@ -147,22 +163,30 @@ def main():
             singular = np.linalg.svd(matrix[:prefix], full_matrices=False, compute_uv=False)
             svd_seconds = time.perf_counter() - svd_start
             svd_opt = float(np.sum(singular[args.k:] ** 2))
-            absolute = abs(svd_opt - opts[0])
+            raw_absolute = abs(svd_opt - raw_opts[0])
+            reported_absolute = abs(svd_opt - reported_opts[0])
             tolerance = 1e-9 * max(1.0, energy)
-            if absolute > tolerance:
+            if raw_absolute > tolerance or reported_absolute > tolerance:
                 raise ValueError("Gram eigenvalue and direct SVD references disagree")
             svd = {
                 "optimal": svd_opt,
                 "seconds": svd_seconds,
-                "absolute_difference": absolute,
+                "raw_gram_absolute_difference": raw_absolute,
+                "reported_gram_absolute_difference": reported_absolute,
                 "tolerance": tolerance,
+                "near_zero_opt_relative_accuracy_qualified": False,
             }
         observations.append({
             "prefix": prefix,
             "energy": energy,
-            "optimal": opts[0],
-            "eigh_seconds": timings,
-            "eigh_seconds_median": float(np.median(timings)),
+            "optimal": reported_opts[0],
+            "raw_gram_residual": raw_opts[0],
+            "top_k_eigenvalue_sum": references[0]["top_k_eigenvalue_sum"],
+            "cancellation_tolerance": references[0]["cancellation_tolerance"],
+            "reference_seconds": [item["reference_seconds"] for item in references],
+            "reference_seconds_median": float(np.median([item["reference_seconds"] for item in references])),
+            "gram_copy_seconds": [item["copy_seconds"] for item in references],
+            "eigh_solver_seconds": [item["solver_seconds"] for item in references],
             "direct_svd_check": svd,
         })
     usage_end = resource.getrusage(resource.RUSAGE_SELF)
@@ -184,9 +208,12 @@ def main():
             "k": args.k,
             "prefixes": PREFIXES,
             "repeats": args.repeats,
-            "threads_required": 1,
+            "threads_required_by_harness_before_process_start": 1,
+            "thread_count_observed_by_script": None,
             "reference": "scipy.linalg.eigh symmetric Gram top-k eigenvalues",
             "direct_svd_checks": sorted(SVD_CHECK_PREFIXES),
+            "cancellation_tolerance_scale": CANCELLATION_TOLERANCE_SCALE,
+            "near_zero_opt_ratio_denominator_qualified": False,
         },
         "observations": observations,
         "usage": {
@@ -198,6 +225,8 @@ def main():
                 - usage_start.ru_utime - usage_start.ru_stime
             ),
             "max_rss_kib": usage_end.ru_maxrss,
+            "timing_scope": "after imports and before JSON serialization/write",
+            "max_rss_scope": "process high-water RSS, not incremental allocation",
         },
         "full_5000_prefix_queue_admitted": False,
         "baseline_comparison_performed": False,
