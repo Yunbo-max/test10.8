@@ -2,7 +2,7 @@
   "format": "scoped-independent-execution-evidence-review-assignment-v1",
   "task_id": "landmark-integrity-execution-evidence-review",
   "registered_order": 17,
-  "candidate_commit": null,
+  "candidate_commit": "3314a7e86b2f1b0fa1461ea1d1475d184d618709",
   "review_paths": [
     "research/consistent-lra/LANDMARK_INTEGRITY_EXECUTION_20261009.md",
     "research/consistent-lra/evidence/landmark-source-integrity.json",
