@@ -1,0 +1,31 @@
+{
+  "restored_commit": "7d75f63e21cec0a6e29fddd76121f2518246e732",
+  "observed_at": "2026-10-09T11:32:10.313366+00:00",
+  "remaining_wall_seconds": 20612.686634,
+  "round": 2,
+  "same_goal": true,
+  "single_writer": "/root",
+  "new_assignments": [
+    {
+      "id": 114,
+      "name": "window02-integer-constructive-priority-targeted-primary-audit",
+      "scope": "bounded primary retrieval and semantic comparison only; not independent adjudication of its authored v7 card"
+    },
+    {
+      "id": 115,
+      "name": "window02-nearzero-derived-metric-engineering-design-generation",
+      "scope": "pure-derived scalar classification/denominator design; no matrix/scorer/benchmark execution"
+    },
+    {
+      "id": 116,
+      "name": "window02-nearzero-derived-metric-engineering-scope-design-review",
+      "scope": "independent pre-source design/scope review; no source imports or execution"
+    }
+  ],
+  "executable_attempts_before_and_after": 20,
+  "discovery_rounds_before_and_after": 0,
+  "scientific_experiments_before_and_after": 0,
+  "unreleased_execution_reservations": [],
+  "must_not_execute_stage_b": true,
+  "must_not_restart_or_duplicate_writer": true
+}
