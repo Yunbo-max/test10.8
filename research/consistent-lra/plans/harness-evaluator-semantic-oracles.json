@@ -1,0 +1,38 @@
+{
+  "schema_id": "harness-plan",
+  "schema_version": "1.0.0",
+  "batch_id": "evaluator-semantic-mechanical-01",
+  "tasks": [
+    {
+      "task_id": "evaluator-semantic-oracles-01",
+      "idea_id": "existing-evaluator-semantic-oracles",
+      "plan_ref": {
+        "path": "plans/native-evaluator-semantic-oracles.json",
+        "sha256": "5151f051c5fc4071e51bc8f7d7119e02dfc78762f9cdbc506ab632625e8d6af9"
+      },
+      "depends_on": [],
+      "priority": 1,
+      "resources": {
+        "cpu_cores": 1,
+        "ram_mib": 256,
+        "gpu_count": 0,
+        "gpu_peak_mib": null,
+        "allow_gpu_share": false,
+        "memory_profile_ref": null,
+        "exclusive_keys": ["consistent-lra-evaluator-semantic-oracles"]
+      }
+    }
+  ],
+  "limits": {
+    "window_seconds": 30,
+    "total_wall_seconds": 45,
+    "max_parallel_tasks": 1,
+    "cpu_cores": 1,
+    "ram_mib": 256,
+    "max_gpu_task_seconds": 0
+  },
+  "pool_dir": "/workspace/scratch/bb9f262965cf/ce49-work/research/consistent-lra/runs/pool",
+  "output_root": "runs/harness",
+  "gpus": {"uuids": [], "safety_margin_mib": 256, "max_tasks_per_gpu": 1},
+  "plan_digest": "b40ed798d7872b63f51d941246f5ff935ab85f94dea4d859f8f1428dcc825d87"
+}
