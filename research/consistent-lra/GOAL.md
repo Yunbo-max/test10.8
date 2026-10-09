@@ -4,7 +4,15 @@
 
 The owner removed the wall deadline and eight-hour total wall cap; historical deadline sections below are superseded, not renewed. Preserve cumulative limits, all receipts, usage and failures. Current target is main, restricted to research/consistent-lra/. See [current authority](AUTHORIZATION_CONTINUATION_20261009.md), [design-only experiment correction](EXPERIMENT_READINESS_CORRECTION_20261009.md) and [exact pending contract decision](EVALUATION_CONTRACT_DECISION_PENDING_20261009.md). No independent-paper-math exception, shared-skill/vendor mutation or scientific admission is granted by these records.
 
-The current mathematical route now also contains an independently accepted
+The [method Parent Problem](METHOD_PARENT_PROBLEM_20261009.md) is now frozen
+after a preserved correction review and exact-byte rereview.  Its Natural Gate
+0 remains pending because the official scorer is absent and the proposed
+project-local paper-math evaluator has not been authorized or implemented.
+Consequently the prioritized optimization track is parked at the value gate:
+no additional candidate-pool expansion, code, or scientific execution is legal
+under the current contract.
+
+The current mathematical route also contains an independently accepted
 **candidate-pool** mechanism, the [minimum-recourse feasible
 refresh](MINIMUM_RECOURSE_FEASIBLE_REFRESH_CANDIDATE.md).  It chooses the
 closest accuracy-feasible projector instead of forcing an exact-SVD jump.  Its
@@ -13,8 +21,9 @@ complex scalarization, real cutoff recovery and continuous near-tie law passed
 originality, whole-pool selection, implementation and numerical qualification
 remain pending.  The earlier [gap-weighted multi-refresh
 potential](HEAVY_MULTI_REFRESH_POTENTIAL_CANDIDATE.md) still does not imply an
-unweighted trajectory bound.  Stage B remains parked pending the explicit
-evaluation-contract decision; neither route is a completed research cycle.
+unweighted trajectory bound.  Stage B and Gate 0 both remain parked pending the
+same explicit evaluation-contract decision; neither route is a completed
+research cycle.
 
 ## Current delivery authorization — 2026-10-09 12:29 Europe/London
 

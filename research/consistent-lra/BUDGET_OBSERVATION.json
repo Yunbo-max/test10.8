@@ -876,7 +876,7 @@
   "main_only_tasks_no_measured_CPU": "Eight main-only assignments consume same wall budget; no numeric job was launched there and no attributable CPU measurement was supplied; lower bound is not a full compute total.",
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T18:33:20.893125819+00:00",
+  "observed_at": "2026-10-09T19:24:20.722986681+00:00",
   "observed_process_cpu_seconds": 319.730499767,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -1040,7 +1040,7 @@
       "wall_seconds": 11.894702007
     }
   ],
-  "registered_task_assignments": 188,
+  "registered_task_assignments": 191,
   "remaining_wall_seconds_at_observation": 6265,
   "reservation": {
     "actual_max_rss_kib": 99788,
@@ -1835,5 +1835,26 @@
     "measured_process_cpu_seconds_added": 0,
     "cpu_semantics": "mathematical authoring and model review only; no native numeric process launched; model reasoning CPU is not experiment-host measurement",
     "admission_scope": "candidate_pool_only_not_originality_selection_code_or_experiment"
+  },
+  "method_parent_problem_20261009": {
+    "assignments": [189, 190, 191],
+    "evidence_commit": "e2f1e12bbb22e551aa650e965fd3312ed6dc88a1",
+    "parent": "METHOD_PARENT_PROBLEM_20261009.md",
+    "parent_sha256": "d0ebf676d05e1e36b6d17f1d39b8450d42252a3c10cbaa85fe7a8c08ee3580bf",
+    "initial_review": "METHOD_PARENT_PROBLEM_INDEPENDENT_REVIEW_20261009.md",
+    "initial_verdict": "CORRECT_AND_REREVIEW",
+    "rereview": "METHOD_PARENT_PROBLEM_REREVIEW_20261009.md",
+    "rereview_sha256": "f55e43a32648fc89f1a827bb782557918229b69d6cddfdbfc5ec021b92b2027c",
+    "rereview_verdict": "ACCEPT_PARENT_FREEZE_GATE0_PENDING",
+    "registered_tasks_after": 191,
+    "executable_attempts_after": 26,
+    "controller_rounds_after": 2,
+    "discovery_rounds_after": 0,
+    "formal_scientific_experiments_after": 0,
+    "completed_scientific_cycles_after": 0,
+    "observed_process_cpu_seconds_lower_bound_after": 319.730499767,
+    "measured_process_cpu_seconds_added": 0,
+    "cpu_semantics": "source-bound parent authoring and independent review only; model reasoning CPU is not experiment-host measurement",
+    "blocker": "Natural Gate0 cannot run without genuine corrected upstream scorer or explicit authority and qualification for project-local paper-math evaluator"
   }
 }

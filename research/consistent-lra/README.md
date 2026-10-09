@@ -1,5 +1,25 @@
 # Consistent LRA: bounded CPU research
 
+## Parent Problem frozen; Gate 0 externally blocked — assignments 189--191
+
+The [corrected Parent Problem](METHOD_PARENT_PROBLEM_20261009.md), preserved
+[initial review](METHOD_PARENT_PROBLEM_INDEPENDENT_REVIEW_20261009.md), and
+[exact-byte rereview](METHOD_PARENT_PROBLEM_REREVIEW_20261009.md) freeze the
+native Landmark failure question and return
+`ACCEPT_PARENT_FREEZE_GATE0_PENDING`.  The census now has a candidate-independent
+event envelope `OPT_t + 0.01 E_t`, an exact pre-refresh movement anchor, a frozen
+strong-simple-control oracle, reproducible energy-trigger event IDs, and separate
+`INCONCLUSIVE` versus `KILL` rules.
+
+This closes the missing Parent definition only.  The official scorer is absent,
+and the project-local paper-math evaluator is still design-only and unauthorized,
+so Natural Gate 0 cannot be executed.  The reviewed minimum-recourse card remains
+pre-Gate evidence; expanding a nominal 20-card pool or generating code would
+violate the installed workflow.  Current ledger: **191 registered assignments /
+26 executable attempts / 2 controller rounds / 0 discovery rounds /
+319.730499767 measured process CPU seconds lower bound / 0 formal experiments /
+0 completed scientific cycles**.  This batch added no native process CPU.
+
 ## Latest mathematical method candidate — assignments 186--188
 
 The [minimum-recourse feasible refresh candidate](MINIMUM_RECOURSE_FEASIBLE_REFRESH_CANDIDATE.md)
