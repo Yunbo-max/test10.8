@@ -109,7 +109,7 @@ integer_density_extension_draft: FORMAL_AUDIT_v4_INTEGER_DENSITY_DRAFT.md
 integer_density_initial_review_record: FORMAL_AUDIT_v4_REVIEW.md
 sampling_source_qualification_draft: SAMPLING_SOURCE_QUALIFICATION_20261009.md
 sampling_source_initial_review_record: SAMPLING_SOURCE_QUALIFICATION_REVIEW.md
-latest_resource_observation_utc: '2026-10-09T06:21:15+00:00'
+latest_resource_observation_utc: '2026-10-09T06:22:13+00:00'
 latest_cpu_max: '800000 100000'
 latest_visible_processors: 9
 latest_memory_max_bytes: 8589934592

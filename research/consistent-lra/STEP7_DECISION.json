@@ -1,6 +1,6 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T06:06:15+00:00",
+  "observed_at": "2026-10-09T06:22:13+00:00",
   "rsi_source_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "canonical_controller_run": false,
   "decision": 2,
@@ -83,6 +83,13 @@
       "archive_blob": "8f0595f7fa9a85b0eb6fb7616d404bfb1409fe6d",
       "archive_sha256": "af9b40bfb131570d1d5868006d0f4193550ba087f6679bb250a65554bab1bb8e",
       "verdict": "accepted_developmental_prospective_family_evidence"
+    },
+    {
+      "path": "NATIVE_PROTOCOL_DRAFT.md",
+      "sha256": "dc19834b84e118c5a80ba0cd2f89ee2eb28526a595621cf6d0b920959265631d",
+      "review": "NATIVE_PROTOCOL_v2_REVIEW.md",
+      "review_sha256": "64cb7d38d45370be31bd7ab1c883515f297baea15dd6afef677947e9c05f88c7",
+      "verdict": "accepted_documentation_design_only_after_recorded_correction"
     }
   ],
   "closed_or_narrowed": {
@@ -95,7 +102,8 @@
     "rice_alg4_cost_coverage": "all 3000 prefixes retained and independently verified; 0.502147s pipeline, 0.498551s CPU and 120220KiB RSS for one repaired-scorer arm only",
     "author_fd_source_semantics": "58 checks accepted after preserving one data-revision-label correction; frozen ell+1 update semantics qualified, native performance and published recourse parity not qualified",
     "rice_skin_developmental_matrix": "39 arms and 117000 per-prefix rows accepted after E04 recomputation under the repaired local projector scorer; defined-ratio denominators and warmup-versus-steady recourse remain explicit",
-    "prospective_random_developmental_matrix": "13 arms and 39000 per-prefix rows accepted after fresh durable-blob verification and E04 recomputation for one frozen seeded unscaled generator-family member; not Figure 3 replication or confirmation"
+    "prospective_random_developmental_matrix": "13 arms and 39000 per-prefix rows accepted after fresh durable-blob verification and E04 recomputation for one frozen seeded unscaled generator-family member; not Figure 3 replication or confirmation",
+    "four_family_G01_design": "commands, plan identities, denominators, controls and development/confirmation boundaries independently accepted as documentation after one correction; Landmark numerical execution and all scientific gates remain pending"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",

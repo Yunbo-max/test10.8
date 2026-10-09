@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T06:21:15+00:00",
+  "observed_at": "2026-10-09T06:22:13+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 61,
   "executable_attempts_dispatched": 13,
@@ -141,7 +141,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 5190,
+  "remaining_wall_seconds_at_observation": 5132,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -643,7 +643,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T06:21:15+00:00",
+    "observed_at": "2026-10-09T06:22:13+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
