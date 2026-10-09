@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "vendor/rsi/scripts/run_harness.py",
+    "plans/harness-integer-witness-02.json",
+    "--root",
+    "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+    "--execute",
+    "--approved-plan-digest",
+    "aca5500a34085d81ccecddea8c740e8a982be3c429681bc401197af06a8baf97"
+  ],
+  "cwd": "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+  "started_at": "2026-10-09T12:23:37.069887+00:00",
+  "completed_at": "2026-10-09T12:23:38.154019+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1.084131615003571,
+  "waited_process_tree_cpu_seconds": 0.420406,
+  "maximum_child_rss_kib": 30948,
+  "cpu_semantics": "RUSAGE_CHILDREN delta for waited harness and reaped descendants; failed/unreaped processes could undercount",
+  "scientific_gate_advanced": false
+}

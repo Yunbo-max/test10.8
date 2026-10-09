@@ -14,7 +14,7 @@
     "window_seconds": 90
   },
   "output_root": "runs/harness",
-  "plan_digest": "dfe021e08f7687965dfbe6b419266ca04fc1ce0c5d76c8cc957eb5406ee0d095",
+  "plan_digest": "aca5500a34085d81ccecddea8c740e8a982be3c429681bc401197af06a8baf97",
   "pool_dir": "/tmp/consistent-lra-window02-pool",
   "schema_id": "harness-plan",
   "schema_version": "1.0.0",
@@ -24,7 +24,7 @@
       "idea_id": "existing_paper_integer_lemma_witness_audit",
       "plan_ref": {
         "path": "plans/native-integer-witness-02.json",
-        "sha256": "dfbceaa0778d0458e93fc28dcbf9d05be4101f7fc20c7c084fb469268a92c249"
+        "sha256": "3ace9ec60a5843d6203570212aaa6e2f7b50fd808a18d4bc3305211d0c5ad182"
       },
       "priority": 1,
       "resources": {

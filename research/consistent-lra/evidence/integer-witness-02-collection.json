@@ -1,0 +1,171 @@
+{
+  "format": "exact-integer-witness-collection-v1",
+  "attempt_id": "exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e",
+  "status": "completed",
+  "ranks": [
+    1,
+    2,
+    61
+  ],
+  "rank_records": 3,
+  "integer_entries": 256,
+  "observed_max_bits_at61": 258,
+  "analytic_bit_bound_at61": 259,
+  "output_readback_boundaries": [
+    [
+      {
+        "path": "runs/attempts/exact-integer-witness-02/exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e/workspace/evidence/integer-witness-02/integer-witnesses.jsonl",
+        "bytes": 2722650,
+        "sha256": "323acf9c07264a3168339270e784f4ac302a47aaa0e8da17d224ce96c5c40c2f"
+      },
+      {
+        "path": "runs/attempts/exact-integer-witness-02/exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e/workspace/evidence/integer-witness-02/integer-witnesses-summary.json",
+        "bytes": 1713,
+        "sha256": "b964f63e5b4114384cfcf5f2efa5f7e4113f111ae703d1f6f0ae4b059c0d93ca"
+      }
+    ],
+    [
+      {
+        "path": "runs/attempts/exact-integer-witness-02/exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e/workspace/evidence/integer-witness-02/integer-witnesses.jsonl",
+        "bytes": 2722650,
+        "sha256": "323acf9c07264a3168339270e784f4ac302a47aaa0e8da17d224ce96c5c40c2f"
+      },
+      {
+        "path": "runs/attempts/exact-integer-witness-02/exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e/workspace/evidence/integer-witness-02/integer-witnesses-summary.json",
+        "bytes": 1713,
+        "sha256": "b964f63e5b4114384cfcf5f2efa5f7e4113f111ae703d1f6f0ae4b059c0d93ca"
+      }
+    ]
+  ],
+  "launcher_usage": {
+    "command": [
+      "python3",
+      "vendor/rsi/scripts/run_harness.py",
+      "plans/harness-integer-witness-02.json",
+      "--root",
+      "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+      "--execute",
+      "--approved-plan-digest",
+      "aca5500a34085d81ccecddea8c740e8a982be3c429681bc401197af06a8baf97"
+    ],
+    "cwd": "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra",
+    "started_at": "2026-10-09T12:23:37.069887+00:00",
+    "completed_at": "2026-10-09T12:23:38.154019+00:00",
+    "exit_code": 0,
+    "wall_seconds": 1.084131615003571,
+    "waited_process_tree_cpu_seconds": 0.420406,
+    "maximum_child_rss_kib": 30948,
+    "cpu_semantics": "RUSAGE_CHILDREN delta for waited harness and reaped descendants; failed/unreaped processes could undercount",
+    "scientific_gate_advanced": false
+  },
+  "files": [
+    {
+      "path": "runs/attempts/exact-integer-witness-02/plan.json",
+      "bytes": 3214,
+      "sha256": "130941a2363198734abd3eba0086be9469f94c230b63bed9634fa0e7d292ee33"
+    },
+    {
+      "path": "runs/attempts/exact-integer-witness-02/receipt.json",
+      "bytes": 5174,
+      "sha256": "6fbf6fee631add48d2bfb2015b6d49c55b9541bae06c6c9dd7baf88747a2fca2"
+    },
+    {
+      "path": "runs/attempts/exact-integer-witness-02/exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/attempts/exact-integer-witness-02/exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e/stdout.log",
+      "bytes": 558,
+      "sha256": "9342496a95dd7b9ed3bf7b99b4334bc79af0d4475aea204714ade962485ab14b"
+    },
+    {
+      "path": "runs/attempts/exact-integer-witness-02/exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e/attempt.json",
+      "bytes": 4320,
+      "sha256": "7599417a7ead37ce4ecf967b8875ecdbf853a04ee4f97bdf76df151c2a5b0db4"
+    },
+    {
+      "path": "runs/attempts/exact-integer-witness-02/exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e/process-guard.json",
+      "bytes": 857,
+      "sha256": "ca0fc49dca1adf0fe373adee9da04bde1b562aab705bc408f642f0eb55826aff"
+    },
+    {
+      "path": "runs/attempts/exact-integer-witness-02/exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e/workspace/evidence/integer-witness-02/integer-witnesses.jsonl",
+      "bytes": 2722650,
+      "sha256": "323acf9c07264a3168339270e784f4ac302a47aaa0e8da17d224ce96c5c40c2f"
+    },
+    {
+      "path": "runs/attempts/exact-integer-witness-02/exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e/workspace/evidence/integer-witness-02/integer-witnesses-summary.json",
+      "bytes": 1713,
+      "sha256": "b964f63e5b4114384cfcf5f2efa5f7e4113f111ae703d1f6f0ae4b059c0d93ca"
+    },
+    {
+      "path": "runs/harness/exact-integer-witness-batch-02/plan.json",
+      "bytes": 896,
+      "sha256": "bbec56de07a147f9da3c26e1a7e3f34ffeed6d1c2cf96de3b9a4b3be301d2562"
+    },
+    {
+      "path": "runs/harness/exact-integer-witness-batch-02/report.json",
+      "bytes": 2322,
+      "sha256": "dc984d8c29a26d530cf0a2130d5074705ed3a13fcb8d57e86c08ffb6f7c2e8a2"
+    },
+    {
+      "path": "runs/harness/exact-integer-witness-batch-02/state.json",
+      "bytes": 1935,
+      "sha256": "537a2890d3d9f96b50ddc8450624b52f71f7d2cc8fe179a815358b05d4210b96"
+    },
+    {
+      "path": "runs/harness/exact-integer-witness-batch-02/events.jsonl",
+      "bytes": 503,
+      "sha256": "4d425c7b27b6ef04877666bbaf98eaacac2fcf698428e39c52cb942e131a99d0"
+    },
+    {
+      "path": "runs/harness/exact-integer-witness-batch-02/tasks/exact-integer-witness-02/execution-context.json",
+      "bytes": 601,
+      "sha256": "326f9b00bf5ad92c3fbaf446e35e1f44dd9616d96ae346cf2a3059b73db2fd1d"
+    },
+    {
+      "path": "runs/harness/exact-integer-witness-batch-02/tasks/exact-integer-witness-02/result.json",
+      "bytes": 1030,
+      "sha256": "9f4cf36be7f847079b4448f9549c1d2420ec0eb0ded4c5c51e57ac9945784fd4"
+    },
+    {
+      "path": "runs/harness/exact-integer-witness-batch-02/tasks/exact-integer-witness-02/worker.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/harness/exact-integer-witness-batch-02/tasks/exact-integer-witness-02/worker.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/harness/exact-integer-witness-batch-02/tasks/exact-integer-witness-02/task.json",
+      "bytes": 433,
+      "sha256": "b85c2a97151cbd56ec53b07ce2fb57e0a742436b082571ff499c075fdedf5477"
+    },
+    {
+      "path": "runs/harness/exact-integer-witness-batch-02/tasks/exact-integer-witness-02/process.json",
+      "bytes": 88,
+      "sha256": "9774fe499232b020b0dd8cb7f1706f7749c86a17fe7fe6122600ab6704ef3dd9"
+    },
+    {
+      "path": "evidence/dispatch/integer-witness-02.json",
+      "bytes": 822,
+      "sha256": "83f92d67fd4b3b996139fe23ac6a706347c5413335f029626e0e10cd2aafe248"
+    },
+    {
+      "path": "evidence/dispatch/integer-witness-02.stdout.log",
+      "bytes": 2322,
+      "sha256": "dc984d8c29a26d530cf0a2130d5074705ed3a13fcb8d57e86c08ffb6f7c2e8a2"
+    },
+    {
+      "path": "evidence/dispatch/integer-witness-02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scientific_gate_advanced": false,
+  "projector_recourse_computed": false,
+  "independent_review_pending": true
+}

@@ -244,6 +244,14 @@
     "reviewer": "/root/window02_consecutive_condition_review",
     "verdict": "accepted_existing_v7_witness_source_generation_only"
   },
+  "completed_window02_integer_witness_source_review": {
+    "assignment_number": 136,
+    "commit": "b62528927acd3a8771fb5269fc1fc945b717eed1",
+    "record": "INTEGER_WITNESS_SOURCE_REVIEW_WINDOW02.md",
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "source_sha256": "1e77d985b4b2d1f4ed294dcea7afdce9b2c3c4fae31f81fbea548c6e268e8b8e",
+    "verdict": "accepted_corrected_source_only"
+  },
   "completed_window02_mitigation_source_review": {
     "assignment": "window02-landmark-stage-a-output-mitigation-source-correction-review",
     "commit": "703fea4d28993233fdf38e1a5b8696c2dc551f1d",
@@ -372,7 +380,7 @@
     "task": "evaluator-semantic-oracles-01",
     "wall_seconds_upper_bound": 30
   },
-  "executable_attempts_dispatched": 21,
+  "executable_attempts_dispatched": 22,
   "failure_history": [
     {
       "category": "capability_source_admission_gap",
@@ -654,8 +662,8 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:22:59.462457+00:00",
-  "observed_process_cpu_seconds": 292.775693082,
+  "observed_at": "2026-10-09T12:28:19.030Z",
+  "observed_process_cpu_seconds": 293.196099082,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
   "pending_asset_review": null,
@@ -685,16 +693,8 @@
   "pending_window02_geometric_review": null,
   "pending_window02_integer_priority_audit": null,
   "pending_window02_integer_witness_design_review": null,
-  "pending_window02_integer_witness_plan_review": {
-    "assignment_number": 134,
-    "execution_admitted": false,
-    "reviewer": "/root/window02_consecutive_condition_review"
-  },
-  "pending_window02_integer_witness_source_review": {
-    "assignment_number": 136,
-    "reviewer": "/root/window02_consecutive_condition_review",
-    "execution_admitted": false
-  },
+  "pending_window02_integer_witness_plan_review": null,
+  "pending_window02_integer_witness_source_review": null,
   "pending_window02_mitigation_source_review": null,
   "pending_window02_nearzero_design": null,
   "pending_window02_nearzero_source": null,
@@ -782,8 +782,8 @@
       "scope": "independent recordedscalar recomputation; no sourceimport/qualifierrerun"
     }
   ],
-  "registered_task_assignments": 139,
-  "remaining_wall_seconds_at_observation": 17563.535258,
+  "registered_task_assignments": 144,
+  "remaining_wall_seconds_at_observation": 18801.791587,
   "reservation": {
     "actual_max_rss_kib": 99788,
     "actual_workload_wall_seconds": 0.16511069000262069,
@@ -1071,9 +1071,14 @@
     "window02-integer-witness-plan-independent-review",
     "window02-integer-witness-source-publication-correction",
     "window02-integer-witness-source-publication-rereview",
+    "window02-integer-witness-execution",
+    "window02-integer-witness-evidence-independent-review",
+    "window02-integer-correction-independent-primary-collision-and-scope-review",
     "main-subtree-exact-migration-and-control-reconciliation",
     "main-integer-witness-corrected-source-independent-rereview",
-    "main-scorer-admission-source-capability-independent-audit"
+    "main-scorer-admission-source-capability-independent-audit",
+    "main-exact-vs-approximate-quantitative-bound-derivation",
+    "main-exact-vs-approximate-bound-independent-review"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1148,20 +1153,53 @@
     "waited_process_tree_cpu_seconds": 31.346880999999996,
     "wall_seconds_upper_bound": 360
   },
+  "window02_integer_witness_plan_history": [
+    {
+      "commit": "d1415ea514c3f1e884628c28604b9a323faac8be",
+      "harness_digest": "dfe021e08f7687965dfbe6b419266ca04fc1ce0c5d76c8cc957eb5406ee0d095",
+      "native_digest": "a0d30b85f2168c7dc4bb91a2b7c8ddcc48b9b358980d524d3b382a8feabb93d1",
+      "status": "unexecuted draft invalidated by source rejection; originalimmutable retained"
+    }
+  ],
   "window02_integer_witness_reservation": {
-    "attempts_launched": 0,
+    "attempts_launched": 1,
     "attempts_reserved": 1,
     "cpu_cores": 1,
-    "execution_admitted": false,
-    "harness_plan_digest": "dfe021e08f7687965dfbe6b419266ca04fc1ce0c5d76c8cc957eb5406ee0d095",
-    "native_plan_digest": "a0d30b85f2168c7dc4bb91a2b7c8ddcc48b9b358980d524d3b382a8feabb93d1",
+    "execution_admitted": true,
+    "execution_status": "completed_existing_exact_integer_witness_pending_independent_review",
+    "harness_plan_digest": "aca5500a34085d81ccecddea8c740e8a982be3c429681bc401197af06a8baf97",
+    "native_plan_digest": "3db894cffd06776ec58513867dc17559c6d9cf53be4b3d35df62f8feb0382905",
     "ram_mib_reserved_not_enforced": 256,
-    "released": false,
+    "released": true,
     "scope": "existing_lemma_exact_integer_construction_no_matrix_evaluation",
     "task": "exact-integer-witness-02",
     "wall_seconds_upper_bound": 90,
-    "execution_status": "unlaunched source132rejection; futureplanrebind required"
+    "attempts_charged": 1,
+    "prelaunch_observation": {
+      "observed_at": "2026-10-09T12:23:31.715603+00:00",
+      "cpu_max": "800000 100000",
+      "memory_max_bytes": 8589934592,
+      "active_matching_processes": [],
+      "remaining_wall_seconds": 17531.284397,
+      "process_inventory_method": "proc exactargvbasename"
+    },
+    "attempt_id": "exact-integer-witness-a1-306b77d1c3fa4a57ad9f3317ce57ca0e",
+    "attempts_completed": 1,
+    "release_basis": "terminalcompletednestedreceipt and twoalltwo postexit outputhashchecks",
+    "waited_process_tree_cpu_seconds": 0.420406,
+    "actual_harness_wall_seconds": 1.084131615003571,
+    "maximum_child_rss_kib": 30948
   },
+  "window02_integer_witness_source_corrections": [
+    {
+      "assignment_number": 132,
+      "commit": "e090716f8febd36360821100d39330b9ab02f45f",
+      "failure_signature": "missing intended output identity and no-success-summary failure isolation",
+      "qualification_executed": false,
+      "scientific_failure": false,
+      "source_repair_count": 1
+    }
+  ],
   "window02_mitigation_source_corrections": [
     {
       "commit": "d38f1946e594bd7549064f00d118bb93d160e76c",
@@ -1348,16 +1386,32 @@
     "source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
     "version": "0.2.0-autonomous.2"
   },
-  "window02_integer_witness_source_corrections": [
-    {
-      "assignment_number": 132,
-      "commit": "e090716f8febd36360821100d39330b9ab02f45f",
-      "failure_signature": "missing intended output identity and no-success-summary failure isolation",
-      "source_repair_count": 1,
-      "qualification_executed": false,
-      "scientific_failure": false
-    }
-  ],
+  "completed_window02_integer_witness_plan_review": {
+    "assignment_number": 134,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "commit": "80a22e3b58c9369bce3cc0a6faf2be52543cb254",
+    "verdict": "accepted_one_exact_integer_witness_attempt",
+    "record": "INTEGER_WITNESS_PLAN_REVIEW_WINDOW02.md"
+  },
+  "pending_window02_integer_witness_evidence_review": {
+    "assignment_number": 138,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "status": "await_actual_execution"
+  },
+  "pending_window02_integer_collision_review": {
+    "assignment_number": 139,
+    "reviewer": "/root/integer_density_review",
+    "scope": "independent priorart and correction scope audit existingv7; no newdiscovery or papereligibility",
+    "maximum_new_queries": 8,
+    "maximum_new_primary_fulltexts": 3
+  },
   "delivery_branch": "main",
-  "delivery_authorization_record": "MAIN_DELIVERY_AUTHORIZATION_20261009.md"
+  "delivery_authorization_record": "MAIN_DELIVERY_AUTHORIZATION_20261009.md",
+  "legacy_writer_reconciliation": {
+    "source_commit": "79a74855295674e7a0055f34127774b89e93062a",
+    "main_migration_commit": "2584996b627adb9a2096acc86d5ccee0f5d08f5b",
+    "duplicate_launch": false,
+    "legacy_worker_still_advancing": true,
+    "task_ordinal_note": "main-local review138/scorer139 were provisional identifiers; retained true task paths appended after legacy names, no original assignment removed"
+  }
 }

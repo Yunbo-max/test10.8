@@ -1,0 +1,19 @@
+# Integer witness plan review — actual134
+
+Independent /root/window02_consecutive_condition_review ACCEPT onefinite exact
+witnessconstructionattempt/no retry. Immutable80a22e3b58c9369bce3cc0a6faf2be52543cb254
+connector+completedgitshow; no import/run/edit/publication. Native SHA
+3ace9ec60a5843d6203570212aaa6e2f7b50fd808a18d4bc3305211d0c5ad182, digest
+3db894cffd06776ec58513867dc17559c6d9cf53be4b3d35df62f8feb0382905. HarnessSHA
+e9e979205b9f1971a3e89e1b3803b95a538346558a625601e68aa7a78dec10e0,digest
+aca5500a34085d81ccecddea8c740e8a982be3c429681bc401197af06a8baf97.
+11input+1code+nestedplan refs match;31vendor manifestentries fixed/localmatch.
+Correctedsource1e77d.../136review/originalreject+repair retained. Ranks1,2,61
+3records256integers2outputs,constructiononly notR/eigenvalues/condition/native.
+Stagedenvironmentcreates evidenceparent,newoutputdir/exactrelativeargv resolves
+isolatedworkspace; run/batch destinationsabsent. OneCPU256MiBunenforced0GPU
+fivethreadsettings1/60inner90outer/oneattempt0retry/0confirmation/sharedpoolkey.
+Host8CPU8GiB. Beforelaunch root mustpersistadmission/counts/recheckownership/
+clock/resources; failurescollectactualpartials/quarantinedsummary/log/diagnostic
+notjustdeclaredsuccessfuloutputs,noretry. Wholeharnessreceiptscost governs.
+Independent execution/evidencearithmetic/readback stillrequired,no sciencepass.
