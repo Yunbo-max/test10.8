@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra/runs/attempts/landmark-stage-a-qualification-02/landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d/workspace/landmark_stage_a.py", line 308, in <module>
+    main()
+  File "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra/runs/attempts/landmark-stage-a-qualification-02/landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d/workspace/landmark_stage_a.py", line 269, in main
+    outputs = [oracles.publish(), timings.publish()]
+               ^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/bb9f262965cf/lra-window02/research/consistent-lra/runs/attempts/landmark-stage-a-qualification-02/landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d/workspace/landmark_stage_a.py", line 132, in publish
+    for line in stream:
+                ^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/gzip.py", line 444, in readline
+    return self._buffer.readline(size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/gzip.py", line 564, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached

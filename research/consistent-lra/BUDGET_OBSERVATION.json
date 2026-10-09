@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T09:55:43.565447+00:00",
+  "observed_at": "2026-10-09T10:02:13.010332+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 83,
+  "registered_task_assignments": 84,
   "executable_attempts_dispatched": 16,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 82.365205,
+  "observed_process_cpu_seconds": 160.615645,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "reservation": {
     "task": "source-integrity-01",
@@ -65,6 +65,15 @@
       "category": "evidence_integrity",
       "scientific_refutation": false,
       "repair_count": 2
+    },
+    {
+      "failure": "landmark_stage_a_full_oracle_gzip_unexpected_eof",
+      "category": "evidence_integrity",
+      "scientific_refutation": false,
+      "repair_count": 0,
+      "attempt_id": "landmark-stage-a-identity-a1-af4eb2eab8604cf2a693a13be06bbe2d",
+      "observed_final_state": "native_failed_harness_caller_exit_zero",
+      "cause": "pending_independent_diagnosis"
     }
   ],
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
@@ -152,7 +161,8 @@
     "window02-landmark-stage-a-full-plan-review",
     "window02-landmark-stage-a-full-execution",
     "window02-geometric-formal-card-integration",
-    "window02-geometric-formal-independent-review"
+    "window02-geometric-formal-independent-review",
+    "window02-landmark-stage-a-full-failure-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -163,7 +173,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 26812.834074,
+  "remaining_wall_seconds_at_observation": 26009.989668,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -821,14 +831,19 @@
     "wall_seconds_upper_bound": 660,
     "attempts_reserved": 1,
     "attempts_launched": 1,
-    "released": false,
+    "released": true,
     "execution_admitted": true,
     "native_plan_digest": "40d656d29755bef4a68b1edcc010ed584989d78d59f79f270e31bc027f7cb8db",
     "harness_plan_digest": "769704bce8bf79c70708c517771d3dbc0c0a439034654dab3084a46b21daca4d",
     "scope": "35_selected_native_identity_oracles_and_5000_update_costs_only_no_performance_matrix",
     "execution_started": true,
     "plan_review": "LANDMARK_STAGE_A_FULL_PLAN_REVIEW.md",
-    "execution_status": "running_through_reviewed_harness"
+    "execution_status": "failed_gzip_integrity_pending_independent_review",
+    "attempts_completed": 1,
+    "release_basis": "terminal failed attempt and guard; no successful declared outputs",
+    "waited_process_tree_cpu_seconds": 78.25044,
+    "actual_harness_wall_seconds": 78.20627392800088,
+    "maximum_child_rss_kib": 182056
   },
   "completed_window02_full_plan_review": {
     "assignment": "window02-landmark-stage-a-full-plan-review",
@@ -844,5 +859,9 @@
     "assignment": "window02-geometric-formal-independent-review",
     "artifact": "FORMAL_AUDIT_v5_GEOMETRIC_DRAFT.md",
     "sha256": "de008df475aba17eb4557fdeb5e7ed57d7843f79dd107ecbed686e40ef717ef5"
+  },
+  "pending_window02_full_evidence_review": {
+    "assignment": "window02-landmark-stage-a-full-failure-review",
+    "scope": "failure and source diagnosis; no successful qualification"
   }
 }
