@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T05:08:06+00:00",
+  "observed_at": "2026-10-09T05:09:47+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 45,
   "executable_attempts_dispatched": 10,
@@ -124,7 +124,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 9579,
+  "remaining_wall_seconds_at_observation": 9478,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -348,6 +348,25 @@
     "independent_evidence_review_tree": "875ca1384463447a14cd0246d10a32d222d951c0",
     "failure_record_sha256": "139772a7723b0cfc12c0e735d91facc00a8fa9d844cf9d42ac3fd4a540f06778"
   },
+  "lowdim_baseline_matrix_repair_reservation": {
+    "task": "native-lowdim-baseline-matrix-repair-01",
+    "purpose": "engineering_evidence_publication_repair_only",
+    "failure": "lowdim_matrix_output_mutation_after_terminal_receipt",
+    "repair_ordinal": 1,
+    "cpu_cores_reserved": 1,
+    "ram_mib_reserved_not_enforced": 512,
+    "wall_seconds_upper_bound": 180,
+    "attempts_reserved": 1,
+    "attempts_completed": 0,
+    "retries": 0,
+    "released": false,
+    "native_plan_digest": "10f6cacb9074dbcb3b5f8f539371aef148cb09b91eb606334d35e7b14f7969bf",
+    "harness_plan_digest": "78ce83b3889722561525987f4248782f0325061cf7692c3eb93adb17a1d276de",
+    "plan_review": "accepted",
+    "plan_review_commit": "1e6d644c44eb59c49415dc1a89acce4822a1937f",
+    "scientific_experiment": false,
+    "performance_claim_eligible": false
+  },
   "unadmitted_development_smoke_history": [
     {
       "direction": "fd_source_semantic_oracles",
@@ -364,7 +383,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T05:08:06+00:00",
+    "observed_at": "2026-10-09T05:09:47+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
