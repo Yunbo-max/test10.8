@@ -55,3 +55,13 @@ The reservation is released by the terminal harness state plus the monotonic
 ledger update; there is no separate lease-release receipt.  Native data
 performance, published recourse semantics, strong-FD comparison, theorem
 validity, G01/E04/Gate A, and paper claims remain outside this evidence.
+
+## Provenance-label correction
+
+Independent evidence review found that the historical `data_revision` label
+transcribed a nonexistent blob as
+`294438c22a95ec9be0169c96c792685661197899`.  The staged and executed author
+source bytes are instead the correctly verified blob
+`294438ac128556f01a2c3d920bdb4f1225dd819f`.  The separate evidence-review
+record preserves this correction without altering any historical run byte or
+digest.

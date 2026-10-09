@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T04:07:17+00:00",
+  "observed_at": "2026-10-09T04:10:07+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 36,
+  "registered_task_assignments": 37,
   "executable_attempts_dispatched": 9,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -98,7 +98,8 @@
     "rice-alg4-cost-calibration-evidence-review",
     "author-fd-diagnostic-source-review",
     "author-fd-diagnostic-source-correction-rereview",
-    "author-fd-semantic-oracle-plan-review"
+    "author-fd-semantic-oracle-plan-review",
+    "author-fd-semantic-oracle-evidence-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -109,7 +110,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 13227,
+  "remaining_wall_seconds_at_observation": 13057,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -202,6 +203,12 @@
       "initial_verdict": "needs_correction",
       "repair_count": 1,
       "rereview_verdict": "accepted"
+    },
+    {
+      "review": "author-fd-semantic-oracle-evidence-review",
+      "initial_verdict": "needs_correction_provenance_label_only",
+      "repair_count": 1,
+      "rereview_verdict": "pending"
     }
   ],
   "pending_evaluator_semantic_oracle_evidence_review": null,
@@ -285,7 +292,10 @@
     "actual_max_rss_kib": 115540,
     "receipt_sha256": "25f6392ee869e6dca80218b332d461313648c6c86000b50216022f579d0cce96",
     "output_sha256": "28193d937bd6468c4aa952c948f39c78577d3e8380f9037a314c0db4b5b90665",
-    "independent_evidence_review": "pending"
+    "independent_evidence_review": "needs_correction_provenance_label_only",
+    "historical_data_revision_label": "fixed_analytic_streams_and_author_fd_blob_294438c22a95ec9be0169c96c792685661197899",
+    "corrected_author_blob": "294438ac128556f01a2c3d920bdb4f1225dd819f",
+    "raw_execution_bytes_changed_for_correction": false
   },
   "unadmitted_development_smoke_history": [
     {
@@ -303,7 +313,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T04:07:17+00:00",
+    "observed_at": "2026-10-09T04:10:07+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
