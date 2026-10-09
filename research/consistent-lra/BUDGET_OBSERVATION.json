@@ -654,7 +654,7 @@
   },
   "native_numerical_readiness": "blocked_on_authentic_official_runnable_scorer_adapter",
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
-  "observed_at": "2026-10-09T12:16:34.309437+00:00",
+  "observed_at": "2026-10-09T12:18:20.259593+00:00",
   "observed_process_cpu_seconds": 292.775693082,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "pending_archive_scorer_review": null,
@@ -691,9 +691,9 @@
     "reviewer": "/root/window02_consecutive_condition_review"
   },
   "pending_window02_integer_witness_source_review": {
-    "assignment_number": 132,
-    "execution_admitted": false,
-    "reviewer": "/root/window02_consecutive_condition_review"
+    "assignment_number": 136,
+    "reviewer": "/root/window02_consecutive_condition_review",
+    "execution_admitted": false
   },
   "pending_window02_mitigation_source_review": null,
   "pending_window02_nearzero_design": null,
@@ -782,7 +782,7 @@
       "scope": "independent recordedscalar recomputation; no sourceimport/qualifierrerun"
     }
   ],
-  "registered_task_assignments": 134,
+  "registered_task_assignments": 136,
   "remaining_wall_seconds_at_observation": 18801.791587,
   "reservation": {
     "actual_max_rss_kib": 99788,
@@ -1068,7 +1068,9 @@
     "window02-integer-witness-source-generation",
     "window02-integer-witness-source-independent-review",
     "window02-integer-witness-plan-generation",
-    "window02-integer-witness-plan-independent-review"
+    "window02-integer-witness-plan-independent-review",
+    "window02-integer-witness-source-publication-correction",
+    "window02-integer-witness-source-publication-rereview"
   ],
   "total_authorized_wall_window_seconds": 57600,
   "unadmitted_development_smoke_history": [
@@ -1154,7 +1156,8 @@
     "released": false,
     "scope": "existing_lemma_exact_integer_construction_no_matrix_evaluation",
     "task": "exact-integer-witness-02",
-    "wall_seconds_upper_bound": 90
+    "wall_seconds_upper_bound": 90,
+    "execution_status": "unlaunched source132rejection; futureplanrebind required"
   },
   "window02_mitigation_source_corrections": [
     {
@@ -1341,5 +1344,15 @@
     "package": "c23/research-autopilot",
     "source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
     "version": "0.2.0-autonomous.2"
-  }
+  },
+  "window02_integer_witness_source_corrections": [
+    {
+      "assignment_number": 132,
+      "commit": "e090716f8febd36360821100d39330b9ab02f45f",
+      "failure_signature": "missing intended output identity and no-success-summary failure isolation",
+      "source_repair_count": 1,
+      "qualification_executed": false,
+      "scientific_failure": false
+    }
+  ]
 }
