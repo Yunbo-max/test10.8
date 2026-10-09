@@ -1,10 +1,10 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T14:01:57.005019+00:00",
+  "observed_at": "2026-10-09T15:31:18+00:00",
   "rsi_source_commit": "169c92a326c8c08163b7d165d35e21e05c2268d7",
   "canonical_controller_run": false,
   "decision": 3,
-  "action": "bounded actual-sampler restriction or multi-refresh amortization after independently accepted algebraic D A_S r1 HEAVY counterexample",
+  "action": "bounded repeated-event recycling or alternative multi-refresh amortization after source-faithful OnlinePCP single-event counterexample",
   "basis": [
     "Actual154fullintegerrecoursecertificate accepted; exactlossseparation independentmainreview retained",
     "Actual161known1997mechanismcollision/fullconjunctionpriorityinconclusive",
@@ -13,7 +13,8 @@
     "Canonical167-171 retain a separate reachable k144 exact-final-byte counterexample and bounded priority audit; worker-local labels collided with concurrent tasks and were remapped without dropping history",
     "Canonical172-174 preserve an initial rejected arbitrary-real argument and independently accept the corrected M=D A_S Cauchy-Binet product-floor repair; literal integrality remains false but is not a recourse-proof blocker",
     "Canonical175-176 independently accept a reachable single-arrival real-row violation of the r=1 HEAVY segment bound; integer/D A_S membership, repeated-event and theorem-wide claims remain excluded",
-    "Canonical177-178 independently transfer the event to integer-base D A_S with D>=I; actual ridge-leverage sampler reachability, repeated events and theorem-wide claims remain excluded"
+    "Canonical177-178 independently transfer the event to integer-base D A_S with D>=I; actual ridge-leverage sampler reachability, repeated events and theorem-wide claims remain excluded",
+    "Canonical179-180 preserve an initial rejected source-semantics draft and independently accept the corrected bounded-unit constant-condition small-epsilon stream: source OnlinePCP samples every row with p=1 and Algorithm2 incurs one non-reset HEAVY move >sqrt(k)"
   ],
   "closed_or_narrowed": {
     "Landmark_asset": "exact bytes/license/full mechanical counts independently accepted",
@@ -44,7 +45,8 @@
     "approximate_theorem1_3": "reweighted-integer spectral premise repaired by accepted D A_S Cauchy-Binet argument conditional on sampled-entry magnitude bound; real-row r1 HEAVY segment bound independently refuted but integer/D A_S aggregate repair remains unresolved; no theoremrefutation",
     "direct_F1_k144": "reachable nonnegative-integer exact-final-byte counterexample independently accepted after preserved reset-reachability correction; displayed HEAVY minmax implication only",
     "small_epsilon_HEAVY_family": "construction/state/recourse accepted by actual165; reviewer-supplied strict-trigger addendum accepted by actual166",
-    "real_row_single_arrival_HEAVY": "fixed candidate and independent review176 accepted for r1 domain-free real-row segment only; not integer, D A_S, repeated-event or theorem-wide"
+    "real_row_single_arrival_HEAVY": "fixed candidate and independent review176 accepted for r1 domain-free real-row segment only; not integer, D A_S, repeated-event or theorem-wide",
+    "onlinepcp_actual_sampler_reachability": "accepted under source Definition2.1 rank-growth convention and delta<=eta/(20+eta): unit stream emitted unchanged; one HEAVY event only"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
@@ -52,7 +54,8 @@
     "full_baseline_qualification": "finiteStageAaccepted; corrected completeStageBsource independentlyaccepted_unexecuted;nearzeroruntimequalification/nativeauthority/scientificdispatch remainblocked",
     "new_method_discovery": "qualified Parent/Gate0/IPCG and meaningful residual baseline failures pending",
     "candidate_code_dispatch": "no independently ranked qualified method pool/G01/native scorer",
-    "eligible_writing": "no validated numerical improvement; originality and downstream significance unresolved"
+    "eligible_writing": "no validated numerical improvement; originality and downstream significance unresolved",
+    "aggregate_theorem_claim": "single-event counterexample does not show repeated recycling or violate total asymptotic recourse"
   },
   "engineering_exit_zero_is_scientific_pass": false,
   "gate_advanced": false,
@@ -61,14 +64,14 @@
     "independent review of actual isolated scalar software501 records; no native-sciencepass",
     "exact integer witness design/source qualification child of accepted v7; pendingdesignreview"
   ],
-  "reason_not_terminal": "Finite independent originality/proofscope and software qualification work remains before harddeadline; no duplicate goal, no scientific gate shortcut",
-  "next_restore": "resolve immutable branch head and retained bytes; never rerun accepted Landmark/Rice/Skin/oracle preparation or bootstrap immediate request",
+  "reason_not_terminal": "Finite repeated-event or replacement-potential mathematical work remains before hard deadline; no numerical dispatch admitted",
+  "next_restore": "resolve immutable main head; preserve assignment179 initial NEEDS_CORRECTION and assignment180 final acceptance; continue repeated-event or multi-refresh amortization only",
   "note": "Planninghandoffonly; no canonicalSQLitecontroller/freshstatisticalconfirmation/scientificadmission; same12round256task128attempt3discovery limits",
-  "prior_decision": 2,
+  "prior_decision": 3,
   "previous_observation_preserved": "prior Step7 JSON version remains immutable in parent commits including9f65c9aed3d6952e08d7dae6020eb70eb5698db4",
   "historical_runtime_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "active_window_id": "cpu-window-02-20261009",
-  "evidence_commit": "7a247bc67cc84c691193128a3c293465f04a24f6",
+  "evidence_commit": "3eb96021a7a9188d84268b86aaeb59c5d6c2114d",
   "window02_current_evidence": [
     {
       "artifact": "FORMAL_AUDIT_v5_REVIEW.md",
@@ -164,7 +167,13 @@
     "theorem1_3_false": false,
     "scientific_gate_advanced": false
   },
-  "main_f1_canonical_assignments": [167, 168, 169, 170, 171],
+  "main_f1_canonical_assignments": [
+    167,
+    168,
+    169,
+    170,
+    171
+  ],
   "concurrent_small_epsilon_strict_review_assignment": 166,
   "concurrent_small_epsilon_strict_review_status": "accepted_independently",
   "main_heavy_single_arrival_evidence": {
