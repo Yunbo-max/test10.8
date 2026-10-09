@@ -1,0 +1,3 @@
+{"event":"batch_started","observed_at":"2026-10-09T11:01:10.692356Z","plan_digest":"34deb544034d52ad591e6f1be2de2e7fe2e8e915be085fc7abe5cd6a36f362f9"}
+{"devices":[],"event":"task_started","launcher_pid":6,"native_plan_digest":"e1bb32d285072d95b723bb6aa0f019586b7c2294ed84b0f558980923b792707d","observed_at":"2026-10-09T11:01:10.696990Z","task_id":"formal-geometric-target61-02"}
+{"event":"task_finished","observed_at":"2026-10-09T11:01:42.735195Z","status":"completed","task_id":"formal-geometric-target61-02"}

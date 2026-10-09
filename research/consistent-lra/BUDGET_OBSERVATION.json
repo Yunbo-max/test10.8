@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T11:00:52.836314+00:00",
+  "observed_at": "2026-10-09T11:03:02.202965+00:00",
   "controller_rounds": 2,
   "registered_task_assignments": 112,
   "executable_attempts_dispatched": 20,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 246.292924,
+  "observed_process_cpu_seconds": 277.639805,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "reservation": {
     "task": "source-integrity-01",
@@ -1082,20 +1082,26 @@
     "ram_mib_reserved_not_enforced": 512,
     "wall_seconds_upper_bound": 360,
     "attempts_reserved": 1,
-    "attempts_launched": 0,
-    "released": false,
+    "attempts_launched": 1,
+    "released": true,
     "execution_admitted": true,
     "native_plan_digest": "e1bb32d285072d95b723bb6aa0f019586b7c2294ed84b0f558980923b792707d",
     "harness_plan_digest": "34deb544034d52ad591e6f1be2de2e7fe2e8e915be085fc7abe5cd6a36f362f9",
     "attempts_charged": 1,
-    "execution_status": "authorized_dispatch_charged_pending_actual_start_receipt",
+    "execution_status": "completed_pending_independent_evidence_review",
     "plan_review": "FORMAL_CERTIFICATE_TARGET61_PLAN_REVIEW_WINDOW02.md",
     "prelaunch_observation": {
       "observed_at": "2026-10-09T11:00:52.836314+00:00",
       "cpu_max": "800000 100000",
       "memory_max_bytes": 8589934592,
       "active_scientific_or_formal_job_pids": []
-    }
+    },
+    "attempts_completed": 1,
+    "attempt_id": "formal-geometric-target61-a1-180f6c6be0024da193b15a7af97dddef",
+    "release_basis": "terminalcompletedreceipt and twoall2postexitoutputrehashes",
+    "waited_process_tree_cpu_seconds": 31.346880999999996,
+    "actual_harness_wall_seconds": 32.11119771400263,
+    "maximum_child_rss_kib": 28812
   },
   "pending_window02_stage_b_source_review": {
     "assignment": "window02-landmark-stage-b-source-review",
@@ -1120,6 +1126,6 @@
   },
   "pending_window02_exact_certificate_target_evidence_review": {
     "assignment": "window02-exact-geometric-target61-evidence-review",
-    "status": "awaiting_actual_dispatch"
+    "status": "actualcompleted_two_outputs_waiting_fixed_commit_review"
   }
 }
