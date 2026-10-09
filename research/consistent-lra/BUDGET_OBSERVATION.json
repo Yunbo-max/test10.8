@@ -5,14 +5,14 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T05:55:33+00:00",
+  "observed_at": "2026-10-09T05:57:42+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 56,
-  "executable_attempts_dispatched": 12,
+  "registered_task_assignments": 57,
+  "executable_attempts_dispatched": 13,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 66.562782,
+  "observed_process_cpu_seconds": 73.202525,
   "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds but repair-01 aggregate remains a per-arm lower bound",
   "reservation": {
     "task": "source-integrity-01",
@@ -125,7 +125,8 @@
     "lowdim-baseline-matrix-developmental-results-report-review",
     "prospective-random-baseline-matrix-source-review",
     "prospective-random-baseline-matrix-source-correction-rereview",
-    "prospective-random-baseline-matrix-plan-review"
+    "prospective-random-baseline-matrix-plan-review",
+    "prospective-random-baseline-matrix-evidence-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -136,7 +137,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 6731,
+  "remaining_wall_seconds_at_observation": 6603,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -533,9 +534,10 @@
     "ram_mib_reserved_not_enforced": 512,
     "wall_seconds_upper_bound": 120,
     "attempts_reserved": 1,
-    "attempts_completed": 0,
+    "attempts_completed": 1,
     "retries": 0,
-    "released": false,
+    "released": true,
+    "release_basis": "terminal completed harness and two post-exit 28-output rehash passes; no surviving process",
     "native_plan_digest": "280027a1d2bc2279654868cd69d54182617e6c628017f842fd4b23327efea87f",
     "harness_plan_digest": "95657d85b176afddc3bb682c8fc6b246cac8ba26e2f8db9de40f899be86d6292",
     "plan_review": "accepted",
@@ -543,7 +545,27 @@
     "scientific_experiment": false,
     "performance_claim_eligible": false,
     "original_figure_replication": false,
-    "execution_status": "admitted_not_started"
+    "execution_status": "completed_pending_independent_evidence_review",
+    "attempt_id": "prospective-random-seed20261009-existing-baseline-matrix-a1-4effb02f72124183a5e61a1913b8b325",
+    "producer_wall_seconds": 6.640326954999182,
+    "actual_process_cpu_seconds": 6.639743000000001,
+    "actual_max_rss_kib": 120196,
+    "receipt_sha256": "21f9577fe9fa837c47a5acb8cae823e4ae46e2d80f53bd2109bd9f8e3f7c8608",
+    "attempt_sha256": "af6e3ec256d477e0d4ccd9682886764d4fe25a84f2dfe23b6583b35edde944a1",
+    "manifest_sha256": "5a30b214e230da04364f8cff6e6aef24f7e0b832c54d211fc27f5f550da4609f",
+    "archive_sha256": "af9b40bfb131570d1d5868006d0f4193550ba087f6679bb250a65554bab1bb8e",
+    "declared_outputs": 28,
+    "post_exit_rehash_passes": 2,
+    "post_exit_mismatches": 0,
+    "archive_members": 26,
+    "execution_record": "RANDOM_BASELINE_MATRIX_EXECUTION_20261009.md",
+    "execution_record_sha256": "c6864757a3bc91052fca2f144ae9ceb144375ba39cbfd744ae083d516c04045a"
+  },
+  "pending_random_baseline_matrix_evidence_review": {
+    "assignment": "prospective-random-baseline-matrix-evidence-review",
+    "reviewer": "/root/rice_skin_evidence_review",
+    "status": "assigned_pending_fixed_commit",
+    "required_scope": "integrity_plus_E04_developmental_only"
   },
   "unadmitted_development_smoke_history": [
     {
@@ -561,7 +583,7 @@
     }
   ],
   "latest_resource_observation": {
-    "observed_at": "2026-10-09T05:34:16+00:00",
+    "observed_at": "2026-10-09T05:57:42+00:00",
     "cpu_max": "800000 100000",
     "cpu_quota_cores": 8,
     "nproc_visible": 9,
@@ -584,6 +606,10 @@
     "lowdim_baseline_matrix_final_repair_plan_reviewed": true,
     "lowdim_baseline_matrix_final_repair_launched": true,
     "lowdim_baseline_matrix_final_repair_completed": true,
-    "lowdim_baseline_matrix_final_repair_evidence_reviewed": true
+    "lowdim_baseline_matrix_final_repair_evidence_reviewed": true,
+    "prospective_random_baseline_matrix_plan_reviewed": true,
+    "prospective_random_baseline_matrix_launched": true,
+    "prospective_random_baseline_matrix_completed": true,
+    "prospective_random_baseline_matrix_evidence_reviewed": false
   }
 }
