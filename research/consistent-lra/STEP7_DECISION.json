@@ -1,6 +1,6 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T03:18:40+00:00",
+  "observed_at": "2026-10-09T03:37:34+00:00",
   "rsi_source_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "canonical_controller_run": false,
   "decision": 2,
@@ -59,6 +59,11 @@
       "path": "FD_SEMANTIC_ORACLE_EVIDENCE_REVIEW.md",
       "sha256": "c3aba01cda774f7cba77669783647eada8cee9680397ecbc2c5f83a6db2b03b5",
       "verdict": "accepted_fd_source_semantics_after_dependency_and_time_ledger_corrections"
+    },
+    {
+      "path": "RICE_ALG4_CALIBRATION_EVIDENCE_REVIEW.md",
+      "sha256": "5184b12a37e99c93997460304dad87b5b1d3c2c7e25af7ef92afffb300eb4d5c",
+      "verdict": "accepted_engineering_cost_and_all_prefix_coverage_only"
     }
   ],
   "closed_or_narrowed": {
@@ -67,7 +72,8 @@
     "hidden_scorer_search": "complete frozen author tree and ZIP contain no separate official scorer",
     "published_random_identity": "exact Figure 3 replay is not reconstructable; prospective frozen seeded unscaled instances only",
     "repaired_evaluator_semantics": "25 analytic/algebraic checks accepted as engineering software evidence only",
-    "fd_source_semantics": "45 checks accepted; project ell-row arm matches independent same-spec reference while author ell+1 and Liberty 2ell interfaces are non-parity"
+    "fd_source_semantics": "45 checks accepted; project ell-row arm matches independent same-spec reference while author ell+1 and Liberty 2ell interfaces are non-parity",
+    "rice_alg4_cost_coverage": "all 3000 prefixes retained and independently verified; 0.502147s pipeline, 0.498551s CPU and 120220KiB RSS for one repaired-scorer arm only"
   },
   "blocked_descendants": {
     "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",

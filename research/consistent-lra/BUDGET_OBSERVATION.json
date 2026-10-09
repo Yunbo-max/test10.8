@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T03:31:22.938875+00:00",
+  "observed_at": "2026-10-09T03:37:34+00:00",
   "controller_rounds": 1,
-  "registered_task_assignments": 32,
+  "registered_task_assignments": 33,
   "executable_attempts_dispatched": 8,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -94,7 +94,8 @@
     "fd-semantic-oracle-evidence-review",
     "fd-semantic-oracle-evidence-rereview",
     "rice-alg4-cost-calibration-plan-review",
-    "rice-alg4-cost-calibration-plan-rereview"
+    "rice-alg4-cost-calibration-plan-rereview",
+    "rice-alg4-cost-calibration-evidence-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -105,7 +106,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 15382,
+  "remaining_wall_seconds_at_observation": 15010,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -250,7 +251,8 @@
     "raw_jsonl_gzip_sha256": "70351bcf505b93af38e0cfd28eecda099a9cabbb68a2c2edb4d8b0461a6e22fd",
     "summary_sha256": "2c124b017e374642fc020c13df402d26a8186b874e0fc2bfd26a73fc924b075d",
     "receipt_sha256": "5c7fc845d29f0bed4adda18d0102a6055dbc69b21640f6c991aab7f09f21fc45",
-    "independent_evidence_review": "pending"
+    "independent_evidence_review": "accepted",
+    "independent_evidence_review_commit": "4ffc2d57a43e740a4205cdabba7fab303ddd8f15"
   },
   "pending_fd_semantic_oracle_evidence_review": null,
   "completed_fd_semantic_oracle_evidence_review": "accepted_after_recorded_time_ledger_correction",

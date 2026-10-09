@@ -22,6 +22,12 @@ reconstructable; future seeded unscaled streams are prospective instances only.
 The repaired evaluator passed 25 independent semantic-oracle checks after
 recorded correction reviews, but remains a project repair rather than an
 official author scorer.
+One complete engineering calibration is now independently accepted: Rice,
+first 3,000 offline-scaled rows, rank 1, Algorithm 4 with c=2.5.  The durable
+gzip reconstructs all 3,000 raw per-prefix records; observed pipeline/CPU/RSS
+were 0.502147s/0.498551s/120,220KiB.  This permits bounded planning for later
+low-dimensional baseline qualification but is not a method comparison, cannot
+be extrapolated to Landmark, and does not advance a scientific gate.
 Before any future admitted numerical attempt, remeasure cgroup quota/memory,
 reserve finite resources, calibrate runtime/RSS, use <=8 aggregate numerical
 threads and one scientific job; preserve receipt-bound basis/score/prefix

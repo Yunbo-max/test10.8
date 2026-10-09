@@ -50,3 +50,11 @@ Section 4 reports a greater-than-400-fold recourse separation. These inspected s
 ## Versioned repair and later source review
 
 REPAIR_CONTRACT_v1.md freezes the intended numerical semantics. BASELINE_DRAFT_REVIEW.md records exact code versions and independent correction findings. The repaired evaluator formulas and the project strong FD arm now have independently accepted finite software-semantic evidence, including 45 FD checks; this is not native baseline performance, full sensitivity, author/Liberty state parity or a corrected scientific comparison. Historical source-integrity preparation uses the old draft and must not be relabeled proof of the repaired draft. Official scorer admission remains blocked as recorded in vendor/rsi/SCORER_BLOCKER.md.
+
+RICE_ALG4_CALIBRATION_EXECUTION_20261009.md and its independent evidence review
+add one bounded all-3,000-prefix cost/coverage observation for Rice, rank 1,
+Algorithm 4 at c=2.5.  The complete raw stream, receipt and separated clocks are
+retained.  This checks that path's coverage and real resource fit; because it is
+only one arm under the project repair, it is not a qualified comparative result
+and does not resolve the official scorer, sensitivity, author-FD or four-family
+gaps.

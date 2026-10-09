@@ -1,6 +1,6 @@
 {
   "format": "consistent-lra-evidence-index-v1",
-  "observed_at": "2026-10-09T03:18:40+00:00",
+  "observed_at": "2026-10-09T03:37:34+00:00",
   "source_pins": {
     "RSI": "Yunbo-max/Research_Autopilot@1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
     "author": "samsonzhou/consistent-LRA@d607c4f6467216c470d1e3b93989d44d5fcdec97"
@@ -45,7 +45,10 @@
     "fd_evidence_candidate": "75ea9dfd01da41ee63d7005c4115d0970b45ccfc",
     "fd_evidence_initial_review_binding": "0402c6fe105cefc6e3e45919e0badee5d12553b4",
     "fd_time_ledger_correction": "c36734766f80c85864e005711cfe7ab1c36c61be",
-    "fd_evidence_rereview_binding": "77932f7ccfe13f1091ef70acf3c862bbda9e3937"
+    "fd_evidence_rereview_binding": "77932f7ccfe13f1091ef70acf3c862bbda9e3937",
+    "rice_alg4_calibration_corrected_plan": "2178300b5350698d2a5283854b6636001f668a24",
+    "rice_alg4_calibration_prelaunch_admission": "17c4008854dee58acdf34ccbdc37e742b99b1fb2",
+    "rice_alg4_calibration_evidence_candidate": "4ffc2d57a43e740a4205cdabba7fab303ddd8f15"
   },
   "artifacts": [
     {
@@ -227,13 +230,34 @@
     {
       "path": "runs/attempts/fd-semantic-oracles-01/fd-semantic-oracles-a1-651e783370394554a7271a2f2b64fa15/workspace/evidence/qualification/fd-semantic-oracles.json",
       "sha256": "8dc34bdced536cadbef966182f759e941e3725f8f400c9d09f780d82a1ee507b"
+    },
+    {
+      "path": "RICE_ALG4_CALIBRATION_EXECUTION_20261009.md",
+      "sha256": "c5d88c601d1946e09447ca95567c643fc7c5eed14cdf3abf4d44c1620298389d"
+    },
+    {
+      "path": "RICE_ALG4_CALIBRATION_EVIDENCE_REVIEW.md",
+      "sha256": "5184b12a37e99c93997460304dad87b5b1d3c2c7e25af7ef92afffb300eb4d5c"
+    },
+    {
+      "path": "evidence/calibration/rice-algorithm4-c2p5-verification.json",
+      "sha256": "c74f62832bd87372f2d3b010902d7490d3ccb7409d04ebc25fd34cba299b109a"
+    },
+    {
+      "path": "runs/attempts/native-rice-alg4-c2p5-calibration-01/receipt.json",
+      "sha256": "5c7fc845d29f0bed4adda18d0102a6055dbc69b21640f6c991aab7f09f21fc45"
+    },
+    {
+      "path": "runs/attempts/native-rice-alg4-c2p5-calibration-01/rice-algorithm4-c2p5-a1-c5d167bc4a6b40faa8284dded1c0d14d/workspace/evidence/calibration/rice-algorithm4-c2p5.jsonl.gz",
+      "sha256": "70351bcf505b93af38e0cfd28eecda099a9cabbb68a2c2edb4d8b0461a6e22fd",
+      "decompressed_sha256": "921e5b8f63387d15a5e893a35e3eac97fb936c15617042641b88c83c6536589e"
     }
   ],
   "actual_usage": {
     "scientific_numerical_attempts": 0,
-    "executable_preparation_attempts": 7,
-    "registered_assignments": 30,
-    "process_cpu_seconds": 1.581142,
+    "executable_preparation_attempts": 8,
+    "registered_assignments": 33,
+    "process_cpu_seconds": 2.079693,
     "peak_RSS_KiB": 148112,
     "unreleased_reservations": []
   },
