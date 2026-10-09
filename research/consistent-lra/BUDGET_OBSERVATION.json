@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T02:14:52+00:00",
+  "observed_at": "2026-10-09T02:20:42+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 20,
   "executable_attempts_dispatched": 4,
@@ -87,7 +87,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 19973,
+  "remaining_wall_seconds_at_observation": 19623,
   "prior_timestamp_correction": "The prelaunch draft used 02:16Z while the host clock was 02:04Z; this observation restores the actual harness timestamps and recomputes remaining wall time rather than consuming fictional elapsed time.",
   "verified_scientific_failures_by_direction": {},
   "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run.",
@@ -120,7 +120,8 @@
     "actual_max_rss_kib": 148112,
     "receipt_sha256": "a7c5861993e6030cafd261550aa3087d8e570fa384f4d976ba6cec27ee24c5cd"
   },
-  "pending_rice_skin_identity_evidence_review": "rice-skin-selected-prefix-identity-evidence-review",
+  "pending_rice_skin_identity_evidence_review": null,
+  "completed_rice_skin_identity_evidence_review": "rice-skin-selected-prefix-identity-evidence-review:accepted_with_thread_context_and_release_receipt_boundaries",
   "latest_resource_observation": {
     "observed_at": "2026-10-09T02:04:48+00:00",
     "cpu_max": "800000 100000",

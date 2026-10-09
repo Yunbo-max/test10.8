@@ -1,33 +1,35 @@
 {
   "format": "evidence-bound-worker-planning-decision-v1",
-  "observed_at": "2026-10-09T01:05:00+00:00",
+  "observed_at": "2026-10-09T02:20:42+00:00",
   "rsi_source_commit": "1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
   "canonical_controller_run": false,
   "decision": 2,
-  "action": "reread and qualify remaining native scorer/benchmark code and Landmark source after scoped mathematics and PCP source qualification",
+  "action": "reread and qualify the remaining random-family identity and repaired native evaluator/parity boundary before Parent/Gate0/IPCG or discovery",
   "basis": [
     {
-      "path": "FORMAL_AUDIT_v2.md",
-      "sha256": "0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477"
+      "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
+      "sha256": "004f6ddd287cb45d9eab149fa85ba1f1e45dca15c0905ec2409a96fc1e6f99a5",
+      "verdict": "accepted_after_recorded_needs_correction"
     },
     {
-      "path": "FORMAL_AUDIT_v2_REVIEW.md",
-      "independent_reviewers": [
-        "/root/baseline_audit",
-        "/root/execution_capability"
-      ]
+      "path": "LANDMARK_INTEGRITY_EXECUTION_20261009.md",
+      "sha256": "bec72037c615dee114f772415fafe92d4adde5d1ceffba5b601a0b0732cae6e2",
+      "independent_evidence_verdict": "accepted_mechanical_only"
     },
     {
-      "path": "FORMAL_AUDIT_v3_EXTENSION.md",
-      "sha256": "440edfddc4b9d51a218ea878de78acd1b89b7648bdabdf222c493b3b31331c3c"
+      "path": "AUTHOR_ARCHIVE_SCORER_AUDIT_20261009.md",
+      "sha256": "6ed1195adbdae5a7df7ea77888ad3f23a25406140945703cbcd4b4777c4ab599",
+      "verdict": "accepted_no_hidden_official_scorer"
     },
     {
-      "path": "CONDITION_SCOPE_SUPPLEMENT_DRAFT.md",
-      "sha256": "a283038010597ae8c23846839bbb1202794f67f92c1c35557fcc3fa33cf3546d"
+      "path": "RICE_SKIN_IDENTITY_PLAN_REVIEW.md",
+      "sha256": "247282b69654856aca7683c9f7cf4d674f3428a5d513fee1ec169cd8bc7618c6",
+      "verdict": "accepted_engineering_plan_only"
     },
     {
-      "path": "FORMAL_EXTENSION_REVIEWS.md",
-      "independent_reviewer": "/root/execution_capability"
+      "path": "RICE_SKIN_IDENTITY_EXECUTION_20261009.md",
+      "sha256": "af6e9aaf3327ad080e96247db737ccb771be1deca8b10ad66b7a45fbda93b28c",
+      "independent_evidence_verdict": "accepted_selected_prefix_identities_only"
     },
     {
       "path": "FORMAL_AUDIT_v4_REVIEW.md",
@@ -44,22 +46,29 @@
       "collision": "known_mechanism_and_growth_prior_art; exact_target_application_inconclusive"
     }
   ],
-  "blocked_descendants": {
-    "native_numerical_qualification": "authentic official runnable scorer/interface absent",
-    "Landmark": "native asset response-size limit and pending license",
-    "new_method_discovery": "qualified Parent/Gate0/IPCG and residual failures pending",
-    "candidate_code_dispatch": "no qualified method pool/G01/native scorer",
-    "eligible_writing": "originality and downstream significance unresolved; no validated numerical improvement"
+  "closed_or_narrowed": {
+    "Landmark_asset": "exact bytes/license/full mechanical counts independently accepted",
+    "Rice_Skin_formula_identity": "direct/trace/tail and selected-prefix projector identities accepted at three tolerances",
+    "hidden_scorer_search": "complete frozen author tree and ZIP contain no separate official scorer"
   },
-  "preparation_exit_zero_is_scientific_pass": false,
+  "blocked_descendants": {
+    "native_scientific_scoring": "authentic official runnable scorer/interface and faithful parity remain absent",
+    "published_random_replication": "unseeded released generator and paper/code normalization mismatch prevent exact figure stream identity",
+    "full_baseline_qualification": "FD parity, total per-prefix recourse, full sensitivity and four-family G01 remain pending",
+    "new_method_discovery": "qualified Parent/Gate0/IPCG and meaningful residual baseline failures pending",
+    "candidate_code_dispatch": "no independently ranked qualified method pool/G01/native scorer",
+    "eligible_writing": "no validated numerical improvement; originality and downstream significance unresolved"
+  },
+  "engineering_exit_zero_is_scientific_pass": false,
   "gate_advanced": false,
   "eligible_new_papers": 0,
   "continued_independent_work": [
-    "exact-target correction priority and remaining citation expansion",
-    "remaining authentic native scorer and asset access"
+    "freeze the random-family non-replication/prospective-seed boundary",
+    "design independent repaired-evaluator semantic oracles without relabelling them official",
+    "continue exact-target correction priority and downstream theorem audit"
   ],
-  "reason_not_terminal": "finite productive mathematical/source tasks remain; deadline unchanged",
-  "next_restore": "resolve immutable branch head and retained real bytes; never rerun completed preparation or bootstrap immediate request",
-  "note": "In-place worker evidence mapping to the pinned RSI return-to-source route. Canonical controller not initialized; no fabricated ACP/SQLite/controller/gate receipt.",
-  "prior_decision": 3
+  "reason_not_terminal": "finite productive source, mathematical and engineering qualification tasks remain within the unchanged deadline",
+  "next_restore": "resolve immutable branch head and retained bytes; never rerun accepted Landmark/Rice/Skin preparation or bootstrap immediate request",
+  "note": "In-place worker evidence mapping to pinned RSI return-to-source route; no fabricated controller, official scorer, Gate A pass or paper result.",
+  "prior_decision": 2
 }

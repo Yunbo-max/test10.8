@@ -1,6 +1,6 @@
 {
   "format": "consistent-lra-evidence-index-v1",
-  "observed_at": "2026-10-09T01:06:27+00:00",
+  "observed_at": "2026-10-09T02:20:42+00:00",
   "source_pins": {
     "RSI": "Yunbo-max/Research_Autopilot@1de12dfed5b84957b29ac5b3a2f04904bf3742bc",
     "author": "samsonzhou/consistent-LRA@d607c4f6467216c470d1e3b93989d44d5fcdec97"
@@ -18,7 +18,19 @@
     "integer_density_corrected_candidate": "e6ca030dae13084a116659a78d8f1e680e862b95",
     "integer_density_accepted_record": "9b294f09a87d7984e55159f9b548db57a1c2dde7",
     "sampling_source_corrected_candidate": "b8651edf183ff8103aa97823c044d79a9b9cef99",
-    "sampling_source_correction_assignment": "5a11100ecf1eadb60485096f7972515f7e1bd6c8"
+    "sampling_source_correction_assignment": "5a11100ecf1eadb60485096f7972515f7e1bd6c8",
+    "landmark_corrected_candidate": "2dc532076a9a09541c975fd462a496edf6dd89e1",
+    "landmark_correction_assignment": "4478b2865ac8add57df28a06fdeb19ed5846d61f",
+    "landmark_prelaunch_admission": "8db6f5269794ff7c980f1b13795658b497432190",
+    "landmark_evidence_candidate": "3314a7e86b2f1b0fa1461ea1d1475d184d618709",
+    "landmark_evidence_assignment": "17e4e192b4816842faa0c523cfa32eac4ab2368b",
+    "author_archive_candidate": "39243725f7418e71ef3b1517e6a33787a7c26624",
+    "author_archive_assignment": "37f5da4394e46b23e0695f4c1bdd104bfe3c350c",
+    "rice_skin_plan_candidate": "6d2c1021aa01c62d0e4398142fa1b3bf37c3c528",
+    "rice_skin_plan_assignment": "62d5062e8dc54ca4a4668497968fffe983d2a88f",
+    "rice_skin_prelaunch_admission": "2b178b3b8afe32fe13565f4ab91f04cf2993b96e",
+    "rice_skin_evidence_candidate": "7b5b71c9f3a7636e77c9bf969f388c6d0c6111ca",
+    "rice_skin_evidence_assignment": "36cab450c873e9de1c2c253b869cac71773be155"
   },
   "artifacts": [
     {
@@ -108,14 +120,54 @@
     {
       "path": "SAMPLING_SOURCE_QUALIFICATION_REVIEW.md",
       "sha256": "d6cca0dcc4fe9831d1a2e7c2de79487377a412aec35b12dce4c5171cfc33168f"
+    },
+    {
+      "path": "LANDMARK_SOURCE_QUALIFICATION_REVIEW.md",
+      "sha256": "004f6ddd287cb45d9eab149fa85ba1f1e45dca15c0905ec2409a96fc1e6f99a5"
+    },
+    {
+      "path": "LANDMARK_INTEGRITY_EXECUTION_20261009.md",
+      "sha256": "bec72037c615dee114f772415fafe92d4adde5d1ceffba5b601a0b0732cae6e2"
+    },
+    {
+      "path": "evidence/landmark-source-integrity.json",
+      "sha256": "62595f9dec8c563b05ebe92a0ecc66ac569c2f9730b699728613f5a366fc8e35"
+    },
+    {
+      "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
+      "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
+    },
+    {
+      "path": "AUTHOR_ARCHIVE_SCORER_AUDIT_20261009.md",
+      "sha256": "6ed1195adbdae5a7df7ea77888ad3f23a25406140945703cbcd4b4777c4ab599"
+    },
+    {
+      "path": "RICE_SKIN_IDENTITY_PLAN_REVIEW.md",
+      "sha256": "247282b69654856aca7683c9f7cf4d674f3428a5d513fee1ec169cd8bc7618c6"
+    },
+    {
+      "path": "RICE_SKIN_IDENTITY_EXECUTION_20261009.md",
+      "sha256": "af6e9aaf3327ad080e96247db737ccb771be1deca8b10ad66b7a45fbda93b28c"
+    },
+    {
+      "path": "evidence/qualification/rice-selected-prefix.json",
+      "sha256": "35aa4b0b420b837a66a4058412ef79a133fba89a986f400ae11e333e7c228eb9"
+    },
+    {
+      "path": "evidence/qualification/skin-selected-prefix.json",
+      "sha256": "45dffa731cd23b38e0c729f786926124e04486357370cd55bf2fc956c3ca92a0"
+    },
+    {
+      "path": "runs/attempts/rice-skin-selected-prefix-identity-01/receipt.json",
+      "sha256": "a7c5861993e6030cafd261550aa3087d8e570fa384f4d976ba6cec27ee24c5cd"
     }
   ],
   "actual_usage": {
     "scientific_numerical_attempts": 0,
-    "executable_preparation_attempts": 1,
-    "registered_assignments": 14,
-    "process_cpu_seconds": 0.190072,
-    "peak_RSS_KiB": 99788,
+    "executable_preparation_attempts": 4,
+    "registered_assignments": 20,
+    "process_cpu_seconds": 1.570273,
+    "peak_RSS_KiB": 148112,
     "unreleased_reservations": []
   },
   "goal_completion": {
@@ -131,7 +183,7 @@
   "remaining_tasks": [
     "exact-target correction priority and remaining citation expansion",
     "authentic runnable official native scorer interface",
-    "Landmark native asset/license",
+    "published random stream and normalization identity",
     "qualified native references/baselines",
     "Parent/Gate0/IPCG and complete G01",
     "approximately20 substantive independently reviewed method cards and whole-pool ranking",

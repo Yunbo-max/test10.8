@@ -6,7 +6,10 @@
 
 新的修正审查进一步确认：该动态反例可逐秩整数化，仍排除秩/维无关常数，但没有给出整数幅值或位长的多项式界，因此不触及带 `M` 参数的近似定理。在线 PCP 主来源和一个保守的二次秩依赖回退也已核验；该回退只在同时满足所有前缀 PCP 与样本数界的高概率事件上成立，并不是新算法。
 
-已完成一次真实 CPU 数据完整性准备作业（0.190072 秒 CPU，峰值 RSS 99,788 KiB），并保存输入、日志和 receipts。尚无数值基线比较、已验证新算法或合格新论文；准备作业不是科学实验分数。
+已完成并独立核验 Landmark 全文件机械完整性，以及 Rice/Skin 真实数据上
+8 个预声明 prefix 的评分恒等式检查。累计可归因进程 CPU 为 1.570273 秒，
+准备作业峰值 RSS 148,112 KiB；所有输入、日志、receipts 和原始 JSON 已保存。
+这些是来源/工程资格，不是数值基线胜负、已验证新算法或论文分数。
 
 - [固定版本反例](FORMAL_AUDIT_v2.md)与[两份独立审查及精确阈值说明](FORMAL_AUDIT_v2_REVIEW.md)
 - [动态更新扩展](FORMAL_AUDIT_v3_EXTENSION.md)、[条件数补充](CONDITION_SCOPE_SUPPLEMENT_DRAFT.md)与[独立审查](FORMAL_EXTENSION_REVIEWS.md)
@@ -14,11 +17,17 @@
 - [在线 PCP 来源和保守回退](SAMPLING_SOURCE_QUALIFICATION_20261009.md)与[独立复审记录](SAMPLING_SOURCE_QUALIFICATION_REVIEW.md)
 - [谱投影函数的主文献等价性核查](LITERATURE_EQUIVALENCE_20261009_3.md)
 - [真实 CPU 准备证据](PREPARATION_REVIEW_20261009.md)
+- [Landmark 来源与执行证据](LANDMARK_SOURCE_ACQUISITION_20261009.md)、[独立来源审查](LANDMARK_SOURCE_QUALIFICATION_REVIEW.md)与[完整性执行](LANDMARK_INTEGRITY_EXECUTION_20261009.md)
+- [作者归档与 scorer 缺口审计](AUTHOR_ARCHIVE_SCORER_AUDIT_20261009.md)
+- [Rice/Skin 身份计划审查](RICE_SKIN_IDENTITY_PLAN_REVIEW.md)与[执行证据](RICE_SKIN_IDENTITY_EXECUTION_20261009.md)
 - [基线修复源码审查](BASELINE_DRAFT_REVIEW.md)
 - [四类原生实验设计草案](NATIVE_PROTOCOL_DRAFT.md)
 - [新颖性初步核查](NOVELTY_PRELIMINARY_20261009.md)与[继续工作指引](RESUME.md)
 
-当前数值执行受官方可运行评分接口缺口和 Landmark 大文件读取限制阻塞。独立的形式证明、相关文献和下游定理依赖审查继续进行。
+Landmark 大文件读取限制已通过固定 author Git blob 解决；完整作者 tree/ZIP
+审计确认没有隐藏的独立官方 scorer。科学数值执行仍受官方可运行评分接口
+及其 parity 缺口、published random stream/normalization 身份和完整四类 G01
+阻塞。独立的形式证明、相关文献和下游定理依赖审查继续进行。
 
 成果位于 `Yunbo-max/test10.8` 的独立 `consistent-lra-rsi` 分支。仓库原来的持续学习项目仍由其原分支管理。该研究目标单独计时，不借用原项目的资源、审批或结果。
 

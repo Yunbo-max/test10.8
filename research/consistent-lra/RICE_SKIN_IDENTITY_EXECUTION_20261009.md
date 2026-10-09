@@ -20,9 +20,12 @@ scientific result.
 - Skin: attempt wall 1.5228 s, measured workload wall 0.3043 s, CPU 0.3038 s,
   max RSS 148,112 KiB.
 
-Numerical thread environment was capped at one by the caller.  The 512-MiB
-field was a reservation, not an OS RLIMIT; actual RSS is reported above.  The
-reservation is released.
+The controller invoked the harness with numerical thread environment variables
+set to one, but the frozen execution context did not capture those variables;
+this is a controller observation, not independently reproducible proof of OS
+affinity.  The 512-MiB field was a reservation, not an OS RLIMIT; actual RSS is
+reported above.  Completed harness state plus the budget ledger record the
+reservation as released, but there is no separate lease-release receipt.
 
 ## Raw identity observations
 
@@ -53,3 +56,18 @@ Both raw outputs state `scientific_gate_advanced=false` and
 successive selected prefixes, never claimed as total per-row streaming
 recourse.  Independent evidence review remains required before accepting this
 engineering qualification.
+
+## Independent evidence verdict
+
+Reviewer `/root/rice_skin_evidence_review` returned `accepted` against evidence
+candidate `7b5b71c9f3a7636e77c9bf969f388c6d0c6111ca` and assignment
+`36cab450c873e9de1c2c253b869cac71773be155`.  It independently recomputed both
+plan digests; verified exactly two serial first attempts, zero retries, all
+artifact hashes and root/workspace equality; rechecked every rank, prefix and
+tolerance from raw fields; and confirmed the label counts and engineering-only
+flags.  No code was executed and no files were written by the reviewer.
+
+The accepted scope is selected-prefix identity evidence only.  The uncaptured
+thread variables and lack of a separate lease-release receipt are retained as
+nonblocking evidence limitations.  This verdict does not establish an official
+scorer, total recourse, performance or any scientific gate.
