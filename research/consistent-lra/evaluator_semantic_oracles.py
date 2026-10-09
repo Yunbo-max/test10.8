@@ -128,7 +128,12 @@ def run(output: Path) -> int:
             "baseline_qualify.py": sha256(root / "baseline_qualify.py"),
             "REPAIR_CONTRACT_v1.md": sha256(root / "REPAIR_CONTRACT_v1.md"),
         },
-        "environment": {"python": platform.python_version(), "numpy": np.__version__},
+        "environment": {
+            "python": platform.python_version(),
+            "numpy": np.__version__,
+            "scipy": production.scipy.__version__,
+            "sklearn": production.sklearn.__version__,
+        },
         "checks": checks,
         "check_count": len(checks),
         "failure_count": sum(not check["passed"] for check in checks),

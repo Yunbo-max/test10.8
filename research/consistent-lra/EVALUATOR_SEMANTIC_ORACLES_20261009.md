@@ -37,10 +37,12 @@ The analytic cases avoid spectral ties at the selected cutoff. Tolerances are
 ## Finite execution boundary
 
 One engineering job, one attempt, no retry, one CPU reservation, 256 MiB and
-30 seconds. It uses only installed Python/NumPy, writes one JSON output, and is
+30 seconds. It uses only the already installed Python, NumPy, SciPy and
+scikit-learn stack, records all four versions, writes one JSON output, and is
 run by the pinned RSI native runner inside a single-task harness. No GPU,
 network, model service, package installation, paid resource or candidate method
-is involved.
+is involved. CPU and memory values are admission reservations, not claims of
+OS affinity or an RLIMIT.
 
 Passing all checks establishes only that the current repaired formulas agree
 with explicit finite-dimensional definitions on the frozen oracles. It does not
