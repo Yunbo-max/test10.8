@@ -28,7 +28,7 @@ unrelated main project and its budget were not used.
 
 ## Budget and scientific status
 
-At closeout there are 68 registered assignments, 14 executable preparation or
+At closeout there are 69 registered assignments, 14 executable preparation or
 qualification attempts, 0 discovery rounds, 0 admitted scientific experiments
 and 0 eligible papers. Observed process CPU is a 74.624432-second lower bound;
 all reservations are released. No GPU, paid service, container, new dependency
