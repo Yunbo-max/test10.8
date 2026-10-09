@@ -5,9 +5,9 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T10:03:44.902573+00:00",
+  "observed_at": "2026-10-09T10:07:51.082175+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 85,
+  "registered_task_assignments": 87,
   "executable_attempts_dispatched": 16,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
@@ -163,7 +163,9 @@
     "window02-geometric-formal-card-integration",
     "window02-geometric-formal-independent-review",
     "window02-landmark-stage-a-full-failure-review",
-    "window02-geometric-consecutive-conditioning-derivation"
+    "window02-geometric-consecutive-conditioning-derivation",
+    "window02-landmark-stage-a-output-mitigation-source-generation",
+    "window02-landmark-stage-a-output-mitigation-source-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -856,19 +858,32 @@
     "restored_source_commit": "feba4921a767e0e4163a4aec1bcb8bed335e445b",
     "status": "primary_reading_and_full_finite_construction_delivered_pending_independent_review"
   },
-  "pending_window02_geometric_review": {
-    "assignment": "window02-geometric-formal-independent-review",
-    "artifact": "FORMAL_AUDIT_v5_GEOMETRIC_DRAFT.md",
-    "sha256": "de008df475aba17eb4557fdeb5e7ed57d7843f79dd107ecbed686e40ef717ef5"
-  },
-  "pending_window02_full_evidence_review": {
-    "assignment": "window02-landmark-stage-a-full-failure-review",
-    "scope": "failure and source diagnosis; no successful qualification"
-  },
+  "pending_window02_geometric_review": null,
+  "pending_window02_full_evidence_review": null,
   "pending_window02_condition_derivation": {
     "assignment": "window02-geometric-consecutive-conditioning-derivation",
     "worker": "/root/window02_scorer_scope_review",
     "parent": "FORMAL_AUDIT_v5_GEOMETRIC_DRAFT.md",
     "scope": "separate proof only; no scientific dispatch"
+  },
+  "completed_window02_geometric_review": {
+    "assignment": "window02-geometric-formal-independent-review",
+    "reviewer": "/root/window02_geometric_formal_review",
+    "commit": "a32730715cf772e8c492b1bf880d6e58cbc35617",
+    "artifact_sha256": "de008df475aba17eb4557fdeb5e7ed57d7843f79dd107ecbed686e40ef717ef5",
+    "verdict": "accepted_exact_math_only_no_novelty_or_native_gate",
+    "record": "FORMAL_AUDIT_v5_REVIEW.md"
+  },
+  "completed_window02_full_failure_review": {
+    "assignment": "window02-landmark-stage-a-full-failure-review",
+    "reviewer": "/root/window02_stagea_source_review",
+    "commit": "ea09f11cb9f0e107290c02bdedbea014df2c6903",
+    "verdict": "accepted_failed_attempt_and_cost;rootcause_unproven",
+    "record": "LANDMARK_STAGE_A_FULL_FAILURE_REVIEW.md"
+  },
+  "pending_window02_mitigation_source_review": {
+    "assignment": "window02-landmark-stage-a-output-mitigation-source-review",
+    "contract": "LANDMARK_STAGE_A_OUTPUT_MITIGATION_v2.md",
+    "status": "awaiting_actual_generated_source"
   }
 }
