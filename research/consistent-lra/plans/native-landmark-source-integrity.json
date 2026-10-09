@@ -1,0 +1,63 @@
+{
+  "schema_id": "experiment-run-plan",
+  "schema_version": "1.0.0",
+  "run_id": "landmark-source-integrity-01",
+  "purpose": "engineering",
+  "evidence_mode": "developmental",
+  "protocol_ref": null,
+  "protocol_digest": null,
+  "output_root": "runs/attempts",
+  "provenance": {
+    "git_revision": "2dc532076a9a09541c975fd462a496edf6dd89e1",
+    "model_revision": "not_applicable_no_model_or_inference",
+    "data_revision": "samsonzhou/consistent-LRA@d607c4f6467216c470d1e3b93989d44d5fcdec97",
+    "environment_digest": "4562a986dcbac6a6ea0cbf20ce46f48570b5f64f35b2eef0000f9d97da6c996e",
+    "environment_refs": [
+      {
+        "path": "evidence/environment-preparation.json",
+        "sha256": "4562a986dcbac6a6ea0cbf20ce46f48570b5f64f35b2eef0000f9d97da6c996e"
+      }
+    ]
+  },
+  "limits": {
+    "max_attempts": 1,
+    "max_development_trials": 1,
+    "max_confirmation_trials": 0,
+    "max_retries_per_trial": 0,
+    "wall_time_seconds": 60,
+    "attempt_timeout_seconds": 60
+  },
+  "jobs": [
+    {
+      "trial_id": "landmark-source-integrity-01",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "inspect_landmark_source.py",
+        "--landmark",
+        "originals/landmark.mtx",
+        "--output",
+        "evidence/landmark-source-integrity.json"
+      ],
+      "cwd": ".",
+      "input_refs": [
+        {
+          "path": "originals/landmark.mtx",
+          "sha256": "29fb87018e59049a52314c847c5ac2a4eaa3b875f7cd8467621fe074fbbc298b"
+        }
+      ],
+      "code_refs": [
+        {
+          "path": "inspect_landmark_source.py",
+          "sha256": "fbace7373933a792f9796e1d735047aaa149a25a9236cbe248804c9d8d2eece4"
+        }
+      ],
+      "output_paths": [
+        "evidence/landmark-source-integrity.json"
+      ],
+      "seed": 0,
+      "group": "mechanical-landmark-source-qualification",
+      "arm_role": "preparation"
+    }
+  ],
+  "plan_digest": "924ec160b40fed5973c93dd6fd12c3fc6b58bfe443b1e6b4568a546240d661c3"
+}

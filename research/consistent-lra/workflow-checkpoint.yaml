@@ -54,7 +54,7 @@ completed:
   - independent_source_audit_of_four_author_scripts
   - independent_work_host_capability_audit
 pending:
-  - correction_rereview_and_mechanical_integrity_of_acquired_Landmark_blob
+  - bounded_mechanical_integrity_of_reviewed_Landmark_blob
   - complete_Landmark_asset_and_random_normalization_identity_join
   - authentic_upstream_runnable_scorer_interface_and_parity_admission
   - existing_paper_lemma_downstream_implications_and_complete_collision_audit
@@ -83,7 +83,8 @@ actual_scientific_attempts: 0
 actual_discovery_rounds: 0
 actual_observed_process_cpu_seconds: 0.190072
 actual_max_preparation_rss_kib: 99788
-unreleased_reservations: []
+unreleased_reservations:
+  - landmark-source-integrity-01
 formal_counterexample_artifact: FORMAL_AUDIT_v2.md
 formal_counterexample_sha256: 0cbf0413e49df6f81e135219f0cb6ea994129167d2f900dfc5594bdb0d90d477
 formal_review_record: FORMAL_AUDIT_v2_REVIEW.md
@@ -109,3 +110,7 @@ landmark_source_acquisition_draft: LANDMARK_SOURCE_ACQUISITION_20261009.md
 landmark_source_inspector_draft: inspect_landmark_source.py
 landmark_source_initial_review: LANDMARK_SOURCE_QUALIFICATION_REVIEW.md
 landmark_source_initial_verdict: needs_correction
+landmark_source_correction_rereview: accepted
+landmark_source_corrected_candidate: 2dc532076a9a09541c975fd462a496edf6dd89e1
+landmark_source_native_plan: plans/native-landmark-source-integrity.json
+landmark_source_harness_plan: plans/harness-landmark-source-integrity.json

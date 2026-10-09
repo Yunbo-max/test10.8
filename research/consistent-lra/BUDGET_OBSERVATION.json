@@ -5,7 +5,7 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-08T23:47:45Z",
   "deadline_utc": "2026-10-09T07:47:45Z",
-  "observed_at": "2026-10-09T02:05:00+00:00",
+  "observed_at": "2026-10-09T02:16:00+00:00",
   "controller_rounds": 1,
   "registered_task_assignments": 16,
   "executable_attempts_dispatched": 1,
@@ -24,6 +24,18 @@
     "released": true,
     "actual_workload_wall_seconds": 0.16511069000262069,
     "actual_max_rss_kib": 99788
+  },
+  "pending_reservation": {
+    "task": "landmark-source-integrity-01",
+    "purpose": "mechanical_preparation_only",
+    "cpu_cores": 1,
+    "ram_mib": 512,
+    "wall_seconds_upper_bound": 60,
+    "cpu_seconds_upper_bound": 60,
+    "attempts": 1,
+    "released": false,
+    "native_plan_digest": "924ec160b40fed5973c93dd6fd12c3fc6b58bfe443b1e6b4568a546240d661c3",
+    "harness_plan_digest": "b669223f69923da2f7a47d03ffd142d8407a0df24449a8062c4df53bc6395252"
   },
   "failure_history": [
     {
@@ -64,7 +76,7 @@
     "path": "runs/attempts/source-integrity-01/receipt.json",
     "sha256": "abe68964844ec38e356b6c1573f615ea6319756185361d4a0eedf49dbbb0d378"
   },
-  "remaining_wall_seconds_at_observation": 20565,
+  "remaining_wall_seconds_at_observation": 19905,
   "verified_scientific_failures_by_direction": {},
   "source_corrections_note": "Source drafting corrections are retained separately; no failed scientific attempt or candidate repair was run.",
   "formal_review_assignments_completed": true,
@@ -72,8 +84,8 @@
   "completed_formal_review": "integer-density-extension-correction-re-review:accepted",
   "pending_source_review": null,
   "completed_source_review": "sampling-source-qualification-correction-re-review:accepted",
-  "pending_asset_review": "landmark-source-qualification-correction-rereview",
-  "completed_asset_review": "landmark-source-qualification-independent-review:needs_correction",
+  "pending_asset_review": null,
+  "completed_asset_review": "landmark-source-qualification-correction-rereview:accepted_after_recorded_needs_correction",
   "latest_resource_observation": {
     "observed_at": "2026-10-09T01:02:08+00:00",
     "cpu_max": "800000 100000",
