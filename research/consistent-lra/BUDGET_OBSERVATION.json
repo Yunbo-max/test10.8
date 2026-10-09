@@ -5,15 +5,15 @@
   "source_code_commit": "c80b84cf251ef1b9379cb3797373159ad23dc3f5",
   "window_anchor_utc": "2026-10-09T09:15:43Z",
   "deadline_utc": "2026-10-09T17:15:43Z",
-  "observed_at": "2026-10-09T09:38:13.957758+00:00",
+  "observed_at": "2026-10-09T09:40:42.032248+00:00",
   "controller_rounds": 2,
-  "registered_task_assignments": 76,
-  "executable_attempts_dispatched": 14,
+  "registered_task_assignments": 77,
+  "executable_attempts_dispatched": 15,
   "discovery_rounds": 0,
   "scientific_experiments_dispatched": 0,
   "eligible_papers": 0,
-  "observed_process_cpu_seconds": 74.624432,
-  "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound",
+  "observed_process_cpu_seconds": 82.365205,
+  "observed_process_cpu_seconds_semantics": "lower_bound: includes exact final-repair 22.408896 seconds and Landmark reference calibration 1.421907 seconds, but repair-01 aggregate remains a per-arm lower bound; window02 measured waited harness+descendants delta included",
   "reservation": {
     "task": "source-integrity-01",
     "purpose": "mechanical_preparation_only",
@@ -145,7 +145,8 @@
     "window02-landmark-stage-a-source-review",
     "window02-landmark-stage-a-calibration-plan-generation",
     "window02-landmark-stage-a-calibration-plan-review",
-    "window02-landmark-stage-a-calibration-execution"
+    "window02-landmark-stage-a-calibration-execution",
+    "window02-landmark-stage-a-calibration-evidence-review"
   ],
   "note": "Planning observations only, not forged canonical task states, gate approval or a deployed RSI controller. Source review agents consume shared wall window; no model API billing measured.",
   "preparation_receipt_ref": {
@@ -156,7 +157,7 @@
     "path": "runs/attempts/landmark-source-integrity-01/receipt.json",
     "sha256": "a535fc7f3da44abd05f19b9614f71d2122eabe32e40ad57d1bcf53703115fa00"
   },
-  "remaining_wall_seconds_at_observation": 27449.042242,
+  "remaining_wall_seconds_at_observation": 27300.967752,
   "fd_evidence_remaining_wall_correction": {
     "deadline_utc": "2026-10-09T07:47:45Z",
     "evidence_observed_at": "2026-10-09T03:08:34Z",
@@ -778,18 +779,25 @@
     "ram_mib_reserved_not_enforced": 1024,
     "wall_seconds_upper_bound": 180,
     "attempts_reserved": 1,
-    "attempts_launched": 0,
-    "released": false,
+    "attempts_launched": 1,
+    "released": true,
     "execution_admitted": true,
     "native_plan_digest": "6e1a07e0714ae8deecb67dd5197516f0b90c6be7d40f3dc60452b34e4e16918f",
     "harness_plan_digest": "b574cc87b849d9ef3e8b29ef4395c4de6588c59baa5d9e478a87834cdbab3606",
     "scope": "native_numerical_identity_and_all_arm_cost_only",
-    "execution_started": false,
-    "plan_review": "LANDMARK_STAGE_A_CALIBRATION_PLAN_REVIEW.md"
+    "execution_started": true,
+    "plan_review": "LANDMARK_STAGE_A_CALIBRATION_PLAN_REVIEW.md",
+    "attempts_completed": 1,
+    "execution_status": "completed_pending_independent_evidence_review",
+    "release_basis": "terminal harness state/receipt,guard_completed_no_remaining_process_group",
+    "waited_process_tree_cpu_seconds": 7.740773,
+    "actual_harness_wall_seconds": 8.170636071001354,
+    "maximum_child_rss_kib": 168348
   },
   "completed_window02_plan_review": {
     "assignment": "window02-landmark-stage-a-calibration-plan-review",
     "commit": "4052a9686c7910366611d0b889626e98c51ea2ae",
     "verdict": "accepted_one_calibration_only"
-  }
+  },
+  "pending_window02_calibration_evidence_review": "window02-landmark-stage-a-calibration-evidence-review"
 }
