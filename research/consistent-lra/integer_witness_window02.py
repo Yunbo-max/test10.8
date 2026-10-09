@@ -157,14 +157,26 @@ def main():
             if actual != expected_hash:
                 raise ValueError('input_hash_mismatch:'+name)
             provenance[name] = dict(path=str(path),bytes=len(data),sha256=actual)
-        rows = []
+        rows = []; intended_hash = hashlib.sha256(); intended_length = 0
         for k in args.ranks:
             row = witness(k,context)
             row['provenance'] = provenance
-            write_all(stream,encoded(row)); rows.append(row)
+            intended = encoded(row)
+            intended_hash.update(intended); intended_length += len(intended)
+            write_all(stream,intended); rows.append(row)
             context['recorded_rank_count'] = len(rows)
         stream.close()
+        expected_hash = intended_hash.hexdigest()
+        context.update(expected_records_sha256=expected_hash,expected_records_bytes=intended_length)
+        partial_data = partial.read_bytes()
+        if len(partial_data) != intended_length or sha(partial_data) != expected_hash:
+            raise ValueError('intended_partial_bytes_mismatch')
+        decoded_rows = [json.loads(line) for line in partial_data.splitlines()]
+        if decoded_rows != rows or [r['k'] for r in decoded_rows] != [1,2,61] or len(decoded_rows) != 3 or sum(len(r['diagonal_integers'])+len(r['appended_row_integers']) for r in decoded_rows) != 256:
+            raise ValueError('rank_inventory_semantic_readback')
         output_ref = finalize(partial,final)
+        if output_ref['bytes'] != intended_length or output_ref['sha256'] != expected_hash:
+            raise ValueError('intended_final_bytes_mismatch')
         after = resource.getrusage(resource.RUSAGE_SELF)
         summary = dict(format='exact-integer-witness-summary-v1',ranks=args.ranks,
                        rank_records=len(rows),integer_entries=sum(4*r['k'] for r in rows),
@@ -184,7 +196,20 @@ def main():
     except BaseException as err:
         if not stream.closed:
             stream.flush(); os.fsync(stream.fileno()); stream.close()
-        failure = dict(context=context,error_type=type(err).__name__,error=str(err),
+        summary_path = args.output_directory/'integer-witnesses-summary.json'
+        quarantined_summary = None
+        if summary_path.exists():
+            failed_path = args.output_directory/'integer-witnesses-summary.failed.json'
+            intended_summary_bytes = summary_path.read_bytes()
+            os.link(summary_path,failed_path)
+            if failed_path.read_bytes() != intended_summary_bytes:
+                raise ValueError('failure_summary_quarantine_readback') from err
+            summary_path.unlink()
+            fd = os.open(args.output_directory,os.O_RDONLY | os.O_DIRECTORY)
+            try:os.fsync(fd)
+            finally:os.close(fd)
+            quarantined_summary = dict(path=failed_path.name,bytes=len(intended_summary_bytes),sha256=sha(intended_summary_bytes))
+        failure = dict(context=context,quarantined_summary=quarantined_summary,error_type=type(err).__name__,error=str(err),
                        partial_records_path=partial.name if partial.exists() else final.name,
                        success=False,**FLAGS)
         publish(args.output_directory/'integer-witnesses-failure.json',encoded(failure))
