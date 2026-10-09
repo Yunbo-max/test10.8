@@ -34,6 +34,11 @@ and 0 eligible papers. Observed process CPU is a 74.624432-second lower bound;
 all reservations are released. No GPU, paid service, container, new dependency
 or Hugging Face destination was used.
 
+An independent closeout consistency review accepted the corrected ledger at
+commit `58767805ca136602aa17328ff79a30155fdb9ed6`: all 69 task identities were
+unique, every recorded reservation was released, and a complete tree comparison
+found every branch change confined to `research/consistent-lra/`.
+
 ## Decision and remaining blockers
 
 Machine Step 7 remains **2**: continue paper/code/benchmark reading and native
