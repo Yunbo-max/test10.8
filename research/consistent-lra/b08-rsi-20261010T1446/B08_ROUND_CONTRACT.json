@@ -1,0 +1,18 @@
+{
+  "study": "B08-native512-operational-timing",
+  "workflow_source": "Yunbo-max/Research_Autopilot@7af53173bbd69726877ca04fb77b9466ef1b839d",
+  "decision_workflow": "autonomous-rsi",
+  "command_transport_digest": "97cdb752027748261c1d6a11980d10d7a46f2c79c2a00e975f0c08d2c8847893",
+  "max_attempts": 32,
+  "max_command_seconds": 600,
+  "deadline_seconds": 1500,
+  "max_concurrency": 1,
+  "per_task_timeout_seconds": 120,
+  "resource": {
+    "cgroup_cpu": 8,
+    "cgroup_memory_bytes": 8589934592,
+    "rlimit_as_bytes": 2147483648,
+    "numeric_threads": 1
+  },
+  "full_sqlite_acp_supervisor_deployed": false
+}

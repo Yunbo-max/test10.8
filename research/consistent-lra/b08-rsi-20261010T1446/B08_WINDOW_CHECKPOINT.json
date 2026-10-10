@@ -1,0 +1,50 @@
+{
+  "project": "consistent-lra-cpu",
+  "study": "B08-native512-operational-timing-20261010T1446",
+  "overall_status": "continuation_pending",
+  "decision_workflow": "autonomous-rsi@7af53173bbd69726877ca04fb77b9466ef1b839d",
+  "command_transport_digest": "97cdb752027748261c1d6a11980d10d7a46f2c79c2a00e975f0c08d2c8847893",
+  "full_sqlite_acp_supervisor_deployed": false,
+  "scientific_attempts": 13,
+  "succeeded": 13,
+  "failed": 0,
+  "command_wall_seconds": 178.79976894601714,
+  "measured_cpu_seconds_lower_bound": 176.883898157,
+  "peak_rss_kib": 129420,
+  "reservation_seconds": 0,
+  "native_rows": 512,
+  "native_dimension": 2704,
+  "rank": 25,
+  "repeats_per_cell": 3,
+  "cells": {
+    "eta_0.01": {
+      "baseline_queries_after_growth": 408,
+      "fd50_queries_after_growth": 222,
+      "refreshes_after_growth": 222,
+      "baseline_cpu_seconds": [25.225922533000002, 25.890586956, 25.542848055],
+      "fd50_cpu_seconds": [14.407429531999998, 13.743639389999998, 13.618117261],
+      "median_paired_cpu_saved_seconds": 11.924730794,
+      "median_paired_baseline_over_fd": 1.8756519396517775
+    },
+    "eta_0.1": {
+      "baseline_queries_after_growth": 205,
+      "fd50_queries_after_growth": 100,
+      "refreshes_after_growth": 100,
+      "baseline_cpu_seconds": [12.860473164, 12.021430245, 11.722737277],
+      "fd50_cpu_seconds": [7.274237983, 6.950906388, 7.147658029],
+      "median_paired_cpu_saved_seconds": 5.0705238569999995,
+      "median_paired_baseline_over_fd": 1.7294766428956256
+    }
+  },
+  "audit_pass": true,
+  "verified_operational_runs": 12,
+  "refresh_mask_differences": 0,
+  "new_method": false,
+  "novelty_established": false,
+  "independent_experiment_confirmation": false,
+  "paper_ready": false,
+  "writer_state": "released",
+  "pending_run_ids": [],
+  "live_scientific_processes_observed_at_handoff": 0,
+  "next_action": "Step2/3 continue primary collision and about20-to15 verified candidate discovery for certified approximate refresh. Step4/5 add stronger incremental or warm-start exact-query comparator and prospectively freeze native1024 resource calibration before any native5000 protocol; retain per-command120s and cumulative limits. Newton remains retired."
+}

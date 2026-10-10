@@ -1,0 +1,18 @@
+{
+  "failures": [
+    {
+      "stage": "controller_init_pre_science",
+      "error": "Config requires idea, goal, limits and optional agent_command",
+      "repair": "Added the required idea and nested limits object before successful initialization",
+      "scientific_attempt_created": false,
+      "reservation_seconds": 0
+    },
+    {
+      "stage": "repeat_plan_validation_pre_dispatch",
+      "error": "Unknown task phase: timing",
+      "repair": "Changed only the runner journal phase label to supported diagnostic; scientific commands, order, inputs and outputs unchanged",
+      "scientific_attempt_created": false,
+      "reservation_seconds": 0
+    }
+  ]
+}
