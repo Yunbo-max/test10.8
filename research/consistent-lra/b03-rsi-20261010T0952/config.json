@@ -1,0 +1,10 @@
+{
+  "idea": "residual-trigger",
+  "goal": "B03 validate and optimize existing boundary solver; overall research continues",
+  "limits": {
+    "max_attempts": 8,
+    "max_command_seconds": 600,
+    "deadline_seconds": 1800,
+    "max_concurrency": 1
+  }
+}

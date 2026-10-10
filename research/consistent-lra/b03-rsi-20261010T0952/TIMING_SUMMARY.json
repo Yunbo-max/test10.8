@@ -1,0 +1,403 @@
+{
+  "study": "B03",
+  "complete_cells": 30,
+  "whole_method_runs": 450,
+  "faster_than_legacy_cells": 24,
+  "faster_than_full_cells": 0,
+  "median_legacy_over_newton": 1.1349257660194068,
+  "min_legacy_over_newton": 0.9107610041372258,
+  "max_legacy_over_newton": 1.6941714833302333,
+  "dataset_medians": {
+    "skin": {
+      "legacy_over_newton": 0.9859912867539734,
+      "full_over_newton": 0.2585353674244101
+    },
+    "rice": {
+      "legacy_over_newton": 1.1844268555388755,
+      "full_over_newton": 0.08121658249335717
+    },
+    "wine": {
+      "legacy_over_newton": 1.5653728382244725,
+      "full_over_newton": 0.10696238269874161
+    },
+    "cancer": {
+      "legacy_over_newton": 1.1743320836484166,
+      "full_over_newton": 0.15145133561597057
+    },
+    "digits": {
+      "legacy_over_newton": 1.1074091682252343,
+      "full_over_newton": 0.1960559434073569
+    }
+  },
+  "cells": [
+    {
+      "dataset": "skin",
+      "k": 1,
+      "eta": 0.01,
+      "median_cpu": {
+        "certified_full": 0.03300691499999964,
+        "legacy": 0.22026412900000003,
+        "newton": 0.2216228090000001
+      },
+      "legacy_over_newton": 0.9938694035774989,
+      "full_over_newton": 0.1489328429187071
+    },
+    {
+      "dataset": "skin",
+      "k": 1,
+      "eta": 0.03,
+      "median_cpu": {
+        "certified_full": 0.025468550999999895,
+        "legacy": 0.08314005599999952,
+        "newton": 0.07497333999999967
+      },
+      "legacy_over_newton": 1.1089282670346539,
+      "full_over_newton": 0.33970143253588553
+    },
+    {
+      "dataset": "skin",
+      "k": 1,
+      "eta": 0.1,
+      "median_cpu": {
+        "certified_full": 0.029348947999999986,
+        "legacy": 0.07222722100000034,
+        "newton": 0.06740612499999976
+      },
+      "legacy_over_newton": 1.0715231145537678,
+      "full_over_newton": 0.4354047647747158
+    },
+    {
+      "dataset": "skin",
+      "k": 2,
+      "eta": 0.01,
+      "median_cpu": {
+        "certified_full": 0.032565670000000324,
+        "legacy": 0.20610278099999935,
+        "newton": 0.22075894899999948
+      },
+      "legacy_over_newton": 0.9336100843640084,
+      "full_over_newton": 0.14751687371006827
+    },
+    {
+      "dataset": "skin",
+      "k": 2,
+      "eta": 0.03,
+      "median_cpu": {
+        "certified_full": 0.028685314000000517,
+        "legacy": 0.13344464000000045,
+        "newton": 0.13643067499999972
+      },
+      "legacy_over_newton": 0.978113169930448,
+      "full_over_newton": 0.2102556041740655
+    },
+    {
+      "dataset": "skin",
+      "k": 2,
+      "eta": 0.1,
+      "median_cpu": {
+        "certified_full": 0.027949251000000785,
+        "legacy": 0.08296555600000133,
+        "newton": 0.0910947610000008
+      },
+      "legacy_over_newton": 0.9107610041372258,
+      "full_over_newton": 0.30681513067475463
+    },
+    {
+      "dataset": "rice",
+      "k": 1,
+      "eta": 0.01,
+      "median_cpu": {
+        "certified_full": 0.03960313899999868,
+        "legacy": 0.4380146870000008,
+        "newton": 0.2999927979999999
+      },
+      "legacy_over_newton": 1.4600840084167652,
+      "full_over_newton": 0.13201363254060083
+    },
+    {
+      "dataset": "rice",
+      "k": 1,
+      "eta": 0.03,
+      "median_cpu": {
+        "certified_full": 0.03354906899999932,
+        "legacy": 0.42400380799999837,
+        "newton": 0.30999554699999976
+      },
+      "legacy_over_newton": 1.3677738667646044,
+      "full_over_newton": 0.10822435781633775
+    },
+    {
+      "dataset": "rice",
+      "k": 1,
+      "eta": 0.1,
+      "median_cpu": {
+        "certified_full": 0.030764217999998067,
+        "legacy": 0.31322179700000063,
+        "newton": 0.20388637799999998
+      },
+      "legacy_over_newton": 1.536256615437058,
+      "full_over_newton": 0.15088903094839456
+    },
+    {
+      "dataset": "rice",
+      "k": 3,
+      "eta": 0.01,
+      "median_cpu": {
+        "certified_full": 0.0375893430000005,
+        "legacy": 0.6845537539999995,
+        "newton": 0.7200339480000011
+      },
+      "legacy_over_newton": 0.9507242761281562,
+      "full_over_newton": 0.05220495936949967
+    },
+    {
+      "dataset": "rice",
+      "k": 3,
+      "eta": 0.03,
+      "median_cpu": {
+        "certified_full": 0.03282214099999692,
+        "legacy": 0.6061299909999995,
+        "newton": 0.6054761709999994
+      },
+      "legacy_over_newton": 1.0010798443131466,
+      "full_over_newton": 0.05420880717037657
+    },
+    {
+      "dataset": "rice",
+      "k": 3,
+      "eta": 0.1,
+      "median_cpu": {
+        "certified_full": 0.03230389100000508,
+        "legacy": 0.5821609139999993,
+        "newton": 0.6024677589999996
+      },
+      "legacy_over_newton": 0.9662938892635409,
+      "full_over_newton": 0.05361928587452445
+    },
+    {
+      "dataset": "wine",
+      "k": 1,
+      "eta": 0.01,
+      "median_cpu": {
+        "certified_full": 0.0051380019999953674,
+        "legacy": 0.0634013539999998,
+        "newton": 0.03957845300000429
+      },
+      "legacy_over_newton": 1.6019159212714285,
+      "full_over_newton": 0.12981816141208982
+    },
+    {
+      "dataset": "wine",
+      "k": 1,
+      "eta": 0.03,
+      "median_cpu": {
+        "certified_full": 0.004078651000000377,
+        "legacy": 0.058391211,
+        "newton": 0.03446593900000039
+      },
+      "legacy_over_newton": 1.6941714833302333,
+      "full_over_newton": 0.1183386009010325
+    },
+    {
+      "dataset": "wine",
+      "k": 1,
+      "eta": 0.1,
+      "median_cpu": {
+        "certified_full": 0.003103312999996888,
+        "legacy": 0.04494303199999905,
+        "newton": 0.02742864900000086
+      },
+      "legacy_over_newton": 1.638543407661006,
+      "full_over_newton": 0.11314129981381112
+    },
+    {
+      "dataset": "wine",
+      "k": 4,
+      "eta": 0.01,
+      "median_cpu": {
+        "certified_full": 0.005053056000001277,
+        "legacy": 0.07665208099999887,
+        "newton": 0.05013774800000448
+      },
+      "legacy_over_newton": 1.5288297551775167,
+      "full_over_newton": 0.10078346558367211
+    },
+    {
+      "dataset": "wine",
+      "k": 4,
+      "eta": 0.03,
+      "median_cpu": {
+        "certified_full": 0.004530600999999024,
+        "legacy": 0.07922372499999852,
+        "newton": 0.05490168499999726
+      },
+      "legacy_over_newton": 1.4430108110525657,
+      "full_over_newton": 0.08252207559748394
+    },
+    {
+      "dataset": "wine",
+      "k": 4,
+      "eta": 0.1,
+      "median_cpu": {
+        "certified_full": 0.00372701900000294,
+        "legacy": 0.07446762000000007,
+        "newton": 0.05426442399999587
+      },
+      "legacy_over_newton": 1.3723101529651496,
+      "full_over_newton": 0.06868254973098441
+    },
+    {
+      "dataset": "cancer",
+      "k": 4,
+      "eta": 0.01,
+      "median_cpu": {
+        "certified_full": 0.027741073000001393,
+        "legacy": 0.17746309500000024,
+        "newton": 0.14625385199999386
+      },
+      "legacy_over_newton": 1.2133909129450327,
+      "full_over_newton": 0.18967755461239105
+    },
+    {
+      "dataset": "cancer",
+      "k": 4,
+      "eta": 0.03,
+      "median_cpu": {
+        "certified_full": 0.017975786000000937,
+        "legacy": 0.13621451799999562,
+        "newton": 0.10507015800000374
+      },
+      "legacy_over_newton": 1.2964148964160762,
+      "full_over_newton": 0.17108364869880843
+    },
+    {
+      "dataset": "cancer",
+      "k": 4,
+      "eta": 0.1,
+      "median_cpu": {
+        "certified_full": 0.013168764999996085,
+        "legacy": 0.09532900699999658,
+        "newton": 0.07525119299999972
+      },
+      "legacy_over_newton": 1.2668105740196962,
+      "full_over_newton": 0.17499742495771642
+    },
+    {
+      "dataset": "cancer",
+      "k": 12,
+      "eta": 0.01,
+      "median_cpu": {
+        "certified_full": 0.027630659000003277,
+        "legacy": 0.23389899000000014,
+        "newton": 0.20961055899999792
+      },
+      "legacy_over_newton": 1.1158740815151516,
+      "full_over_newton": 0.13181902253313274
+    },
+    {
+      "dataset": "cancer",
+      "k": 12,
+      "eta": 0.03,
+      "median_cpu": {
+        "certified_full": 0.018936541999998724,
+        "legacy": 0.18073834799999844,
+        "newton": 0.1593000250000003
+      },
+      "legacy_over_newton": 1.134578277687013,
+      "full_over_newton": 0.11887344022700994
+    },
+    {
+      "dataset": "cancer",
+      "k": 12,
+      "eta": 0.1,
+      "median_cpu": {
+        "certified_full": 0.012611948999996514,
+        "legacy": 0.12033461800000111,
+        "newton": 0.10599617100000103
+      },
+      "legacy_over_newton": 1.1352732543518005,
+      "full_over_newton": 0.11898494899401972
+    },
+    {
+      "dataset": "digits",
+      "k": 4,
+      "eta": 0.01,
+      "median_cpu": {
+        "certified_full": 0.18253987100000302,
+        "legacy": 0.7359027680000025,
+        "newton": 0.6632177020000043
+      },
+      "legacy_over_newton": 1.10959458075502,
+      "full_over_newton": 0.2752337135295611
+    },
+    {
+      "dataset": "digits",
+      "k": 4,
+      "eta": 0.03,
+      "median_cpu": {
+        "certified_full": 0.12215851300000224,
+        "legacy": 0.5662704809999894,
+        "newton": 0.4942225599999972
+      },
+      "legacy_over_newton": 1.1457803160584021,
+      "full_over_newton": 0.24717308129358348
+    },
+    {
+      "dataset": "digits",
+      "k": 4,
+      "eta": 0.1,
+      "median_cpu": {
+        "certified_full": 0.08045596299999147,
+        "legacy": 0.41296203900000705,
+        "newton": 0.3805430350000023
+      },
+      "legacy_over_newton": 1.0851914265097626,
+      "full_over_newton": 0.21142408505779375
+    },
+    {
+      "dataset": "digits",
+      "k": 16,
+      "eta": 0.01,
+      "median_cpu": {
+        "certified_full": 0.2315821880000044,
+        "legacy": 1.5054349449999904,
+        "newton": 1.2816702939999942
+      },
+      "legacy_over_newton": 1.1745883103068917,
+      "full_over_newton": 0.18068780175692006
+    },
+    {
+      "dataset": "digits",
+      "k": 16,
+      "eta": 0.03,
+      "median_cpu": {
+        "certified_full": 0.151583813000002,
+        "legacy": 1.2236827019999907,
+        "newton": 1.1581452439999964
+      },
+      "legacy_over_newton": 1.0565882891973388,
+      "full_over_newton": 0.13088497646155553
+    },
+    {
+      "dataset": "digits",
+      "k": 16,
+      "eta": 0.1,
+      "median_cpu": {
+        "certified_full": 0.07329114499999889,
+        "legacy": 0.746049352,
+        "newton": 0.6750210969999983
+      },
+      "legacy_over_newton": 1.1052237556954487,
+      "full_over_newton": 0.10857608054878183
+    }
+  ],
+  "usage": {
+    "wall_seconds": 106.42506994499854,
+    "cpu_seconds": 106.41216761,
+    "peak_rss_kib": 132656
+  },
+  "source_sha256": "1b2f0a9ee4d2e984331019302ef778d0eb93802daf497d553bebfd9b42601ed4",
+  "fast_source_sha256": "a57eae949245765362062b063fb00d9f159c30d1cebab52204e97a6c3b5ccfc7",
+  "base_source_sha256": "73d2ecceaf73e8fe43c1c9c0534678541892ae7b35a038ca3215a098187e970e",
+  "raw_timing_sha256": "8ff32bc6e72901def7f1555d8f3dd3ed4e5588519e06febd41feff30981397eb"
+}

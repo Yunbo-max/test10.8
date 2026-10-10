@@ -1,0 +1,101 @@
+{
+  "study_id": "B03-RSI-independent-20261010T0952",
+  "scope": "source,prospective designs,independent review and summary evidence",
+  "entries": [
+    {
+      "path": "B03_DESIGN.md",
+      "sha256": "c60ad554d4db3773915bb61f8300bc1f834ca15d455ebd719b1610cc9f4d7c09",
+      "size_bytes": 5048
+    },
+    {
+      "path": "B03_DESIGN_V2.md",
+      "sha256": "566b79b659cef53c13f38309e53e56894b8d767a2c37edf5a7cd09791c9fb5b7",
+      "size_bytes": 2144
+    },
+    {
+      "path": "COORDINATION_RECONCILIATION.json",
+      "sha256": "d35dcbbaa0c0f97e5792a95fd3277fa79dd7abd63ec379f8a2df2ba6096a2b63",
+      "size_bytes": 783
+    },
+    {
+      "path": "ENVIRONMENT.json",
+      "sha256": "db3bdcd51c7d1ac835f0699e1ff0d4f4ec4ef190ffbda059a6f5093e27a37b02",
+      "size_bytes": 548
+    },
+    {
+      "path": "INDEPENDENT_REVIEW.md",
+      "sha256": "410926ef8cfba55126775fae020d282a28a34b288a833f82a210b98de1a91559",
+      "size_bytes": 38605
+    },
+    {
+      "path": "LANDMARK_SOURCE_REVIEW.md",
+      "sha256": "a8fb1763c0c59c51979fca3336c36c4a927c765976f1cbb39cb0ccb1bc1417a5",
+      "size_bytes": 12907
+    },
+    {
+      "path": "PARITY.json",
+      "sha256": "325f2648c37a78a64d4e9a5e6bd610ef788993122fd5b0d859bd958716d84b9c",
+      "size_bytes": 61484
+    },
+    {
+      "path": "RAW_EVIDENCE.json",
+      "sha256": "ea54f95c0b26f302b08639d499ed6cf706f60191aca6df0d6b63f0763d836ad2",
+      "size_bytes": 669
+    },
+    {
+      "path": "README.md",
+      "sha256": "d21ce4f28aebf1a4f0ec015271c233eeb9633cb0c56ae10db3bfddecf1dceb08",
+      "size_bytes": 2102
+    },
+    {
+      "path": "REPORT.zh-CN.md",
+      "sha256": "0a871db654effc5d511c03d5beb402c3054ac7136e10ff2bb333329f1f8b082b",
+      "size_bytes": 6515
+    },
+    {
+      "path": "STEP7_DECISION.json",
+      "sha256": "8f6c85ce62646306c409ad8ff17e9e0be1a918693a4bd6c70205a90e13819d09",
+      "size_bytes": 1566
+    },
+    {
+      "path": "TIMING_SUMMARY.json",
+      "sha256": "36b8d7ee9dafb2bf7d097a32ee9a0c18a35e57f35e4d314243846db53e53ac85",
+      "size_bytes": 10971
+    },
+    {
+      "path": "WINDOW_CHECKPOINT.json",
+      "sha256": "ccd9525b8efaa9cdd8188af35bfda384056363472e0f9dbef0d1877767c0b118",
+      "size_bytes": 2949
+    },
+    {
+      "path": "baseline/matrix_study.py",
+      "sha256": "73d2ecceaf73e8fe43c1c9c0534678541892ae7b35a038ca3215a098187e970e",
+      "size_bytes": 12951
+    },
+    {
+      "path": "config.json",
+      "sha256": "5015b7f7020a832e28b95117df2f2dc3712021e0630ae47f93c25d6387158c09",
+      "size_bytes": 253
+    },
+    {
+      "path": "fast_boundary.py",
+      "sha256": "a57eae949245765362062b063fb00d9f159c30d1cebab52204e97a6c3b5ccfc7",
+      "size_bytes": 2745
+    },
+    {
+      "path": "geodesic_math_review.md",
+      "sha256": "0331ce68a41ac5f2539fb176e3934ea17f2c6a6f785de62ccef9fb50ee5fef67",
+      "size_bytes": 21429
+    },
+    {
+      "path": "test_solver.py",
+      "sha256": "eaba11edc3b61fbaafb368a7ee21919c6727c3f806939ca493fe272058628c50",
+      "size_bytes": 2578
+    },
+    {
+      "path": "validate_and_time.py",
+      "sha256": "1b2f0a9ee4d2e984331019302ef778d0eb93802daf497d553bebfd9b42601ed4",
+      "size_bytes": 8866
+    }
+  ]
+}

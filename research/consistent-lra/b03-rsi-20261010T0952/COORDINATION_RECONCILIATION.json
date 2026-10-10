@@ -1,0 +1,15 @@
+{
+  "observed_at_utc": "2026-10-10T10:11:54.623271+00:00",
+  "initial_index_version": 14,
+  "newer_index_version": 15,
+  "newer_index_sha256": "be8815e0668915a8f112fb17e6d0aeecea579da4737064f41c72cd429f73c22e",
+  "primary_B03": "continuation-13-b03-solvers-20261010T0941",
+  "this_B03": "B03-RSI-independent-20261010T0952",
+  "supplemental_report_id": "libfile_4178ec98fea08191a091dd363ba2a6c8",
+  "overlap_is_not_independent_confirmation": true,
+  "this_variant_does_not_replace_primary_solver": true,
+  "master_update_must_merge_from_v15_or_newer": true,
+  "workflow_choice": "current user explicitly chose autonomous-rsi;preserve all Simple execution history and finite budgets",
+  "timing_host_exclusivity_not_established": true,
+  "numeric_concurrency_enforced_per_window": 1
+}

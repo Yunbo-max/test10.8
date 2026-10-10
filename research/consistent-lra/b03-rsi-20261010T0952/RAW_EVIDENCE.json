@@ -1,0 +1,10 @@
+{
+  "filename": "consistent_lra_b03_rsi_0952_raw_evidence.zip",
+  "sha256": "36d814ec84e68616ba25270b193c07715970b6aa4d2a2f6f343bacd5d3c70490",
+  "size_bytes": 3440500,
+  "member_count": 124,
+  "manifest_sha256": "76f1c6d757f4e5edcc276c922e6ab04d7a6cc76866d5c8e9927d3be3542fb3cb",
+  "locator_kind": "exact_library_filename_and_sha256",
+  "library_id_to_be_recorded_in_automation_after_save": true,
+  "restore": "Resolve this exact filename, download and verify SHA256, extract into research/consistent-lra to overlay the GitHub source directory. Verify RAW_MANIFEST.json. Stored runner database/receipts are historical; do not restart the old absolute-root process."
+}

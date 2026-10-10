@@ -1,3 +1,15 @@
+# Current continuation — 2026-10-10
+
+The CPU research is continuing under the user's selected **autonomous-rsi** workflow. See the [independently reviewed solver report](b03-rsi-20261010T0952/REPORT.zh-CN.md) and [reproducible source packet](b03-rsi-20261010T0952/README.md).
+
+This separately identified engineering variant completed 30-cell numerical parity and 450 complete-method timings: 24/30 faster than legacy, 0/30 faster than certified_full. It does not replace the primary scheduled B03 solver, establish novelty, or complete a paper. The primary B03 also restored Landmark but its 128-row trace audit failed because saved NPZ bytes were corrupt; next work repairs and independently validates that output.
+
+The latest main index is the existing Library item `libfile_16ad9efa01ec81918bfeff18aab746f0` (`consistent_lra_simple_first_round.zip`, historical filename). Its v15 primary B03, separate live-session supplement, and this RSI variant must be merged and retained, never overwritten or counted as independent confirmation. The same hourly task `6ac82bb085c081919fa92002384b073b` continues bounded CPU work with cumulative history. No resident full RSI daemon or finished manuscript is claimed.
+
+The records below are historical, retained unchanged. Their old parked status and workflow selection do not describe the newer recurring continuation; no historical scientific gate is retroactively marked passed.
+
+---
+
 # Consistent LRA: bounded CPU research
 
 ## Parent Problem frozen; Gate 0 externally blocked — assignments 189--191
@@ -210,3 +222,4 @@ family instance。独立的形式证明、相关文献和下游定理依赖审�
 首先修复公平比较的基础，再独立审查约 20 个有数学依据的候选，按整个候选池排序并选择最多 15 个合格候选进入实现和完整实验设计。新颖性冲突、数学反例、负结果和未完成比较都要保留。不同参数配置不能被当成不同论文。
 
 用户希望找到多个可以超过原方法的论文方向。是否有可发表的贡献、是否超过公平基线，均为待验证结果。只有当前、独立核验的证据支持时才写结果型论文；不足时交付数学记录、代码、完整设计和明确的剩余工作。
+
