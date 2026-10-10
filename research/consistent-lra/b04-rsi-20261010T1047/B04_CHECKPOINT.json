@@ -1,0 +1,57 @@
+{
+  "project": "consistent-lra-cpu",
+  "batch": "B04-primary-B03-landmark-repair-20261010T1047",
+  "workflow": {
+    "edition": "autonomous-rsi",
+    "source_repo": "Yunbo-max/Research_Autopilot",
+    "source_commit": "7af53173bbd69726877ca04fb77b9466ef1b839d",
+    "command_transport": "rsi-simple 0.3.0-simple.3",
+    "command_transport_source_digest": "97cdb752027748261c1d6a11980d10d7a46f2c79c2a00e975f0c08d2c8847893",
+    "full_rsi_daemon_deployed": false
+  },
+  "state": "continuation_pending",
+  "scientific_disposition": "repair_inconclusive",
+  "native_scope": "Landmark raw first128 x 2704, k25, eta 0.01/0.1, six arms, exact prefix SVD",
+  "new_evidence": {
+    "artifact_integrity_repaired": true,
+    "v2_raw_sha256": "8fb284c93d67c25ede68cf73f3acc5dd7bc0e27c1427d0d736bb6c2fc57582c1",
+    "v3_raw_sha256": "de6f3279d021f8a442cd5f6b51ac4948457045263eb334e6cade78b0380b6dff",
+    "v2_certificate_violations": 0,
+    "v3_certificate_violations": 0,
+    "v2_near_zero_legacy_fallbacks": 38,
+    "v3_near_zero_legacy_fallbacks": 38,
+    "v2_projector_max": 2.591450778128931e-8,
+    "v3_projector_max": 2.4943901532427057e-8,
+    "frozen_projector_threshold": 1e-8,
+    "v2_audit_pass": false,
+    "v3_audit_pass": false,
+    "other_frozen_predicates_passed": 11,
+    "other_frozen_predicates_total": 11
+  },
+  "budget": {
+    "attempts_used": 7,
+    "attempts_max": 8,
+    "command_wall_seconds": 112.51351530700049,
+    "command_wall_limit_seconds": 600,
+    "measured_cpu_lower_bound_seconds": 89.138,
+    "peak_rss_kib": 359440,
+    "reservation_seconds": 0
+  },
+  "deferred": {
+    "landmark512_resource_calibration": "not run because the mandatory 128-row audit did not pass",
+    "author5000_protocol": "not run",
+    "paper_or_novelty_pass": false
+  },
+  "next_action": "Capture or deterministically replay every old/new update from the same incoming projector to separate one-step root error from recurrence amplification; quantify the CPU cost of any broader legacy fallback before revising or retiring the accelerated solver.",
+  "runner_handoff": {
+    "status": "stopped",
+    "stop_reason": "finite-window-persistence",
+    "reservation_seconds": 0,
+    "pending_processes": 0,
+    "continuation_response_accepted": false,
+    "continuation_response_error": "initial reason enum was invalid; corrected response could not be accepted after the stop transition",
+    "authoritative_resume_source": "this checkpoint and retained runner receipts; do not resume the stopped runner"
+  },
+  "writer_state": "release_after_persistence",
+  "pending_scientific_jobs": []
+}

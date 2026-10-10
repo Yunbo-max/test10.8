@@ -1,0 +1,10 @@
+{
+  "path": "LANDMARK_PILOT_RAW.npz",
+  "expected_sha256": "205f0dbf08f0b4739f506100d07bb7353fcec22fc6fdc5f4c09f3498945bedb2",
+  "observed_sha256": "2a690c48f50617ade1f59c6689f6aa5d119dc47675b7e0a16c1448dadce24f5b",
+  "observed_size": 3642474,
+  "npz_valid": false,
+  "cause": "unknown post-command byte mismatch; no scientifically validated native trace audit",
+  "receipt": "b03-landmark-audit failed input hash check,retained",
+  "next_repair": "Versioned atomic npz write,flush/fsync,zip CRC validation and input hash before reading; preserve original corrupted bytes. Re-execute nativepilot with old solver and new solver explicit legacy bisection when target<=tol,then audit. No new attempts this window."
+}

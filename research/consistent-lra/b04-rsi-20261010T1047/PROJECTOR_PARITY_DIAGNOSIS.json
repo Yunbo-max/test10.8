@@ -1,0 +1,132 @@
+{
+  "maximum": {
+    "eta": 0.01,
+    "loss_difference": 1.0658141036401503e-14,
+    "max_principal_sine": 3.332000937312528e-08,
+    "prefix": 114,
+    "projector_difference": 2.591450778128931e-08,
+    "relative_loss_difference_to_energy": 3.950599699220438e-16,
+    "sigma25": 0.017644815354815973,
+    "sigma26": 0.006901492728731992,
+    "singular_gap_25_26": 0.010743322626083981
+  },
+  "raw_sha256": "8fb284c93d67c25ede68cf73f3acc5dd7bc0e27c1427d0d736bb6c2fc57582c1",
+  "scope": "diagnosis of the one failed frozen first128 parity predicate; no threshold revision",
+  "top_differences": [
+    {
+      "eta": 0.01,
+      "loss_difference": 1.0658141036401503e-14,
+      "max_principal_sine": 3.332000937312528e-08,
+      "prefix": 114,
+      "projector_difference": 2.591450778128931e-08,
+      "relative_loss_difference_to_energy": 3.950599699220438e-16,
+      "sigma25": 0.017644815354815973,
+      "sigma26": 0.006901492728731992,
+      "singular_gap_25_26": 0.010743322626083981
+    },
+    {
+      "eta": 0.01,
+      "loss_difference": 3.552713678800501e-15,
+      "max_principal_sine": 3.332000937312528e-08,
+      "prefix": 121,
+      "projector_difference": 2.1214803913114347e-08,
+      "relative_loss_difference_to_energy": 1.2443715892041974e-16,
+      "sigma25": 0.020218170344825537,
+      "sigma26": 0.015945214478133976,
+      "singular_gap_25_26": 0.004272955866691561
+    },
+    {
+      "eta": 0.1,
+      "loss_difference": 3.552713678800501e-15,
+      "max_principal_sine": 3.332000937312528e-08,
+      "prefix": 121,
+      "projector_difference": 1.9240228470508e-08,
+      "relative_loss_difference_to_energy": 1.2443715892041974e-16,
+      "sigma25": 0.020218170344825537,
+      "sigma26": 0.015945214478133976,
+      "singular_gap_25_26": 0.004272955866691561
+    },
+    {
+      "eta": 0.1,
+      "loss_difference": 7.105427357601002e-15,
+      "max_principal_sine": 2.1073424255447017e-08,
+      "prefix": 128,
+      "projector_difference": 1.8337466600079112e-08,
+      "relative_loss_difference_to_energy": 2.359946643691949e-16,
+      "sigma25": 0.025545685721122296,
+      "sigma26": 0.020218252111752256,
+      "singular_gap_25_26": 0.00532743360937004
+    },
+    {
+      "eta": 0.01,
+      "loss_difference": 3.552713678800501e-15,
+      "max_principal_sine": 2.5809568279517847e-08,
+      "prefix": 128,
+      "projector_difference": 1.7479815838288817e-08,
+      "relative_loss_difference_to_energy": 1.1799733218459744e-16,
+      "sigma25": 0.025545685721122296,
+      "sigma26": 0.020218252111752256,
+      "singular_gap_25_26": 0.00532743360937004
+    },
+    {
+      "eta": 0.1,
+      "loss_difference": 1.0658141036401503e-14,
+      "max_principal_sine": 2.1073424255447017e-08,
+      "prefix": 114,
+      "projector_difference": 2.800997257847415e-09,
+      "relative_loss_difference_to_energy": 3.950599699220438e-16,
+      "sigma25": 0.017644815354815973,
+      "sigma26": 0.006901492728731992,
+      "singular_gap_25_26": 0.010743322626083981
+    },
+    {
+      "eta": 0.01,
+      "loss_difference": 0.0,
+      "max_principal_sine": 5.7711949142924205e-08,
+      "prefix": 26,
+      "projector_difference": 0.0,
+      "relative_loss_difference_to_energy": 0.0,
+      "sigma25": 5.770867630661268e-33,
+      "sigma26": 4.3605789089767005e-34,
+      "singular_gap_25_26": 5.334809739763598e-33
+    },
+    {
+      "eta": 0.01,
+      "loss_difference": 0.0,
+      "max_principal_sine": 3.332000937312528e-08,
+      "prefix": 32,
+      "projector_difference": 0.0,
+      "relative_loss_difference_to_energy": 0.0,
+      "sigma25": 4.120858797773049e-19,
+      "sigma26": 1.2495179893693136e-19,
+      "singular_gap_25_26": 2.871340808403736e-19
+    },
+    {
+      "eta": 0.01,
+      "loss_difference": 0.0,
+      "max_principal_sine": 2.9802322387695312e-08,
+      "prefix": 39,
+      "projector_difference": 0.0,
+      "relative_loss_difference_to_energy": 0.0,
+      "sigma25": 9.450219468653695e-18,
+      "sigma26": 7.566978231181263e-18,
+      "singular_gap_25_26": 1.8832412374724324e-18
+    },
+    {
+      "eta": 0.01,
+      "loss_difference": 0.0,
+      "max_principal_sine": 3.332000937312528e-08,
+      "prefix": 46,
+      "projector_difference": 0.0,
+      "relative_loss_difference_to_energy": 0.0,
+      "sigma25": 2.940983318130301e-17,
+      "sigma26": 2.777243838820961e-17,
+      "singular_gap_25_26": 1.637394793093403e-18
+    }
+  ],
+  "usage": {
+    "cpu_seconds": 2.014709196,
+    "peak_rss_kib": 174304,
+    "wall_seconds": 2.0209069510019617
+  }
+}

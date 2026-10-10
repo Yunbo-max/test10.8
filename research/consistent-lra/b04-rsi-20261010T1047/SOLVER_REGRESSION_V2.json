@@ -1,0 +1,184 @@
+{
+  "acceptance": {
+    "all_near_zero_calls_used_legacy": true,
+    "near_zero_exact_projector_parity": true,
+    "near_zero_fallback_parity": true
+  },
+  "baseline_sha256": "73d2ecceaf73e8fe43c1c9c0534678541892ae7b35a038ca3215a098187e970e",
+  "cases": 15,
+  "near_zero_cases": 11,
+  "near_zero_fallback_mismatches": 0,
+  "near_zero_max_projector_difference": 0.0,
+  "nonzero_max_projector_difference": 1.624895930419014e-14,
+  "parent_regression_sha256": "07ad686710cfc88c89aa7d856b28e44a9d58627c661dc4c4a7cffb28d4a923f2",
+  "records": [
+    {
+      "d": 7,
+      "fallback_equal": true,
+      "k": 3,
+      "near_zero": true,
+      "projector_difference": 0.0,
+      "scale": 0.0,
+      "target": 0.0,
+      "tol": 1e-10
+    },
+    {
+      "d": 7,
+      "fallback_equal": true,
+      "k": 3,
+      "near_zero": true,
+      "projector_difference": 0.0,
+      "scale": 1e-14,
+      "target": 5.069776276396348e-28,
+      "tol": 1e-10
+    },
+    {
+      "d": 7,
+      "fallback_equal": true,
+      "k": 3,
+      "near_zero": true,
+      "projector_difference": 0.0,
+      "scale": 1e-10,
+      "target": 4.5895449622392496e-20,
+      "tol": 1e-10
+    },
+    {
+      "d": 7,
+      "fallback_equal": true,
+      "k": 3,
+      "near_zero": true,
+      "projector_difference": 0.0,
+      "scale": 1e-06,
+      "target": 3.060594155249075e-12,
+      "tol": 1e-10
+    },
+    {
+      "d": 7,
+      "fallback_equal": true,
+      "k": 3,
+      "near_zero": false,
+      "projector_difference": 6.350490712868232e-15,
+      "scale": 1.0,
+      "target": 4.10097047263644,
+      "tol": 3.4518416226450983e-09
+    },
+    {
+      "d": 30,
+      "fallback_equal": true,
+      "k": 12,
+      "near_zero": true,
+      "projector_difference": 0.0,
+      "scale": 0.0,
+      "target": 0.0,
+      "tol": 1e-10
+    },
+    {
+      "d": 30,
+      "fallback_equal": true,
+      "k": 12,
+      "near_zero": true,
+      "projector_difference": 0.0,
+      "scale": 1e-14,
+      "target": 1.1629072694294203e-26,
+      "tol": 1e-10
+    },
+    {
+      "d": 30,
+      "fallback_equal": true,
+      "k": 12,
+      "near_zero": true,
+      "projector_difference": 0.0,
+      "scale": 1e-10,
+      "target": 1.126348861818314e-18,
+      "tol": 1e-10
+    },
+    {
+      "d": 30,
+      "fallback_equal": true,
+      "k": 12,
+      "near_zero": true,
+      "projector_difference": 0.0,
+      "scale": 1e-06,
+      "target": 8.740748922584195e-11,
+      "tol": 1e-10
+    },
+    {
+      "d": 30,
+      "fallback_equal": true,
+      "k": 12,
+      "near_zero": false,
+      "projector_difference": 2.0800679061216394e-15,
+      "scale": 1.0,
+      "target": 99.7162517650742,
+      "tol": 7.050543077785629e-08
+    },
+    {
+      "d": 64,
+      "fallback_equal": true,
+      "k": 16,
+      "near_zero": true,
+      "projector_difference": 0.0,
+      "scale": 0.0,
+      "target": 0.0,
+      "tol": 1e-10
+    },
+    {
+      "d": 64,
+      "fallback_equal": true,
+      "k": 16,
+      "near_zero": true,
+      "projector_difference": 0.0,
+      "scale": 1e-14,
+      "target": 4.1879656719659095e-26,
+      "tol": 1e-10
+    },
+    {
+      "d": 64,
+      "fallback_equal": true,
+      "k": 16,
+      "near_zero": true,
+      "projector_difference": 0.0,
+      "scale": 1e-10,
+      "target": 4.4942857349493995e-18,
+      "tol": 1e-10
+    },
+    {
+      "d": 64,
+      "fallback_equal": true,
+      "k": 16,
+      "near_zero": false,
+      "projector_difference": 2.2400755050442337e-15,
+      "scale": 1e-06,
+      "target": 4.2106233130414327e-10,
+      "tol": 1e-10
+    },
+    {
+      "d": 64,
+      "fallback_equal": true,
+      "k": 16,
+      "near_zero": false,
+      "projector_difference": 1.624895930419014e-14,
+      "scale": 1.0,
+      "target": 444.09298307168876,
+      "tol": 2.0312824196794345e-07
+    }
+  ],
+  "scope": "primary-B03 bracket-refinement regression v2; not a scientific benchmark",
+  "solver_sha256": "d866001f38274df83cec768976ce9de8e5dbd042f5f44ff01f7eadc587e69051",
+  "solver_stats": {
+    "calls": 15,
+    "endpoint_fallbacks": 0,
+    "evaluations": 51,
+    "near_zero_legacy_fallbacks": 11,
+    "near_zero_opt_calls": 11,
+    "newton_steps": 39,
+    "protected_midpoints": 0,
+    "tail_bisections": 0
+  },
+  "source_sha256": "e5b3057b6f5b21fea0de991585dda14dae6ee247b871946f0dfd308e170c5c22",
+  "usage": {
+    "cpu_seconds": 0.01974243699999989,
+    "peak_rss_kib": 117352,
+    "wall_seconds": 0.019744247998460196
+  }
+}
