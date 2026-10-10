@@ -1,0 +1,34 @@
+{
+  "round": "B11-RSI-collision-closure-20261010T1847",
+  "scientific_gate": "NO-GO",
+  "collision_closure": "PARTIAL",
+  "independent_no_go_review": "PASS",
+  "runner": {
+    "installed_release": "Simple .6",
+    "source_digest": "2d2b3f006f7e444c97762224d87b71a6bb4dd5d08632861c86e1cb3fb5a25f66",
+    "attempts": 4,
+    "command_wall_seconds": 3.598604521001107,
+    "reservation_seconds_at_handoff": 0,
+    "historical_simple_3_reused": false
+  },
+  "successful_diagnostic": {
+    "result_sha256": "a202547bc988265583299cea57e6264429b973307587b1fd1d8d46ecc7a0788d",
+    "script_sha256": "bd8f7db9be73737b378adc9c3b5893a2f6fbdc4d2ab1b518ddce6c676dd20e31",
+    "fixed_plane_cases": 500,
+    "admissible_fd_identity_tuples": 120,
+    "scope": "finite algebra diagnostics only; not proof, novelty evidence, streaming FD validation, or method validation"
+  },
+  "library": {
+    "raw_evidence": {
+      "library_file_id": "libfile_7bfc1838b6908191ae94312ef624c603",
+      "file_name": "consistent_lra_b11_collision_closure_raw_evidence.zip",
+      "sha256": "ccc824b09f8ff2183573ab1945ae794960fc80da706f516d8a53bcdbe0108c11"
+    },
+    "report": {
+      "library_file_id": "libfile_787113c4ea9c8191a4fed75aa4105ae9",
+      "file_name": "REPORT_B11.zh-CN.md",
+      "sha256": "a7b6f7ed15e39b7a9ad17d81ee8610ccfb167be686342f005dd6ab449a2fd8be"
+    }
+  },
+  "next_action": "Restart Steps 2/3 with a theorem target coupling certified slack, amortized endpoint construction cost, and cumulative projector recourse; do not count solvers, certificates, wrappers, or policies as methods."
+}
