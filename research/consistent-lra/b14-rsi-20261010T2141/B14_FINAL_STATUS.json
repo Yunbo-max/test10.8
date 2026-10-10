@@ -1,0 +1,22 @@
+{
+  "study_id": "B14-RSI-native512-gap-angle-20261010T2141",
+  "overall_project_status": "continuation_pending",
+  "scientific_gate": "NO-GO_NEW_METHOD",
+  "hypothesis": "rejected_on_saved_native512_development_states",
+  "initial_independent_review": "REVISE",
+  "revision_closure": "PASS",
+  "new_method": false,
+  "novelty_established": false,
+  "native5000_executed": false,
+  "paper_ready": false,
+  "attempts_including_verifier": 8,
+  "succeeded": 8,
+  "failed": 0,
+  "known_command_wall_seconds_lower_bound": 42.598150891,
+  "measured_process_cpu_seconds_lower_bound": 36.648707291,
+  "peak_rss_kib": 356540,
+  "reservation_seconds": 0,
+  "pending_run_ids": [],
+  "writer_state": "ready_for_persistence",
+  "next_action": "Step2: freeze a native512 matched-accuracy warm-start LOBPCG/block-Krylov comparator against full-SVD endpoint construction, counting matvecs, CPU, RSS and failures. Treat it as prior-art baseline; do not run native5000 or claim a new method yet."
+}

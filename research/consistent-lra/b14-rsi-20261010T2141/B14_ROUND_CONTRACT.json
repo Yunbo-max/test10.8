@@ -1,0 +1,39 @@
+{
+  "round_id": "B14-RSI-native512-gap-angle-20261010T2141",
+  "workflow": "autonomous-rsi@7af53173bbd69726877ca04fb77b9466ef1b839d",
+  "question": "On the saved native Landmark-512 exact-query trajectory, are the internal top-k eigengap and a prospectively defined near-boundary hard-angle mass measurable and discriminative for true refreshes among exact queries?",
+  "parent": "B13 showed that the B12 geometry tuple does not control ordinary-power work without internal spectral and overlap information.",
+  "hypothesis": "Among exact-query prefixes, higher rho=lambda_{k+1}/lambda_k, larger worst principal-angle error, or larger near-boundary missed top-subspace mass predicts a true refresh; a feature is called development-discriminative only if its fixed-orientation AUROC is at least 0.75 for both eta values.",
+  "falsifier": "No predeclared spectral/angle feature reaches AUROC 0.75 for both eta values, or the metrics cannot be reconstructed while matching the saved B09 incoming-loss trajectory and exact masks.",
+  "native_input": {
+    "dataset": "SuiteSparse Pereyra/landmark, author-protocol raw first 512 rows",
+    "shape": [512, 2704],
+    "rank": 25,
+    "input_file": "LANDMARK512_FD_RAW.npz",
+    "input_sha256": "d0de6bb598161e85557321a309e9d720cb1c398b722140725e47d8365e3ec68a",
+    "reference_file": "FD_POLICY512_RAW.npz",
+    "reference_sha256": "b8c4f5278fa58c96c485d6f547acdd927a5cd5153528219ebc1fd6ada4744fa5"
+  },
+  "frozen_metrics": {
+    "relative_gap": "1-lambda_{k+1}/lambda_k",
+    "worst_sin2": "sin^2 of the largest principal angle between the current retained endpoint and the exact top-k subspace",
+    "near_boundary_hard_mass": "sum_i(1-||Q^T v_i||^2) over top-k eigenvectors satisfying lambda_i-lambda_{k+1} <= 10*(lambda_k-lambda_{k+1})",
+    "block_power_proxy": "ceil(log(tan(theta_max)/tan(theta_target))/log(lambda_k/lambda_{k+1})) with sin^2(theta_target)=1e-6",
+    "positive_control": "exact excess loss divided by max(OPT, 1e-10*max(1,energy))"
+  },
+  "acceptance": {
+    "semantic": "exact query/update masks reused; reconstructed incoming loss within the unchanged energy-scaled 1e-10 tolerance; gap-times-projector-distance lower bound has zero violations beyond tolerance",
+    "development_discrimination": "same fixed orientation AUROC >= 0.75 at eta=0.01 and eta=0.1",
+    "claim_limit": "development diagnostic only; not a new method, causal proof, independent benchmark confirmation, native5000 result, or paper gate"
+  },
+  "budget": {
+    "max_attempts": 8,
+    "max_command_wall_seconds": 600,
+    "max_single_command_seconds": 120,
+    "cpu_quota": 8,
+    "memory_bytes": 8589934592,
+    "numeric_threads": 1,
+    "no_gpu": true,
+    "no_dependency_install": true
+  }
+}

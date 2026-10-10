@@ -1,0 +1,46 @@
+{
+  "round": "B14-RSI-native512-gap-angle-20261010T2141",
+  "candidate_scientific_commands": {
+    "attempts": 5,
+    "succeeded": 5,
+    "failed": 0,
+    "records": [
+      {"name": "v1_gap_angle_diagnostic", "exit_code": 0, "command_wall_seconds": 20.468894998, "process_wall_seconds": 18.69071081400034, "process_cpu_seconds": 18.650071933, "peak_rss_kib": 356540},
+      {"name": "v1_arithmetic_audit_initial", "exit_code": 0, "command_wall_seconds_conservative": 1.3, "process_cpu_seconds": null, "peak_rss_kib": null},
+      {"name": "v2_review_repair_diagnostic", "exit_code": 0, "command_wall_seconds": 18.690320106, "process_wall_seconds": 17.722671899999114, "process_cpu_seconds": 17.718533620000002, "peak_rss_kib": 351572},
+      {"name": "v2_arithmetic_audit", "exit_code": 0, "command_wall_seconds": 0.959943793, "process_cpu_seconds": null, "peak_rss_kib": null},
+      {"name": "v1_arithmetic_readback_repeat", "exit_code": 0, "command_wall_seconds": 0.896778917, "process_cpu_seconds": null, "peak_rss_kib": null}
+    ],
+    "known_or_conservative_command_wall_seconds": 42.315937814,
+    "measured_process_cpu_seconds_lower_bound": 36.368605553,
+    "peak_rss_kib": 356540
+  },
+  "independent_verifier_commands": {
+    "attempts": 3,
+    "succeeded": 3,
+    "failed": 0,
+    "measured_audit_wall_seconds": 0.282213077,
+    "measured_audit_cpu_seconds": 0.280101738,
+    "measured_audit_peak_rss_kib": 84416,
+    "aggregate_wall_cpu_for_two_inspection_commands": "unknown; not instrumented; preserved explicitly"
+  },
+  "round_totals": {
+    "attempts": 8,
+    "succeeded": 8,
+    "failed": 0,
+    "known_or_conservative_command_wall_seconds_lower_bound": 42.598150891,
+    "measured_process_cpu_seconds_lower_bound": 36.648707291,
+    "peak_rss_kib": 356540,
+    "reservation_seconds_at_handoff": 0,
+    "live_scientific_processes_at_handoff": 0
+  },
+  "resource_snapshot": {
+    "cpu.max": "800000 100000",
+    "memory.max": "8589934592",
+    "numeric_threads": 1,
+    "gpu_used": false,
+    "dependency_install": false,
+    "docker_or_other_container": false
+  },
+  "scope_note": "Compile, hash, packaging, source reads and Library/GitHub persistence are orchestration rather than scientific attempts. Two verifier inspection/readback command durations are unknown and are not silently treated as zero."
+}

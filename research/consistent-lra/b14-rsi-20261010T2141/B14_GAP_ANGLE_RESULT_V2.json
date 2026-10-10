@@ -1,0 +1,212 @@
+{
+  "study": "B14-native512-gap-angle-development-diagnostic-v2-review-repair",
+  "supersedes_for_arithmetic_only": "B14_GAP_ANGLE_RESULT.json; V1 bytes and negative decision retained",
+  "input_sha256": "d0de6bb598161e85557321a309e9d720cb1c398b722140725e47d8365e3ec68a",
+  "reference_sha256": "b8c4f5278fa58c96c485d6f547acdd927a5cd5153528219ebc1fd6ada4744fa5",
+  "rows": 512,
+  "dimension": 2704,
+  "rank": 25,
+  "band_multiplier_frozen": 10.0,
+  "angle_target_sin2_frozen": 1e-06,
+  "summaries": {
+    "0.01": {
+      "query_states_after_growth": 408,
+      "update_states": 222,
+      "query_without_update_states": 186,
+      "features": {
+        "rho": {
+          "auc_update_vs_query_no_update": 0.464545190351642,
+          "finite_coverage": 408,
+          "spearman_with_excess_ratio": -0.07308305427246446,
+          "median_update": 0.8176615599571853,
+          "median_no_update": 0.8279212757747058
+        },
+        "worst_sin2": {
+          "auc_update_vs_query_no_update": 0.7799089411992638,
+          "finite_coverage": 408,
+          "spearman_with_excess_ratio": 0.5457300900727013,
+          "median_update": 0.034155836354771985,
+          "median_no_update": 0.009732949399531565
+        },
+        "hard_mass": {
+          "auc_update_vs_query_no_update": 0.7468274726339242,
+          "finite_coverage": 408,
+          "spearman_with_excess_ratio": 0.476026822424061,
+          "median_update": 0.03151150768326616,
+          "median_no_update": 0.009471943172961128
+        },
+        "work_proxy": {
+          "auc_update_vs_query_no_update": 0.47878170999060443,
+          "finite_coverage": 392,
+          "spearman_with_excess_ratio": -0.09692844087997032,
+          "median_update": 24.5,
+          "median_no_update": 25.0
+        },
+        "positive_control_excess_ratio": {
+          "auc_update_vs_query_no_update": 1.0,
+          "finite_coverage": 408,
+          "spearman_with_excess_ratio": 1.0,
+          "median_update": 0.019854433981461805,
+          "median_no_update": 0.004736750830508663
+        }
+      },
+      "exploratory_hard_fraction": {
+        "auc": 0.3798314443475734,
+        "coverage": 408
+      },
+      "strict_unique_posthoc_sensitivity": {
+        "states": 392,
+        "excluded_tied_or_rank_deficient_states": 16,
+        "features": {
+          "rho": {
+            "auc": 0.4278108362041967,
+            "coverage": 392
+          },
+          "worst_sin2": {
+            "auc": 0.7628144900302746,
+            "coverage": 392
+          },
+          "hard_mass": {
+            "auc": 0.732017955945297,
+            "coverage": 392
+          },
+          "work_proxy": {
+            "auc": 0.47878170999060443,
+            "coverage": 392
+          }
+        },
+        "scope": "post-hoc sensitivity required by independent review; not the original prospective endpoint"
+      },
+      "relative_gap_quantiles": [
+        0.0,
+        0.1238792382232902,
+        0.17488802108794,
+        0.2585975579267506,
+        1.0
+      ],
+      "work_proxy_quantiles_finite": [
+        1.0,
+        17.0,
+        25.0,
+        36.0,
+        1336.0
+      ]
+    },
+    "0.1": {
+      "query_states_after_growth": 205,
+      "update_states": 100,
+      "query_without_update_states": 105,
+      "features": {
+        "rho": {
+          "auc_update_vs_query_no_update": 0.5181904761904762,
+          "finite_coverage": 205,
+          "spearman_with_excess_ratio": 0.07639912652118053,
+          "median_update": 0.8206522321912479,
+          "median_no_update": 0.8155628586959394
+        },
+        "worst_sin2": {
+          "auc_update_vs_query_no_update": 0.6391428571428571,
+          "finite_coverage": 205,
+          "spearman_with_excess_ratio": 0.30085304640514804,
+          "median_update": 0.18951228401357956,
+          "median_no_update": 0.12682544136158036
+        },
+        "hard_mass": {
+          "auc_update_vs_query_no_update": 0.6192380952380953,
+          "finite_coverage": 205,
+          "spearman_with_excess_ratio": 0.2488403838921313,
+          "median_update": 0.17700305419517498,
+          "median_no_update": 0.11046376925427503
+        },
+        "work_proxy": {
+          "auc_update_vs_query_no_update": 0.455328798185941,
+          "finite_coverage": 189,
+          "spearman_with_excess_ratio": -0.1080338717002352,
+          "median_update": 27.0,
+          "median_no_update": 30.0
+        },
+        "positive_control_excess_ratio": {
+          "auc_update_vs_query_no_update": 1.0,
+          "finite_coverage": 205,
+          "spearman_with_excess_ratio": 0.9999999999999999,
+          "median_update": 0.1317952324636471,
+          "median_no_update": 0.06751420256656747
+        }
+      },
+      "exploratory_hard_fraction": {
+        "auc": 0.41133333333333333,
+        "coverage": 205
+      },
+      "strict_unique_posthoc_sensitivity": {
+        "states": 189,
+        "excluded_tied_or_rank_deficient_states": 16,
+        "features": {
+          "rho": {
+            "auc": 0.4383219954648526,
+            "coverage": 189
+          },
+          "worst_sin2": {
+            "auc": 0.5704081632653061,
+            "coverage": 189
+          },
+          "hard_mass": {
+            "auc": 0.5587301587301587,
+            "coverage": 189
+          },
+          "work_proxy": {
+            "auc": 0.455328798185941,
+            "coverage": 189
+          }
+        },
+        "scope": "post-hoc sensitivity required by independent review; not the original prospective endpoint"
+      },
+      "relative_gap_quantiles": [
+        0.0,
+        0.11981782409020258,
+        0.18327889928484353,
+        0.2834648909243094,
+        1.0
+      ],
+      "work_proxy_quantiles_finite": [
+        1.0,
+        18.0,
+        29.0,
+        42.0,
+        1434.0
+      ]
+    }
+  },
+  "semantic_checks": {
+    "max_loss_reconstruction_error": 1.539879335155092e-13,
+    "loss_tolerance_rule": "1e-10*max(1,energy)",
+    "gap_times_distance_violations": 0,
+    "max_gap_times_distance_violation_beyond_tolerance": 0.0,
+    "unique_eigensystems": 411,
+    "unique_full_svd_refresh_endpoints": 273
+  },
+  "v1_all_non_nan_work_proxy_auc_correction": {
+    "0.01": {
+      "ordered_infinity_auc": 0.5118424876489392,
+      "coverage": 408
+    },
+    "0.1": {
+      "ordered_infinity_auc": 0.5324761904761904,
+      "coverage": 205
+    }
+  },
+  "tie_estimand": "all-state angle/hard-mass values are solver-basis-dependent diagnostics at a boundary tie; strict_unique sensitivity excludes exact gap=0 and lambda_k=0 states and is post-hoc",
+  "development_discriminative_features": [],
+  "hypothesis_pass": false,
+  "claim_scope": "same-prefix native512 dependent development diagnostic; no new method, causal proof, independent confirmation, native5000 claim, or paper gate",
+  "raw_artifact": {
+    "path": "B14_GAP_ANGLE_RAW_V2.npz",
+    "sha256": "43332f8d0ba42294d74b56472ef027caf2c024a185009d6e7eaf01c70fc58653",
+    "size_bytes": 51421
+  },
+  "usage": {
+    "wall_seconds": 17.722671899999114,
+    "cpu_seconds": 17.718533620000002,
+    "peak_rss_kib": 351572,
+    "numeric_threads": 1
+  }
+}
