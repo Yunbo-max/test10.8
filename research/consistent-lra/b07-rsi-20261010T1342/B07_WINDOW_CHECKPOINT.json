@@ -1,0 +1,114 @@
+{
+  "study": "B07-existing-FD-certificate-audit-20261010T1342",
+  "workflow": "autonomous-rsi@7af53173bbd69726877ca04fb77b9466ef1b839d",
+  "transport_digest": "97cdb752027748261c1d6a11980d10d7a46f2c79c2a00e975f0c08d2c8847893",
+  "full_sqlite_acp_supervisor_deployed": false,
+  "attempts": [
+    {
+      "task_id": "b07-fd-cert-v3",
+      "attempt_id": "attempt-06b2ac948e834711a2ea0a3190911b98",
+      "exit_code": 0,
+      "command_wall_seconds": 4.661458378992393,
+      "scientific_usage": {
+        "wall_seconds": 4.533746132990927,
+        "cpu_seconds": 4.53092858,
+        "peak_rss_kib": 279616
+      }
+    },
+    {
+      "task_id": "b07-native512-policy-audit",
+      "attempt_id": "attempt-3ff9084937f74284b6fc40f2114fe02d",
+      "exit_code": 0,
+      "command_wall_seconds": 6.449224930998753,
+      "scientific_usage": {
+        "wall_seconds": 6.3490406530036125,
+        "cpu_seconds": 6.3482214599999995,
+        "peak_rss_kib": 183356
+      }
+    },
+    {
+      "task_id": "b07-native512-live-audit",
+      "attempt_id": "attempt-5cd602007e8a47b889ddaa02fa999073",
+      "exit_code": 0,
+      "command_wall_seconds": 2.187893255002564,
+      "scientific_usage": {
+        "wall_seconds": 2.0771570060023805,
+        "cpu_seconds": 2.076634572,
+        "peak_rss_kib": 177548
+      }
+    },
+    {
+      "task_id": "b07-native512-policy-v2",
+      "attempt_id": "attempt-91de562d20db42b29b19dbfd5be25cf1",
+      "exit_code": 0,
+      "command_wall_seconds": 52.763774977996945,
+      "scientific_usage": {
+        "wall_seconds": 52.631260662994464,
+        "cpu_seconds": 52.614441467,
+        "peak_rss_kib": 424744
+      }
+    },
+    {
+      "task_id": "b07-live-fd-audit",
+      "attempt_id": "attempt-9b6a370f1dea4992a73046c014a2117f",
+      "exit_code": 0,
+      "command_wall_seconds": 0.8410161809879355,
+      "scientific_usage": {
+        "wall_seconds": 0.7312226539943367,
+        "cpu_seconds": 0.731162131,
+        "peak_rss_kib": 101956
+      }
+    },
+    {
+      "task_id": "b07-native512-fd-qualification",
+      "attempt_id": "attempt-c6455dd90297445a8c9da46c1862044c",
+      "exit_code": 0,
+      "command_wall_seconds": 8.817287960002432,
+      "scientific_usage": {
+        "wall_seconds": 8.444410259995493,
+        "cpu_seconds": 8.528873196,
+        "peak_rss_kib": 127440
+      }
+    }
+  ],
+  "attempts_used": 6,
+  "command_wall_seconds": 75.72065568398102,
+  "measured_process_cpu_seconds_lower_bound": 74.830261406,
+  "peak_rss_kib": 424744,
+  "reserved_seconds": 0,
+  "budget": {
+    "attempts_used": 6,
+    "deadline_epoch": 1791641830.1050391,
+    "elapsed_seconds": 75.72065568398102,
+    "max_attempts": 8,
+    "max_command_seconds": 600,
+    "remaining_deadline_seconds": 746.219090461731,
+    "remaining_seconds": 524.279344316019,
+    "reserved_seconds": 0
+  },
+  "overall_status": "continuation_pending",
+  "new_method": false,
+  "novelty_established": false,
+  "paper_ready": false,
+  "independent_confirmation": false,
+  "next_action": "Step7 selects Step4/5: prospectively freeze calibratednative512 complete baseline-vs-FD-gate repeatedCPU/RSS timing in <=120s serialtasks; unchangedrefresh masks andpositivecomponentcost justify verification, notspeedclaim. Then budget native5000 only with actualcost. Continue Step2/3 primarycollision/certifiedapproxrefresh ~20-to15 independentlyverified candidates before newmethodcode; Newtonremainsretired.",
+  "writer_state": "released",
+  "live_scientific_processes_observed_at_handoff": 0,
+  "native512_policy": {
+    "opt_prefixes": 512,
+    "bound_prefix_variant_pairs": 1536,
+    "covariance_checkpoint_pairs": 24,
+    "audit_pass": true,
+    "refresh_mask_differences": 0,
+    "eta_001_queries": [
+      408,
+      222
+    ],
+    "eta_01_queries": [
+      205,
+      100
+    ],
+    "component_cost_difference_positive": true,
+    "whole_method_speed_measured": false
+  }
+}

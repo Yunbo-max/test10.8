@@ -1,0 +1,11 @@
+# Prospective independent comparator resource/shape qualification
+
+The128-row diagnostic has110 nearzeroOPT prefixes and FD capacities50/100 essentially retain its full effective spectrum. It therefore does not stress nonzero sketch loss. The128 scalar/Gram/covariance checks have passed; this creates a concrete reason to calibrate the SAME attributed comparators on more native rows.
+
+Scope frozen before implementation/execution: original Landmark first512 native rows,d2704,k25,no standardization. Exact reference SVD only at8 fixed prefixes[128,160,192,256,320,384,448,512], classic delayed capacities50/100 and author augmented50. Log all512 per-row FD state scalars/time but check exact OPT only at those8 checkpoints. This is NOT a full512-prefix output-quality comparison, the author's5000 experiment, boundary/Newton validation, or a new candidate; failed Newton parity remains failed. It is an independently eligible existing-comparator diagnostic.
+
+Accepted128 source hash12c9f80e5b380c15eb5b4757aa0e64ad276dd036c20fdf8e3613fdf0fd516c88 is reused unchanged. Parent native mtx hash29fb87018e59049a52314c847c5ac2a4eaa3b875f7cd8467621fe074fbbc298b. Record original sparse shape71952x2704,storednnz1151232; slice first512 BEFORE densification.
+
+Acceptance:24 checkpoint comparisons L<=OPT+1e-10 max(1,E), trace equality within that allowance; width-sensitive shrink coefficient remains50/100/51. Record positive Delta/fraction of OPT to determine whether this actually stresses approximation. Use same one-thread serial command executor; at most120s,2GiB address limit and existing remaining600s/8attempt cap. Retain outputs before raising, no repeated unchanged failure. Source reviewer checks this bounded extension before execution. Live checkpoint Gram/covariance arithmetic must follow before quality conclusion. ModernFD/RFD/incremental-SVD baseline inventory and novelty remain pending.
+
+No adaptive query replay or production-speed headline is derived from only8 exact checkpoints. All128 policies remain diagnostic development evidence. The next scientific direction is selected from these source/formal/qualification records without resetting prior failures or creating another automation.

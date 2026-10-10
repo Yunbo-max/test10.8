@@ -1,0 +1,6 @@
+# Prospective native512 policy extension
+2026-10-10 after fixed8checkpoint qualification, before execution.
+Reuse exact reviewed FD class and128policy logic unchanged; input native512 audited array. All512 prefix exact SVD and3FD variants, eta.01/.1, same deterministic endpoints, own-cache histories retained. Predictions: tolerance-valid bounds, same true refresh masks; query nesting not assumed. Full residual replay components are development measurements, not repeated production runtime nor unseen confirmation. Track removed and added oracle CPU and FD maintenance. Exact512 source/code hashes and rawoutputs immutable.
+Resource evidence: fixed8 SVD .279572CPU s, FD maintenance total7.124s;128 full diagnostic4.53CPU s. Use single120s timeout (not guarantee),2GiB AS,numericthreads1, same8attempt/600wall cumulative window. If timeout occurs retainreceipt and do not repeat without analysis. Separate outputs prevent overwriting any128/fixed8 evidence. AlternateGram audit includes512OPT/1536bounds,24signedcov snapshots; audits arithmetic rather than regenerates recursive states.
+
+Pre-execution independent review found top-k ndarray view retained allV buffers (estimated2.65GiB at512). Preserve v1 unexecuted; v2 copies only top-k basis, ~271MB plus workspace. No numerical operation/map change. Freeze newsha before execution.

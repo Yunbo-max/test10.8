@@ -1,0 +1,14 @@
+# B07 reproduction and scope
+
+Workflow source: Yunbo-max/Research_Autopilot autonomous-rsi commit7af53173bbd69726877ca04fb77b9466ef1b839d. Existing .3Simple command transport digest97cdb752027748261c1d6a11980d10d7a46f2c79c2a00e975f0c08d2c8847893 is retained; no full SQLite/ACP supervisor installation is claimed.
+
+The evidence archive contains code, exact NPZ inputs/outputs, prospective designs, independent review, command contracts/receipts/stdout/stderr and source manifests. Python, NumPy and SciPy were already available; no package install was performed. Each script sets numerical threads1 and a2GiB address-space limit. Run only within the authorized resource/window limits; saved runner state is historical and must not be blindly restarted.
+
+1. Verify archive MANIFEST.json and NPZ zipCRC/SHA256 against summaries. Preserve old/unexecuted files.
+2. From its work directory, the native128 diagnostic is `python3 fd_certificate_audit.py`, followed by `python3 verify_fd_certificate.py`. These require exact archived LANDMARK128_RAW_V3.npz (B04parent).
+3. The native512 fixed-checkpoint diagnostic is `python3 landmark512_fd_qualification.py`, followed by `python3 verify_landmark512_fd.py`. This additionally needs the author MatrixMarket file saved as landmark.mtx: immutable samsonzhou/consistent-LRA@d607c4f6467216c470d1e3b93989d44d5fcdec97,blob4c63060bbefcb38e0c705cea1f883d2fb7121f2c,34964305bytes,SHA25629fb87018e59049a52314c847c5ac2a4eaa3b875f7cd8467621fe074fbbc298b. It is already preserved in earlier indexed source evidence; no new source search is needed.
+4. The native512 policy diagnostic uses archived LANDMARK512_FD_RAW.npz as its pinned native input, then `python3 fd_policy512.py` and `python3 verify_fd_policy512.py`. See its frozen design and source review for pre-execution memory amendment. Use separate output directories for fresh reproduction rather than replacing historical bytes. Timing will vary.
+
+Classic FD delays shrinking until a new row needs space. The author-augmented variant scans zero rows each insertion, appends ell+1 when full and uses the ell+1 shrink-trace factor. These are attributed existing comparators, not new methods. Every-prefix spectral queries and naive historical residual replay are deliberately included in diagnostic cost; optimized batched/maintained-spectrum FD would be a separately frozen comparator implementation.
+
+Quality uses defined squared historical projection residual and energy-scaled1e-10 allowance. Near-zeroOPT is reported separately. Existing exact-endpoint policy parity is a theorem-level conditional prediction, not a result for arbitrary approximate endpoints. Independent review inspects mathematics/source/saved evidence; alternate numerical paths audit arithmetic. Neither is independent generated scientific confirmation. Native5000, original author's literal prefixes1..4999, fair repeated complete-method timing, new-method selection and paper gates remain open.
