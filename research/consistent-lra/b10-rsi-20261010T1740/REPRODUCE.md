@@ -15,5 +15,6 @@ Expected output artifact: `B10_IDENTITY_CHECK.json`, SHA-256
 
 The recorded run used simple-runner source digest
 `97cdb752027748261c1d6a11980d10d7a46f2c79c2a00e975f0c08d2c8847893`.
-Receipts are included in the raw evidence archive under `runner_receipts/`.
+Receipts are included in the raw evidence archive under
+`.research-autopilot/runner/attempts/<attempt-id>/`.
 
