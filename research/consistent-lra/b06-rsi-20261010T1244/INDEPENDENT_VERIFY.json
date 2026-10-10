@@ -1,0 +1,40 @@
+{
+  "scope": "independent arithmetic verifier; selected same-input state and every saved B04 checkpoint pair",
+  "checks": {
+    "result_hash_matches_runner_output": true,
+    "parent_max_matches": true,
+    "parent_dense_matches_residual": true,
+    "same_input_selected_is_global_max": true,
+    "same_input_dense_matches_residual": true,
+    "old_metric_has_false_positive_parent_pairs": true,
+    "old_metric_has_false_negative_parent_pairs": true
+  },
+  "pass": true,
+  "parent": {
+    "pairs": 32,
+    "max": 2.4943901584177335e-08,
+    "max_eta": "0.01",
+    "max_checkpoint": 121,
+    "dense": 2.494390157294781e-08,
+    "old_false_positive_pairs": 4,
+    "old_false_negative_pairs": 5
+  },
+  "same_input_selected": {
+    "state_index": 139,
+    "prefix": 124,
+    "stable": 1.089502899609484e-12,
+    "dense": 1.0895279907718117e-12
+  },
+  "source_hashes": {
+    "verify_stable_metric.py": "23fa421fb6c161ba47f55a7ae214273269b237f953135398252402c38e424014",
+    "STABLE_METRIC_AUDIT.json": "0f821fb29924a5c8d3850f0a5ab2b9b38554f4355731399140e74c0172cc08a4",
+    "solver.py": "d866001f38274df83cec768976ce9de8e5dbd042f5f44ff01f7eadc587e69051",
+    "SAME_INPUT_CAPTURE.npz": "937185971b60c1044776067e88694420f5c8a1f8449be8e6fe5d768aefb6c6bd",
+    "LANDMARK128_RAW_V3.npz": "de6f3279d021f8a442cd5f6b51ac4948457045263eb334e6cade78b0380b6dff"
+  },
+  "usage": {
+    "wall_seconds": 0.8010250180086587,
+    "cpu_seconds": 0.800961469,
+    "peak_rss_kib": 395312
+  }
+}

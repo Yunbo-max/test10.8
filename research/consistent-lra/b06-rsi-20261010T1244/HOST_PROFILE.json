@@ -1,0 +1,18 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "os_cpu_count": 9,
+  "cgroup_v2_cpu_max": "800000 100000",
+  "cgroup_v2_memory_max": "8589934592",
+  "numerical_thread_environment": {
+    "OPENBLAS_NUM_THREADS": null,
+    "OMP_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null,
+    "NUMEXPR_NUM_THREADS": null
+  },
+  "usage": {
+    "wall_seconds": 0.005768179995357059,
+    "cpu_seconds": 0.004742854999999997,
+    "peak_rss_kib": 12800
+  }
+}

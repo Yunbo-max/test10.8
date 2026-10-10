@@ -1,0 +1,79 @@
+{
+  "batch_id": "continuation-16-b06-stable-projector-metric-20261010T1244",
+  "study_id": "B06-stable-projector-metric-audit",
+  "state": "continuation_pending",
+  "decision_workflow": "autonomous-rsi@7af53173bbd69726877ca04fb77b9466ef1b839d",
+  "command_transport": "rsi-simple-0.3.0-simple.3@97cdb752027748261c1d6a11980d10d7a46f2c79c2a00e975f0c08d2c8847893",
+  "scientific_result": {
+    "same_input_states": 148,
+    "same_input_old_max": 1.4600096599955427e-7,
+    "same_input_stable_max": 1.089502899609484e-12,
+    "same_input_threshold": 1e-10,
+    "same_input_pass_after_metric_repair": true,
+    "shared_recursive_prefixes": 256,
+    "shared_recursive_old_max": 1.6858739404357614e-7,
+    "shared_recursive_stable_max": 2.8170592112514775e-8,
+    "shared_recursive_over_1e8": 29,
+    "shared_recursive_pass": false,
+    "duplicate_legacy_prefixes": 256,
+    "duplicate_legacy_old_max": 1.6858739404357614e-7,
+    "duplicate_legacy_stable_max": 4.2366107950539296e-15,
+    "duplicate_legacy_pass": true,
+    "parent_checkpoint_pairs": 32,
+    "parent_stable_max": 2.4943901584177335e-8,
+    "parent_over_1e8": 5,
+    "old_formula_false_positive_pairs": 4,
+    "old_formula_false_negative_pairs": 5,
+    "selected_dense_controls_pass": true,
+    "independent_arithmetic_checks_passed": 7,
+    "stable_metric_regression_checks_passed": 5
+  },
+  "corrections_to_B05": {
+    "withdraw": [
+      "The reported 1.46e-7 same-input maximum established a strict one-step failure.",
+      "Two identical legacy fresh-SVD arms had a real 1.69e-7 projector drift."
+    ],
+    "retain": [
+      "A real recursive old/new difference remains and exceeds 1e-8.",
+      "The new solver had no meaningful local CPU advantage in B05.",
+      "B04 dense-projector audit correctly failed strict recursive parity."
+    ],
+    "mechanism": "stable one-step differences up to 1.09e-12 are recursively amplified to 2.82e-8; identical legacy arms agree to roundoff"
+  },
+  "metric_repair": {
+    "implementation": "projector_metric.py",
+    "formula": "sqrt(||V-Q(Q^T V)||_F^2 + ||Q-V(V^T Q)||_F^2) after reduced QR",
+    "time_complexity": "O(d k^2)",
+    "memory_complexity": "O(d k)",
+    "old_formula_forbidden_for_near_identity_parity": true
+  },
+  "budget": {
+    "attempts_used": 4,
+    "attempts_max": 5,
+    "succeeded": 4,
+    "failed": 0,
+    "command_wall_seconds": 88.89217094998457,
+    "measured_process_cpu_seconds_lower_bound": 88.772511414,
+    "peak_rss_kib": 695604,
+    "reservation_seconds": 0
+  },
+  "host": {
+    "cgroup_cpu": "800000 100000 (8 CPUs)",
+    "cgroup_memory_bytes": 8589934592,
+    "scientific_numerical_threads": 1
+  },
+  "disposition": "evaluation metric repaired; B05 mechanism partially corrected; recursive parity failure retained; Newton micro-optimization line retired",
+  "dependent_512_and_5000_runs_executed": false,
+  "independent_scientific_confirmation": false,
+  "novelty_or_paper_pass": false,
+  "next_action": "Review primary literature on Grassmann subspace tracking, incremental SVD, and certificate-preserving lazy refresh; formulate one falsifiable hypothesis that reduces exact query/refresh count rather than root arithmetic, then derive its certificate before code.",
+  "runner_handoff": {
+    "status": "completed",
+    "scoped_outcome": "repaired",
+    "reservation_seconds": 0,
+    "pending_processes": 0,
+    "authoritative_resume_source": "this checkpoint and persisted evidence; do not resume the completed B06 runner"
+  },
+  "writer_state": "release_after_persistence",
+  "pending_scientific_jobs": []
+}
