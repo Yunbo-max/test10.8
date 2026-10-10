@@ -1,0 +1,90 @@
+{
+  "checkpoints": [
+    512,
+    640,
+    768,
+    896,
+    1024
+  ],
+  "continuous_policy_executed": false,
+  "development_only": true,
+  "dimension": 2704,
+  "gram_build_cpu_seconds": 0.20205510899999984,
+  "gram_query_cpu_seconds": [
+    0.0161017160000001,
+    0.02068893099999991,
+    0.033553025000000014,
+    0.05026972300000021,
+    0.06553651099999991
+  ],
+  "input_load_wall_seconds_excluded": 0.04405595098796766,
+  "max_normalized_opt_error": 8.8967799487957e-16,
+  "new_method": false,
+  "numerical_pass": true,
+  "rank": 25,
+  "raw_artifact": {
+    "inventory": {
+      "checkpoints": {
+        "dtype": "int64",
+        "shape": [
+          5
+        ]
+      },
+      "energy": {
+        "dtype": "float64",
+        "shape": [
+          5
+        ]
+      },
+      "gram_opt": {
+        "dtype": "float64",
+        "shape": [
+          5
+        ]
+      },
+      "gram_query_cpu": {
+        "dtype": "float64",
+        "shape": [
+          5
+        ]
+      },
+      "normalized_error": {
+        "dtype": "float64",
+        "shape": [
+          5
+        ]
+      },
+      "svd_opt": {
+        "dtype": "float64",
+        "shape": [
+          5
+        ]
+      },
+      "svd_query_cpu": {
+        "dtype": "float64",
+        "shape": [
+          5
+        ]
+      }
+    },
+    "np_load_pass": true,
+    "sha256": "93bb33977d0f28fd0ed44b066b9c5c92fe1facf666fbd5f84b1fe4b5fe88c77b",
+    "size_bytes": 1643,
+    "zip_crc_pass": true
+  },
+  "rows": 1024,
+  "study": "B09-native1024-cached-gram-resource-calibration",
+  "svd_query_cpu_seconds": [
+    0.09268815999999991,
+    0.10010623900000004,
+    0.176104924,
+    0.2129160830000001,
+    0.3741066930000001
+  ],
+  "usage": {
+    "cpu_seconds": 1.5131940089999998,
+    "peak_rss_kib": 120540,
+    "wall_seconds": 1.4319184259948088
+  },
+  "whole_landmark5000": false
+}

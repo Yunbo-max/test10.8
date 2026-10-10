@@ -1,0 +1,23 @@
+{
+  "pre_attempt_rejections": [
+    {
+      "operation": "submit b09-frozen-audit",
+      "error": "Unknown task phase",
+      "cause": "unsupported phase label verification",
+      "repair": "resubmitted unchanged scientific task with supported diagnostic phase",
+      "scientific_attempt_created": false,
+      "reservation_seconds": 0
+    }
+  ],
+  "scientific_failures": [
+    {
+      "task_id": "b09-frozen-audit",
+      "exit_code": 1,
+      "meaning": "prospectively frozen V1 semantic audit failed loss_close in 12/12 runs",
+      "preserved": true,
+      "threshold_changed": false,
+      "repair": "V2 retained Gram OPT queries but restored B08 full-SVD endpoint on true refresh"
+    }
+  ]
+}
+
