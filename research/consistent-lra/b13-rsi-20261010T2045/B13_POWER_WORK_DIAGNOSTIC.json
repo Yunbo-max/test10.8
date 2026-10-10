@@ -1,0 +1,107 @@
+{
+  "counterexample": {
+    "delta": 0.2,
+    "epsilon": 0.05,
+    "max_fixed_tuple_abs_error": 5.551115123125783e-17,
+    "max_work_boundary_violation": 0.0,
+    "r0": 0.6,
+    "table": [
+      {
+        "a_gamma": 0.15555555555555556,
+        "error_at_work": 0.04498255093224923,
+        "error_before_work": 0.05495416666429043,
+        "gamma": 0.1,
+        "gamma_times_work": 1.5,
+        "work": 15
+      },
+      {
+        "a_gamma": 0.17894736842105266,
+        "error_at_work": 0.0462515769816606,
+        "error_before_work": 0.05099348520087876,
+        "gamma": 0.05,
+        "gamma_times_work": 1.5,
+        "work": 30
+      },
+      {
+        "a_gamma": 0.19183673469387755,
+        "error_at_work": 0.04880910148138451,
+        "error_before_work": 0.050719563368688325,
+        "gamma": 0.02,
+        "gamma_times_work": 1.48,
+        "work": 74
+      },
+      {
+        "a_gamma": 0.19595959595959597,
+        "error_at_work": 0.049985304315668166,
+        "error_before_work": 0.05094850061946854,
+        "gamma": 0.01,
+        "gamma_times_work": 1.47,
+        "work": 147
+      },
+      {
+        "a_gamma": 0.19798994974874373,
+        "error_at_work": 0.04962381012953254,
+        "error_before_work": 0.05009874637006484,
+        "gamma": 0.005,
+        "gamma_times_work": 1.475,
+        "work": 295
+      },
+      {
+        "a_gamma": 0.19919839679358717,
+        "error_at_work": 0.049975925396390064,
+        "error_before_work": 0.05016637180314032,
+        "gamma": 0.002,
+        "gamma_times_work": 1.472,
+        "work": 736
+      },
+      {
+        "a_gamma": 0.1995995995995996,
+        "error_at_work": 0.0499984086519224,
+        "error_before_work": 0.05009353894641155,
+        "gamma": 0.001,
+        "gamma_times_work": 1.472,
+        "work": 1472
+      },
+      {
+        "a_gamma": 0.199799899949975,
+        "error_at_work": 0.04996213750129874,
+        "error_before_work": 0.05000963667186464,
+        "gamma": 0.0005,
+        "gamma_times_work": 1.4725,
+        "work": 2945
+      },
+      {
+        "a_gamma": 0.19991998399679936,
+        "error_at_work": 0.049997364761266816,
+        "error_before_work": 0.05001636913363239,
+        "gamma": 0.0002,
+        "gamma_times_work": 1.4722000000000002,
+        "work": 7361
+      }
+    ]
+  },
+  "environment": {
+    "numeric_threads": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "numpy": "2.3.5",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+  },
+  "max_bound_violation": 2.220446049250313e-16,
+  "max_direct_abs_error": 6.562675750054758e-16,
+  "max_equality_abs_error": 8.881784197001252e-16,
+  "max_identity_abs_error": 6.562675750054758e-16,
+  "random_cases": 6000,
+  "scope": "finite algebra diagnostics only; not theorem proof, novelty, or native benchmark",
+  "seed": 20261010,
+  "status": "PASS",
+  "usage": {
+    "peak_rss_kib": 23904,
+    "process_cpu_seconds": 0.226746687,
+    "process_wall_seconds": 0.2279782659988996
+  },
+  "zero_lambda2_endpoint_cases": 4
+}

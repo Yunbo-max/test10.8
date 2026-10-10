@@ -1,0 +1,66 @@
+{
+  "round": "B13-RSI-frozen-power-model-20261010T2045",
+  "scientific_gate": "NO-GO_NEW_METHOD",
+  "theorem_status": "independent initial REVISE; exact revision closure PASS; novelty and paper gates not assessed",
+  "result": {
+    "frozen_model": "rank-one ordinary warm-start power iteration; exact matvec work; explicit projector output",
+    "exact_error_law": true,
+    "gap_dependent_work_envelope": true,
+    "zero_lambda2_branch": "m_min=1 for 0<epsilon<r",
+    "fixed_geometry_counterexample": "(Delta,D,k,r) fixed while required power matvecs diverge as internal eigengap tends to zero",
+    "new_method": false,
+    "native_landmark_executed": false,
+    "novelty_established": false,
+    "paper_ready": false
+  },
+  "finite_diagnostic": {
+    "script_sha256": "bb60638eb7f11a808473c8eaffc9fdaaa4b1a7b8270a3c08e5bb39b79bd3b209",
+    "result_sha256": "65e8b847cb4e2ac0943aa51bae2c18991cf36c2ea4e1f524ed2dc773113e3570",
+    "random_cases": 6000,
+    "zero_lambda2_endpoint_cases": 4,
+    "counterexample_gamma_range": [0.1, 0.0002],
+    "counterexample_work_range": [15, 7361],
+    "scope": "finite algebra diagnostics only; not proof, novelty, native benchmark, or unseen confirmation"
+  },
+  "independent_review": {
+    "initial_verdict": "REVISE",
+    "initial_report_sha256": "5e0f9952ebca0ae9b0bd3beb25df7420e42b65faf76a88a398a5d4162e616bda",
+    "revision_closure": "PASS",
+    "revision_report_sha256": "6de91f7754af5d6c53b2374c5225357107d87d0adf22d1f63c78830cf6dbb2ea",
+    "limitations": "not novelty, candidate-code, native5000, universal eigensolver, CPU lower bound, or paper approval"
+  },
+  "runner": {
+    "executor": "authorized current GPT host CPU; no Simple/ACP/SQLite supervisor claimed",
+    "attempts": 5,
+    "succeeded": 4,
+    "failed": 1,
+    "command_wall_seconds": 0.770031817,
+    "measured_process_cpu_seconds_lower_bound": 0.434892353,
+    "peak_rss_kib": 23904,
+    "reservation_seconds_at_handoff": 0,
+    "resource_limit": {"cpu_quota": 8, "memory_bytes": 8589934592, "numeric_threads": 1}
+  },
+  "github": {
+    "repository": "Yunbo-max/test10.8",
+    "path": "research/consistent-lra/b13-rsi-20261010T2045",
+    "expected_parent": "b78bce2de3e9fae8dc40c106810da1d1b7345f0d",
+    "commit_recorded_in_current_main_index_after_push": false
+  },
+  "library": {
+    "raw_evidence": {
+      "library_file_id": "libfile_fc744771a09081918406c88d523b104b",
+      "file_id": "file_000000007d9c81f690a258d72e30e463",
+      "file_name": "consistent_lra_b13_frozen_power_model_raw_evidence.zip",
+      "version": 0,
+      "sha256": "542f2b000580bf59b76d1e1e07d94be5c1511860ca1a07317075428748ed24da"
+    },
+    "report": {
+      "library_file_id": "libfile_e9d53094d1b48191993ec94f02db9092",
+      "file_id": "file_000000009d5c81f7a4bfa7d22bf54237",
+      "file_name": "REPORT_B13.zh-CN.md",
+      "version": 0,
+      "sha256": "1ca1c50ed4bc98d7ac77f34131d56056e81db867c8f083127a097910f5e78f80"
+    }
+  },
+  "next_action": "Step2/3: recover saved native512 exact-query states and test whether top-k internal eigengap/near-top hard-angle mass is measurable and discriminative; inspect primary warm-start block power/Lanczos theorem and code. Retire geometry-to-cost route if no certificate/refresh-count consequence survives collision audit. Do not run native5000 yet."
+}

@@ -1,0 +1,81 @@
+{
+  "study_id": "B13-RSI-frozen-power-model-20261010T2045",
+  "recorded_at_utc": "2026-10-10T19:52:12Z",
+  "executor": "current authorized GPT host CPU via bounded shell commands; no Simple/ACP/SQLite supervisor claimed",
+  "resource_observation": {
+    "cpu.max": "800000 100000",
+    "cpu_quota_cores": 8,
+    "memory.max": 8589934592,
+    "memory.current_at_probe": 133529600,
+    "pids.current_at_probe": 47,
+    "numeric_threads": 1
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "kind": "software_compile",
+      "command": "timeout 120s env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 /usr/bin/time -v python3 -m py_compile b13_power_work_diagnostic.py",
+      "exit_code": 127,
+      "tool_wall_seconds": 0.000031817,
+      "stderr": "env: '/usr/bin/time': No such file or directory",
+      "classification": "environment utility missing; no scientific result produced",
+      "repair": "use the shell's time -p facility while retaining the same timeout and thread caps"
+    },
+    {
+      "attempt": 2,
+      "kind": "software_compile_repair",
+      "command": "time -p timeout 120s env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 python3 -m py_compile b13_power_work_diagnostic.py",
+      "exit_code": 0,
+      "shell_real_seconds": 0.04,
+      "shell_user_seconds": 0.02,
+      "shell_sys_seconds": 0.01
+    },
+    {
+      "attempt": 3,
+      "kind": "finite_mathematical_diagnostic",
+      "command": "time -p timeout 120s env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 python3 b13_power_work_diagnostic.py",
+      "exit_code": 0,
+      "shell_real_seconds": 0.32,
+      "shell_user_seconds": 0.27,
+      "shell_sys_seconds": 0.05,
+      "tool_wall_seconds": 0.226544728,
+      "process_wall_seconds": 0.2081426820004708,
+      "process_cpu_seconds": 0.208145666,
+      "peak_rss_kib": 23864,
+      "output_sha256": "f83a5f423ac9b3cebb27c6960ab63279bb5ea36067bca4ea8a7f89a9463d014d",
+      "status": "PASS_SUPERSEDED_BY_EDGE_CASE_REVISION"
+    },
+    {
+      "attempt": 4,
+      "kind": "software_compile_after_independent_revision",
+      "command": "time -p timeout 120s env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 python3 -m py_compile b13_power_work_diagnostic.py",
+      "exit_code": 0,
+      "shell_real_seconds": 0.06,
+      "shell_user_seconds": 0.04,
+      "shell_sys_seconds": 0.01
+    },
+    {
+      "attempt": 5,
+      "kind": "finite_mathematical_diagnostic_after_independent_revision",
+      "command": "time -p timeout 120s env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 python3 b13_power_work_diagnostic.py",
+      "exit_code": 0,
+      "shell_real_seconds": 0.35,
+      "shell_user_seconds": 0.31,
+      "shell_sys_seconds": 0.03,
+      "tool_wall_seconds": 0.25321568,
+      "process_wall_seconds": 0.2279782659988996,
+      "process_cpu_seconds": 0.226746687,
+      "peak_rss_kib": 23904,
+      "output_sha256": "65e8b847cb4e2ac0943aa51bae2c18991cf36c2ea4e1f524ed2dc773113e3570",
+      "status": "PASS"
+    }
+  ],
+  "attempts_total": 5,
+  "succeeded": 4,
+  "failed": 1,
+  "conservative_command_wall_seconds": 0.770031817,
+  "measured_process_cpu_seconds_lower_bound": 0.434892353,
+  "peak_rss_kib": 23904,
+  "reservation_seconds_at_handoff": 0,
+  "limitations": "Compilation CPU and the failed utility lookup are excluded from the measured process-CPU lower bound. Both executed diagnostics are charged; the first result is retained as superseded. Finite diagnostics are not proof or benchmark evidence."
+}

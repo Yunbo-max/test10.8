@@ -1,0 +1,25 @@
+{
+  "study_id": "B13-RSI-frozen-power-model-20261010T2045",
+  "overall_project_status": "continuation_pending",
+  "scientific_gate": "NO-GO_NEW_METHOD",
+  "math_review": {
+    "initial": "REVISE",
+    "revision_closure": "PASS"
+  },
+  "claim_scope": "project-specific frozen ordinary-power-iteration work boundary",
+  "new_method": false,
+  "novelty_established": false,
+  "native5000_executed": false,
+  "paper_ready": false,
+  "attempts": 5,
+  "succeeded": 4,
+  "failed": 1,
+  "command_wall_seconds": 0.770031817,
+  "measured_process_cpu_seconds_lower_bound": 0.434892353,
+  "peak_rss_kib": 23904,
+  "reservation_seconds": 0,
+  "pending_run_ids": [],
+  "live_scientific_processes_at_handoff": 0,
+  "writer_state": "released_after_persistence",
+  "next_action": "Step2/3: recover saved native512 query states, measure internal top-k gap and near-top hard-angle mass, and compare against primary warm-start block power/Lanczos theory and implementations. Continue only if a certificate/refresh-count consequence survives collision audit; otherwise retire geometry-to-cost coupling. Do not run native5000 yet."
+}

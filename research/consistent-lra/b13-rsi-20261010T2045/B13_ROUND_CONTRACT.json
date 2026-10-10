@@ -1,0 +1,30 @@
+{
+  "study_id": "B13-RSI-frozen-power-model-20261010T2045",
+  "workflow": "autonomous-rsi@7af53173bbd69726877ca04fb77b9466ef1b839d",
+  "question": "After freezing retained state, primitive operation, precision and output, can the B12 geometry tuple control endpoint-construction work?",
+  "contribution_type": "theory_diagnostic",
+  "frozen_model": {
+    "state": "one unit warm-start vector q",
+    "primitive": "exact G-times-vector",
+    "precision": "exact real arithmetic theorem; float64 diagnostics",
+    "output": "explicit rank-one projector",
+    "algorithm": "ordinary normalized power iteration",
+    "work_unit": "one matrix-vector product"
+  },
+  "prediction": "Adding the relative eigengap yields an exact/sufficient work law; fixing only Delta,D,k,r still permits unbounded power work.",
+  "falsifiers": [
+    "An algebraic error in the exact error law or counterexample invariants",
+    "A fixed-tuple uniform finite work bound in the frozen power model",
+    "Primary prior work showing the exact project-specific claim is already a named result, in which case retain only as attributed control"
+  ],
+  "resource_limits": {
+    "max_attempts": 32,
+    "max_total_command_wall_seconds": 600,
+    "max_single_command_seconds": 120,
+    "max_cpu": 8,
+    "max_memory_bytes": 8589934592,
+    "numeric_threads": 1
+  },
+  "code_gate": "NO-GO pending independent math review and collision status; no candidate implementation",
+  "native5000": "not authorized by this diagnostic because it cannot discriminate the theorem"
+}
