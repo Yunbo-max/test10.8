@@ -1,0 +1,63 @@
+{
+  "batch": "B10",
+  "date": "2026-10-10",
+  "status": "continuation_pending",
+  "scientific_gate": "no_go_new_method_code",
+  "outcome": "candidate_pool_shortfall_and_direct_collision",
+  "candidate_pool": {
+    "draft_ids": 20,
+    "field_complete_cards": 20,
+    "provisional_top15_invalidated": true,
+    "unresolved_families_after_dedup": 2,
+    "valid_top15": false
+  },
+  "direct_collision": {
+    "candidate": "C10",
+    "paper": "Consistent PCA and Spectral Clustering",
+    "venue": "AISTATS 2026 / PMLR 300",
+    "official_repo": "sato9hara/consistent-pca-sc",
+    "commit": "2d04e05e2370d68d3cb2e0f06fb964d7ab36042f",
+    "file": "packages/ConsistentML/src/ConsistentML/PCA.py",
+    "file_blob_sha": "461aa8eb3dc2429c2fe44554e0e596cbe5e46e0e",
+    "matched_operation": "top-k eigenspace of covariance/Gram plus scaled previous projector",
+    "disposition": "attributed_prior_art_control"
+  },
+  "independent_review": {
+    "initial": "FAIL_NO_GO",
+    "revision_fidelity": "PASS",
+    "code_gate_after_revision": "FAIL_NO_GO"
+  },
+  "runner": {
+    "source_digest": "97cdb752027748261c1d6a11980d10d7a46f2c79c2a00e975f0c08d2c8847893",
+    "attempts_used": 2,
+    "successful_attempts": 2,
+    "failed_attempts": 0,
+    "zero_attempt_budget_fit_event": true,
+    "command_wall_seconds": 0.5817929409968201,
+    "diagnostic_cpu_seconds": 0.8311121419999999,
+    "peak_rss_kib": 24264,
+    "reservation_seconds_final": 0,
+    "status": "completed"
+  },
+  "finite_check": {
+    "random_cases": 200,
+    "passed": true,
+    "wrong_invariant_cluster_zero_residual_examples": 200,
+    "scope": "finite diagnostic only, not proof or novelty evidence"
+  },
+  "evidence_sha256": {
+    "candidate_draft": "c945cae0607bd824be488c10253026a0ca5d4ac41883a990ef2d476e4205888a",
+    "independent_initial_review": "0e74fd14a31302048db55bcdfbbcf7ebe0b5802832ff7b3adb43acfad84b8358",
+    "revised_decision": "b9e0ef65a52b666496510e9780cc7ba524ce5974cfd7d3c8b45f08f114dbd5ec",
+    "independent_revision_check": "8fbf0e6227be2bce047d36dc9aa6e6f6ade2dd073d7dd684c79c6316e1638dd4",
+    "identity_check": "48906396167ef87bbd17e29b8d8fd47e242ff1282cb19f478e9e118cf4ee6faf",
+    "identity_driver": "9d3596ee36bc9a2ce9ff02a419411729061e616e4be87565e57549ba0091ad2e",
+    "identity_receipt": "e510126c14c1e6922ad6389b2c666c0224d88afb30ac3addff3ba1a562bb0364",
+    "compile_receipt": "8f7fdcb7451a996e539e1cd8988846b72b80805e241bb902eb217ef667699331"
+  },
+  "step7": {
+    "route": "literature_and_math",
+    "code_allowed": false,
+    "next": "equation-level collision audit for C12/C13; freeze C16 computation graph; specify or retire C20 certificate; rebuild distinct pool and independently review"
+  }
+}
