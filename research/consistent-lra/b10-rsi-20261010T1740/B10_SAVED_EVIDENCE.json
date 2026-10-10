@@ -4,6 +4,26 @@
   "status": "continuation_pending",
   "scientific_gate": "no_go_new_method_code",
   "outcome": "candidate_pool_shortfall_and_direct_collision",
+  "publication": {
+    "github_path": "research/consistent-lra/b10-rsi-20261010T1740",
+    "library_raw_archive": {
+      "library_file_id": "libfile_6baa2f5818d8819190b7384248ae9c99",
+      "file_id": "file_0000000000ac8209ae9bfceda0d38497",
+      "file_name": "consistent_lra_b10_candidate_pool_audit_raw_evidence.zip",
+      "version": 0,
+      "sha256": "cb9e2f900dcb3c29a5d0672144734d975f932cf3cb7db9fa06fa22cfea4923a4",
+      "size_bytes": 43939,
+      "zip_crc_pass": true
+    },
+    "library_report": {
+      "library_file_id": "libfile_073eae5a76608191b69aac8188470264",
+      "file_id": "file_00000000304082098e4beb4f72786e94",
+      "file_name": "REPORT_B10.zh-CN.md",
+      "version": 0,
+      "sha256": "f6ae159cf900ae26bfa77414f45410a655d8b7bd5b6664af0a393aa8dcd37e99",
+      "size_bytes": 4001
+    }
+  },
   "candidate_pool": {
     "draft_ids": 20,
     "field_complete_cards": 20,
