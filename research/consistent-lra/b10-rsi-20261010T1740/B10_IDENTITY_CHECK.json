@@ -1,0 +1,29 @@
+{
+  "cpu_seconds": 0.8311121419999999,
+  "max_rss_kib": 24264,
+  "maxima": {
+    "C20_safe_bound_violation": 0.0,
+    "D1_rank_one_residual_abs": 1.2951338253391917e-13,
+    "D2_rr_optimality_violation": 0.0,
+    "D3_energy_formula_abs": 1.4210854715202004e-14,
+    "D3_recourse_formula_abs": 1.4432899320127035e-15,
+    "D4_energy_monotonicity_violation": 2.7000623958883807e-13,
+    "D4_overlap_monotonicity_violation": 0.0
+  },
+  "passed": true,
+  "random_cases": 200,
+  "schema": "b10-candidate-identity-check-v1",
+  "scope_note": "Finite checks only; does not prove the statements or establish novelty.",
+  "seed": 20261010,
+  "tolerances": {
+    "C20_safe_bound_violation": 5e-10,
+    "D1_rank_one_residual_abs": 5e-10,
+    "D2_rr_optimality_violation": 5e-10,
+    "D3_energy_formula_abs": 5e-10,
+    "D3_recourse_formula_abs": 5e-10,
+    "D4_energy_monotonicity_violation": 5e-09,
+    "D4_overlap_monotonicity_violation": 5e-09
+  },
+  "wall_seconds": 0.41334107499278616,
+  "wrong_invariant_cluster_zero_residual_examples": 200
+}
