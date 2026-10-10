@@ -1,0 +1,35 @@
+{
+  "submission_id": "b12-boundary-r0",
+  "idea": "b12-geometry-cost-boundary",
+  "revision": 1,
+  "tasks": [
+    {
+      "task_id": "b12-static-check",
+      "argv": ["python3", "-m", "py_compile", "verify_b12_boundary.py"],
+      "phase": "diagnostic",
+      "purpose": "Compile the frozen B12 finite diagnostic",
+      "timeout_seconds": 20,
+      "cwd": ".",
+      "depends_on": [],
+      "input_refs": [
+        {"path": "verify_b12_boundary.py", "sha256": "d093d5eba597cc00202b5e29c042c90255b72cdf46a00b6082fc81ecddcc850b"},
+        {"path": "B12_GEOMETRY_COST_BOUNDARY.md", "sha256": "220a20f3c545e19495f212fc626022f325c9f51ffbb9d3553dacb3eaa28a6bde"}
+      ],
+      "outputs": []
+    },
+    {
+      "task_id": "b12-boundary-check",
+      "argv": ["python3", "verify_b12_boundary.py"],
+      "phase": "diagnostic",
+      "purpose": "Check the necessary-recourse inequality and its exact two-dimensional sharpness family on deterministic finite cases",
+      "timeout_seconds": 30,
+      "cwd": ".",
+      "depends_on": ["b12-static-check"],
+      "input_refs": [
+        {"path": "verify_b12_boundary.py", "sha256": "d093d5eba597cc00202b5e29c042c90255b72cdf46a00b6082fc81ecddcc850b"},
+        {"path": "B12_GEOMETRY_COST_BOUNDARY.md", "sha256": "220a20f3c545e19495f212fc626022f325c9f51ffbb9d3553dacb3eaa28a6bde"}
+      ],
+      "outputs": ["B12_BOUNDARY_CHECK.json"]
+    }
+  ]
+}

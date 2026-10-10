@@ -1,0 +1,16 @@
+{
+  "status": "bounded_round_complete_overall_research_continuation_pending",
+  "writer_state": "preparing_github_and_main_index",
+  "attempts": 6,
+  "succeeded": 5,
+  "failed": 1,
+  "command_wall_seconds": 1.8897181709999132,
+  "measured_process_cpu_seconds_lower_bound": 1.316295655,
+  "peak_rss_kib": 24064,
+  "reservation_seconds": 0,
+  "full_rsi_supervisor_deployed": false,
+  "whole_benchmark_complete": false,
+  "novelty_established": false,
+  "paper_ready": false,
+  "new_method_authorized": false
+}

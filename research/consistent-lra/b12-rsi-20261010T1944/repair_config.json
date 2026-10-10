@@ -1,0 +1,11 @@
+{
+  "idea": "b12-geometry-cost-boundary-repair",
+  "goal": "Recheck the independently repaired B12 theorem diagnostic after a numerical forced-intersection tolerance fix; preserve the prior failed receipt",
+  "limits": {
+    "max_attempts": 4,
+    "max_command_seconds": 120,
+    "deadline_seconds": 600,
+    "max_concurrency": 1
+  },
+  "agent_command": null
+}

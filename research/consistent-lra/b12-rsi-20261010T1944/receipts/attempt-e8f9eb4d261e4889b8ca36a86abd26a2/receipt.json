@@ -1,0 +1,46 @@
+{
+  "attempt_id": "attempt-e8f9eb4d261e4889b8ca36a86abd26a2",
+  "command_identity": {
+    "boot_id": "54f3ae8f-6c23-44aa-a39c-035ecb2733d1",
+    "pid": 2581,
+    "start_ticks": 513159
+  },
+  "contract_sha256": "735aa72be8553eb3f6fc0e7ce7fb494a96eabdeaf1cf81fc0c3b1e8f80b875e1",
+  "elapsed_seconds": 0.030851354999867908,
+  "error": null,
+  "exit_code": 0,
+  "finished_at": "2026-10-10T18:59:07.997479+00:00",
+  "input_refs": [
+    {
+      "path": "verify_b12_boundary.py",
+      "sha256": "7bf402604c51e78f9cd1f2914377f83155ad5a4aa2223679c310bbd80a03ee21"
+    },
+    {
+      "path": "B12_GEOMETRY_COST_BOUNDARY.md",
+      "sha256": "b1a504390fd01912ad37bfb797a7d63cb3857da025cb9ff053c0fb7af7e22e04"
+    },
+    {
+      "path": "INDEPENDENT_B12_VERIFICATION.md",
+      "sha256": "3de38d6a509d476614822b830bd3e6f8a79118967693acc4ac557da1abaed2f3"
+    }
+  ],
+  "output_refs": [],
+  "root": "/workspace/scratch/bb9f262965cf/b12_repair_window",
+  "schema_version": 1,
+  "started_at": "2026-10-10T18:59:07.966628+00:00",
+  "status": "succeeded",
+  "stderr_ref": {
+    "path": ".research-autopilot/runner/attempts/attempt-e8f9eb4d261e4889b8ca36a86abd26a2/stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout_ref": {
+    "path": ".research-autopilot/runner/attempts/attempt-e8f9eb4d261e4889b8ca36a86abd26a2/stdout.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "task_id": "b12-repair-static",
+  "worker_identity": {
+    "boot_id": "54f3ae8f-6c23-44aa-a39c-035ecb2733d1",
+    "pid": 2580,
+    "start_ticks": 513154
+  }
+}

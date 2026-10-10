@@ -1,0 +1,52 @@
+{
+  "round": "B12-RSI-geometry-cost-boundary-20261010T1944",
+  "search_date": "2026-10-10",
+  "purpose": "Bounded collision and model audit for a theorem linking certified repair deficit, projector recourse, and endpoint construction cost",
+  "search_runs": [
+    {
+      "provider": "ChatGPT web system1",
+      "queries": [
+        "site:arxiv.org PCA excess risk eigengap projector Frobenius trace inequality principal subspace",
+        "site:proceedings.mlr.press online PCA regret rank one update subspace tracking computational complexity",
+        "site:epubs.siam.org principal angles projectors nuclear norm trace eigenvalue spread inequality",
+        "site:arxiv.org dynamic PCA subspace tracking lower bound computational model rank one updates"
+      ],
+      "selected_primary_results": [
+        "https://arxiv.org/abs/1211.0373",
+        "https://proceedings.mlr.press/v22/vu12.html"
+      ],
+      "coverage_note": "Broad query was noisy and did not establish novelty or saturation. It located the relevant variational sin-Theta/curvature theorem family."
+    },
+    {
+      "provider": "ChatGPT web system2",
+      "queries": [
+        "Vu Lei 2013 sparse principal subspace estimation curvature lemma trace projector eigengap PDF",
+        "Koltchinskii Lounici spectral projectors excess risk PCA projector distance inequality PDF",
+        "Warmuth Kuzmin Online PCA algorithms PDF projector trace loss",
+        "Balsubramani Dasgupta Freund The fast convergence of incremental PCA PDF"
+      ],
+      "selected_primary_results": [
+        "https://arxiv.org/abs/1211.0373",
+        "https://jmlr.org/papers/v17/15-320.html",
+        "https://papers.nips.cc/paper_files/paper/2013/hash/c913303f392ffc643f7240b180602652-Abstract.html",
+        "https://jmlr.org/papers/v9/warmuth08a.html"
+      ],
+      "coverage_note": "Targeted query supports bounded positioning around projector objectives, online PCA, and incremental computation. It is not an exhaustive originality audit and did not locate a source that converts the four output scalars alone into CPU cost."
+    }
+  ],
+  "author_code": {
+    "repository": "samsonzhou/consistent-LRA",
+    "commit": "d607c4f6467216c470d1e3b93989d44d5fcdec97",
+    "tree_verified": true,
+    "inspected_file": "consistent-lra-landmark.py",
+    "blob": "6da3eec62de50b5b37c36b26ae725549e354a738",
+    "observation": "The released Landmark script calls randomized_svd at norm-growth refreshes and records wall time and cumulative recourse; it does not specify a computational oracle model or prove a cost-recourse coupling."
+  },
+  "benchmark_reuse": {
+    "source": "B01-B11 retained evidence",
+    "landmark_protocol": "raw first 5000 rows x 2704 columns, k=25, no standardization, literal prefixes 1..4999",
+    "new_execution": false,
+    "reason": "The current uncertainty is formal identifiability of computational cost; without a frozen computational model, a native endpoint comparison would not discriminate the theorem question."
+  },
+  "impact": "S2 evidence obligation: the prior triple-coupling target is split into a proved geometric lower bound and a still-missing explicit operation/oracle model. No new method candidate or novelty decision follows."
+}

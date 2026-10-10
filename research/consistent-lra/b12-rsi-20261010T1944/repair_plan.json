@@ -1,0 +1,37 @@
+{
+  "submission_id": "b12-boundary-r2",
+  "idea": "b12-geometry-cost-boundary-repair",
+  "revision": 1,
+  "tasks": [
+    {
+      "task_id": "b12-repair-static",
+      "argv": ["python3", "-m", "py_compile", "verify_b12_boundary.py"],
+      "phase": "diagnostic",
+      "purpose": "Compile the forced-intersection numerical repair",
+      "timeout_seconds": 20,
+      "cwd": ".",
+      "depends_on": [],
+      "input_refs": [
+        {"path": "verify_b12_boundary.py", "sha256": "7bf402604c51e78f9cd1f2914377f83155ad5a4aa2223679c310bbd80a03ee21"},
+        {"path": "B12_GEOMETRY_COST_BOUNDARY.md", "sha256": "b1a504390fd01912ad37bfb797a7d63cb3857da025cb9ff053c0fb7af7e22e04"},
+        {"path": "INDEPENDENT_B12_VERIFICATION.md", "sha256": "3de38d6a509d476614822b830bd3e6f8a79118967693acc4ac557da1abaed2f3"}
+      ],
+      "outputs": []
+    },
+    {
+      "task_id": "b12-repair-boundary-check",
+      "argv": ["python3", "verify_b12_boundary.py"],
+      "phase": "diagnostic",
+      "purpose": "Recheck random inequality, PSD sharpness, flat/zero-deficit branches, and principal-angle identities after the one numerical repair",
+      "timeout_seconds": 30,
+      "cwd": ".",
+      "depends_on": ["b12-repair-static"],
+      "input_refs": [
+        {"path": "verify_b12_boundary.py", "sha256": "7bf402604c51e78f9cd1f2914377f83155ad5a4aa2223679c310bbd80a03ee21"},
+        {"path": "B12_GEOMETRY_COST_BOUNDARY.md", "sha256": "b1a504390fd01912ad37bfb797a7d63cb3857da025cb9ff053c0fb7af7e22e04"},
+        {"path": "INDEPENDENT_B12_VERIFICATION.md", "sha256": "3de38d6a509d476614822b830bd3e6f8a79118967693acc4ac557da1abaed2f3"}
+      ],
+      "outputs": ["B12_BOUNDARY_CHECK.json"]
+    }
+  ]
+}

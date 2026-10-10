@@ -1,0 +1,40 @@
+{
+  "response_id": "b12-independent-review-repair-r1",
+  "request_id": "decision-e1a0974c89f74f819333627580918296",
+  "idea": "b12-geometry-cost-boundary",
+  "revision": 1,
+  "goal_contract_version": 0,
+  "reason": "Independent review found a Delta=0 proof branch error, an undefined D_t=0 cumulative term, a non-PSD sharpness representative, and overbroad CPU wording. The theorem text now separates Delta=0, omits flat-spectrum quotients, uses G=diag(D,0), and limits the CPU proposition to unrestricted implementations. The diagnostic adds edge and principal-angle identity checks while preserving the original receipts.",
+  "tasks": [
+    {
+      "task_id": "b12-static-check-r1",
+      "argv": ["python3", "-m", "py_compile", "verify_b12_boundary.py"],
+      "phase": "diagnostic",
+      "purpose": "Compile the independently repaired B12 finite diagnostic",
+      "timeout_seconds": 20,
+      "cwd": ".",
+      "depends_on": [],
+      "input_refs": [
+        {"path": "verify_b12_boundary.py", "sha256": "5a8f2f9798ddfe1792b75ff2952b5ad10a87d38afae371c8ad89c8cc699906a7"},
+        {"path": "B12_GEOMETRY_COST_BOUNDARY.md", "sha256": "b1a504390fd01912ad37bfb797a7d63cb3857da025cb9ff053c0fb7af7e22e04"},
+        {"path": "INDEPENDENT_B12_VERIFICATION.md", "sha256": "3de38d6a509d476614822b830bd3e6f8a79118967693acc4ac557da1abaed2f3"}
+      ],
+      "outputs": []
+    },
+    {
+      "task_id": "b12-boundary-check-r1",
+      "argv": ["python3", "verify_b12_boundary.py"],
+      "phase": "diagnostic",
+      "purpose": "Recheck the repaired inequality, PSD sharpness, Delta=0 and D=0 branches, and projector principal-angle identities",
+      "timeout_seconds": 30,
+      "cwd": ".",
+      "depends_on": ["b12-static-check-r1"],
+      "input_refs": [
+        {"path": "verify_b12_boundary.py", "sha256": "5a8f2f9798ddfe1792b75ff2952b5ad10a87d38afae371c8ad89c8cc699906a7"},
+        {"path": "B12_GEOMETRY_COST_BOUNDARY.md", "sha256": "b1a504390fd01912ad37bfb797a7d63cb3857da025cb9ff053c0fb7af7e22e04"},
+        {"path": "INDEPENDENT_B12_VERIFICATION.md", "sha256": "3de38d6a509d476614822b830bd3e6f8a79118967693acc4ac557da1abaed2f3"}
+      ],
+      "outputs": ["B12_BOUNDARY_CHECK.json"]
+    }
+  ]
+}

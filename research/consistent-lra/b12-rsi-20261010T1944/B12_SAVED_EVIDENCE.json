@@ -1,0 +1,70 @@
+{
+  "round": "B12-RSI-geometry-cost-boundary-20261010T1944",
+  "scientific_gate": "NO-GO_NEW_METHOD",
+  "theorem_status": "independent revision closure PASS; novelty and paper gate not assessed",
+  "result": {
+    "necessary_recourse_bound": "r(P,Q) >= Delta^2/(k D^2) for D>0; flat-spectrum feasible terms contribute zero",
+    "constant_sharp": true,
+    "sharpness_scope": "k=1,d=2 PSD construction",
+    "cpu_coupling": "not identifiable from (Delta,D,k,r) across unrestricted implementations; explicit computational model required",
+    "new_method": false,
+    "native_landmark_executed": false,
+    "novelty_established": false,
+    "paper_ready": false
+  },
+  "finite_diagnostic": {
+    "final_script_sha256": "7bf402604c51e78f9cd1f2914377f83155ad5a4aa2223679c310bbd80a03ee21",
+    "final_result_sha256": "88938e4268de7444f67f5ed95370adf3baee0e61dbe39829dbf08aa56659ba96",
+    "random_inequality_cases": 6000,
+    "sharpness_cases": 200,
+    "principal_angle_identity_cases": 600,
+    "all_final_pass_fields": true,
+    "scope": "finite algebra diagnostic only; not proof, novelty, native benchmark, or unseen confirmation"
+  },
+  "preserved_failure": {
+    "failed_result_sha256": "e7ec2773361cd60a74b76cf31b73f470dbbff286d1291e788833a268fe6afc48",
+    "failed_script_sha256": "5a8f2f9798ddfe1792b75ff2952b5ad10a87d38afae371c8ad89c8cc699906a7",
+    "reason": "forced-intersection cosine roundoff amplified by sqrt(1-cos^2); repaired once by snapping |1-cos|<=1e-12 to the exact zero-angle branch"
+  },
+  "independent_review": {
+    "initial_verdict": "REVISE",
+    "initial_report_sha256": "3de38d6a509d476614822b830bd3e6f8a79118967693acc4ac557da1abaed2f3",
+    "revision_closure": "PASS",
+    "revision_report_sha256": "357d69e935e6f966955723fcbcfecd477a1b8cf5c9fe899706274623d28877ce",
+    "limitations": "not originality, paper, code design, or native experiment approval"
+  },
+  "runner": {
+    "installed_release": "Simple .6",
+    "source_digest": "2d2b3f006f7e444c97762224d87b71a6bb4dd5d08632861c86e1cb3fb5a25f66",
+    "full_rsi_supervisor": false,
+    "historical_simple_3_reused": false,
+    "attempts": 6,
+    "succeeded": 5,
+    "failed": 1,
+    "command_wall_seconds": 1.8897181709999132,
+    "measured_process_cpu_seconds_lower_bound": 1.316295655,
+    "peak_rss_kib": 24064,
+    "reservation_seconds_at_handoff": 0,
+    "resource_limit": {"cpu_quota": 8, "memory_bytes": 8589934592, "numeric_threads": 1}
+  },
+  "library": {
+    "raw_evidence": {
+      "library_file_id": "libfile_79adf4278c78819193aec662d763e81f",
+      "file_name": "consistent_lra_b12_geometry_cost_boundary_raw_evidence.zip",
+      "version": 2,
+      "sha256": "2746ac21d76f1cf35d11888af6bfb3e8d912849331687216b9fd729fd5026173"
+    },
+    "report": {
+      "library_file_id": "libfile_cbcb1e21d3ec8191baec4750176e8c30",
+      "file_name": "REPORT_B12.zh-CN.md",
+      "sha256": "1ae4f28b54237399c763fb854dd880300179364cb2305f511c9172e28ea21bdf"
+    }
+  },
+  "github": {
+    "repository": "Yunbo-max/test10.8",
+    "path": "research/consistent-lra/b12-rsi-20261010T1944",
+    "expected_parent": "bfe2124f3a2e4887298d47fe353ebb01145e33fd",
+    "commit_recorded_in_current_main_index_after_push": true
+  },
+  "next_action": "Step2/3: inspect primary dynamic-eigenproblem, online-PCA and subspace-tracking complexity models; freeze retained state, allowed primitives, precision, output representation and stream assumptions before attempting an amortized work theorem. Do not count certificates/wrappers/policies as methods or run native5000 yet."
+}

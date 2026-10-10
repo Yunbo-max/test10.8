@@ -1,0 +1,11 @@
+{
+  "idea": "b12-geometry-cost-boundary",
+  "goal": "Verify the finite consequences and sharpness construction for the B12 necessary-recourse inequality; no new method or benchmark authorization",
+  "limits": {
+    "max_attempts": 8,
+    "max_command_seconds": 120,
+    "deadline_seconds": 1200,
+    "max_concurrency": 1
+  },
+  "agent_command": null
+}

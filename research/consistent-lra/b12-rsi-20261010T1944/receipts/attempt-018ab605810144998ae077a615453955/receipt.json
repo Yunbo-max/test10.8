@@ -1,0 +1,47 @@
+{
+  "attempt_id": "attempt-018ab605810144998ae077a615453955",
+  "command_identity": {
+    "boot_id": "54f3ae8f-6c23-44aa-a39c-035ecb2733d1",
+    "pid": 1407,
+    "start_ticks": 461711
+  },
+  "contract_sha256": "bb4b75aba79c2f11da3dd0a6d0351f4d1ede0f8150d78c837dff27757ab01bba",
+  "elapsed_seconds": 0.5226201470004526,
+  "error": null,
+  "exit_code": 0,
+  "finished_at": "2026-10-10T18:50:34.001792+00:00",
+  "input_refs": [
+    {
+      "path": "verify_b12_boundary.py",
+      "sha256": "d093d5eba597cc00202b5e29c042c90255b72cdf46a00b6082fc81ecddcc850b"
+    },
+    {
+      "path": "B12_GEOMETRY_COST_BOUNDARY.md",
+      "sha256": "220a20f3c545e19495f212fc626022f325c9f51ffbb9d3553dacb3eaa28a6bde"
+    }
+  ],
+  "output_refs": [
+    {
+      "path": "B12_BOUNDARY_CHECK.json",
+      "sha256": "3d041073773266caf6ea66ca90162d58613833640b373d285e7a361436435eea"
+    }
+  ],
+  "root": "/workspace/scratch/bb9f262965cf/b12_work",
+  "schema_version": 1,
+  "started_at": "2026-10-10T18:50:33.479174+00:00",
+  "status": "succeeded",
+  "stderr_ref": {
+    "path": ".research-autopilot/runner/attempts/attempt-018ab605810144998ae077a615453955/stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout_ref": {
+    "path": ".research-autopilot/runner/attempts/attempt-018ab605810144998ae077a615453955/stdout.txt",
+    "sha256": "3d041073773266caf6ea66ca90162d58613833640b373d285e7a361436435eea"
+  },
+  "task_id": "b12-boundary-check",
+  "worker_identity": {
+    "boot_id": "54f3ae8f-6c23-44aa-a39c-035ecb2733d1",
+    "pid": 1406,
+    "start_ticks": 461704
+  }
+}
